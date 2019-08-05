@@ -75,7 +75,7 @@ import animated from 'animate.css'
  
 <style scoped lang="scss">
 .chinese-index{
-    
+
 }
     .content{
     	height: 2000px;
