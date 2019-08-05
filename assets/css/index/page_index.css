@@ -1,0 +1,81 @@
+.homepage-hero-module,
+  .video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .video-container .poster img,
+  .video-container video {
+    z-index: 0;
+    position: absolute;
+  }
+
+  .video-container .filter {
+    z-index: 1;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+ .title {
+    height: 60%;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    display: table;  
+  }
+.title p {
+   color: white;
+   font-size:4.5vw;
+   display: table-cell;  
+   vertical-align: middle;
+   
+ }
+.but-box div {
+  width: 50%;
+  height: 50%;
+  float: left;
+  font-size: 3vw;
+  text-align: center;
+}
+.but-box div :hover{
+  background-color: beige;
+}
+ .chinese {
+  width: 12vw;
+   float: right;
+   margin-right: 150px;
+   border: 3px solid white;
+   border-radius:40px 40px 40px 40px;
+ }
+ .english {
+  width: 12vw;
+  float: left;
+   margin-left: 150px;
+   border: 3px solid white;
+   border-radius:40px 40px 40px 40px;
+}
+.bounceInDown{
+	animation: bounceInDown 5s ease-in;
+ }
+.bounceInLeft{
+	animation: bounceInLeft 10s ease-in;
+ }
+ .bounceInRight{
+	animation: bounceInRight 10s ease-in;
+ }
+
+a:link {
+  text-decoration:none;
+  color:white;
+}
+a:visited {
+  text-decoration:none;
+  color:white;
+}
+a:hover {
+  color:#6ec1e2;
+}
+a:active {
+  color:rgb(58, 186, 245);
+}
