@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import Header from '../pages/header/header.vue'
-import Footer from '../pages/footer/footer.vue'
+import Header from '../components/public/header.vue'
+import Footer from '../components/public/footer.vue'
 export default {
     components:{
         Header,
