@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div style="text-align: center">
-            我是底部
+            footer
         </div>
 
     </div>
@@ -15,9 +15,8 @@ export default {
 
 <style>
 .footer{
-    background: blue;
-    height: 58px;
-    margin-top: 2px
+    background:rgb(137, 129, 241);
+    height: 60px;
 }
 
 </style>
