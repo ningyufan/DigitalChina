@@ -1,17 +1,34 @@
 <template>
-    <div class="header " id="header" :class="{fixed: isFixed}">
-        <div class=" fixed-width clearfix">
-            <div class="header-title fl" style="text-align: center">header</div>
+<div class="header_one">
+    <div class="header " id="header" >
+		<div class="logo">
+			<a href="#">
+				Digital <img src="../../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
+			</a>
         </div>
+        <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
+            <div class="header-title fl" style="text-align: center">
+				 <header-nav/>
+			</div>
+        </div>
+		<Carousel :items = "items"/>
     </div>
+</div>
 </template>
  
 <script>
+import HeaderNav from './nav'
+import Carousel from './carousel'
 import animated from 'animate.css'
 	export default {
+		props:['items'],
+		components:{
+			HeaderNav,
+			Carousel
+		},
 	  data () {
 	    return {
-	    	isFixed: 0
+			isFixed: 0,
 	    }
 	  },
 	  methods: {
@@ -64,19 +81,7 @@ import animated from 'animate.css'
 </script>
  
 <style scoped lang="scss">
-.header{
-    background: green;
-    height: 60px;
-}
-.fixed{
-    position: absolute;
-    position: fixed;
-    top: 0px;
-    z-index: 3;
-    width: 1190px;
-    animation: slideInDown .5s;
-    
-}
+@import "@/assets/css/index/page_index.css";
 
 
 </style>

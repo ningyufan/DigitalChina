@@ -3,7 +3,7 @@
 	  <div class="bs-docs-header bs-docs" tabindex="-1" >
       <canvas id="J_dotLine" class="J_dotLine"></canvas>
     </div>
-	  <div style="width:1190px">main</div>
+	  <div >main</div>
     <div class="images">
       <div class="warp-mask">         
         <div class="warp-color">
@@ -35,7 +35,8 @@ export default {
  
 <style scoped lang="scss">
 .chinese-index{
-	text-align: center;
+  text-align: center;
+  height: 7000px;
 }
 .bs-docs{
 	background-color: #6fc3df;

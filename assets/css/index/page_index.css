@@ -79,3 +79,140 @@ a:hover {
 a:active {
   color:rgb(58, 186, 245);
 }
+
+.header_one {
+  background-image: url('../../images/bg.png');
+  position: relative;
+  background-size: 100vw 100vh;
+  height: 100vh;
+  margin: 0 auto;
+}
+.header{
+  width: 100vw;
+  margin: 0 auto;
+  background-image: url('../../images/bg_kuang.png');
+  background-size: 100vw 100vh;
+  position: absolute;
+  height: 100vh;
+}
+.fixed{
+  position: absolute;
+  position: fixed;
+  top: 0px;
+  z-index: 3;
+  animation: slideInDown .5s;
+  
+}
+.header_nav {
+  height:24vh;
+  width: 100vw;
+  margin: 0 auto;
+
+}
+
+.logo {
+  height: 16.5vh;
+  float: left;
+  padding-left: 20vh;
+  padding-top: 4vh;
+  font-size: 4vh;
+}
+
+.logo a {
+  color: rgb(51, 135, 214);
+  text-decoration: none;
+ }
+ .logo a:hover {
+  /* font-size: 3.5vh; */
+  color: rgb(10, 190, 245)
+ }
+
+.ce_nav {
+ height: 16vh;
+ float: right;
+ padding-right: 20vh;
+ padding-top: 9vh;
+ font-size: 2.5vh;
+}
+.nav {
+  /* background-color: bisque; */
+ height: 7.5vh ;
+ width: 80vw;
+ margin: 0 auto; 
+ /* background-color: rgb(160, 232, 250, 0.5); */
+ background-image: url('../../images/bg_nav.png');
+ background-size: 100% 7.5vh ;
+}
+.nav ul {
+ list-style: none;
+ padding: 0;
+}
+.nav li {
+ text-align: center;
+ display: inline;
+ line-height: 7.5vh;
+ float: left;
+ width: 16.5%;
+ /* background-color: aqua; */
+ font-size: 3vh;
+}
+.nav li:hover {
+  background-image: url('../../images/bg_xuanzhong.png');
+  background-size: 100% 7.5vh ;
+}
+
+.nav li:visited {
+  background-image: url('../../images/bg_xuanzhong.png');
+  background-size: 100% 7.5vh ;
+}
+
+
+.header a {
+ color: rgb(51, 135, 214);
+ text-decoration: none;
+}
+.header a:hover {
+ /* font-size: 3.5vh; */
+ color: rgb(10, 190, 245)
+}
+
+.carousel{
+  width: 80vw;
+  margin: 0 auto;
+  height: 60vh;
+}
+.left_col{
+  width: 50%;
+  height: 60vh;
+  float: left;
+
+}
+.right_col {
+  width: 50%;
+  height: 60vh;
+  float: right;
+}
+.detail {
+  margin: 10vh 8vw;
+}
+.detail .title{
+  font-size: 4vh;
+  margin: 2vh auto;
+
+}
+.detail p{
+  font-size: 2.5vh;
+  /* margin: 2vh auto; */
+  color:rgb(51, 135, 214);
+}
+.detail ul {
+  list-style: url('../../images/fangkuai.png');
+  column-count:2;
+}
+
+hr {
+  margin: 3vh 0 3vh 0;
+  height:1px;
+  border:none;
+  border-top:1px solid #6ec1e2;
+}
