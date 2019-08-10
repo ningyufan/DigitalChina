@@ -13,9 +13,9 @@
         <el-row class="row_tow">
             <div class="nav">
                 <ul v-for="(item, idx) in header_nav" :key="idx">
-                    <li @click="$emit('li_nav',idx)">
-                        <nuxt-link :to="item.link_to">{{ item.nav_name }}</nuxt-link>
-                    </li>
+                   <nuxt-link :to="item.link_to">
+                        <li @click="$emit('li_nav',idx)">{{ item.nav_name }}</li>
+                    </nuxt-link>
                     <!-- <li><nuxt-link :to="{name:'chinese_index',params:{newsId:1}} " title="">首页</nuxt-link></li>
                     <li><nuxt-link :to="{name:'DigitalChina',params:{newsId:2}}" title="" ></nuxt-link></li>
                     <li><nuxt-link :to="{name:'DigitalGX',params:{newsId:3}}" title=""></nuxt-link></li>    
