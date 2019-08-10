@@ -8,10 +8,33 @@
         </div>
         <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
             <div class="header-title fl" style="text-align: center">
-				 <header-nav/>
+				 <header-nav @li_nav = "nav"/>
 			</div>
         </div>
-		<Carousel :items = "items"/>
+		<div class="doc">
+			<template v-if="nav_lock == 0">
+				<Carousel :items = "items"/>
+			</template>
+			<template v-if="nav_lock == 1">
+				数字中国
+			</template>
+			<template v-if="nav_lock == 2">
+				数字广西
+			</template>
+			<template v-if="nav_lock == 3">
+				数字玉林
+			</template>
+			<template v-if="nav_lock == 4">
+				数字玉师
+			</template>
+			<template v-if="nav_lock == 5">
+				关于我们
+			</template>
+		</div>
+		
+			
+			
+			
     </div>
 </div>
 </template>
@@ -29,6 +52,7 @@ import animated from 'animate.css'
 	  data () {
 	    return {
 			isFixed: 0,
+			nav_lock:0,
 	    }
 	  },
 	  methods: {
@@ -62,7 +86,10 @@ import animated from 'animate.css'
 	  			}
 	  		})
  
-	  	}
+		  },
+		   nav(idx){
+			  this.nav_lock = idx
+		  }
 	  },
 	  mounted() {
 	  	this.$nextTick(() => {
@@ -76,7 +103,7 @@ import animated from 'animate.css'
 	  destroyed() {
 	  	removeEventListener('scroll', this.handleScroll);//避免影响其他页面
 	  	removeEventListener('scroll', this.handleAnimate);
-	  }
+	  },
 	}
 </script>
  
