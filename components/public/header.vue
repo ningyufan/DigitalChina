@@ -19,7 +19,7 @@
 				<mk/>
 			</template>
 			<template v-if="nav_lock == 2">
-				数字广西
+				<GxCard/>
 			</template>
 			<template v-if="nav_lock == 3">
 				数字玉林
@@ -43,13 +43,15 @@
 import HeaderNav from './nav'
 import Carousel from './carousel'
 import animated from 'animate.css'
+import GxCard from '../GX_card'
 import Mk from '../../components/dchina/mk'
 	export default {
 		props:['items'],
 		components:{
 			HeaderNav,
 			Carousel,
-			Mk
+			Mk,
+			GxCard
 		},
 	  data () {
 	    return {
