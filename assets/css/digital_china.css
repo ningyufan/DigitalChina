@@ -1,0 +1,109 @@
+.digital_bg{
+    background-image: url('../images/dchina/china_bg.png');
+    position: relative;
+    background-size: 100vw 165vh;
+    height: 165vh;
+    margin: 0 auto;
+}
+.digital_bk1{
+    background-image: url('../images/dchina/china_bk1.png');
+    width: 100vw;
+    margin: 0 auto;
+    background-size: 100vw 90vh;
+    position: absolute;
+    height: 90vh;
+}
+.digital_footer{
+    width: 100vw;
+    margin-top: 90vh;
+    background-size: 100vw 80vh;
+    position: absolute;
+    height: 80vh;
+}
+.digital_bk2{
+    background-image: url('../images/dchina/china_bk2.png');
+    position: absolute;
+    float: left;
+    width: 52vw;
+    margin: 0 auto;
+    background-size: 52vw 75vh;
+    height: 75vh;
+}
+
+.digital_bk3{
+    background-image: url('../images/dchina/china_bk3.png');
+    position: relative;
+    float: right;
+    width: 48vw;
+    margin-top: 11vh;
+    background-size: 48vw 62vh;
+    height: 62vh;
+}
+
+.china_mk1{
+    background-image: url('../images/dchina/china_mk1.png');
+    position: relative;
+    margin: 2vh 15vh 0 15vh;
+    width: 32vw;
+    background-size: 32vw 30vh;
+    height: 30vh;
+}
+
+
+.china_mk2{
+    background-image: url('../images/dchina/china_mk2.png');
+    position: absolute;
+    margin: 2vh 0 0 27vh;
+    width: 32vw;
+    background-size: 32vw 30vh;
+    height: 30vh;
+}
+
+.fangkuai{
+    background-image: url('../images/dchina/cfk.png');
+    position: relative;
+    margin:0 0 0 74vh;
+    width: 3vw;
+    background-size: 3vw 6vh;
+    height: 6vh;
+}
+
+.china_mk3{
+    background-image: url('../images/dchina/china_mk3.png');
+    position: relative;
+    float: left;
+    margin:0 0 0 15vh;
+    width: 16vw;
+    background-size: 16vw 25vh;
+    height: 25vh;
+}
+
+.china_mk4{
+    background-image: url('../images/dchina/china_mk4.png');
+    position: relative;
+    float: right;
+    width: 16vw;
+    margin:0 0 0 0;
+    background-size: 16vw 25vh;
+    height: 25vh;
+}
+
+.china_mk5{
+    background-image: url('../images/dchina/china_mk5.png');
+    position: relative;
+    float: left;
+    margin:0 0 0 2vh;
+    width: 16vw;
+    background-size: 16vw 25vh;
+    height: 25vh;
+}
+
+.china_mk6{
+    background-image: url('../images/dchina/china_mk6.png');
+    position: relative;
+    float: right;
+    width: 16vw;
+    margin:0 13vh 0 0;
+    background-size: 16vw 25vh;
+    height: 25vh;
+}
