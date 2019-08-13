@@ -1,6 +1,6 @@
 <template>
     <div class="Digital">
-        DingitalChina
+        北京户口
     </div>
 </template>
 
