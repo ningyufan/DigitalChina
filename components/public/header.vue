@@ -16,7 +16,7 @@
 				<Carousel :items = "items"/>
 			</template>
 			<template v-if="nav_lock == 1">
-				数字中国
+				<mk/>
 			</template>
 			<template v-if="nav_lock == 2">
 				数字广西
@@ -43,11 +43,13 @@
 import HeaderNav from './nav'
 import Carousel from './carousel'
 import animated from 'animate.css'
+import Mk from '../../components/dchina/mk'
 	export default {
 		props:['items'],
 		components:{
 			HeaderNav,
-			Carousel
+			Carousel,
+			Mk
 		},
 	  data () {
 	    return {
