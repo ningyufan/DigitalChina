@@ -40,70 +40,81 @@
     height: 62vh;
 }
 
-.china_mk1{
+.China_mk{
+    width: 88%;
+    height: 100%;
+    margin: 3vh 5vw auto;
+}
+
+.China_row1,.China_row2{
+    height: 47%;
+    width: 100%;
+}
+
+.China_col1,.China_col2 {
+    height: 100%;
+    width: 50%;
+    
+}
+
+.China_col1{
     background-image: url('../images/dchina/china_mk1.png');
-    position: relative;
-    margin: 2vh 15vh 0 15vh;
-    width: 32vw;
-    background-size: 32vw 30vh;
-    height: 30vh;
+    background-size: 100% 100%;
 }
 
 
-.china_mk2{
+.China_col2{
     background-image: url('../images/dchina/china_mk2.png');
-    position: absolute;
-    margin: 2vh 0 0 27vh;
-    width: 32vw;
-    background-size: 32vw 30vh;
-    height: 30vh;
+    background-size: 100% 100%;
 }
 
 .fangkuai{
-    background-image: url('../images/dchina/cfk.png');
-    position: relative;
-    margin:0 0 0 74vh;
-    width: 3vw;
-    background-size: 3vw 6vh;
-    height: 6vh;
+    width: 100%;
+    height: 8%;
+    margin: 0 auto;
+    padding-left: 47%;
 }
 
-.china_mk3{
+.China_col3, .China_col4, .China_col5,.China_col6{
+    height: 100%;
+    width: 25%;
+}
+
+.China_col3{
     background-image: url('../images/dchina/china_mk3.png');
-    position: relative;
-    float: left;
-    margin:0 0 0 15vh;
-    width: 16vw;
-    background-size: 16vw 25vh;
-    height: 25vh;
+    background-size: 100% 100%;
 }
 
-.china_mk4{
+.China_col4{
     background-image: url('../images/dchina/china_mk4.png');
-    position: relative;
-    float: right;
-    width: 16vw;
-    margin:0 0 0 0;
-    background-size: 16vw 25vh;
-    height: 25vh;
+    background-size: 100% 100%;
 }
 
-.china_mk5{
+.China_col5{
     background-image: url('../images/dchina/china_mk5.png');
-    position: relative;
-    float: left;
-    margin:0 0 0 2vh;
-    width: 16vw;
-    background-size: 16vw 25vh;
-    height: 25vh;
+    background-size: 100% 100%;
 }
 
-.china_mk6{
+.China_col6{
     background-image: url('../images/dchina/china_mk6.png');
-    position: relative;
-    float: right;
-    width: 16vw;
-    margin:0 13vh 0 0;
-    background-size: 16vw 25vh;
-    height: 25vh;
+    background-size: 100% 100%;
+}
+
+
+.Video_row1,.Video_row2{
+    height: 47%;
+    width: 100%;
+}
+
+.Video_row1{
+    margin: 17vh 10vh auto;
+}
+
+.Video_row2{
+    margin: 16vh 0 0 25vh;
+}
+
+.Video_col1,.Video_col2,.Video_col3,.Video_col4,.Video_col5,.Video_col6{
+    height: 100%;
+    width: 30%;
 }

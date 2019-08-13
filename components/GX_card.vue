@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style>
-    @import "@/assets/css/DigitalGX.css";
+    /* @import "@/assets/css/DigitalGX.css"; */
 .GX_card {
     width: 88%;
     height: 100%;
