@@ -25,7 +25,7 @@
 				数字玉林
 			</template>
 			<template v-if="nav_lock == 4">
-				数字玉师
+				<YSBlock/>
 			</template>
 			<template v-if="nav_lock == 5">
 				关于我们
@@ -45,13 +45,15 @@ import Carousel from './carousel'
 import animated from 'animate.css'
 import GxCard from '../GX_card'
 import Mk from '../../components/dchina/mk'
+import YSBlock from '../YS_Block'
 	export default {
 		props:['items'],
 		components:{
 			HeaderNav,
 			Carousel,
 			Mk,
-			GxCard
+			GxCard,
+			YSBlock,
 		},
 	  data () {
 	    return {
