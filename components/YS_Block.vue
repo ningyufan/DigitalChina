@@ -89,6 +89,8 @@ export default {
     margin-top: 3vh;
     height: 8%;
     width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
 }
 .line1{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -115,6 +117,8 @@ export default {
     margin-top: 12vh;
     height: 8%;
     width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
 }
 .line2{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -143,6 +147,8 @@ export default {
     margin-top: 6vh;
     height: 8%;
     width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
 }
 .line3{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -170,6 +176,8 @@ export default {
     margin-top: 0vh;
     height: 8%;
     width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
 }
 .line4{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -197,6 +205,9 @@ export default {
     margin-top: 9vh;
     height: 8%;
     width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+	
 }
 .line5{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -207,11 +218,7 @@ export default {
 }
 img{
     -webkit-transform:scale(1);
-	-moz-transform:scale(1);
-	-o-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-	-moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     z-index: 2;
     position: relative;
 }
@@ -219,75 +226,56 @@ img:hover{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-	-moz-transform:scale(1.2);
-	-moz-box-shadow:0px 0px 30px #ccc;	
-	-o-transform:scale(1.2);
-	-o-box-shadow:0px 0px 30px #ccc;
     z-index: 3;
 }
 .ys1:hover .text1{
     color: blue;
+    -webkit-transform:scale(1);
 }
 .ys1:hover .img1{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-	-moz-transform:scale(1.2);
-	-moz-box-shadow:0px 0px 30px #ccc;	
-	-o-transform:scale(1.2);
-	-o-box-shadow:0px 0px 30px #ccc;
     z-index: 3;
 }
 .ys2:hover .text2{
     color: blue;
+    -webkit-transform:scale(1);
 }
 .ys2:hover .img2{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-	-moz-transform:scale(1.2);
-	-moz-box-shadow:0px 0px 30px #ccc;	
-	-o-transform:scale(1.2);
-	-o-box-shadow:0px 0px 30px #ccc;
     z-index: 3;
 }
 .ys3:hover .text3{
     color: blue;
+    -webkit-transform:scale(1);
 }
 .ys3:hover .img3{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-	-moz-transform:scale(1.2);
-	-moz-box-shadow:0px 0px 30px #ccc;	
-	-o-transform:scale(1.2);
-	-o-box-shadow:0px 0px 30px #ccc;
     z-index: 3;
 }
 .ys4:hover .text4{
     color: blue;
+    -webkit-transform:scale(1);
 }
 .ys4:hover .img4{
     border: 2px solid white;
-    -webkit-transform:scale(1.3);
+    -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-	-moz-transform:scale(1.3);
-	-moz-box-shadow:0px 0px 30px #ccc;	
-	-o-transform:scale(1.3);
-	-o-box-shadow:0px 0px 30px #ccc;
     z-index: 3;
 }
 .ys5:hover .text5{
     color: blue;
+    -webkit-transform:scale(1);
 }
 .ys5:hover .img5{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-	-moz-transform:scale(1.2);
-	-moz-box-shadow:0px 0px 30px #ccc;	
-	-o-transform:scale(1.2);
-	-o-box-shadow:0px 0px 30px #ccc;
     z-index: 3;
 }
 
