@@ -1,7 +1,7 @@
 <template>
     <div class="ysblock">
         <div class="row">    
-            <div class="one">
+            <div class="one" >
                 <div class="box1">
                     <div class="ys1">
                         <a href="#"><img src="../assets/images/ysblock/ys1.png" class="img1" height="100%" width="100%"></a>
@@ -36,18 +36,58 @@
 </template>
 
 <script>
+import animated from 'animate.css' 
 export default {
+    methods: {
+	  	handleAnimate() {
+	  		let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+	  		let vh = document.documentElement.clientHeight;
+	  		let dom = document.querySelectorAll(".animate");
+	  		[].slice.call(dom).forEach(v => {
+	  			if(top + vh > v.offsetTop){
+	  				var delay = v.dataset.delay;
+	  				if(delay){
+	  					setTimeout(() => {
+	  						v.style.opacity = 1;
+		  					v.classList.add(v.dataset.ani)
+		  				}, delay)
+	  				}else{
+	  					v.style.opacity = 1;
+	  					v.classList.add(v.dataset.ani)
+	  				}
+	  			}else{
+	  				v.classList.remove(v.dataset.ani)
+	  				v.style.opacity = 0;
+	  			}
+	  		})
+ 
+	  	}
+	  },
+    mounted() {
+    this.$nextTick(() => {
+        this.handleAnimate()//初始化第一次加载时在视口内就执行动画
+        addEventListener('scroll', this.handleScroll);
+        addEventListener('scroll', this.handleAnimate);
+
+    })
     
-    
+    },
+    destroyed() {
+        removeEventListener('scroll', this.handleScroll);//避免影响其他页面
+        removeEventListener('scroll', this.handleAnimate);
+    }
 }
 </script>
 
 <style>
+.bounceInLeft{
+    animation: bounceInLeft 2s ease-in;
+}
 .ysblock{
     width: 100%;
     height: 100%;
     margin: 5vh -5vh auto;
-    z-index: 3;
+    z-index: 2;
 }
 .row{
     height: 100%;
@@ -221,14 +261,14 @@ export default {
 img{
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    z-index: 2;
+    z-index: 1;
     position: relative;
 }
-img:hover{
+.img1:hover,.img2:hover,.img3:hover.img4:hover.img5:hover{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 3;
+    z-index: 2;
 }
 .ys1:hover .text1{
     color: blue;
@@ -238,7 +278,7 @@ img:hover{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 3;
+    z-index: 2;
 }
 .ys2:hover .text2{
     color: blue;
@@ -248,7 +288,7 @@ img:hover{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 3;
+    z-index: 2;
 }
 .ys3:hover .text3{
     color: blue;
@@ -258,7 +298,7 @@ img:hover{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 3;
+    z-index: 2;
 }
 .ys4:hover .text4{
     color: blue;
@@ -268,7 +308,7 @@ img:hover{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 3;
+    z-index: 2;
 }
 .ys5:hover .text5{
     color: blue;
@@ -278,7 +318,7 @@ img:hover{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 3;
+    z-index: 2;
 }
 
 </style>
