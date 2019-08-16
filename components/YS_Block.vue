@@ -38,6 +38,7 @@
 <script>
 export default {
     
+    
 }
 </script>
 
@@ -46,6 +47,7 @@ export default {
     width: 100%;
     height: 100%;
     margin: 5vh -5vh auto;
+    z-index: 3;
 }
 .row{
     height: 100%;

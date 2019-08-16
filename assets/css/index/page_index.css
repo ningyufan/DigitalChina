@@ -101,7 +101,6 @@ a:active {
   top: 0px;
   z-index: 3;
   animation: slideInDown .5s;
-  
 }
 .header_nav {
   height:24vh;
