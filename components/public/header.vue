@@ -22,7 +22,7 @@
 				<GxCard/>
 			</template>
 			<template v-if="nav_lock == 3">
-				数字玉林
+				<YulinOne />
 			</template>
 			<template v-if="nav_lock == 4">
 				<YSBlock/>
@@ -46,6 +46,7 @@ import animated from 'animate.css'
 import GxCard from '../GX_card'
 import Mk from '../../components/dchina/mk'
 import YSBlock from '../YS_Block'
+import YulinOne from '../yulin/yulin_one'
 	export default {
 		props:['items'],
 		components:{
@@ -54,6 +55,7 @@ import YSBlock from '../YS_Block'
 			Mk,
 			GxCard,
 			YSBlock,
+			YulinOne,
 		},
 	  data () {
 	    return {
