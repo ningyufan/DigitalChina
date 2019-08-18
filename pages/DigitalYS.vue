@@ -35,8 +35,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="YS">数字玉师
-                    <!-- <div class="row">    
+                <div class="YS">
+                    <div class="row">    
                         <div class="one" >
                             <div class="box1">
                                 <div class="ys1">
@@ -66,7 +66,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -207,9 +207,238 @@ export default {
     width: 80%;
     margin-left: 10%
 }
+.one{
+    width: 70%;
+    background-image: url(../assets/images/ysblock/block.png);
+    background-size: 100% 100%;
+    border: 2px solid transparent;
+    height: 60vh;
+    margin-left: -4%;
+    margin-top: 4vh
+}
+.tow{
+    width: 30%;
+    height: 100%;
+}
+.box1{
+    height: 82%;
+    width: 72%;
+    text-align: center;
+    margin-top: 3.8vh;
+    margin-left: 15%;
+    /* border: 1px solid red; */
+}
+.ys1{
+    height: 60%;
+    width: 62%;
+    float: left;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.text1{
+    position: absolute;
+    color: white;
+    margin-left: 46.8%;
+    float: right;
+    margin-top: 3vh;
+    height: 8%;
+    width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+}
+.line1{
+    background-image: url(../assets/images/ysblock/line1.png);
+    background-size: 100% 100%;
+    height: 22%;
+    width: 110%;
+    margin-left: 175%;
+    margin-top: 3vh;
+}
+.ys2{
+    height: 29.5%;
+    width: 37%;
+    float: right;
+}
+.img2{
+    height: 100%;
+    width: 100%;
+    float: right;
+}
+.text2{
+    position: absolute;
+    color: white;
+    margin-left: 22.3%;
+    float: left;
+    margin-top: 12vh;
+    height: 8%;
+    width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+}
+.line2{
+    background-image: url(../assets/images/ysblock/line1.png);
+    background-size: 100% 100%;
+    height: 45%;
+    width: 185%;
+    margin-left: 123%;
+    margin-top: 12vh;
+}
+.ys3{
+    height: 29.5%;
+    width: 37%;
+    float: right;
+    margin-top:0.8%;
+}
+.img3{
+    height: 100%;
+    width: 100%;
+    float: right;
 
-
-
+}
+.text3{
+    position: absolute;
+    color: white;
+    margin-left: 22.5%;
+    float: left;
+    margin-top: 6vh;
+    height: 8%;
+    width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+}
+.line3{
+    background-image: url(../assets/images/ysblock/line1.png);
+    background-size: 100% 100%;
+    height: 44%;
+    width: 185%;
+    margin-left: 123%;
+    margin-top: 6vh;
+}
+.ys4{
+    height: 39%;
+    width: 49.5%;
+    float: left;
+    margin-top: 1%;
+}
+.img4{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.text4{
+    position: absolute;
+    color: white;
+    margin-left: 47.5%;
+    float: left;
+    margin-top: 0vh;
+    height: 8%;
+    width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+}
+.line4{
+    background-image: url(../assets/images/ysblock/line1.png);
+    background-size: 100% 100%;
+    height: 33%;
+    width: 138%;
+    margin-left: 219%;
+    margin-top: 0vh;
+}
+.ys5{
+    height: 39%;
+    width: 49.5%;
+    float: right;
+    margin-top: 1%;
+}
+.img5{
+    height: 100%;
+    width: 100%;
+    float: right;
+}
+.text5{
+    position: absolute;
+    color: white;
+    margin-left: 27.5%;
+    float: left;
+    margin-top: 9vh;
+    height: 5vh;
+    width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+}
+.line5{
+    background-image: url(../assets/images/ysblock/line1.png);
+    background-size: 100% 100%;
+    height: 33%;
+    width: 138%;
+    margin-left: 117%;
+    margin-top: 9vh;
+}
+img{
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    z-index: 1;
+    position: relative;
+}
+.img1:hover,.img2:hover,.img3:hover.img4:hover.img5:hover{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 2;
+}
+.ys1:hover .text1{
+    color: blue;
+    -webkit-transform:scale(1);
+}
+.ys1:hover .img1{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 2;
+}
+.ys2:hover .text2{
+    color: blue;
+    -webkit-transform:scale(1);
+}
+.ys2:hover .img2{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 2;
+}
+.ys3:hover .text3{
+    color: blue;
+    -webkit-transform:scale(1);
+}
+.ys3:hover .img3{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 2;
+}
+.ys4:hover .text4{
+    color: blue;
+    -webkit-transform:scale(1);
+}
+.ys4:hover .img4{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 2;
+}
+.ys5:hover .text5{
+    color: blue;
+    -webkit-transform:scale(1);
+}
+.ys5:hover .img5{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 2;
+}
 
 
 
