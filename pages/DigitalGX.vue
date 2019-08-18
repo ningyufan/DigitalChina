@@ -35,16 +35,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="GX">数字广西</div>
+                <div class="GX">
+                    <gxHeader/>
+                </div>
             </div>
         </div>
-        数字广西
+            <gxindex/>
         <div class="footer">footer</div>
     </div>
 </template>
 
 <script>
+import gxHeader from '../components/gx/gxheader.vue' 
+import gxindex from '../components/gx/gxindex.vue' 
 export default {
+    components:{
+        gxHeader,
+        gxindex
+    },
     data () {
     return {
         isFixed: 0,

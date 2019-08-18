@@ -93,7 +93,7 @@ a:active {
   margin: 0 auto;
   background-image: url('../../images/bg_kuang.png');
   background-size: 100vw 100vh;
-  position: absolute;
+  position: relative;
   height: 100vh;
 }
 .fixed{
@@ -184,7 +184,19 @@ a:active {
   height: 60vh;
   z-index: 1;
   position: absolute;
+  left: 10vw;
+  top: 24vh;
+}
 
+.header .china,
+.header .GX,
+.header .ME,
+.header .shouye,
+.header .YL,
+.header .YS {
+  position: absolute;
+  left: 0vw;
+  top: 24vh;
 }
 .left_col{
   width: 50%;
@@ -221,3 +233,6 @@ hr {
   border:none;
   border-top:1px solid #6ec1e2;
 }
+
+
+
