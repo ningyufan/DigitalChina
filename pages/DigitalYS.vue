@@ -1,5 +1,78 @@
 <template>
     <div class="DigitalYS">
+        <div class="header_one">
+            <div class="header " id="header" >
+                <div class="logo">
+                    <a href="#">
+                        Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
+                    </a>
+                </div>
+                <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
+                    <div class="header-title fl" style="text-align: center">
+                        <div class="header_nav">
+                        <el-row class="row_one">
+                            <div class="ce_nav">
+                                <a href="#">
+                                    <i class="el-icon-star-on">中</i>
+                                </a>
+                                <a href="#">
+                                    <i class="el-icon-star-off">英</i>
+                                </a>
+                            </div>
+                        </el-row>
+                        <el-row class="row_tow">
+                            <div class="nav">
+                                <ul>
+                                    <nuxt-link to="/chinese_index"><li>首页</li></nuxt-link>
+                                    <nuxt-link to="/Digital_China"><li>数字中国</li></nuxt-link>
+                                    <nuxt-link to="/DigitalGX"><li>数字广西</li></nuxt-link>
+                                    <nuxt-link to="/DigitalYL"><li>数字玉林</li></nuxt-link>
+                                    <nuxt-link to="#"><li><div class="nav_5">数字玉师</div></li></nuxt-link>
+                                    <nuxt-link to="/aboutMe"><li>关于我们</li></nuxt-link>
+                                </ul>
+                            </div>
+                        </el-row>
+                        </div>
+                    </div>
+                </div>
+                <div class="YS">数字玉林
+                    <!-- <div class="row">    
+                        <div class="one" >
+                            <div class="box1">
+                                <div class="ys1">
+                                    <a href="#"><img src="../assets/images/ysblock/ys1.png" class="img1" height="100%" width="100%"></a>
+                                    <a href="#"><div class="text1">玉林师范学院——曙光大数据应用创新中心揭牌成立</div></a>
+                                    <div class="line1"></div>
+                                </div>
+                                <div class="ys2">
+                                    <a href="#"><img src="../assets/images/ysblock/ys2.png" class="img2" height="100%" width="100%"></a>
+                                    <a href="#"><div class="text2">计算机学院积极推进“玉林师范学院——曙光大数据学院”的建设</div></a>
+                                    <div class="line2"></div>
+                                </div>
+                                <div class="ys3">
+                                    <a href="#"><img src="../assets/images/ysblock/ys3.png" class="img3" height="100%" width="100%"></a>
+                                    <a href="#"><div class="text3">学校举行市校共建玉林市大数据研究院揭牌仪式暨签约仪式</div></a>
+                                    <div class="line3"></div>
+                                </div>
+                                <div class="ys4">
+                                    <a href="#"><img src="../assets/images/ysblock/ys4.png" class="img4" height="100%" width="100%"></a>
+                                    <a href="#"><div class="text4">曙光集团莅临大数据学院开展曙光大数据平台使用培训会</div></a>
+                                    <div class="line4"></div>
+                                </div>
+                                <div class="ys5">
+                                    <a href="#"><img src="../assets/images/ysblock/ys5.png" class="img5" height="100%" width="100%"></a>
+                                    <a href="#"><div class="text5">学校领导到大数据应用创新中心（暨大数据学院）指导工作</div></a>
+                                    <div class="line5"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+
+
         <div class="back">
             <div class="block2">
                 <div class="animate" data-ani="fadeInDown"  data-delay="1000">
@@ -46,7 +119,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="img_6"></div> -->
             </div>
         </div>
         <div class="back">
@@ -54,39 +126,54 @@
 
             </div>
         </div>
-        
+        <div class="footer">footer</div>
     </div>
 </template>
 
 <script>
 import animated from 'animate.css' 
 export default {
-    layout:'blank',
+    data () {
+        return {
+            isFixed: 0,
+        }
+    },
     methods: {
-	  	handleAnimate() {
-	  		let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-	  		let vh = document.documentElement.clientHeight;
-	  		let dom = document.querySelectorAll(".animate");
-	  		[].slice.call(dom).forEach(v => {
-	  			if(top + vh > v.offsetTop){
-	  				var delay = v.dataset.delay;
-	  				if(delay){
-	  					setTimeout(() => {
-	  						v.style.opacity = 1;
-		  					v.classList.add(v.dataset.ani)
-		  				}, delay)
-	  				}else{
-	  					v.style.opacity = 1;
-	  					v.classList.add(v.dataset.ani)
-	  				}
-	  			}else{
-	  				v.classList.remove(v.dataset.ani)
-	  				v.style.opacity = 0;
-	  			}
-	  		})
- 
-	  	}
-	  },
+    handleScroll() {
+        let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+        if(top > 250){
+            this.isFixed = 1;
+        }else if(top < 200){
+            this.isFixed = 0;
+        }
+    },
+    handleAnimate() {
+        let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+        let vh = document.documentElement.clientHeight;
+        let dom = document.querySelectorAll(".animate");
+        [].slice.call(dom).forEach(v => {
+            if(top + vh > v.offsetTop){
+                var delay = v.dataset.delay;
+                if(delay){
+                    setTimeout(() => {
+                        v.style.opacity = 1;
+                        v.classList.add(v.dataset.ani)
+                    }, delay)
+                }else{
+                    v.style.opacity = 1;
+                    v.classList.add(v.dataset.ani)
+                }
+            }else{
+                v.classList.remove(v.dataset.ani)
+                v.style.opacity = 0;
+            }
+        })
+
+        },
+        nav(idx){
+            this.nav_lock = idx
+        }
+    },
     mounted() {
     this.$nextTick(() => {
         this.handleAnimate()//初始化第一次加载时在视口内就执行动画
@@ -99,14 +186,38 @@ export default {
     destroyed() {
     removeEventListener('scroll', this.handleScroll);//避免影响其他页面
     removeEventListener('scroll', this.handleAnimate);
-    }
+    },
 }
 </script>
 
 <style>
+@import "@/assets/css/index/page_index.css";
 .DigitalYS{
-    height: 100%;
     width: 100%;
+}
+.nav_5{
+    background-image: url('../assets/images/bg_xuanzhong.png');
+    background-size: 100% 7.5vh ;
+}
+.nav:hover .nav_5{
+    background: none;
+}
+.YS{
+    color: white;
+    width: 80%;
+    margin-left: 10%
+}
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background: rgb(187, 184, 184);
+    text-align: center;
 }
 .back{
     background-image: url(../assets/images/ysblock/background1.png);

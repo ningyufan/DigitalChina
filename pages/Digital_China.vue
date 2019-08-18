@@ -1,5 +1,5 @@
 <template>
-    <div class="DigitalYL">
+    <div class="DigitalChina">
         <div class="header_one">
             <div class="header " id="header" >
                 <div class="logo">
@@ -24,9 +24,9 @@
                             <div class="nav">
                                 <ul>
                                     <nuxt-link to="/chinese_index"><li>首页</li></nuxt-link>
-                                    <nuxt-link to="/Digital_China"><li>数字中国</li></nuxt-link>
+                                    <nuxt-link to="#"><li><div class="nav_2">数字中国</div></li></nuxt-link>
                                     <nuxt-link to="/DigitalGX"><li>数字广西</li></nuxt-link>
-                                    <nuxt-link to="#"><li><div class="nav_4">数字玉林</div></li></nuxt-link>
+                                    <nuxt-link to="/DigitalYL"><li>数字玉林</li></nuxt-link>
                                     <nuxt-link to="/DigitalYS"><li>数字玉师</li></nuxt-link>
                                     <nuxt-link to="/aboutMe"><li>关于我们</li></nuxt-link>
                                 </ul>
@@ -35,10 +35,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="YL">数字玉林</div>
+                <div class="china">数字中国</div>
             </div>
         </div>
-        数字玉林
+        数字中国
         <div class="footer">footer</div>
     </div>
 </template>
@@ -105,17 +105,17 @@ export default {
 
 <style>
 @import "@/assets/css/index/page_index.css";
-.DigitalYL {
+.DigitalChina{
     width: 100%;
 }
-.nav_4{
+.nav_2{
     background-image: url('../assets/images/bg_xuanzhong.png');
     background-size: 100% 7.5vh ;
 }
-.nav:hover .nav_4{
+.nav:hover .nav_2{
     background: none;
 }
-.YL{
+.china{
     color: white;
     width: 80%;
     margin-left: 10%

@@ -5,25 +5,25 @@
     overflow: hidden;
   }
 
-  .video-container .poster img,
+.video-container .poster img,
   .video-container video {
     z-index: 0;
     position: absolute;
   }
 
-  .video-container .filter {
-    z-index: 1;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-  }
+.video-container .filter {
+  z-index: 1;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+}
 
- .title {
-    height: 60%;
-    width: 70%;
-    text-align: center;
-    margin: auto;
-    display: table;  
-  }
+.title {
+  height: 60%;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  display: table;  
+}
 .title p {
    color: white;
    font-size:4.5vw;
@@ -85,6 +85,7 @@ a:active {
   position: relative;
   background-size: 100vw 100vh;
   height: 100vh;
+  width: 100vw;
   margin: 0 auto;
 }
 .header{
@@ -97,7 +98,7 @@ a:active {
 }
 .fixed{
   position: fixed;
-  top: -30px;
+  top: -6vh;
   z-index: 10;
   animation: slideInDown .5s;
 }
@@ -131,6 +132,7 @@ a:active {
  padding-right: 20vh;
  padding-top: 9vh;
  font-size: 2.5vh;
+ 
 }
 .nav {
   /* background-color: bisque; */
@@ -140,6 +142,7 @@ a:active {
  /* background-color: rgb(160, 232, 250, 0.5); */
  background-image: url('../../images/bg_nav.png');
  background-size: 100% 7.5vh ;
+ color: rgb(51, 135, 214);
 }
 .nav ul {
  list-style: none;
@@ -158,6 +161,7 @@ a:active {
   background-image: url('../../images/bg_xuanzhong.png');
   background-size: 100% 7.5vh ;
 }
+
 
 .nav li:visited {
   background-image: url('../../images/bg_xuanzhong.png');
@@ -178,7 +182,8 @@ a:active {
   width: 80vw;
   margin: 0 auto;
   height: 60vh;
-  z-index: 11;
+  z-index: 1;
+  position: absolute;
 
 }
 .left_col{
