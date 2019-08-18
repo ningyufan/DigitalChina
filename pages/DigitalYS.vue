@@ -71,10 +71,28 @@
             </div>
         </div>
 
-
+        <div class="back1">
+            <br>
+            <div class="titel1">titel1</div>
+            <br>
+            <div class="code1">
+                <img src="../assets/images/ysblock/ys4.png" class="img14" height="100%" width="50%">
+                <div class="text_14">图片</div>
+                <div class="color1"></div>
+            </div>
+            <br>
+            <div class="code2">
+                <img src="../assets/images/ysblock/ys4.png" class="img15" height="100%" width="50%">
+                <div class="text_15">图片</div>
+                <div class="color2"></div>
+            </div>
+            <br>        
+        </div>
 
         <div class="back">
             <div class="block2">
+                <br><br><br>
+                <div class="titel1">titel1</div>
                 <div class="animate" data-ani="fadeInDown"  data-delay="1000">
                     <div class="box">
                         <div class="ys6" style="transform: rotateY(0deg) translateZ(400px);">
@@ -119,11 +137,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="back">
-            <div class="block2">
-
             </div>
         </div>
         <div class="footer">footer</div>
@@ -390,8 +403,8 @@ img{
     z-index: 2;
 }
 .ys1:hover .text1{
-    color: blue;
-    -webkit-transform:scale(1);
+    color: rgb(51, 135, 214);;
+    -webkit-transform:scale(1.1);
 }
 .ys1:hover .img1{
     border: 2px solid white;
@@ -400,8 +413,8 @@ img{
     z-index: 2;
 }
 .ys2:hover .text2{
-    color: blue;
-    -webkit-transform:scale(1);
+    color: rgb(51, 135, 214);
+    -webkit-transform:scale(1.1);
 }
 .ys2:hover .img2{
     border: 2px solid white;
@@ -410,8 +423,8 @@ img{
     z-index: 2;
 }
 .ys3:hover .text3{
-    color: blue;
-    -webkit-transform:scale(1);
+    color: rgb(51, 135, 214);
+    -webkit-transform:scale(1.1);
 }
 .ys3:hover .img3{
     border: 2px solid white;
@@ -420,8 +433,8 @@ img{
     z-index: 2;
 }
 .ys4:hover .text4{
-    color: blue;
-    -webkit-transform:scale(1);
+    color: rgb(51, 135, 214);
+    -webkit-transform:scale(1.1);
 }
 .ys4:hover .img4{
     border: 2px solid white;
@@ -430,8 +443,8 @@ img{
     z-index: 2;
 }
 .ys5:hover .text5{
-    color: blue;
-    -webkit-transform:scale(1);
+    color: rgb(51, 135, 214);
+    -webkit-transform:scale(1.1);
 }
 .ys5:hover .img5{
     border: 2px solid white;
@@ -448,6 +461,70 @@ img{
     background: rgb(187, 184, 184);
     text-align: center;
 }
+.back1{
+    background-image: url(../assets/images/ysblock/background1.png);
+    background-size: cover;
+    height: 110vh;
+}
+.titel1{
+    height: 8vh;
+    width: 40%;
+    background: white;
+    margin-left: 30%;
+    /* border:2px solid #ccc; */
+    box-shadow: 2px 2px 1px  #ccc;
+}
+.code1{
+    height: 42vh;
+    width:80%;
+    margin-left: 10%;
+    background-color: #ccc;
+}
+.code2{
+    height: 42vh;
+    width:80%;
+    margin-right: 10%;
+    top: 10px;
+    float: right;
+    background: #ccc;
+}
+.img14{
+    float: left;
+}
+.img15{
+    float: right;
+}
+.color1{
+    width: 5%;
+    height: 42vh;
+    background: rgb(51, 135, 214);
+    float: right;
+}
+.color2{
+    width: 5%;
+    height: 42vh;
+    background: rgb(51, 135, 214);
+    float: left;
+}
+.text_14{
+    width: 45%;
+    height: 42vh;
+    float: left;
+    padding: 2% 3%;
+
+}
+.text_15{
+    width: 45%;
+    height: 42vh;
+    padding: 2% 3%;
+    float: right;
+}
+
+
+
+
+
+
 .back{
     background-image: url(../assets/images/ysblock/background1.png);
     background-size: 100% 100%;
@@ -534,7 +611,7 @@ img{
     height:200px;
     position: absolute;
     left:0;
-    top:28vh;
+    top:17vh;
 }
 .fadeInUpBig{
     animation: fadeInUpBig 1s;

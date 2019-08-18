@@ -21,16 +21,16 @@ export default {
         Header,
         Footer,
     },
-    head:{
-        script:[
-            {src:'http://www.suneee.com/js/TweenLite.min.js'},
-            {src:'http://www.suneee.com/js/EasePack.min.js'},
-            {src:'http://www.suneee.com/js/rAF.js'},
-        ],
-        link: [
-		    ],
+    // head:{
+    //     script:[
+    //         {src:'http://www.suneee.com/js/TweenLite.min.js'},
+    //         {src:'http://www.suneee.com/js/EasePack.min.js'},
+    //         {src:'http://www.suneee.com/js/rAF.js'},
+    //     ],
+    //     link: [
+	// 	    ],
         
-    },
+    // },
     data(){
        return{
             uid:'',
