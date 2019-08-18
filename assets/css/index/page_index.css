@@ -93,7 +93,7 @@ a:active {
   margin: 0 auto;
   background-image: url('../../images/bg_kuang.png');
   background-size: 100vw 100vh;
-  position: absolute;
+  position: relative;
   height: 100vh;
 }
 .fixed{
@@ -184,6 +184,8 @@ a:active {
   height: 60vh;
   z-index: 1;
   position: absolute;
+  left: 10vw;
+  top: 24vh;
 
 }
 .left_col{
