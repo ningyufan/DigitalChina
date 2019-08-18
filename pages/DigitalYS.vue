@@ -239,22 +239,22 @@ export default {
     float: left;
 }
 .text1{
-    position: absolute;
     color: white;
-    margin-left: 46.8%;
+    margin-left: 60.8%;
     float: right;
     margin-top: 3vh;
     height: 8%;
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    font-size: 1em;
 }
 .line1{
     background-image: url(../assets/images/ysblock/line1.png);
     background-size: 100% 100%;
     height: 22%;
-    width: 110%;
-    margin-left: 175%;
+    width: 100%;
+    margin-left: 180%;
     margin-top: 3vh;
 }
 .ys2{
@@ -270,7 +270,7 @@ export default {
 .text2{
     position: absolute;
     color: white;
-    margin-left: 22.3%;
+    margin-left: 29%;
     float: left;
     margin-top: 12vh;
     height: 8%;
@@ -282,8 +282,8 @@ export default {
     background-image: url(../assets/images/ysblock/line1.png);
     background-size: 100% 100%;
     height: 45%;
-    width: 185%;
-    margin-left: 123%;
+    width: 168%;
+    margin-left: 131%;
     margin-top: 12vh;
 }
 .ys3{
@@ -301,7 +301,7 @@ export default {
 .text3{
     position: absolute;
     color: white;
-    margin-left: 22.5%;
+    margin-left: 29.4%;
     float: left;
     margin-top: 6vh;
     height: 8%;
@@ -313,8 +313,8 @@ export default {
     background-image: url(../assets/images/ysblock/line1.png);
     background-size: 100% 100%;
     height: 44%;
-    width: 185%;
-    margin-left: 123%;
+    width: 168%;
+    margin-left: 131.3%;
     margin-top: 6vh;
 }
 .ys4{
@@ -331,7 +331,7 @@ export default {
 .text4{
     position: absolute;
     color: white;
-    margin-left: 47.5%;
+    margin-left: 61%;
     float: left;
     margin-top: 0vh;
     height: 8%;
@@ -343,8 +343,8 @@ export default {
     background-image: url(../assets/images/ysblock/line1.png);
     background-size: 100% 100%;
     height: 33%;
-    width: 138%;
-    margin-left: 219%;
+    width: 126%;
+    margin-left: 225.5%;
     margin-top: 0vh;
 }
 .ys5{
@@ -359,22 +359,22 @@ export default {
     float: right;
 }
 .text5{
-    position: absolute;
     color: white;
-    margin-left: 27.5%;
+    margin-left: 35.2%;
     float: left;
     margin-top: 9vh;
     height: 5vh;
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    /* initial-letter: 1; */
 }
 .line5{
     background-image: url(../assets/images/ysblock/line1.png);
     background-size: 100% 100%;
     height: 33%;
-    width: 138%;
-    margin-left: 117%;
+    width: 127%;
+    margin-left: 123.3%;
     margin-top: 9vh;
 }
 img{
