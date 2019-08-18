@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="YS">数字玉林
+                <div class="YS">数字玉师
                     <!-- <div class="row">    
                         <div class="one" >
                             <div class="box1">
