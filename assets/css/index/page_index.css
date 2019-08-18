@@ -186,7 +186,17 @@ a:active {
   position: absolute;
   left: 10vw;
   top: 24vh;
+}
 
+.header .china,
+.header .GX,
+.header .ME,
+.header .shouye,
+.header .YL,
+.header .YS {
+  position: absolute;
+  left: 0vw;
+  top: 24vh;
 }
 .left_col{
   width: 50%;
@@ -223,3 +233,6 @@ hr {
   border:none;
   border-top:1px solid #6ec1e2;
 }
+
+
+
