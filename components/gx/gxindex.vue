@@ -220,7 +220,7 @@
 				<div @click="pic_index = 2">
 					<img src="../../assets/images/gx/pic3.jpg" alt="">
 				</div>
-				<div @click="pic_index = 3">
+				<div @click="pic_index = 3" aos = "slide-left" >
 					<img src="../../assets/images/gx/pic4.jpg" alt="">
 				</div>
 			</div>	
@@ -378,7 +378,8 @@ export default {
     mounted() {
         AOS.init({
             easing: 'ease-out-back',
-            duration: 1000
+            duration: 500,
+			once :false
         });
     }
     
