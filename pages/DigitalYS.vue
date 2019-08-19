@@ -75,13 +75,13 @@
             <br>
             <div class="titel1">titel1</div>
             <br>
-            <div class="code1">
+            <div class="code1" aos="fade-right">
                 <img src="../assets/images/ysblock/ys4.png" class="img14" height="100%" width="50%">
                 <div class="text_14">图片</div>
                 <div class="color1"></div>
             </div>
             <br>
-            <div class="code2">
+            <div class="code2" aos="fade-left">
                 <img src="../assets/images/ysblock/ys4.png" class="img15" height="100%" width="50%">
                 <div class="text_15">图片</div>
                 <div class="color2"></div>
@@ -151,6 +151,18 @@ export default {
             isFixed: 0,
         }
     },
+    head:{
+        script:[
+            {src:'js/jquery.1.7.1.min.js'},
+            {src:'js/aos.js'},
+        ],
+        link: [
+            { rel: 'stylesheet', href: 'css/normalize.css' },
+            { rel: 'stylesheet', href: 'css/demo.css' },
+            { rel: 'stylesheet', href: 'js/aos.css' },
+            { rel: 'stylesheet', href: 'css/styles.css' }
+        ]
+    },
     methods: {
     handleScroll() {
         let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
@@ -188,6 +200,10 @@ export default {
         }
     },
     mounted() {
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
     this.$nextTick(() => {
         this.handleAnimate()//初始化第一次加载时在视口内就执行动画
         addEventListener('scroll', this.handleScroll);

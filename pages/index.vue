@@ -52,12 +52,28 @@
         fixStyle: '',
       }
     },
+    head:{
+            script:[
+                {src:'js/jquery.1.7.1.min.js'},
+                {src:'js/aos.js'},
+            ],
+            link: [
+		          { rel: 'stylesheet', href: 'css/normalize.css' },
+              { rel: 'stylesheet', href: 'css/demo.css' },
+              { rel: 'stylesheet', href: 'js/aos.css' },
+              { rel: 'stylesheet', href: 'css/styles.css' }
+		    ]
+    },
     methods: {
       canplay() {
         this.vedioCanPlay = true
       }
     },
     mounted: function() {
+      AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+      });
       if (process.browser) {  // 在页面mounted生命周期里面 根据环境实例化WOW
          new WOW({
              live: false, 
