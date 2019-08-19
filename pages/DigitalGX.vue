@@ -54,9 +54,21 @@ export default {
         gxindex
     },
     data () {
-    return {
-        isFixed: 0,
-    }
+        return {
+            isFixed: 0,
+        }
+    },
+    head:{
+        script:[
+            {src:'js/jquery.1.7.1.min.js'},
+            {src:'js/aos.js'},
+        ],
+        link: [
+            { rel: 'stylesheet', href: 'css/normalize.css' },
+            { rel: 'stylesheet', href: 'css/demo.css' },
+            { rel: 'stylesheet', href: 'js/aos.css' },
+            { rel: 'stylesheet', href: 'css/styles.css' }
+        ]
     },
     methods: {
     handleScroll() {
@@ -104,6 +116,10 @@ export default {
     
     },
     destroyed() {
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
     removeEventListener('scroll', this.handleScroll);//避免影响其他页面
     removeEventListener('scroll', this.handleAnimate);
     },

@@ -49,9 +49,21 @@
 <script>
 export default {
     data () {
-    return {
-        isFixed: 0,
-    }
+        return {
+            isFixed: 0,
+        }
+    },
+    head:{
+        script:[
+            {src:'js/jquery.1.7.1.min.js'},
+            {src:'js/aos.js'},
+        ],
+        link: [
+            { rel: 'stylesheet', href: 'css/normalize.css' },
+            { rel: 'stylesheet', href: 'css/demo.css' },
+            { rel: 'stylesheet', href: 'js/aos.css' },
+            { rel: 'stylesheet', href: 'css/styles.css' }
+        ]
     },
     methods: {
     handleScroll() {
@@ -90,6 +102,10 @@ export default {
         }
     },
     mounted() {
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
     this.$nextTick(() => {
         this.handleAnimate()//初始化第一次加载时在视口内就执行动画
         addEventListener('scroll', this.handleScroll);

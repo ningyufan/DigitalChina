@@ -70,10 +70,10 @@
                 </div>
             </div>
         </div>
-
+    
         <div class="back1">
             <br>
-            <div class="titel1">titel1</div>
+            <div class="titel1" aos="fade-up">titel1</div>
             <br>
             <div class="code1" aos="fade-right">
                 <img src="../assets/images/ysblock/ys4.png" class="img14" height="100%" width="50%">
@@ -276,7 +276,7 @@ export default {
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 1em;
+    font-size: 14px;
 }
 .line1{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -306,6 +306,7 @@ export default {
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    font-size: 14px;
 }
 .line2{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -337,6 +338,7 @@ export default {
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    font-size: 14px;
 }
 .line3{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -367,6 +369,7 @@ export default {
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    font-size: 14px;
 }
 .line4{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -396,6 +399,7 @@ export default {
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    font-size: 14px;
     /* initial-letter: 1; */
 }
 .line5{
@@ -406,12 +410,12 @@ export default {
     margin-left: 123.3%;
     margin-top: 9vh;
 }
-img{
+/* img{
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
     z-index: 1;
     position: relative;
-}
+} */
 .img1:hover,.img2:hover,.img3:hover.img4:hover.img5:hover{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
