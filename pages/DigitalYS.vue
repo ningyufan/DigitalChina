@@ -269,14 +269,14 @@ export default {
 }
 .text1_ys{
     color: white;
-    margin-left: 60.8%;
-    float: right;
+    margin-left: 196.5%;
     margin-top: 3vh;
     height: 8%;
-    width: 22%;
+    width: 72%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
     font-size: 14px;
+    z-index: 2;
 }
 .line1_ys{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -284,7 +284,7 @@ export default {
     height: 22%;
     width: 100%;
     margin-left: 180%;
-    margin-top: 3vh;
+    margin-top: -2.3vh;
 }
 .ys2_ys{
     height: 29.5%;
@@ -303,7 +303,7 @@ export default {
     float: left;
     margin-top: 12vh;
     height: 8%;
-    width: 22%;
+    width: 23%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
     font-size: 14px;
@@ -392,15 +392,16 @@ export default {
 }
 .text5_ys{
     color: white;
-    margin-left: 35.2%;
+    margin-left: 144.2%;
     float: left;
-    margin-top: 9vh;
+    margin-top: -10vh;
     height: 5vh;
-    width: 22%;
+    width: 90%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
     font-size: 14px;
     /* initial-letter: 1; */
+    /* border: 1px solid red */
 }
 .line5_ys{
     background-image: url(../assets/images/ysblock/line1.png);
