@@ -10,18 +10,19 @@
             </div>
             <div class="digital_bk3"> 
             </div>
-            
+            z
         </div>
     </div>
 </template>
 
 <script >
   import DigitalVideo from '../components/dchina/digital_video'
+  import Video from 'video.js'
 export default {
     layout:'blank',
     components:{
-        DigitalVideo
-    }
+        DigitalVideo,Video
+    },
 
 }
 </script>
