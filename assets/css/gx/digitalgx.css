@@ -1,10 +1,16 @@
 /* DigitalGX.css  */
 /* 打造一朵壮美广西云，推进平台资源集约化 start */
- .box1 {
+.GX_index {
+    margin: 0;
+    padding: 0;
+
+}
+.box1 {
     width: 100vw;
     height: 60vh;
     background-image: url(../../images/gx/bg1.png);
     background-size: 100% 100%;
+
 }
 .box1 .tab,
 .box2 .tab,

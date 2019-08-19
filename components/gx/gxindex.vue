@@ -1,16 +1,16 @@
 <template>
-    <div class="GX.index">
+    <div class="GX_index">
         <div class="box1">
 			<div class="tab">
 				智慧城市
 			</div>
 			<div class="con">
-				<div class="pic_style">
+				<div class="pic_style" aos="fade-left">
 					<div class="img1"><img src="../../assets/images/gx/gxmap.png"  height="100%" width="100%" alt=""></div>
 					<div class="img2"><img src="../../assets/images/gx/gxmap1.png"  height="100%" width="100%" alt=""></div>
 				</div>
 				<div class="cspic_list">
-					<div class="cspic_list1">
+					<div class="cspic_list1" aos = "zoom-in">
 						<div class="img1"><img src="../../assets/images/gx/nanning.png" height="100%" width="100%" alt=""></div>
 						<div class="img2"><img src="../../assets/images/gx/nanning1.png" height="100%" width="100%" alt=""></div>
 					</div>
@@ -232,7 +232,7 @@
 			<div class="box4_an">
 			</div>
 			<div class="box4_row">
-				<div  class="box4_con1" aos="fade-right">
+				<div  class="box4_con1" aos = "fade-down">
 					<div>爱南宁APP</div>
 					<div><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 					<div>
@@ -242,7 +242,7 @@
 						并可随时查询各类政务信息，线上办理各类政务事项。
 					</div>
 				</div>
-				<div class="box4_con2" aos="fade-right">
+				<div class="box4_con2" aos = "fade-down" >
 					<div>南宁市政府网站集约化平台</div>
 					<div><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -250,7 +250,7 @@
 						市直各部门共70多个政府网站的集约化管理，减少重复建设和资源浪费。
 					</div>
 				</div>
-				<div class="box4_con3" aos="zoom-in">
+				<div class="box4_con3" aos = "fade-down">
 					<div>南宁市政府公共资产负债管理智能云平台</div>
 					<div><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -258,7 +258,7 @@
 						国资监管、融资服务、精准扶贫等领域的应用，打通数据壁垒，使信息流、资金流、实物流三流合一。
 					</div>
 				</div>
-				<div class="box4_con4">
+				<div class="box4_con4" aos = "fade-down">
 					<div>数字图书馆</div>
 					<div><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -269,7 +269,7 @@
 				</div>
 			</div>
 			<div class="box4_row">
-				<div  class="box4_con1">
+				<div  class="box4_con1" aos = "fade-up">
 					<div>柳州市大数据产业园</div>
 					<div><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -278,7 +278,7 @@
 						统一管理的大数据存储中心，为全市大数据共享、开放、应用提供基础支撑。
 					</div>
 				</div>
-				<div class="box4_con2">
+				<div class="box4_con2" aos = "fade-up">
 					<div>科技云盘</div>
 					<div><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 					<div>
@@ -287,7 +287,7 @@
 						广西交通投资集团等单位开展试点试用工作。
 					</div>
 				</div>
-				<div class="box4_con3">
+				<div class="box4_con3" aos = "fade-up">
 					<div>南宁市扬尘治理“慧眼”系统</div>
 					<div><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 					<div>
@@ -296,7 +296,7 @@
 						市智慧城管信息中心工作人员利用“慧眼”系统24小时全流程监控。
 					</div>
 				</div>
-				<div class="box4_con4">
+				<div class="box4_con4" aos = "fade-up" >
 					<div>智慧人社</div>
 					<div><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 					<div>
@@ -312,7 +312,7 @@
 			智慧农业
 			</div>
 			<div class="box5_con1">
-				<div class="con1_info">
+				<div class="con1_info" aos = "zoom-out-right">
 					<div class="info_t">阳光玫瑰葡萄园</div>
 					<p>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;东兰县武篆镇东里村是全县第一个阳光玫瑰葡萄园，智慧农业云信息与武篆镇共同启动了葡萄管家产业扶贫示范园，
@@ -321,12 +321,12 @@
 					项目分红覆盖全村59户贫困户223人。
 					</p>				
 				</div>
-				<div class="con1_pic"><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
+				<div class="con1_pic" aos = "zoom-out-left"><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 
 			</div>
 			<div class="box5_con2">
-				<div class="con2_info">
-					<div class="info_t">智能桑蚕</div>
+				<div class="con2_info" aos = "zoom-out-left">
+					<div class="info_t" >智能桑蚕</div>
 					<p>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广西蚕业技术推广总站摆脱传统的养蚕模式，携手慧云信息共同搭建了广西智能桑蚕种养物联网系统平台，让种桑蚕系统化、
 					标准化，大大提高了生产管理效率，降低了人工和时间成本，并将生产风险降到最低。广西建设了国内首个用于桑蚕养殖的智能物联网监控系统，
@@ -334,11 +334,11 @@
 					</p>
 					
 				</div>
-				<div class="con2_pic"><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
+				<div class="con2_pic" aos = "zoom-out-right"><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 
 			</div>
 			<div class="box5_con3">
-				<div class="con3_info">
+				<div class="con3_info" aos = "zoom-out-right">
 					<div class="info_t">鸣鸣果园</div>
 					<p>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鸣鸣果园采用人工智能技术，对农业生产进行科学预测，对有机栽培和综合种养进行有益实践，从国内外优良柑橘品种的追踪、筛选、培育，
@@ -348,7 +348,7 @@
 					</p>
 					
 				</div>
-				<div class="con3_pic"><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
+				<div class="con3_pic" aos = "zoom-out-left"><img src="../../assets/images/gx/bg6.jpg" height="100%" width="100%" alt=""></div>
 
 			</div>
 		</div>
