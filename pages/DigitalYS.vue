@@ -266,6 +266,8 @@ export default {
     height: 100%;
     width: 100%;
     float: left;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
 }
 .text1_ys{
     color: white;
@@ -275,8 +277,7 @@ export default {
     width: 72%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 14px;
-    z-index: 2;
+    font-size: 2.1vh;
 }
 .line1_ys{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -295,6 +296,8 @@ export default {
     height: 100%;
     width: 100%;
     float: right;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
 }
 .text2_ys{
     position: absolute;
@@ -306,7 +309,7 @@ export default {
     width: 23%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 14px;
+    font-size: 2.1vh;
 }
 .line2_ys{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -326,6 +329,8 @@ export default {
     height: 100%;
     width: 100%;
     float: right;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
 
 }
 .text3_ys{
@@ -338,7 +343,7 @@ export default {
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 14px;
+    font-size: 2.1vh;
 }
 .line3_ys{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -358,6 +363,8 @@ export default {
     height: 100%;
     width: 100%;
     float: left;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
 }
 .text4_ys{
     position: absolute;
@@ -369,7 +376,7 @@ export default {
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 14px;
+    font-size: 2.1vh;
 }
 .line4_ys{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -389,6 +396,8 @@ export default {
     height: 100%;
     width: 100%;
     float: right;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
 }
 .text5_ys{
     color: white;
@@ -399,7 +408,7 @@ export default {
     width: 90%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 14px;
+    font-size: 2.1vh;
     /* initial-letter: 1; */
     /* border: 1px solid red */
 }
