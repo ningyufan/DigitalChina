@@ -1,6 +1,6 @@
 <template>
-    <div class="GXheader">
-        header
+    <div class="DigitalGX">
+      
     </div>
 </template>
 
