@@ -30,21 +30,21 @@
           浏览器不支持 video 标签，建议升级浏览器。
       </video>
       <div class="poster hidden" v-if="!vedioCanPlay">
-        <img :style="fixStyle" src="PATH_TO_JPEG" alt="">
+        <img :style="fixStyle" alt="">
       </div>
     </div>
   </div>
 </template>
 
-<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+
 <script>
-  import Video from 'video.js'
+  // import Video from 'video.js'
   if (process.browser) { // 在这里根据环境引入wow.js
       var {WOW} = require('wowjs')
   }
   export default {
     components: {
-      Video
+      // Video
     },
     data() {
       return {

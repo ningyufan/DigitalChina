@@ -268,6 +268,8 @@ export default {
     float: left;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    z-index: 1;
+    position: relative;
 }
 .text1_ys{
     color: white;
@@ -298,6 +300,8 @@ export default {
     float: right;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    z-index: 1;
+    position: relative;
 }
 .text2_ys{
     position: absolute;
@@ -324,6 +328,7 @@ export default {
     width: 37%;
     float: right;
     margin-top:0.8%;
+    z-index: 2;
 }
 .img3_ys{
     height: 100%;
@@ -331,6 +336,8 @@ export default {
     float: right;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    z-index: 1;
+    position: relative;
 
 }
 .text3_ys{
@@ -365,6 +372,8 @@ export default {
     float: left;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    z-index: 1;
+    position: relative;
 }
 .text4_ys{
     position: absolute;
@@ -398,6 +407,10 @@ export default {
     float: right;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
+    /* z-index: 2;
+    position: relative; */
+    z-index: 1;
+    position: relative;
 }
 .text5_ys{
     color: white;
@@ -430,7 +443,8 @@ export default {
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 2;
+    z-index: 4;
+    position: relative;
 }
 .ys1_ys:hover .text1_ys{
     color: rgb(51, 135, 214);;
