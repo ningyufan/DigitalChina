@@ -1,0 +1,942 @@
+/* DigitalGX.css  */
+/* 打造一朵壮美广西云，推进平台资源集约化 start */
+ .box1 {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(../../images/gx/bg1.png);
+    background-size: 100% 100%;
+}
+.box1 .tab,
+.box2 .tab,
+.box3 .tab,
+.box4 .tab,
+.box5 .tab,
+.box6 .tab {
+    width: 100vw;
+    height: 15vh;
+    line-height: 15vh;
+    text-align: center;
+    position: relative;
+    font-size: 5vh;
+    color: rgb(48, 189, 245);
+    
+}
+.box1 .tab:hover,
+.box2 .tab:hover,
+.box3 .tab:hover,
+.box4 .tab:hover,
+.box5 .tab:hover,
+.box6 .tab:hover {
+    animation: tab_scale 1s linear 3;
+}
+
+@keyframes tab_scale{
+    33.3%{
+        font-size: 5vh;
+    }
+    66.6%{
+        font-size: 5.5vh;
+    }
+    99.9%{
+        font-size: 5vh;
+    }
+}
+
+
+.box1 .con {
+    height: 40vh;
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+}
+.box1 .con .pic_style {
+    width: 28vw;
+    height: 40vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-style: preserve-3d;
+    transform: perspective(800px) rotateY(0deg);
+}
+.box1 .con .pic_style .img1,
+.box1 .con .pic_style .img2{
+    width: 28vw;
+    height: 40vh;
+    position: absolute;
+    left:0;
+    top: 0;
+    backface-visibility: hidden;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 1s ease;
+}
+.box1 .con .cspic_list{
+    height: 40vh;
+    width: 52vw;
+    position: absolute;
+    right: 0;  
+}
+.box1 .con .cspic_list .cspic_list1{
+    height: 20vh;
+    width: 13vw;
+
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(800px) rotateY(0deg);
+}
+.box1 .con .cspic_list .cspic_list1 .img1,
+.box1 .con .cspic_list .cspic_list1 .img2{
+    height: 20vh;
+    width: 13vw;
+
+    position: absolute;
+    left:0;
+    top: 0;
+    backface-visibility: hidden;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 1s ease;
+}
+.box1 .con .cspic_list .cspic_list2 .img1,
+.box1 .con .cspic_list .cspic_list2 .img2{
+    height: 20vh;
+    width: 13vw;
+    position: absolute;
+    left:13vw;
+    top: 0;
+    backface-visibility: hidden;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 1s ease;
+}
+.box1 .con .cspic_list .cspic_list3 .img1,
+.box1 .con .cspic_list .cspic_list3 .img2{
+    height: 20vh;
+    width: 13vw;
+    position: absolute;
+    left:26vw;
+    top: 0;
+    backface-visibility: hidden;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 1s ease;
+}
+.box1 .con .cspic_list .cspic_list4 .img1,
+.box1 .con .cspic_list .cspic_list4 .img2{
+    height: 20vh;
+    width: 13vw;
+    position: absolute;
+    left:38vw;
+    top: 0;
+    backface-visibility: hidden;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 1s ease;
+}
+.box1 .con .cspic_list .cspic_list5 .img1,
+.box1 .con .cspic_list .cspic_list5 .img2{
+    height: 20vh;
+    width: 13vw;
+    position: absolute;
+    left:0vw;
+    bottom: 0;
+    backface-visibility: hidden;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 1s ease;
+}
+.box1 .con .cspic_list .cspic_list6 .img1,
+.box1 .con .cspic_list .cspic_list6 .img2{
+    height: 20vh;
+    width: 13vw;
+    position: absolute;
+    left:13vw;
+    bottom: 0;
+    backface-visibility: hidden;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 1s ease;
+}
+.box1 .con .cspic_list .cspic_list7 .img1,
+.box1 .con .cspic_list .cspic_list7 .img2{
+    height: 20vh;
+    width: 13vw;
+    position: absolute;
+    left:26vw;
+    bottom: 0;
+    backface-visibility: hidden;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 1s ease;
+}
+.box1 .con .cspic_list .cspic_list8 .img1,
+.box1 .con .cspic_list .cspic_list8 .img2{
+    height: 20vh;
+    width: 13vw;
+    position: absolute;
+    left:38vw;
+    bottom: 0;
+    backface-visibility: hidden;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 500ms ease;
+}
+
+.box1 .con .cspic_list .cspic_list1 .img2,
+.box1 .con .cspic_list .cspic_list2 .img2,
+.box1 .con .cspic_list .cspic_list3 .img2,
+.box1 .con .cspic_list .cspic_list4 .img2,
+.box1 .con .cspic_list .cspic_list5 .img2,
+.box1 .con .cspic_list .cspic_list6 .img2,
+.box1 .con .cspic_list .cspic_list7 .img2,
+.box1 .con .cspic_list .cspic_list8 .img2,
+.box1 .con .pic_style .img2 {
+    transform: translateZ(2px) rotateY(180deg);
+}
+.box1 .con .cspic_list .cspic_list1:hover .img1,
+.box1 .con .cspic_list .cspic_list2:hover .img1,
+.box1 .con .cspic_list .cspic_list3:hover .img1,
+.box1 .con .cspic_list .cspic_list4:hover .img1,
+.box1 .con .cspic_list .cspic_list5:hover .img1,
+.box1 .con .cspic_list .cspic_list6:hover .img1,
+.box1 .con .cspic_list .cspic_list7:hover .img1,
+.box1 .con .cspic_list .cspic_list8:hover .img1,
+.box1 .con .pic_style:hover .img1{
+    transform: perspective(800px) rotateY(180deg)
+}
+.box1 .con .cspic_list .cspic_list1:hover .img2,
+.box1 .con .cspic_list .cspic_list2:hover .img2,
+.box1 .con .cspic_list .cspic_list3:hover .img2,
+.box1 .con .cspic_list .cspic_list4:hover .img2,
+.box1 .con .cspic_list .cspic_list5:hover .img2,
+.box1 .con .cspic_list .cspic_list6:hover .img2,
+.box1 .con .cspic_list .cspic_list7:hover .img2,
+.box1 .con .cspic_list .cspic_list8:hover .img2,
+.box1 .con .pic_style:hover .img2 {
+    transform: perspective(800px) rotateY(0deg)
+}
+
+
+/* .box1 .con .con1,
+.box1 .con .con2,
+.box1 .con .con3 {
+    width: 33.3%;
+    height: 40vh;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.box1 .con .con1 img,
+.box1 .con .con2 img,
+.box1 .con .con3 img{
+    height: 100%;
+    width: 100%;   
+    transition: all 1s linear;
+}
+.box1 .con div.con1 .pic_info,
+.box1 .con div.con2 .pic_info,
+.box1 .con div.con3 .pic_info {
+    
+    height: 80%;
+    width: 80%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 10%;
+    top:100%;
+    transition: all 1s ease;
+    overflow: auto;
+}
+.box1 .con  .pic_info .cap{
+    height: 5vh;
+    width: 100%;
+    line-height:5vh;
+    text-align: center;
+}
+
+.box1 .con div.con1:hover .pic_info ,
+.box1 .con div.con2:hover .pic_info ,
+.box1 .con div.con3:hover .pic_info{
+    top:10%;
+}
+.box1 .con div.con1:hover img,
+.box1 .con div.con2:hover img ,
+.box1 .con div.con3:hover img{
+    height: 120%;
+    width: 120%;
+} */
+/* 打造一朵壮美广西云，推进平台资源集约化 end */
+
+
+/* 构建一张政务服务网，推进数字政务一体化 start */
+.box2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../images/gx/bg2.jpg);
+    background-size: 100% 100%; 
+    position: relative;
+}
+.box2 .left_an{
+    height: 50vh;
+    width: 50vh;
+    background-image: url(../../images/gx/shou1.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;  
+}
+.box2 .left_an .xiaoquan:hover {
+    animation-play-state: paused;
+}
+.box2 .left_an .daquan {
+    height:50vh;
+     width:50vh ;
+     background-image: url(../../images/gx/daquan.png);
+     background-size: 100% 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     animation: clockwise 10s linear infinite ;
+}
+.box2 .left_an .xiaoquan {
+    height:50vh;
+     width:50vh ;
+     background-image: url(../../images/gx/xiaoquan.png);
+     background-size: 100% 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     animation: counterclockwise 5s linear infinite ;   
+}
+
+@keyframes clockwise {
+    from{
+        transform: rotateZ(0deg)
+    }
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+@keyframes counterclockwise {
+    from{
+        transform: rotateZ(360deg)
+    }
+    to {
+        transform: rotateZ(0deg)
+    }
+}
+
+.box2 .right_an {
+    height: 60vh;
+    width: 27vw;
+    float: right;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.box2 .right_an .pic_info_show{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    transform-style: preserve-3d;
+    transform: perspective(800px) rotateY(-30deg)
+}
+
+.box2 .right_an .pic_info_hidden{ 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: aqua;
+    right: 27vw;
+    top:0;
+    transform-style: preserve-3d;
+    transform: perspective(800px) rotateY(-30deg);
+    transition: all 1s ease;
+    visibility: hidden;
+}
+
+.box2 .right_an:hover .pic_info_hidden{
+    right:2vw;
+    visibility: visible;
+    /* transform: translate(15vw,0) */
+}
+
+/* 3d 模型样式 start */
+li{
+    list-style: none;
+}
+.box{
+    width:200px;
+    height:200px;
+    position: relative;
+    margin:200px auto;
+    -webkit-transform-style:preserve-3d;
+    -webkit-transform:rotateX(13deg);
+    -webkit-animation:move 10s linear infinite;
+}
+.minbox{
+    width:10vw;
+    height:10vw;
+    position: absolute;
+    left:50px;
+    top:50px;
+    -webkit-transform-style:preserve-3d;
+}
+.minbox li{
+    width:100px;
+    height:100px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.minbox li:nth-child(1){
+    background: url(../../images/gx/zhihuichengshi.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:translateZ(50px);
+}
+.minbox li:nth-child(2){
+    background: url(../../images/gx/nongye.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:rotateX(180deg) translateZ(50px);
+}
+.minbox li:nth-child(3){
+    background: url(../../images/gx/jiaoyu.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:rotateX(-90deg) translateZ(50px);
+}
+.minbox li:nth-child(4){
+    background: url(../../images/gx/shebao.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:rotateX(90deg) translateZ(50px);
+}
+.minbox li:nth-child(5){
+    background: url(../../images/gx/jiaotong.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:rotateY(-90deg) translateZ(50px);
+}
+.minbox li:nth-child(6){
+    background: url(../../images/gx/yiliao.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:rotateY(90deg) translateZ(50px);
+}
+.maxbox{
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transform-style: preserve-3d;
+}
+.maxbox li{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border:1px solid #ccc;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    -webkit-transition:all 1s ease;
+}
+.maxbox li:nth-child(1){
+    background: url(../../images/gx/zhihuichengshi.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:translateZ(100px);
+}
+.maxbox li:nth-child(2){
+    background: url(../../images/gx/nongye.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:rotateX(180deg) translateZ(100px);
+}
+.maxbox li:nth-child(3){
+    background: url(../../images/gx/jiaoyu.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:rotateX(-90deg) translateZ(100px);
+}
+.maxbox li:nth-child(4){
+    background: url(../../images/gx/shebao.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:rotateX(90deg) translateZ(100px);
+}
+.maxbox li:nth-child(5){
+    background: url(../../images/gx/jiaotong.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:rotateY(-90deg) translateZ(100px);
+}
+.maxbox li:nth-child(6){
+    background: url(../../images/gx/yiliao.jpg) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-transform:rotateY(90deg) translateZ(100px);
+}
+.box:hover ol li:nth-child(1){
+    -webkit-transform:translateZ(300px);
+}
+.box:hover ol li:nth-child(2){
+    -webkit-transform:rotateX(180deg) translateZ(200px);
+}
+.box:hover ol li:nth-child(3){
+    -webkit-transform:rotateX(-90deg) translateZ(200px);
+}
+.box:hover ol li:nth-child(4){
+    -webkit-transform:rotateX(90deg) translateZ(200px);
+}
+.box:hover ol li:nth-child(5){
+    -webkit-transform:rotateY(-90deg) translateZ(200px);
+}
+.box:hover ol li:nth-child(6){
+    -webkit-transform:rotateY(90deg) translateZ(200px);
+}
+
+.box:hover ol li:nth-child(6) .pic_info_hidden{
+    right:2vw;
+    visibility: visible;
+}
+@keyframes move{
+    0%{
+        -webkit-transform: rotateX(13deg) rotateY(0deg);
+    }
+    100%{
+        -webkit-transform:rotateX(13deg) rotateY(360deg);
+    }
+}
+
+/* 3d 模型样式 end */
+/* 构建一张政务服务网，推进数字政务一体化 end */
+
+/* 实施一批创新融合项目，加快数字经济发展 start */
+.box3 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../images/gx/bg3.jpg);
+    background-size: 100% 100%; 
+    position: relative;
+}
+.box3 .box3_an {
+    height: 80vh;
+    width: 80vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(../../images/gx/quan2.png);
+    background-size: 100% 100%;
+    animation: clockwise 10s linear infinite;
+}
+.box3 .view {
+    height: 60vh;
+    width: 80vw;
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.5);
+    z-index: 2;
+    position: absolute;
+    right: 10vw;
+    top: 15vh;
+}
+
+.box3 .view .pic_info {
+    height: 55vh;
+    width: 70vw;
+    margin-left: 5vw;
+    /* background-color: #ccc; */
+    float: left;
+    overflow: auto;
+}
+.box3 .view .pic_info .top{
+    height: 8vh;
+    width: 100%;
+    line-height: 8vh;
+    text-align: center;
+    font-size: 4vh;
+}
+.box3 .view .pic_info .content p{
+    font-size:2.5vh;
+}
+.box3 .pic_list {
+    height: 25vh;
+    width: 80vw;
+    margin: 0 auto;
+    position: absolute;
+    left: 10vw;
+    bottom: 0;
+    /* background-color: bisque; */
+}
+.box3 .pic_list img {
+    height: 100%;
+    width: 100%;
+}
+.box3 .pic_list div{
+    width: 20vw;
+    height: 19vh;
+    background-color: blue;
+    float: left;
+    margin-top: 3vh;
+    transform-style: preserve-3d;
+    transform: perspective(800px) rotateY(-30deg);
+}
+.box3 .pic_list div:hover {
+    transform: perspective(800px) rotateY(0deg);
+}
+
+
+/* 实施一批创新融合项目，加快数字经济发展 end */
+
+/* 数字城市 start */
+.box4 {
+    width: 100vw;
+    height: 160vh;
+    background-image: url(../../images/gx/bg4.jpg);
+    background-size: 100% 100%; 
+    position: relative;
+}
+.box4 .box4_an {
+    height: 80vh;
+    width: 80vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(../../images/gx/qui1.png);
+    background-size: 100% 100%;
+    /* animation: an_scale 10s linear infinite; */
+}
+@keyframes an_scale {
+    0% {
+        height: 80vh;
+        width: 80vh;
+    }
+    25%{
+        height: 20vh;
+        width: 20vh;
+    }
+    50% {
+       
+        height: 80vh;
+        width: 80vh;
+    }
+    75%{
+        height: 20vh;
+        width: 20vh;
+    }
+    100% {
+       
+        height: 80vh;
+        width: 80vh;
+    }
+
+}
+.box4 .box4_row {
+    height: 70vh;
+    width: 80vw;
+    margin: 0 auto;
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    position: relative;
+}
+.box4 .box4_row .box4_con1,
+.box4 .box4_row .box4_con2,
+.box4 .box4_row .box4_con3,
+.box4 .box4_row .box4_con4 {
+    height: 60vh;
+    width: 18vw;
+    float: left;
+    padding:5px;
+    background-color: rgba(255, 255, 255, 0.7)
+}
+.box4 .box4_row .box4_con1{
+}
+
+.box4 .box4_row .box4_con2 {
+    position: absolute;
+    left: 20vw;
+    top: 10vh;
+}
+.box4 .box4_row .box4_con3 {
+    position: absolute;
+    left: 40vw;
+}
+.box4 .box4_row .box4_con4 {
+    position: absolute;
+    left: 60vw;
+    top: 10vh;
+}
+.box4 .box4_row .box4_con1 div:nth-child(1),
+.box4 .box4_row .box4_con2 div:nth-child(1),
+.box4 .box4_row .box4_con3 div:nth-child(1),
+.box4 .box4_row .box4_con4 div:nth-child(1){
+    height: 35px;
+    width: 100%;
+    line-height:35px;
+    text-align: center;
+    font-size: 20px;
+   }
+
+.box4 .box4_row .box4_con1 div:nth-child(2),
+.box4 .box4_row .box4_con2 div:nth-child(2),
+.box4 .box4_row .box4_con3 div:nth-child(2),
+.box4 .box4_row .box4_con4 div:nth-child(2){
+    height: 35%;
+    width: 100%;
+
+}
+.box4 .box4_row .box4_con1 div:nth-child(3),
+.box4 .box4_row .box4_con2 div:nth-child(3),
+.box4 .box4_row .box4_con3 div:nth-child(3),
+.box4 .box4_row .box4_con4 div:nth-child(3){
+    height: 50%;
+    width: 100%;
+    padding:10px 5px ;
+    overflow: auto;
+
+}
+
+/* 数字城市 end */
+
+
+/* 智慧农业 start  */
+.box5 {
+    width: 100vw;
+    height: 160vh;
+    background-image: url(../../images/gx/bg5.jpg);
+    background-size: 100% 100%; 
+    position: relative;
+}
+.box5 .box5_con1, 
+.box5 .box5_con2,
+.box5 .box5_con3{
+    height: 48vh;
+    width: 80vw;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    position: relative;
+    
+}
+.box5 .box5_con1 .con1_info,
+.box5 .box5_con3 .con3_info
+{
+    height: 44vh;
+    width: 60vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding:6vh 8vw 6vh 5vw;
+    box-shadow: 1vw 1vh 2px black ;
+}
+.box5 .box5_con1 .con1_info .info_t,
+.box5 .box5_con3 .con3_info .info_t
+{
+    height: 6vh;
+    width: 47vw;
+    position: absolute;
+    left: 5vw;
+    top: 6vh;
+    line-height: 6vh;
+    text-align: center;
+    font-size: 20px;
+}
+.box5 .box5_con1 .con1_info p,
+.box5 .box5_con3 .con3_info p
+{
+    height: 26vh;
+    width: 47vw;
+    position: absolute;
+    left: 5vw;
+    top: 12vh;
+
+}
+
+.box5 .box5_con1 div:nth-child(2),
+.box5 .box5_con3 div:nth-child(2)
+{
+    height: 30vh;
+    width: 20vw;
+    background-color: blue;
+    position: absolute;
+    
+    left: 57vw;
+    top: 10vh;
+    box-shadow: 1vw 1vh 2px black ;
+}
+
+.box5 .box5_con2 .con2_info
+{
+    height: 44vh;
+    width: 60vw;
+    position: absolute;
+    right: 2vw;
+    padding:6vh 5vw 6vh 8vw;
+    background-color:rgba(255, 255, 255, 0.5);
+    box-shadow: 1vw 1vh 2px black ;
+    
+}
+.box5 .box5_con2 .con2_info .info_t
+{
+    height: 6vh;
+    width: 47vw;
+    position: absolute;
+    right: 5vw;
+    top: 6vh;
+    line-height: 6vh;
+    text-align: center;
+    font-size: 20px;
+}
+.box5 .box5_con2 .con2_info p
+{
+    height: 26vh;
+    width: 47vw;
+    position: absolute;
+    right: 5vw;
+    top: 12vh;
+
+}
+.box5 .box5_con2 div:nth-child(2)
+{
+    height: 30vh;
+    width: 20vw;
+    background-color: blue;
+    position: absolute;
+    right: 57vw;
+    top: 10vh;
+    box-shadow: 1vw 1vh 2px black ;
+}
+
+/* 智慧农业 end  */
+
+
+
+/* 完善一系列保障措施，推动任务落实精细化 start */
+.box6 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../images/gx/bg6.jpg);
+    background-size: 100% 100%; 
+    position: relative;
+}
+.box6 .box6_an {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.box6 .box6_an .shadows li {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+    animation: shadows 10s linear infinite;
+    animation-direction: reverse;
+}
+.box6 .box6_an .drive li {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 1vw 3vw rgba(0, 0, 0, 0.1) inset;
+    width: 100vw;
+    height: 100vh;
+    animation: drive 10s linear infinite;
+    animation-direction: reverse;
+  
+}
+.box6 .box6_an .drive li:nth-child(1) {
+    animation-delay: 0;
+  }
+  
+  .box6 .box6_an .drive li:nth-child(2) {
+    animation-delay: -1s;
+  }
+  
+  .box6 .box6_an .drive li:nth-child(3) {
+    animation-delay: -2s;
+  }
+  
+  .box6 .box6_an .drive li:nth-child(4) {
+    animation-delay: -3s;
+  }
+  
+  .box6 .box6_an .drive li:nth-child(5) {
+    animation-delay: -4s;
+  }
+  
+  .box6 .box6_an .drive li:nth-child(6) {
+    animation-delay: -5s;
+  }
+  
+  .box6 .box6_an .drive li:nth-child(7) {
+    animation-delay: -6s;
+  }
+  
+  .box6 .box6_an .drive li:nth-child(8) {
+    animation-delay: -7s;
+  }
+  
+  .box6 .box6_an .drive li:nth-child(9) {
+    animation-delay: -8s;
+  }
+  
+  .box6 .box6_an .drive li:nth-child(10) {
+    animation-delay: -9s;
+  }
+  
+  .box6 .box6_an .shadows li:nth-child(1) {
+    animation-delay: 0;
+  }
+  
+  .box6 .box6_an .shadows li:nth-child(2) {
+    animation-delay: -1s;
+  }
+  
+  .box6 .box6_an .shadows li:nth-child(3) {
+    animation-delay: -2s;
+  }
+  
+  .box6 .box6_an .shadows li:nth-child(4) {
+    animation-delay: -3s;
+  }
+  
+  .box6 .box6_an .shadows li:nth-child(5) {
+    animation-delay: -4s;
+  }
+  
+  .box6 .box6_an .shadows li:nth-child(6) {
+    animation-delay: -5s;
+  }
+  
+  .box6 .box6_an .shadows li:nth-child(7) {
+    animation-delay: -6s;
+  }
+  
+  .box6 .box6_an .shadows li:nth-child(8) {
+    animation-delay: -7s;
+  }
+  
+  .box6 .box6_an .shadows li:nth-child(9) {
+    animation-delay: -8s;
+  }
+  
+  .box6 .box6_an .shadows li:nth-child(10) {
+    animation-delay: -9s;
+  }
+  
+  @keyframes drive {
+    0% {
+      transform: translate(-50%, -50%) scale(1.05) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(0) rotate(-45deg);
+    }
+  }
+  
+  @keyframes shadows {
+    0% {
+      transform: translate(-50%, -50%) scale(1.05) rotate(0deg);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(0) rotate(-45deg);
+      opacity: 0.25;
+    }
+  }
+  
+.box6 .box6_con {
+    height: 80vh;
+    width: 80vw;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+
+/* 完善一系列保障措施，推动任务落实精细化 end */
