@@ -80,7 +80,7 @@ export default {
 </script>
 
 <style>
-.bounceInLeft{
+/* .bounceInLeft{
     animation: bounceInLeft 2s ease-in;
 }
 .ysblock{
@@ -319,6 +319,6 @@ img{
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
     z-index: 2;
-}
+} */
 
 </style>
