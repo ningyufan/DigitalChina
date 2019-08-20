@@ -227,7 +227,7 @@
 		</div>
         <div class="box4">
 			<div class="tab">
-			数字城市
+			智慧生活
 			</div>
 			<div class="box4_an">
 			</div>
@@ -352,6 +352,86 @@
 
 			</div>
 		</div>
+		<div class="box6">
+			<div class="tab">
+				智慧教育
+			</div>
+			<div class="tab_two">
+				广西百校工程院校
+			</div>
+			<div class="box6_con">
+				<div class="con1" @click="con1_dialog = true">
+					<div class="con1_info">
+						瑞翼教育
+					</div>
+				</div>				
+				<el-dialog
+					title="瑞翼教育"
+					:visible.sync="con1_dialog"
+					width="60%"
+					:before-close="handleClose">
+					<span>
+						<video
+							:style="fixStyle"
+							autoplay loop 
+							lass="fillWidth" 
+							v-on:canplay="canplay"
+							width="100%"
+							>
+							<source src="../../assets/video/gx_box6_video1.mp4" type="video/mp4"/>
+							浏览器不支持 video 标签，建议升级浏览器。
+							<source src="../../assets/video/gx_box6_video1.mp4" type="video/webm"/>
+							浏览器不支持 video 标签，建议升级浏览器。
+						</video>
+						<br/>
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据中国“百校工程”
+							是教育部学校规划建设发展中心与曙光信息产业股份有限公司联合实施的产教融合创新项目。
+						</p><br/>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该项目自2016年5月启动，计划未来3年内，
+							在全国范围遴选百所应用型本科院校，以校企合作的模式，共建百所“曙光瑞翼大数据学院”，
+							百个“大数据应用创新中心”，并联网成“大数据应用协同创新网络”，打造兼具人才培养、
+							科研创新、服务地方经济功能的大数据超级平台。
+						</p><br/>
+					</span>
+					<span slot="footer" class="dialog-footer">
+						<el-button type="primary" @click="con1_dialog = false">返回</el-button>
+					</span>
+				</el-dialog>
+				<div class="con2">
+					<div class="tariffCards" @click="card1_dialog = true">
+						<div class="card1">
+							<img src="../../assets/images/gx/box6_pic2.png" alt="Economy">
+							<h3>南宁师范大学</h3>						
+						</div>
+						<div class="card2">
+							<img src="../../assets/images/gx/box6_pic3.png" alt="Premium Economy">
+							<h3>广西科技师范学院</h3>						
+						</div>
+						<div class="card3">
+							<img src="../../assets/images/gx/box6_pic4.png" alt="Business">
+							<h3>北部湾大学</h3>						
+						</div>
+						<div class="card4">
+							<img src="../../assets/images/gx/box6_pic5.png" alt="First" >
+							<h3>玉林师范学院</h3>						
+						</div>
+						<div class="card5">
+							<img src="../../assets/images/gx/box6_pic6.png" alt="First">
+							<h3>桂林理工大学南宁分校</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="box7">
+			<div class="tab">
+				数字广西
+			</div>
+			<div>
+				
+			</div>
+		</div>
         
     </div>
 </template>
@@ -361,6 +441,12 @@ export default {
     data() {
 		return {
 			pic_index:0,
+			con1_dialog: false,
+			con2_dialog: false,
+			con3_dialog: false,
+			con4_dialog: false,
+			con5_dialog: false,
+			con6_dialog: false,
 		}
 	},
     head:{
@@ -370,7 +456,6 @@ export default {
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
-            { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
             { rel: 'stylesheet', href: 'css/styles.css' }
         ]
@@ -381,6 +466,15 @@ export default {
             duration: 500,
 			once :false
         });
+	},
+	methods: {
+      handleClose(done) {
+        this.$confirm('确认关闭？')
+          .then(_ => {
+            done();
+          })
+          .catch(_ => {});
+      }
     }
     
 }
