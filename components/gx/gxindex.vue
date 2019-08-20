@@ -415,18 +415,15 @@
 					width="60%"
 					:before-close="handleClose">
 					<span>
-						<!-- <video
-							
+						<video
 							autoplay loop 
 							lass="fillWidth" 
-							
-							width="100%"
-							>
+							width="100%">
 							<source src="../../assets/video/gx_box6_video1.mp4" type="video/mp4"/>
 							浏览器不支持 video 标签，建议升级浏览器。
 							<source src="../../assets/video/gx_box6_video1.mp4" type="video/webm"/>
 							浏览器不支持 video 标签，建议升级浏览器。
-						</video> -->
+						</video>
 						<br/>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据中国“百校工程”
@@ -583,14 +580,12 @@ export default {
         script:[
             {src:'js/jquery.1.7.1.min.js'},
 			{src:'js/aos.js'},
-			{src:'js/script.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
 			{ rel: 'stylesheet', href: 'css/styles.css' },
 			{ rel: 'stylesheet', href: 'css/style.css' },
-			{ rel: 'stylesheet', href: 'css/can_style.css' }
         ]
     },
     mounted() {
