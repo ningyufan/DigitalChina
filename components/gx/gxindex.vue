@@ -229,7 +229,29 @@
 			<div class="tab">
 			智慧生活
 			</div>
-			<div class="box4_an">
+			<div class="box5_an">
+				<div class="night">
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+				</div>
 			</div>
 			<div class="box4_row">
 				<div  class="box4_con1" aos = "fade-down">
@@ -360,29 +382,51 @@
 				广西百校工程院校
 			</div>
 			<div class="box6_con">
-				<div class="con1" @click="con1_dialog = true">
-					<div class="con1_info">
-						瑞翼教育
-					</div>
+				<div class="con1" @click="dialog1 = true" aos = "fade-right">
+					<img src="../../assets/images/gx/box6_pic1.png" height="100%" width="100%" alt="">
 				</div>				
+				<div class="con2" aos = "fade-left">
+					<div class="tariffCards">
+						<div class="card1"  @click="dialog2 = true">
+							<img src="../../assets/images/gx/box6_pic2.png" alt="Economy">
+							<h3>南宁师范大学</h3>						
+						</div>
+						<div class="card2" @click="dialog3 = true">
+							<img src="../../assets/images/gx/box6_pic3.png" alt="Premium Economy">
+							<h3>广西科技师范学院</h3>						
+						</div>
+						<div class="card3" @click="dialog4 = true">
+							<img src="../../assets/images/gx/box6_pic4.png" alt="Business">
+							<h3>北部湾大学</h3>						
+						</div>
+						<div class="card4" @click="dialog5 = true">
+							<img src="../../assets/images/gx/box6_pic5.png" alt="First" >
+							<h3>玉林师范学院</h3>						
+						</div>
+						<div class="card5" @click="dialog6 = true">
+							<img src="../../assets/images/gx/box6_pic6.png" alt="First">
+							<h3>桂林理工大学南宁分校</h3>
+						</div>
+					</div>
+				</div>
 				<el-dialog
 					title="瑞翼教育"
-					:visible.sync="con1_dialog"
+					:visible.sync="dialog1"
 					width="60%"
 					:before-close="handleClose">
 					<span>
-						<video
-							:style="fixStyle"
+						<!-- <video
+							
 							autoplay loop 
 							lass="fillWidth" 
-							v-on:canplay="canplay"
+							
 							width="100%"
 							>
 							<source src="../../assets/video/gx_box6_video1.mp4" type="video/mp4"/>
 							浏览器不支持 video 标签，建议升级浏览器。
 							<source src="../../assets/video/gx_box6_video1.mp4" type="video/webm"/>
 							浏览器不支持 video 标签，建议升级浏览器。
-						</video>
+						</video> -->
 						<br/>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据中国“百校工程”
@@ -395,33 +439,119 @@
 						</p><br/>
 					</span>
 					<span slot="footer" class="dialog-footer">
-						<el-button type="primary" @click="con1_dialog = false">返回</el-button>
+						<el-button type="primary" @click="dialog1 = false">返回</el-button>
 					</span>
 				</el-dialog>
-				<div class="con2">
-					<div class="tariffCards" @click="card1_dialog = true">
-						<div class="card1">
-							<img src="../../assets/images/gx/box6_pic2.png" alt="Economy">
-							<h3>南宁师范大学</h3>						
+				<el-dialog
+					title="南宁师范大学"
+					:visible.sync="dialog2"
+					width="60%"
+					:before-close="handleClose">
+					<span>
+						<div class="dialog_pic">
+							<img src="../../assets/images/gx/box6_pic2.png" height="100%" alt="">
 						</div>
-						<div class="card2">
-							<img src="../../assets/images/gx/box6_pic3.png" alt="Premium Economy">
-							<h3>广西科技师范学院</h3>						
+						<div class="dialog_info">
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								广西师范学院“曙光大数据学院”，是由教育部统筹，教育部规划司指导，
+								联合曙光信息产业股份有限公司发起的数据中国“百校工程”产教融合，校企合作建设项目，
+								曙光大数据学院以产教融合、校企合作为核心，共同创建，共同管理，并真正贯彻国际工程教育专业认证
+								（OBE）人才培养理念，以培养具备解决复杂工程问题能力的应用创新型人才为目标，针对性地开展相关专业的课程／
+								教材设计开发、学生／师资团队建设、项目实践培训等教育服务工作。
+							</p><br/>
 						</div>
-						<div class="card3">
-							<img src="../../assets/images/gx/box6_pic4.png" alt="Business">
-							<h3>北部湾大学</h3>						
+						
+					</span>
+					<span slot="footer" class="dialog-footer">
+						<el-button type="primary" @click="dialog2 = false">返回</el-button>
+					</span>
+				</el-dialog>
+				<el-dialog
+					title="广西科技师范学院"
+					:visible.sync="dialog3"
+					width="60%"
+					:before-close="handleClose">
+					<span>
+						<div class="dialog_pic">
+							<img src="../../assets/images/gx/box6_pic3.png" height="100%" alt="">
 						</div>
-						<div class="card4">
-							<img src="../../assets/images/gx/box6_pic5.png" alt="First" >
-							<h3>玉林师范学院</h3>						
+						<div class="dialog_info">
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								
+							</p><br/>
 						</div>
-						<div class="card5">
-							<img src="../../assets/images/gx/box6_pic6.png" alt="First">
-							<h3>桂林理工大学南宁分校</h3>
+					</span>
+					<span slot="footer" class="dialog-footer">
+						<el-button type="primary" @click="dialog3 = false">返回</el-button>
+					</span>
+				</el-dialog>
+				<el-dialog
+					title="北部湾大学"
+					:visible.sync="dialog4"
+					width="60%"
+					:before-close="handleClose">
+					<span>
+						<div class="dialog_pic">
+							<img src="../../assets/images/gx/box6_pic4.png" height="100%" alt="">
 						</div>
-					</div>
-				</div>
+						<div class="dialog_info">
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								
+							</p><br/>
+						</div>
+					</span>
+					<span slot="footer" class="dialog-footer">
+						<el-button type="primary" @click="dialog4 = false">返回</el-button>
+					</span>
+				</el-dialog>
+				<el-dialog
+					title="玉林师范学院"
+					:visible.sync="dialog5"
+					width="60%"
+					:before-close="handleClose">
+					<span>
+						<div class="dialog_pic">
+							<img src="../../assets/images/gx/box6_pic5.png" height="100%" alt="">
+						</div>
+						<div class="dialog_info">
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玉林师范学院作为桂东南唯一一所本科院校，
+								在面向东盟、北部湾区域产业发展的大环境下，肩负着为地方区域经济信息化建设、
+								产业转型发展提供“大数据、云计算”应用型高级技术人才的重要使命。
+								“玉林师范学院—曙光大数据应用创新中心”挂牌成立，既顺应了时代发展和玉林市新兴产业的需要，
+								也是学校建设应用型高水平大学、推进校企合作，深化应用型人才培养模式的要求。在今后的工作中，
+								该校将依托大数据应用创新中心平台，与政府、曙光信息科技有限公司加强合作，
+								共同培养大数据行业应用型技术人才；在农业、旅游、健康医疗、教育、
+								智能城市等应用领域为地方发展提供智慧管理和科学决策的提供信息基础与运作手段；同时，
+								为教师新技术知识更新、行业实践、大数据领域应用开发提供研发条件和技术支撑。								
+							</p><br/>
+						</div>
+					</span>
+					<span slot="footer" class="dialog-footer">
+						<el-button type="primary" @click="dialog5 = false">返回</el-button>
+					</span>
+				</el-dialog>
+				<el-dialog
+					title="桂林理工大学南宁分校"
+					:visible.sync="dialog6"
+					width="60%"
+					:before-close="handleClose">
+					<span>
+						<div class="dialog_pic">
+							<img src="../../assets/images/gx/box6_pic6.png" height="100%" alt="">
+						</div>
+						<div class="dialog_info">
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								2017年12月，教育部学校规划建设发展中心组织专家对申报院校进行了集中审核，
+								按照“院校申报、企业对接、方案优化”的基本原则，综合考量专家组意见，统筹考虑地域分布、
+								学校类型及专业领域等维度，最终遴选桂林理工大学南宁分校为广西区第五个数据中国“百校工程”建设院校。
+								
+							</p><br/>
+						</div>
+					</span>
+					<span slot="footer" class="dialog-footer">
+						<el-button type="primary" @click="dialog6 = false">返回</el-button>
+					</span>
+				</el-dialog>
 			</div>
 		</div>
 		<div class="box7">
@@ -441,23 +571,26 @@ export default {
     data() {
 		return {
 			pic_index:0,
-			con1_dialog: false,
-			con2_dialog: false,
-			con3_dialog: false,
-			con4_dialog: false,
-			con5_dialog: false,
-			con6_dialog: false,
+			dialog1: false,
+			dialog2: false,
+			dialog3: false,
+			dialog4: false,
+			dialog5: false,
+			dialog6: false,
 		}
 	},
     head:{
         script:[
             {src:'js/jquery.1.7.1.min.js'},
-            {src:'js/aos.js'},
+			{src:'js/aos.js'},
+			{src:'js/script.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
-            { rel: 'stylesheet', href: 'css/styles.css' }
+			{ rel: 'stylesheet', href: 'css/styles.css' },
+			{ rel: 'stylesheet', href: 'css/style.css' },
+			{ rel: 'stylesheet', href: 'css/can_style.css' }
         ]
     },
     mounted() {
