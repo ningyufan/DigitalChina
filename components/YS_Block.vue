@@ -1,324 +1,316 @@
 <template>
-    <div class="ysblock">
-        <div class="row">    
-            <div class="one" >
-                <div class="box1">
-                    <div class="ys1">
-                        <a href="#"><img src="../assets/images/ysblock/ys1.png" class="img1" height="100%" width="100%"></a>
-                        <a href="#"><div class="text1">玉林师范学院——曙光大数据应用创新中心揭牌成立</div></a>
-                        <div class="line1"></div>
-                    </div>
-                    <div class="ys2">
-                        <a href="#"><img src="../assets/images/ysblock/ys2.png" class="img2" height="100%" width="100%"></a>
-                        <a href="#"><div class="text2">计算机学院积极推进“玉林师范学院——曙光大数据学院”的建设</div></a>
-                        <div class="line2"></div>
-                    </div>
-                    <div class="ys3">
-                        <a href="#"><img src="../assets/images/ysblock/ys3.png" class="img3" height="100%" width="100%"></a>
-                        <a href="#"><div class="text3">学校举行市校共建玉林市大数据研究院揭牌仪式暨签约仪式</div></a>
-                        <div class="line3"></div>
-                    </div>
-                    <div class="ys4">
-                        <a href="#"><img src="../assets/images/ysblock/ys4.png" class="img4" height="100%" width="100%"></a>
-                        <a href="#"><div class="text4">曙光集团莅临大数据学院开展曙光大数据平台使用培训会</div></a>
-                        <div class="line4"></div>
-                    </div>
-                    <div class="ys5">
-                        <a href="#"><img src="../assets/images/ysblock/ys5.png" class="img5" height="100%" width="100%"></a>
-                        <a href="#"><div class="text5">学校领导到大数据应用创新中心（暨大数据学院）指导工作</div></a>
-                        <div class="line5"></div>
-                    </div>
+    <div class="row_ys">    
+        <div class="one_ys" >
+            <div class="box1_ys">
+                <div class="ys1_ys">
+                    <a href="#"><img src="../assets/images/ysblock/ys1.png" class="img1_ys" height="100%" width="100%"></a>
+                    <a href="#"><div class="text1_ys">玉林师范学院——曙光大数据应用创新中心揭牌成立</div></a>
+                    <div class="line1_ys"></div>
+                </div>
+                <div class="ys2_ys">
+                    <a href="#"><img src="../assets/images/ysblock/ys2.png" class="img2_ys" height="100%" width="100%"></a>
+                    <a href="#"><div class="text2_ys">计算机学院积极推进“玉林师范学院——曙光大数据学院”的建设</div></a>
+                    <div class="line2_ys"></div>
+                </div>
+                <div class="ys3_ys">
+                    <a href="#"><img src="../assets/images/ysblock/ys3.png" class="img3_ys" height="100%" width="100%"></a>
+                    <a href="#"><div class="text3_ys">学校举行市校共建玉林市大数据研究院揭牌仪式暨签约仪式</div></a>
+                    <div class="line3_ys"></div>
+                </div>
+                <div class="ys4_ys">
+                    <a href="#"><img src="../assets/images/ysblock/ys4.png" class="img4_ys" height="100%" width="100%"></a>
+                    <a href="#"><div class="text4_ys">曙光集团莅临大数据学院开展曙光大数据平台使用培训会</div></a>
+                    <div class="line4_ys"></div>
+                </div>
+                <div class="ys5_ys">
+                    <a href="#"><img src="../assets/images/ysblock/ys5.png" class="img5_ys" height="100%" width="100%"></a>
+                    <a href="#"><div class="text5_ys">学校领导到大数据应用创新中心（暨大数据学院）指导工作</div></a>
+                    <div class="line5_ys"></div>
                 </div>
             </div>
         </div>
-        
     </div>
 </template>
 
 <script>
 import animated from 'animate.css' 
 export default {
-    methods: {
-	  	handleAnimate() {
-	  		let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-	  		let vh = document.documentElement.clientHeight;
-	  		let dom = document.querySelectorAll(".animate");
-	  		[].slice.call(dom).forEach(v => {
-	  			if(top + vh > v.offsetTop){
-	  				var delay = v.dataset.delay;
-	  				if(delay){
-	  					setTimeout(() => {
-	  						v.style.opacity = 1;
-		  					v.classList.add(v.dataset.ani)
-		  				}, delay)
-	  				}else{
-	  					v.style.opacity = 1;
-	  					v.classList.add(v.dataset.ani)
-	  				}
-	  			}else{
-	  				v.classList.remove(v.dataset.ani)
-	  				v.style.opacity = 0;
-	  			}
-	  		})
- 
-	  	}
-	  },
-    mounted() {
-    this.$nextTick(() => {
-        this.handleAnimate()//初始化第一次加载时在视口内就执行动画
-        addEventListener('scroll', this.handleScroll);
-        addEventListener('scroll', this.handleAnimate);
-
-    })
-    
+     head:{
+        script:[
+            {src:'js/jquery.1.7.1.min.js'},
+            {src:'js/aos.js'},
+        ],
+        link: [
+            { rel: 'stylesheet', href: 'css/normalize.css' },
+            { rel: 'stylesheet', href: 'css/demo.css' },
+            { rel: 'stylesheet', href: 'js/aos.css' },
+            { rel: 'stylesheet', href: 'css/styles.css' }
+        ]
     },
-    destroyed() {
-        removeEventListener('scroll', this.handleScroll);//避免影响其他页面
-        removeEventListener('scroll', this.handleAnimate);
+    mounted(){
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
     }
+
 }
 </script>
 
 <style>
-/* .bounceInLeft{
-    animation: bounceInLeft 2s ease-in;
-}
-.ysblock{
-    width: 100%;
-    height: 100%;
-    margin: 5vh -5vh auto;
-    z-index: 2;
-}
-.row{
-    height: 100%;
-    width:100%;
-}
-.one{
+.one_ys{
     width: 70%;
-    height: 100%;
-}
-.tow{
-    width: 30%;
-    height: 100%;
-}
-.one{
     background-image: url(../assets/images/ysblock/block.png);
     background-size: 100% 100%;
     border: 2px solid transparent;
+    height: 60vh;
+    margin-left: -4%;
+    margin-top: 4vh
 }
-.box1{
+.tow_ys{
+    width: 30%;
+    height: 100%;
+}
+.box1_ys{
     height: 82%;
     width: 72%;
     text-align: center;
     margin-top: 3.8vh;
     margin-left: 15%;
+    /* border: 1px solid red; */
 }
-.ys1{
+.ys1_ys{
     height: 60%;
     width: 62%;
     float: left;
 }
-.img1{
+.img1_ys{
     height: 100%;
     width: 100%;
     float: left;
-}
-.text1{
-    position: absolute;
-    color: white;
-    margin-left: 48.8%;
-    float: left;
-    margin-top: 3vh;
-    height: 8%;
-    width: 22%;
-    -webkit-transform:scale(1);
-    -webkit-transition-duration: 0.5s;
-}
-.line1{
-    background-image: url(../assets/images/ysblock/line1.png);
-    height: 23.5%;
-    width: 110%;
-    margin-left: 175%;
-    margin-top: 3vh;
-}
-.ys2{
-    height: 29.5%;
-    width: 37%;
-    float: right;
-}
-.img2{
-    height: 100%;
-    width: 100%;
-    float: right;
-}
-.text2{
-    position: absolute;
-    color: white;
-    margin-left: 23.8%;
-    float: left;
-    margin-top: 12vh;
-    height: 8%;
-    width: 22%;
-    -webkit-transform:scale(1);
-    -webkit-transition-duration: 0.5s;
-}
-.line2{
-    background-image: url(../assets/images/ysblock/line1.png);
-    height: 48%;
-    width: 185%;
-    margin-left: 123%;
-    margin-top: 12vh;
-}
-.ys3{
-    height: 29.5%;
-    width: 37%;
-    float: right;
-    margin-top:0.8%;
-}
-.img3{
-    height: 100%;
-    width: 100%;
-    float: right;
-
-}
-.text3{
-    position: absolute;
-    color: white;
-    margin-left: 23.5%;
-    float: left;
-    margin-top: 6vh;
-    height: 8%;
-    width: 22%;
-    -webkit-transform:scale(1);
-    -webkit-transition-duration: 0.5s;
-}
-.line3{
-    background-image: url(../assets/images/ysblock/line1.png);
-    height: 48%;
-    width: 185%;
-    margin-left: 123%;
-    margin-top: 6vh;
-}
-.ys4{
-    height: 39%;
-    width: 49.5%;
-    float: left;
-    margin-top: 1%;
-}
-.img4{
-    height: 100%;
-    width: 100%;
-    float: left;
-}
-.text4{
-    position: absolute;
-    color: white;
-    margin-left: 48.8%;
-    float: left;
-    margin-top: 0vh;
-    height: 8%;
-    width: 22%;
-    -webkit-transform:scale(1);
-    -webkit-transition-duration: 0.5s;
-}
-.line4{
-    background-image: url(../assets/images/ysblock/line1.png);
-    height: 36.5%;
-    width: 138%;
-    margin-left: 219%;
-    margin-top: 0vh;
-}
-.ys5{
-    height: 39%;
-    width: 49.5%;
-    float: right;
-    margin-top: 1%;
-}
-.img5{
-    height: 100%;
-    width: 100%;
-    float: right;
-}
-.text5{
-    position: absolute;
-    color: white;
-    margin-left: 28.5%;
-    float: left;
-    margin-top: 9vh;
-    height: 8%;
-    width: 22%;
-    -webkit-transform:scale(1);
-    -webkit-transition-duration: 0.5s;
-	
-}
-.line5{
-    background-image: url(../assets/images/ysblock/line1.png);
-    height: 36.5%;
-    width: 138%;
-    margin-left: 117%;
-    margin-top: 9vh;
-}
-img{
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
     z-index: 1;
     position: relative;
 }
-.img1:hover,.img2:hover,.img3:hover.img4:hover.img5:hover{
-    border: 2px solid white;
-    -webkit-transform:scale(1.2);
-	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 2;
-}
-.ys1:hover .text1{
-    color: blue;
+.text1_ys{
+    color: white;
+    margin-left: 196.5%;
+    margin-top: 3vh;
+    height: 8%;
+    width: 72%;
     -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    font-size: 2.1vh;
 }
-.ys1:hover .img1{
-    border: 2px solid white;
-    -webkit-transform:scale(1.2);
-	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 2;
+.line1_ys{
+    background-image: url(../assets/images/ysblock/line1.png);
+    background-size: 100% 100%;
+    height: 22%;
+    width: 100%;
+    margin-left: 180%;
+    margin-top: -2.3vh;
 }
-.ys2:hover .text2{
-    color: blue;
+.ys2_ys{
+    height: 29.5%;
+    width: 37%;
+    float: right;
+}
+.img2_ys{
+    height: 100%;
+    width: 100%;
+    float: right;
     -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    z-index: 1;
+    position: relative;
 }
-.ys2:hover .img2{
-    border: 2px solid white;
-    -webkit-transform:scale(1.2);
-	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 2;
-}
-.ys3:hover .text3{
-    color: blue;
+.text2_ys{
+    position: absolute;
+    color: white;
+    margin-left: 29%;
+    float: left;
+    margin-top: 12vh;
+    height: 8%;
+    width: 23%;
     -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    font-size: 2.1vh;
 }
-.ys3:hover .img3{
-    border: 2px solid white;
-    -webkit-transform:scale(1.2);
-	-webkit-box-shadow:0px 0px 30px #ccc;
+.line2_ys{
+    background-image: url(../assets/images/ysblock/line1.png);
+    background-size: 100% 100%;
+    height: 45%;
+    width: 168%;
+    margin-left: 131%;
+    margin-top: 12vh;
+}
+.ys3_ys{
+    height: 29.5%;
+    width: 37%;
+    float: right;
+    margin-top:0.8%;
     z-index: 2;
 }
-.ys4:hover .text4{
-    color: blue;
+.img3_ys{
+    height: 100%;
+    width: 100%;
+    float: right;
     -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    z-index: 1;
+    position: relative;
+
 }
-.ys4:hover .img4{
-    border: 2px solid white;
-    -webkit-transform:scale(1.2);
-	-webkit-box-shadow:0px 0px 30px #ccc;
-    z-index: 2;
-}
-.ys5:hover .text5{
-    color: blue;
+.text3_ys{
+    position: absolute;
+    color: white;
+    margin-left: 29.4%;
+    float: left;
+    margin-top: 6vh;
+    height: 8%;
+    width: 22%;
     -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    font-size: 2.1vh;
 }
-.ys5:hover .img5{
+.line3_ys{
+    background-image: url(../assets/images/ysblock/line1.png);
+    background-size: 100% 100%;
+    height: 44%;
+    width: 168%;
+    margin-left: 131.3%;
+    margin-top: 6vh;
+}
+.ys4_ys{
+    height: 39%;
+    width: 49.5%;
+    float: left;
+    margin-top: 1%;
+}
+.img4_ys{
+    height: 100%;
+    width: 100%;
+    float: left;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    z-index: 1;
+    position: relative;
+}
+.text4_ys{
+    position: absolute;
+    color: white;
+    margin-left: 61%;
+    float: left;
+    margin-top: 0vh;
+    height: 8%;
+    width: 22%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    font-size: 2.1vh;
+}
+.line4_ys{
+    background-image: url(../assets/images/ysblock/line1.png);
+    background-size: 100% 100%;
+    height: 33%;
+    width: 126%;
+    margin-left: 225.5%;
+    margin-top: 0vh;
+}
+.ys5_ys{
+    height: 39%;
+    width: 49.5%;
+    float: right;
+    margin-top: 1%;
+}
+.img5_ys{
+    height: 100%;
+    width: 100%;
+    float: right;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    /* z-index: 2;
+    position: relative; */
+    z-index: 1;
+    position: relative;
+}
+.text5_ys{
+    color: white;
+    margin-left: 144.2%;
+    float: left;
+    margin-top: -10vh;
+    height: 5vh;
+    width: 90%;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    font-size: 2.1vh;
+    /* initial-letter: 1; */
+    /* border: 1px solid red */
+}
+.line5_ys{
+    background-image: url(../assets/images/ysblock/line1.png);
+    background-size: 100% 100%;
+    height: 33%;
+    width: 127%;
+    margin-left: 123.3%;
+    margin-top: 9vh;
+}
+.img1_ys:hover,.img2_ys:hover,.img3_ys:hover.img4_ys:hover.img5_ys:hover{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 4;
+    position: relative;
+}
+.ys1_ys:hover .text1_ys{
+    color: rgb(51, 135, 214);;
+    -webkit-transform:scale(1.1);
+}
+.ys1_ys:hover .img1_ys{
     border: 2px solid white;
     -webkit-transform:scale(1.2);
 	-webkit-box-shadow:0px 0px 30px #ccc;
     z-index: 2;
-} */
+}
+.ys2_ys:hover .text2_ys{
+    color: rgb(51, 135, 214);
+    -webkit-transform:scale(1.1);
+}
+.ys2_ys:hover .img2_ys{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 2;
+}
+.ys3_ys:hover .text3_ys{
+    color: rgb(51, 135, 214);
+    -webkit-transform:scale(1.1);
+}
+.ys3_ys:hover .img3_ys{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 2;
+}
+.ys4_ys:hover .text4_ys{
+    color: rgb(51, 135, 214);
+    -webkit-transform:scale(1.1);
+}
+.ys4_ys:hover .img4_ys{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 2;
+}
+.ys5_ys:hover .text5_ys{
+    color: rgb(51, 135, 214);
+    -webkit-transform:scale(1.1);
+}
+.ys5_ys:hover .img5_ys{
+    border: 2px solid white;
+    -webkit-transform:scale(1.2);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+    z-index: 2;
+}
 
 </style>
