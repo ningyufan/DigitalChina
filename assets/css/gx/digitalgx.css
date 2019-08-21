@@ -1,11 +1,49 @@
 /* DigitalGX.css  */
+/* gx_header.css  start*/
+.left_col{
+    width: 60%;
+    height: 60vh;
+    float: left;
+  
+  }
+  .right_col {
+    width: 40%;
+    height: 60vh;
+    float: right;
+  }
+  .detail {
+    margin: 10vh 8vw;
+  }
+  .detail .title{
+    font-size: 4vh;
+    margin: 2vh auto;
+  
+  }
+  .detail p{
+    font-size: 2.5vh;
+    /* margin: 2vh auto; */
+    color:rgb(51, 135, 214);
+  }
+  hr {
+    margin: 3vh 0 3vh 0;
+    height:1px;
+    border:none;
+    border-top:1px solid #6ec1e2;
+  }
+  .detail div {
+      text-align: center;
+  }
+/* gx_header.css  end */
 
-/* 智慧城市 start */
-.GX_index {
-    margin: 0;
-    padding: 0;
-
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7{
+    min-height: 600px;
 }
+/* 智慧城市 start */
 .box1 {
     width: 100vw;
     height: 60vh;
@@ -214,56 +252,6 @@
 .box1 .con .pic_style:hover .img2 {
     transform: perspective(800px) rotateY(0deg)
 }
-
-
-/* .box1 .con .con1,
-.box1 .con .con2,
-.box1 .con .con3 {
-    width: 33.3%;
-    height: 40vh;
-    float: left;
-    position: relative;
-    overflow: hidden;
-}
-.box1 .con .con1 img,
-.box1 .con .con2 img,
-.box1 .con .con3 img{
-    height: 100%;
-    width: 100%;   
-    transition: all 1s linear;
-}
-.box1 .con div.con1 .pic_info,
-.box1 .con div.con2 .pic_info,
-.box1 .con div.con3 .pic_info {
-    
-    height: 80%;
-    width: 80%;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 10%;
-    top:100%;
-    transition: all 1s ease;
-    overflow: auto;
-}
-.box1 .con  .pic_info .cap{
-    height: 5vh;
-    width: 100%;
-    line-height:5vh;
-    text-align: center;
-}
-
-.box1 .con div.con1:hover .pic_info ,
-.box1 .con div.con2:hover .pic_info ,
-.box1 .con div.con3:hover .pic_info{
-    top:10%;
-}
-.box1 .con div.con1:hover img,
-.box1 .con div.con2:hover img ,
-.box1 .con div.con3:hover img{
-    height: 120%;
-    width: 120%;
-} */
 /* 智慧城市 end */
 
 
@@ -570,13 +558,13 @@ li{
     float: left;
     margin-top: 3vh;
     transform-style: preserve-3d;
-    transform: perspective(800px) rotateY(-30deg);
+    transform: perspective(800px) rotateY(-40deg);
+    transition: all 500ms ease-in-out;
 }
 .box3 .pic_list div:hover {
     transform: perspective(800px) rotateY(0deg);
+    transform: scale(1.2,1.2)
 }
-
-
 /* 智慧旅游 end */
 
 /* 数字城市 start */
@@ -586,10 +574,6 @@ li{
     background-image: url(../../images/gx/bg4.jpg);
     background-size: 100% 100%; 
     position: relative;
-}
-.box4 .box4_an {
-    height: 100vh;
-    width: 100vw;
 }
 .box4 .box4_row {
     height: 70vh;
@@ -665,6 +649,13 @@ li{
     background-image: url(../../images/gx/bg5.jpg);
     background-size: 100% 100%; 
     position: relative;
+}
+.box4 .box5_an {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .box5 .box5_con1, 
 .box5 .box5_con2,
@@ -794,11 +785,11 @@ li{
     /* background-color:rgba(48, 189, 245, 0.6) */
 }
 .box6 .box6_con .con1{
-    height: 70vh ;
-    width: 35vw;
+    height: 60vh ;
+    width: 30vw;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 2vw;
+    top: 5vh;
     background-color: #8063E1;
     background-image: linear-gradient(135deg, #BD7BE8, #8063E1);
     box-shadow: 20px 20px 60px rgba(34, 50, 84, 0.5), 1px 1px 0px 1px #8063E1;
@@ -810,7 +801,7 @@ li{
 .box6 .box6_con .con1:hover {
     transform: perspective(800px) rotateY(0deg);
     background-image: linear-gradient(60deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 80%);
-
+    transform: scale(0.8, 0.8);
 }
 .box6 .box6_con .con1:after {
     position: absolute;
@@ -944,7 +935,63 @@ li{
     height: 100vh;
     background-image: url(../../images/gx/bg7.jpg);
     background-size: 100% 100%; 
+    
+}
+.box7 .box7_con {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0,0.5);
+    box-shadow: 2vh 1vw 5px black;
     position: relative;
+    background-image: url(../../images/gx/box7_bgpic.png);
+    background-size: 100% 100%;
+}
+.box7 .box7_con .con_nav {
+    width: 25vw;
+    height: 80vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background-color: rebeccapurple; */
+}
+.box7 .box7_con .con_nav div{
+    height: 14vh;
+    width: 21vw;
+    margin: 2vh auto;
+    /* background-color: #21BBFE;  */
+    border-radius: 40px;
+    line-height: 14vh;
+    text-align: center;
+    font-size: 4vh;
+    color:white
+}
+.box7 .box7_con .con_nav div:hover {
+    color: #21BBFE; 
+}
+
+.box7 .box7_con .con_info {
+    width: 50vw;
+    height: 70vh;
+    position: absolute;
+    left: 27.5vw;
+    top: 5vh;
+    overflow: auto;
+    /* background-color: red; */
+}
+.box7 .box7_con .con_info h2 {
+    margin: 0;
+    color: white;
+}
+.box7 .box7_con .con_info ul {
+    margin: 3vh  0;
+}
+.box7 .box7_con .con_info li {
+    margin: 0;
+    line-height: 6vh;
+    font-size: 3vh;
+    list-style-image: url(../../images/gx/list_style.png);
+    background-size: 100% 100%;
 }
 
 /* 数字广西 end */

@@ -8,12 +8,12 @@
            <div class="but-box">
              <div>
                <p class="chinese wow bounceInLeft">
-                 <nuxt-link to="/chinese_index">中文</nuxt-link>
+                 <a class="index_a" href="/chinese_index">中文</a>
               </p>
              </div>
              <div>
               <p class="english wow bounceInRight">
-                 <nuxt-link to="/english_index">English</nuxt-link>
+                 <a class="index_a" href="/english_index">English</a>
               </p> 
              </div>
            </div>

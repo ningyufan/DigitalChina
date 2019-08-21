@@ -1,16 +1,16 @@
 <template>
     <div class="GX_index">
-        <div class="box1">
+        <div id="box1" class="box1">
 			<div class="tab">
 				智慧城市
 			</div>
-			<div class="con">
-				<div class="pic_style" aos="fade-left">
+			<div class="con"  aos = "zoom-in">
+				<div class="pic_style">
 					<div class="img1"><img src="../../assets/images/gx/gxmap.png"  height="100%" width="100%" alt=""></div>
 					<div class="img2"><img src="../../assets/images/gx/gxmap1.png"  height="100%" width="100%" alt=""></div>
 				</div>
 				<div class="cspic_list">
-					<div class="cspic_list1" aos = "zoom-in">
+					<div class="cspic_list1">
 						<div class="img1"><img src="../../assets/images/gx/nanning.png" height="100%" width="100%" alt=""></div>
 						<div class="img2"><img src="../../assets/images/gx/nanning1.png" height="100%" width="100%" alt=""></div>
 					</div>
@@ -77,7 +77,7 @@
 				</div> -->
 			
 		</div>
-        <div class="box2">
+        <div id="box2" class="box2">
 			<div class="tab">
 				构建一张政务服务网，推进数字政务一体化
 			</div>
@@ -110,12 +110,12 @@
 				</ol>
 			</div>	
 		</div>  
-        <div class="box3">
+        <div id="box3" class="box3">
 			<div class="tab">
 				智慧旅游
 			</div>
 			<div class="box3_an"></div>
-			<div class="view">
+			<div class="view" aos = "flip-down">
 				<div class="pic_info">
 					<template v-if="pic_index == 0">
 						<div class="top">
@@ -210,7 +210,7 @@
 					</template>
 				</div>
 			</div>
-			<div class="pic_list" >
+			<div class="pic_list"  aos = "flip-left" >
 				<div @click="pic_index = 0">
 					<img src="../../assets/images/gx/pic1.jpg" alt="">
 				</div>
@@ -225,33 +225,9 @@
 				</div>
 			</div>	
 		</div>
-        <div class="box4">
+        <div id="box4" class="box4">
 			<div class="tab">
 			智慧生活
-			</div>
-			<div class="box5_an">
-				<div class="night">
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-					<div class="shooting_star"></div>
-				</div>
 			</div>
 			<div class="box4_row">
 				<div  class="box4_con1" aos = "fade-down">
@@ -329,9 +305,33 @@
 				</div>
 			</div>
 		</div>
-        <div class="box5">
+        <div id="box5" class="box5">
 			<div class="tab">
 			智慧农业
+			</div>
+			<div class="box5_an">
+				<div class="night">
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+					<div class="shooting_star"></div>
+				</div>
 			</div>
 			<div class="box5_con1">
 				<div class="con1_info" aos = "zoom-out-right">
@@ -374,7 +374,7 @@
 
 			</div>
 		</div>
-		<div class="box6">
+		<div id="box6" class="box6">
 			<div class="tab">
 				智慧教育
 			</div>
@@ -450,12 +450,20 @@
 						</div>
 						<div class="dialog_info">
 							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								广西师范学院“曙光大数据学院”，是由教育部统筹，教育部规划司指导，
-								联合曙光信息产业股份有限公司发起的数据中国“百校工程”产教融合，校企合作建设项目，
-								曙光大数据学院以产教融合、校企合作为核心，共同创建，共同管理，并真正贯彻国际工程教育专业认证
-								（OBE）人才培养理念，以培养具备解决复杂工程问题能力的应用创新型人才为目标，针对性地开展相关专业的课程／
-								教材设计开发、学生／师资团队建设、项目实践培训等教育服务工作。
+								南宁师范大学（Nanning Normal University），简称“南宁师大”，坐落于广西壮族自治区首府南宁市，
+								入选国家中西部高校基础能力建设工程（二期）、新工科研究与实践项目，为全国深化创新创业教育改革示范高校、
+								教育部数据中国“百校工程”项目试点高校、西南大学对口支援建设院校、广西新增博士学位授予单位立项建设单位、
+								广西一流学科建设高校，对口支援广西民族师范学院。
 							</p><br/>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学校办学1953年创办的广西中等学校进修学院和1905年创办的南宁道师范学堂，
+								2002年12月，广西师范学院同广西南宁民族师范学校合并，组建新的广西师范学院。2018年12月，
+								学校正式更名为南宁师范大学。
+							</p><br/>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								根据2019年3月学校官网信息显示，学校有明秀、长岗、五合、武鸣4个校区，占地面积共3476.68亩，图书馆藏书201.4万册，
+								合作举办1所独立学院；设有22个教学学院，6个教辅单位，有普通本科专业66个；有专任教师1018人，
+								全日制普通本科生16690人，硕士研究生1466人，专科生422人。
+							</p>
 						</div>
 						
 					</span>
@@ -473,9 +481,19 @@
 							<img src="../../assets/images/gx/box6_pic3.png" height="100%" alt="">
 						</div>
 						<div class="dialog_info">
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广西科技师范学院位于广西壮族自治区来宾市，
+								为广西壮族自治区区属公办高等本科院校，是教育部数据中国“百校工程”首批试点高校，
+								广西新建本科学校整体转型发展试点学校，为广西科技厅和来宾市人民政府共建学校。								
 							</p><br/>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								学院可追溯至创办于1958年的宜山师范专科学校，1970年，在柳州民族农业技术学校基础上组建柳州地区师范学校。
+								2015年升格为广西科技师范学院。2016年入选教育部数据中国“百校工程”项目首批先试先行院校。
+							</p><br/>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								截至2017年9月，学院占地面积共1617.1亩，其中主校区来宾校区1010.1亩、柳州校区607亩；有13个二级学院，
+								59个专业，其中本科专业16个；有教职工862人，全日制在校生12600多人，来自美国、韩国、泰国、
+								越南等国家的留学生58人。
+							</p>
 						</div>
 					</span>
 					<span slot="footer" class="dialog-footer">
@@ -492,9 +510,20 @@
 							<img src="../../assets/images/gx/box6_pic4.png" height="100%" alt="">
 						</div>
 						<div class="dialog_info">
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北部湾大学位于广西壮族自治区钦州市，
+								是一所以工学、理学、管理学为主的全日制普通高等学校，是广西壮族自治区人民政府与国家海洋局共建高校、教育部数据中国“百校工程”首批试点高校，
+								国家“十三五”规划建设的“应用型本科高校”项目单位、教育部学校规划建设发展中心“产教融合创新实验项目”基地院校、
+								广西新建本科院校整体转型发展试点院校、全国应用技术大学联盟首批理事高校，学校校园为3A级景区。								
 							</p><br/>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学校前身为始建于1973年的钦州地区师范学校。1982年设立钦州地区教师进修学院，
+								1985年增设广西师范学院钦州分院。1988年钦州地区教师进修学院更名为钦州地区教育学院，1991年改建为钦州师范高等专科学校。
+								2004年，创建于1906年的钦州民族师范学校（含广西广播电视大学钦州分校）并入钦州师范高等专科学校。2006年，升格为钦州学院。
+								2018年11月底，教育部批准在钦州学院基础上设立北部湾大学。
+							</p><br/>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								截至2019年5月，学校占地面积2070亩；设有18个教学单位，开办50个本科专业，有3个硕士学位授权点；共有教职工1200多人
+								（其中专任教师800多人）、全日制在校生14000多人。
+							</p>
 						</div>
 					</span>
 					<span slot="footer" class="dialog-footer">
@@ -511,16 +540,22 @@
 							<img src="../../assets/images/gx/box6_pic5.png" height="100%" alt="">
 						</div>
 						<div class="dialog_info">
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玉林师范学院作为桂东南唯一一所本科院校，
-								在面向东盟、北部湾区域产业发展的大环境下，肩负着为地方区域经济信息化建设、
-								产业转型发展提供“大数据、云计算”应用型高级技术人才的重要使命。
-								“玉林师范学院—曙光大数据应用创新中心”挂牌成立，既顺应了时代发展和玉林市新兴产业的需要，
-								也是学校建设应用型高水平大学、推进校企合作，深化应用型人才培养模式的要求。在今后的工作中，
-								该校将依托大数据应用创新中心平台，与政府、曙光信息科技有限公司加强合作，
-								共同培养大数据行业应用型技术人才；在农业、旅游、健康医疗、教育、
-								智能城市等应用领域为地方发展提供智慧管理和科学决策的提供信息基础与运作手段；同时，
-								为教师新技术知识更新、行业实践、大数据领域应用开发提供研发条件和技术支撑。								
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玉林师范学院（Yulin Normal University）位于中国优秀旅游城市、
+								广西东南部的玉林市，是广西壮族自治区直属全日制普通本科高校，是广西4所高等教育综合改革试点高校之一。
+								2016年，入选教育部数据中国“百校工程”合作院校。		
 							</p><br/>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学校的前身是1945年创办的广西省鬰林师范学校，
+								1952年，改名玉林师范学校。1958年，升格为广西玉林专区师范专科学校。
+								1978年，经国务院批准恢复玉林师范专科学校。1994年，更名为玉林师范高等专科学校。
+								2000年，经教育部批准，玉林师范高等专科学校、玉林市教育学院、玉林市高等职业技术学院、
+								广西广播电视大学玉林分校，合并升格为玉林师范学院。
+								2015年，被确定为广西4所高等教育综合改革试点高校之一。					
+							</p><br/>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;截至2019年6月，学校占地面积1746亩。学校设有16个二级学院，
+								涵盖了经济学、法学、教育学、文学、历史学、理学、工学、管理学、农学、艺术学等10大学科门类，
+								有63个普通本科专业。现有教职工1330人，专任教师1002人，具有博士、硕士学位教师806人。
+								学校现有全日制在校生18550人，共培养外国留学生人数近1100人。
+							</p>
 						</div>
 					</span>
 					<span slot="footer" class="dialog-footer">
@@ -536,13 +571,24 @@
 						<div class="dialog_pic">
 							<img src="../../assets/images/gx/box6_pic6.png" height="100%" alt="">
 						</div>
-						<div class="dialog_info">
+						<div class="dialog_info">							
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								桂林理工大学南宁分校（Guilin University of Technology AT Nanning）
+								是桂林理工大学的分校，主要承担应用型本科教育与专科教育。
+							</p><br/>
 							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								2017年12月，教育部学校规划建设发展中心组织专家对申报院校进行了集中审核，
 								按照“院校申报、企业对接、方案优化”的基本原则，综合考量专家组意见，统筹考虑地域分布、
 								学校类型及专业领域等维度，最终遴选桂林理工大学南宁分校为广西区第五个数据中国“百校工程”建设院校。
-								
 							</p><br/>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								桂林理工大学南宁分校的前身是1985年建校的南宁有色金属工业学校。
+								2000年，南宁分校经广西壮族自治区教育厅批准整体并入桂林理工大学，成为桂林理工大学重要的有机组成部分。
+							</p><br/>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								截至2018年7月，分校在南宁安吉、空港两个校区，校园面积1300多亩，建筑总面积超过30万平方米；设有6个系，
+								开19个本科专业及41个高职专科专业；有教师近500人，全日制在校生近12000人。
+							</p>							
 						</div>
 					</span>
 					<span slot="footer" class="dialog-footer">
@@ -551,12 +597,87 @@
 				</el-dialog>
 			</div>
 		</div>
-		<div class="box7">
+		<div id="box7" class="box7">
 			<div class="tab">
 				数字广西
 			</div>
-			<div>
-				
+			<div class="box7_con" aos = "zoom-in-down">
+				<div class="con_nav">
+					<div @click="box7_lock = 0">数字政府</div>
+					<div @click="box7_lock = 1">数字社会</div>
+					<div @click="box7_lock = 2">数字经济</div>
+					<div @click="box7_lock = 3">经验做法</div>
+					<div @click="box7_lock = 4">项目投资</div>
+				</div>
+				<div class="con_info">
+					<template v-if="box7_lock == 0">
+						<div>
+							<h2>数字政府</h2>
+							<ul>
+								<li><a href="#" target="_blank">一图看懂数字广西建设大会</a></li>
+								<li><a href="#" target="_blank">数字广西建设领导小组办公室关于印发《数字广西建设标杆引领行动方案》的通知</a></li>
+								<li><a href="#" target="_blank">广西在全国一体化在线政务服务平台和“互联网+监管”系统建设工作部署暨集中培训会作主题发言</a></li>
+								<li><a href="#" target="_blank">广西数字政务一体化平台“一窗通”上线试运行 全面提升开办企业效率</a></li>
+								<li><a href="#" target="_blank">广西全面压缩不动产登记办理时间 4项登记1个工作日内完成</a></li>
+								<li><a href="#" target="_blank">结伴相行 合力攻坚——全区政务数据“聚通用”攻坚在行动</a></li>
+								<li><a href="#" target="_blank">全区政务信息系统整合共享工作情况通报（第1期）</a></li>
+							</ul>
+						</div>
+					</template>
+					<template v-if="box7_lock == 1">
+						<div>
+							<h2>数字社会</h2>
+							<ul>
+								<li><a href="#" target="_blank">2019广西大数据产业投资合作洽谈会在京召开</a></li>
+								<li><a href="#" target="_blank">“五一”旅游新体验：广西最美海岛开通移动5G网络</a></li>
+								<li><a href="#" target="_blank">全国首个5G华为数字小镇在钦州启动</a></li>
+								<li><a href="#" target="_blank">广西将实施“壮美广西·智慧广电”工程</a></li>
+								<li><a href="#" target="_blank">广西联通携手各方共建“智慧新广西”</a></li>
+							</ul>
+						</div>
+					</template>
+					<template v-if="box7_lock == 2">
+						<div>
+							<h2>数字经济</h2>
+							<ul>
+								<li><a href="#" target="_blank">广西壮族自治区数字广西建设领导小组办公室 关于印发《广西壮族自治区数字经济产业 发展引导目录（试行）》的通知 （桂数广办发〔2019〕10号）</a></li>
+								<li><a href="#" target="_blank">2019广西大数据产业投资合作洽谈会在京召开</a></li>
+								<li><a href="#" target="_blank">“广西样板”成数字产业向东盟拓展重要路径</a></li>
+								<li><a href="#" target="_blank">“数字+”赋能广西经济和社会高质量发展</a></li>
+								<li><a href="#" target="_blank">中国携手东盟加速拥抱数字经济</a></li>
+								<li><a href="#" target="_blank">打造数字经济龙头企业 引领数字广西建设新发展</a></li>
+								<li><a href="#" target="_blank">共筑中国-东盟信息港合作平台</a></li>
+							</ul>
+						</div>
+					</template>
+					<template v-if="box7_lock == 3">
+						<div>
+							<h2>经验做法</h2>
+							<ul>
+								<li><a  href="#" target="_blank">广西在全国一体化在线政务服务平台和“互联网+监管”系统建设工作部署暨集中培训会作主题发言</a></li>
+								<li><a href="#" target="_blank">广西数字政务一体化平台“一窗通”上线试运行 全面提升开办企业效率</a></li>
+								<li><a href="#" target="_blank">广西全面压缩不动产登记办理时间 4项登记1个工作日内完成</a></li>
+								<li><a href="#" target="_blank">2018年全区政府网站绩效评估结果分析会在南宁召开</a></li>
+								<li><a href="#" target="_blank">2019年智慧城市建设第一次现场推进会在贵港召开</a></li>
+								<li><a href="#" target="_blank">大数据擦亮广西农业“新名片”</a></li>
+								<li><a href="#" target="_blank">建设华为数字小镇 形成产业生态圈 钦州种下大数据“产业树”</a></li>
+							</ul>
+						</div>
+					</template>
+					<template v-if="box7_lock == 4">
+						<div>
+							<h2>项目投资</h2>
+							<ul>
+								<li><a href="#" target="_blank">2019广西大数据产业投资合作洽谈会在京召开</a></li>
+								<li><a href="#" target="_blank">自治区大数据发展局与中国电信广西公司 签署《战略合作框架协议》</a></li>
+								<li><a href="#" target="_blank">席扬局长拜访新华通讯社</a></li>
+								<li><a href="#" target="_blank">席扬局长考察调研北京铜牛电影产业园</a></li>
+								<li><a href="#" target="_blank">广西首个全区性5G试验网搭建完成</a></li>
+								<li><a href="#" target="_blank">广西数字经济招商引资合作项目集中签约仪式举行</a></li>
+							</ul>
+						</div>
+					</template>
+				</div>
 			</div>
 		</div>
         
@@ -574,6 +695,7 @@ export default {
 			dialog4: false,
 			dialog5: false,
 			dialog6: false,
+			box7_lock:0,
 		}
 	},
     head:{
@@ -590,7 +712,7 @@ export default {
     },
     mounted() {
         AOS.init({
-            easing: 'ease-out-back',
+            easing: 'ease-in-out',
             duration: 500,
 			once :false
         });

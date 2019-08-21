@@ -64,17 +64,19 @@
  .bounceInRight{
 	animation: bounceInRight 10s ease-in;
  }
-
+ .index_a {
+  color: white; 
+ }
 a:link {
   text-decoration:none;
-  color:white;
+  color: white;
 }
 a:visited {
   text-decoration:none;
   color:white;
 }
 a:hover {
-  color:#6ec1e2;
+  color:#6eeeee;
 }
 a:active {
   color:rgb(58, 186, 245);
@@ -197,41 +199,6 @@ a:active {
   position: absolute;
   left: 0vw;
   top: 24vh;
-}
-.left_col{
-  width: 50%;
-  height: 60vh;
-  float: left;
-
-}
-.right_col {
-  width: 50%;
-  height: 60vh;
-  float: right;
-}
-.detail {
-  margin: 10vh 8vw;
-}
-.detail .title{
-  font-size: 4vh;
-  margin: 2vh auto;
-
-}
-.detail p{
-  font-size: 2.5vh;
-  /* margin: 2vh auto; */
-  color:rgb(51, 135, 214);
-}
-.detail ul {
-  list-style: url('../../images/fangkuai.png');
-  column-count:2;
-}
-
-hr {
-  margin: 3vh 0 3vh 0;
-  height:1px;
-  border:none;
-  border-top:1px solid #6ec1e2;
 }
 
 
