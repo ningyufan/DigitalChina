@@ -59,7 +59,7 @@
             ],
             link: [
 		          { rel: 'stylesheet', href: 'css/normalize.css' },
-              { rel: 'stylesheet', href: 'css/demo.css' },
+              // { rel: 'stylesheet', href: 'css/demo.css' },
               { rel: 'stylesheet', href: 'js/aos.css' },
               { rel: 'stylesheet', href: 'css/styles.css' }
 		    ]

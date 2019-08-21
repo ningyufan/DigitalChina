@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import animated from 'animate.css' 
+// import animated from 'animate.css' 
 export default {
      head:{
         script:[
@@ -61,15 +61,16 @@ export default {
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
-            { rel: 'stylesheet', href: 'css/demo.css' },
+            // { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
             { rel: 'stylesheet', href: 'css/styles.css' }
         ]
     },
     mounted(){
-        AOS.init({
+         AOS.init({
             easing: 'ease-out-back',
-            duration: 1000
+            duration: 500,
+			once :false
         });
     }
 }

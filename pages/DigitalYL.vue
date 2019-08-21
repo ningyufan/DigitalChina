@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="YL">数字玉林</div>
+                <div class="YL" aos="fade-up">数字玉林</div>
             </div>
         </div>
         数字玉林

@@ -33,26 +33,26 @@
 </template>
 
 <script>
-import animated from 'animate.css' 
+// import animated from 'animate.css' 
 export default {
-     head:{
-        script:[
-            {src:'js/jquery.1.7.1.min.js'},
-            {src:'js/aos.js'},
-        ],
-        link: [
-            { rel: 'stylesheet', href: 'css/normalize.css' },
-            { rel: 'stylesheet', href: 'css/demo.css' },
-            { rel: 'stylesheet', href: 'js/aos.css' },
-            { rel: 'stylesheet', href: 'css/styles.css' }
-        ]
-    },
-    mounted(){
-        AOS.init({
-            easing: 'ease-out-back',
-            duration: 1000
-        });
-    }
+    //  head:{
+    //     script:[
+    //         {src:'js/jquery.1.7.1.min.js'},
+    //         {src:'js/aos.js'},
+    //     ],
+    //     link: [
+    //         { rel: 'stylesheet', href: 'css/normalize.css' },
+    //         // { rel: 'stylesheet', href: 'css/demo.css' },
+    //         { rel: 'stylesheet', href: 'js/aos.css' },
+    //         { rel: 'stylesheet', href: 'css/styles.css' }
+    //     ]
+    // },
+    // mounted(){
+    //     AOS.init({
+    //         easing: 'ease-out-back',
+    //         duration: 500
+    //     });
+    // }
 
 }
 </script>
@@ -229,8 +229,6 @@ export default {
     float: right;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    /* z-index: 2;
-    position: relative; */
     z-index: 1;
     position: relative;
 }
@@ -244,8 +242,6 @@ export default {
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
     font-size: 2.1vh;
-    /* initial-letter: 1; */
-    /* border: 1px solid red */
 }
 .line5_ys{
     background-image: url(../assets/images/ysblock/line1.png);

@@ -62,7 +62,7 @@
             <br>        
         </div>
 
-        <ysblockscope/>
+        <!-- <ysblockscope/> -->
 
         <div class="footer">footer</div>
     </div>
@@ -70,21 +70,21 @@
 
 <script>
 import ysblock from '../components/YS_Block.vue'
-import ysblockfz from '../components/YS_Block_fz.vue'
-import ysblockscope from '../components/YS_Block_Scope.vue'
-import ysblockjs from '../components/YS_Block_js.vue'
-import animated from 'animate.css' 
+import ysblockfz from '../components/ys_block_fz.vue'
+// import ysblockscope from '../components/ys_block_Scope.vue'
+import ysblockjs from '../components/ys_block_js.vue'
+// import animated from 'animate.css' 
 export default {
+    components:{
+        ysblock,
+        ysblockfz,
+        // ysblockscope,
+        ysblockjs,
+    },
     data () {
         return {
             isFixed: 0,
         }
-    },
-    components:{
-        ysblock,
-        ysblockfz,
-        ysblockscope,
-        ysblockjs,
     },
     head:{
         script:[
@@ -93,7 +93,7 @@ export default {
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
-            { rel: 'stylesheet', href: 'css/demo.css' },
+            // { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
             { rel: 'stylesheet', href: 'css/styles.css' }
         ]
@@ -135,10 +135,6 @@ export default {
         }
     },
     mounted() {
-    AOS.init({
-        easing: 'ease-out-back',
-        duration: 1000
-    });
     this.$nextTick(() => {
         this.handleAnimate()//初始化第一次加载时在视口内就执行动画
         addEventListener('scroll', this.handleScroll);
@@ -148,6 +144,10 @@ export default {
     
     },
     destroyed() {
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
     removeEventListener('scroll', this.handleScroll);//避免影响其他页面
     removeEventListener('scroll', this.handleAnimate);
     },
