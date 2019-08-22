@@ -13,7 +13,7 @@
                     <div class="line2_ys"></div>
                 </div>
                 <div class="ys3_ys">
-                    <a href="#"><img src="../assets/images/ysblock/ys3.png" class="img3_ys" height="100%" width="100%"></a>
+                    <a href="#"><img src="../assets/images/ysblock/img2_js.png" class="img3_ys" height="100%" width="100%"></a>
                     <a href="#"><div class="text3_ys">学校举行市校共建玉林市大数据研究院揭牌仪式暨签约仪式</div></a>
                     <div class="line3_ys"></div>
                 </div>
@@ -101,7 +101,7 @@ export default {
     width: 72%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 2.1vh;
+    font-size: 2.5vh;
 }
 .line1_ys{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -109,7 +109,7 @@ export default {
     height: 22%;
     width: 100%;
     margin-left: 180%;
-    margin-top: -2.3vh;
+    margin-top: -1.2vh;
 }
 .ys2_ys{
     height: 29.5%;
@@ -135,7 +135,7 @@ export default {
     width: 23%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 2.1vh;
+    font-size: 2.5vh;
 }
 .line2_ys{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -143,7 +143,7 @@ export default {
     height: 45%;
     width: 168%;
     margin-left: 131%;
-    margin-top: 12vh;
+    margin-top: 13vh;
 }
 .ys3_ys{
     height: 29.5%;
@@ -172,7 +172,7 @@ export default {
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 2.1vh;
+    font-size: 2.5vh;
 }
 .line3_ys{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -180,7 +180,7 @@ export default {
     height: 44%;
     width: 168%;
     margin-left: 131.3%;
-    margin-top: 6vh;
+    margin-top: 7vh;
 }
 .ys4_ys{
     height: 39%;
@@ -207,7 +207,7 @@ export default {
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 2.1vh;
+    font-size: 2.5vh;
 }
 .line4_ys{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -215,7 +215,7 @@ export default {
     height: 33%;
     width: 126%;
     margin-left: 225.5%;
-    margin-top: 0vh;
+    margin-top: 1vh;
 }
 .ys5_ys{
     height: 39%;
@@ -241,7 +241,7 @@ export default {
     width: 90%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 2.1vh;
+    font-size: 2.5vh;
 }
 .line5_ys{
     background-image: url(../assets/images/ysblock/line1.png);
@@ -249,7 +249,7 @@ export default {
     height: 33%;
     width: 127%;
     margin-left: 123.3%;
-    margin-top: 9vh;
+    margin-top: 10vh;
 }
 .img1_ys:hover,.img2_ys:hover,.img3_ys:hover.img4_ys:hover.img5_ys:hover{
     border: 2px solid white;

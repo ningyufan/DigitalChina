@@ -42,6 +42,7 @@
         </div>
         
         <ysblockjs/>
+        <ysblockfzzj/>
         <ysblockfz/>
     
         <div class="back1_ys">
@@ -62,7 +63,7 @@
             <br>        
         </div>
 
-        <!-- <ysblockscope/> -->
+        <ysblockscope/>
 
         <div class="footer">footer</div>
     </div>
@@ -71,15 +72,17 @@
 <script>
 import ysblock from '../components/YS_Block.vue'
 import ysblockfz from '../components/ys_block_fz.vue'
-// import ysblockscope from '../components/ys_block_Scope.vue'
+import ysblockscope from '../components/ys_block_Scope.vue'
 import ysblockjs from '../components/ys_block_js.vue'
+import ysblockfzzj from '../components/ys_block_fzzj.vue'
 // import animated from 'animate.css' 
 export default {
     components:{
         ysblock,
         ysblockfz,
-        // ysblockscope,
+        ysblockscope,
         ysblockjs,
+        ysblockfzzj,
     },
     data () {
         return {

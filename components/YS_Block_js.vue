@@ -2,13 +2,13 @@
     <div class="ysblockjs">
         <div class="title_js">玉林师范——大数据学院</div>
         <div class="box1_js">
-            <img src="../assets/images/ysblock/ys3.png" class="img1_js" height="100%" width="100%">
+            <img src="../assets/images/ysblock/img1_js.jpg" class="img1_js" height="100%" width="100%">
         </div>
         <div class="box2_js">
-            <img src="../assets/images/ysblock/ys3.png" class="img1_js" height="100%" width="100%">
+            <img src="../assets/images/ysblock/img2_js.png" class="img2_js" height="100%" width="100%">
         </div>
         <div class="box3_js">
-            <img src="../assets/images/ysblock/ys3.png" class="img1_js" height="100%" width="100%">
+            <img src="../assets/images/ysblock/img3_js.jpg" class="img3_js" height="100%" width="100%">
         </div>
         <div class="text1_js">
             <div class="title1_js">概述</div>
@@ -46,7 +46,7 @@ export default {
 }
 .box1_js{
     width: 25%;
-    height: 30vh;
+    height: 28vh;
     margin-left: 10%;
     float: left;
     border: 2px  ridge #777;
@@ -54,7 +54,7 @@ export default {
 }
 .box2_js{
     width: 25%;
-    height: 30vh;
+    height: 28vh;
     margin-left: 2.5%;
     border: 1px solid red;
     float: left;
@@ -63,7 +63,7 @@ export default {
 }
 .box3_js{
     width: 25%;
-    height: 30vh;
+    height: 28vh;
     margin-right: 10%;
     border: 1px solid red;
     float: right;

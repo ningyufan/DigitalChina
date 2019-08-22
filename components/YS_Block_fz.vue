@@ -1,12 +1,13 @@
 <template>
     <div class="back2_ys">
         <div class="title2_ys">大数据——发展足迹</div>
-        <div class="boxs1_ys" aos="fade-up">
-            <div class="img_16_ys">
-                <img src="../assets/images/ysblock/ys4.png" class="img16_ys" height="100%" width="100%">
+        <div aos="fade-up">
+            <div class="boxs1_ys" >
+                <div class="img_16_ys">
+                    <img src="../assets/images/ysblock/ys4.png" class="img16_ys" height="100%" width="100%">
+                </div>
+                <div class="title_1_ys">标题1</div><hr class="hr1_ys">
             </div>
-            <div class="title_1_ys">标题1</div><hr class="hr1_ys">
-
         </div>
         <div class="boxs2_ys" aos="fade-up">
             <div class="img_16_ys">
@@ -22,6 +23,7 @@
             </div>
             <div class="title_1_ys">标题3</div><hr class="hr1_ys"> 
         </div>
+        <div class="hh"></div>
     </div>
 </template>
 
@@ -71,16 +73,16 @@ export default {
     margin-left: 30%;
     text-align: center;
     line-height: 11vh;
-    /* border: 1px solid red */
 }
+
 .boxs1_ys{
     width: 26.7%;
     height: 40vh;
     margin: auto 36.65% auto 36.65%;
-    background: #ccc;
+    background-color:rgba(255,255,255, 0.6);
     box-shadow: 0px 5px 3px #777;
     padding: 8vh 5vh;
-    color: black;
+    /* color: black; */
     margin-top: 25vh;
 }
 .boxs2_ys{
@@ -88,10 +90,10 @@ export default {
     height: 40vh;
     margin-left: 10%;
     float: left;
-    background: #ccc;
+    background-color:rgba(255,255,255, 0.6);
     box-shadow: -5px 5px 3px #777;
     padding: 8vh 5vh;
-    color: black;
+    /* color: black; */
     margin-top: 10vh;
 }
 .boxs3_ys{
@@ -99,11 +101,12 @@ export default {
     height: 40vh;
     margin-right: 10%;
     float: right;
-    background: #ccc;
+    background-color:rgba(255,255,255, 0.6);
     box-shadow: 5px 5px 3px #777;
     padding: 8vh 5vh;
-    color: black;
+    /* color: black; */
     margin-top: 10vh;
+opacity: 0.4;
 }
 .title_1_ys{
     text-align: center;
@@ -122,11 +125,11 @@ export default {
     margin-top: -30vh;
     -webkit-box-shadow:0px 0px 30px #555;
 }
-.img_16_ys:before{
+/* .img_16_ys:before{
     background-color: #111;
     height: 27vh;
     width: 100%;
     opacity: 1;
 
-}
+} */
 </style>
