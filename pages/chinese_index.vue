@@ -35,16 +35,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="shouye">首页</div>
+                <div class="shouye">
+                    <syheader/>
+                </div>
             </div>
         </div>
-        首页
+            <syindex/>
         <div class="footer">footer</div>
     </div>
 </template>
 
 <script>
+import syheader from '../components/sy/sy_header'
+import syindex from '../components/sy/sy_index'
 export default {
+    components: {
+        syheader,
+        syindex
+    },
     data () {
         return {
             isFixed: 0,
@@ -54,12 +62,14 @@ export default {
         script:[
             {src:'js/jquery.1.7.1.min.js'},
             {src:'js/aos.js'},
+            // {src:'js/index.js'},//box2_style
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
-            { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
-            { rel: 'stylesheet', href: 'css/styles.css' }
+            { rel: 'stylesheet', href: 'css/styles.css' },
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans' },//box2_style
+            { rel: 'stylesheet', href: 'css/style2.css' },//box2_style
         ]
     },
     methods: {
@@ -99,21 +109,46 @@ export default {
         }
     },
     mounted() {
-    AOS.init({
-        easing: 'ease-out-back',
-        duration: 1000
-    });
-    this.$nextTick(() => {
-        this.handleAnimate()//初始化第一次加载时在视口内就执行动画
-        addEventListener('scroll', this.handleScroll);
-        addEventListener('scroll', this.handleAnimate);
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+        this.$nextTick(() => {
+            this.handleAnimate()//初始化第一次加载时在视口内就执行动画
+            addEventListener('scroll', this.handleScroll);
+            addEventListener('scroll', this.handleAnimate);
 
-    })
+        });
+        // box2_style start
+        var $cont = document.querySelector('.cont');
+        var $elsArr = [].slice.call(document.querySelectorAll('.el'));
+        var $closeBtnsArr = [].slice.call(document.querySelectorAll('.el__close-btn'));
+
+        setTimeout(function() {
+        $cont.classList.remove('s--inactive');
+        }, 200);
+
+        $elsArr.forEach(function($el) {
+        $el.addEventListener('click', function() {
+            if (this.classList.contains('s--active')) return;
+            $cont.classList.add('s--el-active');
+            this.classList.add('s--active');
+        });
+        });
+
+        $closeBtnsArr.forEach(function($btn) {
+        $btn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            $cont.classList.remove('s--el-active');
+            document.querySelector('.el.s--active').classList.remove('s--active');
+        });
+        });
+        //box2_style end
     
     },
     destroyed() {
-    removeEventListener('scroll', this.handleScroll);//避免影响其他页面
-    removeEventListener('scroll', this.handleAnimate);
+        removeEventListener('scroll', this.handleScroll);//避免影响其他页面
+        removeEventListener('scroll', this.handleAnimate);
     },
 
 }
