@@ -35,10 +35,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="YL" aos="fade-up">数字玉林</div>
+                <div class="YL">
+                    <ylHeader />
+                </div>
             </div>
         </div>
-        数字玉林
+        <ylBody />
         <div class="footer">footer</div>
     </div>
 
@@ -47,7 +49,13 @@
 
 
 <script>
+    import ylHeader from '../components/yulin/ylheader'
+    import ylBody from '../components/yulin/ylbody'
 export default {
+    components:{
+        ylHeader,
+        ylBody
+    },
     data () {
         return {
             isFixed: 0,
@@ -102,10 +110,6 @@ export default {
         }
     },
     mounted() {
-    AOS.init({
-        easing: 'ease-out-back',
-        duration: 1000
-    });
     this.$nextTick(() => {
         this.handleAnimate()//初始化第一次加载时在视口内就执行动画
         addEventListener('scroll', this.handleScroll);
@@ -115,6 +119,10 @@ export default {
     
     },
     destroyed() {
+        AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
     removeEventListener('scroll', this.handleScroll);//避免影响其他页面
     removeEventListener('scroll', this.handleAnimate);
     },
