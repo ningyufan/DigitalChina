@@ -44,7 +44,7 @@ import HeaderNav from './nav'
 import Carousel from './carousel'
 import animated from 'animate.css'
 import GxCard from '../GX_card'
-import DigitalIndex from '../../components/dchina/digital_index'
+import DigitalIndex from '../../components/dchina/DigitalChina_index'
 import YSBlock from '../YS_Block'
 import YulinOne from '../yulin/yulin_one'
 	export default {

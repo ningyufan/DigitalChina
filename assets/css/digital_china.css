@@ -12,21 +12,22 @@
     margin: 0 auto;
     background-size: 100% 100vh;
     position: absolute;
-    height: 100vh;
+    height:100vh;
 }
 .digital_footer{
     width: 100%;
-    margin-top: 90vh;
-    background-size: 100% 80vh;
-    position: absolute;
-    height: 80vh;
+    background-size: 100% 68vh;
+    position: relative;
+    height: 68vh;
+    margin: 0 auto;
+    top:100vh;
 }
 .digital_bk2{
     background-image: url('../images/dchina/china_bk2.png');
     position: absolute;
     float: left;
     width: 52vw;
-    margin: 10vh auto;
+    /* margin: 10vh auto; */
     background-size: 52vw 80vh;
     height: 80vh;
 }
@@ -40,11 +41,15 @@
 .left_ct{
     position: absolute;
     margin: 13vh 0 0 5vh;
+    width: 95%;
+    height: 50%;
 }
 
 .left_ct h3{
     font-size: 28px;
     color: rgb(48, 189, 245);
+    width: 60%;
+    height: 5%;
 }
 
 .left_ct h3:hover{
@@ -65,17 +70,20 @@
 
 .left_ct p{
     font-size: 20px;
-    margin: 4vh auto;
+    margin: 6vh auto;
     text-indent: 2em;
 }
 
 .left_img{
     position: absolute;
     margin: 35vh 0 0 5vh;
+    width: 100%;
+    height: 50%;
 }
 
 .left_img p{
-    width: 50%;
+    width: 52%;
+    height: 30%;
     float: left;
     font-size: 20px;
     text-indent: 2em;
@@ -83,10 +91,11 @@
 
 .nanjing_img{
     background-image: url('../images/dchina/nanjing.png');
-    width:50%;
+    width:42%;
     float: right;
-    height: 35vh;
-    background-size: 100% 35vh;
+    height: 90%;
+    margin-right:5vh; 
+    background-size: 100% 100%;
 }
 
 .digital_bk3{
@@ -94,7 +103,7 @@
     position: relative;
     float: right;
     width: 48vw;
-    margin: 22vh auto;
+    margin: 12vh 0 0 0;
     background-size: 48vw 68vh;
     height: 68vh;
 }
@@ -102,17 +111,19 @@
 .footer_right{
     position: absolute;
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 
 .right_ct{
     position: absolute;
-    margin: 12vh 0 0 10vh;
+    margin-top: 12vh;
 }
 
 .right_ct h3{
-    margin: 0 0 0 15vh;
+    margin-left:20vh;
     font-size: 28px;
+    width: 60%;
+    height: 5%;
     color: rgb(48, 189, 245);
 }
 
@@ -136,53 +147,59 @@
     font-size: 20px;
     margin: 1vh auto;
     text-indent: 2em;
+    width: 80%;
+    height: 50%;
 }
 
 .right_img{
     position: absolute;
-    margin: 34vh 0 0 10vh;
+    margin: 34vh 0 0 8vh;
+    width: 100%;
+    height: 50%;
 }
 
 .right_img p{
-    width: 60%;
+    width: 45%;
     float: right;
+    margin-right: 17vh;
     font-size: 20px;
     text-indent: 2em;
 }
 
 .zhizao_img{
     background-image: url('../images/dchina/zhizao.png');
-    width:40%;
+    width:35%;
     float: left;
     height: 20vh;
+    margin-left: 1vh;
     background-size: 100% 20vh;
 }
 
-.China_mk{
+.Chinaheader_mk{
     width: 88%;
     height: 100%;
     margin: 3vh 5vw auto;
     position: absolute;
 }
 
-.China_row1,.China_row2{
+.Chinaheader_row1,.Chinaheader_row2{
     height: 47%;
     width: 100%;
 }
 
-.China_col1,.China_col2 {
+.Chinaheader_col1,.Chinaheader_col2 {
     height: 100%;
     width: 50%;
     
 }
 
-.China_col1{
+.Chinaheader_col1{
     background-image: url('../images/dchina/china_mk1.png');
     background-size: 100% 100%;
 }
 
 
-.China_col2{
+.Chinaheader_col2{
     background-image: url('../images/dchina/china_mk2.png');
     background-size: 100% 100%;
 }
@@ -194,31 +211,44 @@
     padding-left: 47%;
 }
 
-.China_col3, .China_col4, .China_col5,.China_col6{
+.Chinaheader_col3, .Chinaheader_col4, .Chinaheader_col5,.Chinaheader_col6{
     height: 100%;
     width: 25%;
 }
 
-.China_col3{
+.Chinaheader_col3{
     background-image: url('../images/dchina/china_mk3.png');
     background-size: 100% 100%;
 }
 
-.China_col4{
+.Chinaheader_col4{
     background-image: url('../images/dchina/china_mk4.png');
     background-size: 100% 100%;
 }
 
-.China_col5{
+.Chinaheader_col5{
     background-image: url('../images/dchina/china_mk5.png');
     background-size: 100% 100%;
 }
 
-.China_col6{
+.Chinaheader_col6{
     background-image: url('../images/dchina/china_mk6.png');
     background-size: 100% 100%;
 }
 
+.Digital_video{
+    position: absolute;
+    margin: 20vh auto;
+    height: 50%;
+    width: 100%;
+}
+
+.Digital_video video{
+    width:20vw;
+    height:auto ;
+    display: inline;  
+    box-shadow:#1E90FF 0 0 30px 5px;
+}
 
 .Video_row1,.Video_row2{
     height: 50%;
@@ -226,7 +256,7 @@
 }
 
 .Video_row1{
-    margin: 20vh 10vh auto;
+    margin: 0 10vh auto;
 }
 
 .Video_row2{
@@ -236,7 +266,6 @@
 .Video_col1,.Video_col2,.Video_col3,.Video_col4,.Video_col5,.Video_col6{
     height: 100%;
     width: 30%;
-    position: relative;
     background-size: cover;
 	background-repeat:no-repeat;
 	background-position: center center;
@@ -253,64 +282,57 @@
 }
 
 .Video_col1 video:hover{
-	-webkit-transform:rotate(0deg) scale(1.5);
-	-ms-transform:rotate(0deg) scale(1.5);
-	transform:rotate(0deg) scale(1.5);
-	-webkit-transition:all 0.5s ease-in;
-    transition:all 0.5s ease-in;
-	z-index: 2;
+	-moz-transform:scale(2.6) translate(160px, 49px);
+	-webkit-transform:scale(2.6) translate(160px, 49px);
+	-o-transform:scale(2.6) translate(160px, 49px);
+	-ms-transform:scale(2.6) translate(160px, 49px);
+	transform:scale(2.6) translate(160px, 49px);
+	z-index:2;
 }
 
 .Video_col2 video:hover{
-	-webkit-transform:rotate(0deg) scale(1.5);
-	-ms-transform:rotate(0deg) scale(1.5);
-	transform:rotate(0deg) scale(1.5);
-	-webkit-transition:all 0.5s ease-in;
-    transition:all 0.5s ease-in;
-	z-index: 2;
+	-moz-transform:scale(2.6) translate(160px, 49px);
+	-webkit-transform:scale(2.6) translate(160px, 49px);
+	-o-transform:scale(2.6) translate(160px, 49px);
+	-ms-transform:scale(2.6) translate(160px, 49px);
+	transform:scale(2.6) translate(160px, 49px);
+	z-index:2;
 }
 
 .Video_col3 video:hover{
-	-webkit-transform:rotate(0deg) scale(1.5);
-	-ms-transform:rotate(0deg) scale(1.5);
-	transform:rotate(0deg) scale(1.5);
-	-webkit-transition:all 0.5s ease-in;
-    transition:all 0.5s ease-in;
-	z-index: 2;
+	-moz-transform:scale(2.6) translate(160px, 49px);
+	-webkit-transform:scale(2.6) translate(160px, 49px);
+	-o-transform:scale(2.6) translate(160px, 49px);
+	-ms-transform:scale(2.6) translate(160px, 49px);
+	transform:scale(2.6) translate(160px, 49px);
+	z-index:2;
 }
 
 .Video_col4 video:hover{
-	-webkit-transform:rotate(0deg) scale(1.5);
-	-ms-transform:rotate(0deg) scale(1.5);
-	transform:rotate(0deg) scale(1.5);
-	-webkit-transition:all 0.5s ease-in;
-    transition:all 0.5s ease-in;
-	z-index: 2;
+	-moz-transform:scale(2.6) translate(160px, 49px);
+	-webkit-transform:scale(2.6) translate(160px, 49px);
+	-o-transform:scale(2.6) translate(160px, 49px);
+	-ms-transform:scale(2.6) translate(160px, 49px);
+	transform:scale(2.6) translate(160px, 49px);
+	z-index:2;
 }
 
 .Video_col5 video:hover{
-	-webkit-transform:rotate(0deg) scale(1.5);
-	-ms-transform:rotate(0deg) scale(1.5);
-	transform:rotate(0deg) scale(1.5);
-	-webkit-transition:all 0.5s ease-in;
-    transition:all 0.5s ease-in;
-	z-index: 2;
+	-moz-transform:scale(2.6) translate(160px, 49px);
+	-webkit-transform:scale(2.6) translate(160px, 49px);
+	-o-transform:scale(2.6) translate(160px, 49px);
+	-ms-transform:scale(2.6) translate(160px, 49px);
+	transform:scale(2.6) translate(160px, 49px);
+	z-index:2;
 }
 
 .Video_col6 video:hover{
-	-webkit-transform:rotate(0deg) scale(1.5);
-	-ms-transform:rotate(0deg) scale(1.5);
-	transform:rotate(0deg) scale(1.5);
-	-webkit-transition:all 0.5s ease-in;
-    transition:all 0.5s ease-in;
-	z-index: 2;
+	-moz-transform:scale(2.6) translate(160px, 49px);
+	-webkit-transform:scale(2.6) translate(160px, 49px);
+	-o-transform:scale(2.6) translate(160px, 49px);
+	-ms-transform:scale(2.6) translate(160px, 49px);
+	transform:scale(2.6) translate(160px, 49px);
+	z-index:2;
 }
 
-
-.Digital_video video{
-    width:20vw;
-    height:auto ;
-    display: inline;  
-    box-shadow:#1E90FF 0 0 30px 5px;
-}
 
