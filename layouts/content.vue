@@ -29,7 +29,9 @@
                         </div>
                     </div>
                 </div>
+                <center>
                 <div class="ct_border">
+                    <center>
                     <div class="ct_bg">
                             <div class="ct_main">
                                 <div class="ct_logo" aos="zoom-in">
@@ -42,7 +44,9 @@
                                 <nuxt />
                             </div>
                     </div>
+                    </center>
                 </div>
+                </center>
         </div>
         <div class="footer">footer</div>
     </div>
@@ -173,8 +177,8 @@ export default {
     width: 60%;
     margin: 0 auto;
     z-index: 2;
-    position: absolute;
-    right: 20vw;
+    position: relative;
+    /* right: 21vw; */
     border:2vh solid rgba(255, 255, 255, 0.5);
 }
 
@@ -184,9 +188,9 @@ export default {
     margin:0 auto;
     background-color:rgba(255, 255, 255, 0.5);
     z-index: 3;
-    left: 4vw;
+    /* left: 4vw; */
     top:3vh;
-    position: absolute;
+    position: relative;
 }
 
 .ct_logo {

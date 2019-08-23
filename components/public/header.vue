@@ -16,7 +16,7 @@
 				<Carousel :items = "items"/>
 			</template>
 			<template v-if="nav_lock == 1">
-				<DigitalIndex/>
+				<cnheader/>
 			</template>
 			<template v-if="nav_lock == 2">
 				<GxCard/>
@@ -44,7 +44,7 @@ import HeaderNav from './nav'
 import Carousel from './carousel'
 import animated from 'animate.css'
 import GxCard from '../GX_card'
-import DigitalIndex from '../../components/dchina/DigitalChina_index'
+import cnheader from '../../components/dchina/cnheader'
 import YSBlock from '../YS_Block'
 import YulinOne from '../yulin/yulin_one'
 	export default {
@@ -52,7 +52,7 @@ import YulinOne from '../yulin/yulin_one'
 		components:{
 			HeaderNav,
 			Carousel,
-			DigitalIndex,
+			cnheader,
 			GxCard,
 			YSBlock,
 			YulinOne,

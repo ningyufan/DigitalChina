@@ -1,11 +1,10 @@
 <template>
     <div class="ct_nanjing">
-        <input type="radio" name="input-paginacao" id="pre" checked>
-        <input type="radio" name="input-paginacao" id="next1">
-        <input type="radio" name="input-paginacao" id="next2">
-        <!-- <input type="radio" name="input-paginacao" id="next3"> -->
+        <input type="radio" name="input-paginacao" id="pre" checked style="display:none">
+        <input type="radio" name="input-paginacao" id="next1" style="display:none">
+        <input type="radio" name="input-paginacao" id="next2" style="display:none">
         <div class="nanjing_ct" aos="fade-up">
-            <ul>
+            <div>
                 <div class="nj_ct1">
                     <div class="nj_bt">
                         <h2>软件业规模将达5000亿 南京打造数字经济名城</h2>
@@ -91,7 +90,7 @@
                     </p>
                     </div>
                 </div>
-            </ul>
+            </div>
         </div>
         <div class="ct_btn">
                 <ul>
@@ -150,10 +149,15 @@ export default {
 .ct_nanjing .nanjing_ct{
     position: relative;
     overflow: hidden;
-    top:10vh;
+    top:12vh;
     width: 100%;
-    right: 1vw;
+    left: 1.2vw;
     height: 130vh;
+}
+
+.nanjing_ct div{
+    width: 95%;
+    height: auto;
 }
 
 .ct_nanjing .nj_ct1,
@@ -173,7 +177,7 @@ export default {
     position: absolute;
     width: 100%;
     height: 8vh;
-    left: 8vw;
+    right: 1.2vw;
     top:2vh;
 }
 
@@ -185,17 +189,20 @@ export default {
 .njct1 img,.njct2 img{
     position: relative;
     width: 80%;
-    left:8vh;
-    margin: 2vh 2vh;
+    /* left:8vh; */
+    margin: 1vh 2vh;
     height: 40vh;
 }
 
 .nj_ct1 p,.nj_ct1 h4,
 .nj_ct2 p,.nj_ct2 h4,
 .nj_ct3 p,.nj_ct3 h4{
+    text-align: center;
     text-indent: 2em;
     font-size: 2vh;
     line-height: 3vh;
+    text-align: justify;
+    text-justify: inter-ideograph;
 }
 
 
@@ -203,7 +210,7 @@ export default {
     position: absolute;
     width: 100%;
     height: 8vh;
-    float: left;
+    /* float: left; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,7 +250,7 @@ export default {
   color: #FFF;
 }
 
-#pre:checked ~ .nanjing_ct> ul {
+#pre:checked ~ .nanjing_ct> div{
   transition: transform .7s ease-in-out;
   transform: translateY(0vh);
 }
@@ -253,7 +260,7 @@ export default {
   color: #FFF;
 }
 
-#next1:checked ~ .nanjing_ct > ul {
+#next1:checked ~ .nanjing_ct > div {
   transition: transform .7s ease-in-out;
   transform: translateY(-130vh);
 }
@@ -263,7 +270,7 @@ export default {
   color: #FFF;
 }
 
-#next2:checked ~ .nanjing_ct > ul {
+#next2:checked ~ .nanjing_ct > div {
   transition: transform .7s ease-in-out;
   transform: translateY(-260vh);
 }
