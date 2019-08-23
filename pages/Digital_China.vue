@@ -36,30 +36,18 @@
                     </div>
                 </div>
                 <div class="china">
-                    <DigitalIndex/>
+                    <cnheader/>
                 </div>
             </div>
         </div>
-            <div class="digital_bg">
-            <div class="digital_header">
-                <div class="digital_bk1">
-                    <DigitalVideo/>
-                </div>
-            </div>
-            <div class="digital_yuan">
-            <div class="digital_yuan1"></div>
-            <div class="digital_yuan2"></div>
-            </div>
-            <DigitalFooter/>
-        </div>
+            <cnindex/>
         <div class="footer">footer</div>
     </div>
 </template>
 
 <script>
-import DigitalIndex from '../components/dchina/DigitalChina_index'
-import DigitalVideo from '../components/dchina/DigitalChina_video'
-import DigitalFooter from '../components/dchina/Digital_footer'
+import cnheader from '../components/dchina/cnheader'
+import cnindex from '../components/dchina/cnindex'
 export default {
     head:{
         script:[
@@ -74,7 +62,7 @@ export default {
         ]
     },
     components:{
-            DigitalIndex,DigitalVideo,DigitalFooter
+            cnheader,cnindex
     },
     data () {
     return {
@@ -164,59 +152,5 @@ export default {
     text-align: center;
 }
 
-
-
-.digital_yuan{
-    position: absolute;
-    width: 100%;
-    height: 40%;
-    top: 100vh;
-}
-
-.digital_yuan1{
-    position: relative;
-    background-image: url('../assets/images/dchina/yuan.png');
-    width: 10%;
-    height: 30%;
-    float: left;
-    background-size: 100% 100%;
-    background-position: center center;
-    box-shadow:#1E90FF 0 0 30px 5px;
-    border-radius: 50%;
-    transform: rotate(0deg);
-    animation: zhuandong1 5s linear infinite;
-}
-@keyframes zhuandong1{
-        from{
-        transform: rotate(0deg);
-        }
-        to{
-        transform: rotate(-360deg);
-        }
-        }
-
-.digital_yuan2{
-    position: relative;
-    background-image: url('../assets/images/dchina/yuan.png');
-    width: 10%;
-    height: 30%;
-    float: right;
-    margin-right: 2vh;
-    margin-top: 10vh;
-    background-size: 100% 100%;
-    background-position: center center;
-    box-shadow:#1E90FF 0 0 30px 5px;
-    border-radius: 50%;
-    transform: rotate(0deg);
-    animation: zhuandong2 5s linear infinite;
-}
-@keyframes zhuandong2{
-        from{
-        transform: rotate(0deg);
-        }
-        to{
-        transform: rotate(360deg);
-        }
-        }
 
 </style>
