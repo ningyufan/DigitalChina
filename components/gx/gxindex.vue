@@ -707,7 +707,7 @@ export default {
             { rel: 'stylesheet', href: 'css/normalize.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
 			{ rel: 'stylesheet', href: 'css/styles.css' },
-			{ rel: 'stylesheet', href: 'css/style.css' },
+			// { rel: 'stylesheet', href: 'css/style.css' },
         ]
     },
     mounted() {
