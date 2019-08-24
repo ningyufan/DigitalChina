@@ -3,43 +3,45 @@
       <div class="sybox5_t">
         数字展区精彩
       </div>
-      <div id="drag-container">
-          <div id="spin-container">
-              <!-- 大厅 -->
-              <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/homepage.html">
-                  <img src="@/assets/images/sy/sybox5_pic1.jpg" alt="">
-              </a>
-              <!-- 5号馆 -->
-              <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall5.html">
-                <img src="@/assets/images/sy/sybox5_pic2.jpg" alt="">
-              </a>
-              <!-- 6号馆 -->
-              <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall6.html">
-                <img src="@/assets/images/sy/sybox5_pic3.jpg" alt="">
-              </a>
-              <!-- 7号馆 -->
-              <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall7.html">
-                 <img src="@/assets/images/sy/sybox5_pic4.jpg" alt="">
-              </a>
-              <!-- 8号馆 -->
-              <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall8.html">
-                <img src="@/assets/images/sy/sybox5_pic5.jpg" alt="">
-              </a>
-              <!-- 10号馆 -->
-              <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall10.html">
-                <img src="@/assets/images/sy/sybox5_pic6.jpg" alt="">
-              </a>
-              <a target="_blank" href="#">
-                  <img src="@/assets/images/sy/1.jpg" alt="">
-              </a>
-              <video controls autoplay="autoplay" loop>
-                  <source src="../../assets/video/sybox5_video1.mp4" type="video/mp4">
-              </video>
-              <!-- <video id="chbnklbnabefclhuci" src="/masvod/public/2019/05/06/20190506_16a8d1a5c3f_r38_600k.mp4" width="100%" height="100%"></video> -->
-              <p>数字中国建设峰会展览厅三维实景图</p>
-          </div>
-          <div id="ground"></div>
-        </div>
+      <div class="sybox5_con">
+           <div id="drag-container">
+               <div id="spin-container">
+                  <!-- 大厅 -->
+                  <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/homepage.html">
+                      <img src="@/assets/images/sy/sybox5_pic1.jpg" alt="">
+                  </a>
+                  <!-- 5号馆 -->
+                  <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall5.html">
+                    <img src="@/assets/images/sy/sybox5_pic2.jpg" alt="">
+                  </a>
+                  <!-- 6号馆 -->
+                  <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall6.html">
+                    <img src="@/assets/images/sy/sybox5_pic3.jpg" alt="">
+                  </a>
+                  <!-- 7号馆 -->
+                  <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall7.html">
+                    <img src="@/assets/images/sy/sybox5_pic4.jpg" alt="">
+                  </a>
+                  <!-- 8号馆 -->
+                  <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall8.html">
+                    <img src="@/assets/images/sy/sybox5_pic5.jpg" alt="">
+                  </a>
+                  <!-- 10号馆 -->
+                  <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall10.html">
+                    <img src="@/assets/images/sy/sybox5_pic6.jpg" alt="">
+                  </a>
+                  <a target="_blank" href="#">
+                      <img src="@/assets/images/sy/1.jpg" alt="">
+                  </a>
+                  <video controls autoplay="autoplay" loop>
+                      <source src="../../assets/video/sybox5_video1.mp4" type="video/mp4">
+                  </video>
+                  <!-- <video id="chbnklbnabefclhuci" src="/masvod/public/2019/05/06/20190506_16a8d1a5c3f_r38_600k.mp4" width="100%" height="100%"></video> -->
+                  <p>数字中国建设峰会展览厅三维实景图</p>
+              </div>
+              <div id="ground"></div>
+            </div>
+      </div>
     </div>
 </template>
 
@@ -195,15 +197,29 @@ export default {
 
 <style>
 .sy_box5 {
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
   display: flex;
-  background: #111;
   perspective: 1000px;
   transform-style: preserve-3d;
+  position: relative;
+}
+.sy_box5 .sybox5_t {
+  height: 15vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top:0;
+  line-height: 15vh;
+  text-align: center;
+  font-size: 5vh;
+  color: rgb(48, 189, 245);
 }
 
 #drag-container, #spin-container {
+  height: 85vh;
+  width: 100vw;
   position: relative;
   display: flex;
   margin: auto;
@@ -212,6 +228,7 @@ export default {
 }
 
 #drag-container img, #drag-container video {
+
   transform-style: preserve-3d;
   position: absolute;
   left: 0;

@@ -5,7 +5,7 @@
         </div>
         <div class="sybox1_con">
             <div id="wrap">
-                <a href="#" class="hb">
+                <a href="/sy/sy_con1" class="hb">
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic1.jpg" alt=""/>
                         <div class="txt">
@@ -17,7 +17,7 @@
                 <div class="fullBg">
                     <img src="@/assets/images/sy/sybox1_pic1.jpg" alt=""/>
                 </div>
-                <a href="#" class="hb">
+                <a href="/sy/sy_con2" class="hb">
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic2.jpg" alt=""/>
                         <div class="txt">
@@ -29,7 +29,7 @@
                 <div class="fullBg">
                     <img src="@/assets/images/sy/sybox1_pic2.jpg" alt=""/>
                 </div>
-                <a href="#" class="hb">
+                <a href="/sy/sy_con3" class="hb">
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic3.jpg" alt=""/>
                         <div class="txt">
@@ -66,6 +66,22 @@ export default {
 </script>
 
 <style>
+.sy_box1{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.sybox1_t {
+  height: 15vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 15vh;
+  text-align: center;
+  font-size: 5vh;
+  color: rgb(48, 189, 245);
+}
 #wrap{
   position:absolute;
   left:0; top:0;
