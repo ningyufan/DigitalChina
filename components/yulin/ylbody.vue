@@ -156,8 +156,76 @@
 			<div class="bk_ly">
                     <el-row class="title_text">
                         数字玉林·智慧旅游建设
-                    </el-row>
-                    <el-row class="city_module">
+					</el-row>
+					<el-row class="travel_module1">
+						<div id="main" style="margin: 0vh auto">
+							<ul>
+								<li style="top: 12vh;" aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p1.png" alt="" width="300" height="450" />
+								   <div class="info">
+									   <h1>玉林市智慧旅游建设情况</h1>
+									  <p>————旅游文化历史浓郁 </p>
+									  <a href="#">详情</a>
+								   </div>
+								</li>
+								<li aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p2.png" alt="" width="300" height="450" />
+								   <div class="info">
+									<h1>玉林市智慧旅游建设情况</h1>
+									  <p>————旅游市场客观需求</p>
+									  <a href="#">详情</a>
+								   </div>
+								</li>
+								<li aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p3.png" alt="" width="300" height="450" />
+								   <div class="info">
+									<h1>玉林市智慧旅游建设情况</h1>
+									  <p>————玉林智慧旅游发展三年行动计划</p>
+									  <a href="#">详情</a>
+								   </div>
+								</li>
+								<li style="top: 12vh;" aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p4.png" alt="" width="300" height="450" />
+									<div class="info">
+										<h1>玉林市智慧旅游建设情况</h1>
+									   <p>————容县智慧侨乡建设情况（国家级广西特色旅游名县）</p>
+									   <a href="#">详情</a>
+									</div>
+								 </li>
+							</ul>
+						 </div>
+					</el-row>
+					<el-row class="travel_module2">
+						<div id="main" style="margin: auto">
+							<ul>
+								<li style="top: 12vh;" aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p5.png" alt="" width="300" height="450" />
+								   <div class="info">
+									<h1>玉林市智慧旅游建设情况</h1>
+									  <p>————容县智慧旅游建设情况</p>
+									  <a href="#">详情</a>
+								   </div>
+								</li>
+								<li aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p6.png" alt="蜘蛛侠" width="300" height="450" />
+								   <div class="info">
+									<h1>玉林市智慧旅游建设情况</h1>
+									  <p>————市校双方共同推进项目</p>
+									  <a href="#">详情</a>
+								   </div>
+								</li>
+								<li aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p7.png" alt="蜘蛛侠" width="300" height="450" />
+								   <div class="info">
+									<h1>玉林市智慧旅游建设情况</h1>
+									  <p>————出具“玉林全域旅游大数据平台”方案</p>
+									  <a href="#">详情</a>
+								   </div>
+								</li>
+								<li style="top: 12vh;" aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p8.png" alt="蜘蛛侠" width="300" height="450" />
+									<div class="info">
+										<h1>玉林市智慧旅游建设情况</h1>
+									   <p>————项目建设进度</p>
+									   <a href="#">详情</a>
+									</div>
+								 </li>
+							</ul>
+						 </div>
+					</el-row>
+                    <!-- <el-row class="city_module">
                         <el-col class="city_module1">
                             <el-row class="city_module1_1">
                                 
@@ -175,13 +243,13 @@
                             <el-row class="city_module3_2"></el-row>
                         </el-col>
         
-                    </el-row>
+                    </el-row> -->
                 </div>
         <div class="bk_fp">
             <el-row class="title_text">
                 数字玉林·大数据助力精准扶贫
 			</el-row>
-			<el-row>
+			<el-row style="margin: 5vh">
 				<section class="hover_6 miktu_hover">
 					<div class="container">
 						<div class="row">

@@ -19,9 +19,10 @@
 }
 .bk_ly{
     width: 100%;
-    height: 160vh;
+    height: 200vh;
     background-image: url('../../images/yulin/bk_fp.png');
     background-size: 100% 100%;
+    /* opacity: 0.5; */
 }
 .bk_zw{
     width: 100%;
@@ -90,7 +91,83 @@
     font-family: arial; 
     white-space: nowrap; 
     font-size: 10px; 
-    letter-spacing:4px; }
+    letter-spacing:4px; 
+}
+.travel_module1{
+    /* background-color: aqua; */
+    width: 90vw;
+    height: 85vh;
+    margin: 4vh 4vw 0vh;
+}
+.travel_module2{
+    /* background-color:rgb(9, 255, 0); */
+    width: 90vw;
+    height: 95vh;
+    margin: 0vh 4vw;
+}
+#main{
+    width:100%;
+    height:100%;
+    margin:10px auto;
+}
+#main ul{
+    list-style:none;
+}
+#main ul li{
+    width:22%;
+    height:40%;
+    float:left;
+    position:relative;
+    margin: 0vh 0vw 0vh 2vw;
+}
+#main ul li img{
+    border:0.3vw solid rgb(90, 88, 88);
+    -webkit-transition:1s ease;
+    -moz-transition:1s ease;
+}
+#main .info{width:15vw;
+    height:23vh; 
+    border:0.5vw solid #F5F5F5;
+    background:#deddcd;
+    position:absolute;
+    bottom:-7vh;right:0;
+    -webkit-transition:1s ease;-moz-transition:1s ease;
+    -moz-transform:rotatey(30deg);
+    -webkit-transform:rotatey(30deg);
+}
+#main .info h1{
+    text-align:center;
+    line-height:auto;
+    color:#7a3f3a;
+    font-weight:normal;
+    font-size:3vh;
+}
+#main .info p{
+    padding:0 20px;
+    font-size:2vh;
+}
+#main .info a{
+    display:block;
+    width:100px;
+    height:30px;
+    background:#7a3f3a;
+    color:#FFF;
+    border-radius:5px;
+    text-decoration:none;
+    text-align:center;
+    line-height:30px;
+    margin:10px auto;
+}
+
+#main ul li:hover .info{
+    -webkit-transform:rotatey(0deg);
+    -moz-transform:rotatey(0deg);
+    right:30px;bottom:-70px;
+}
+#main ul li:hover img{
+    -webkit-transform:rotatey(360deg);
+    -moz-transform:rotatey(360deg);
+}
 .city_module{
     width: 90vw;
     height: 85vh;
