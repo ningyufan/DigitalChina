@@ -8,8 +8,12 @@
         <div class="bk_cs">
             <el-row class="title_text">
                 数字玉林·智慧城市建设
-            </el-row>
-            <el-row >
+			</el-row>
+			<el-row class="city_module1">
+				<el-col class="city_module1_1"></el-col>
+				<el-col class="city_module1_2"></el-col>
+			</el-row>
+            <!-- <el-row >
                 <div id="screen" style="zoom:1; top: 18vh;" >
                     <span><img src="../../assets/images/yulin/city_p1.png" alt="-2,-1,-.8,1.5,2"></span>
                     <span><img src="../../assets/images/yulin/city_p3.png" alt="-1,-.8,0,1.2,1.6"></span>
@@ -18,22 +22,7 @@
                     <span><img src="../../assets/images/yulin/city_p3.png" alt="-1.7,0,.4,1.4,1"></span>
                     <span><img src="../../assets/images/yulin/city_p2.png" alt=".5,-1,-.4,1.5,2"></span>
                 </div>
-            </el-row>
-            <!-- <el-row class="city_module1">1
-                <el-col class="city_module1_1">3
-
-                </el-col>
-                <el-col class="city_module1_2">4
-                    <el-row>4_1</el-row>
-                    <el-row>4_2</el-row>
-                </el-col>
             </el-row> -->
-            <!-- <el-row class="city_module2">
-                <el-col v-for="(item,idx) in 4" :key="idx" class="city_module2_1">
-                    
-                </el-col>
-            </el-row> -->
-            
         </div>
         <div class="bk_zw">
             <el-row class="title_text">数字玉林·“互联网+”政务服务</el-row>
@@ -110,49 +99,8 @@
 				</el-col>
 
 			</el-row>
-			<!-- <el-row class="zhengwu_module2">
-					<el-col class="zhengwu_module2_1"  v-for="(zw_item,zw_idx) in zw_items" :key="zw_idx"> 
-					<el-col class="zhengwu_module2_1">
-						<div class="bs-example" style="background-color: transparent;border: 0;" >
-							<div class="row" style="top: 2vh;">
-								<div class="col-sm-6">
-									<div class="ih-item square effect3 bottom_to_top" style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;"></div>
-										<a href="#">
-											<div class="img" ><img src="@/assets/images/yulin/zw_p1.jpg"  alt="img" style="background-size: 100% 100%;"></div>
-											<div class="info">
-												<h3>插上“科技”翅膀 点亮玉林智慧法院新名片</h3>
-												<p>Description goes here</p>
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>	
-					</el-col>
-			</el-row> -->
+		
 		</div>
-				<!-- <div class="row"> 
-					<div class="col-sm-6">
-						<div class="ih-item square effect1 bottom_to_top" >
-							<a href="#">
-								<div class="img" style="background-size: 100% 100%;"><img src="../../assets/images/yulin/zw_p1.jpg" alt="img"></div>
-								<div class="info">
-									<h3>插上“科技”翅膀 点亮玉林智慧法院新名片</h3>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="ih-item square colored effect1 bottom_to_top" style="width: 35vw;height:45vh;margin:1vh 2vw"><a href="#">
-							<div class="img"  style="background-size: 100% 100%;"><img src="../../assets/images/yulin/zw_p1.jpg" alt="img"></div>
-							<div class="info">
-								<h3>Heading here</h3>
-								<p>Description goes here</p>
-							</div>
-						</a></div>
-					</div>
-				</div>
-				</el-row>
-			</div> -->
 			<div class="bk_ly">
                     <el-row class="title_text">
                         数字玉林·智慧旅游建设
@@ -184,7 +132,7 @@
 								<li style="top: 12vh;" aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p4.png" alt="" width="300" height="450" />
 									<div class="info">
 										<h1>玉林市智慧旅游建设情况</h1>
-									   <p>————容县智慧侨乡建设情况（国家级广西特色旅游名县）</p>
+									   <p>————容县智慧侨乡建设（国家级特色旅游名县）</p>
 									   <a href="#">详情</a>
 									</div>
 								 </li>
@@ -201,21 +149,21 @@
 									  <a href="#">详情</a>
 								   </div>
 								</li>
-								<li aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p6.png" alt="蜘蛛侠" width="300" height="450" />
+								<li aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p6.png" alt="" width="300" height="450" />
 								   <div class="info">
 									<h1>玉林市智慧旅游建设情况</h1>
 									  <p>————市校双方共同推进项目</p>
 									  <a href="#">详情</a>
 								   </div>
 								</li>
-								<li aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p7.png" alt="蜘蛛侠" width="300" height="450" />
+								<li aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p7.png" alt="" width="300" height="450" />
 								   <div class="info">
 									<h1>玉林市智慧旅游建设情况</h1>
 									  <p>————出具“玉林全域旅游大数据平台”方案</p>
 									  <a href="#">详情</a>
 								   </div>
 								</li>
-								<li style="top: 12vh;" aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p8.png" alt="蜘蛛侠" width="300" height="450" />
+								<li style="top: 12vh;" aos="fade-up" aos-anchor-placement="bottom-bottom"> <img src="@/assets/images/yulin/travel_p8.png" alt="" width="300" height="450" />
 									<div class="info">
 										<h1>玉林市智慧旅游建设情况</h1>
 									   <p>————项目建设进度</p>
@@ -225,35 +173,48 @@
 							</ul>
 						 </div>
 					</el-row>
-                    <!-- <el-row class="city_module">
-                        <el-col class="city_module1">
-                            <el-row class="city_module1_1">
-                                
-                            </el-row>
-                            <el-row class="city_module1_2"></el-row>
-                        </el-col>
-                        <el-col class="city_module2">
-                            <el-row class="city_module2_1"></el-row>
-                            <el-row class="city_module2_2"></el-row>
-                            <el-row class="city_module2_3"></el-row>
-                            <el-row class="city_module2_4"></el-row>
-                        </el-col>
-                        <el-col class="city_module3">
-                            <el-row class="city_module3_1"></el-row>
-                            <el-row class="city_module3_2"></el-row>
-                        </el-col>
-        
-                    </el-row> -->
                 </div>
         <div class="bk_fp">
+            <el-row class="title_text">
+                数字玉林·扶持地方特色产业
+			</el-row>
+			<el-row class="chanye">
+				
+			<el-col style="width: 55vw;height: 100%;margin: 0vh 0vw;" aos="zoom-in-right">
+				<div id="container">
+					<div id="itemlist" >
+						<img src="@/assets/images/yulin/chanye_p1.jpg" alt="Busby" id="busby" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
+						<img src="@/assets/images/yulin/chanye_p2.jpg" alt="Gridly" id="gridly" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
+						<img src="@/assets/images/yulin/chanye_p3.jpg" alt="Reco" id="reco" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
+						<img src="@/assets/images/yulin/chanye_p4.jpg" alt="Theblog" id="theblog" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
+						<!-- <img src="@/assets/images/yulin/chanye_p3.jpg" alt="Reco" id="reco" />
+						<img src="@/assets/images/yulin/chanye_p4.jpg" alt="Theblog" id="theblog" /> -->
+					</div>
+				</div>  
+			</el-col>
+					
+			<el-col style="width: 40vw;height: 100%;margin: 0vh 0vw;" aos="zoom-in-left">
+				<div id="container">
+					<div id="itemdescription" style="left: 0vw; background-color: rgb(253, 236, 84);">
+						<span data-for="busby"><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">玉林：大数据开启智慧农业新时代</a></span>
+						<span data-for="gridly"><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">借力“互联网+”,玉林中药港力建“大数据”</a></span>
+						<span data-for="reco" ><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">玉林中药材走向信息化大型平台交易:"药商不出门 药材销八方"</a></span>
+						<span data-for="theblog"><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">玉林市北流力建农特优产品大数据</a></span>
+					</div>
+				</div>  
+			</el-col >	
+		</el-row>
+			
+            </div>
+        <div class="bk_end">
             <el-row class="title_text">
                 数字玉林·大数据助力精准扶贫
 			</el-row>
 			<el-row style="margin: 5vh">
-				<section class="hover_6 miktu_hover">
+				<section class="hover_6 miktu_hover"  aos="zoom-in-up">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-4 col-md-6 col-sm-12" aos="fade-right">
+							<div class="col-lg-4 col-md-6 col-sm-12">
 								<div class="hover_area_6 hover_area">
 									<div class="hover_img_6">
 										<img src="@/assets/images/yulin/fp_p1.png" class="img-fluid" style="width: 45vw;height: 38vh;background-size: 100% 100%;" alt="">
@@ -264,7 +225,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-4 col-md-6 col-sm-12"  aos="zoom-in-up">
+							<div class="col-lg-4 col-md-6 col-sm-12" >
 								<div class="hover_area_6 hover_area">
 									<div class="hover_img_6">
 										<img src="@/assets/images/yulin/fp_p2.jpg" class="img-fluid" style="width: 45vw;height: 38vh;background-size: 100% 100%;" alt="">
@@ -275,7 +236,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-4 col-md-6 col-sm-12" aos="fade-left">
+							<div class="col-lg-4 col-md-6 col-sm-12">
 								<div class="hover_area_6 hover_area">
 									<div class="hover_img_6">
 										<img src="@/assets/images/yulin/fp_p3.jpg" class="img-fluid" style="width: 45vw;height: 38vh;background-size: 100% 100%;" alt="">
@@ -286,7 +247,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-4 col-md-6 col-sm-12" aos="fade-right">
+							<div class="col-lg-4 col-md-6 col-sm-12">
 								<div class="hover_area_6 hover_area">
 									<div class="hover_img_6">
 										<img src="@/assets/images/yulin/fp_p4.jpg" class="img-fluid" style="width: 45vw;height: 38vh;background-size: 100% 100%;" alt="">
@@ -297,7 +258,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-4 col-md-6 col-sm-12" aos="zoom-in-up">
+							<div class="col-lg-4 col-md-6 col-sm-12">
 								<div class="hover_area_6 hover_area">
 									<div class="hover_img_6">
 										<img src="@/assets/images/yulin/fp_p5.jpg" class="img-fluid" style="width: 45vw;height: 38vh;background-size: 100% 100%;" alt="">
@@ -308,7 +269,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-4 col-md-6 col-sm-12" aos="fade-left">
+							<div class="col-lg-4 col-md-6 col-sm-12">
 								<div class="hover_area_6 hover_area">
 									<div class="hover_img_6">
 										<img src="@/assets/images/yulin/fp_p6.jpg" class="img-fluid" style="width: 45vw;height: 38vh;background-size: 100% 100%;" alt="">
@@ -323,11 +284,6 @@
 					</div>
 				</section>
 			</el-row>
-            </div>
-        <div class="bk_end">
-            <el-row class="title_text">
-                数字玉林·扶持地方特色产业
-			</el-row>
 		
         </div>
     </div>
@@ -335,17 +291,16 @@
 </template>
 
 <script>
+	// import ChanYe from './yl_chanye.vue'
     export default{
-		data(){
-			return{
-			// 	zw_items:[
-			// 	{imgR:require("@/assets/images/yulin/zw_p1.jpg"),zw_text:'玉林市大数据发展和政务服务局：从“能够办”向“简易办”转变”'},
-			// 	{imgR:require("@/assets/images/yulin/zw_p2.jpg"),zw_text:'玉林市大数据发展和政务服务局：从“能够办”向“简易办”转变”'},
-			// 	{imgR:require("@/assets/images/yulin/zw_p3.jpg"),zw_text:'玉林市大数据发展和政务服务局：从“能够办”向“简易办”转变”'},
-			// 	{imgR:require("@/assets/images/yulin/zw_p4.jpg"),zw_text:'玉林市大数据发展和政务服务局：从“能够办”向“简易办”转变”'},
-			// ],	
-			}
-	},
+	// 	components:{
+	// 		ChanYe,
+    // },
+	// 	data(){
+	// 		return{
+			
+	// 		}
+	// },
         head:{
             script:[
             {src:'js/jquery.1.7.1.min.js'},
@@ -357,6 +312,10 @@
 			{src:'js/bootstrap.min.js'},
 			{src:'js/popper.min.js'},
 			
+			// 产业模块
+			{src:'js/yl_chanye/jquery-1.7.2.min.js'},
+			{src:'js/yl_chanye/modernizr.custom.34807.js'},
+			{src:'js/yl_chanye/demo.js'},
             
         ],
         link: [
@@ -367,13 +326,16 @@
             { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'css/styles.css' },
 
-
-			{ rel: 'stylesheet', href: 'css/bootstrap.min.css' },
+			// { rel: 'stylesheet', href: 'css/bootstrap.min.css' },
             { rel: 'stylesheet', href: 'css/miktu.css' },
-            { rel: 'stylesheet', href: 'css/page-style.css' }
+            { rel: 'stylesheet', href: 'css/page-style.css' },
+
+			// 产业模块
+			{ rel: 'stylesheet', href: 'css/yl_chanye/style.css' },
+
         ]
 		},
-            methods: {
+    methods: {
     handleScroll() {
         let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
         if(top > 250){
