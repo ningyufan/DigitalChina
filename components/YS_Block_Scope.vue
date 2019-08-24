@@ -6,55 +6,112 @@
             <div class="animate" data-ani="fadeInDown"  data-delay="500">
                 <div class="box_ys">
                     <div @click="dialogVisible1 = true" class="ys6_ys" style="transform: rotateY(0deg) translateZ(65vh);">
-                        <img class="img6_ys" src="@/assets/images/ysblock/img1_scope.webp">
-                        <div class="text6_ys">部门培训 | 礼仪部</div>
-                        <div class="img_6_ys">点击查看详情</div>
-                        <!-- <div class="img_6_ys"><div class="text_all_ys">图片1</div></div> -->
+                        <figure class="six">
+                            <img class="img6_ys" src="@/assets/images/ysblock/img1_scope.webp">
+                            <figcaption>
+                                <h3>部门培训 | 礼仪部</h3>
+                                <p class="img_6_ys">点击查看详情</p>
+                                <div class="border1"></div>
+                                <div class="border2"></div>
+                            </figcaption>
+                        </figure>     
+                        <!-- <div class="text6_ys">部门培训 | 礼仪部</div>
+                        <div class="img_6_ys">点击查看详情</div> -->
                     </div>
                     <div @click="dialogVisible2 = true" class="ys7_ys" style="transform: rotateY(45deg) translateZ(65vh);">
-                        <img class="img7_ys" src="@/assets/images/ysblock/img2_scope.webp">
-                        <div class="text7_ys">驭梦人生</div>
-                        <div class="img_7_ys">点击查看详情</div>
-                        <!-- <div class="img_7_ys"><div class="text_all_ys">图片2</div></div> -->
+                        <figure class="six">
+                            <img class="img7_ys" src="@/assets/images/ysblock/img2_scope.webp">
+                            <figcaption>
+                                <h3>驭梦人生</h3>
+                                <p class="img_7_ys">点击查看详情</p>
+                                <div class="border1"></div>
+                                <div class="border2"></div>
+                            </figcaption>
+                        </figure>
+                        <!-- <div class="text7_ys">驭梦人生</div>
+                        <div class="img_7_ys">点击查看详情</div> -->
                     </div>
                     <div @click="dialogVisible3 = true" class="ys8_ys" style="transform: rotateY(90deg) translateZ(65vh);">
-                        <img class="img8_ys" src="@/assets/images/ysblock/img3_scope_1.webp">
-                        <div class="text8_ys">不一样的我们</div>
-                        <div class="img_8_ys">点击查看详情</div>
-                        <!-- <div class="img_8_ys"><div class="text_all_ys">图片3</div></div> -->
+                        <figure class="six">
+                            <img class="img8_ys" src="@/assets/images/ysblock/img3_scope_1.webp">
+                            <figcaption>
+                                <h3>不一样的我们</h3>
+                                <p class="img_8_ys">点击查看详情</p>
+                                <div class="border1"></div>
+                                <div class="border2"></div>
+                            </figcaption>
+                        </figure>
+                        <!-- <div class="text8_ys">不一样的我们</div>
+                        <div class="img_8_ys">点击查看详情</div> -->
                     </div>
                     <div @click="dialogVisible4 = true" class="ys9_ys" style="transform: rotateY(135deg) translateZ(65vh);">
-                        <img class="img9_ys" src="@/assets/images/ysblock/img4_scope_5.webp"/>>
-                        <div class="text9_ys">素质拓展</div>
-                        <div class="img_9_ys">点击查看详情</div>
-                        <!-- <div class="img_9_ys"><div class="text_all_ys">图片4</div></div> -->
+                        <figure class="six">
+                            <img class="img9_ys" src="@/assets/images/ysblock/img4_scope_5.webp"/>
+                            <figcaption>
+                                <h3>素质拓展</h3>
+                                <p class="img_9_ys">点击查看详情</p>
+                                <div class="border1"></div>
+                                <div class="border2"></div>
+                            </figcaption>
+                        </figure>
+                        <!-- <div class="text9_ys">素质拓展</div>
+                        <div class="img_9_ys">点击查看详情</div> -->
                     </div>
                     <div @click="dialogVisible5 = true" class="ys10_ys" style="transform: rotateY(180deg) translateZ(65vh);">
-                        <img class="img10_ys" src="@/assets/images/ysblock/img5_scope_2.webp">
-                        <div class="text10_ys">PPT团队风采展</div>
-                        <div class="img_10_ys">点击查看详情</div>
-                        <!-- <div class="img_10_ys"><div class="text_all_ys">图片5</div></div> -->
+                        <figure class="six">
+                            <img class="img10_ys" src="@/assets/images/ysblock/img5_scope_2.webp">
+                            <figcaption>
+                                <h3>PPT团队风采展</h3>
+                                <p class="img_10_ys">点击查看详情</p>
+                                <div class="border1"></div>
+                                <div class="border2"></div>
+                            </figcaption>
+                        </figure>
+                        <!-- <div class="text10_ys">PPT团队风采展</div>
+                        <div class="img_10_ys">点击查看详情</div> -->
                     </div>
                     <div @click="dialogVisible6 = true" class="ys11_ys" style="transform: rotateY(225deg) translateZ(65vh);">
-                        <img class="img11_ys" src="@/assets/images/ysblock/img6_scope_1.webp">
-                        <div class="text11_ys">五四团日活动</div>
-                        <div class="img_11_ys">点击查看详情</div>
-                        <!-- <div class="img_11_ys"><div class="text_all_ys">图片6</div></div> -->
+                        <figure class="six">
+                            <img class="img11_ys" src="@/assets/images/ysblock/img6_scope_1.webp">
+                            <figcaption>
+                                <h3>五四团日活动</h3>
+                                <p class="img_11_ys">点击查看详情</p>
+                                <div class="border1"></div>
+                                <div class="border2"></div>
+                            </figcaption>
+                        </figure>
+                        <!-- <div class="text11_ys">五四团日活动</div>
+                        <div class="img_11_ys">点击查看详情</div> -->
                     </div>
                     <div @click="dialogVisible7 = true" class="ys12_ys" style="transform: rotateY(270deg) translateZ(65vh);">
-                        <img class="img12_ys" src="@/assets/images/ysblock/img7_scope_1.webp">
-                        <div class="text12_ys">瑞翼工坊</div>
-                        <div class="img_12_ys">点击查看详情</div>
-                        <!-- <div class="img_12_ys"><div class="text_all_ys">图片7</div></div> -->
+                        <figure class="six">
+                            <img class="img12_ys" src="@/assets/images/ysblock/img7_scope_1.webp">
+                            <figcaption>
+                                <h3>瑞翼工坊</h3>
+                                <p class="img_12_ys">点击查看详情</p>
+                                <div class="border1"></div>
+                                <div class="border2"></div>
+                            </figcaption>
+                        </figure>
+                        <!-- <div class="text12_ys">瑞翼工坊</div>
+                        <div class="img_12_ys">点击查看详情</div> -->
                     </div>
                     <div @click="dialogVisible8 = true" class="ys13_ys" style="transform: rotateY(315deg) translateZ(65vh);">
-                        <img class="img13_ys" src="@/assets/images/ysblock/img8_scope_3.webp">
-                        <div class="text13_ys">Data Kingkong协会换届</div>
-                        <div class="img_13_ys">点击查看详情</div>
-                        <!-- <div class="img_13_ys"><div class="text_all_ys">图片8</div></div> -->
+                        <figure class="six">
+                            <img class="img13_ys" src="@/assets/images/ysblock/img8_scope_3.webp">
+                            <figcaption>
+                                <h3>Data Kingkong协会</h3>
+                                <p class="img_13_ys">点击查看详情</p>
+                                <div class="border1"></div>
+                                <div class="border2"></div>
+                            </figcaption>
+                        </figure>
+                        <!-- <div class="text13_ys">Data Kingkong协会换届</div>
+                        <div class="img_13_ys">点击查看详情</div> -->
                     </div>
                 </div>
             </div>
+
             <el-dialog
                 title="部门培训 | 礼仪部第一次培训"
                 :visible.sync="dialogVisible1"
@@ -256,37 +313,24 @@ export default {
       };
     },
     methods: {
-    //   handleClose(done) {
-    //     this.$confirm('确认关闭？')
-    //       .then(_ => {
-    //         done();
-    //       })
-    //       .catch(_ => {});
-    //   }
+
     },
-    // head:{
-    //     script:[
-    //         {src:'js/jquery.1.7.1.min.js'},
-    //         {src:'js/aos.js'},
-    //     ],
-    //     link: [
-    //         { rel: 'stylesheet', href: 'css/normalize.css' },
-    //         // { rel: 'stylesheet', href: 'css/demo.css' },
-    //         { rel: 'stylesheet', href: 'js/aos.css' },
-    //         { rel: 'stylesheet', href: 'css/styles.css' }
-    //     ]
-    // },
-    // mounted(){
-    //      AOS.init({
-    //         easing: 'ease-out-back',
-    //         duration: 500,
-	// 		once :false
-    //     });
-    // }
+    head:{
+        script:[
+
+        ],
+        link:[
+            { rel: 'stylesheet', href: 'css/css3.css' }
+        ]
+    }
+
 }
 </script>
 
 <style>
+/* img{
+    filter:brightness(80%);
+} */
 .back_ys{
     background-image: url(../assets/images/ysblock/background1.png);
     background-size: 100% 100%;
@@ -317,23 +361,34 @@ export default {
 .img2_scope{
     margin-left: 10%;
     height:50vh;
-
 }
 
 .img6_ys:hover,.img7_ys:hover,.img8_ys:hover,.img9_ys:hover,.img10_ys:hover,.img11_ys:hover,.img12_ys:hover,.img13_ys:hover{
     border: 2px solid white;
-    -webkit-transform:scale(1.5);
+    -webkit-transform:scale(1.3);
 	-webkit-box-shadow:0px 0px 30px #ccc;
     z-index: 3;
+}
+.six:hover{
+    /* border: 2px solid #777; */
+    -webkit-transform:scale(1.3);
+	-webkit-box-shadow:0px 0px 30px #111;
+    z-index: 3;
+}
+.six{
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
 }
 .img6_ys,.img7_ys,.img8_ys,.img9_ys,.img10_ys,.img11_ys,.img12_ys,.img13_ys{
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
     width:45vh;
     height: 30vh;
-    z-index: 2;
     position: absolute;
+    filter:brightness(70%);
 }
+
+
 .text6_ys,.text7_ys,.text8_ys,.text9_ys,.text10_ys,.text11_ys,.text12_ys,.text13_ys{
     position: relative;
     z-index: 3;
@@ -346,26 +401,25 @@ export default {
     opacity: 1;
     font-size: 2.5vh;
 }
-.ys6_ys:hover .text6_ys,.ys7_ys:hover .text7_ys,.ys8_ys:hover .text8_ys,.ys9_ys:hover .text9_ys,.ys10_ys:hover .text10_ys,.ys11_ys:hover .text11_ys,.ys12_ys:hover .text12_ys,.ys13_ys:hover .text13_ys{
+/* .ys6_ys:hover .text6_ys,.ys7_ys:hover .text7_ys,.ys8_ys:hover .text8_ys,.ys9_ys:hover .text9_ys,.ys10_ys:hover .text10_ys,.ys11_ys:hover .text11_ys,.ys12_ys:hover .text12_ys,.ys13_ys:hover .text13_ys{
     -webkit-transform:scale(1.2);
     opacity: 0;
     z-index: 0;
-}
+} */
 
 .img_6_ys,.img_7_ys,.img_8_ys,.img_9_ys,.img_10_ys,.img_11_ys,.img_12_ys,.img_13_ys{
     position: relative;
     z-index: 3;
     transition: opacity 0.7s ease-in;
     opacity: 0;
-    font-size: 2.5vh;
+    font-size: 2vh;
     color:rgb(51, 135, 214);
     text-align: center;
+    line-height: 10vh;
 }
-.ys6_ys:hover .img_6_ys,.ys7_ys:hover .img_7_ys,.ys8_ys:hover .img_8_ys,.ys9_ys:hover .img_9_ys,.ys10_ys:hover .img_10,.ys11_ys:hover .img_11_ys,.ys12_ys:hover .img_12_ys,.ys13_ys:hover .img_13_ys{
-    z-index: 3;
+.ys6_ys:hover .img_6_ys,.ys7_ys:hover .img_7_ys,.ys8_ys:hover .img_8_ys,.ys9_ys:hover .img_9_ys,.ys10_ys:hover .img_10_ys,.ys11_ys:hover .img_11_ys,.ys12_ys:hover .img_12_ys,.ys13_ys:hover .img_13_ys{
     opacity: 1;     
 }
-
 .text_all_ys{
     height: 60%;
     width: 80%;
