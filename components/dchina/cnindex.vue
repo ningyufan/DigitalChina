@@ -4,6 +4,7 @@
             <div class="bg1_bt">
                 <h2>数字经济竞争格局</h2>
             </div>
+            
         </div>
         <div class="CN_bg2">
             <div class="bg2_bt">

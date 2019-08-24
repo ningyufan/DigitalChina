@@ -1,6 +1,6 @@
 <template>
-    <div class="Digital_ct">
-        <div class="ct_mbg">
+    <div class="Digital_ct">       	
+        <div class="ct_mbg" id="ct_mbg"> 
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
                         <div class="header_nav1">
@@ -29,7 +29,6 @@
                         </div>
                     </div>
                 </div>
-                <center>
                 <div class="ct_border">
                     <center>
                     <div class="ct_bg">
@@ -46,9 +45,10 @@
                     </div>
                     </center>
                 </div>
-                </center>
+                <canvas></canvas>
         </div>
         <div class="footer">footer</div>
+        <script src='js/ct-dh.js'></script>
     </div>
 </template>
 <script>
@@ -60,9 +60,8 @@ export default {
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
-            // { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
-            { rel: 'stylesheet', href: 'css/styles.css' }
+            { rel: 'stylesheet', href: 'css/styles.css' },
         ]
     },
     data () {
@@ -128,12 +127,26 @@ export default {
 
 <style>
 @import "@/assets/css/index/page_index.css";
+.J_dotLine{
+	height:20vh;
+	width:100vw;
+}
+
 .Digital_ct{
     width: 100%;
 }
+.ct_mbg{
+    background-image: url('../assets/images/dchina/ct_bg2.png');
+    width: 100vw;
+    height: 200vh;
+    background-size: 100% 100%; 
+    position: relative;
+    z-index: 1;
+}
 
 .header_nav1{
-  height:20vh;
+  position: absolute;
+  height:15vh;
   width: 100vw;
   margin: 0 auto;
 }
@@ -164,21 +177,16 @@ export default {
     background: rgb(187, 184, 184);
     text-align: center;
 }
-.ct_mbg{
-    background-image: url('../assets/images/dchina/ct_bg.png');
-    width: 100vw;
-    height: 200vh;
-    background-size: 100% 100%; 
-    position: relative;
-}
+
 
 .ct_border{
     height: 160vh;
     width: 60%;
     margin: 0 auto;
     z-index: 2;
-    position: relative;
-    /* right: 21vw; */
+    position: absolute;
+    top:20vh;
+    left: 20vw;
     border:2vh solid rgba(255, 255, 255, 0.5);
 }
 
@@ -188,7 +196,6 @@ export default {
     margin:0 auto;
     background-color:rgba(255, 255, 255, 0.5);
     z-index: 3;
-    /* left: 4vw; */
     top:3vh;
     position: relative;
 }
