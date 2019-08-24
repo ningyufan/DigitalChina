@@ -180,31 +180,30 @@
 			</el-row>
 			<el-row class="chanye">
 				
-					<el-col style="width: 55vw;height: 100%;margin: 0vh 0vw;">
-						<div id="container">
-							<div id="itemlist" >
-								<img src="@/assets/images/yulin/chanye_p1.jpg" alt="Busby" id="busby" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
-								<img src="@/assets/images/yulin/chanye_p2.jpg" alt="Gridly" id="gridly" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
-								<img src="@/assets/images/yulin/chanye_p3.jpg" alt="Reco" id="reco" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
-								<img src="@/assets/images/yulin/chanye_p4.jpg" alt="Theblog" id="theblog" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
-								<!-- <img src="@/assets/images/yulin/chanye_p3.jpg" alt="Reco" id="reco" />
-								<img src="@/assets/images/yulin/chanye_p4.jpg" alt="Theblog" id="theblog" /> -->
-							</div>
-						</div>  
-					</el-col>
+			<el-col style="width: 55vw;height: 100%;margin: 0vh 0vw;" aos="zoom-in-right">
+				<div id="container">
+					<div id="itemlist" >
+						<img src="@/assets/images/yulin/chanye_p1.jpg" alt="Busby" id="busby" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
+						<img src="@/assets/images/yulin/chanye_p2.jpg" alt="Gridly" id="gridly" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
+						<img src="@/assets/images/yulin/chanye_p3.jpg" alt="Reco" id="reco" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
+						<img src="@/assets/images/yulin/chanye_p4.jpg" alt="Theblog" id="theblog" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
+						<!-- <img src="@/assets/images/yulin/chanye_p3.jpg" alt="Reco" id="reco" />
+						<img src="@/assets/images/yulin/chanye_p4.jpg" alt="Theblog" id="theblog" /> -->
+					</div>
+				</div>  
+			</el-col>
 					
-					<el-col style="width: 40vw;height: 100%;margin: 0vh 0vw;">
-						<div id="container">
-							<div id="itemdescription" style="left: 0vw; background-color: rgb(253, 236, 84);">
-								<span data-for="busby"><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">玉林：大数据开启智慧农业新时代</a></span>
-								<span data-for="gridly"><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">借力“互联网+”,玉林中药港力建“大数据”</a></span>
-								<span data-for="reco" ><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">玉林中药材走向信息化大型平台交易:"药商不出门 药材销八方"</a></span>
-								<span data-for="theblog"><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">玉林市北流力建农特优产品大数据</a></span>
-							</div>
-						</div>  
-					</el-col >
-					
-			</el-row>
+			<el-col style="width: 40vw;height: 100%;margin: 0vh 0vw;" aos="zoom-in-left">
+				<div id="container">
+					<div id="itemdescription" style="left: 0vw; background-color: rgb(253, 236, 84);">
+						<span data-for="busby"><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">玉林：大数据开启智慧农业新时代</a></span>
+						<span data-for="gridly"><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">借力“互联网+”,玉林中药港力建“大数据”</a></span>
+						<span data-for="reco" ><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">玉林中药材走向信息化大型平台交易:"药商不出门 药材销八方"</a></span>
+						<span data-for="theblog"><a href="#" style="font-size: 4vh;border-bottom:1px solid rgb(255, 255, 255);">玉林市北流力建农特优产品大数据</a></span>
+					</div>
+				</div>  
+			</el-col >	
+		</el-row>
 			
             </div>
         <div class="bk_end">
