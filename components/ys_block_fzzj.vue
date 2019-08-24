@@ -9,10 +9,10 @@
             </div>
             <div class="box2_zj">
                 <div class="text_2_zj">2017.7</div>
-                <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玉林师范学院教师参加教育部数据中国“百校工程”师资培训</div>
+                <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玉林师范学院-曙光大数据学院大数据应用协同创新中心挂牌成立</div>
             </div>
             <div class="box3_zj">
-                <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玉林师范学院-曙光大数据学院大数据应用协同创新中心挂牌成立</div>
+                <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玉林师范学院教师参加教育部数据中国“百校工程”师资培训</div>
                 <div class="text_3_zj">2017.7</div>
             </div>
             <div class="box4_zj">
@@ -28,13 +28,49 @@
                 <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;市校共建玉林市大数据研究院签约仪式</div>
             </div>
             <div class="box7_zj">
-                <div class="text7_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大数据研究院项目评定会召开确定“全域旅游大数据”等3个项目为研究院开展项目</div>
+                <div class="text7_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大数据研究院项目评定会召开</div>
                 <div class="text_7_zj">2019.1</div>
             </div>
             <div class="box8_zj"></div>
             <div class="box9_zj"></div>
         </div>
-        <div class="box_img">
+        <div class="box_img1" aos="zoom-in">
+            <div class="boxs1_zj">
+                <img src="../assets/images/ysblock/img1_zj.webp" class="img1_zj" height="80%" width="100%">
+                <div class="img1_text_zj">2016.7</div>
+            </div>
+            <div class="boxs2_zj" aos="zoom-in">
+                <img src="../assets/images/ysblock/img2_zj.jpg" class="img1_zj" height="80%" width="100%">
+                <div class="img1_text_zj">2017.7</div>
+            </div>
+            <div class="boxs3_zj">
+                <img src="../assets/images/ysblock/img3_zj.jpg" class="img1_zj" height="80%" width="100%">
+                <div class="img1_text_zj">2017.7</div>
+            </div>
+        </div>
+        <div class="box_img2"  aos="zoom-in">
+            <div class="boxs4_zj">
+                <img src="../assets/images/ysblock/img4_zj.jpg" class="img1_zj" height="80%" width="100%">
+                <div class="img1_text_zj">2017.8</div>
+            </div>
+            <div class="boxs5_zj">
+                <img src="../assets/images/ysblock/img5_zj.jpg" class="img1_zj" height="80%" width="100%">
+                <div class="img1_text_zj">2017.9</div>
+            </div>
+            <div class="boxs6_zj">
+                <img src="../assets/images/ysblock/img6_zj.jpg" class="img1_zj" height="80%" width="100%">
+                <div class="img1_text_zj">2017.11</div>
+            </div>
+            <div class="boxs7_zj">
+                <img src="../assets/images/ysblock/img7_zj.png" class="img1_zj" height="80%" width="100%">
+                <div class="img1_text_zj">2019.1</div>
+            </div>
+        </div>
+        
+
+
+        
+        <!-- <div class="box_img">
             <div class="img1_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
             <div class="img2_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
             <div class="img3_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
@@ -43,7 +79,7 @@
             <div class="img6_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
             <div class="img7_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
 
-        </div>
+        </div> -->
 
 
         
@@ -60,13 +96,198 @@ export default {
 .ysblockfazj{
     background-image: url(../assets/images/ysblock/background1.png);
     background-size: cover;
-    height: 150vh;
+    height: 140vh;
 }
-.box_img{
+.box_img1{
+    width: 100%;
+    height: 30vh;
+    margin-top: 50vh;
+}
+.boxs1_zj{
+    width:19%;
+    height: 30vh;
+    margin-left: 20%;
+    float: left;
+    background-color: rgba(255, 255, 255, 1);
+    -weikit-transform-origin:center; 
+	-moz-transform-origin:center;
+	-o-transform-origin:center;
+	-ms-transform-origin:center;
+	transform-origin:center;
+	transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-o-transform:rotate(10deg);
+	-ms-transform:rotate(10deg);
+	position: relative;
+	transition: transform 0.3s ease-in;
+    box-shadow:.2em .2em .8em #130c0e;
+    padding: 1vh 1vh;
+    filter:brightness(70%);
+    color: rgb(33, 10, 114);
+}
+.img1_text_zj{
+    text-align: center;
+    font-size: 2.5vh;
+    margin-top: 1vh;
+}
+.boxs2_zj{
+    width:19%;
+    height: 30vh;
+    margin-left: 1.5%;
+    float: left;
+    background-color: rgba(255, 255, 255, 1);
+    -weikit-transform-origin:center; 
+	-moz-transform-origin:center;
+	-o-transform-origin:center;
+	-ms-transform-origin:center;
+	transform-origin:center;
+	transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+	position: relative;
+	transition: transform 0.3s ease-in;
+    box-shadow:.2em .2em .8em #130c0e;
+    padding: 1vh 1vh;
+    filter:brightness(70%);
+    color:rgb(209, 52, 4);
+}
+.boxs3_zj{
+    width:19%;
+    height: 30vh;
+    margin-right: 20%;
+    float: right;
+    background-color: rgba(255, 255, 255, 1);
+    -weikit-transform-origin:center; 
+	-moz-transform-origin:center;
+	-o-transform-origin:center;
+	-ms-transform-origin:center;
+	transform-origin:center;
+	transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-o-transform:rotate(-10deg);
+	-ms-transform:rotate(-10deg);
+	position: relative;
+	transition: transform 0.3s ease-in;
+    box-shadow:.2em .2em .8em #130c0e;
+    padding: 1vh 1vh;
+    filter:brightness(70%);
+    color: rgb(78, 6, 173);
+}
+.box_img2{
+    width: 100%;
+    height: 30vh;
+    /* margin-top: 6vh; */
+}
+.boxs4_zj{
+    width:19%;
+    height: 30vh;
+    margin-left: 10%;
+    float: left;
+    background-color: rgba(255, 255, 255, 1);
+    -weikit-transform-origin:center; 
+	-moz-transform-origin:center;
+	-o-transform-origin:center;
+	-ms-transform-origin:center;
+	transform-origin:center;
+	transform:rotate(9deg);
+	-webkit-transform:rotate(9deg);
+	-moz-transform:rotate(9deg);
+	-o-transform:rotate(9deg);
+	-ms-transform:rotate(9deg);
+	position: relative;
+	transition: transform 0.3s ease-in;
+    box-shadow:.2em .2em .8em #130c0e;
+    padding: 1vh 1vh;
+    filter:brightness(70%);
+    color: rgb(14, 92, 7);
+}
+.boxs5_zj{
+    width:19%;
+    height: 30vh;
+    margin-left: 1.33%;
+    float: left;
+    background-color: rgba(255, 255, 255, 1);
+    -weikit-transform-origin:center; 
+	-moz-transform-origin:center;
+	-o-transform-origin:center;
+	-ms-transform-origin:center;
+	transform-origin:center;
+	transform:rotate(13deg);
+	-webkit-transform:rotate(13deg);
+	-moz-transform:rotate(13deg);
+	-o-transform:rotate(13deg);
+	-ms-transform:rotate(13deg);
+	position: relative;
+	transition: transform 0.3s ease-in;
+    box-shadow:.2em .2em .8em #130c0e;
+    padding: 1vh 1vh;
+    filter:brightness(70%);
+    color: rgb(71, 4, 110);
+}
+.boxs6_zj{
+    width:19%;
+    height: 30vh;
+    margin-left: 1.33%;
+    float: left;
+    background-color: rgba(255, 255, 255, 1);
+    -weikit-transform-origin:center; 
+	-moz-transform-origin:center;
+	-o-transform-origin:center;
+	-ms-transform-origin:center;
+	transform-origin:center;
+	transform:rotate(-17deg);
+	-webkit-transform:rotate(-17deg);
+	-moz-transform:rotate(-17deg);
+	-o-transform:rotate(-17deg);
+	-ms-transform:rotate(-17deg);
+	position: relative;
+	transition: transform 0.3s ease-in;
+    box-shadow:.2em .2em .8em #130c0e;
+    padding: 1vh 1vh;
+    filter:brightness(70%);
+    color: rgb(4, 45, 73);
+}
+.boxs7_zj{
+    width:19%;
+    height: 30vh;
+    margin-left: 1.33%;
+    float: right;
+    margin-right: 10%;
+    background-color: rgba(255, 255, 255, 1);
+    -weikit-transform-origin:center; 
+	-moz-transform-origin:center;
+	-o-transform-origin:center;
+	-ms-transform-origin:center;
+	transform-origin:center;
+	transform:rotate(-21deg);
+	-webkit-transform:rotate(-21deg);
+	-moz-transform:rotate(-21deg);
+	-o-transform:rotate(-21deg);
+	-ms-transform:rotate(-21deg);
+	position: relative;
+	transition: transform 0.3s ease-in;
+    box-shadow:.2em .2em .8em #130c0e;
+    padding: 1vh 1vh;
+    filter:brightness(70%);
+    color: rgb(206, 14, 132);
+}
+.boxs1_zj:hover,.boxs2_zj:hover,.boxs3_zj:hover,.boxs4_zj:hover,.boxs5_zj:hover,.boxs6_zj:hover,.boxs7_zj:hover{
+    transform:rotate(0deg); /*以右下角为基准点顺时针旋转10°*/
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+    z-index: 5;
+}
+
+/* .box_img{
     width: 80%;
     height: 77vh;
     margin-left: 10%;
-    /* border: 1px solid red; */
     margin-top:45vh;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 1vh 1vh;
@@ -118,7 +339,7 @@ export default {
     float: right;
     margin-top: 0.7vh;
     border: 2px  ridge #777;
-}
+} */
 
 
 
@@ -231,7 +452,7 @@ export default {
     font-size: 2.1vh
 }
 .text7_zj{
-    font-size: 1.9vh
+    font-size: 2.1vh
 }
 .text_1_zj{
     text-align: center;
@@ -252,5 +473,6 @@ export default {
 .text_7_zj{
     text-align: center;
     font-size: 2.5vh;
+    margin-top: 7vh
 }
 </style>

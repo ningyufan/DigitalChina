@@ -1,14 +1,16 @@
 <template>
     <div class="ysblockjs">
         <div class="title_js">玉林师范——大数据学院</div>
-        <div class="box1_js" aos="flip-up">
-            <img src="../assets/images/ysblock/img1_js.jpg" class="img1_js" height="100%" width="100%">
-        </div>
-        <div class="box2_js" aos="flip-up">
-            <img src="../assets/images/ysblock/img2_js.png" class="img2_js" height="100%" width="100%">
-        </div>
-        <div class="box3_js" aos="flip-up">
-            <img src="../assets/images/ysblock/img3_js.jpg" class="img3_js" height="100%" width="100%">
+            <div aos="flip-up">
+            <div class="box1_js">
+                <img src="../assets/images/ysblock/img1_js.jpg" class="img1_js" height="100%" width="100%">
+            </div>
+            <div class="box2_js">
+                <img src="../assets/images/ysblock/img2_js.png" class="img2_js" height="100%" width="100%">
+            </div>
+            <div class="box3_js">
+                <img src="../assets/images/ysblock/img3_js.jpg" class="img3_js" height="100%" width="100%">
+            </div>
         </div>
         <div aos="zoom-in-up">
             <div class="text1_js">
