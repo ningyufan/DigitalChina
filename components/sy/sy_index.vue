@@ -53,13 +53,17 @@ export default {
             { rel: 'stylesheet', href: 'css/style2.css' },//box2_style
         ]
     },
+    created() {
+        
+
+       
+    },
     mounted() {
         AOS.init({
             easing: 'ease-in-out',
             duration: 500,
 			once :false
         });
-
         // 背景动画 start
         particlesJS('particles-js',{
             "particles": {
@@ -173,7 +177,7 @@ export default {
             }
 
         );
-        //背景动画 end
+         //背景动画 end
 
     },
 

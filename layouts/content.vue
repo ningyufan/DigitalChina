@@ -40,7 +40,10 @@
                                     </span>
                                 </div>
                                 <div class="fg_border"></div>
-                                <nuxt />
+                                <div class="content">
+                                    <nuxt />
+                                </div>
+                                
                             </div>
                     </div>
                     </center>
@@ -218,6 +221,11 @@ export default {
     top: 10vh;
     border:1vh solid rgba(255, 255, 255, 0.5);
 }
-
-
+.content {
+    position: absolute;
+    top: 15vh;
+    left: 5%;
+    width: 90%;
+    height:85%;  
+}
 </style>

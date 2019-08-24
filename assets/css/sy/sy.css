@@ -1,9 +1,8 @@
 .sy_index {
-  background-color: black;
+  background-color: rgb(14, 31, 53);
   position: relative;
 }
 
-/* sy_box1 start */
 .sy_box1{
     width: 100vw;
     height: 100vh;
@@ -51,11 +50,6 @@
 
 /* sy_box2 start */
 
-.sy_box2{
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-}
 .sy_box2 .sybox2_con {
   height: 95vh;
   width: 95vw;
@@ -77,28 +71,3 @@
   /* background-color: rgba(23, 45, 65, 0.8); */
 }
 
-
-
-/* sy_box3 end */
-
-
-/* sy_box4 start */
-
-
-.sy_box4 .sybox4_t {
-  height: 15vh;
-  width: 100vw;
-  line-height: 15vh;
-  text-align: center;
-  font-size: 5vh;
-  color: rgb(48, 189, 245);
-}
-
-
-/* sy_box4 end */
-
-/* sy_box5 start */
-
-
-
-/* sy_box5 end */
