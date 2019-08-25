@@ -1,0 +1,10 @@
+.sycon_t {
+    font-size: 4vh;
+    /* height: 6vh; */
+    line-height: 7vh;
+}
+.sycon_info {
+    height: 80vh;
+    text-align: left;
+    overflow: auto;
+}
