@@ -10,19 +10,65 @@
                 数字玉林·智慧城市建设
 			</el-row>
 			<el-row class="city_module1">
-				<el-col class="city_module1_1"></el-col>
-				<el-col class="city_module1_2"></el-col>
+				<el-col class="city_module1_1">
+					<el-row class="city_module1_11" aos="fade-up">
+						<video src="@/assets/video/china_video5.mp4" controls="controls" height="100%" width="100%">
+							您的浏览器不支持 video 标签。
+						</video>
+					</el-row>
+					<el-row class="city_module1_12">
+						<div class="phone" aos="fade-up">
+							<span><el-row class="v2">离线视频</el-row></span>
+							<el-row class="v1">数字玉林建设视频1</el-row>
+							<el-row class="v1">数字玉林建设视频2</el-row>
+							<el-row class="v1">数字玉林建设视频3</el-row>
+							<el-row class="v1">数字玉林建设视频4</el-row>
+						</div>
+					</el-row>
+				</el-col>
+				<el-col class="city_module1_2" aos="fade-up">
+							
+				</el-col>
 			</el-row>
-            <!-- <el-row >
-                <div id="screen" style="zoom:1; top: 18vh;" >
+			<!-- <el-row class="city_module1"> -->
+				<!-- </el-col> -->
+        		<!-- <el-col class="city_module1_2"></el-col> -->
+	
+             <!-- <el-row > -->
+                <!-- <div id="screen" style="zoom:1; top: 10vh;" >
                     <span><img src="../../assets/images/yulin/city_p1.png" alt="-2,-1,-.8,1.5,2"></span>
                     <span><img src="../../assets/images/yulin/city_p3.png" alt="-1,-.8,0,1.2,1.6"></span>
                     <span><img src="../../assets/images/yulin/city_p5.jpg" alt="-1.5,-.9,.8,3,1.8"></span>
                     <span><img src="../../assets/images/yulin/city_p4.png" alt="1,-.6,.2,1,.75"></span>
                     <span><img src="../../assets/images/yulin/city_p3.png" alt="-1.7,0,.4,1.4,1"></span>
                     <span><img src="../../assets/images/yulin/city_p2.png" alt=".5,-1,-.4,1.5,2"></span>
-                </div>
-            </el-row> -->
+				</div> -->
+				<!-- 手机 -->
+				<!-- <div class="container">
+						<input type="checkbox" class="toggle" id="toggle" checked="checked" /><label class="toggle" for="toggle"> Toggle tilt</label>
+						<div class="menu">
+						  <div class="top">
+							<span class="search">
+							  <input type="text">
+							</span>
+							<a class="exit" href="#" tabindex="0"></a>
+						  </div>
+						  <ul class="middle">
+							<li tabindex="0"><i class="fa fa-calendar"></i>Calendar</li>
+							<li tabindex="0"><i class="fa fa-camera"></i>Photos</li>
+							<li tabindex="0"><i class="fa fa-check-square-o"></i>Tasks</li>
+							<li tabindex="0"><i class="fa fa-map-marker"></i>Places</li>
+							<li tabindex="0"><i class="fa fa-codepen"></i>Codepen</li>
+							<li tabindex="0"><i class="fa fa-dribbble"></i>Dribbble</li>
+							<li tabindex="0"><i class="fa fa-user"></i>User account</li>
+							<li tabindex="0"><i class="fa fa-cogs"></i>Settings</li>
+						  </ul>
+						  <div class="bottom"></div>
+						  <div class="menu-back"></div>
+						  <div class="glass-reflection"></div>
+						</div>
+					  </div> -->
+            <!-- </el-row>  -->
         </div>
         <div class="bk_zw">
             <el-row class="title_text">数字玉林·“互联网+”政务服务</el-row>
@@ -99,6 +145,7 @@
 				</el-col>
 
 			</el-row>
+		 </canvas>
 		
 		</div>
 			<div class="bk_ly">
@@ -180,7 +227,7 @@
 			</el-row>
 			<el-row class="chanye">
 				
-			<el-col style="width: 55vw;height: 100%;margin: 0vh 0vw;" aos="zoom-in-right">
+			<el-col style="width: 55vw;height: 100%;margin: 0vh 0vw;left: 0vw;" aos="zoom-in-right">
 				<div id="container">
 					<div id="itemlist" >
 						<img src="@/assets/images/yulin/chanye_p1.jpg" alt="Busby" id="busby" style=" border:0.5vw solid rgb(253, 251, 252);background-size: 100% 100%;"/>
@@ -291,27 +338,24 @@
 </template>
 
 <script>
-	// import ChanYe from './yl_chanye.vue'
+	// import ChengShi from './yl_chengshi.vue'
     export default{
-	// 	components:{
-	// 		ChanYe,
-    // },
-	// 	data(){
-	// 		return{
-			
-	// 		}
-	// },
+		components:{
+			// ChengShi,
+    },
         head:{
             script:[
             {src:'js/jquery.1.7.1.min.js'},
             {src:'js/aos.js'},
             {src:'scripts/yl_app.js'},
-            {src:'js/mdn.js'},
+		// 星光
+            // {src:'js/mdn.js'},
+
 
 			{src:'js/jquery-1.12.4.min.js'},
-			{src:'js/bootstrap.min.js'},
 			{src:'js/popper.min.js'},
-			
+
+			// {src:'js/bootstrap.min.js'},
 			// 产业模块
 			{src:'js/yl_chanye/jquery-1.7.2.min.js'},
 			{src:'js/yl_chanye/modernizr.custom.34807.js'},
@@ -324,7 +368,13 @@
             { rel: 'stylesheet', href: 'css/default.css' },
             { rel: 'stylesheet', href: 'css/normalize.css' },
             { rel: 'stylesheet', href: 'css/demo.css' },
-            { rel: 'stylesheet', href: 'css/styles.css' },
+			{ rel: 'stylesheet', href: 'css/styles.css' },
+			
+			// 城市建设模块
+			// { rel: 'stylesheet', href: 'css/yl_chanye/cd_style.css' },
+			{ rel: 'stylesheet', href: 'css/yl_chanye/wu.css' },
+
+
 
 			// { rel: 'stylesheet', href: 'css/bootstrap.min.css' },
             { rel: 'stylesheet', href: 'css/miktu.css' },
