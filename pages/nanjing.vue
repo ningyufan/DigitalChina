@@ -149,7 +149,7 @@ export default {
 .ct_nanjing .nanjing_ct{
     position: relative;
     overflow: hidden;
-    top:12vh;
+    /* top:12vh; */
     width: 100%;
     left: 1.2vw;
     height: 130vh;

@@ -2,14 +2,16 @@
     <div class="CN_index">
         <div class="CN_bg1">
             <div class="bg1_bt">
-                <h2>数字经济竞争格局</h2>
+                <h2>数字经济——推动新发展</h2>
+                <cnbg1/>
             </div>
             
         </div>
         <div class="CN_bg2">
             <div class="bg2_bt">
-                <h2>数字经济融合贯通</h2>
+                <h2>数字经济——推动城市发展</h2>
             </div>
+            <cnbg2/>
         </div>
         <div class="CN_bg3">
             <div class="bg3_bt">
@@ -19,23 +21,23 @@
         <div class="CN_bg4">
             <div class="bg4_header">
                 <div class="bg4_bk1">
-                    <div class="CN_video">
-                        <div class="video_bt" aos="zoom-in">
+                    <div class="video_bt" aos="zoom-in">
                         <h2>看“数字经济”</h2>
-                        </div>
+                    </div>
+                    <div class="CN_video">
                             <span>
                                 <div class="cn_v01 cn_v wow bounceInRight" @click="VideoVisible1=true"></div>
                                 <el-dialog :visible.sync="VideoVisible1">
-                                    <video controls="controls" width="100%">
+                                    <video controls="controls" width="100%" autoplay="autoplay">
                                         <source src="@/assets/video/china_video1.mp4" type="video/mp4">
                                     </video>
-                                    <h3>[第一时间]数博会国际化水平大幅提升大数据加速贵阳经济发展</h3>
+                                    <h3>贵阳高新区：补短板强实体 上半年经济发展稳中有进</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v06 cn_v wow bounceInRight" @click="VideoVisible2=true"></div>
                                 <el-dialog :visible.sync="VideoVisible2">
-                                    <video controls="controls" width="100%">
+                                    <video controls="controls" width="100%" autoplay="autoplay">
                                         <source src="@/assets/video/china_video2.mp4" type="video/mp4">
                                     </video>
                                     <h3>[中国新闻]聚焦中国两会贵州：发展大数据让经济高质量发展</h3>
@@ -44,7 +46,7 @@
                             <span>
                                 <div class="cn_v02 cn_v wow bounceInRight" @click="VideoVisible3=true"></div>
                                 <el-dialog :visible.sync="VideoVisible3">
-                                    <video controls="controls" width="100%">
+                                    <video controls="controls" width="100%" autoplay="autoplay">
                                         <source src="@/assets/video/china_video3.mp4" type="video/mp4">
                                     </video>
                                     <h3>[第一时间]聚焦2019贵阳数博会数博会首设扶贫展大数据牵手“农产品”</h3>
@@ -53,7 +55,7 @@
                             <span>
                                 <div class="cn_v03 cn_v wow bounceInLeft" @click="VideoVisible4=true"></div>
                                 <el-dialog :visible.sync="VideoVisible4">
-                                    <video controls="controls" width="100%">
+                                    <video controls="controls" width="100%" autoplay="autoplay">
                                         <source src="@/assets/video/china_video4.mp4" type="video/mp4">
                                     </video>
                                     <h3>[贵州新闻联播]大数据与实体经济深度融合全国行首站在贵阳启动</h3>
@@ -62,7 +64,7 @@
                             <span>
                                 <div class="cn_v04 cn_v wow bounceInLeft" @click="VideoVisible5=true"></div>
                                 <el-dialog :visible.sync="VideoVisible5">
-                                    <video controls="controls" width="100%">
+                                    <video controls="controls" width="100%" autoplay="autoplay">
                                         <source src="@/assets/video/china_video5.mp4" type="video/mp4">
                                     </video>
                                     <h3>[经济信息联播]聚焦2019贵阳数博会贵州：大数据助力乡村经济发展</h3>
@@ -71,7 +73,7 @@
                             <span>
                                 <div class="cn_v05 cn_v wow bounceInLeft" @click="VideoVisible6=true"></div>
                                 <el-dialog :visible.sync="VideoVisible6">
-                                    <video controls="controls" width="100%">
+                                    <video controls="controls" width="100%" autoplay="autoplay">
                                         <source src="@/assets/video/china_video6.mp4" type="video/mp4">
                                     </video>
                                     <h3>[视频]贵州：大数据产业推动社会经济发展</h3>
@@ -131,17 +133,22 @@
 </template>
 
 <script>
+import cnbg1 from '../dchina/cn_bg1'
+import cnbg2 from '../dchina/cn_bg2'
 export default {
+    components:{cnbg1,cnbg2},
     head:{
         script:[
             {src:'js/jquery.1.7.1.min.js'},
             {src:'js/aos.js'},
+            {src:'js/cn_app.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
             { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
-            { rel: 'stylesheet', href: 'css/styles.css' }
+            { rel: 'stylesheet', href: 'css/styles.css' },
+             { rel: 'stylesheet', href:'css/cn_main.css'},
         ]
     },
     data(){
