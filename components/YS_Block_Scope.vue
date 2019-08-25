@@ -3,7 +3,7 @@
         <div class="block2_ys">
             <br>
             <div class="titel2_ys">大数据学院——学生风采</div>
-            <div class="animate" data-ani="fadeInDown"  data-delay="500">
+            <div class="animate" data-ani="fadeInDown"  data-delay="100">
                 <div class="box_ys">
                     <div @click="dialogVisible1 = true" class="ys6_ys" style="transform: rotateY(0deg) translateZ(65vh);">
                         <figure class="six">
@@ -470,4 +470,5 @@ export default {
 .fadeInDown{
     animation: fadeInDown 2s ease-in;
 }
+
 </style>

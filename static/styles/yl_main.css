@@ -293,15 +293,15 @@ input, button, select, textarea {
     line-height: inherit
 }
 
-a {
+/* a {
     color: #428bca;
     text-decoration: none
-}
+} */
 
-a:hover, a:focus {
+/* a:hover, a:focus {
     color: #2a6496;
     text-decoration: underline
-}
+} */
 
 a:focus {
     outline: thin dotted;
