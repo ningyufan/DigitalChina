@@ -3,13 +3,13 @@
         <div class="title_js">玉林师范——大数据学院</div>
             <div aos="flip-up">
             <div class="box1_js">
-                <img src="../assets/images/ysblock/img1_js.jpg" class="img1_js" height="100%" width="100%">
+                <img src="@/assets/images/ysblock/img1_js.jpg" class="img1_js" height="100%" width="100%">
             </div>
             <div class="box2_js">
-                <img src="../assets/images/ysblock/img2_js.png" class="img2_js" height="100%" width="100%">
+                <img src="@/assets/images/ysblock/img2_js.png" class="img2_js" height="100%" width="100%">
             </div>
             <div class="box3_js">
-                <img src="../assets/images/ysblock/img3_js.jpg" class="img3_js" height="100%" width="100%">
+                <img src="@/assets/images/ysblock/img3_js.jpg" class="img3_js" height="100%" width="100%">
             </div>
         </div>
         <div aos="zoom-in-up">
@@ -53,9 +53,10 @@ export default {
 
 <style>
 .ysblockjs{
-    background-image: url(../assets/images/ysblock/background1.png);
-    background-size: cover;
+    background-image: url(../../assets/images/ysblock/background1.jpg);
+    background-size: 100% 100%;
     height: 120vh;
+    filter:brightness(80%);
 }
 .title_js{
     height: 15vh;
@@ -159,7 +160,7 @@ export default {
     width: 80%;
     height: 60vh;
     margin-left: 10%;
-    opacity: 0.6;
+    opacity: 0.8;
     background: #ccc;
     margin-top: 35vh;
     padding: 2vh 6%;

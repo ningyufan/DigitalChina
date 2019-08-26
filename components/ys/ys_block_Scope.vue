@@ -1,5 +1,7 @@
 <template>
     <div class="back_ys">
+        <div class="star comet"></div>
+        <script  src="js/index_ys5.js"></script>
         <div class="block2_ys">
             <br>
             <div class="titel2_ys">大数据学院——学生风采</div>
@@ -317,10 +319,12 @@ export default {
     },
     head:{
         script:[
+            // {src:'js/index_ys5.js'},
 
         ],
         link:[
-            { rel: 'stylesheet', href: 'css/css3.css' }
+            { rel: 'stylesheet', href: 'css/css3.css' },
+            { rel: 'stylesheet', href: 'css/style_ys5.css' }
         ]
     }
 
@@ -332,9 +336,10 @@ export default {
     filter:brightness(80%);
 } */
 .back_ys{
-    background-image: url(../assets/images/ysblock/background1.png);
+    background-image: url(../../assets/images/ysblock/background1.png);
     background-size: 100% 100%;
     height: 100vh;
+
 }
 .titel2_ys{
     height: 8vh;

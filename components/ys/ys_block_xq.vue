@@ -3,10 +3,10 @@
         <div class="title_xq">大数据学院——建设成果</div>
         <div class="box1_xq" aos="fade-up-right">
             <div class="img1_1_xq">
-                <img src="../assets/images/ysblock/img2_xq.png" class="img1_xq" height="100%" width="100%">
+                <img src="@/assets/images/ysblock/img2_xq.png" class="img1_xq" height="100%" width="100%">
             </div>
             <div class="img1_2_xq">
-                <img src="../assets/images/ysblock/img1_xq.png" class="img2_xq" height="100%" width="100%">
+                <img src="@/assets/images/ysblock/img1_xq.png" class="img2_xq" height="100%" width="100%">
             </div>
         </div>
         <div class="text1_xq" aos="fade-up-left">
@@ -15,10 +15,10 @@
         </div>
         <div class="box2_xq" aos="fade-up-left">
             <div class="img2_1_xq">
-                <img src="../assets/images/ysblock/img3_xq.jpg" class="img3_xq" height="100%" width="100%">
+                <img src="@/assets/images/ysblock/img3_xq.jpg" class="img3_xq" height="100%" width="100%">
             </div>
             <div class="img2_2_xq">
-                <img src="../assets/images/ysblock/img4_xq.jpg" class="img3_xq" height="100%" width="100%">
+                <img src="@/assets/images/ysblock/img4_xq.jpg" class="img3_xq" height="100%" width="100%">
             </div>
         </div>
         <div class="text2_xq" aos="fade-up-right">
@@ -26,20 +26,48 @@
             <div class="text1_2_xq">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大数据基地占地面积1200平方米，建设有展示厅、多媒体机房、项目实训室、教师科研团队工作室等功能区。已完成投入1300万元，包含设备机房、设备机房配套、各功能区科研、实验实训、教学的配套设备、展厅文宣内容软装修等。服务器机房目前拥有104个服务器节点，其中主服务器具备9984流处理能力（GPD），服务器总体数据存储规模达到600TB，并行计算能力达到3000核。采用集中管控的“大数据应用超级系统-Infinity 9000”。</div>
         </div>
 
+        <div class="hx-box pa" id="zindex">
+            <ul class="pr">
+                <li class="hx-k1 pa0">
+                    <span></span>
+                </li>
+                <li class="hx-k2 pa0">
+                    <span></span>
+                </li>
+                <li class="hx-k3 pa0">
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+
     </div>
 </template>
 
 <script>
 export default {
+    head:{
+        script:[
+            // {src:'js/index_ys5.js'},
+        ],
+        link:[
+            { rel: 'stylesheet', href: 'css/lib_ys3.css' },
+            { rel: 'stylesheet', href: 'css/tabris_ys3.css' }
+        ]
+    }
     
 }
 </script>
 
 <style>
 .ysblockxq{
-    background-image: url(../assets/images/ysblock/background1.png);
+    background-image: url(../../assets/images/ysblock/background6.jpg);
     background-size: cover;
     height: 150vh;
+    filter:brightness(70%);
+}
+.zindex{
+    position: relative;
+    z-index: 2;
 }
 .title_xq{
     height: 15vh;
@@ -58,6 +86,7 @@ export default {
     margin-left: 10%;
     position: relative;
     float: left;
+    z-index: 3;
 }
 .img1_1_xq{
     height: 35vh;
@@ -87,6 +116,8 @@ export default {
     background-color: rgba(255, 255, 255, 0.6);
     margin-top: 9vh;
     padding: 2vh 3%;
+    z-index: 3;
+    position: relative;
 }
 .title1_1_xq{
     text-align: center;
@@ -98,13 +129,14 @@ export default {
     padding: 1vh 0;
 }
 .box2_xq{
-    margin-top: 17vh;
+    margin-top: 15vh;
     height: 58vh;
     width: 35%;
     /* background-color: rgba(255, 255, 255, 0.6); */
     margin-right: 10%;
     position: relative;
     float: right;
+    z-index: 3;
 }
 .img2_1_xq{
     height: 35vh;
@@ -133,8 +165,11 @@ export default {
     margin-left: 10%;
     float: left;
     background-color: rgba(255, 255, 255, 0.6);
-    margin-top: 15vh;
+    margin-top: 13vh;
     padding: 2vh 3%;
+    z-index: 3;
+    position: relative;
+
 }
 .title1_2_xq{
     text-align: center;

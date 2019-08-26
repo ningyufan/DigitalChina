@@ -36,33 +36,33 @@
         </div>
         <div class="box_img1" aos="zoom-in">
             <div class="boxs1_zj">
-                <img src="../assets/images/ysblock/img1_zj.webp" class="img1_zj" height="80%" width="100%">
+                <img src="@/assets/images/ysblock/img1_zj.webp" class="img1_zj" height="80%" width="100%">
                 <div class="img1_text_zj">2016.7</div>
             </div>
             <div class="boxs2_zj" aos="zoom-in">
-                <img src="../assets/images/ysblock/img2_zj.jpg" class="img1_zj" height="80%" width="100%">
+                <img src="@/assets/images/ysblock/img2_zj.jpg" class="img1_zj" height="80%" width="100%">
                 <div class="img1_text_zj">2017.7</div>
             </div>
             <div class="boxs3_zj">
-                <img src="../assets/images/ysblock/img3_zj.jpg" class="img1_zj" height="80%" width="100%">
+                <img src="@/assets/images/ysblock/img3_zj.jpg" class="img1_zj" height="80%" width="100%">
                 <div class="img1_text_zj">2017.7</div>
             </div>
         </div>
         <div class="box_img2"  aos="zoom-in">
             <div class="boxs4_zj">
-                <img src="../assets/images/ysblock/img4_zj.jpg" class="img1_zj" height="80%" width="100%">
+                <img src="@/assets/images/ysblock/img4_zj.jpg" class="img1_zj" height="80%" width="100%">
                 <div class="img1_text_zj">2017.8</div>
             </div>
             <div class="boxs5_zj">
-                <img src="../assets/images/ysblock/img5_zj.jpg" class="img1_zj" height="80%" width="100%">
+                <img src="@/assets/images/ysblock/img5_zj.jpg" class="img1_zj" height="80%" width="100%">
                 <div class="img1_text_zj">2017.9</div>
             </div>
             <div class="boxs6_zj">
-                <img src="../assets/images/ysblock/img6_zj.jpg" class="img1_zj" height="80%" width="100%">
+                <img src="@/assets/images/ysblock/img6_zj.jpg" class="img1_zj" height="80%" width="100%">
                 <div class="img1_text_zj">2017.11</div>
             </div>
             <div class="boxs7_zj">
-                <img src="../assets/images/ysblock/img7_zj.png" class="img1_zj" height="80%" width="100%">
+                <img src="@/assets/images/ysblock/img7_zj.png" class="img1_zj" height="80%" width="100%">
                 <div class="img1_text_zj">2019.1</div>
             </div>
         </div>
@@ -71,13 +71,13 @@
 
         
         <!-- <div class="box_img">
-            <div class="img1_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img2_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img3_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img4_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img5_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img6_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img7_zj"><img src="../assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
+            <div class="img1_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
+            <div class="img2_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
+            <div class="img3_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
+            <div class="img4_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
+            <div class="img5_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
+            <div class="img6_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
+            <div class="img7_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
 
         </div> -->
 
@@ -94,9 +94,11 @@ export default {
 
 <style>
 .ysblockfazj{
-    background-image: url(../assets/images/ysblock/background1.png);
-    background-size: cover;
+    background-image: url(../../assets/images/ysblock/background3.jpg);
+    background-size:cover;
     height: 140vh;
+    filter:brightness(70%);
+    /* margin-left: -10%; */
 }
 .box_img1{
     width: 100%;
@@ -364,7 +366,7 @@ export default {
     width: 11%;
     height: 20vh;
     float: left;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-bottom: 1.5vh solid rgb(33, 10, 114);
     color: rgb(33, 10, 114);
     padding: 2vh 1%;
@@ -375,7 +377,7 @@ export default {
     height: 20vh;
     float: left;
     margin-top: 18.5vh;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-top: 1.5vh solid rgb(209, 52, 4);
     padding: 2vh 1%;
     color:rgb(209, 52, 4);
@@ -385,7 +387,7 @@ export default {
     width: 11%;
     height: 20vh;
     float: left;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-bottom: 1.5vh solid rgb(78, 6, 173);
     padding: 2vh 1%;
     font-size: 2.5vh;
@@ -396,7 +398,7 @@ export default {
     height: 20vh;
     float: left;
     margin-top: 18.5vh;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-top: 1.5vh solid rgb(14, 92, 7);
     padding: 2vh 1%;
     font-size: 2.5vh;
@@ -406,7 +408,7 @@ export default {
     width: 11%;
     height: 20vh;
     float: left;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-bottom: 1.5vh solid rgb(71, 4, 110);
     padding: 2vh 1%;
     font-size: 2.5vh;
@@ -417,7 +419,7 @@ export default {
     height: 20vh;
     float: left;
     margin-top: 18.5vh;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-top: 1.5vh solid  rgb(4, 45, 73);
     padding: 2vh 1%;
     font-size: 2.5vh;
@@ -427,7 +429,7 @@ export default {
     width: 11%;
     height: 20vh;
     float: left;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border-bottom: 1.5vh solid rgb(206, 14, 132);
     padding: 2vh 1%;
     font-size: 2.5vh;

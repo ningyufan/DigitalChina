@@ -4,14 +4,14 @@
         <div aos="fade-up">
             <div class="boxs1_ys" >
                 <div class="img_16_ys">
-                    <img src="../assets/images/ysblock/ys4.png" class="img16_ys" height="100%" width="100%">
+                    <img src="@/assets/images/ysblock/ys4.png" class="img16_ys" height="100%" width="100%">
                 </div>
                 <div class="title_1_ys">标题1</div><hr class="hr1_ys">
             </div>
         </div>
         <div class="boxs2_ys" aos="fade-up">
             <div class="img_16_ys">
-                <img src="../assets/images/ysblock/ys4.png" class="img16_ys" height="100%" width="100%">
+                <img src="@/assets/images/ysblock/ys4.png" class="img16_ys" height="100%" width="100%">
             </div>
             <div class="title_1_ys">标题2</div><hr class="hr1_ys">
             
@@ -19,7 +19,7 @@
         </div>
         <div class="boxs3_ys" aos="fade-up">
             <div class="img_16_ys">
-                <img src="../assets/images/ysblock/ys4.png" class="img16_ys" height="100%" width="100%">
+                <img src="@/assets/images/ysblock/ys4.png" class="img16_ys" height="100%" width="100%">
             </div>
             <div class="title_1_ys">标题3</div><hr class="hr1_ys"> 
         </div>
@@ -36,7 +36,7 @@ export default {
 
 <style>
 .back2_ys{
-    background-image: url(../assets/images/ysblock/background1.png);
+    background-image: url(../../assets/images/ysblock/background1.png);
     background-size: cover;
     height: 150vh;
 }
