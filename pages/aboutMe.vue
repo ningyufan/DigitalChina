@@ -38,9 +38,11 @@
                 <div class="ME">
                     <header class="hero">
                         <div class="hero-center">
-                            <h1 style="font-family:Microsoft YaHei">页面滚动元素动画插件-aos.js</h1>
-                            
-                            <h2 class="hero__text" aos="fade-up" aos-easing="ease" aos-delay="400">Animate On Scroll <span>Library</span></h2>
+                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="200">我们的团队致力于创作出更完美、更优秀的网页，为提升自我而时刻努力奋斗着</h2>
+                            <br>
+                            <!-- <h2 style="font-family:Microsoft YaHei"  aos="fade-up" aos-easing="ease" aos-delay="400">我们谨记</h2>
+                            <br> -->
+                            <h2 style="font-family:Microsoft YaHei"  aos="fade-up" aos-easing="ease" aos-delay="500">青春没有停歇的驿站,只有努力奋斗的身影</h2>
                         </div>
                         <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="800">
                             点击下拉 <br>
@@ -58,15 +60,80 @@
                 </video>
             </div>
 
-            <div class="main-body">
-                <div class="cklice1">
-                    <div class="cklice2 left"></div>
-                    <div class="cklice3">sss</div>
+            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
+                <div>
+                    <div class="cklice1 " >
+                        <div class="cklice2 left"></div>
+                        <div class="cklice3">
+                            <br><br>
+                            <div class="nameabout">吴证</div>
+                            <div class="text_about">队长</div>
+                            <div class="text_about">计算机科学与工程学院</div>
+                            <div class="text_about">计算机科学与技术专业</div>
+                        </div>
+                    </div>
+                    <div class="cklice4"></div>
                 </div>
-                <div class="cklice4">sss</div>
-                
-
-                
+            </div>
+            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
+                <div>
+                    <div class="cklice5 " >
+                        <div class="cklice6 left"></div>
+                        <div class="cklice7">
+                            <br><br>
+                            <div class="nameabout">宁玉帆</div>
+                            <div class="text_about">队员</div>
+                            <div class="text_about">计算机科学与工程学院</div>
+                            <div class="text_about">计算机科学与技术专业</div>
+                        </div>
+                    </div>
+                    <div class="cklice8"></div>
+                </div>
+            </div>
+            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
+                <div>
+                    <div class="cklice9 " >
+                        <div class="cklice10 left"></div>
+                        <div class="cklice11">
+                            <br><br>
+                            <div class="nameabout">陆石媚</div>
+                            <div class="text_about">队员</div>
+                            <div class="text_about">计算机科学与工程学院</div>
+                            <div class="text_about">计算机科学与技术专业</div>
+                        </div>
+                    </div>
+                    <div class="cklice12"></div>
+                </div>
+            </div>
+            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
+                <div>
+                    <div class="cklice13 " >
+                        <div class="cklice14 left"></div>
+                        <div class="cklice15">
+                            <br><br>
+                            <div class="nameabout">严晓倩</div>
+                            <div class="text_about">队员</div>
+                            <div class="text_about">计算机科学与工程学院</div>
+                            <div class="text_about">计算机科学与技术专业</div>
+                        </div>
+                    </div>
+                    <div class="cklice16"></div>
+                </div>
+            </div>
+            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
+                <div>
+                    <div class="cklice17 " >
+                        <div class="cklice18 left"></div>
+                        <div class="cklice19">
+                            <br><br>
+                            <div class="nameabout">黄思森</div>
+                            <div class="text_about">队员</div>
+                            <div class="text_about">计算机科学与工程学院</div>
+                            <div class="text_about">计算机科学与技术专业</div>
+                        </div>
+                    </div>
+                    <div class="cklice20"></div>
+                </div>
             </div>
 
 
@@ -183,7 +250,7 @@ export default {
             
             this.handleAnimate()//初始化第一次加载时在视口内就执行动画
             addEventListener('scroll', this.handleScroll);
-            addEventListener('scroll', this.handleAnimate);
+            addEventListener('scroll', this.handleAnimate,{once:true});
             addEventListener('scroll', this.start2,{once:true});
 
         })
@@ -191,7 +258,7 @@ export default {
     },
     destroyed() {
         removeEventListener('scroll', this.handleScroll);//避免影响其他页面
-        removeEventListener('scroll', this.handleAnimate);      
+        // removeEventListener('scroll', this.handleAnimate);      
     },
 
 }
@@ -220,38 +287,31 @@ export default {
     background: rgb(187, 184, 184);
     text-align: center;
 }
-/* .video_me{
-    height: 100%;
-    width: 100%;
-} */
+
 .cklice1{
     position: absolute;
     width: 30vh;
     height: 30vh;
-    background-color: rgb(144, 33, 33);
     border-radius: 100px;
     float: left;
     margin-left: 85vh;
     min-width: 20vh;
     min-height: 20vh;
-    margin-top: 7vh;
+    margin-top: 0vh;
     }
 .cklice2{
     width: 30vh;
     height: 30vh;
     background-color: rgb(151, 150, 155);
     border-radius: 15vh;
-    /* margin-left: 80%; */
     float: left;
     transform-origin:left;
     transform:scale(1);
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
     border: 1.5vh solid rgba(255, 255, 255, 0.2);
     position: relative;
-    z-index: 3;
-    
+    z-index: 3;  
 }
-
 .cklice3{
     position: relative;
     width: 30vh;
@@ -260,10 +320,12 @@ export default {
     border-radius: 15vh;
     margin-left: 40vh;
     left: -10vh;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
     transition-timing-function: linear;
     opacity: 0;
     z-index: 1;
+    padding: 0vh 1.5vh;
+    /* text-align: center; */
     /* transition: margin-left 0.3s ease-in; */
 }
 .cklice4{
@@ -274,7 +336,7 @@ export default {
     border-radius: 15vh;
     margin-left: 125vh;
     left: -10vh;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
     transition-timing-function: linear;
     opacity: 0;
     margin-top: 7vh;
@@ -284,19 +346,262 @@ export default {
 .cklice1:hover .cklice2{
     transform:scale(0.6);
     margin-left: -10vh;
-
 }
 
 .cklice1:hover .cklice3{
     margin-left: 10vh;
     opacity: 1;
-    
-
 }
-.cklice1:hover 
 
+.cklice5{
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 100px;
+    float: left;
+    margin-left: 135vh;
+    min-width: 20vh;
+    min-height: 20vh;
+    margin-top: 0vh;
+    }
+.cklice6{
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(151, 150, 155);
+    border-radius: 15vh;
+    float: left;
+    transform-origin:left;
+    transform:scale(1);
+    transition: all 0.2s ease-in;
+    border: 1.5vh solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 3;
+    
+}
 
+.cklice7{
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(197, 194, 194);
+    border-radius: 15vh;
+    margin-left: 40vh;
+    left: -10vh;
+    transition: all 0.2s ease-in;
+    transition-timing-function: linear;
+    opacity: 0;
+    z-index: 1;
+    padding: 0vh 1.5vh;
+}
+.cklice8{
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(197, 194, 194);
+    border-radius: 15vh;
+    margin-left: 175vh;
+    left: -10vh;
+    transition: all 0.2s ease-in;
+    transition-timing-function: linear;
+    opacity: 0;
+    margin-top: 35vh;
+    z-index: 3;
+}
+.cklice5:hover .cklice6{
+    transform:scale(0.6);
+    margin-left: -10vh;
+}
+.cklice5:hover .cklice7{
+    margin-left: 10vh;
+    opacity: 1;
+}
 
+.cklice9{
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 100px;
+    float: left;
+    margin-left: 35vh;
+    min-width: 20vh;
+    min-height: 20vh;
+    margin-top: 0vh;
+    }
+.cklice10{
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(151, 150, 155);
+    border-radius: 15vh;
+    float: left;
+    transform-origin:left;
+    transform:scale(1);
+    transition: all 0.2s ease-in;
+    border: 1.5vh solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 3;
+}
+
+.cklice11{
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(197, 194, 194);
+    border-radius: 15vh;
+    margin-left: 40vh;
+    left: -10vh;
+    transition: all 0.2s ease-in;
+    transition-timing-function: linear;
+    opacity: 0;
+    z-index: 1;
+    padding: 0vh 1.5vh;
+}
+.cklice12{
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(197, 194, 194);
+    border-radius: 15vh;
+    margin-left: 75vh;
+    left: -10vh;
+    transition: all 0.2s ease-in;
+    transition-timing-function: linear;
+    opacity: 0;
+    margin-top: 35vh;
+    z-index: 3;
+}
+.cklice9:hover .cklice10{
+    transform:scale(0.6);
+    margin-left: -10vh;
+}
+.cklice9:hover .cklice11{
+    margin-left: 10vh;
+    opacity: 1;
+}
+
+.cklice13{
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 100px;
+    float: left;
+    margin-left: 55vh;
+    min-width: 20vh;
+    min-height: 20vh;
+    margin-top: 0vh;
+}
+.cklice14{
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(151, 150, 155);
+    border-radius: 15vh;
+    float: left;
+    transform-origin:left;
+    transform:scale(1);
+    transition: all 0.2s ease-in;
+    border: 1.5vh solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 3;
+    
+}
+.cklice15{
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(197, 194, 194);
+    border-radius: 15vh;
+    margin-left: 40vh;
+    left: -10vh;
+    transition: all 0.2s ease-in;
+    transition-timing-function: linear;
+    opacity: 0;
+    z-index: 1;
+    padding: 0vh 1.5vh;
+}
+.cklice16{
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(197, 194, 194);
+    border-radius: 15vh;
+    margin-left: 95vh;
+    left: -10vh;
+    transition: all 0.2s ease-in;
+    transition-timing-function: linear;
+    opacity: 0;
+    margin-top: 78vh;
+    z-index: 3;
+}
+.cklice13:hover .cklice14{
+    transform:scale(0.6);
+    margin-left: -10vh;
+}
+.cklice13:hover .cklice15{
+    margin-left: 10vh;
+    opacity: 1;
+}
+
+.cklice17{
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 100px;
+    float: left;
+    margin-left: 115vh;
+    min-width: 20vh;
+    min-height: 20vh;
+    margin-top: 0vh;
+}
+.cklice18{
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(151, 150, 155);
+    border-radius: 15vh;
+    /* margin-left: 80%; */
+    float: left;
+    transform-origin:left;
+    transform:scale(1);
+    transition: all 0.2s ease-in;
+    border: 1.5vh solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 3;
+    
+}
+.cklice19{
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(197, 194, 194);
+    border-radius: 15vh;
+    margin-left: 40vh;
+    left: -10vh;
+    transition: all 0.2s ease-in;
+    transition-timing-function: linear;
+    opacity: 0;
+    z-index: 1;
+    padding: 0vh 1.5vh;
+}
+.cklice20{
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(197, 194, 194);
+    border-radius: 15vh;
+    margin-left: 155vh;
+    left: -10vh;
+    transition: all 0.2s ease-in;
+    transition-timing-function: linear;
+    opacity: 0;
+    margin-top: 78vh;
+    z-index: 3;
+}
+.cklice17:hover .cklice18{
+    transform:scale(0.6);
+    margin-left: -10vh;
+}
+.cklice17:hover .cklice19{
+    margin-left: 10vh;
+    opacity: 1;
+}
 
 
 
@@ -324,13 +629,20 @@ export default {
 .bounceInRight{
     animation: zoomIn 2s ease-in;
 }
-.fadeInDown{
-    animation: fadeInDown 2s ease-in;
+.zoomIn{
+    animation: zoomIn 2s ease-in;
 }
 .main-body{
     position:absolute;
     top:100vh;
     width:100%;
     height:100%;
+}
+.nameabout{
+    font-family: 华文行楷;
+    font-size: 2.2vw;
+}
+.text_about{
+    font-size: 1.2vw;
 }
 </style>
