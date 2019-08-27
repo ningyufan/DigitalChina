@@ -63,7 +63,7 @@
             <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
                 <div>
                     <div class="cklice1 " >
-                        <div class="cklice2 left"></div>
+                        <div class="cklice2 left"><img class="katong_about" src='@/assets/images/ysblock/kt1.jpg' height="100%" width="100%"></div>
                         <div class="cklice3">
                             <br><br>
                             <div class="nameabout">吴证</div>
@@ -78,7 +78,7 @@
             <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
                 <div>
                     <div class="cklice5 " >
-                        <div class="cklice6 left"></div>
+                        <div class="cklice6 left"><img class="katong_about" src='@/assets/images/ysblock/kt3.jpg' height="100%" width="100%"></div>
                         <div class="cklice7">
                             <br><br>
                             <div class="nameabout">宁玉帆</div>
@@ -93,7 +93,7 @@
             <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
                 <div>
                     <div class="cklice9 " >
-                        <div class="cklice10 left"></div>
+                        <div class="cklice10 left"><img class="katong_about" src='@/assets/images/ysblock/kt2.jpg' height="100%" width="100%"></div>
                         <div class="cklice11">
                             <br><br>
                             <div class="nameabout">陆石媚</div>
@@ -108,7 +108,7 @@
             <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
                 <div>
                     <div class="cklice13 " >
-                        <div class="cklice14 left"></div>
+                        <div class="cklice14 left"><img class="katong_about" src='@/assets/images/ysblock/kt4.jpg' height="100%" width="100%"></div>
                         <div class="cklice15">
                             <br><br>
                             <div class="nameabout">严晓倩</div>
@@ -123,7 +123,7 @@
             <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
                 <div>
                     <div class="cklice17 " >
-                        <div class="cklice18 left"></div>
+                        <div class="cklice18 left"><img class="katong_about" src='@/assets/images/ysblock/kt5.jpg' height="100%" width="100%"></div>
                         <div class="cklice19">
                             <br><br>
                             <div class="nameabout">黄思森</div>
@@ -287,6 +287,11 @@ export default {
     background: rgb(187, 184, 184);
     text-align: center;
 }
+.katong_about{
+    border-radius: 100px;
+    border: 1.5vh solid rgba(255, 255, 255, 0.6);
+    filter:brightness(70%);
+}
 
 .cklice1{
     position: absolute;
@@ -308,7 +313,7 @@ export default {
     transform-origin:left;
     transform:scale(1);
     transition: all 0.2s ease-in;
-    border: 1.5vh solid rgba(255, 255, 255, 0.2);
+    /* border: 1.5vh solid rgba(255, 255, 255, 0.2); */
     position: relative;
     z-index: 3;  
 }
@@ -373,7 +378,7 @@ export default {
     transform-origin:left;
     transform:scale(1);
     transition: all 0.2s ease-in;
-    border: 1.5vh solid rgba(255, 255, 255, 0.2);
+    /* border: 1.5vh solid rgba(255, 255, 255, 0.2); */
     position: relative;
     z-index: 3;
     
@@ -436,7 +441,7 @@ export default {
     transform-origin:left;
     transform:scale(1);
     transition: all 0.2s ease-in;
-    border: 1.5vh solid rgba(255, 255, 255, 0.2);
+    /* border: 1.5vh solid rgba(255, 255, 255, 0.2); */
     position: relative;
     z-index: 3;
 }
@@ -498,7 +503,7 @@ export default {
     transform-origin:left;
     transform:scale(1);
     transition: all 0.2s ease-in;
-    border: 1.5vh solid rgba(255, 255, 255, 0.2);
+    /* border: 1.5vh solid rgba(255, 255, 255, 0.2); */
     position: relative;
     z-index: 3;
     
@@ -561,7 +566,7 @@ export default {
     transform-origin:left;
     transform:scale(1);
     transition: all 0.2s ease-in;
-    border: 1.5vh solid rgba(255, 255, 255, 0.2);
+    /* border: 1.5vh solid rgba(255, 255, 255, 0.2); */
     position: relative;
     z-index: 3;
     
