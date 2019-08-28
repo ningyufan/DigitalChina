@@ -47,12 +47,12 @@
                         <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="800">
                             点击下拉 <br>
                             <i class="chevron bottom"></i>
+                            <!-- {{text}}{{isFixed}} -->
                         </span>
                     </header>
                 </div>
             </div>
         </div>
-
         <div id="aboutbody" >
             <div class="video_me">
                 <video id="video1" src="@/assets/video/team.mp4" preload="auto" style="dispaly:inline"
@@ -135,17 +135,27 @@
                     <div class="cklice20"></div>
                 </div>
             </div>
-
-
-
-
         </div>
-        <!-- <aboutbody/> -->
 
-
-
+        <el-backtop  :bottom="100">
+            <!-- <el-button icon="el-icon-caret-top" circle></el-button> -->
+             <div
+                style="{
+                    height: 100%;
+                    width: 100%;
+                    background-color: #f2f5f6;
+                    box-shadow: 0 0 6px rgba(0,0,0, .12);
+                    text-align: center;
+                    line-height: 40px;
+                    color: #1989fa;
+                    border-radius: 20px;
+                }"
+                >
+            <i class="el-icon-caret-top"></i>
+            </div>
+        </el-backtop>
         
-        <div class="footer">footer</div>
+        <div class="footer6">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
     </div>
 </template>
 
@@ -161,6 +171,7 @@ export default {
     data () {
         return {
             isFixed: 0,
+            text:1,
         }
     },
         head:{
@@ -187,22 +198,20 @@ export default {
 		    });
         },
         start2(){
-
- 
             var myVideo=document.getElementById("video1");
-            if(this.isFixed = 1){
-                myVideo.play();
+            // this.isFixed = 0;
+            // this.text=2;
+             let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+            if(top=1)
+            {
+               myVideo.play();
             }
-
         },
         handleScroll() {
-            var myVideo=document.getElementById("video1");
             let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
             if(top > 250){
-                this.isFixed = 1;
-
-            }
-            else if(top < 200){
+                this.isFixed = 1;          
+            }else if(top < 200){
                 this.isFixed = 0;
             }
         },
@@ -226,7 +235,7 @@ export default {
                     v.classList.remove(v.dataset.ani)
                     v.style.opacity = 0;
                 }
-            })
+            });
 
         },
         nav(idx){
@@ -235,6 +244,7 @@ export default {
     },
     mounted() {
         this.start();
+        // this.start2();
         
         // if (process.browser) {  // 在页面mounted生命周期里面 根据环境实例化WOW
         //     new WOW({
@@ -246,19 +256,20 @@ export default {
             easing: 'ease-out-back',
             duration: 1000
         });
-        this.$nextTick(() => {
-            
+        this.$nextTick(() => {     
             this.handleAnimate()//初始化第一次加载时在视口内就执行动画
             addEventListener('scroll', this.handleScroll);
             addEventListener('scroll', this.handleAnimate,{once:true});
-            addEventListener('scroll', this.start2,{once:true});
+            addEventListener('scroll', this.start2,{capture: true,passive: true,once: true});
+            
 
         })
         
     },
     destroyed() {
         removeEventListener('scroll', this.handleScroll);//避免影响其他页面
-        // removeEventListener('scroll', this.handleAnimate);      
+        removeEventListener('scroll', this.handleAnimate);
+        removeEventListener('scroll', this.start2);      
     },
 
 }
@@ -281,11 +292,14 @@ export default {
     width: 80%;
     margin-left: 10%
 }
-.footer{
+.footer6{
     width: 100%;
     height: 60px;
-    background: rgb(187, 184, 184);
+    background: #2a53a9;
     text-align: center;
+    font-size: 1.5vw;
+    line-height: 4vw;
+    font-family:cursive;
 }
 .katong_about{
     border-radius: 100px;
