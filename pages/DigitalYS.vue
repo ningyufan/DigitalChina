@@ -45,26 +45,6 @@
         <ysblockfzzj/>
         <ysblockxq/>
         <ysblockxw/>
-        <!-- <ysblockfz/> -->
-    
-        <!-- <div class="back1_ys">
-            <br>
-            <div class="titel1_ys" aos="fade-up">titel1</div>
-            <br>
-            <div class="code1_ys" aos="fade-right">
-                <img src="../assets/images/ysblock/ys4.png" class="img14_ys" height="100%" width="50%">
-                <div class="text_14_ys">图片</div>
-                <div class="color1_ys"></div>
-            </div>
-            <br>
-            <div class="code2_ys" aos="fade-left">
-                <img src="../assets/images/ysblock/ys4.png" class="img15_ys" height="100%" width="50%">
-                <div class="text_15_ys">图片</div>
-                <div class="color2_ys"></div>
-            </div>
-            <br>        
-        </div> -->
-
         <ysblockscope/>
 
         <div class="footer">footer</div>
