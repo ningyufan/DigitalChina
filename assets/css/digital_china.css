@@ -1,17 +1,59 @@
 /*CN.css*/
 
 
-/*        头部框内容样式开始   start*/
+/*数字经济挑战机遇样式开始 start*/
+
+.CN_bg{
+    background-image: url('../images/dchina/bg3.jpg');
+    position: relative;
+    width: 100vw;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+.CN_bg{
+    width: 100%;
+    height: 100vh;
+}
+
+.CN_bg .bg_bt h2{
+    width: 100%;
+    position: absolute;
+    left: 40vw;
+    top:5vh;
+    line-height:5vh;
+    font-size: 5vh;
+    color: rgb(48, 189, 245);
+}
+
+.CN_bg .bg_bt h2:hover{
+    animation: bg3_bt 1s linear 3;
+}
+
+ @keyframes bg3_bt{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
+
 
 .Chinaheader_mk{
     width: 88%;
     height: 100%;
-    margin: 3vh 5vw auto;
+    margin: 15vh 5vw auto;
     position: absolute;
 }
 
 .Chinaheader_row1,.Chinaheader_row2{
-    height: 47%;
+    height: 35%;
     width: 100%;
 }
 
@@ -36,7 +78,7 @@
     width: 100%;
     height: 8%;
     margin: 0 auto;
-    padding-left: 47%;
+    padding-left: 46%;
 }
 
 .Chinaheader_col3, .Chinaheader_col4, .Chinaheader_col5,.Chinaheader_col6{
@@ -62,6 +104,25 @@
 .Chinaheader_col6{
     background-image: url('../images/dchina/china_mk6.png');
     background-size: 100% 100%;
+}
+
+
+
+.Chinaheader_col1 h3,.Chinaheader_col2 h3{
+    font-size:4vh;
+    margin:14vh 13vh;
+    color:#00F5FF;
+    text-shadow: -2px 0px 2px
+}
+
+.Chinaheader_col3 h3,.Chinaheader_col4 h3,
+.Chinaheader_col5 h3,.Chinaheader_col6 h3{
+    /* height: 100%; */
+    width: 10vw;
+    font-size:4vh;
+    margin:14vh 13vh;
+    color:#00F5FF;
+    text-shadow: -2px 0px 2px
 }
 
 .Digital_TZ{
@@ -198,7 +259,34 @@
     color: rgb(65, 62, 62);
 }
 
-/*        头部框内容样式结束   end*/
+
+.Digital_FZ{
+    width: 100%;
+    height: 60vh;
+}
+.FZ_bg{
+    background-image: url('../../assets/images/dchina/fz.jpg');
+    width: 45%;
+    height: 45vh;
+    background-size: 100% 45vh;
+    float: left;
+    margin: 8vh auto;
+}
+
+.FZ_ct{
+    float: right;
+    width: 54%;
+    height: 50vh;
+    background-size: 100% 50vh;
+}
+
+.FZ_ct p{
+    text-indent: 2em;
+    font-size: 16px;
+    color: rgb(65, 62, 62);
+}
+
+/*数字经济挑战机遇样式结束 end*/
 
 
 
@@ -235,6 +323,7 @@
     height: auto;
     position: relative;
 } */
+/*数字经济——推动新发展样式开始 start*/
 
 .CN_bg1{
     background-image: url('../images/dchina/bg2.jpg');
@@ -244,6 +333,67 @@
     height: 100vh;
     margin: 0 auto;
 }
+.CN_bg1{
+    width: 100%;
+    height: 100vh;
+}
+
+.CN_bg1 .bg1_bt h2{
+    position: absolute;
+    left: 35vw;
+    top:5vh;
+    line-height:5vh;
+    font-size: 5vh;
+    color: rgb(48, 189, 245);
+}
+
+.CN_bg1 .bg1_bt h2:hover{
+    animation: bg1_bt 1s linear 3;
+}
+
+ @keyframes bg1_bt{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
+
+.cn_bg1{
+    position: relative;
+    top: 15vh;
+    width: 100vw;
+    height: 80vh;
+}
+
+.cnjz_bg1_1{
+    width: 22vw;
+    height: 40vh;
+    margin: 0vh 1.3vw;
+}
+
+.cnjz_bg1_2{
+    width: 22vw;
+    height: 40vh;
+    margin: 0vh 1.3vw;
+}
+
+/*数字经济——推动新发展样式结束 end*/
+
+
+
+
+
+
+
+
+
+/*数字经济融合贯通样式开始 start*/
+
 
 .CN_bg2{
     background-image: url('../images/dchina/bg1.jpg');
@@ -255,29 +405,216 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.CN_bg3{
-    background-image: url('../images/dchina/bg3.jpg');
-    position: relative;
-    width: 100vw;
-    background-size: 100vw 100vh;
+.CN_bg2{
+    width: 100%;
     height: 100vh;
-    margin: 0 auto;
 }
+
+.CN_bg2 .bg2_bt h2{
+    position: absolute;
+    left: 35vw;
+    top:5vh;
+    line-height:5vh;
+    font-size: 5vh;
+    color: rgb(48, 189, 245);
+}
+
+.CN_bg2 .bg2_bt h2:hover{
+    animation: bg2_bt 1s linear 3;
+}
+
+ @keyframes bg2_bt{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
+
+
+.cn_bg2 h3{
+	text-indent: 4vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+}
+.cn_bg2 span{
+	margin-left: 4vw;
+	/* margin-top: 1vw; */
+	font-size: 1vw;
+	line-height: 2vw;
+	color: #777;
+}
+.cn_bg2 h4{
+	text-align: center;
+	font-size: 3vw;
+	line-height: 8vw;
+	font-family: myziti;
+	color: #000;
+}
+.cn_bg2 a{
+	display: block;
+	width: 60vw;
+	margin-left: 4vw;
+	height: 0.1vw;
+	background-color: #777;
+}
+.ct5a,
+.ct5b,
+.ct5c,
+.ct5d,
+.ct5e{
+	position: absolute;
+	width: 70vw;
+	height: 8vw;
+	left: 14vw;
+	background-color: blue;
+	overflow: hidden;
+	transition: all 0.5s;
+	z-index: 18;
+	cursor: pointer;
+}
+
+
+
+
+
+
+.ct5a{margin-top: 8vw;}
+.ct5b{margin-top: 16vw;}
+.ct5c{margin-top: 24vw;}
+.ct5d{margin-top: 32vw;}
+.ct5e{margin-top: 40vw;}
+.ct5a1,.ct5b1,.ct5c1,.ct5d1,.ct5e1{
+	width: 70vw;
+	height: 8vw;
+	transition: all 0.5s;
+	overflow: hidden;
+	border-bottom: 0.1vw solid #e8e8e8;
+}
+.ct5a1{background-color: #fff;}
+.ct5b1{background-color: #fff;}
+.ct5c1{background-color: #fff;}
+.ct5d1{background-color: #fff;}
+.ct5e1{background-color: #fff;}
+
+
+.ct5a2,.ct5b2,.ct5c2,.ct5d2,.ct5e2{
+	width: 70vw;
+	height: 8vw;
+	background-size: cover;
+	transition: all 0.5s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.ct5a2{background-image: url("../images/dchina/szjj9.jpg");}
+.ct5b2{background-image: url("../images/dchina/szjj10.jpg");}
+.ct5c2{background-image: url("../images/dchina/szjj11.jpg");}
+.ct5d2{background-image: url("../images/dchina/szjj13.jpg");}
+.ct5e2{background-image: url("../images/dchina/szjj14.jpg");}
+
+.ct5a:hover .ct5a1,
+.ct5b:hover .ct5b1,
+.ct5c:hover .ct5c1,
+.ct5d:hover .ct5d1,
+.ct5e:hover .ct5e1{
+	margin-top: -8vw;
+}
+
+.ct5az,
+.ct5bz,
+.ct5cz,
+.ct5dz,
+.ct5ez{
+	position: absolute;
+	margin-top:16vw;
+	width: 70vw;
+	height: 0vw;/* 25 */
+	left: 14vw;
+	transition: all 0.5s;
+	background-color: #bbb;
+}
+.ct5az_1,
+.ct5bz_1,
+.ct5cz_1,
+.ct5dz_1,
+.ct5ez_1{
+	display: none;
+	position: absolute;
+	width: 33vw;
+	height: 20vw;/* 20 */
+	margin-left: 2vw;
+	margin-top: 2vw;
+}
+.ct5az_2,
+.ct5bz_2,
+.ct5cz_2,
+.ct5dz_2,
+.ct5ez_2{
+	display: none;
+	position: absolute;
+	width: 31vw;
+	height: 20vw;
+	margin-left: 37vw;
+	margin-top: 2vw;
+}
+.ct5az img,
+.ct5bz img,
+.ct5cz img,
+.ct5dz img,
+.ct5ez img{
+	width: 100%;
+	height: 100%;
+}
+.ct5az p,
+.ct5bz p,
+.ct5cz p,
+.ct5dz p,
+.ct5ez p{
+	text-indent: 3vw;
+	font-size: 1.1vw;
+	color: #111;
+}
+
+
+
+.ct5_ai,
+.ct5_bi,
+.ct5_ci,
+.ct5_di,
+.ct5_ei{
+	position: absolute;
+	z-index: 10;
+	width: 2vw;
+	height: 0vw;
+	margin-left: 33vw;
+	margin-top: 0vw;
+	transition: all 0.5s;
+	background-image: url("../images/dchina/bt1.png");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ct5a:hover .ct5_ai,
+.ct5b:hover .ct5_bi,
+.ct5c:hover .ct5_ci,
+.ct5d:hover .ct5_di
+.ct5e:hover .ct5_ei{
+	height: 2vw;
+	margin-top: -2vw;
+}
+
+
+/*数字经济融合贯通样式结束 end*/
+
+
+
+
+
 
 
 

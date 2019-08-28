@@ -1,6 +1,6 @@
 <template>
     <div class="cn_bg1">
-        <el-row class="cnjz_bg1">
+        <el-row class="cnjz_bg1" aos="flip-left">
 			<el-col class="cnjz_bg1_1">
 				<div class="bs-example" style="background-color: transparent;border: 0;" >
 					<div class="row"  style="top: 2vh;">
@@ -61,7 +61,7 @@
 						<div class="col-sm-6">
 							<div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
 								<a href="#">
-									<div class="img"><img src="../../assets/images/dchina/szjj4.jpg" alt="img" style="background-size: 100% 100%;"></div>
+									<div class="img"><img src="../../assets/images/dchina/szjj4.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
 									<div class="info">
 										<h3>数字经济为中国带来三大红利</h3>
                                         <p>Description goes here</p>
@@ -74,7 +74,7 @@
 				</div>
 			</el-col>
 		</el-row>
-        <el-row class="cnjz_bg1">
+        <el-row class="cnjz_bg1" aos="flip-left">
 			<el-col class="cnjz_bg1_2">
 				<div class="bs-example" style="background-color: transparent;border: 0;" >
 					<div class="row"  style="top: 2vh;">
@@ -162,37 +162,26 @@ export default {
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
-            { rel: 'stylesheet', href: 'css/default.css' },
+            // { rel: 'stylesheet', href: 'css/default.css' },
             { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
             { rel: 'stylesheet', href: 'css/styles.css' },
-            { rel: 'stylesheet', href:'css/cn_main.css'},
+			{ rel: 'stylesheet', href:'css/cn_main.css'},
+			
         ]
-    },
+	},
+	 mounted() {
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    }
     
 }
 </script>
 
 
 <style>
-.cn_bg1{
-    position: relative;
-    top: 15vh;
-    width: 100vw;
-    height: 80vh;
-}
-
-.cnjz_bg1_1{
-    width: 22vw;
-    height: 40vh;
-    margin: 0vh 1.3vw;
-}
-
-.cnjz_bg1_2{
-    width: 22vw;
-    height: 40vh;
-    margin: 0vh 1.3vw;
-}
-
+  @import "@/assets/css/digital_china.css";
 
 </style>
