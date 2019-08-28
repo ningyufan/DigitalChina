@@ -1,57 +1,88 @@
-$(function () {
-    /*图片位置数据*/
-    var datas = [
-        {'z-index': 6, opacity: 1, width: 760, height: 330, top: 40, left: 0},
-        {'z-index': 4, opacity: 0.6, width: 560, height: 243, top:80, left: -225},
-        {'z-index': 3, opacity: 0.4, width: 480, height: 203, top: -10, left: -170},
-        {'z-index': 2, opacity: 0.2, width: 620, height: 269, top: -60, left: 110},
-        {'z-index': 3, opacity: 0.4, width: 480, height: 203,  top: -10, left: 430},
-        {'z-index': 4, opacity: 0.6, width: 560, height: 243, top: 80, left: 420},
-    ]
-    move();
 
-    function move() {
-        /*图片分布*/
-        for (var i = 0; i < datas.length; i++) {
-            var data = datas[i];
-            $('#slide ul li').eq(i).css('z-index',data['z-index']);
-            $('#slide ul li').eq(i).stop().animate(data, 1200);
-        }
-    }
 
-    /*左箭头事件*/
-    $('.prev').on('click', function () {
-        var last = datas.pop();
-        datas.unshift(last);
+/*第五部分*/
+$(".ct5a").click(function(){
+	if($(".ct5az").height()==0){
 
-        move();
-    })
-
-    /*右箭头事件处理函数*/
-    function nextYewu(){
-        var first = datas.shift();
-        datas.push(first);
-        move();
-    }
-    /*右箭头事件*/
-    $('.next').on('click', nextYewu);
-
-    /*自动播放*/
-    var timer = setInterval(function(){
-        nextYewu();
-    },5000);
-    /*鼠标进入slide显示箭头,清除自动播放*/
-    $('#slide').on({
-        mouseenter: function () {
-            $('.arrow').css('display', 'block');
-            clearInterval(timer);
-        }, mouseleave: function () {
-            $('.arrow').css('display', 'none');
-            /*鼠标离开时自动播放*/
-            clearInterval(timer);
-            timer = setInterval(function(){
-                nextYewu();
-            },5000)
-        }
-    })
-})
+		$(".ct5b,.ct5c,.ct5d,.ct5e").css({"height":"0vw"});
+		$(".ct5az").css({"height":"30vw"});
+		$(".ct5_ai").css({"background-image":"url(images/bt2.png)"});
+		$(".ct5az_1").css({"display":"block"});
+		$(".ct5az_2").css({"display":"block"});
+	}else{
+		$(".ct5az_1").css({"display":"none"});
+		$(".ct5az_2").css({"display":"none"});
+		$(".ct5az").css({"height":"0vw"});
+		$(".ct5b,.ct5c,.ct5d,.ct5e").css({"height":"8vw"});
+		$(".ct5_ai").css({"background-image":"url(images/bt1.png)"});
+		
+	}
+});
+$(".ct5b").click(function(){
+	if($(".ct5bz").height()==0){
+		$(".ct5a,.ct5c,.ct5d,.ct5e").css({"height":"0vw"});
+		$(".ct5b").css({"margin-top":"8vw"});
+		$(".ct5bz").css({"height":"30vw"});
+		$(".ct5_bi").css({"background-image":"url(images/bt2.png)"});
+		$(".ct5bz_1").css({"display":"block"});
+		$(".ct5bz_2").css({"display":"block"});
+	}else{
+		$(".ct5bz_1").css({"display":"none"});
+		$(".ct5bz_2").css({"display":"none"});
+		$(".ct5bz").css({"height":"0vw"});
+		$(".ct5b").css({"margin-top":"16vw"});
+		$(".ct5a,.ct5c,.ct5d,.ct5e").css({"height":"8vw"});
+		$(".ct5_bi").css({"background-image":"url(images/bt1.png)"});
+	}
+});
+$(".ct5c").click(function(){
+	if($(".ct5cz").height()==0){
+		$(".ct5a,.ct5b,.ct5d,.ct5e").css({"height":"0vw"});
+		$(".ct5c").css({"margin-top":"8vw"});
+		$(".ct5cz").css({"height":"30vw"});
+		$(".ct5_ci").css({"background-image":"url(images/bt2.png)"});
+		$(".ct5cz_1").css({"display":"block"});
+		$(".ct5cz_2").css({"display":"block"});
+	}else{
+		$(".ct5cz_1").css({"display":"none"});
+		$(".ct5cz_2").css({"display":"none"});
+		$(".ct5cz").css({"height":"0vw"});
+		$(".ct5c").css({"margin-top":"24vw"});
+		$(".ct5a,.ct5b,.ct5d,.ct5e").css({"height":"8vw"});
+		$(".ct5_ci").css({"background-image":"url(images/bt1.png)"});
+	}
+});
+$(".ct5d").click(function(){
+	if($(".ct5dz").height()==0){
+		$(".ct5a,.ct5b,.ct5c,.ct5e").css({"height":"0vw"});
+		$(".ct5d").css({"margin-top":"8vw"});
+		$(".ct5dz").css({"height":"30vw"});
+		$(".ct5_di").css({"background-image":"url(url(images/bt2.png)"});
+		$(".ct5dz_1").css({"display":"block"});
+		$(".ct5dz_2").css({"display":"block"});
+	}else{
+		$(".ct5dz_1").css({"display":"none"});
+		$(".ct5dz_2").css({"display":"none"});
+		$(".ct5dz").css({"height":"0vw"});
+		$(".ct5d").css({"margin-top":"32vw"});
+		$(".ct5a,.ct5b,.ct5c,.ct5e").css({"height":"8vw"});
+		$(".ct5_di").css({"background-image":"url(images/bt1.png)"});
+	}
+});
+$(".ct5e").click(function(){
+	if($(".ct5ez").height()==0){
+		$(".ct5a,.ct5c,.ct5d,.ct5b").css({"height":"0vw"});
+		$(".ct5e").css({"margin-top":"8vw"});
+		$(".ct5ez").css({"height":"30vw"});
+		$(".ct5_ei").css({"background-image":"url(url(images/bt2.png)"});
+		$(".ct5ez_1").css({"display":"block"});
+		$(".ct5ez_2").css({"display":"block"});
+	}else{
+		$(".ct5ez_1").css({"display":"none"});
+		$(".ct5ez_2").css({"display":"none"});
+		$(".ct5ez").css({"height":"0vw"});
+		$(".ct5e").css({"margin-top":"40vw"});
+		$(".ct5a,.ct5c,.ct5d,.ct5b").css({"height":"8vw"});
+		$(".ct5_bi").css({"background-image":"url(images/bt1.png)"});
+	}
+});
