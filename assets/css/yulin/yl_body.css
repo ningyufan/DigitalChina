@@ -68,7 +68,7 @@
     margin: 0vh 2vw;
 }
 .city_module1_2{
-    background-color:rgb(255, 251, 0);
+    /* background-color:rgb(255, 251, 0); */
     /* position: absolute; */
     bottom: 18vh;
     width: 40vw;
@@ -125,52 +125,7 @@
     /* cursor: pointer;
     transition: all 0.6s; */
 }
-/* #screen {
-    position: absolute;
-    width: 60%;
-    height: 50%;
-    margin: 0vh 16vw;
-    background: #000;
- }
-#screen img { 
-    position:absolute; 
-    width:0px; 
-    height:0px; 
-    border:none; 
-    background-size: 100% 100%;
-    -ms-interpolation-mode:nearest-neighbor; 
-    image-rendering: optimizeSpeed;
- }
-#screen .wall { 
-    position:absolute;
-    background:transparent;
-    border-style:solid; 
-    border-width:0px; 
-    width:0px; 
-    height:0px; 
-    font-size:0px; 
-    z-index:1; 
-}
-#screen .trans { 
-    position:absolute; 
-    left:-10000px; 
-    background:#FFF; 
-    filter:alpha(opacity=20); 
-    opacity:0.6; 
-    font-size:1px; 
-    border:#000 solid 1px; 
-}
-#screen .txt { 
-    position:absolute; 
-}
-#screen .plo { 
-    position: absolute; 
-    color:#ccc; 
-    font-family: arial; 
-    white-space: nowrap; 
-    font-size: 10px; 
-    letter-spacing:4px; 
-} */
+
 .travel_module1{
     /* background-color: aqua; */
     width: 90vw;
@@ -274,17 +229,44 @@
     height: 85vh;
     top: 5vh;
 }
-.b1{
-    margin: auto;
-    width: 30vw;
-    height: 20vh;
-    background-color: brown;
-    float: left;
+
+/* *{margin:0;padding:0;} */
+/* body{font-family:Arial;background:#fff url(pattern.png) repeat top left;} */
+a{color:#444;}
+a:hover{color:#999;}
+/* .title{width:500px;height:152px;position:absolute;top:0px;left:0px;background:transparent url(title.png) no-repeat top left;} */
+a.back{
+    background:transparent url(1.jpg) no-repeat top left;
+    position:fixed;
+    width:150px;
+    height:27px;
+    outline:none;
+    bottom:0px;
+    left:0px;
 }
-.b2{
-    margin: auto;
-    width: 30vw;
-    height: 20vh;
-    background-color: blueviolet;
-    float: right;
+#content{
+    margin:0 auto;
+    /* background-color: rgb(182, 34, 34); */
+}
+.reference{
+    clear:both;
+    top:300px;
+    left:0px;
+    position:absolute;
+    text-align:right;
+    width:400px;
+    padding:20px;
+    background-color:#fff;
+    -moz-box-shadow:1px 3px 15px #ddd;
+    -webkit-box-shadow:1px 3px 15px #ddd;
+    box-shadow:1px 3px 15px #ddd;
+}
+.reference p a{
+    text-transform:uppercase;text-shadow:1px 1px 1px #fff;
+    color:#666;
+    text-decoration:none;
+    font-size:10px;
+}
+.reference p a:hover{
+    color:#333;
 }
