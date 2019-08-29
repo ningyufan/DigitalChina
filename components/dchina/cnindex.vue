@@ -1,7 +1,7 @@
 <template>
     <div class="CN_index">
         <div class="CN_bg">
-            <div class="bg_bt">
+            <div class="bg_bt" aos="zoom-in">
                 <h2>数字经济挑战机遇</h2>
             </div>    
             <div class="Chinaheader_mk">
@@ -193,7 +193,7 @@
             </div>
         </div>
         <div class="CN_bg1">
-            <div class="bg1_bt">
+            <div class="bg1_bt" aos="zoom-in">
                 <h2>数字经济——推动新发展</h2>
                 <!-- <cnbg1/> -->
             </div>
@@ -208,7 +208,7 @@
                                             <div class="img"><img src="../../assets/images/dchina/szjj1.png" alt="img" style="background-size: 100% 100%;"></div>
                                             <div class="info">
                                                 <h3>数字经济将重塑中国制造</h3>
-                                                <p>Description goes here</p>
+                                                <p>查看详情</p>
                                             </div>
                                         </a>
                                     </div>
@@ -225,7 +225,7 @@
                                             <div class="img"><img src="../../assets/images/dchina/szjj2.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>25省区市公布上半年成绩单:新兴动能贡献突出</h3>
-                                                <p>Description goes here</p>
+                                                <p>查看详情</p>
                                             </div>
                                         </a>
                                     </div>
@@ -242,7 +242,7 @@
                                             <div class="img"><img src="../../assets/images/dchina/szjj3.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>数字中国建设交出亮眼“成绩单”</h3>
-                                                <p>Description goes here</p>
+                                                <p>查看详情</p>
                                             </div>
                                         </a>
                                     </div>
@@ -259,7 +259,7 @@
                                             <div class="img"><img src="../../assets/images/dchina/szjj4.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>数字经济为中国带来三大红利</h3>
-                                                <p>Description goes here</p>
+                                                <p>查看详情</p>
                                             </div>
                                         </a>
                                     </div>
@@ -278,7 +278,7 @@
                                             <div class="img"><img src="../../assets/images/dchina/szjj5.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                                 <div class="info">
                                                     <h3>数字经济是高质量发展的重要推动力</h3>
-                                                    <p>Description goes here</p>
+                                                    <p>查看详情</p>
                                                 </div>
                                             </a>
                                     </div>
@@ -295,7 +295,7 @@
                                             <div class="img"><img src="../../assets/images/dchina/szjj6.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>5G加速工业互联网释放数字经济增长潜能</h3>
-                                                <p>Description goes here</p>
+                                                <p>查看详情</p>
                                             </div>
                                         </a>
                                     </div>
@@ -312,7 +312,7 @@
                                             <div class="img"><img src="../../assets/images/dchina/szjj7.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>政策红利开启数字经济新空间</h3>
-                                                <p>Description goes here</p>
+                                                <p>查看详情</p>
                                             </div>
                                         </a>
                                     </div>
@@ -329,7 +329,7 @@
                                             <div class="img"><img src="../../assets/images/dchina/szjj8.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>数字经济成发展壮大新动能的重要力量</h3>
-                                                <p>Description goes here</p>
+                                                <p>查看详情</p>
                                             </div>
                                         </a>
                                     </div>
@@ -341,7 +341,7 @@
             </div>         
         </div>
         <div class="CN_bg2">
-            <div class="bg2_bt">
+            <div class="bg2_bt" aos="zoom-in">
                 <h2>数字经济——推动城市发展</h2>
             </div>
             <div class="cn_bg2">
@@ -533,6 +533,7 @@
             <div class="bg4_footer">
                 <div class="CN_yuan">
                     <div class="CN_yuan1"></div>
+                    <div class="bg4_bt" aos="zoom-in"><h2>县域经济发展</h2></div>
                     <div class="CN_yuan2"></div>
                 </div>
                 <div class="bg4_bk2">
@@ -563,16 +564,17 @@
                     <div class="footer_right">
                         <a href="/cn_ct10" style="color:white" target="_blank">
                             <div class="right_ct" aos="fade-up">
-                                <h3>数字经济将重塑中国制造</h3>
-                                <p>吸尘器车间经智能化改造后实现“关灯作业”，传统钣金制造在数字化平台辅助
-                                    下，生产效率提高三成；无人驾驶汽车依托物联网传感技术，完成了变道、超
-                                    车、减速等系列操作……记者近期在我国东部城市采访发现，数字经济的异军突起，正深度重构中国制造。
+                                <h3>县域智慧城市建设</h3>
+                                <p>
+                                    互联网、云计算、大数据、物联网等飞速更新的信息通讯技术正深刻重塑着交通、医疗、农业、金融、通信、社会治理等应用场景。
+                                    与此同时，随着智慧城市建设不断引向深入，智慧城市发展明显呈现出从大中城市向中小城市，尤其是向县域地区普及的发展态势。
                                 </p>
                             </div>
                             <div class="right_img" aos="fade-up">
-                                <p>在新一轮科技革命和产业变革蓄势待发时期，我国数字经济规模持续扩大。根据
-                                    中国信息通信产业研究院发布的《中国数字经济发展与就业白皮书（2019年）》
-                                    显示，2018年中国数字经济规模达到31.3万亿元，占GDP比重为34.8%。（来源：学习强国）</p>
+                                <p>
+                                   县域政府连接城镇与广大的乡村，智慧县城建设是实现数字中国不可缺少的节点，在促进县域经济转型升级方面的作用愈发凸显。
+                                   与会嘉宾表示，未来我国智慧城市建设的深度重点，体现在县域地区如何利用创新要素完成县域智慧城市的普及和实践，县域地区开展智慧城市建设是我国未来智慧城市建设的重要工作。 
+                                </p>
                                 <div class="cn2_img"></div>
                             </div>
                             </a>
