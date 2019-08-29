@@ -147,7 +147,7 @@
 
 .TZ_ct p{
     text-indent: 2em;
-    font-size: 16px;
+    font-size: 1.8vh;
     color: rgb(65, 62, 62);
 }
 
@@ -175,7 +175,7 @@
 
 .JZ_ct p{
     text-indent: 2em;
-    font-size: 16px;
+    font-size: 1.8vh;
     color: rgb(65, 62, 62);
 }
 
@@ -202,7 +202,7 @@
 
 .JY_ct p{
     text-indent: 2em;
-    font-size: 16px;
+    font-size: 1.8vh;
     color: rgb(65, 62, 62);
 }
 
@@ -229,7 +229,7 @@
 
 .RH_ct p{
     text-indent: 2em;
-    font-size: 16px;
+    font-size: 1.8vh;
     color: rgb(65, 62, 62);
 }
 
@@ -255,7 +255,7 @@
 
 .YY_ct p{
     text-indent: 2em;
-    font-size: 16px;
+    font-size: 1.8vh;
     color: rgb(65, 62, 62);
 }
 
@@ -282,7 +282,7 @@
 
 .FZ_ct p{
     text-indent: 2em;
-    font-size: 16px;
+    font-size: 1.8vh;
     color: rgb(65, 62, 62);
 }
 
@@ -392,22 +392,22 @@
 
 
 
-/*数字经济融合贯通样式开始 start*/
+/*数字经济——推动城市发展样式开始 start*/
 
 
 .CN_bg2{
     background-image: url('../images/dchina/bg1.jpg');
     position: relative;
     width: 100vw;
-    background-size: 100vw 100vh;
-    height: 100vh;
+    background-size: 100vw 120vh;
+    height: 120vh;
     margin: 0 auto;
 }
 
 
 .CN_bg2{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 
 .CN_bg2 .bg2_bt h2{
@@ -883,15 +883,17 @@
 }
 
 .left_ct h3{
-    font-size: 3.5vh;
+    font-size: 4vh;
     color: rgb(48, 189, 245);
     width: 30vw;
     height: 2%;
+    margin-left: 5vw;
 }
 
 .left_ct p{
-    font-size: 2.5vh;
+    font-size: 2.4vh;
     margin-top: 8vh;
+    line-height: 3h;
     text-indent: 2em;
 }
 
@@ -913,24 +915,26 @@
 
 .left_img{
     width: 100%;
-    height: 50%;
+    height: 60%;
+    /* margin-top: 2vh; */
 }
 
-.left_img p{
-    width: 50%;
-    height: 30%;
+.left_img .img_ct{
+    width: 56%;
+    height: 50%;
     float: left;
-    font-size: 2.5vh;
+    line-height: 3h;
+    font-size: 2.4vh;
     text-indent: 2em;
 }
 
-.nanjing_img{
-    background-image: url('../images/dchina/nanjing.png');
-    width:48%;
+.cn1_img{
+    background-image: url('../images/dchina/cn1.png');
+    width:42%;
     float: right;
     height: 90%;
     margin-right: 1vh;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .bg4_bk3 .footer_right{
@@ -990,8 +994,8 @@
 }
 
 
-.zhizao_img{
-    background-image: url('../images/dchina/zhizao.png');
+.cn2_img{
+    background-image: url('../images/dchina/cn2.png');
     width:40%;
     float: left;
     height: 25vh;

@@ -204,12 +204,11 @@
                             <div class="row"  style="top: 2vh;">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-                                        <a href="#">
-                                            <div class="img"><img src="../../assets/images/dchina/zhizao.png" alt="img" style="background-size: 100% 100%;"></div>
+                                        <a href="/cn_ct1" target="_blank">
+                                            <div class="img"><img src="../../assets/images/dchina/szjj1.png" alt="img" style="background-size: 100% 100%;"></div>
                                             <div class="info">
                                                 <h3>数字经济将重塑中国制造</h3>
                                                 <p>Description goes here</p>
-                                                <p>https://article.xuexi.cn/articles/index.html?art_id=12250024501652950005&study_style_id=feeds_default&source=share&share_to=wx_single&from=singlemessage</p>
                                             </div>
                                         </a>
                                     </div>
@@ -222,12 +221,11 @@
                             <div class="row"  style="top: 2vh;">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-                                        <a href="#">
+                                        <a href="/cn_ct2" target="_blank">
                                             <div class="img"><img src="../../assets/images/dchina/szjj2.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>25省区市公布上半年成绩单:新兴动能贡献突出</h3>
                                                 <p>Description goes here</p>
-                                                <p>http://www.gywb.cn/system/2019/07/30/030117864.shtml</p>
                                             </div>
                                         </a>
                                     </div>
@@ -240,12 +238,11 @@
                             <div class="row"  style="top: 2vh;">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-                                        <a href="#">
+                                        <a href="/cn_ct3" target="_blank">
                                             <div class="img"><img src="../../assets/images/dchina/szjj3.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>数字中国建设交出亮眼“成绩单”</h3>
                                                 <p>Description goes here</p>
-                                                <p>https://article.xuexi.cn/articles/index.html?study_style_id=feeds_default&study_comment_disable=0&art_id=14213424613328305366&source=share&share_to=wx_single&from=singlemessage</p>
                                             </div>
                                         </a>
                                     </div>
@@ -258,12 +255,11 @@
                             <div class="row"  style="top: 2vh;">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-                                        <a href="#">
+                                        <a href="/cn_ct4" target="_blank">
                                             <div class="img"><img src="../../assets/images/dchina/szjj4.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>数字经济为中国带来三大红利</h3>
                                                 <p>Description goes here</p>
-                                                <p>http://www.gywb.cn/content/2017-05/24/content_5525357.htm</p>
                                             </div>
                                         </a>
                                     </div>
@@ -278,12 +274,11 @@
                             <div class="row"  style="top: 2vh;">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-                                        <a href="#">
+                                        <a href="/cn_ct5" target="_blank">
                                             <div class="img"><img src="../../assets/images/dchina/szjj5.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                                 <div class="info">
                                                     <h3>数字经济是高质量发展的重要推动力</h3>
                                                     <p>Description goes here</p>
-                                                    <p>https://www.xuexi.cn/lgpage/detail/index.html?id=1192539736289329795</p>
                                                 </div>
                                             </a>
                                     </div>
@@ -296,12 +291,11 @@
                             <div class="row"  style="top: 2vh;">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-                                        <a href="#">
+                                        <a href="/cn_ct6" target="_blank">
                                             <div class="img"><img src="../../assets/images/dchina/szjj6.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>5G加速工业互联网释放数字经济增长潜能</h3>
                                                 <p>Description goes here</p>
-                                                <p>https://www.xuexi.cn/lgpage/detail/index.html?id=9872334481232957509</p>
                                             </div>
                                         </a>
                                     </div>
@@ -314,12 +308,11 @@
                             <div class="row"  style="top: 2vh;">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-                                        <a href="#">
+                                        <a href="/cn_ct7" target="_blank">
                                             <div class="img"><img src="../../assets/images/dchina/szjj7.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>政策红利开启数字经济新空间</h3>
                                                 <p>Description goes here</p>
-                                                <p>https://www.xuexi.cn/lgpage/detail/index.html?id=15276754117486150530</p>
                                             </div>
                                         </a>
                                     </div>
@@ -332,12 +325,11 @@
                             <div class="row"  style="top: 2vh;">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-                                        <a href="#">
+                                        <a href="/cn_ct8" target="_blank">
                                             <div class="img"><img src="../../assets/images/dchina/szjj8.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
                                             <div class="info">
                                                 <h3>数字经济成发展壮大新动能的重要力量</h3>
                                                 <p>Description goes here</p>
-                                                <p>https://article.xuexi.cn/articles/index.html?art_id=13077705786423920108&study_style_id=feeds_default&source=share&share_to=wx_single&from=singlemessage</p>
                                             </div>
                                         </a>
                                     </div>
@@ -545,28 +537,31 @@
                 </div>
                 <div class="bg4_bk2">
                     <div class="footer_left">
-                        <a href="/nanjing" style="color:white" target="_blank">
+                        <a href="/cn_ct9" style="color:white" target="_blank">
                             <div class="left_ct" aos="fade-up">
-                            <h3>南京打造数字经济名城</h3>
-                                <p>在前不久落幕的第十五届中国（南京）国际软件产品和信息服务交易博览会
-                                以下简称软博会）上，来自全球30多个国家和地区的1200多家企业齐聚
-                                古都南京，共同展望“数字经济”下的“智慧未来”，共签约项目80余项，总投资额超过340亿元。
+                            <h3>远程医疗</h3>
+                                <p>
+                                    足不出村，通过远程连线，山东高青常家镇蓑衣樊村村医坐在卫生室里，就可以与400公里外的北京301医院的专家一同给村民会诊。
+                                    远程医疗是高青县智慧城市建设的重要一环。这个不足40万人口的鲁中小城，利用物联网、大数据、云计算等先进技术手段赋能城市管理，力图实现善政、惠民、兴业。
                                 </p>
                             </div>
                             <div class="left_img" aos="fade-up">
-                                <p>见证了南京软件产业从起步到腾飞的南京软博会，十四年来，其规模由小到大，参展企业越来越多，
-                                    由着重服务外包发展成引领新经济前沿，现已成为南京“新经济”发展的风向标。软博会在留下累累
-                                    硕果的同时，也给全体南京市民留下深深思索：即将迈过5000亿元规模门槛的南京软件业，如何在
-                                    新一轮发展大潮中抢抓机遇，破解增长速度不够快、龙头企业不够多的难题？同时，如何借力软件
-                                    产业，进一步迈向“数字经济名城”？（来源：学习强国）</p>
-                            <div class="nanjing_img"></div>
+                                <div class="img_ct">
+                                <p>
+                                    智慧城市，以往集中于中国的一二线城市，以及部分较发达的三线城市。如今越来越多像高青这样的县级城市，投身到智慧城市建设的热潮中。智慧城市在解决“大城市病”的同时，往县域延伸助力基层破解发展难题。
+                                </p>
+                                <p>
+                                    近几年，中国智慧城市建设方兴未艾。人民网研究院副院长唐胜宏介绍，据不完全统计，目前中国100%的副省级以上城市、93%的地级以上城市、部分县级市，总共约有700个城市已经提出或正在建设智慧城市，占到同期全球提出创建智慧城市总量的70%。
+                                </p>
+                                </div>
+                            <div class="cn1_img"></div>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div class="bg4_bk3">
                     <div class="footer_right">
-                        <a href="#" style="color:white" target="_blank">
+                        <a href="/cn_ct10" style="color:white" target="_blank">
                             <div class="right_ct" aos="fade-up">
                                 <h3>数字经济将重塑中国制造</h3>
                                 <p>吸尘器车间经智能化改造后实现“关灯作业”，传统钣金制造在数字化平台辅助
@@ -578,7 +573,7 @@
                                 <p>在新一轮科技革命和产业变革蓄势待发时期，我国数字经济规模持续扩大。根据
                                     中国信息通信产业研究院发布的《中国数字经济发展与就业白皮书（2019年）》
                                     显示，2018年中国数字经济规模达到31.3万亿元，占GDP比重为34.8%。（来源：学习强国）</p>
-                                <div class="zhizao_img"></div>
+                                <div class="cn2_img"></div>
                             </div>
                             </a>
                     </div>
