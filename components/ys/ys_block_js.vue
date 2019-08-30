@@ -52,7 +52,8 @@ export default {
 </script>
 
 <style>
-.ysblockjs{
+@import "@/assets/css/digitalys.css";
+/* .ysblockjs{
     background-image: url(../../assets/images/ysblock/background1.jpg);
     background-size: 100% 100%;
     height: 120vh;
@@ -177,5 +178,5 @@ export default {
     color: black;
     line-height: 4vh;
     opacity: 1;
-}
+} */
 </style>

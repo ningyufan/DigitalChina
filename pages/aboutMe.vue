@@ -3,9 +3,9 @@
         <div class="header_one">
             <div class="header " id="header" >
                 <div class="logo">
-                    <a href="#">
+                    <!-- <a href="#">
                         Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
-                    </a>
+                    </a> -->
                 </div>
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
@@ -15,7 +15,7 @@
                                 <a href="#">
                                     <i class="el-icon-star-on">中</i>
                                 </a>
-                                <a href="#">
+                                <a href="/e_aboutMe">
                                     <i class="el-icon-star-off">英</i>
                                 </a>
                             </div>
@@ -302,7 +302,7 @@ export default {
     font-family:cursive;
 }
 .katong_about{
-    border-radius: 100px;
+    border-radius: 15vh;
     border: 1.5vh solid rgba(255, 255, 255, 0.6);
     filter:brightness(70%);
 }
@@ -311,7 +311,7 @@ export default {
     position: absolute;
     width: 30vh;
     height: 30vh;
-    border-radius: 100px;
+    border-radius: 15vh;
     float: left;
     margin-left: 85vh;
     min-width: 20vh;

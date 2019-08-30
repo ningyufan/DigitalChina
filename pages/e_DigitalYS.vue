@@ -3,9 +3,9 @@
         <div class="header_one">
             <div class="header " id="header" >
                 <div class="logo">
-                    <a href="#">
+                    <!-- <a href="#">
                         Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
-                    </a>
+                    </a> -->
                 </div>
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
@@ -13,10 +13,10 @@
                         <el-row class="row_one">
                             <div class="ce_nav">
                                 <a href="/DigitalYS">
-                                    <i class="el-icon-star-on">Chinese</i>
+                                    <i class="el-icon-star-off">Chinese</i>
                                 </a>
                                 <a href="#">
-                                    <i class="el-icon-star-off">English</i>
+                                    <i class="el-icon-star-on">English</i>
                                 </a>
                             </div>
                         </el-row>
@@ -40,12 +40,12 @@
                 </div>
             </div>
         </div>
-        
-        <ysblockjs/>
+        <eysindex/>
+        <!-- <ysblockjs/>
         <ysblockfzzj/>
         <ysblockxq/>
         <ysblockxw/>
-        <ysblockscope/>
+        <ysblockscope/> -->
         <el-backtop  :bottom="100">
             <!-- <el-button icon="el-icon-caret-top" circle></el-button> -->
              <div
@@ -69,20 +69,22 @@
 
 <script>
 import ysblock from '../components/YS_Block.vue'
-import ysblockjs from '../components/ys/ys_block_js.vue'
-import ysblockscope from '../components/ys/ys_block_Scope.vue'
-import ysblockfzzj from '../components/ys/ys_block_fzzj.vue'
-import ysblockxq from '../components/ys/ys_block_xq.vue'
-import ysblockxw from '../components/ys/ys_block_xw.vue'
+import eysindex from '../components/ys/e_ysindex.vue'
+// import ysblockjs from '../components/ys/ys_block_js.vue'
+// import ysblockscope from '../components/ys/ys_block_Scope.vue'
+// import ysblockfzzj from '../components/ys/ys_block_fzzj.vue'
+// import ysblockxq from '../components/ys/ys_block_xq.vue'
+// import ysblockxw from '../components/ys/ys_block_xw.vue'
 // import animated from 'animate.css' 
 export default {
     components:{
         ysblock,
-        ysblockjs,
-        ysblockscope,
-        ysblockfzzj,
-        ysblockxq,
-        ysblockxw,
+        eysindex
+        // ysblockjs,
+        // ysblockscope,
+        // ysblockfzzj,
+        // ysblockxq,
+        // ysblockxw,
     },
     data () {
         return {

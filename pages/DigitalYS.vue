@@ -15,7 +15,7 @@
                                 <a href="#">
                                     <i class="el-icon-star-on">中</i>
                                 </a>
-                                <a href="#">
+                                <a href="/e_DigitalYS">
                                     <i class="el-icon-star-off">英</i>
                                 </a>
                             </div>
@@ -40,12 +40,12 @@
                 </div>
             </div>
         </div>
-        
-        <ysblockjs/>
+        <ysindex/>
+        <!-- <ysblockjs/>
         <ysblockfzzj/>
         <ysblockxq/>
         <ysblockxw/>
-        <ysblockscope/>
+        <ysblockscope/> -->
         <el-backtop  :bottom="100">
             <!-- <el-button icon="el-icon-caret-top" circle></el-button> -->
              <div
@@ -69,20 +69,23 @@
 
 <script>
 import ysblock from '../components/YS_Block.vue'
-import ysblockjs from '../components/ys/ys_block_js.vue'
-import ysblockscope from '../components/ys/ys_block_Scope.vue'
-import ysblockfzzj from '../components/ys/ys_block_fzzj.vue'
-import ysblockxq from '../components/ys/ys_block_xq.vue'
-import ysblockxw from '../components/ys/ys_block_xw.vue'
+import ysindex from '../components/ys/ysindex.vue'
+// import ysblockjs from '../components/ys/ys_block_js.vue'
+// import ysblockscope from '../components/ys/ys_block_Scope.vue'
+// import ysblockfzzj from '../components/ys/ys_block_fzzj.vue'
+// import ysblockxq from '../components/ys/ys_block_xq.vue'
+// import ysblockxw from '../components/ys/ys_block_xw.vue'
 // import animated from 'animate.css' 
 export default {
     components:{
         ysblock,
-        ysblockjs,
-        ysblockscope,
-        ysblockfzzj,
-        ysblockxq,
-        ysblockxw,
+        ysindex,
+        // ysblockjs,
+        // ysblockscope,
+        // ysblockfzzj,
+        // ysblockxq,
+        // ysblockxw,
+        
     },
     data () {
         return {
@@ -185,7 +188,6 @@ export default {
     font-family:cursive;
     color: white;
 }
-
 
 
 .back1_ys{

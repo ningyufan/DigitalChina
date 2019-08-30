@@ -3,20 +3,20 @@
         <div class="header_one">
             <div class="header " id="header" >
                 <div class="logo">
-                    <a href="#">
+                    <!-- <a href="#">
                         Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
-                    </a>
+                    </a> -->
                 </div>
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
                         <div class="header_nav">
                         <el-row class="row_one">
                             <div class="ce_nav">
-                                <a href="#">
-                                    <i class="el-icon-star-on">Chinese</i>
+                                <a href="/aboutMe">
+                                    <i class="el-icon-star-off">Chinese</i>
                                 </a>
                                 <a href="#">
-                                    <i class="el-icon-star-off">English</i>
+                                    <i class="el-icon-star-on">English</i>
                                 </a>
                             </div>
                         </el-row>
@@ -302,7 +302,7 @@ export default {
     font-family:cursive;
 }
 .katong_about{
-    border-radius: 100px;
+    border-radius: 15vh;
     border: 1.5vh solid rgba(255, 255, 255, 0.6);
     filter:brightness(70%);
 }
