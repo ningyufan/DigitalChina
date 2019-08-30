@@ -29,9 +29,10 @@
 }
 
 .bs-example {
+    /* background-color: blueviolet; */
     position: relative;
-    padding: 45px 15px 15px;
-    margin: 0 -15px 15px;
+    /* padding: 45px 15px 15px; */
+    margin: 7vh 1vw 3vw 7vh;
     background-color: #fafafa;
     box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05);
     border-color: #e5e5e5 #eee #eee;
@@ -73,15 +74,6 @@
 
 
 /* Examples gallery: space out content better */
-.bs-examples h4 {
-    margin-bottom: 5px;
-}
-
-.bs-examples p {
-    margin-bottom: 20px;
-}
-
-
 .ih-item {
     position: relative;
     -webkit-transition: all 0.35s ease-in-out;
@@ -112,10 +104,10 @@
 
 .ih-item.square {
     position: relative;
-    width: 316px;
-    height: 216px;
-    border: 8px solid #fff;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    width: 19vw;
+    height: 23vh;
+    border: 8vh solid #fff;
+    box-shadow: 3vh 2vh 5vh rgba(134, 7, 7, 0.911);
 }
 
 .ih-item.square .info {
@@ -150,7 +142,7 @@
 }
 
 .ih-item.square.effect3 .info {
-    height: 65px;
+    height: 3vw;
     background: #333333;
     opacity: 0;
     -webkit-transition: all 0.35s ease-in-out;
@@ -158,21 +150,12 @@
     transition: all 0.35s ease-in-out;
 }
 
-.ih-item.square.effect3 .info h3 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    font-size: 17px;
-    padding: 10px 10px 0 4px;
-    margin: 4px 0 0 0;
-}
-
 .ih-item.square.effect3 .info p {
     font-style: italic;
-    font-size: 12px;
+    font-size: 1.5vh;
     position: relative;
     color: #bbb;
-    padding: 5px;
+    padding:0.6vh;
     text-align: center;
 }
 
@@ -232,6 +215,5 @@
 }
 
 .row {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 2vh;
 }
