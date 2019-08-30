@@ -65,24 +65,7 @@
                 <img src="@/assets/images/ysblock/img7_zj.png" class="img1_zj" height="80%" width="100%">
                 <div class="img1_text_zj">2019.1</div>
             </div>
-        </div>
-        
-
-
-        
-        <!-- <div class="box_img">
-            <div class="img1_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img2_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img3_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img4_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img5_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img6_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-            <div class="img7_zj"><img src="@/assets/images/ysblock/ys4.png" height="100%" width="100%"></div>
-
-        </div> -->
-
-
-        
+        </div> 
     </div>
 </template>
 
