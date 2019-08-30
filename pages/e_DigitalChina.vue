@@ -13,10 +13,10 @@
                             <el-row class="row_one">
                                 <div class="ce_nav">
                                 <a href="Digital_China">
-                                    <i class="el-icon-star-on">Chinese</i>
+                                    <i class="el-icon-star-off">Chinese</i>
                                 </a>
                                 <a href="#">
-                                    <i class="el-icon-star-off">English</i>
+                                    <i class="el-icon-star-on">English</i>
                                 </a>
                             </div>
                         </el-row>
@@ -36,18 +36,18 @@
                     </div>
                 </div>
                 <div class="china">
-                    <cnheader/>
+                    <ecnheader/>
                 </div>
             </div>
         </div>
-            <cnindex/>
-        <div class="footer2">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
+            <ecnindex/>
+        <div class="footer2">Development team:Wuzheng Ningyufan Lushimei Yanxiaoqian Huangsisen</div>
     </div>
 </template>
 
 <script>
-import cnheader from '../components/dchina/cnheader'
-import cnindex from '../components/dchina/cnindex'
+import ecnheader from '../components/dchina/e_cnheader'
+import ecnindex from '../components/dchina/e_cnindex'
 export default {
     head:{
         script:[
@@ -62,7 +62,7 @@ export default {
         ]
     },
     components:{
-            cnheader,cnindex
+            ecnheader,ecnindex
     },
     data () {
     return {

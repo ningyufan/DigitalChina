@@ -54,7 +54,6 @@
                     <img src="@/assets/images/sy/sybox1_pic4.jpg" alt=""/>
                 </div>
             </div>
-            
         </div>
     </div>
 </template>
