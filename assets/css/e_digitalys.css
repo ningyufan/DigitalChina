@@ -114,15 +114,15 @@
 }
 .title1_js{
     color: black;
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: center;
     border-bottom: 1px dashed black;
     line-height: 5vh;  
 }
 .text2_js{
-    font-size: 2.5vh;
+    font-size: 2vh;
     color: black;
-    line-height: 4vh;
+    line-height: 3vh;
     opacity: 1;
 }
 
@@ -486,31 +486,36 @@
     margin-top: 17.4vh;
 }
 .text1_zj{
-    font-size: 2.1vh
+    font-size: 1.65vh
 }
 .text7_zj{
-    font-size: 2.1vh
+    font-size: 1.65vh
 }
 .text_1_zj{
     text-align: center;
     bottom: 0px;
-    margin-top: 4vh;
-    font-size: 2.5vh;
+    margin-top: 2.2vh;
+    font-size: 2vh;
 }
 .text_2_zj{
     text-align: center;
     bottom: 0px;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 .text_3_zj{
     text-align: center;
-    margin-top: 1vh;
-    font-size: 2.5vh;
+    margin-top: 0.2vh;
+    font-size: 2vh;
+}
+.text_5_zj{
+    text-align: center;
+    margin-top: 6vh;
+    font-size: 2vh;
 }
 .text_7_zj{
     text-align: center;
-    font-size: 2.5vh;
-    margin-top: 7vh
+    font-size: 2vh;
+    margin-top: 6vh
 }
 
 
@@ -577,11 +582,11 @@
 }
 .title1_1_xq{
     text-align: center;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .text1_1_xq{
-    font-size: 2.5vh;
-    line-height: 4vh;
+    font-size: 2vh;
+    line-height: 3vh;
     padding: 1vh 0;
 }
 .box2_xq{
@@ -629,11 +634,11 @@
 }
 .title1_2_xq{
     text-align: center;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .text1_2_xq{
-    font-size: 2.5vh;
-    line-height: 4vh;
+    font-size: 2vh;
+    line-height: 3vh;
     padding: 1vh 0;
 }
 
@@ -699,7 +704,7 @@
     width: 79%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 2.5vh;
+    font-size: 2vh;
     filter:brightness(90%);
 }
 .line1_ys{
@@ -735,7 +740,7 @@
     width: 22%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 2.5vh;
+    font-size: 2vh;
     filter:brightness(90%);
 }
 .line2_ys{
@@ -774,7 +779,7 @@
     width: 21%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 2.5vh;
+    font-size: 2vh;
     filter:brightness(90%);
 }
 .line3_ys{
@@ -811,7 +816,7 @@
     width: 21%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 2.5vh;
+    font-size: 2vh;
     filter:brightness(90%);
 }
 .line4_ys{
@@ -847,7 +852,7 @@
     width: 100%;
     -webkit-transform:scale(1);
     -webkit-transition-duration: 0.5s;
-    font-size: 2.5vh;
+    font-size: 2vh;
     filter:brightness(90%);
 }
 .line5_ys{

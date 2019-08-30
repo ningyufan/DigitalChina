@@ -146,28 +146,28 @@
                 <div class="one_ys" >
                     <div class="box1_ys">
                         <div class="ys1_ys">
-                            <a href="/news1_ys" target="_blank"><img src="@/assets/images/ysblock/ys1.png" class="img1_ys" height="100%" width="100%"></a>
-                            <a href="/news1_ys" target="_blank"><div class="text1_ys">玉林师范学院——曙光大数据应用创新中心揭牌成立</div></a>
+                            <a href="/ys_news1" target="_blank"><img src="@/assets/images/ysblock/ys1.png" class="img1_ys" height="100%" width="100%"></a>
+                            <a href="/ys_news1" target="_blank"><div class="text1_ys">玉林师范学院——曙光大数据应用创新中心揭牌成立</div></a>
                             <div class="line1_ys"></div>
                         </div>
                         <div class="ys2_ys">
-                            <a href="/news2_ys" target="_blank"><img src="@/assets/images/ysblock/ys2.png" class="img2_ys" height="100%" width="100%"></a>
-                            <a href="/news2_ys" target="_blank"><div class="text2_ys">计算机学院积极推进“玉林师范学院——曙光大数据学院”的建设</div></a>
+                            <a href="/ys_news2" target="_blank"><img src="@/assets/images/ysblock/ys2.png" class="img2_ys" height="100%" width="100%"></a>
+                            <a href="/ys_news2" target="_blank"><div class="text2_ys">计算机学院积极推进“玉林师范学院——曙光大数据学院”的建设</div></a>
                             <div class="line2_ys"></div>
                         </div>
                         <div class="ys3_ys">
-                            <a href="/news3_ys" target="_blank"><img src="@/assets/images/ysblock/img2_js.png" class="img3_ys" height="100%" width="100%"></a>
-                            <a href="/news3_ys" target="_blank"><div class="text3_ys">学校举行市校共建玉林市大数据研究院揭牌仪式暨签约仪式</div></a>
+                            <a href="/ys_news3" target="_blank"><img src="@/assets/images/ysblock/img2_js.png" class="img3_ys" height="100%" width="100%"></a>
+                            <a href="/ys_news3" target="_blank"><div class="text3_ys">学校举行市校共建玉林市大数据研究院揭牌仪式暨签约仪式</div></a>
                             <div class="line3_ys"></div>
                         </div>
                         <div class="ys4_ys">
-                            <a href="/news4_ys" target="_blank"><img src="@/assets/images/ysblock/ys4.png" class="img4_ys" height="100%" width="100%"></a>
-                            <a href="/news4_ys" target="_blank"><div class="text4_ys">曙光集团莅临大数据学院开展曙光大数据平台使用培训会</div></a>
+                            <a href="/ys_news4" target="_blank"><img src="@/assets/images/ysblock/ys4.png" class="img4_ys" height="100%" width="100%"></a>
+                            <a href="/ys_news4" target="_blank"><div class="text4_ys">曙光集团莅临大数据学院开展曙光大数据平台使用培训会</div></a>
                             <div class="line4_ys"></div>
                         </div>
                         <div class="ys5_ys">
-                            <a href="/news5_ys" target="_blank"><img src="@/assets/images/ysblock/ys5.png" class="img5_ys" height="100%" width="100%"></a>
-                            <a href="/news5_ys" target="_blank"><div class="text5_ys">学校领导到大数据应用创新中心（暨大数据学院）指导工作</div></a>
+                            <a href="/ys_news5" target="_blank"><img src="@/assets/images/ysblock/ys5.png" class="img5_ys" height="100%" width="100%"></a>
+                            <a href="/ys_news5" target="_blank"><div class="text5_ys">学校领导到大数据应用创新中心（暨大数据学院）指导工作</div></a>
                             <div class="line5_ys"></div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                                 <img class="img6_ys" src="@/assets/images/ysblock/img1_scope.webp">
                                 <figcaption>
                                     <h3>部门培训 | 礼仪部</h3>
-                                    <p class="img_6_ys">点击查看详情</p>
+                                    <h4 class="img_6_ys">点击查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -202,7 +202,7 @@
                                 <img class="img7_ys" src="@/assets/images/ysblock/img2_scope.webp">
                                 <figcaption>
                                     <h3>驭梦人生</h3>
-                                    <p class="img_7_ys">点击查看详情</p>
+                                    <h4 class="img_7_ys">点击查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -215,7 +215,7 @@
                                 <img class="img8_ys" src="@/assets/images/ysblock/img3_scope_1.webp">
                                 <figcaption>
                                     <h3>不一样的我们</h3>
-                                    <p class="img_8_ys">点击查看详情</p>
+                                    <h4 class="img_8_ys">点击查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -228,7 +228,7 @@
                                 <img class="img9_ys" src="@/assets/images/ysblock/img4_scope_5.webp"/>
                                 <figcaption>
                                     <h3>素质拓展</h3>
-                                    <p class="img_9_ys">点击查看详情</p>
+                                    <h4 class="img_9_ys">点击查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -241,7 +241,7 @@
                                 <img class="img10_ys" src="@/assets/images/ysblock/img5_scope_2.webp">
                                 <figcaption>
                                     <h3>PPT团队风采展</h3>
-                                    <p class="img_10_ys">点击查看详情</p>
+                                    <h4 class="img_10_ys">点击查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -254,7 +254,7 @@
                                 <img class="img11_ys" src="@/assets/images/ysblock/img6_scope_1.webp">
                                 <figcaption>
                                     <h3>五四团日活动</h3>
-                                    <p class="img_11_ys">点击查看详情</p>
+                                    <h4 class="img_11_ys">点击查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -267,7 +267,7 @@
                                 <img class="img12_ys" src="@/assets/images/ysblock/img7_scope_1.webp">
                                 <figcaption>
                                     <h3>瑞翼工坊</h3>
-                                    <p class="img_12_ys">点击查看详情</p>
+                                    <h4 class="img_12_ys">点击查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -280,7 +280,7 @@
                                 <img class="img13_ys" src="@/assets/images/ysblock/img8_scope_3.webp">
                                 <figcaption>
                                     <h3>Data Kingkong协会</h3>
-                                    <p class="img_13_ys">点击查看详情</p>
+                                    <h4 class="img_13_ys">点击查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -448,7 +448,6 @@
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（1）安装操作系统</div>  
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（2）Photoshop</div>
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（3）绘声绘影</div>    
-                    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（2）Photoshop</div>  
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大家看了我们的课程菜单有没有心动呢？欢迎你随时加入到我们的瑞翼工坊学习中，也欢迎你来蹭课哦~~请记住我们的上课时间是:每周二下午3:00到6:00！也希望瑞翼工坊的小伙伴们能够在这里学到你们想要学到的东西。这是一个“量变到质变的过程”，希望大家不忘初心，坚持学习。</div>  
                 </el-dialog>
                 <el-dialog

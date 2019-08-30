@@ -38,14 +38,18 @@
                 <div class="ME">
                     <header class="hero">
                         <div class="hero-center">
-                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="200">我们的团队致力于创作出更完美、更优秀的网页，为提升自我而时刻努力奋斗着</h2>
+                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="100">关于网页</h2>
                             <br>
-                            <!-- <h2 style="font-family:Microsoft YaHei"  aos="fade-up" aos-easing="ease" aos-delay="400">我们谨记</h2>
-                            <br> -->
-                            <h2 style="font-family:Microsoft YaHei"  aos="fade-up" aos-easing="ease" aos-delay="500">青春没有停歇的驿站,只有努力奋斗的身影</h2>
+                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="250">本网页完成于2019年某一天，网页设计层次分明，页面内容采用aos滚动加载，配合原生js、淡入淡出等动画效果</h2>
+                            <br>
+                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="400">使浏览者能更加舒适清晰的浏览网页内容，运用vue框架，使代码编码更加简洁，运行效率更高</h2>
+                            <br>
+                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="550">我们的团队致力于创作出更完美、更优秀的网页，为提升自我而时刻努力奋斗着</h2>
+                            <br>
+                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="700">青春没有停歇的驿站,只有努力奋斗的身影</h2>
                         </div>
-                        <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="800">
-                            点击下拉 <br>
+                        <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="850">
+                            <h4>点击下拉</h4>
                             <i class="chevron bottom"></i>
                             <!-- {{text}}{{isFixed}} -->
                         </span>
@@ -53,6 +57,97 @@
                 </div>
             </div>
         </div>
+        
+        <!-- <div class="loader">
+            <div class="face">
+                <div class="circle"></div>
+            </div>
+            <div class="face">
+                <div class="circle"></div>
+            </div>
+        </div> -->
+        <div class="container">
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+            </div>
+        </div>
+        
+        
         <div id="aboutbody" >
             <div class="video_me">
                 <video id="video1" src="@/assets/video/team.mp4" preload="auto" style="dispaly:inline"
@@ -70,6 +165,7 @@
                             <div class="text_about">队长</div>
                             <div class="text_about">计算机科学与工程学院</div>
                             <div class="text_about">计算机科学与技术专业</div>
+                            <div class="text_about">负责网页的代码编辑，页面设计，整体统筹规划</div>
                         </div>
                     </div>
                     <div class="cklice4"></div>
@@ -85,6 +181,7 @@
                             <div class="text_about">队员</div>
                             <div class="text_about">计算机科学与工程学院</div>
                             <div class="text_about">计算机科学与技术专业</div>
+                            <div class="text_about">负责网页的代码编辑，寻找素材和创意</div>
                         </div>
                     </div>
                     <div class="cklice8"></div>
@@ -100,6 +197,7 @@
                             <div class="text_about">队员</div>
                             <div class="text_about">计算机科学与工程学院</div>
                             <div class="text_about">计算机科学与技术专业</div>
+                            <div class="text_about">负责网页的代码编辑，协助页面设计</div>
                         </div>
                     </div>
                     <div class="cklice12"></div>
@@ -115,6 +213,7 @@
                             <div class="text_about">队员</div>
                             <div class="text_about">计算机科学与工程学院</div>
                             <div class="text_about">计算机科学与技术专业</div>
+                            <div class="text_about">负责网页的代码编辑，素材整理，页面设计</div>
                         </div>
                     </div>
                     <div class="cklice16"></div>
@@ -130,6 +229,7 @@
                             <div class="text_about">队员</div>
                             <div class="text_about">计算机科学与工程学院</div>
                             <div class="text_about">计算机科学与技术专业</div>
+                            <div class="text_about">负责版面设计，下载素材，协助团队完成设计工作。</div>
                         </div>
                     </div>
                     <div class="cklice20"></div>
@@ -138,7 +238,6 @@
         </div>
 
         <el-backtop  :bottom="100">
-            <!-- <el-button icon="el-icon-caret-top" circle></el-button> -->
              <div
                 style="{
                     height: 100%;
@@ -152,21 +251,21 @@
                 }"
                 >
             <i class="el-icon-caret-top"></i>
-            </div>
+            </div> 
         </el-backtop>
-        
         <div class="footer6">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
+        
     </div>
 </template>
 
 <script>
-import aboutbody from '../components/aboutbody.vue'
+// import aboutbody from '../components/aboutbody.vue'
 // if (process.browser) { // 在这里根据环境引入wow.js
 //     var {WOW} = require('wowjs')
 //     }
 export default {
     components:{
-        aboutbody,
+        // aboutbody,
     },
     data () {
         return {
@@ -178,15 +277,15 @@ export default {
         script:[
             {src:'js/jquery.1.7.1.min.js'},
             {src:'js/aos.js'},
+            // {src:'js/jquery.min.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
             // { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
             { rel: 'stylesheet', href: 'css/styles.css' },
-            // { rel: 'stylesheet', href: 'styles/yl_main.css' },
-            // { rel: 'stylesheet', href: 'css/default.css' },
-            // { rel: 'stylesheet', href: 'css/normalize.css' },
+            { rel: 'stylesheet', href: 'css/style_about.css' },
+            // { rel: 'stylesheet', href: 'css/style_about2.css' },
         ]
     },
     methods: {
@@ -244,8 +343,6 @@ export default {
     },
     mounted() {
         this.start();
-        // this.start2();
-        
         // if (process.browser) {  // 在页面mounted生命周期里面 根据环境实例化WOW
         //     new WOW({
         //         live: true, 
@@ -279,6 +376,8 @@ export default {
 @import "@/assets/css/index/page_index.css";
 .aboutMe {
     width: 100%;
+    /* position:absolute;
+    z-index: 1; */
 }
 .nav_6{
     background-image: url('../assets/images/bg_xuanzhong.png');
@@ -659,9 +758,10 @@ export default {
 }
 .nameabout{
     font-family: 华文行楷;
-    font-size: 2.2vw;
+    font-size: 1.5vw;
 }
 .text_about{
-    font-size: 1.2vw;
+    font-size: 0.9vw;
+    line-height: 3vh;
 }
 </style>
