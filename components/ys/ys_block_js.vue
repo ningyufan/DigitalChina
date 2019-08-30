@@ -56,7 +56,7 @@ export default {
     background-image: url(../../assets/images/ysblock/background1.jpg);
     background-size: 100% 100%;
     height: 120vh;
-    filter:brightness(80%);
+    filter:brightness(90%);
 }
 .title_js{
     height: 15vh;

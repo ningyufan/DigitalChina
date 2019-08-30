@@ -97,7 +97,7 @@ export default {
     background-image: url(../../assets/images/ysblock/background3.jpg);
     background-size:cover;
     height: 140vh;
-    filter:brightness(70%);
+    filter:brightness(80%);
     /* margin-left: -10%; */
 }
 .box_img1{

@@ -63,7 +63,7 @@ export default {
     background-image: url(../../assets/images/ysblock/background6.jpg);
     background-size: cover;
     height: 150vh;
-    filter:brightness(70%);
+    filter:brightness(80%);
 }
 .zindex{
     position: relative;
@@ -95,7 +95,7 @@ export default {
     position: absolute;
     border: 2px double #ccc;
     box-shadow: 5px 3px 3px #111;
-    filter:brightness(80%);
+    filter:brightness(90%);
 }
 .img1_2_xq{
     height: 30vh;
@@ -106,7 +106,7 @@ export default {
     position:absolute;
     border: 3px double #ccc;
     box-shadow: 5px 3px 3px #111;
-    filter:brightness(80%);
+    filter:brightness(90%);
 }
 .text1_xq{
     height: 40vh;
@@ -146,7 +146,7 @@ export default {
     position: absolute;
     border: 2px double #ccc;
     box-shadow: -5px 3px 3px #111;
-    filter:brightness(80%);
+    filter:brightness(90%);
 }
 .img2_2_xq{
     height: 30vh;
@@ -157,7 +157,7 @@ export default {
     position:absolute;
     border: 3px double #ccc;
     box-shadow: -5px 3px 3px #111;
-    filter:brightness(80%);
+    filter:brightness(90%);
 }
 .text2_xq{
     height: 45vh;
