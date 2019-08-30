@@ -35,7 +35,25 @@
 								<a href="#">更多 &rarr;</a>
 							</div>
 						</li>
-						<li class="bg4 bleft">
+						<li class="bg4">
+							<div class="heading">“智慧玉林”签约启动</div>
+							<div class="bgDescription"></div>
+							<div class="description">
+								<h2>“智慧玉林”签约启动</h2>
+								<p>2016年11月7日，玉林市智慧城市建设座谈会暨签约仪式在南宁举行，玉林市政府与曙光云计算有限公司就玉林市智慧城市建设项目进行签约，标志着“智慧玉林”项目正式启动和实施。市长苏海棠，副市长李振品，曙光信息产业股份有限公司董事、高级副总裁，曙光云计算有限公司总裁聂华出席签约仪式...</p>
+								<a href="#">更多 &rarr;</a>
+							</div>
+						</li> 
+						<li class="bg5">
+							<div class="heading">“智慧玉林”签约启动</div>
+							<div class="bgDescription"></div>
+							<div class="description">
+								<h2>“智慧玉林”签约启动</h2>
+								<p>2016年11月7日，玉林市智慧城市建设座谈会暨签约仪式在南宁举行，玉林市政府与曙光云计算有限公司就玉林市智慧城市建设项目进行签约，标志着“智慧玉林”项目正式启动和实施。市长苏海棠，副市长李振品，曙光信息产业股份有限公司董事、高级副总裁，曙光云计算有限公司总裁聂华出席签约仪式...</p>
+								<a href="#">更多 &rarr;</a>
+							</div>
+						</li> 
+						<li class="bg6 bleft">
 							<div class="heading">入选“国家智慧城市”</div>
 							<div class="bgDescription"></div>
 							<div class="description">
@@ -47,51 +65,6 @@
 					</ul>
 					<!--特效结束-->
 				</div>
-			</el-row>
-			<!-- <el-row class="city_module1">
-				<el-col class="city_module1_1">
-					<el-row class="city_module1_11" aos="fade-up">
-						<video src="@/assets/video/china_video5.mp4" controls="controls" height="100%" width="100%">
-							您的浏览器不支持 video 标签。
-						</video>
-					</el-row>
-					<el-row class="city_module1_12">
-						<div class="phone" aos="fade-up">
-							<span><el-row class="v2">离线视频</el-row></span>
-							<el-row class="v1">数字玉林建设视频1</el-row>
-							<el-row class="v1">数字玉林建设视频2</el-row>
-							<el-row class="v1">数字玉林建设视频3</el-row>
-							<el-row class="v1">数字玉林建设视频4</el-row>
-						</div>
-					</el-row>
-				</el-col> -->
-				<!-- <el-col class="city_module1_2">
-					<div class="scrolltext" >
-						<div id="breakNews">
-							<ol id="breakNewsList" class="list6">
-								<li><a target=_blank href="http://www.17sucai.com">网易女性美容幻灯片动画</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">百度联盟圆角幻灯片动画设计制作</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">google2010年圣诞节logo动画设计制作</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">新浪明星汇滚动动画设计制作</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">阿里巴巴首页导航菜单设计制作</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">当当网查看产品大图动画设计制作</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">当当网电脑办公竖向幻灯片</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">jQuery实现表格隔行变色</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">网易女性美容幻灯片动画</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">百度联盟圆角幻灯片动画设计制作</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">google2010年圣诞节logo动画设计制作</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">新浪明星汇滚动动画设计制作</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">阿里巴巴首页导航菜单设计制作</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">当当网查看产品大图动画设计制作</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">当当网电脑办公竖向幻灯片</a></li>
-								<li><a target=_blank href="http://www.17sucai.com">jQuery实现表格隔行变色</a></li>
-							</ol>
-						</div>
-						<div class="part">
-							<span id="pre2"><img src="@/assets/images/yulin/h1-img03.gif" /></span><span id="next2"><img src="@/assets/images/yulin/h1-img02.gif" /></span>
-						</div>
-					</div>
-				</el-col> -->
             </el-row> 
         </div>
         <div class="bk_zw">
@@ -261,14 +234,14 @@
 					<a href="" class="a1">
 						<img src="@/assets/images/yulin/fp_p1.png">
 						<div class ="divA">
-							<p class="p1">玉林市博白县民生资金大数据监督平台完成升级</p>
-							<p class="p2">经过5个月的试运行，升级提档后的博白县民生资金大数据监督平台日前重新上线，这是该平台自2011年底建成后的首次升级</p>
+							<p class="p1">玉林市博白民生资金大数据监督平台完成升级</p>
+							<p class="p2">经过5个月的试运行，升级提档后的博白县民生资金大数据监督平台日前重新上线...</p>
 							<!-- <p class="p3">¥<span>6999</span>起</p> -->
 						</div>
 					</a>
 					<a class = "a2"  href="/yl_ctfp1" target="_blank">
-							<p class="p4">玉林市博白县民生资金大数据监督平台完成升级</p>
-							<p class="p5">经过5个月的试运行，升级提档后的博白县民生资金大数据监督平台<br>日前重新上线，这是该平台自2011年底建成后的首次升级...</p>
+							<p class="p4">玉林市博白民生资金大数据监督平台完成升级</p>
+							<p class="p5">经过5个月的试运行，升级提档后的博白县民生资金<br>大数据监督平台日前重新上线...</p>
 							<!-- <p class="p6">¥<span>6999</span>起</p> -->
 							<p class="p7">查看详情</p>
 					</a>
@@ -278,13 +251,13 @@
 						<img src="@/assets/images/yulin/fp_p2.jpg">
 						<div class ="divA">
 							<p class="p1">玉林市大数据精准助力贫困学子上学走“绿色通道”</p>
-							<p class="p2">为实现教育精准资助，切实保障建档立卡贫困户学生资助“一个不漏”，我市建立了“市—县—乡（镇）—校”四级联动大数据比对机制...</p>
+							<p class="p2">为实现教育精准资助，切实保障建档立卡贫困户学生资助“一个不漏”，我市建立了“市—县—乡（镇）—校”四级联动...</p>
 							<!-- <p class="p3">¥<span>6999</span>起</p> -->
 						</div>
 					</a>
 					<a class = "a2" href="/yl_ctfp2" target="_blank">
 							<p class="p4">玉林市大数据精准助力贫困学子上学走“绿色通道”</p>
-							<p class="p5">为实现教育精准资助，切实保障建档立卡贫困户学生资助“一个不漏”，<br>我市建立了“市—县—乡（镇）—校”四级联动大数据比对机制...</p>
+							<p class="p5">为实现教育精准资助，切实保障建档立卡贫困户学生<br>资助“一个不漏”，我市建立了“市—县—乡（镇）—校”四级联动...</p>
 							<!-- <p class="p6">¥<span>6999</span>起</p> -->
 							<p class="p7">查看详情></p>
 					</a>
@@ -294,13 +267,13 @@
 						<img src="@/assets/images/yulin/fp_p3.jpg">
 						<div class ="divA">
 							<p class="p1">玉林市博白县运用“大数据”盯住民生资金</p>
-							<p class="p2">建立大数据平台进行数据比对，是博白县在广西首创民生资金电子动态监管平台的基础上，对民生资金方面的违纪问题进行再监督的创新模式</p>
+							<p class="p2">建立大数据平台进行数据比对，是博白县在广西首创民生资金电子动态监管平台的基础上...</p>
 							<!-- <p class="p3">¥<span>8399</span>起</p> -->
 						</div>
 					</a>
 					<a href="" class = "a2" href="/yl_ctfp3" target="_blank">
 							<p class="p4">玉林市博白县运用“大数据”盯住民生资金</p>
-							<p class="p5">建立大数据平台进行数据比对，是博白县在广西首创民生资金电子<br>动态监管平台的基础上，对民生资金...</p>
+							<p class="p5">建立大数据平台进行数据比对，是博白县在广西首创<br>民生资金电子动态监管平台的基础上...</p>
 							<!-- <p class="p6">¥<span>8399</span>起</p> -->
 							<p class="p7">查看详情></p>
 					</a>
@@ -309,14 +282,14 @@
 					<a href="" class="a1">
 						<img src="@/assets/images/yulin/fp_p4.jpg"/>
 						<div class ="divA">
-							<p class="p1">玉林市兴业县“扶贫云”大数据助力扶贫领域监督</p>
-							<p class="p2">兴业县围绕“三盯三查”（盯政策落实、查不正之风，盯资金安全等专项行动，<br>开发建立兴业县“扶贫云”大数据平台...</p>
+							<p class="p1">玉林市兴业县“扶贫云”大数据助力扶贫监督</p>
+							<p class="p2">兴业县围绕“三盯三查”（盯政策落实、查不正之风，盯资金安全等专项行动，开发建立兴业县“扶贫云”大数据平台...</p>
 							<!-- <p class="p3">¥<span>8499</span>起</p> -->
 						</div>
 					</a>
 					<a href="" class = "a2" href="/yl_ctfp4" target="_blank">
-							<p class="p4">玉林市兴业县“扶贫云”大数据助力扶贫领域监督</p>
-							<p class="p5">兴业县围绕“三盯三查”（盯政策落实、查不正之风，盯资金安全<br>等专项行动，开发建立兴业县“扶贫云”大数据平台...</p>
+							<p class="p4">玉林市兴业县“扶贫云”大数据助力扶贫监督</p>
+							<p class="p5">兴业县围绕“三盯三查”（盯政策落实、查不正之风，盯<br>资金安全等专项行动，开发建立兴业县“扶贫云”大数据平台...</p>
 							<!-- <p class="p6">¥<span>8499</span>起</p> -->
 							<p class="p7">查看详情></p>
 					</a>
@@ -332,7 +305,7 @@
 					</a>
 					<a href="" class = "a2" href="/yl_ctfp5" target="_blank">
 							<p class="p4">玉林市陆川米场镇再练电商扶贫“硬招式”</p>
-							<p class="p5">米场镇注重电商扶贫模式的推广，实施农村电商精准扶贫，促进<br>贫困村农产品“上线上网”、畅通“农产品进城”...</p>
+							<p class="p5">米场镇注重电商扶贫模式的推广，实施农村电商精准<br>扶贫，促进贫困村农产品“上线上网”、畅通“农产品进城”...</p>
 							<!-- <p class="p6">¥<span>2199</span>起</p> -->
 							<p class="p7">查看详情></p>
 					</a>
@@ -348,7 +321,7 @@
 					</a>
 					<a href="" class = "a2" href="/yl_ctfp6" target="_blank">
 							<p class="p4">玉林市博白县民生资金事前监督 发现问题资金百万元</p>
-							<p class="p5">今年以来，博白县纪委监委为突破事前监督盲区的问题，对原有民生<br>资金监督平台进行全面升级完善，运用最新的大数据技术...</p>
+							<p class="p5">今年以来，博白县纪委监委为突破事前监督盲区的问题，<br>对原有民生资金监督平台进行全面升级完善，运用最新的大数据技术...</p>
 							<!-- <p class="p6">¥<span>6999</span>起</p> -->
 							<p class="p7">查看详情></p>
 					</a>
@@ -404,11 +377,7 @@
 </template>
 
 <script>
-	// import ChengShi from './yl_chengshi.vue'
     export default{
-		components:{
-			// ChengShi,
-    },
         head:{
             script:[
             {src:'js/jquery.1.7.1.min.js'},
@@ -417,7 +386,7 @@
 		
 			// 城市模块
             // {src:'js/ScrollText.js'},
-			{src:'js/jquery.min.js'},
+			{src:'js/yl_jquery.min.js'},
 
 			{src:'js/jquery-1.12.4.min.js'},
 			{src:'js/popper.min.js'},
