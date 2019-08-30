@@ -5,12 +5,12 @@
                     <div class="header-title fl" style="text-align: center">
                         <div class="header_nav1">
                             <div class="row1_one">
-                                <div class="ce_nav1">
+                                <div class="ce_nav2">
                                     <a href="#">
-                                        <i class="el-icon-star-on">Chinese</i>
+                                        <i class="el-icon-star-of">Chinese</i>
                                     </a>
                                     <a href="#">
-                                        <i class="el-icon-star-off">English</i>
+                                        <i class="el-icon-star-on">English</i>
                                     </a>
                                 </div>
                             </div>
@@ -158,12 +158,12 @@ export default {
     padding-top: 6vh;
 }
 
-.ce_nav1 {
+.ce_nav2 {
  height: 16vh;
  float: right;
- padding-right: 8vh;
+ padding-right: 2vh;
  padding-top: 8vh;
- font-size: 2.5vh;
+ font-size: 2.2vh;
  
 }
 
