@@ -3,9 +3,8 @@
 /*第五部分*/
 $(".ct5a").click(function(){
 	if($(".ct5az").height()==0){
-
 		$(".ct5b,.ct5c,.ct5d,.ct5e").css({"height":"0vw"});
-		$(".ct5az").css({"height":"30vw"});
+		$(".ct5az").css({"height":"25vw"});
 		$(".ct5_ai").css({"background-image":"url(images/bt2.png)"});
 		$(".ct5az_1").css({"display":"block"});
 		$(".ct5az_2").css({"display":"block"});
@@ -22,7 +21,7 @@ $(".ct5b").click(function(){
 	if($(".ct5bz").height()==0){
 		$(".ct5a,.ct5c,.ct5d,.ct5e").css({"height":"0vw"});
 		$(".ct5b").css({"margin-top":"8vw"});
-		$(".ct5bz").css({"height":"30vw"});
+		$(".ct5bz").css({"height":"25vw"});
 		$(".ct5_bi").css({"background-image":"url(images/bt2.png)"});
 		$(".ct5bz_1").css({"display":"block"});
 		$(".ct5bz_2").css({"display":"block"});
@@ -39,7 +38,7 @@ $(".ct5c").click(function(){
 	if($(".ct5cz").height()==0){
 		$(".ct5a,.ct5b,.ct5d,.ct5e").css({"height":"0vw"});
 		$(".ct5c").css({"margin-top":"8vw"});
-		$(".ct5cz").css({"height":"30vw"});
+		$(".ct5cz").css({"height":"25vw"});
 		$(".ct5_ci").css({"background-image":"url(images/bt2.png)"});
 		$(".ct5cz_1").css({"display":"block"});
 		$(".ct5cz_2").css({"display":"block"});
@@ -56,7 +55,7 @@ $(".ct5d").click(function(){
 	if($(".ct5dz").height()==0){
 		$(".ct5a,.ct5b,.ct5c,.ct5e").css({"height":"0vw"});
 		$(".ct5d").css({"margin-top":"8vw"});
-		$(".ct5dz").css({"height":"30vw"});
+		$(".ct5dz").css({"height":"25vw"});
 		$(".ct5_di").css({"background-image":"url(url(images/bt2.png)"});
 		$(".ct5dz_1").css({"display":"block"});
 		$(".ct5dz_2").css({"display":"block"});
@@ -71,9 +70,9 @@ $(".ct5d").click(function(){
 });
 $(".ct5e").click(function(){
 	if($(".ct5ez").height()==0){
-		$(".ct5a,.ct5c,.ct5d,.ct5b").css({"height":"0vw"});
+		$(".ct5a,.ct5b,.ct5c,.ct5d").css({"height":"0vw"});
 		$(".ct5e").css({"margin-top":"8vw"});
-		$(".ct5ez").css({"height":"30vw"});
+		$(".ct5ez").css({"height":"25vw"});
 		$(".ct5_ei").css({"background-image":"url(url(images/bt2.png)"});
 		$(".ct5ez_1").css({"display":"block"});
 		$(".ct5ez_2").css({"display":"block"});
@@ -82,7 +81,7 @@ $(".ct5e").click(function(){
 		$(".ct5ez_2").css({"display":"none"});
 		$(".ct5ez").css({"height":"0vw"});
 		$(".ct5e").css({"margin-top":"40vw"});
-		$(".ct5a,.ct5c,.ct5d,.ct5b").css({"height":"8vw"});
-		$(".ct5_bi").css({"background-image":"url(images/bt1.png)"});
+		$(".ct5a,.ct5b,.ct5c,.ct5d").css({"height":"8vw"});
+		$(".ct5_ei").css({"background-image":"url(images/bt1.png)"});
 	}
 });

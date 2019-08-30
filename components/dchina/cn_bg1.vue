@@ -7,7 +7,7 @@
 						<div class="col-sm-6">
 							<div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
 								<a href="#">
-									<div class="img"><img src="../../assets/images/dchina/zhizao.png" alt="img" style="background-size: 100% 100%;"></div>
+									<div class="img"><img src="../../assets/images/dchina/szjj1.png" alt="img" style="background-size: 100% 100%;"></div>
 									<div class="info">
                                         <h3>数字经济将重塑中国制造</h3>
                                         <p>Description goes here</p>

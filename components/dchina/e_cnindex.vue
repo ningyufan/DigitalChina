@@ -205,7 +205,7 @@
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct1" target="_blank">
-                                            <div class="img"><img src="../../assets/images/dchina/szjj1.png" alt="img" style="background-size: 100% 100%;"></div>
+                                            <div class="img"><img src="../../assets/images/dchina/szjj1.png" alt="img" style="background-size: 100% 100%;height:30vh"></div>
                                             <div class="info">
                                                 <h3>数字经济将重塑中国制造</h3>
                                                 <p>查看详情</p>
@@ -222,7 +222,7 @@
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct2" target="_blank">
-                                            <div class="img"><img src="../../assets/images/dchina/szjj2.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
+                                            <div class="img"><img src="../../assets/images/dchina/szjj2.jpg" alt="img" style="background-size: 100% 100%;height:30vh"></div>
                                             <div class="info">
                                                 <h3>25省区市公布上半年成绩单:新兴动能贡献突出</h3>
                                                 <p>查看详情</p>
@@ -239,7 +239,7 @@
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct3" target="_blank">
-                                            <div class="img"><img src="../../assets/images/dchina/szjj3.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
+                                            <div class="img"><img src="../../assets/images/dchina/szjj3.jpg" alt="img" style="background-size: 100% 100%;height:30vh"></div>
                                             <div class="info">
                                                 <h3>数字中国建设交出亮眼“成绩单”</h3>
                                                 <p>查看详情</p>
@@ -256,7 +256,7 @@
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct4" target="_blank">
-                                            <div class="img"><img src="../../assets/images/dchina/szjj4.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
+                                            <div class="img"><img src="../../assets/images/dchina/szjj4.jpg" alt="img" style="background-size: 100% 100%;height:30vh"></div>
                                             <div class="info">
                                                 <h3>数字经济为中国带来三大红利</h3>
                                                 <p>查看详情</p>
@@ -275,7 +275,7 @@
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct5" target="_blank">
-                                            <div class="img"><img src="../../assets/images/dchina/szjj5.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
+                                            <div class="img"><img src="../../assets/images/dchina/szjj5.jpg" alt="img" style="background-size: 100% 100%;height:30vh"></div>
                                                 <div class="info">
                                                     <h3>数字经济是高质量发展的重要推动力</h3>
                                                     <p>查看详情</p>
@@ -292,7 +292,7 @@
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct6" target="_blank">
-                                            <div class="img"><img src="../../assets/images/dchina/szjj6.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
+                                            <div class="img"><img src="../../assets/images/dchina/szjj6.jpg" alt="img" style="background-size: 100% 100%;height:30vh"></div>
                                             <div class="info">
                                                 <h3>5G加速工业互联网释放数字经济增长潜能</h3>
                                                 <p>查看详情</p>
@@ -309,7 +309,7 @@
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct7" target="_blank">
-                                            <div class="img"><img src="../../assets/images/dchina/szjj7.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
+                                            <div class="img"><img src="../../assets/images/dchina/szjj7.jpg" alt="img" style="background-size: 100% 100%;height:30vh"></div>
                                             <div class="info">
                                                 <h3>政策红利开启数字经济新空间</h3>
                                                 <p>查看详情</p>
@@ -326,7 +326,7 @@
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct8" target="_blank">
-                                            <div class="img"><img src="../../assets/images/dchina/szjj8.jpg" alt="img" style="background-size: 100% 100%;height:40vh"></div>
+                                            <div class="img"><img src="../../assets/images/dchina/szjj8.jpg" alt="img" style="background-size: 100% 100%;height:30vh"></div>
                                             <div class="info">
                                                 <h3>数字经济成发展壮大新动能的重要力量</h3>
                                                 <p>查看详情</p>
