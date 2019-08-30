@@ -4,7 +4,7 @@ ul.accordion{
     /* background-color: aqua; */
     list-style:none;   
     position:absolute;
-    right:35vw;
+    right:26vw;
     top:0px;
     font-family: Cambria, serif;
     font-size: 2vh;
@@ -14,7 +14,7 @@ ul.accordion{
 ul.accordion li{
     background-color: brown;
     float:right;
-    width:7vw;
+    width:10vw;
     height:70vh;
     display:block;
     border-right:1vw solid #fff;
@@ -30,9 +30,11 @@ ul.accordion li{
     box-shadow:1px 3px 15px #555;
 }
 ul.accordion li.bg1{background-image:url("../images/city_p4.png");}
-ul.accordion li.bg2{background-image:url("../images/city_p3.png");}
-ul.accordion li.bg3{background-image:url('../images/city_p2.png');}
-ul.accordion li.bg4{background-image:url('../images/city_p1.png');}
+ul.accordion li.bg2{background-image:url("../images/city_p2.png");}
+ul.accordion li.bg3{background-image:url('../images/city_p1.png');}
+ul.accordion li.bg4{background-image:url('../images/city_p5.jpg');} 
+ul.accordion li.bg5{background-image:url('../images/city_p3.png');} 
+ul.accordion li.bg6{background-image:url('../images/city_p3.png');}
 ul.accordion li.bleft{border-left:1vw solid #fff;}
 ul.accordion li .heading{
     background-color:#fff;
