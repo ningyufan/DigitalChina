@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    layout:'content',
+    layout:'content5',
 
 }
 </script>
