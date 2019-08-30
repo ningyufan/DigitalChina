@@ -4,7 +4,7 @@
             <div class="header " id="header" >
                 <div class="logo">
                     <a href="#">
-                        Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
+                        <!-- Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China -->
                     </a>
                 </div>
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
