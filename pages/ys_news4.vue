@@ -20,8 +20,8 @@ export default {
 
 <style>
 .newstitle4_ys{
-    font-size: 4vh;
-    line-height: 7vh;
+    font-size: 3vh;
+    line-height: 5vh;
 }
 .newstext4_1_ys{
     text-align: left;

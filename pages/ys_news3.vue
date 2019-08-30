@@ -22,7 +22,7 @@ export default {
 
 <style>
 .newstitle3_ys{
-    font-size: 4vh;
+    font-size: 3vh;
     line-height: 5vh;
 }
 .newstext3_1_ys{

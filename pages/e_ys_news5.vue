@@ -1,10 +1,11 @@
 <template>
     <div>
-        <div class="newstitle5_ys">学校领导到大数据应用创新中心（暨大数据学院）指导工作</div>
-        <div class="newstext5_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9月3日，校党委书记唐仁郭、校长王卓华、党委副书记曹迎等到大数据应用创新中心（暨大数据学院）指导工作，计算机学院党委书记谢向东、院长朱晓姝陪同。</div>
+        <div class="newstitle5_ys">School leadership to the Big Data Application Innovation Center (and Big Data College) to guide the work</div>
+        <div class="newstext5_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On September 3, Tang Renguo, Secretary of the Party Committee of the University, Wang Zhuohua, Vice Secretary of the Party Committee, Cao Ying, and so on, guided the work of the Center for Innovation in Big Data Application (and the College of Big Data), accompanied by Xie Xiangdong, Secretary of the Party Committee of the Computer College, and Zhu Xiaoshu, President of the College.</div>
         <img src="@/assets/images/ysblock/news5_ys.jpg" class="newsimg5_ys" height="80%" width="80%">
-        <div class="newstext5_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学校领导一行人听取了学院老师关于大数据学院教学工作、学科建设、实训实践、工作开展情况等的汇报后，王卓华对学院的工作表示了肯定，并提出了几点要求：继续加强学科建设，增加教学设备和师资力量，提高科研成果；加强推进校企合作，培养大数据行业应用型技术人才。</div>
-        <div class="newstext5_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大数据学院在本科人才培养方面，采用VIP垂直整合项目教学模式，该模式组织学生循序渐进地参与项目组，以研促学，不断提高学生的学习能力和实践能力；在学科建设方面，建立学科团队，贯彻国际工程认证人才培养理念，以培养具备解决复杂工程问题能力的应用创新型人才为目标，采用内部专业教材，同步行业最前沿。学校领导曾指出，这些作法是校企合作、共同培养应用型人才培养模式的有益探索。</div>
+        <div class="newstext5_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wang Zhuohua affirmed the work of the College and put forward several requirements: continue to strengthen discipline construction, increase teaching equipment and teachers, and improve scientific research results. Strengthen school-enterprise cooperation and train applied technical personnel in big data industry.</div>
+        <br>
+        <div class="newstext5_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In terms of training undergraduate talents, Big Data College adopts VIP vertical integration project teaching mode, which organizes students to participate in project groups step by step in order to promote learning and constantly improve students'learning and practical abilities. In terms of discipline construction, it establishes discipline teams and implements the concept of international engineering certification personnel training. In order to cultivate innovative applied talents with the ability to solve complex engineering problems, internal professional textbooks are adopted to synchronize the forefront of the industry. School leaders have pointed out that these practices are beneficial explorations for school-enterprise cooperation and joint training of applied talents.</div>
     </div>
 </template>
 
@@ -17,15 +18,10 @@ export default {
 
 <style>
 .newstitle5_ys{
-    font-size: 4vh;
-    line-height: 7vh;
+    font-size: 3vh;
+    line-height: 5vh;
 }
 .newstext5_1_ys{
-    font-size: 2vh;
     text-align: left;
-    line-height: 4vh;
-}
-.newsimg5_ys{
-    
 }
 </style>

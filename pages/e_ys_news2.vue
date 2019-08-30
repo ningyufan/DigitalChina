@@ -1,13 +1,13 @@
 <template>
     <div>
         <div>
-            <div class="newstitle2_ys">计算机学院积极推进“玉林师范学院-曙光大数据学院”的建设</div>
+            <div class="newstitle2_ys">Computer College Actively Promotes the Construction of "Yulin Normal University——Dawning University of Data"</div>
             <br>
-            <div class="newstext2_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2016年8月，我校入选教育部首批“数据中国·百校工程”产教融合先行先试项目试点学校，并与中科曙光集团签署了共建“曙光大数据应用创新中心”（下称大数据中心）的协议。该中心依托计算机、电子通信、物理工程、数学统计、商学等专业，集培养本科应用型人才、科研创新、创业应用及服务地方于一体。“曙光大数据学院”(下称大数据学院)是大数据中心人才培养的体现，首先依托计算机科学与工程学院招收“大数据专业”学生。</div>
+            <div class="newstext2_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In August 2016, our school was selected as the first pilot school of "Data China 100 School Project" pilot project of Industry-Education integration, and signed an agreement with China Science Dawning Group to build "Dawning Big Data Application Innovation Center" (hereinafter referred to as Big Data Center). Relying on computer, electronic communication, physical engineering, mathematical statistics, business and other specialties, the center integrates the training of undergraduate applied talents, scientific research and innovation, entrepreneurship and application and services. Dawning College of Big Data (hereinafter referred to as Big Data College) is the embodiment of talent training in Big Data Center. First of all, it relies on the College of Computer Science and Engineering to recruit students majoring in Big Data.</div>
             <img src="@/assets/images/ysblock/news2_1_ys.png" height="80%" width="80%">
-            <div class="newstext2_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前，校企双方共已投入1000万元购置设备，学校也划出知行楼西楼一楼、二楼共地约2000平方米的地方用于大数据中心建设，中心的安装装修工程正在进行中，工程预计2017年4月中旬完成，之后设备进场安装调试。</div>
+            <div class="newstext2_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At present, both schools and enterprises have invested 10 million yuan in purchasing equipment. The school has also designated about 2,000 square meters of the first and second floors of the West Building of Zhixing Building for the construction of large data center. The installation and decoration of the center is in progress. The project is expected to be completed in mid-April 2017. After that, the equipment will be installed and commissioned.</div>
             <br>
-            <div class="newstext2_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 依托大数据资源全面推进学生学科竞赛，在重视学生基础课程的同时，校企双方积极探讨、筹划参加全国数据挖掘大赛、数学建模竞赛、互联网+创新创业竞赛等国家级、省部级学科竞赛等，组织培训教师队伍。同时，该院也有利于抓住新兴产业发展机遇，推动大数据产业和“互联网+”战略实施方面的服务能力提升，推动该院计算机学科与大数据的结合创新，发挥出我院学科特色。 </div>
+            <div class="newstext2_1_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Relying on big data resources to comprehensively promote student discipline competition, while focusing on student basic courses, schools and enterprises actively explore and plan to participate in national data mining competition, mathematical modeling contest, Internet + innovation and entrepreneurship competition and other national, provincial and ministerial level disciplines competitions, and organize training teachers. At the same time, the hospital is also conducive to seizing the development opportunities of new industries, promoting the improvement of the service capacity of big data industry and the implementation of "Internet +" strategy, and promoting the combination of computer science and big data.</div>
         </div>
     </div>
 </template>
@@ -21,7 +21,7 @@ export default {
 
 <style>
 .newstitle2_ys{
-    font-size: 4vh;
+    font-size: 3vh;
     line-height: 5vh;
 }
 .newstext2_1_ys{
