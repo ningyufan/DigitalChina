@@ -18,15 +18,6 @@
 							</div>
 						</li>
 						<li class="bg2">
-							<div class="heading">入选“国家智慧城市”</div>
-							<div class="bgDescription"></div>
-							<div class="description">
-								<h2>入选“国家智慧城市”</h2>
-								<p>2015年4月，玉林市入选国家智慧城市试点。创建智慧城市活动，是玉林市“三个年一活动”的重要内容和有力载体，在前期工作的基础上，目前创建工作进入顶层设计阶段，将稳步实施16个项目，力争用3年至5年创成国家智慧城市...</p>
-								<a href="#">更多 &rarr;</a>
-							</div>
-						</li>
-						<li class="bg3">
 							<div class="heading">玉林市大数据研究院</div>
 							<div class="bgDescription"></div>
 							<div class="description">
@@ -35,12 +26,21 @@
 								<a href="#">更多 &rarr;</a>
 							</div>
 						</li>
-						<li class="bg4 bleft">
+						<li class="bg3">
 							<div class="heading">“智慧玉林”签约启动</div>
 							<div class="bgDescription"></div>
 							<div class="description">
 								<h2>“智慧玉林”签约启动</h2>
-								<p>2016年11月7日，玉林市智慧城市建设座谈会暨签约仪式在南宁举行，玉林市政府与曙光云计算有限公司就玉林市智慧城市建设项目进行签约，标志着“智慧玉林”项目正式启动和实施。市长苏海棠，副市长李振品，曙光信息产业股份有限公司董事、高级副总裁，曙光云计算有限公司总裁聂华出席签约仪式。</p>
+								<p>2016年11月7日，玉林市智慧城市建设座谈会暨签约仪式在南宁举行，玉林市政府与曙光云计算有限公司就玉林市智慧城市建设项目进行签约，标志着“智慧玉林”项目正式启动和实施。市长苏海棠，副市长李振品，曙光信息产业股份有限公司董事、高级副总裁，曙光云计算有限公司总裁聂华出席签约仪式...</p>
+								<a href="#">更多 &rarr;</a>
+							</div>
+						</li>
+						<li class="bg4 bleft">
+							<div class="heading">入选“国家智慧城市”</div>
+							<div class="bgDescription"></div>
+							<div class="description">
+								<h2>入选“国家智慧城市”</h2>
+								<p>2015年4月，玉林市入选国家智慧城市试点。创建智慧城市活动，是玉林市“三个年一活动”的重要内容和有力载体，在前期工作的基础上，目前创建工作进入顶层设计阶段，将稳步实施16个项目，力争用3年至5年创成国家智慧城市...</p>
 								<a href="#">更多 &rarr;</a>
 							</div>
 						</li>
@@ -266,11 +266,11 @@
 							<!-- <p class="p3">¥<span>6999</span>起</p> -->
 						</div>
 					</a>
-					<a href="" class = "a2">
+					<a class = "a2"  href="/yl_ctfp1" target="_blank">
 							<p class="p4">玉林市博白县民生资金大数据监督平台完成升级</p>
 							<p class="p5">经过5个月的试运行，升级提档后的博白县民生资金大数据监督平台<br>日前重新上线，这是该平台自2011年底建成后的首次升级...</p>
 							<!-- <p class="p6">¥<span>6999</span>起</p> -->
-							<p class="p7">查看详情></p>
+							<p class="p7">查看详情</p>
 					</a>
 				</li>
 				<li>
@@ -282,7 +282,7 @@
 							<!-- <p class="p3">¥<span>6999</span>起</p> -->
 						</div>
 					</a>
-					<a href="" class = "a2">
+					<a class = "a2" href="/yl_ctfp2" target="_blank">
 							<p class="p4">玉林市大数据精准助力贫困学子上学走“绿色通道”</p>
 							<p class="p5">为实现教育精准资助，切实保障建档立卡贫困户学生资助“一个不漏”，<br>我市建立了“市—县—乡（镇）—校”四级联动大数据比对机制...</p>
 							<!-- <p class="p6">¥<span>6999</span>起</p> -->
@@ -298,7 +298,7 @@
 							<!-- <p class="p3">¥<span>8399</span>起</p> -->
 						</div>
 					</a>
-					<a href="" class = "a2">
+					<a href="" class = "a2" href="/yl_ctfp3" target="_blank">
 							<p class="p4">玉林市博白县运用“大数据”盯住民生资金</p>
 							<p class="p5">建立大数据平台进行数据比对，是博白县在广西首创民生资金电子<br>动态监管平台的基础上，对民生资金...</p>
 							<!-- <p class="p6">¥<span>8399</span>起</p> -->
@@ -314,7 +314,7 @@
 							<!-- <p class="p3">¥<span>8499</span>起</p> -->
 						</div>
 					</a>
-					<a href="" class = "a2">
+					<a href="" class = "a2" href="/yl_ctfp4" target="_blank">
 							<p class="p4">玉林市兴业县“扶贫云”大数据助力扶贫领域监督</p>
 							<p class="p5">兴业县围绕“三盯三查”（盯政策落实、查不正之风，盯资金安全<br>等专项行动，开发建立兴业县“扶贫云”大数据平台...</p>
 							<!-- <p class="p6">¥<span>8499</span>起</p> -->
@@ -330,7 +330,7 @@
 							<!-- <p class="p3">¥<span>2199</span>起</p> -->
 						</div>
 					</a>
-					<a href="" class = "a2">
+					<a href="" class = "a2" href="/yl_ctfp5" target="_blank">
 							<p class="p4">玉林市陆川米场镇再练电商扶贫“硬招式”</p>
 							<p class="p5">米场镇注重电商扶贫模式的推广，实施农村电商精准扶贫，促进<br>贫困村农产品“上线上网”、畅通“农产品进城”...</p>
 							<!-- <p class="p6">¥<span>2199</span>起</p> -->
@@ -346,7 +346,7 @@
 							<!-- <p class="p3">¥<span>6999</span>起</p> -->
 						</div>
 					</a>
-					<a href="" class = "a2">
+					<a href="" class = "a2" href="/yl_ctfp6" target="_blank">
 							<p class="p4">玉林市博白县民生资金事前监督 发现问题资金百万元</p>
 							<p class="p5">今年以来，博白县纪委监委为突破事前监督盲区的问题，对原有民生<br>资金监督平台进行全面升级完善，运用最新的大数据技术...</p>
 							<!-- <p class="p6">¥<span>6999</span>起</p> -->
