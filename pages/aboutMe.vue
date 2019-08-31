@@ -156,8 +156,8 @@
             </div>
 
 
-        <div>
-            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
+        <div :class="showtime" class="animate" data-ani="zoomIn"  data-delay="12000">
+            <div class="main-body">
                 <div>
                     <div class="cklice1" >
                         <div class="cklice2 left"><img class="katong_about" src='@/assets/images/ysblock/kt1.jpg' height="100%" width="100%"></div>
@@ -173,7 +173,7 @@
                     <div class="cklice4"></div>
                 </div>
             </div>
-            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
+            <div class="main-body">
                 <div>
                     <div class="cklice5 " >
                         <div class="cklice6 left"><img class="katong_about" src='@/assets/images/ysblock/kt3.jpg' height="100%" width="100%"></div>
@@ -189,7 +189,7 @@
                     <div class="cklice8"></div>
                 </div>
             </div>
-            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
+            <div class="main-body">
                 <div>
                     <div class="cklice9 " >
                         <div class="cklice10 left"><img class="katong_about" src='@/assets/images/ysblock/kt2.jpg' height="100%" width="100%"></div>
@@ -205,7 +205,7 @@
                     <div class="cklice12"></div>
                 </div>
             </div>
-            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
+            <div class="main-body">
                 <div>
                     <div class="cklice13 " >
                         <div class="cklice14 left"><img class="katong_about" src='@/assets/images/ysblock/kt4.jpg' height="100%" width="100%"></div>
@@ -221,7 +221,7 @@
                     <div class="cklice16"></div>
                 </div>
             </div>
-            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
+            <div class="main-body">
                 <div>
                     <div class="cklice17 " >
                         <div class="cklice18 left"><img class="katong_about" src='@/assets/images/ysblock/kt5.jpg' height="100%" width="100%"></div>
@@ -304,7 +304,8 @@ export default {
             this.video=true;
             var myVideo=document.getElementById("video1");
             myVideo.play();
-            this.showtime='';
+            this.showtime=''
+            
             // this.rrr=true
         },
         // start2(){
@@ -394,9 +395,9 @@ export default {
     z-index: 1; */
     /* overflow:inherit; */
 }
-/* .style1{
+.style1{
     display: none;
-} */
+}
 
 /* .style2{
     display: block;
