@@ -594,7 +594,7 @@
 <script>
 // import cnbg1 from '../dchina/cn_bg1'
 // import cnbg2 from '../dchina/cn_bg2'
-import cnbg5 from '../dchina/cn_bg4'
+import cnbg5 from '../dchina/cn_bg5'
 export default {
     components:{
         // cnbg1,
@@ -607,7 +607,7 @@ export default {
             {src:'js/jquery.min.js'},
             {src:'js/aos.js'},
             {src:'js/cn_app.js'},
-            {src:'js/cn_bg4.js'},
+            {src:'js/cn_bg5.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },

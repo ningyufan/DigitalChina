@@ -151,7 +151,7 @@
 
         </div>
     </div>
-    <script src="js/cn_bg4.js"></script>
+    <script src="js/cn_bg5.js"></script>
 </div>
 
 </template>

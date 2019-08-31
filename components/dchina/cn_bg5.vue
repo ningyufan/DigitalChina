@@ -3,7 +3,7 @@
         <div class="cn_bg5">
             <canvas id="canvas" class="canvas"></canvas>
             <div class="bg5_bt">智慧中国</div>
-            <div class="qiu">
+            <div class="qiu" aos="flip-up">
                 <div id="rotate" style="  transform: scale(2.5); ">
 
 
