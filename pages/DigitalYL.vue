@@ -15,7 +15,7 @@
                                 <a href="#">
                                     <i class="el-icon-star-on">中</i>
                                 </a>
-                                <a href="#">
+                                <a href="./e_DigitalYL">
                                     <i class="el-icon-star-off">英</i>
                                 </a>
                             </div>

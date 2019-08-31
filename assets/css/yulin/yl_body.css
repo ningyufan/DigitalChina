@@ -7,7 +7,7 @@
 .bk_cs{
     width: 100%;
     height: 83vh;
-    background-image: url('../../images/yulin/bk_cs5.png');
+    background-image: url('../../images/yulin/yl_bkcs2.jpg');
     background-size: 100%  100%;
     /* opacity: 0.6; */
     position: relative;
@@ -17,35 +17,30 @@
     padding: 0px; 
     /* background: #222; */
 }
-.bk_ly{
-    width: 100%;
-    height: 180vh;
-    background-image: url('../../images/yulin/bk_fp2.jpg');
-    background-size: 100% 100%;
-    /* opacity: 0.5; */
-}
 .bk_zw{
     width: 100%;
     height: 120vh;
     background-image: url('../../images/yulin/bk_zw.png');
     background-size: 100% 100%;
-
-    /* padding: 0;
-	margin: 0;
-	font: 12px sans-serif;
-	background-color: #000; */
-	/* overflow: hidden; */
 }
+.bk_ly{
+    width: 100%;
+    height: 180vh;
+    background-image: url('../../images/yulin/yl_bkcs.jpg');
+    background-size: 100% 100%;
+    /* opacity: 0.5; */
+}
+
 .bk_fp{
     width: 100%;
     height: 100vh;
-    background-image: url('../../images/yulin/bk_end3.png');
+    background-image: url('../../images/yulin/bk2.jpg');
     background-size: 100% 100%;
 }
 .bk_cy{
     width: 100%;
     height: 100vh;
-    background-image: url('../../images/yulin/bk_sj3.png');
+    background-image: url('../../images/yulin/bk1.jpg');
     background-size: 100% 100%;
 }
 .title_text{
@@ -93,9 +88,9 @@
     justify-content: center;
     /* vertical-align: middle; */
 }
-.phone{
-    /* background-color: blueviolet; */
-    /* background-image: url("../../images/yulin/phone_picture.png"); */
+/* .phone{
+    background-color: blueviolet; 
+    background-image: url("../../images/yulin/phone_picture.png");
     background-image: url("../../images/yulin/a5.png");
     background-size: 100% 100%;
     width: 30vw;
@@ -113,18 +108,18 @@
 }
 .v1:hover{
     transform: scale(1.2);
-}
+} 
 .v2{
-    /* background-color: rgb(42, 165, 58); */
+    background-color: rgb(42, 165, 58); 
     width: 36%;
     height: 7%;
     margin: 8% auto 0%;
     color: #353533;
     text-align: center;
     vertical-align: middle;
-    /* cursor: pointer;
-    transition: all 0.6s; */
-}
+    cursor: pointer;
+    transition: all 0.6s; 
+}*/
 
 .travel_module1{
     /* background-color: aqua; */
@@ -211,8 +206,7 @@
     width: 55vw;
     height: 75vh;
     margin: 5vh 2.5vw 0vh 5vw;
-    box-shadow: rgb(136, 7, 7);
-
+    box-shadow:2vh 2vh 5vw rgb(136, 7, 7);
 }
 .zhengwu_module2{
     /* background-color: rgb(204, 204, 204); */
@@ -276,7 +270,7 @@ a.back{
     background-color:#fff;
     -moz-box-shadow:1px 3px 15px #ddd;
     -webkit-box-shadow:1px 3px 15px #ddd;
-    box-shadow:1px 3px 15px #ddd;
+    /* box-shadow:1px 3px 15px #ddd; */
 }
 .reference p a{
     text-transform:uppercase;text-shadow:1px 1px 1px #fff;

@@ -135,7 +135,7 @@
 					</span>
 				</el-dialog>
 				<el-dialog
-					title="玉林市智慧城市建设座谈会暨签约仪式在南宁举行“智慧玉林”项目正式启动"
+					title="玉林市智慧城市建设签约仪式在南宁举行"
 					:visible.sync="cs_dialog5"
 					width="60%"
 					center>
@@ -145,14 +145,14 @@
 						</div>
 						<br>
 						<div class="font-content">
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11月7日，玉林市智慧城市建设座谈会暨签约仪式在南宁举行，玉林市政府与曙光云计算有限公司就玉林市智慧城市建设项目进行签约，标志着“智慧玉林”项目正式启动和实施。市长苏海棠，副市长李振品，曙光信息产业股份有限公司董事、高级副总裁，曙光云计算有限公司总裁聂华出席签约仪式。</p>
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;苏海棠对聂华一行的到来表示感谢，并向他们汇报了玉林的经济社会发展情况，尤其是城市信息化建设情况。他说，“智慧城市”是城市信息化发展的高级阶段，是对城市管理、公共服务、民生保障、商务活动等多种城市需求的智能化响应，对于改进政府管理、提升居民生活质量具有重要意义。近年来，我市高度重视城市信息化建设，在电子政务、信息网络建设等方面取得了显著成绩，为玉林市“智慧城市”建设奠定了较好的基础。这次签约的玉林市“智慧城市”建设项目包括智慧政务综合平台、智慧社区、智慧园区、智慧药都等19个项目，我们将按照“整体规划、分步实施”的原则予以推进，项目建成后，必将对城市智能化管理、政府科学决策、特色产业发展产生极大的促进作用。在今后的建设中，恳切希望广西中科曙光云计算有限公司（中科曙光）充分发挥技术和资源优势，全力投身项目建设，确保将玉林市“智慧城市”建设项目打造成“智慧城市”建设的样板工程。</p>
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;听取汇报后，聂华表示对玉林经济社会发展所取得的成绩感到高兴，同时为能够参与玉林市的“智慧城市”建设感到荣幸。今后，中科曙光将以最好的技术、最大的力量投入项目建设，与玉林市政府共同谱写“让玉林更智慧、让生活更幸福”的“智慧玉林”新篇章。</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On November 7, the Symposium and signing ceremony of Yulin Smart City Construction was held in Nanning. Yulin Municipal Government and Shuguang Cloud Computing Co., Ltd. signed a contract on the construction project of Yulin Smart City, marking the formal start and implementation of the "Smart Yulin" project. Mayor Su Haitang, Vice Mayor Li Zhenpin, Director and Senior Vice President of Shuguang Information Industry Co., Ltd. and President Nie Hua of Shuguang Cloud Computing Co., Ltd. attended the signing ceremony.</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Su Haitang thanked Nie Hua and his delegation for their arrival and reported to them the economic and social development of Yulin, especially the construction of urban informatization. He said that "smart city" is an advanced stage of urban informatization development, an intelligent response to urban management, public services, livelihood security, business activities and other urban needs. It is of great significance to improve government management and improve the quality of life of residents. In recent years, our city attaches great importance to the construction of urban informatization, and has made remarkable achievements in e-government and information network construction, which lays a good foundation for the construction of "smart city" in Yulin City. The contracted "Smart City" construction project in Yulin City includes 19 projects such as Intelligent Government Platform, Intelligent Community, Intelligent Park and Intelligent Pharmaceutical Capital. We will promote the project according to the principle of "overall planning and step-by-step implementation". After the completion of the project, we will surely make intellectualized management of the city, scientific decision-making of the government and characteristic production. Industry development plays a great role in promoting. In the future construction, we sincerely hope that Guangxi Zhongke Shuguang Cloud Computing Co., Ltd. (Zhongke Shuguang) will give full play to its technological and resource advantages, devote all efforts to the project construction, and ensure that the "Smart City" construction project of Yulin City will become a model project of "Smart City" construction.</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After hearing the report, Nie Hua expressed his pleasure at the achievements made in the economic and social development of Yulin, and was honored to be able to participate in the construction of "wisdom city" in Yulin. In the future, Sino-Tech Dawning will devote the best technology and the greatest strength to the project construction, and work with the Yulin Municipal Government to compose a new chapter of "Wisdom Yulin" that "Make Yulin more wise and make life happier".</p>
 						</div>
 					</span>
 				</el-dialog>
 				<el-dialog
-					title="玉林市入选国家智慧城市 "
+					title="Yulin City Selected as National Smart City "
 					:visible.sync="cs_dialog6"
 					width="60%"
 					center>
@@ -162,8 +162,8 @@
 						</div>
 						<br>
 						<div class="font-content">
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015年4月，我市入选国家智慧城市试点。创建智慧城市活动，是玉林市“三个年一活动”的重要内容和有力载体，在前期工作的基础上，目前创建工作进入顶层设计阶段，将稳步实施16个项目，力争用3年至5年创成国家智慧城市。</p>
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我市创建国家智慧城市的目标主要是：通过创建智慧城市，智慧地推进玉林新型城镇化建设，全面提高城市规划建设科学性、城市管理高效精细化、完善公共服务、改善民生，促进产业转型升级，全面促进经济社会发展，形成智慧城市管理、幸福民生、产业转型升级框架；信息化全面支撑玉林经济社会快速、持续发展，城市运行状态全面可视化，城市安全实现全方位预防可控，城市运行管理决策实现有效支撑；民生得到进一步改善，社会公共服务实现均等便捷化发展，人民群众生活幸福感倍增，建成服务型政府；经济实现转型升级良性发展，基本建成智慧化的北部湾中心城市。</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In April 2015, our city was selected as the pilot of National Smart city. Creating a smart city is an important content and powerful carrier of the "three-year-one activity" in Yulin City. Based on the previous work, the creation work has entered the top design stage. Sixteen projects will be implemented steadily, and it will take three to five years to build a national smart city.</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our city's goal of creating a national wisdom city is mainly to promote the construction of new urbanization in Yulin wisely by creating a wisdom city, improve the scientific nature of urban planning and construction, improve the efficiency and refinement of urban management, improve public services, improve people's livelihood, promote industrial transformation and upgrading, and promote economic and social development in an all-round way. Intelligent urban management, happy people's livelihood, industrial transformation and upgrading framework; information technology fully supports the rapid and sustainable development of Yulin's economy and society, comprehensive visualization of urban operation status, comprehensive prevention and control of urban safety, effective support for urban operation management decision-making; people's livelihood has been further improved, and social public services have been provided. To achieve equitable and convenient development, the people's sense of well-being doubled, and build a service-oriented government; to achieve sound economic transformation and upgrading, and basically build a wise Beibu Gulf central city.</p>
 						</div>
 					</span>
 				</el-dialog>

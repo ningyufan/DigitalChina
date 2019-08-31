@@ -35,12 +35,12 @@ a{
 	background: #fafafa;
 }
 #wrap ul li .a1 .divA>.p1{
-	width: 25vw;
+	width: 23vw;
 	height:4vh;
 	font-size: 2.2vh;
 	text-align: center;
     line-height: 4vh;
-    color: #f60;
+    color: rgb(12, 12, 12);
 }
 #wrap ul li .a1 .divA>.p2{
 	width: 20vw;

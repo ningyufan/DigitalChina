@@ -1,12 +1,12 @@
 <template>
-        <div>
+        <div  style="overflow-y:auto; ">
             <div class="title1">玉林市智慧旅游建设情况</div>
             <div class="title2">———智慧旅游发展三年行动计划</div>
             <br>
             <img src="@/assets/images/yulin/travel_p3.png" style="width: 38%;height: 60%;">
             <div style="font-size:2vh;">玉林智慧旅游发展三年行动计划（2018年—2020年）</div>
             <br>
-            <div class="content1">
+            <div class="font-content">
                 <span style="font-size: 2.5vh; font-weight: 550;">总目标任务：</span><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;计划从2018至2020年，重点推进实施玉林智慧旅游建设工程，打造以监测、管理、服务和营销为内容的4大智慧旅游平台。<br><br>
                 <span style="font-size: 2.5vh; font-weight: 550;">第一期目标任务（2018年）：<br></span>
@@ -31,15 +31,18 @@
             font-size: 4vh;
             line-height: 5vh;
             font-weight: 550;
+            text-align: center;
         }
-    .title2{
+        .title2{
             font-size: 3vh;
             line-height: 4vh;
-            margin-left: 18vw;
+            margin-left: 22vw;
+            text-align: center;
         }
-    .content1{
-        font-size: 2.2vh;
-        line-height: 3.5vh;
-        text-align: left;
+        .font-content{
+            line-height: 3vh;
+            text-align: left;
+            height: 100vh;
+            overflow-y:auto;
         }
 </style>

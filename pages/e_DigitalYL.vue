@@ -4,7 +4,7 @@
             <div class="header " id="header" >
                 <div class="logo">
                     <a href="#">
-                        Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
+                        <!-- Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China -->
                     </a>
                 </div>
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
@@ -36,11 +36,11 @@
                     </div>
                 </div>
                 <div class="YL">
-                    <ylHeader />
+                    <EylHeader />
                 </div>
             </div>
         </div>
-        <ylBody />
+        <EylBody />
         <div class="footer">footer</div>
     </div>
 
@@ -49,12 +49,12 @@
 
 
 <script>
-    import ylHeader from '../components/yulin/ylheader'
-    import ylBody from '../components/yulin/ylbody'
+    import EylHeader from '../components/yulin/e_ylheader'
+    import EylBody from '../components/yulin/e_ylbody'
 export default {
     components:{
-        ylHeader,
-        ylBody
+        EylHeader,
+        EylBody
     },
     data () {
         return {
