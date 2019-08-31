@@ -1,43 +1,43 @@
 <template>
     <div class="cn_ct1">
         <div class="cn_bt">
-            数字经济将重塑中国制造
+            Digital Economy Will Reshape Made in China
         </div>
         <div style="text-align: left;">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                吸尘器车间经智能化改造后实现“关灯作业”，传统钣金制造在数字化平台辅助下，生产效率提高三成；无人驾驶汽车依托物联网传感技术，
-                完成了变道、超车、减速等系列操作……记者近期在我国东部城市采访发现，数字经济的异军突起，正深度重构中国制造。
+                After intelligent transformation, the vacuum cleaner workshop realizes "light-off operation". With the assistance of digital platform, the production efficiency of traditional sheet metal manufacturing is improved by 30%. The driverless vehicle relies on the sensing technology of Internet of Things.
+                Completed the diversion, overtaking, deceleration and other series of operations... Reporters recently interviewed in eastern cities of China found that the digital economy has sprung up and is deeply restructuring Made in China.
             </p>
         </div>
         <img src="../assets/images/dchina/szjj1.png" alt="" height="50%" width="80%">
         <div class="cn_info">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                在我国华东地区最大的一家精密钣金制造商的车间里，从销售订单到产品生产、存储、交付等全流程，皆可通过数字化平台实时追踪。
-                该企业负责人王彩男告诉记者，工厂经智能化改造后，生产效率提高30％以上，产品不良率控制在1％以内。
-                这家企业由“制造”向“智造”的转变，是我国数字经济提升传统制造业的生动写照。数字经济是指使用数字信息和知识作为生产要素，以现代信息网络作为发展和活动空间，
-                以信息和通信技术有效使用作为生产力增长和经济结构优化重要驱动力的各类经济活动。
+                In the workshop of the largest precise sheet metal manufacturer in East China, the whole process from sales order to product production, storage and delivery can be tracked in real time through digital platform.
+                Wangcainan, the head of the enterprise, told reporters that after the intelligent transformation of the factory, the production efficiency has increased by more than 30%, and the rate of product defect has been controlled within 1%.
+                The transformation of this enterprise from "manufacturing" to "intelligent manufacturing" is a vivid portrayal of the upgrading of traditional manufacturing industry in China's digital economy. Digital economy refers to the use of digital information and knowledge as factors of production and modern information networks as space for development and activities.
+                The effective use of information and communication technologies (ICTs) is an important driving force for productivity growth and economic structure optimization.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                在国家电子政务专家委员会主任王钦敏看来，产业数字化是数字经济的重要组成部分。“当数字资源与土地、资本、劳动力等传统意义上的资源融合后，新的先进生产力便诞生了。”
-                依托数字经济，我国大批传统制造业工厂正悄然蜕变。在江苏一家家用电器企业的“吸尘器智能生产车间”中，产品由机械手取出，经流水线传送至操作区，成品入库进入总装，
-                实现了人机分离与“关灯作业”。公司相关负责人说，企业95％以上设备实现了数字化，部分生产车间更是建立了智能制造模式。
+                According to Wang Qinmin, director of the National E-government Expert Committee, industrial digitalization is an important part of the digital economy. "When digital resources merge with traditional resources such as land, capital and labor, new advanced productivity comes into being."
+                Relying on the digital economy, a large number of traditional manufacturing factories in China are quietly transforming. In the "Vacuum Cleaner Intelligent Production Workshop" of a household appliances enterprise in Jiangsu Province, the products are taken out by the manipulator and transferred to the operation area through the pipeline. The finished products are put into storage and put into the final assembly.
+                It realizes the separation of man and machine and the operation of turning off lights. Relevant person in charge of the company said that more than 95% of the equipment in the enterprise has been digitized, and some production workshops have established intelligent manufacturing mode.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                7月，苏州市相城漕湖开发区的未来科技城项目正迎暑推进。该项目由国内机器人产业的龙头企业打造，建设期两年，涵盖工业机器人、服务机器人、特种机器人等产品研发与制造，投产后预计可实现年产值15亿元。
-                该公司董事长曲道奎说，未来科技城建成后，将带动我国长三角地区机器人和智能制造全产业链集聚，推动周边企业产业升级，实现技术创新与集约化发展。与仍需时日的未来科技城相比，无人驾驶产业更触手可及。
-                在苏州市相城区举行的长三角（苏州）数字经济峰会上，自动驾驶企业初速度科技创始人曹旭东展示了他们最新的无人驾驶技术。车流中，无人驾驶汽车流畅地演示着加速、减速、变道等指令，甚至连超车等高难度操作也完成得很出色。
+                In July, the future science and technology city project of Caohu Development Zone in Xiangcheng, Suzhou is advancing in the summer. The project is built by leading enterprises in the domestic robotics industry. It covers R&amp;D and manufacturing of industrial robots, service robots, special robots and other products. The annual output value is expected to reach 1.5 billion yuan after putting into production.
+                Qu Daokui, chairman of the company, said that after the completion of the Science and Technology City in the future, it will drive the agglomeration of the whole industrial chain of robotics and intelligent manufacturing in the Yangtze River Delta region of China, promote the industrial upgrading of surrounding enterprises, and realize technological innovation and intensive development. Unmanned driving is more accessible than the technology city of the future, which still needs time.
+                At the Digital Economic Summit of the Yangtze River Delta (Suzhou) held in Xiangcheng District of Suzhou City, Cao Xudong, the founder of the initial speed technology of autopilot enterprises, demonstrated their latest technology of driverless driving. In the traffic flow, the driverless vehicle fluently demonstrates the commands of acceleration, deceleration, Lane change, etc. Even the difficult operations such as overtaking are well accomplished.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            “以大数据、人工智能为代表的数字经济发展，不仅刷新产业版图，还将颠覆民众生活方式，为经济高质量发展注入强劲动力。”苏州市相城区委书记顾海东说。
+            "The development of digital economy, represented by big data and artificial intelligence, will not only refresh the industrial map, but also subvert people's lifestyle and inject strong impetus into high-quality economic development." Gu Haidong, Secretary of the CPC Committee of Xiangcheng District of Suzhou City, said.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               在新一轮科技革命和产业变革蓄势待发时期，我国数字经济规模持续扩大。
-               根据中国信息通信产业研究院发布的《中国数字经济发展与就业白皮书（2019年）》显示，2018年中国数字经济规模达到31.3万亿元，占GDP比重为34.8%。尽管数字经济势如破竹，但我国三次产业融合数字经济发展仍然呈现不均衡格局，
-               并出现三二一产逆向渗透趋势。有专家认为，当前第三产业数字经济发展较为超前，第一、二产业数字经济则相对滞后，并出现“实冷虚热”苗头。对此，中国信息通信研究院政策与经济研究所数字经济研究部主任孙克建议，优化产业生态，
-               打通产业链、数据链和金融链，推动实体经济网络化、数字化和智能化转型，促进创新要素和市场应用良性互动，构建一二三产业、大中小企业融通创新发展数字经济的新生态。
+                In the new round of scientific and technological revolution and industrial transformation, the scale of China's digital economy continues to expand.
+                According to the White Paper on China's Digital Economic Development and Employment (2019) published by the China Institute of Information and Communication Industry, the scale of China's digital economy reached 31.3 trillion yuan in 2018, accounting for 34.8% of GDP. Despite the breakthrough of digital economy, the development of digital economy in China's three industrial convergence still shows an unbalanced pattern.
+                There is a reverse osmosis trend of 321 production. Some experts believe that the current tertiary industry digital economy development is relatively advanced, while the first and second industry digital economy is relatively lagging behind, and there is a "cold, empty and hot" seedling. In this regard, Sun Ke, director of the Department of Digital Economy Research, Institute of Policy and Economics, China Academy of Information and Communication, suggested that industrial ecology be optimized.
+                Open up the industrial chain, data chain and financial chain, promote the networking, digitalization and intelligent transformation of the real economy, promote the benign interaction between innovation elements and market applications, and build a new ecology for the development of digital economy through financial innovation of primary, secondary and tertiary industries, large and medium-sized enterprises.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                清华大学经济管理学院副院长、互联网发展与治理研究中心主任陈煜表示，可推进产学研跨界合作，构建以企业为主体、以市场为导向、产学研融合共生的技术创新体系。
+                Chen Yu, deputy dean of the School of Economics and Management of Tsinghua University and director of the Internet Development and Governance Research Center, said that cross-border cooperation between industry, University and research could be promoted, and a technological innovation system with enterprises as the main body, market-oriented and integration of industry, University and research could be built.
             </p><br/>
         </div>
     </div>
@@ -57,7 +57,7 @@ export default {
     line-height: 7vh;
 }
 .cn_info {
-    height: 70vh;
+    height: 60vh;
     text-align: left;
     overflow: auto;
 }

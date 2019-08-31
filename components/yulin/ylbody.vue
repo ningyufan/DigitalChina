@@ -173,32 +173,54 @@
 		<!-- 数字玉林·“互联网+”政务服务板块 -->
         <div class="bk_zw">
             <el-row class="title_text">数字玉林·“互联网+”政务服务</el-row>
-			<el-row class="zhengwu_module1" aos="fade-up">1</el-row>
-			<el-row class="zhengwu_module2" aos="flip-right">
-				<el-col class="zhengwu_module2_1" >
-					<div class="bs-example" style="background-color: transparent;border: 0;" >
-						<div class="row"  style="top: 2vh;">
-							<div class="col-sm-6">
-								<div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-									<a href="#">
-										<div class="img">
-											<img src="@/assets/images/yulin/zw_p1.jpg" alt="img" style="background-size: 100% 100%;">
-										</div>
-										<div class="info">
-											<p style="font-size: 1.5vh;color:cyan;border-bottom:1px solid rgb(255, 255, 255);">玉林市召开2019年全市大数据发展和政务服务工作会议 吹响大数据发展号角</p>
-										</div> 
-									</a>
-								</div>
-							</div>
-						</div> 
+			<el-row class="zhengwu_module1" aos="fade-up">
+				<template v-if="zw_click == 0">
+					<div class="zw_content">
+						<p class="zw_ctTitle">插上“科技”翅膀 点亮玉林智慧法院新名片</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今年以来，玉林市中级人民法院以问题为导向，以应用为目标，以创新为手段，准确把握云计算、大数据等信息技术的新进展新应用，大力推进“智慧法院”建设，推出多项玉林模式的新举措，打造智慧法院玉林模式。</p>
+						<p style="font-weight:550;">全业务网上办理——打造新型网络法院</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018年1- 11月，全市法院共受理各类案件37522件，同比上升6.56%，其中受理诉讼案件28111件，同比上升4.02%，受理执行案件9411件，同比上升14.94%，受理刑事案件3583件，同比上升0.14%，民商事案件23338件，同比上升2.23%，法定审限内审结率100%。以上数据均来自于玉林市中级人民法院“智慧法院”系统的线上实时统计。</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在玉林市两级法院，所有案件从立案到归档，二维码立案、随机分案、文书智能编写、一键归档、案件流程公开等系统全面应用，融合案件审理各个阶段的科技法庭、远程接访、指挥中心、远程提讯等信息化场所的运用，案件进展看得见，实现对审判执行活动的动态监控，加强对审判权、执行权运行中每个环节的监督制约，规范司法行为。</p>
+						<p style="font-weight:550;">全流程依法公开——打造阳光法院</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“案件流程公开”“庭审直播”“裁判文书上网”“执行信息公开”……这些信息系统，打开了法院案件信息公开的通道，让司法在阳光下运行，接受群众及媒体监督，进一步提升司法公信力。全市法院力推上网公开裁判文书及庭审直播，不断扩大裁判文书公开范围及直播案件的数量。截止今年11月29日，全市已建科技法庭64个，记录庭审活动65000多件/次，裁判文书上网66723份，上网率100%，庭审直播7132件。</p>
+						<p style="font-weight:550;">全方位智能服务——打造智能法院</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;让数据多跑路，让群众少跑腿”——这是全市法院建设智能型法院的重要目标。自从2015年全国法院落实立案登记制度以来，群众打官司门槛降低了，诉讼案件大幅增加，全市法院积极作为，主动引入科技手段，致力于提高服务群众诉讼的能力，让当事人方便快捷参与诉讼。</p>
 					</div>
-				</el-col>
+				</template>
+				<template v-if="zw_click == 1">
+					<div class="zw_content">
+						<p  class="zw_ctTitle">玉林市部署大数据发展和政务服务工作 建设数字玉林 服务“东融”战略</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;近日，我市（玉林市）召开2019年全市大数据发展和政务服务工作会议，本次会议是机构改革全市大数据发展和政务服务工作整合后的第一次会议，对加快我市大数据发展、深化“放管服”改革、全面提升政务服务工作质量具有重要意义。市委常委、常务副市长丘德奎出席会议。</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;丘德奎强调，大数据发展已经上升到国家战略，我们要全面贯彻落实国家大数据发展战略，高起点谋划，高质量推进，大力建设数字玉林，坚持“六个强化”：强化责任担当，开创大数据发展和政务服务新局面；强化设施建设，夯实数字发展基础；强化产业融合，促进数字经济蓬勃发展；强化“百日攻坚”活动，服务“东融”战略实施；强化政务服务“简易办”，不断提升为民服务能力；强化电子政务，促进政府公信力提升，奋力开创新时代全市大数据发展和政务服务事业新局面。</p>
+						<br>
+						<br>
+					</div>
+				</template>
+				<template v-if="zw_click == 2">
+					<div class="zw_content">
+						<p class="zw_ctTitle">玉林市召开全市大数据发展和政务服务工作会议吹响大数据发展号角</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4月26日，2019年全市大数据发展和政务服务工作会议在市文化艺术中心召开，正式吹响大数据发展号角。这是机构改革全市大数据发展和政务服务工作整合后的第一次会议，对加快我市大数据发展，深化“放管服”改革，全面提升政务服务工作质量，具有里程碑意义。</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;会上，市大数据发展和政务服务局局长蒋祥宋就推进大数据发展和政务服务工作作报告。市委常委、常务副市长丘德奎对我市上一年度政务服务工作和坚持数字战略驱动策略，研产结合，全力推进前沿信息、电子商务等产业发展所取得的成果表示肯定。丘德奎强调，大数据发展已经上升到国家战略，我们要全面贯彻落实国家大数据发展战略，高起点谋划，高质量推进，大力建设数字玉林，坚持“六个强化”：强化责任担当，开创大数据发展和政务服务新局面；强化设施建设，夯实数字发展基础；强化产业融合，促进数字经济蓬勃发展；强化“百日攻坚”活动，服务“东融”战略实施；强化政务服务“简易办”，不断提升为民服务能力；强化电子政务，促进政府公信力提升，奋力开创新时代全市大数据发展和政务服务事业新局面，为我市打好“三大会战”，实现“六大突破”，提供坚实的保障。</p>
+					</div>
+				</template>
+				<template v-if="zw_click == 3">
+					<div class="zw_content">
+						<p class="zw_ctTitle">玉林市大数据发展和政务服务局：从“能够办”向“简易办”转变</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玉林新闻网-玉林日报讯（记者 张冠中）记者日前从玉林市大数据发展和政务服务局了解到，今年以来，玉林市加快数字政务建设，政务服务从实体大厅到线上线下融合，从“能够办”向“简易办”转变，以减环节、减时限、减材料、减成本、减跑腿的“五个减少”进一步提升政府服务企业、群众的能力和水平。</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其中，在减时限方面，从串联审批到并联审批。玉林市主动改革审批方式，从环节先后衔接的串联审批向同步推进的并联审批转变。再造并梳理投资项目审批服务全流程，项目审批总的办理时限最大减少82%；再造不动产登记全流程，办结时限比原来缩短时间约60%；再造企业开办流程，企业信息同步推送，企业开办时间从15天压缩到1天办结。</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在减材料方面，从“多次跑”到“跑一次”。从申报材料入手，加强数据共享，取消重复递交的材料，简化材料为表格，编制材料清单，促进“最多跑一次”。市本级在全区率先公布各个部门“三张清单”，“最多跑一次”事项1191项，比例达99.34%，县（市、区）级“最多跑一次”达到91.93%，乡镇为98.97%。</p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在减跑腿方面，从线下办事到数字政务。实施大数据发展战略推进网上办事，目前市本级网上咨询申请办事事项达1074项，占总办理事项的92.11%，居全区前列。比如，我市目前已经搭建新一代智慧公积金信息平台，刷脸开户、网上缴存、退休提取、离职提取等业务实行“不见面审批”服务新模式，在全区首次实现住房公积金贷款自主核算、征信自主报送同步切换、无缝衔接。全面推进企业名称自主申报改革试点，实行电子营业执照和全程电子化登记管理，实现各类企业、个体工商户、农民专业合作社在线直接领取电子营业执照，足不出户“网上办照”。 </p>
+					</div>
+				</template>
+			</el-row>
+			<el-row class="zhengwu_module2" aos="flip-right">
 				<el-col class="zhengwu_module2_1">
 					<div class="bs-example" style="background-color: transparent;border: 0;" >
 						<div class="row"  style="top: 2vh;">
 							<div class="col-sm-6">
 								<div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-									<a href="#">
+									<div @click="zw_click = 0">
+									<a>
 										<div class="img">
 											<img src="@/assets/images/yulin/zw_p2.jpg" alt="img" style="background-size: 100% 100%;">
 										</div>
@@ -207,16 +229,19 @@
 										</div>
 									</a>
 								</div>
+								</div>
 							</div>
 						</div> 
 					</div>
 				</el-col>
+				
 				<el-col class="zhengwu_module2_1">
 					<div class="bs-example" style="background-color: transparent;border: 0;" >
 						<div class="row"  style="top: 2vh;">
 							<div class="col-sm-6">
 								<div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-									<a href="#">
+									<div @click="zw_click = 1">
+									<a >
 										<div class="img">
 											<img src="@/assets/images/yulin/zw_p3.jpg" alt="img" style="background-size: 100% 100%;">
 										</div>
@@ -225,23 +250,46 @@
 										</div>
 									</a>
 								</div>
+								</div>
 							</div>
 						</div> 
 					</div>
 				</el-col>
+				<el-col class="zhengwu_module2_1" >
+						<div class="bs-example" style="background-color: transparent;border: 0;" >
+							<div class="row"  style="top: 2vh;">
+								<div class="col-sm-6">
+									<div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
+										<div @click="zw_click = 2">
+										<a >
+											<div class="img">
+												<img src="@/assets/images/yulin/zw_p1.jpg" alt="img" style="background-size: 100% 100%;">
+											</div>
+											<div class="info">
+												<p style="font-size: 1.5vh;color:cyan;border-bottom:1px solid rgb(255, 255, 255);">玉林市召开2019年全市大数据发展和政务服务工作会议 吹响大数据发展号角</p>
+											</div> 
+										</a>
+									</div>
+									</div>
+								</div>
+							</div> 
+						</div>
+					</el-col>
 				<el-col class="zhengwu_module2_1">
 					<div class="bs-example" style="background-color: transparent;border: 0;" >
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
-									<a href="#">
-										<div class="img">
-											<img src="@/assets/images/yulin/zw_p4.jpg" alt="img" style="background-size: 100% 100%;">
-										</div>
-										<div class="info">
-											<p style="font-size: 1.5vh;color:cyan;border-bottom:1px solid rgb(255, 255, 255);">玉林市大数据发展和政务服务局：从“能够办”向“简易办”转变</p>
-										</div>
-									</a>
+									<div @click="zw_click = 3">
+										<a >
+											<div class="img">
+												<img src="@/assets/images/yulin/zw_p4.jpg" alt="img" style="background-size: 100% 100%;">
+											</div>
+											<div class="info">
+												<p style="font-size: 1.5vh;color:cyan;border-bottom:1px solid rgb(255, 255, 255);">玉林市大数据发展和政务服务局：从“能够办”向“简易办”转变</p>
+											</div>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div> 
@@ -474,6 +522,8 @@
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在农产品流通方面，我市农业农村局积极构建农产品上行体系，创造农民持续增收新增长点，陆续在各县（市、区）开展了信息进村入户工程建设。</p>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前，玉林市5个项目县按照“一村三站”及有场所、有人员、有设备、有宽带、有网页、有持续运营能力的“六有”标准建设，并建设好运营中心、益农信息社信息服务体系，实现普通农户不出村、新型农业经营主体不出户就可享受便捷的信息服务和农产品上行服务。每个行政村建设标准站、专业站、简易站各一个，在玉林市建立市、县、村信息服务构架，与自治区互联，共同建成“四级”联动的信息服务架构，打通农村信息通道。同时，开通上线综合信息服务平台，整合涉农政务信息平台等多样化服务资源，使益农信息社成为服务“三农”的重要平台。</p>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;截至目前，全市7个项目县已建成5个县级运营中心（博白、陆川、兴业、容县、北流)、1078个标准站、1078个专业站、1078个简易站，共培训村级信息员1735人次，信息进村入户工作名列广西前茅。 (记者 周立华 通讯员 何万里）</p>
+								<br>
+								<br>
 							</span>
 							<span data-for="gridly">
 								<p style="color: #000;text-align: center;font-size: 3vh;font-weight: 550;margin-top: 2vh;">借力“互联网+”,玉林中药港力建“大数据”</p>
@@ -495,6 +545,8 @@
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 说做就做，商会的领导班子最终拍板，但毕竟隔行如隔山，他们选择了和一家网站合作。经过前期的准备工作，这几天他们开始对中药材市场里的药材经营户进行一次彻底地摸底收集数据，对每个商户店里销售的药材品种进行一次“大普查”。</p>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“收集初步的数据，建立数据库，提供商品选购快速索引功能，这只是我们设想的第一步。”据玉林市中药材市场党支部书记吴志英介绍，如今上至国家层面下至平民百姓，都在倡导走“互联网+”道路，这次商会尝试走这种模式，可以说是前所未有的大胆尝试，从设想建设到真正投入使用，中间肯定还会有很多波折和困难，但是建成后，将会给玉林市中药材市场带去不一样的改变。	</p>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 除了最先开通的销售索引这一功能，伴随着移动互联网的迅猛发展，还会进一步开拓更多的功能，比如建立网站平台，在网上发布供求信息，广大药企药商可以在这上面查看最新市场资讯和供求信息，甚至将来开发电子商务交易平台，药商可以直接完成网上交易，而业务人员也可以依托自身掌握的信息和资源，在线下促成双方交易，更多的功能和便利，值得期待。 （记者　陶继军）	</p>
+								<br>
+								<br>
 							</span>
 							<span data-for="reco">
 								<p style="color: #000;text-align: center;font-size: 3vh;font-weight: 550;margin-top: 2vh;">北流力建农特优产品大数据</p>
@@ -502,6 +554,8 @@
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;据介绍，北流市目前已建成一大批无公害、绿色、有机的农产品生产基地，培育了凉亭鸡、“荔宝牌”鸡嘴荔等一批广西名牌产品。“要把产品打出去，要建立跨区域品牌，必须健全制度，明确责任，做到质量可溯源，责任可追究。”北流市相关负责人表示， “溯源体系”的建立有助于提升北流本地农特优产品的质量，从而提升产品的竞争力。通过“溯源”工程，消费者可以扫码了解产品的有关信息，达到促进北流名特优农产品的销售，提升北流市产品溢价空间，实现企业增效和农民增收。</p>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该负责人表示，销售的产品所有扫码记录留下的相关信息都可以通过后台大数据进行分析，为精准营销提供参考。大数据除了能大大提高本地企业和农户对市场的预判能力，促进产业机构调整之外，消费者还可以通过扫码了解北流农产品的同时，了解到北流的投资环境、民俗文化、美食、旅游等信息，有利于宣传北流，提高北流的知名度。</p>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过此次合作，北流优质产品将进一步打开全国销售通道，实现农产品和经营者与互联网结合转型的升级，进一步促进农业增效、农民增收。</p>
+								<br>
+								<br>
 							</span>
 							<span data-for="theblog">
 								<p style="color: #000;text-align: center;font-size: 3vh;font-weight: 550;margin-top: 2vh;">“电商+扶贫” 百香果农有盼头</p>
@@ -510,7 +564,8 @@
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;据统计，目前北流市建成上规模的果汁、饮料加工企业4家，年生产果汁、饮料等产品2万多吨，百香果深加工产品包括果汁、果浆、果脯、果冻等10多种；物流快递企业54家，生产包装保鲜材料用品的企业6家。去年，北流电商百香果销售量占全国的70%，份额全国第一。今年，北流电商借助“百香果电商文化旅游节”“广西特产行销全国”等活动，进一步拓宽百香果的销售范围和销售渠道。根据北流市各快递公司统计，2018年从北流发出的百香果快件量已超1000万件，北流百香果的网上销售量占据了全国76%的网销份额，北流已经成为中国最大的百香果集散地。北流东云果业公司总经理杨兴忠告诉记者，目前他们公司销量每天大概是2.5万公斤左右，同比有所增加，相信未来百香果还是非常受市场欢迎的。</p>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;百香果当年种植当年结果，当年亩产800~1000公斤，正常年亩产2000公斤以上，年亩收入万元以上，可连续收益10年左右，投资少、见效快、效益高。北流市各级政府和脱贫攻坚后盾单位把种植百香果作为主要扶贫产业，给贫困户赠送果苗和肥料，并给予技术扶持，寻找销路，帮助贫困户增加收入。近年来，数以万计的农户依靠种植百香果致富。北流醉香果业公司总经理谭军说，他们公司今年计划育苗1000万株，发展更多的种植户去种植，获得更多的百香果收成。</p>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了打造北流百香果名优品牌，北流市目前正在着手建设万亩黄金百香果核心示范区，充分整合百香果资源，在新荣、民安两镇建设了333.33公顷优质高产高效百香果连片种植基地，并且以点带面建立起15个优质高产高效百香果示范点，围绕“打造百香果产业强市”的目标，加快推进百香果产业的转型升级，促进种植结构优化升级，提升种植效益。与此同时，北流依托“中国百香果之乡”等国字号品牌影响力，做好宣传推广，吸引更多的资金进入北流百香果等水果产业链的建设，逐步建成华南地区的水果生产加工中心，进一步做强百香果产业。(责任编辑：刘子扬)</p>
-								
+								<br>
+								<br>
 							</span>
 						</div>
 					</div>  
@@ -532,9 +587,8 @@
 				cs_dialog4:false,
 				cs_dialog5:false,
 				cs_dialog6:false,
-
-				// 扶贫无限滚动框
-				count:0,
+				// 政务服务
+				zw_click:0,
 			}
 		},
         head:{
@@ -644,13 +698,13 @@
 		});
 	},
 	// 城市模块弹出框关闭
-	dialogClose(done){
-        this.$confirm('确认关闭？')
-          .then(_ => {
-            done();
-          })
-          .catch(_ => {});
-	},
+	// dialogClose(done){
+    //     this.$confirm('确认关闭？')
+    //       .then(_ => {
+    //         done();
+    //       })
+    //       .catch(_ => {});
+	// },
 		// 扶贫模块
 	fp(){
 		$('li').mouseenter(function(){
@@ -670,10 +724,6 @@
 			$(this).children('.a2').find('.p7').css({bottom:'-50px'})
 		})
 	},
-	// 扶贫无限滚动方法
-	// load () {
-    //     this.count += 2
-    //   }
 },
     mounted() {
     AOS.init({
