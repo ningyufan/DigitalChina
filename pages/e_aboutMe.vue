@@ -138,8 +138,11 @@
                 <div class="circle"></div>
             </div>
         </div>
+        <h1>sssssssssssssssss</h1>
+        <div v-show="fill" >  ssssssssssssssssssssssssssss</div>
 
         <div id="aboutbody" >
+            sssssssssssss
             <div class="video_me">
                 <video id="video1" src="@/assets/video/team.mp4" preload="auto" style="dispaly:inline"
                  playsinline='true' webkit-playsinline='true' width="100%" height="100%" >
@@ -222,7 +225,7 @@
                 </div>
             </div>
         </div>
-
+        
         <el-backtop  :bottom="100">
             <!-- <el-button icon="el-icon-caret-top" circle></el-button> -->
              <div
@@ -258,6 +261,7 @@ export default {
         return {
             isFixed: 0,
             text:1,
+            fill:false,
         }
     },
         head:{
@@ -283,16 +287,17 @@ export default {
 			}, 1200);
 		    });
         },
-        start2(){
-            var myVideo=document.getElementById("video1");
-            // this.isFixed = 0;
-            // this.text=2;
-             let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-            if(top=1)
-            {
-               myVideo.play();
-            }
-        },
+        // start2(){
+        //     var myVideo=document.getElementById("video1");
+        //     // this.isFixed = 0;
+        //     // this.text=2;
+        //     let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+        //     if(top > 250){
+        //         myVideo.play();         
+        //     }else if(top < 200){
+        //         myVideo.pause();
+        //     }
+        // },
         handleScroll() {
             let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
             if(top > 250){
@@ -346,7 +351,7 @@ export default {
             this.handleAnimate()//初始化第一次加载时在视口内就执行动画
             addEventListener('scroll', this.handleScroll);
             addEventListener('scroll', this.handleAnimate,{once:true});
-            addEventListener('scroll', this.start2,{capture: true,passive: true,once: true});
+            // addEventListener('scroll', this.start2);
             
 
         })
@@ -355,7 +360,7 @@ export default {
     destroyed() {
         removeEventListener('scroll', this.handleScroll);//避免影响其他页面
         removeEventListener('scroll', this.handleAnimate);
-        removeEventListener('scroll', this.start2);      
+        // removeEventListener('scroll', this.start2);      
     },
 
 }
@@ -717,7 +722,7 @@ export default {
 #aboutbody{
     background-color: white;
     height: 100%;
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 .fadeInUpBig{
     animation: fadeInUpBig 1s;

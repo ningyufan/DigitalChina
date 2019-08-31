@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- box1 -->
-        <div class="ysblockjs">
+        <div class="ysblockjs" id="box1_ys">
             <div class="title_js">玉林师范——大数据学院</div>
                 <div aos="flip-up">
                 <div class="box1_js">
@@ -28,7 +28,7 @@
         </div>
 
         <!-- box2 -->
-        <div class="ysblockfazj">
+        <div class="ysblockfazj" id="box2_ys">
             <div class="title1_zj">大数据学院——发展历程</div>
             <div aos="fade-right">
                 <div class="box0_zj"></div>
@@ -98,7 +98,7 @@
         </div>
 
         <!-- box3 -->
-        <div class="ysblockxq">
+        <div class="ysblockxq" id="box3_ys">
             <div class="title_xq">大数据学院——建设成果</div>
             <div class="box1_xq" aos="fade-up-right">
                 <div class="img1_1_xq">
@@ -140,7 +140,7 @@
         </div>
 
         <!-- box4 -->
-        <div class="ysblockxw">
+        <div class="ysblockxw" id="box4_ys">
             <div class="title_xw">大数据学院——新闻动态</div>
             <div class="row_ys" aos="zoom-out-up">    
                 <div class="one_ys" >
@@ -176,7 +176,7 @@
         </div>
 
         <!-- box5 -->
-        <div class="back_ys">
+        <div class="back_ys" id="box5_ys">
             <div class="star comet"></div>
             <script  src="js/index_ys5.js"></script>
             <div class="block2_ys">

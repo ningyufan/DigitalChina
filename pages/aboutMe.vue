@@ -48,7 +48,7 @@
                             <br>
                             <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="700">青春没有停歇的驿站,只有努力奋斗的身影</h2>
                         </div>
-                        <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="850">
+                        <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="850" @click="videoon()">
                             <h4>点击下拉</h4>
                             <i class="chevron bottom"></i>
                             <!-- {{text}}{{isFixed}} -->
@@ -66,7 +66,7 @@
                 <div class="circle"></div>
             </div>
         </div> -->
-        <div class="container">
+        <!-- <div class="container">
             <div class="circle-container">
                 <div class="circle"></div>
             </div>
@@ -145,19 +145,21 @@
             <div class="circle-container">
                 <div class="circle"></div>
             </div>
-        </div>
+        </div> -->
         
         
-        <div id="aboutbody" >
-            <div class="video_me">
+        <div id="aboutbody">
+            <div class="video_me" v-show="video">
                 <video id="video1" src="@/assets/video/team.mp4" preload="auto" style="dispaly:inline"
                  playsinline='true' webkit-playsinline='true' width="100%" height="100%" >
                 </video>
             </div>
 
+
+        <div>
             <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
                 <div>
-                    <div class="cklice1 " >
+                    <div class="cklice1" >
                         <div class="cklice2 left"><img class="katong_about" src='@/assets/images/ysblock/kt1.jpg' height="100%" width="100%"></div>
                         <div class="cklice3">
                             <br><br>
@@ -236,6 +238,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
         <el-backtop  :bottom="100">
              <div
@@ -271,6 +274,8 @@ export default {
         return {
             isFixed: 0,
             text:1,
+            video:false,
+            showtime:'style1',
         }
     },
         head:{
@@ -284,29 +289,35 @@ export default {
             // { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
             { rel: 'stylesheet', href: 'css/styles.css' },
-            { rel: 'stylesheet', href: 'css/style_about.css' },
-            // { rel: 'stylesheet', href: 'css/style_about2.css' },
+            // { rel: 'stylesheet', href: 'css/style_about.css' },
         ]
     },
     methods: {
-        start(){
+        start(video){
             $('.hero__scroll').on('click', function(e) {
 			$('html, body').animate({
 				scrollTop: $(window).height()
-			}, 1200);
-		    });
+            }, 1200);
+            });
         },
-        start2(){
+        videoon(){
+            this.video=true;
             var myVideo=document.getElementById("video1");
-            // this.isFixed = 0;
-            // this.text=2;
-             let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-            if(this.text = 1){
-                myVideo.play();         
-            }else if(top < 200){
-                myVideo.pause();
-            }
+            myVideo.play();
+            this.showtime='';
+            // this.rrr=true
         },
+        // start2(){
+        //     var myVideo=document.getElementById("video1");
+        //     // this.isFixed = 0;
+        //     // this.text=2;
+        //     let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+        //     if(this.text = 1){
+        //         myVideo.play();         
+        //     }else if(top < 200){
+        //         myVideo.pause();
+        //     }
+        // },
         handleScroll() {
             let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
             if(top > 250){
@@ -381,7 +392,16 @@ export default {
     width: 100%;
     /* position:absolute;
     z-index: 1; */
+    /* overflow:inherit; */
 }
+/* .style1{
+    display: none;
+} */
+
+/* .style2{
+    display: block;
+} */
+
 .nav_6{
     background-image: url('../assets/images/bg_xuanzhong.png');
     background-size: 100% 7.5vh ;
