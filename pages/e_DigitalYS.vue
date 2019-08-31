@@ -36,16 +36,11 @@
                     </div>
                 </div>
                 <div class="YS">
-                    <ysblock/>
+                    <eysheader/>
                 </div>
             </div>
         </div>
         <eysindex/>
-        <!-- <ysblockjs/>
-        <ysblockfzzj/>
-        <ysblockxq/>
-        <ysblockxw/>
-        <ysblockscope/> -->
         <el-backtop  :bottom="100">
             <!-- <el-button icon="el-icon-caret-top" circle></el-button> -->
              <div
@@ -68,7 +63,7 @@
 </template>
 
 <script>
-import ysblock from '../components/YS_Block.vue'
+import eysheader from '../components/ys/e_ysheader.vue'
 import eysindex from '../components/ys/e_ysindex.vue'
 // import ysblockjs from '../components/ys/ys_block_js.vue'
 // import ysblockscope from '../components/ys/ys_block_Scope.vue'
@@ -78,7 +73,7 @@ import eysindex from '../components/ys/e_ysindex.vue'
 // import animated from 'animate.css' 
 export default {
     components:{
-        ysblock,
+        eysheader,
         eysindex
         // ysblockjs,
         // ysblockscope,

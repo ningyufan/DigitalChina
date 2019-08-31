@@ -58,94 +58,6 @@
             </div>
         </div>
         
-        <!-- <div class="loader">
-            <div class="face">
-                <div class="circle"></div>
-            </div>
-            <div class="face">
-                <div class="circle"></div>
-            </div>
-        </div> -->
-        <!-- <div class="container">
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-        </div> -->
         
         
         <div id="aboutbody">
@@ -156,7 +68,7 @@
             </div>
 
 
-        <div :class="showtime" class="animate" data-ani="zoomIn"  data-delay="12000">
+        <div :class="showtime" class="animate" data-ani="zoomIn" data-duration='5000'  data-delay="13000">
             <div class="main-body">
                 <div>
                     <div class="cklice1" >
@@ -293,7 +205,7 @@ export default {
         ]
     },
     methods: {
-        start(video){
+        start(){
             $('.hero__scroll').on('click', function(e) {
 			$('html, body').animate({
 				scrollTop: $(window).height()
@@ -373,8 +285,6 @@ export default {
             addEventListener('scroll', this.handleScroll);
             addEventListener('scroll', this.handleAnimate,{once:true});
             addEventListener('scroll', this.start2,{once:true});
-            
-
         })
         
     },

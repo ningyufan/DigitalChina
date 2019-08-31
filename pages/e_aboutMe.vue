@@ -48,7 +48,7 @@
                             <br>
                             <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="700">青春没有停歇的驿站,只有努力奋斗的身影</h2>
                         </div>
-                        <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="850">
+                        <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="850" @click="videoon()">
                             <h4>点击下拉</h4>
                             <i class="chevron bottom"></i>
                             <!-- {{text}}{{isFixed}} -->
@@ -58,176 +58,101 @@
             </div>
         </div>
 
-         <div class="container">
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-            <div class="circle-container">
-                <div class="circle"></div>
-            </div>
-        </div>
-        <h1>sssssssssssssssss</h1>
-        <div v-show="fill" >  ssssssssssssssssssssssssssss</div>
 
-        <div id="aboutbody" >
-            sssssssssssss
-            <div class="video_me">
+
+        <div id="aboutbody">
+            <div class="video_me" v-show="video">
                 <video id="video1" src="@/assets/video/team.mp4" preload="auto" style="dispaly:inline"
                  playsinline='true' webkit-playsinline='true' width="100%" height="100%" >
                 </video>
             </div>
 
-            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
-                <div>
-                    <div class="cklice1 " >
-                        <div class="cklice2 left"><img class="katong_about" src='@/assets/images/ysblock/kt1.jpg' height="100%" width="100%"></div>
-                        <div class="cklice3">
-                            <br><br>
-                            <div class="nameabout">吴证</div>
-                            <div class="text_about">队长</div>
-                            <div class="text_about">计算机科学与工程学院</div>
-                            <div class="text_about">计算机科学与技术专业</div>
+
+            <div :class="showtime" class="animate" data-ani="zoomIn" data-duration='5000'  data-delay="13000">
+                <div class="main-body">
+                    <div>
+                        <div class="cklice1" >
+                            <div class="cklice2 left"><img class="katong_about" src='@/assets/images/ysblock/kt1.jpg' height="100%" width="100%"></div>
+                            <div class="cklice3">
+                                <br><br>
+                                <div class="nameabout">吴证</div>
+                                <div class="text_about">队长</div>
+                                <div class="text_about">计算机科学与工程学院</div>
+                                <div class="text_about">计算机科学与技术专业</div>
+                                <div class="text_about">负责网页的代码编辑，页面设计，整体统筹规划</div>
+                            </div>
                         </div>
+                        <div class="cklice4"></div>
                     </div>
-                    <div class="cklice4"></div>
                 </div>
-            </div>
-            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
-                <div>
-                    <div class="cklice5 " >
-                        <div class="cklice6 left"><img class="katong_about" src='@/assets/images/ysblock/kt3.jpg' height="100%" width="100%"></div>
-                        <div class="cklice7">
-                            <br><br>
-                            <div class="nameabout">宁玉帆</div>
-                            <div class="text_about">队员</div>
-                            <div class="text_about">计算机科学与工程学院</div>
-                            <div class="text_about">计算机科学与技术专业</div>
+                <div class="main-body">
+                    <div>
+                        <div class="cklice5 " >
+                            <div class="cklice6 left"><img class="katong_about" src='@/assets/images/ysblock/kt3.jpg' height="100%" width="100%"></div>
+                            <div class="cklice7">
+                                <br><br>
+                                <div class="nameabout">宁玉帆</div>
+                                <div class="text_about">队员</div>
+                                <div class="text_about">计算机科学与工程学院</div>
+                                <div class="text_about">计算机科学与技术专业</div>
+                                <div class="text_about">负责网页的代码编辑，寻找素材和创意</div>
+                            </div>
                         </div>
+                        <div class="cklice8"></div>
                     </div>
-                    <div class="cklice8"></div>
                 </div>
-            </div>
-            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
-                <div>
-                    <div class="cklice9 " >
-                        <div class="cklice10 left"><img class="katong_about" src='@/assets/images/ysblock/kt2.jpg' height="100%" width="100%"></div>
-                        <div class="cklice11">
-                            <br><br>
-                            <div class="nameabout">陆石媚</div>
-                            <div class="text_about">队员</div>
-                            <div class="text_about">计算机科学与工程学院</div>
-                            <div class="text_about">计算机科学与技术专业</div>
+                <div class="main-body">
+                    <div>
+                        <div class="cklice9 " >
+                            <div class="cklice10 left"><img class="katong_about" src='@/assets/images/ysblock/kt2.jpg' height="100%" width="100%"></div>
+                            <div class="cklice11">
+                                <br><br>
+                                <div class="nameabout">陆石媚</div>
+                                <div class="text_about">队员</div>
+                                <div class="text_about">计算机科学与工程学院</div>
+                                <div class="text_about">计算机科学与技术专业</div>
+                                <div class="text_about">负责网页的代码编辑，协助页面设计</div>
+                            </div>
                         </div>
+                        <div class="cklice12"></div>
                     </div>
-                    <div class="cklice12"></div>
                 </div>
-            </div>
-            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
-                <div>
-                    <div class="cklice13 " >
-                        <div class="cklice14 left"><img class="katong_about" src='@/assets/images/ysblock/kt4.jpg' height="100%" width="100%"></div>
-                        <div class="cklice15">
-                            <br><br>
-                            <div class="nameabout">严晓倩</div>
-                            <div class="text_about">队员</div>
-                            <div class="text_about">计算机科学与工程学院</div>
-                            <div class="text_about">计算机科学与技术专业</div>
+                <div class="main-body">
+                    <div>
+                        <div class="cklice13 " >
+                            <div class="cklice14 left"><img class="katong_about" src='@/assets/images/ysblock/kt4.jpg' height="100%" width="100%"></div>
+                            <div class="cklice15">
+                                <br><br>
+                                <div class="nameabout">严晓倩</div>
+                                <div class="text_about">队员</div>
+                                <div class="text_about">计算机科学与工程学院</div>
+                                <div class="text_about">计算机科学与技术专业</div>
+                                <div class="text_about">负责网页的代码编辑，素材整理，页面设计</div>
+                            </div>
                         </div>
+                        <div class="cklice16"></div>
                     </div>
-                    <div class="cklice16"></div>
                 </div>
-            </div>
-            <div class="animate main-body" data-ani="zoomIn"  data-delay="12000">
-                <div>
-                    <div class="cklice17 " >
-                        <div class="cklice18 left"><img class="katong_about" src='@/assets/images/ysblock/kt5.jpg' height="100%" width="100%"></div>
-                        <div class="cklice19">
-                            <br><br>
-                            <div class="nameabout">黄思森</div>
-                            <div class="text_about">队员</div>
-                            <div class="text_about">计算机科学与工程学院</div>
-                            <div class="text_about">计算机科学与技术专业</div>
+                <div class="main-body">
+                    <div>
+                        <div class="cklice17 " >
+                            <div class="cklice18 left"><img class="katong_about" src='@/assets/images/ysblock/kt5.jpg' height="100%" width="100%"></div>
+                            <div class="cklice19">
+                                <br><br>
+                                <div class="nameabout">黄思森</div>
+                                <div class="text_about">队员</div>
+                                <div class="text_about">计算机科学与工程学院</div>
+                                <div class="text_about">计算机科学与技术专业</div>
+                                <div class="text_about">负责版面设计，下载素材，协助团队完成设计工作。</div>
+                            </div>
                         </div>
+                        <div class="cklice20"></div>
                     </div>
-                    <div class="cklice20"></div>
                 </div>
             </div>
         </div>
-        
+
         <el-backtop  :bottom="100">
-            <!-- <el-button icon="el-icon-caret-top" circle></el-button> -->
              <div
                 style="{
                     height: 100%;
@@ -241,42 +166,42 @@
                 }"
                 >
             <i class="el-icon-caret-top"></i>
-            </div>
+            </div> 
         </el-backtop>
+        <div class="footer6">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
         
-        <div class="footer6">Development team:Wu zheng Ningyufan Lushimei Yanxiaoqian Huangsisen</div>
     </div>
 </template>
 
 <script>
-import aboutbody from '../components/aboutbody.vue'
+// import aboutbody from '../components/aboutbody.vue'
 // if (process.browser) { // 在这里根据环境引入wow.js
 //     var {WOW} = require('wowjs')
 //     }
 export default {
     components:{
-        aboutbody,
+        // aboutbody,
     },
     data () {
         return {
             isFixed: 0,
             text:1,
-            fill:false,
+            video:false,
+            showtime:'style1',
         }
     },
         head:{
         script:[
             {src:'js/jquery.1.7.1.min.js'},
             {src:'js/aos.js'},
+            // {src:'js/jquery.min.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
             // { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
             { rel: 'stylesheet', href: 'css/styles.css' },
-            // { rel: 'stylesheet', href: 'styles/yl_main.css' },
-            // { rel: 'stylesheet', href: 'css/default.css' },
-            // { rel: 'stylesheet', href: 'css/normalize.css' },
+            // { rel: 'stylesheet', href: 'css/style_about.css' },
         ]
     },
     methods: {
@@ -284,15 +209,23 @@ export default {
             $('.hero__scroll').on('click', function(e) {
 			$('html, body').animate({
 				scrollTop: $(window).height()
-			}, 1200);
-		    });
+            }, 1200);
+            });
+        },
+        videoon(){
+            this.video=true;
+            var myVideo=document.getElementById("video1");
+            myVideo.play();
+            this.showtime=''
+            
+            // this.rrr=true
         },
         // start2(){
         //     var myVideo=document.getElementById("video1");
         //     // this.isFixed = 0;
         //     // this.text=2;
         //     let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-        //     if(top > 250){
+        //     if(this.text = 1){
         //         myVideo.play();         
         //     }else if(top < 200){
         //         myVideo.pause();
@@ -336,7 +269,7 @@ export default {
     mounted() {
         this.start();
         // this.start2();
-        
+        // this.handleAnimate();
         // if (process.browser) {  // 在页面mounted生命周期里面 根据环境实例化WOW
         //     new WOW({
         //         live: true, 
@@ -351,7 +284,8 @@ export default {
             this.handleAnimate()//初始化第一次加载时在视口内就执行动画
             addEventListener('scroll', this.handleScroll);
             addEventListener('scroll', this.handleAnimate,{once:true});
-            // addEventListener('scroll', this.start2);
+            addEventListener('scroll', this.start2,{once:true});
+            // addEventListener('scroll', this.start);
             
 
         })
@@ -360,7 +294,7 @@ export default {
     destroyed() {
         removeEventListener('scroll', this.handleScroll);//避免影响其他页面
         removeEventListener('scroll', this.handleAnimate);
-        // removeEventListener('scroll', this.start2);      
+        removeEventListener('scroll', this.start2);      
     },
 
 }
@@ -370,7 +304,18 @@ export default {
 @import "@/assets/css/index/page_index.css";
 .aboutMe {
     width: 100%;
+    /* position:absolute;
+    z-index: 1; */
+    /* overflow:inherit; */
 }
+.style1{
+    display: none;
+}
+
+/* .style2{
+    display: block;
+} */
+
 .nav_6{
     background-image: url('../assets/images/bg_xuanzhong.png');
     background-size: 100% 7.5vh ;
@@ -402,7 +347,7 @@ export default {
     position: absolute;
     width: 30vh;
     height: 30vh;
-    border-radius: 100px;
+    border-radius: 15vh;
     float: left;
     margin-left: 85vh;
     min-width: 20vh;
@@ -715,14 +660,10 @@ export default {
 
 
 
-
-
-
-
 #aboutbody{
     background-color: white;
     height: 100%;
-    /* overflow:hidden; */
+    overflow:hidden;
 }
 .fadeInUpBig{
     animation: fadeInUpBig 1s;
@@ -750,9 +691,10 @@ export default {
 }
 .nameabout{
     font-family: 华文行楷;
-    font-size: 2.2vw;
+    font-size: 1.5vw;
 }
 .text_about{
-    font-size: 1.2vw;
+    font-size: 0.9vw;
+    line-height: 3vh;
 }
 </style>
