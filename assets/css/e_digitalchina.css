@@ -417,6 +417,7 @@
     position: absolute;
     width: 100%;
     height: 100vh;
+    top:7vw;
 }
 
 .cn_bg2 h3{
@@ -466,11 +467,11 @@
 
 
 
-.ct5a{margin-top: 8vw;}
-.ct5b{margin-top: 16vw;}
-.ct5c{margin-top: 24vw;}
-.ct5d{margin-top: 32vw;}
-.ct5e{margin-top: 40vw;}
+.ct5a{margin-top: 0vw;}
+.ct5b{margin-top: 8vw;}
+.ct5c{margin-top: 16vw;}
+.ct5d{margin-top: 24vw;}
+.ct5e{margin-top: 32vw;}
 .ct5a1,.ct5b1,.ct5c1,.ct5d1,.ct5e1{
 	width: 80vw;
 	height: 8vw;
@@ -513,7 +514,7 @@
 .ct5dz,
 .ct5ez{
 	position: absolute;
-	margin-top:16vw;
+	margin-top:8vw;
 	width: 80vw;
 	height: 0vw;/* 25 */
 	left: 10vw;

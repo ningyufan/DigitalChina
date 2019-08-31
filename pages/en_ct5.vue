@@ -1,27 +1,27 @@
 <template>
     <div class="cn_ct5">
         <div class="cn_bt">
-            数字经济是高质量发展的重要推动力
+            Digital economy is an important driving force for high-quality development
         </div>
         <img src="../assets/images/dchina/szjj51.jpg" alt="" height="50%" width="60%">
         <div class="cn_info">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                近些年来，我国实体经济数字化、网络化、智能化水平不断攀升。从人人互联到万物互联、从海量数据到人工智能、从生活消费到生产制造，我国数字经济高速增长。《中国数字经济发展与就业白皮书（2019年）》显示，2018年我国数字经济规模达到31.3万亿元，占GDP比重为34.8%，成为推动高质量发展的重要力量。
+                In recent years, the level of digitalization, networking and intellectualization of China's real economy has been rising. From the interconnection of people to the interconnection of everything, from massive data to artificial intelligence, from living consumption to production and manufacturing, China's digital economy is growing rapidly. The White Paper on China's Digital Economic Development and Employment (2019) shows that in 2018, the scale of China's digital economy reached 31.3 trillion yuan, accounting for 34.8% of GDP, which has become an important force to promote high-quality development.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                当前，支撑数字经济发展的数字技术日益成熟，作为生产要素的大数据已逐步深入到社会生产全过程，并通过网络和平台载体不断向全面、深度智能化方向发展。数字经济深刻改变了传统经济的生产方式和商业模式，它所体现的创新、高效、包容、开放等特征符合高质量发展内涵。更重要的是，数字经济带动数字变革，将新技术新产业基因源源不断地注入到高质量发展中。我国经济越来越呈现数字化特征，越来越从数字经济中汲取发展新动能。以数字产业化为基础、产业数字化为主题的经济活动，通过改造提升传统产业竞争力，促进产业深度融合，助推我国经济发展实现三大变革。
+                At present, the digital technology supporting the development of digital economy is becoming more and more mature. As a factor of production, big data has gradually penetrated into the whole process of social production, and has been developing towards comprehensive and deep intelligence through the network and platform carrier. Digital economy has profoundly changed the mode of production and business of traditional economy, and its characteristics of innovation, efficiency, inclusiveness and openness conform to the connotation of high-quality development. More importantly, the digital economy drives the digital transformation and injects new technology and new industry genes into the high-quality development. China's economy is becoming more and more digital, drawing more and more new momentum from the digital economy. Economic activities based on digital industrialization and the theme of industrial digitalization can promote the competitiveness of traditional industries, promote the deep integration of industries, and promote the economic development of China to achieve three major changes.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               第一，数字化有助于提升产品和服务质量，推动质量变革。我国传统制造业生产方式相对落后，自主创新能力弱，产品质量总体不高。数字化转型将改变传统制造业的研发与生产流程，逐步打造数字化供应链。以生产制造业环节为例，通过对生产过程中产生的大量数据进行分析，可以进一步优化生产流程参数，并对可能出现的问题进行预判，提高产品和服务质量。
+               First, digitization helps to improve the quality of products and services and promote quality change. China's traditional manufacturing mode of production is relatively backward, the ability of independent innovation is weak, and the overall quality of products is not high. Digital transformation will change the R&amp;D and production process of traditional manufacturing industry and gradually build a digital supply chain. Taking the manufacturing sector as an example, through the analysis of a large number of data generated in the production process, the production process parameters can be further optimized, and the possible problems can be predicted, so as to improve the quality of products and services.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               第二，数字化有助于降低市场交易成本，推动效率变革。数字技术的发展和应用使交易成本大幅下降成为可能，并更好地促进市场出清，实现供需双方的资源有效对接。随着数字技术全面渗透到制造业的营销、服务、生产、研发等环节，重点行业的数字化转型进一步加快，推动了轻工、纺织、机械、建材等传统行业全要素生产率整体提升。据工信部初步统计，在305个智能制造示范项目中，数字化转型使生产效率平均提升37.6%，能源利用率平均提升16.1%，运营成本平均降低21.2%。
+               Secondly, digitization helps to reduce market transaction costs and promote efficiency change. With the development and application of digital technology, it is possible to reduce transaction costs dramatically, promote market clearance better, and realize effective resource docking between supply and demand sides. With the full penetration of digital technology into the marketing, service, production, research and development of manufacturing industry, the digital transformation of key industries is further accelerated, which promotes the overall improvement of TFP in traditional industries such as light industry, textile, machinery and building materials. According to the preliminary statistics of the Ministry of Industry and Information Technology, among the 305 intelligent manufacturing demonstration projects, the digital transformation has increased the average production efficiency by 37.6%, the average energy utilization rate by 16.1%, and the average operation cost by 21.2%.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               第三，数字化有助于加快培育增长新动能，推动动力变革。新一轮科技革命带来的是更加激烈的科技竞争，只有从传统要素驱动转变为创新驱动，高质量发展才会有不竭动力。数字技术本身就是科技革命产生的创新成果，并以数字化方式实现不同方式的创新，基于数据驱动的新动能正日趋成为经济发展的主力。比如，数字化还催生了一批极具活力的新模式、新业态、新产业。还比如，目前企业层面开展的数字化转型探索，有效推动了管理创新、商业模式创新、营销创新和品牌创新。
+              Thirdly, digitalization helps to accelerate the cultivation of new momentum for growth and promote dynamic change. The new round of scientific and technological revolution brings more intense scientific and technological competition. Only when the traditional factor-driven transformation into innovation-driven, will there be inexhaustible impetus for high-quality development. Digital technology itself is an innovative result of the scientific and technological revolution, and innovations in different ways are realized by digitalization. New momentum based on data-driven is increasingly becoming the main force of economic development. For example, digitization has also spawned a number of dynamic new models, new formats and new industries. For example, the current exploration of digital transformation at the enterprise level has effectively promoted management innovation, business model innovation, marketing innovation and brand innovation.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               壮大数字经济、建设数字中国，推进信息化和工业化深度融合发展，是党中央、国务院一项长期性、战略性部署。去年底召开的中央经济工作会议和今年的政府工作报告，相继提出完善新型数字基础设施，深化大数据、人工智能等研发应用，加快在各行业各领域推进“互联网＋”，以及打造工业互联网平台，拓展“智能＋”，为制造业转型升级赋能等方面的要求和举措。总的来说，面对新一轮技术革命，加快产业数字化进程，对促进我国产业迈向全球价值链中高端、培育壮大新动能意义重大。（作者系第十三届全国政协人口资源环境委员会主任、研究员）
+               It is a long-term and strategic plan of the CPC Central Committee and the State Council to strengthen the digital economy, build digital China and promote the deep integration of informatization and industrialization. The Central Economic Work Conference held at the end of last year and this year's government work report have proposed to improve the new digital infrastructure, deepen R&amp;D and application of big data and artificial intelligence, speed up the promotion of "Internet+" in various industries and fields, as well as build an industrial Internet platform, expand "Intelligence+" and transform it into a manufacturing industry. Requirements and measures for type upgrade and empowerment. Generally speaking, facing a new round of technological revolution, speeding up the process of industrial digitalization is of great significance to promote China's industry to move towards the middle and high end of the global value chain and foster new momentum. (The author is the director and researcher of the 13th CPPCC Committee on Population, Resources and Environment)
             </p><br/>
         </div>
     </div>
@@ -38,7 +38,7 @@ export default {
 .cn_bt {
     font-size: 4vh;
     /* height: 6vh; */
-    line-height: 7vh;
+    line-height: 5vh;
 }
 .cn_info {
     height: 100vh;

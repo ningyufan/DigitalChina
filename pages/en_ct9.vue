@@ -1,51 +1,51 @@
 <template>
     <div class="cn_ct9">
         <div class="cn_bt">
-           智慧城市让县域经济发展“有生命会思考”
+           Intelligent City Makes County Economic Development "Live and Think"
         </div>
         <img src="../assets/images/dchina/cn1.png" alt="" height="40%" width="70%">
         <div class="cn_info">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               足不出村，通过远程连线，山东高青常家镇蓑衣樊村村医坐在卫生室里，就可以与400公里外的北京301医院的专家一同给村民会诊。
+               Out of the village, through a long-distance connection, the village doctor in Changjia Town, Gaoqing, Shandong Province, sits in the bathroom and can consult the villagers with experts from 301 Hospital, Beijing, 400 kilometers away.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                远程医疗是高青县智慧城市建设的重要一环。这个不足40万人口的鲁中小城，利用物联网、大数据、云计算等先进技术手段赋能城市管理，力图实现善政、惠民、兴业。
+                Telemedicine is an important part of the construction of Gaoqing Smart City. This small and medium-sized town of Shandong, with a population of less than 400,000, uses advanced technology such as Internet of Things, Big Data and Cloud Computing to enable urban management, and strives to achieve good governance, benefit the people and prosperity.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                智慧城市，以往集中于中国的一二线城市，以及部分较发达的三线城市。如今越来越多像高青这样的县级城市，投身到智慧城市建设的热潮中。智慧城市在解决“大城市病”的同时，往县域延伸助力基层破解发展难题。
+                Smart cities used to concentrate on the first-and second-tier cities in China, as well as some of the more developed third-tier cities. Nowadays, more and more county-level cities like Gaoqing are devoting themselves to the upsurge of building smart cities. While resolving the "big city disease", smart cities extend to counties to help grassroots solve the development problems.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                近几年，中国智慧城市建设方兴未艾。人民网研究院副院长唐胜宏介绍，据不完全统计，目前中国100%的副省级以上城市、93%的地级以上城市、部分县级市，总共约有700个城市已经提出或正在建设智慧城市，占到同期全球提出创建智慧城市总量的70%。
+                In recent years, China's smart city construction is in the ascendant. Tang Shenghong, vice president of the People's Network Research Institute, said that according to incomplete statistics, at present, about 700 cities in China have proposed or are building smart cities, accounting for 70% of the total number of smart cities proposed by the world in the same period, in 100% of cities above the deputy provincial level, 93% of cities above the prefecture level and some cities at the county level.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               专家认为，建设数字中国，重点在县域。在中国的治理架构中，县级行政单元连接城镇与广大乡村，处于承上启下、沟通城乡的独特位置和关键节点，是发展经济、保障民生和维护稳定的重要基础
+               Experts believe that the construction of digital China focuses on the county level. In China's governance structure, county-level administrative units connect cities and towns with the vast rural areas, and are in a unique position and key node to connect urban and rural areas. They are the important foundation for economic development, people's livelihood Protection and stability maintenance.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               然而，当下中国一些县市还存在不少“短板”，包括政务服务效能低、教育和医疗资源匮乏、产业结构低端等。瞄准这些发展的痛点问题，诸多县级城市将智慧城市建设作为破题之举。
+               However, there are still many shortcomings in some counties and cities in China, including low efficiency of government services, lack of education and medical resources, and low-end industrial structure. Aiming at these painful points of development, many county-level cities regard the construction of smart cities as a solution.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                县域之内，何为智慧？北京大学兼职教授杨学山认为，县域智慧城市建设的特征之一是“具体、精细”。以高青智慧医疗为例，对于本地解决不了的疾病，以往要到济南、北京寻求帮助。智慧医疗把原本需要走出去的事情远程引进来，通过大数据分析高青老百姓主要病症、本地医院的能力与不足等，远程匹配医院和医生，这个过程体现的就是“智慧”。
+                What is wisdom in a county? Yang Xueshan, a part-time professor at Peking University, believes that one of the characteristics of county wisdom city construction is "concrete and meticulous". Take Gao Qing's Intelligent Medicine as an example. For diseases that can not be solved locally, we used to go to Jinan and Beijing for help. Intelligent medicine remotely introduces the things that need to go out. Through big data analysis, the main diseases of Gaoqing people, the ability and deficiency of local hospitals, remote matching hospitals and doctors, this process reflects "wisdom".
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                华为企业BG中国区智慧城市总工程师姚健奎介绍说，他们为高青搭建的远程医疗系统分五级，高青处在第三级，上有国家、省级的医疗资源，下有乡镇、村级的服务对象，所有资源汇集到同一平台上，每一级的优质医疗资源都能向下延伸到基层群众。
+                Yao Jian-kui, chief engineer of Huawei Enterprise BG China Intelligent City, said that the telemedicine system they built for Gao Qing is divided into five levels. Gao Qing is in the third level. There are medical resources at the national and provincial levels, and there are service objects at the township and village levels. All resources are pooled on the same platform, and high-quality medical resources at each level can be obtained. It extends downward to the grassroots masses.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                不只是发展智慧医疗，高青通过建设覆盖全县域的eLTE宽带集群网和窄带物联网两张专网，打造了综合网格化、危险化学品全流程监管、智慧警务、智慧城管、城市内涝应急等20多项创新应用，初步实现精准化、精细化、跨部门城市管理，提升城乡治理水平。
+                Not only the development of smart medicine, Gao Qing has built more than 20 innovative applications, such as integrated grid, whole process supervision of hazardous chemicals, smart policing, smart city management and emergency response of urban waterlogging, through the construction of eLTE broadband cluster network and narrowband Internet of Things, covering the whole county, and has initially achieved precision, refinement and cross-sectoral. Urban management, improve the level of urban and rural governance.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               进入七月，迎来汛期。过去，在汛期发生暴雨时，高青要组织20多人在县城易涝点巡逻，派专人在河流闸口值守，即便如此还经常出现内涝。如今在内涝应急管理系统这个“智慧大脑”指挥下，全县所有易涝点和闸口点的物联网监测信息以及所有相关的视频源传输到指挥中心，实现全方位现场感知，各部门数据共享，可快速调配资源，无需派出大量人力巡逻和值守。
+               Enter July, usher in the flood season. In the past, when rainstorms happened in flood season, Gao Qing organized more than 20 people to patrol the waterlogging-prone spots in county towns and sent special people to watch at River gates. Even so, waterlogging often occurred. Now, under the command of the "intelligent brain" of the waterlogging emergency management system, the monitoring information of the Internet of Things at all waterlogging-prone points and gate points in the county and all relevant video sources are transmitted to the command center to realize the omni-directional on-site perception, data sharing of various departments, and resources can be quickly allocated without dispatching a large number of human patrols and guards.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                凭借智慧城市建设成果，高青这个地处黄河之滨的县域小城，在2018年巴塞罗那第八届全球智慧城市博览会上获得城市数字化转型奖，在2019世界移动通信大会上斩获智慧城市最佳移动创新奖。
+                With the achievements of smart city construction, Gaoqing, a small county town located on the Yellow River, won the prize of city digital transformation at the 8th Global Smart City Expo in Barcelona in 2018 and the best mobile innovation prize of smart city at the World Mobile Communication Congress in 2019.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                高青县是中国县级城市探路智慧城市的一个缩影，近年来，“智慧”的种子在中国广大县域遍地开花。湖南省凤凰县将5G技术引入智慧物联、智慧旅游、智慧政务等多个领域，游客可体验VR立体全景看凤凰古城；湖北老河口的智慧城市建设已形成300多项成果，在政务、城管、应急指挥、地下管网、民生关爱等多个领域开展了智慧应用。
+                Gaoqing County is a microcosm of the wisdom city of exploring roads in China's county-level cities. In recent years, the seeds of "wisdom" have blossomed all over China's vast counties. Fenghuang County of Hunan Province has introduced 5G technology into many fields, such as wisdom couplet, wisdom tourism, wisdom government affairs, etc. Visitors can experience VR panoramic view of the ancient city of Phoenix. More than 300 achievements have been made in the construction of wisdom city in the old estuary of Hubei Province, and wisdom has been developed in many fields, such as government affairs, city management, emergency command, underground pipeline network and people's livelihood care. Application.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                专家认为，县域智慧城市建设不是简单的信息化，而是让县域的经济社会发展“有生命、会思考”，核心是用技术手段破除县域发展中的瓶颈制约，使县域经济发展、社会治理、公共服务等更加优化。
+                Experts believe that the construction of county wisdom city is not simply informationization, but to let the county's economic and social development "live, think", the core is to use technical means to break the bottleneck constraints in County development, so as to optimize the county's economic development, social governance, public services and so on.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               中国的县域之内既有城镇又含乡村，专家提醒，县域智慧城市建设需格外重视城乡统筹。国家信息中心信息化和产业发展部主任单志广表示，县域智慧城市发展要以促进乡村振兴为重点，比如提高农业装备的信息化水平，加强农业信息监测预警和发布，对农业生产进行数字化改造，加强农业遥感、物联网应用，发展智慧气象提升气象为农服务能力等。
+               In China, there are both towns and villages in the county. Experts warn that the construction of county-level smart cities should pay special attention to urban-rural coordination. Shan Zhiguang, director of the Ministry of Informatization and Industrial Development of the National Information Center, said that county wisdom city development should focus on promoting rural revitalization, such as improving the level of informatization of agricultural equipment, strengthening the monitoring, early warning and publication of agricultural information, digitalizing agricultural production, strengthening the application of remote sensing and Internet of Things. Exhibit wisdom meteorology to improve meteorological service ability for agriculture, etc.
             </p><br/>
         </div>
     </div>
@@ -62,10 +62,10 @@ export default {
 .cn_bt {
     font-size: 4vh;
     /* height: 6vh; */
-    line-height: 7vh;
+    line-height: 5vh;
 }
 .cn_info {
-    height: 80vh;
+    height: 70vh;
     text-align: left;
     overflow: auto;
 }

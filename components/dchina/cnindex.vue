@@ -469,6 +469,9 @@
             <script src="js/cn_bg2.js"></script>
             </div>
         </div>
+        <div class="CN_bg5">
+            <cnbg5/>
+        </div>
         <div class="CN_bg4">
             <div class="bg4_header">
                 <div class="bg4_bk1">
@@ -591,12 +594,12 @@
 <script>
 // import cnbg1 from '../dchina/cn_bg1'
 // import cnbg2 from '../dchina/cn_bg2'
-// import cnbg from '../dchina/cn_bg'
+import cnbg5 from '../dchina/cn_bg4'
 export default {
     components:{
         // cnbg1,
         // cnbg2,
-        // cnbg
+        cnbg5
         },
     head:{
         script:[
@@ -604,6 +607,7 @@ export default {
             {src:'js/jquery.min.js'},
             {src:'js/aos.js'},
             {src:'js/cn_app.js'},
+            {src:'js/cn_bg4.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
@@ -635,5 +639,12 @@ export default {
 <style>
     @import "@/assets/css/digital_china.css";
 
-
+.CN_bg5{
+    /* background-image: url('../../assets/images/dchina/bg4.jpg'); */
+    position: relative;
+    width: 100vw;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
 </style>

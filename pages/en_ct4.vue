@@ -1,54 +1,54 @@
 <template>
     <div class="cn_ct4">
         <div class="cn_bt">
-            数字经济为中国带来三大红利
+            Digital Economy Brings Three Dividends to China
         </div>
         <div style="text-align: left;">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                据经济之声《天下财经》报道，5月17日是世界电信和信息社会日，今年世界电信日的主题是“发展大数据，
-                扩大影响力”。这表明，以大数据为核心的数字经济，正受到前所未有的关注。一份由腾讯研究院发布的报告显示，我国数字经济正从经济增长、促进就业、缩小地区差异等多个方面，释放巨大红利。
+                According to the Voice of Economy, World Finance and Economics, May 17 is World Telecommunications and Information Society Day. This year, the theme of World Telecommunications Day is "Developing Big Data".
+Expand your influence. This shows that the digital economy with big data as its core is receiving unprecedented attention. A report released by Tencent Research Institute shows that China's digital economy is releasing huge dividends from economic growth, employment promotion and narrowing regional disparities.
             </p>
         </div>
         <img src="../assets/images/dchina/szjj4.jpg" alt="" height="50%" width="80%">
         <div class="cn_info">
-            <h3>世界电信日首次聚焦大数据，数字经济加速布局</h3>
+            <h3>World Telecom Day focuses on big data for the first time, accelerating the layout of digital economy</h3>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                与往年偏重电信技术和服务不同，今年的世界电信日首次聚焦大数据，工信部总工程师张峰认为，这表明各界已经就大力发展数字经济达成共识。
+                Unlike previous years'emphasis on telecommunications technology and services, this year's World Telecom Day focuses on big data for the first time. Zhang Feng, Chief Engineer of the Ministry of Industry and Information Technology, believes that this shows that consensus has been reached on vigorously developing the digital economy.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                张峰说：“国际电信联盟确定的这一主题，紧扣当前行业和产业发展的脉搏，反映了业界和社会各方面的共同关注，对于引导全球信息通信行业进一步提升大数据技术和产业发展水平、服务各国数字经济发展将起到积极的推动作用。”
+                Zhang Feng said: "The theme determined by the International Telecommunication Union, closely linked to the current pulse of industry and industry development, reflects the common concern of the industry and all sectors of society. It will play a positive role in guiding the global information and communication industry to further enhance the level of big data technology and industrial development and serve the development of digital economy in various countries." Function."
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                在这一主题提纲挈领的背后，通信运营商等已经在加速布局数字经济。比如，中国移动打造的中国（西部）云计算中心最近正式投产，将有效推动云计算、大数据、物联网、5G等新技术的研发创新。再比如，中国联通已经将大数据业务的发展提升到了公司战略层面。
+                Behind this theme outline, telecom operators and others are accelerating the layout of the digital economy. For example, China Mobile's (Western) Cloud Computing Center recently officially launched, will effectively promote the development and innovation of new technologies such as cloud computing, big data, Internet of Things, 5G and so on. For example, China Unicom has promoted the development of big data business to the company's strategic level.
             </p><br/>
-            <h3>数字经济带来三大红利，经济增长居首</h3>
+            <h3>Digital economy brings three big dividends, and economic growth takes the lead.</h3>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                数字经济受空前重视，这有充分的理由。腾讯研究院最近发布的一份报告，通过汇聚131个维度的全样本大数据，形成了互联网+数字经济指数。报告显示，数字经济正带给中国三大红利。第一大红利就是经济增长，腾讯研究院研究员周子祺说，数字经济指数和经济增长之间有线性关系。
-            </p><br/>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               周子祺认为：“互联网+数字经济指数每增长1点，GDP大致上升1406.02亿元。指数2016年一共增长了161.95点，161.95乘以1406.02亿元，就是22.77万亿元。数字经济为GDP带来的总量大约是22.77万亿元，其实就代表了2016年数字经济的总体量。”
+                There are good reasons for the unprecedented importance attached to the digital economy. A report recently released by the Tencent Research Institute has formed the Internet + digital economy index by bringing together 131 dimensions of large sample data. The report shows that the digital economy is bringing China three big dividends. The first big dividend is economic growth, said Zhou Ziqi, a researcher at Tencent Research Institute. There is a linear relationship between the digital economic index and economic growth.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                第二大红利是就业。报告显示，互联网+数字经济指数每上升1点，大致将新增城镇就业上1.73万人，这样算下来，2016年数字经济带来的新增就业人口是超过了280万人。
+               Zhou Ziqi thinks: "Internet + digital economy index increases 1 points every time, GDP rises roughly 140 billion 602 million yuan. The index increased by 161.95 points in 2016, multiplying 161.95 by 140602 million yuan, or 22.77 trillion yuan. The total amount of GDP brought by digital economy is about 22.77 trillion yuan, which represents the total amount of digital economy in 2016.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                第三大红利是赶超效应。现在都在讲“弯道超车”，像中西部地区一直都在考虑如何缩小与沿海地区的差距，但没有抓手的话，“超车”恐怕无从谈起。而报告揭示，数字经济可以作为一大抓手。
+                The second big dividend is employment. The report shows that every 1 points of the Internet plus digital economy index will roughly add 17 thousand and 300 people to the new urban jobs. By this calculation, the number of new employment people brought by the digital economy in 2016 is more than 2 million 800 thousand.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                周子祺说：“指数每上升一点，内陆地区相比沿海GDP多增加了1619.48亿元。这种结果显示，在内陆地区发展数字经济有助于内陆地区追赶沿海经济比较发达的地区。原因是沿海发达地区的产业数字化、信息化程度比较高了，对于实体经济的促进作用已经释放得比较明显了。但是内陆地区效应还没有体现，所以效果比沿海地区明显。”
+                The third big dividend is the catch-up effect. Now we are all talking about "overtaking in bends", for example, the central and western regions have been considering how to narrow the gap with the coastal areas, but without grasping the hand, I am afraid that "overtaking" is impossible to talk about. The report reveals that the digital economy can be a big catch.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                现实中已经有了不少案例，比如，成都、重庆数字经济增速全国最快，带动电子信息产业快速发展；贵州以大数据做文章，释放数据红利，经济增速连续六年位居全国前三。
+                Zhou Ziqi said: "For every increase in the index, the GDP of inland areas increased by 16.1948 billion yuan compared with that of coastal areas. The results show that the development of digital economy in inland areas is helpful for inland areas to catch up with the developed coastal areas. The reason is that the industrial digitalization and informatization in the developed coastal areas are relatively high, and the role of promoting the real economy has been released more obviously. But the effect of inland area has not been reflected, so the effect is more obvious than that of coastal area.
             </p><br/>
-            <h3>我国数字经济占GDP30%左右有很大增长空间</h3>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                目前，中国的数字经济总体量仅次于美国，已经排名全球第二。但从占GDP的比重来看，我国大致在30%左右，而不少发达国家都在50%左右，美国更是接近60%，这意味着，我国的数字经济还有很大的增长空间。中国互联网协会副理事长，国家信息化专家咨询委员会委员高新民指出，接下来发展数字经济，
-                要把产业、社会生活、社会治理与互联网充分结合。“从应用层面来讲，就是工业、农业跟互联网+的融合，我们要产业互联网化。当然还有社会生活的互联网化，就是整个社会生活，我们已经做得比较好了，但是还要进一步的深化。此外社会治理的互联网也是非常重要的。”
+                In reality, there have been many cases, such as the fastest growth of digital economy in Chengdu and Chongqing, which has led to the rapid development of electronic information industry; Guizhou has released data dividends by using big data, and its economic growth ranks the top three in the country for six consecutive years.
             </p><br/>
-            <h3>短评：缩小城乡“数字鸿沟”是发展数字经济的重中之重</h3>
+            <h3>China's digital economy accounts for about 30% of GDP and has a lot of room for growth.</h3>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                随着农村宽带的普及和提速，农村和互联网的结合正越来越紧密。但是，城乡之间的数字鸿沟并没有消弭。比如，快递在农村尤其是偏远地区，依然还面临“最后一公里”问题；除了电商，农村也很少看到其它形式的互联网经济；农村的生产生活、教育、医疗，也亟待通过互联网进行改造；
-                作为第一产业的农业，与互联网+的融合还需进一步深化。只有尽最大努力缩小各种各样的“数字鸿沟”，才能充分释放数字经济的红利。
+                At present, China's overall digital economy is second only to the United States, ranking second in the world. However, in terms of the proportion of GDP, China is about 30%, while many developed countries are about 50%, and the United States is close to 60%. This means that there is still a lot of room for China's digital economy to grow. Gao Xinmin, vice chairman of China Internet Association and member of the National Consultative Committee of Information Technology Experts, pointed out that the next step is to develop the digital economy.
+We should fully integrate industry, social life and social governance with the Internet. "From the application level, it is the integration of industry, agriculture and Internet +. We want the industry to be Internet based. Of course, there is also the Internet of social life, that is, the whole social life, we have done better, but we need to further deepen. In addition, the Internet of social governance is also very important.
+            </p><br/>
+            <h3>Brief comment: narrowing the "digital divide" between urban and rural areas is the top priority in developing digital economy</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                With the popularization and acceleration of rural broadband, the combination of rural and Internet is becoming closer and closer. However, the digital divide between urban and rural areas has not been bridged. For example, express delivery in rural areas, especially in remote areas, still faces the "last mile" problem; in addition to e-commerce, rural areas rarely see other forms of Internet economy; rural production and life, education, medical care, also need to be transformed through the Internet;
+As a primary industry, the integration of Internet and Internet needs to be further deepened. Only by doing our best to narrow the various "digital divide", can we fully release the dividends of the digital economy.
             </p><br/>
         </div>
     </div>

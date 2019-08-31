@@ -1,39 +1,39 @@
 <template>
     <div class="cn_ct8">
         <div class="cn_bt">
-            数字经济成发展壮大新动能的重要力量
+            Digital Economy becomes an Important Force to Develop and Strengthen New Kinetic Energy
         </div>
         <div style="text-align: left;">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                7月31日，国家统计局发布了2018年我国经济发展新动能指数。测算结果显示，当前以新产业、新业态、新模式为主要内容的新动能正在快速集聚，新动能持续发展壮大。以网络经济为代表的数字经济建设持续发力，已经成为发展壮大新动能的重要力量。
+                On July 31, the National Bureau of Statistics issued a new kinetic energy index for China's economic development in 2018. The results show that the new momentum with new industries, new formats and new modes as its main content is gathering rapidly, and the new momentum is growing continuously. The continuous development of digital economy represented by network economy has become an important force for the development and expansion of new momentum.
             </p>
         </div>
-        <img src="../assets/images/dchina/szjj81.jpg" alt="" height="35%" width="70%">
+        <img src="../assets/images/dchina/szjj81.jpg" alt="" height="35%" width="60%">
         <div class="cn_info">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                2015至2018年，我国经济发展新动能指数分别为123.5、156.7、210.1和270.3，分别比上年增长23.5%、26.9%、34.1%和28.7%，保持了较快增长势头。
+                From 2015 to 2018, the new kinetic energy index of China's economic development was 123.5, 156.7, 210.1 and 270.3, respectively, which increased by 23.5%, 26.9%, 34.1% and 28.7% over the previous year, maintaining a relatively rapid growth momentum.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                国家统计局统计科学研究所所长闾海琪分析说，随着“互联网+”行动的深入推进，网络提速降费力度不断加大，高速宽带城乡覆盖范围不断延伸。据测算，2018年，网络经济指数高达605.4，比上年大幅增长67.2%，对经济发展新动能指数增长的贡献率为80.8%，贡献最大。
+                Lv Haiqi, director of the Statistical Science Research Institute of the National Bureau of statistics, said that with the further development of the "Internet +" action, the speed of network speed reduction and tariff reduction has been increasing. According to estimates, in 2018, the network economy index reached 605.4, up 67.2% from the previous year, and contributed 80.8% to the growth of the new momentum index of economic development, with the largest contribution.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                闾海琪说，借助互联网尤其移动终端的迅猛发展，零售新模式新业态蓬勃兴起，线上线下深度融合，网络消费规模扩大、结构优化，消费新动能加速形成。
+                Luhaiqi said that with the rapid development of the Internet, especially mobile terminals, new retail models and formats are flourishing, online and offline integration is deepened, network consumption scale is expanding, structure is optimized, and new consumption momentum is accelerating.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                2018年，我国电子商务平台交易额达到31.6万亿元，比上年增长8.5%。全国网上零售额9.0万亿元，比上年增长23.9%，增速高于全社会消费品零售总额增速14.9个百分点。
+                In 2018, China's e-commerce platform transactions reached 31.6 trillion yuan, an increase of 8.5% over the previous year. The total online retail sales in China amounted to 900 million yuan, an increase of 23.9% over the previous year. The growth rate was higher than that of the total retail sales of consumer goods in the whole society by 14.9 percentage points.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               “随着减税降费‘放管服’等一系列改革措施的持续推进，企业获得更大的创新创业空间，经济活力不断释放。”闾海琪分析说，据测算，2018年，经济活力指数为292.0，比上年增长2.7%。从主要构成指标看，随着“双创”的深化升级，营商环境持续改善，创业热情依然高涨。
+               "With the continuous advancement of a series of reform measures such as tax reduction and fee reduction, enterprises have more room for innovation and entrepreneurship, and economic vitality has been released." According to Luhaiqi's analysis, in 2018, the economic vitality index was 292.0, an increase of 2.7% over the previous year. From the main indicators, with the deepening and upgrading of "double ventures", business environment continues to improve, and entrepreneurial enthusiasm is still high.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                5G通信技术、人工智能等创新成果的不断涌现，离不开创新驱动发展战略的深入推进。2018年，创新驱动指数174.4，比上年大幅增长21.8%，增幅扩大8.4个百分点。从构成指标来看，创业孵化事业不断向更高水平、更高质量发展，科技企业孵化器成为培育科技型中小企业尤其是战略性新兴产业的重要载体。
-                研发投入不断加大，创新能力建设进一步提高，全国研究与试验发展（R&D）经费支出与GDP之比为2.18%。科技创新动力持续增强，每万名R&D人员专利授权数达到3529.1件，比上年增长28.6%，为近三年最大增幅。科技成果转移转化成效明显提升，2018年技术市场成交合同金额增长31.8%。
+                The continuous emergence of innovative achievements such as 5G communication technology and artificial intelligence is inseparable from the in-depth promotion of innovation-driven development strategy. In 2018, the innovation-driven index was 174.4, an increase of 21.8% and an increase of 8.4 percentage points over the previous year. From the perspective of constituent indicators, business incubator has been developing to a higher level and higher quality. Technology business incubator has become an important carrier for cultivating technology-based SMEs, especially strategic emerging industries.
+R&D investment has been increasing, and innovation capacity building has been further improved. The ratio of national R&D expenditure to GDP is 2.18%. The motive force for scientific and technological innovation has been steadily increasing. The number of patent authorizations per 10,000 R&D personnel has reached 3529.1, an increase of 28.6% over the previous year, the largest increase in the past three years. The effect of transfer and transformation of scientific and technological achievements has been significantly improved, and the amount of technology market contracts increased by 31.8% in 2018.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               随着供给侧结构性改革扎实推进，新技术新产业蓬勃发展，新产品层出不穷，产业结构不断优化，转型升级成效明显。2018年，转型升级指数为143.9，增长8.8%，比上年加快2.4个百分点。
+               With the solid progress of structural reform on the supply side, new technologies and industries are flourishing, new products emerge in endlessly, industrial structure is constantly optimized, and the effect of transformation and upgrading is obvious. In 2018, the transformation and upgrading index was 143.9, up 8.8%, 2.4 percentage points faster than the previous year.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                此外，2018年，知识能力指数为135.9，比上年增长5.8%，增速比上年加快3.1个百分点。提高技能人才比例，加速知识能力凝聚，形成人力资本，是推动新旧动能接续转换的不竭动力和重要保障。
+                In addition, in 2018, the knowledge capability index was 135.9, an increase of 5.8% over the previous year, and an increase of 3.1 percentage points over the previous year. Improving the proportion of skilled personnel, accelerating the cohesion of knowledge and ability, and forming human capital are inexhaustible motives and important guarantees to promote the continuation and transformation of new and old kinetic energy.
             </p><br/>
         </div>
     </div>
@@ -50,7 +50,7 @@ export default {
 .cn_bt {
     font-size: 4vh;
     /* height: 6vh; */
-    line-height: 7vh;
+    line-height: 5vh;
 }
 .cn_info {
     height: 80vh;

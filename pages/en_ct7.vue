@@ -1,29 +1,29 @@
 <template>
     <div class="cn_ct7">
         <div class="cn_bt">
-            政策红利开启数字经济新空间
+            Policy Dividend Opens New Space for Digital Economy
         </div>
         <img src="../assets/images/dchina/szjj7.jpg" alt="" height="50%" width="60%">
         <div class="cn_info">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                我国数字经济增速保持高位运行，下一步将再迎政策力推。《经济参考报》记者18日从2019中国数字经济发展论坛上获悉，2018年数字经济发展对GDP增长的贡献率达67.9%，同比提升12.9%。工信部等部门将继续力促数字经济发展，其中加强工业互联网、物联网等新型信息基础设施建设，研究制定推动软件产业高质量发展的政策文件，加快发展基础软件、高端工业软件等成为重点。
+                China's digital economy will continue to grow at a high speed, and the next step will be to meet the policy push. Economic Reference News reporter learned from China Digital Economic Development Forum in 2019 that the contribution rate of digital economic development to GDP growth reached 67.9% in 2018, up 12.9% year-on-year. Ministry of Industry and Information Technology and other departments will continue to promote the development of digital economy. Among them, strengthening the construction of new information infrastructure such as industrial Internet and Internet of Things, studying and formulating policy documents to promote the high-quality development of software industry, and accelerating the development of basic software and high-end industrial software have become the focus.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                中国信通院研究显示，2018年我国数字经济规模达到31.3万亿元，名义增长20.9%，占GDP比重为34.8%。中央网信办信息化发展局局长秦海表示，把握数字经济换道发展的机遇，抓住数字经济自身发展红利的同时，也要重视数字经济为生产方式、消费方式带来的前所未有的变化，这对企业来讲也是前所未有的机会。
+                According to the research of CITIC, China's digital economy will reach 31.3 trillion yuan in 2018, with nominal growth of 20.9%, accounting for 34.8% of GDP. Qin Hai, Director-General of Information Development Bureau of Central Network Information Office, said that while seizing the opportunity of digital economy development and its own development dividend, we should also pay attention to the unprecedented changes brought about by digital economy for production and consumption modes, which are unprecedented opportunities for enterprises.
             </p><br/>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经济增速处于合理区间</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Economic growth is in a reasonable range</p>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                中国信通院总工程师余晓晖指出，当前我国数字经济发展也存在着一系列挑战，包括新旧业态交替，传统企业加速退出；工业、农业数字化转型仍面临较高壁垒；新兴产业发展快，对经济增长支撑作用有限等。
-            </p><br/>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                工信部信息化和软件服务业司副司长董大健表示，下一步将重点做好加强基础设施建设、大力发展软件产业等工作。具体包括：加强工业互联网、物联网等信息基础设施建设，实现信息基础设施升级，带动传统基础设施提升智能化水平；研究制定推动软件产业高质量发展的政策文件，加快发展基础软件、高端工业软件，培育壮大平台软件和应用系统等新兴业态。
+                Yu Xiaohui, chief engineer of CITIC, pointed out that there are also a series of challenges in the development of digital economy in China, including the alternation of old and new formats, the quickening exit of traditional enterprises, the high barriers to the digital transformation of industry and agriculture, the rapid development of new industries and the limited supporting role for economic growth.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               值得关注的是，产业数字化成为数字经济的主引擎。2018年产业数字化规模为24.9万亿元，同比名义增长23.1%，对数字经济增长贡献度高达86.4%。中国信通院指出，我国数字技术、产品、服务正在加速向各行各业融合渗透，对其他产业产出增长和效率提升的拉动作用不断增强，数字经济内部结构实现优化。
+                Dong Dajian, deputy director of the Information and Software Services Department of the Ministry of Industry and Information Technology, said that the next step would focus on strengthening infrastructure construction and vigorously developing the software industry. Specifically, it includes: strengthening the construction of information infrastructure such as industrial Internet and Internet of Things, realizing the upgrading of information infrastructure and promoting the intelligent level of traditional infrastructure; studying and formulating policy documents to promote the high-quality development of software industry, accelerating the development of basic software and high-end industrial software, cultivating and strengthening platform software and software. Application systems and other emerging industries.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                董大健还表示，下一步将积极推进产业数字化和数字产业化，以智能制造为主攻方向，以工业互联网为切入口引导制造业转型升级，推动工业互联网创新应用；以企业为主体推进社会数据资源的协同开发和合理应用，鼓励数据资源合规交易、有序流通。
-                </p><br/>
+               It is worth noting that industrial digitalization has become the main engine of digital economy. In 2018, the scale of industrial digitalization was 24.9 trillion yuan, a nominal increase of 23.1% over the same period of last year, and its contribution to the growth of digital economy was as high as 86.4%. CITIC pointed out that China's digital technology, products and services are speeding up the integration and penetration of all walks of life, promoting the output growth and efficiency improvement of other industries, and optimizing the internal structure of the digital economy.
+            </p><br/>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Dong Dajian also said that the next step would be to actively promote industrial digitalization and digital industrialization, with intelligent manufacturing as the main direction of attack, industrial Internet as the entry point to guide the transformation and upgrading of manufacturing industry, promote the innovative application of industrial Internet, and enterprise as the main body to promote the collaborative development and rational application of social data resources, and encourage data. Resource compliance trading and orderly circulation.
+            </p><br/>
         </div>
     </div>
 </template>
@@ -39,7 +39,7 @@ export default {
 .cn_bt {
     font-size: 4vh;
     /* height: 6vh; */
-    line-height: 7vh;
+    line-height: 5vh;
 }
 .cn_info {
     height: 80vh;

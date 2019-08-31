@@ -1,78 +1,78 @@
 <template>
     <div class="cn_ct10">
         <div class="cn_bt">
-           县域智慧城市建设筑牢数字经济“基底”
+           Building Intelligent Cities in County Areas to Build a "Base" of Digital Economy
         </div>
         <img src="../assets/images/dchina/cn2.png" alt="" height="40%" width="70%">
         <div class="cn_info">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               互联网、云计算、大数据、物联网等飞速更新的信息通讯技术正深刻重塑着交通、医疗、农业、金融、通信、社会治理等应用场景。
+               Rapidly updated information and communication technologies such as the Internet, cloud computing, big data and the Internet of Things are profoundly reshaping the application scenarios of transportation, medical treatment, agriculture, finance, communication and social governance.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                同时，随着智慧城市建设不断引向深入，智慧城市发展明显呈现出从大中城市向中小城市，尤其是向县域地区普及的发展态势。
+                At the same time, with the development of smart city construction, the development of smart city obviously shows the trend of popularization from large and medium-sized cities to small and medium-sized cities, especially to county areas.
             </p><br/>
-            <h3>打造智慧城市平台至关重要</h3>
+            <h3>Building a Smart City Platform is of vital importance</h3>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                作为一项全面、庞杂、技术性、业务性都很强的社会化系统工程，智慧城市建设对区域内行政管理、社会治理、经济运行、民生改善和城乡建设产生着全面深刻的变革和调整。
-            </p><br/>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                近日，在山东省淄博市高青县举办的“2019华为县域智慧城市峰会暨高青现场会”上，业界人士认为，随着智慧城市建设步伐不断加快，县域智慧城市建设成为重要发力点。其中，智慧城市的平台建设至关重要，它是支撑智慧城市建设、推动构建数字经济的“基底”。
+                As a comprehensive, complex, technical and professional social system engineering, the construction of smart cities has brought profound changes and adjustments to the regional administration, social governance, economic operation, improvement of people's livelihood and urban and rural construction.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               在会议现场，华为企业BG副总裁鲁琦认为，建设新型智慧城市，首先需要构建一个强大的云+物联网+AI的数字底座，形成城市的智能大脑，同时聚合行业伙伴和应用；其次，需要打造一个开放平台、构建一个云平台聚合生态，实现平台+生态的运作方式，让智慧城市成为新产业、新业态发展的重要助推器和催化剂；第三，进行商业模式的创新和实践，通过运用社会资源，实现智慧城市的可持续发展。
+                Recently, at the "Huawei County Smart City Summit and Gaoqing Live Meeting of 2019" held in Gaoqing County, Zibo City, Shandong Province, people in the industry believed that with the acceleration of the construction of smart cities, the construction of county smart cities has become an important starting point. Among them, the platform construction of smart city is very important. It is the "base" to support the construction of smart city and promote the construction of digital economy.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               原工信部副部长、北京大学兼职教授杨学山说，建设县域智慧城市需要有一个以互操作为中心的统一的软件体系，从而能够真正实现不间断协同，让各个事物能够共同运转。同时，也要有一个针对数据收集和使用的逻辑体系，讲清楚数据来源、数据所有权，以及谁可以使用这些数据。更重要的是，要提升建设能力，适应新的管理模式和技术环境。
+               On the conference site, Lu Qi, vice president of Huawei Enterprise BG, believed that in order to build a new type of smart city, first of all, we need to build a strong cloud + Internet of Things + AI digital base to form the city's intelligent brain, while aggregating industry partners and applications; secondly, we need to build an open platform, build a cloud platform aggregation ecology. Realize the platform + ecological mode of operation, so that smart city can become an important booster and catalyst for the development of new industries and new formats. Thirdly, innovate and practice the business model, and realize the sustainable development of smart city through the use of social resources.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                此外，技术、制度和模式创新，也是建设智慧城市的“必选项”。“技术要创新、制度要创新、模式要创新。技术创新，是业务人员、管理机构、企业和技术支持力量共同做技术创新，”杨学山说，以互操作为基础的统一的软件体系和数据体系，需要技术创新，包括数据也是需要技术创新的。
-            </p><br/>
-            <h3>县域智慧城市建设将成重要着力点</h3>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                县域政府连接城镇与广大的乡村，智慧县城建设是实现数字中国不可缺少的节点，在促进县域经济转型升级方面的作用愈发凸显。与会嘉宾表示，未来我国智慧城市建设的深度重点，体现在县域地区如何利用创新要素完成县域智慧城市的普及和实践，县域地区开展智慧城市建设是我国未来智慧城市建设的重要工作。
+               Yang Xueshan, former vice-minister of the Ministry of Industry and Information Technology and part-time professor of Peking University, said that building a county-level smart city requires a unified software system centered on interoperability, so as to truly achieve uninterrupted collaboration, so that everything can work together. At the same time, there should also be a logical system for data collection and use, clarifying data sources, data ownership, and who can use the data. More importantly, we should enhance our capacity to adapt to the new management model and technological environment.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               东华软件公司副总裁、东华智慧城市集团COO柴敏指出，随着建设数字政府、数字中国上升至国家发展战略，智慧城市建设在县域地区显露出巨大的需求和广阔的投资空间。并且，县域区域希望通过县域智慧城市的启动，撬动本地“互联网+”、数字经济等新经济形态的长足发展，借助数字大潮的东风，推动县域区域经济提质增效。
+                In addition, technological, institutional and mode innovation is also the "necessary option" for building a smart city. "Technological innovation, institutional innovation and mode innovation are needed. Technological innovation is a joint effort of business personnel, management agencies, enterprises and technical support forces to make technological innovation, "said Yang Xueshan. A unified software and data system based on Interoperability requires technological innovation, including data.
+            </p><br/>
+            <h3>County wisdom city construction will become an important focus</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                County governments connect cities and towns with the vast countryside. The construction of smart county towns is an indispensable node for the realization of digital China, and plays an increasingly prominent role in promoting the transformation and upgrading of county economy. Participants said that the key point of future construction of smart cities in China is how to use innovative elements to achieve the popularization and practice of smart cities in County areas. Developing smart cities in county areas is an important work in future construction of smart cities in China.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                鲁琦说，县域政府连接城镇与广大的乡村，处于城乡以下的独特地位和发展节点，是发展经济、保障民生、维护稳定的重要基础，要实现乡村振兴和城乡统筹发展、建设数字中国，重点工作还是在县级的行政区。
+               Chai Min, Vice President of Donghua Software Company and COO of Donghua Smart City Group, pointed out that with the construction of digital government and the rise of digital China to the national development strategy, the construction of smart cities in county areas shows huge demand and vast investment space. Moreover, the county region hopes to boost the development of the new economic form such as the "Internet +" and the digital economy through the start of the smart city in the county area, and promote the quality and efficiency of the county's regional economy with the help of the easterly tide of digital tide.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                国家信息中心信息化和产业发展部主任单志广说，智慧城市是用智慧技术对城市进行重塑和再造，对县域发展实现优化和重塑，县域智慧城市建设需要关注以下三个方面。
+                Lu Qi said that the county government links cities and towns with the vast countryside and is in a unique position and development node below urban and rural areas. It is an important basis for economic development, people's livelihood Protection and stability maintenance. To achieve rural revitalization, urban and rural overall development, and the construction of digital China, the key work is still in the county-level administrative region.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                第一，尊重县域发展规律。要统筹空间、规模、产业三大结构，统筹生产、生活、生态三大布局，统筹政府、社会、市民三大主体等。同时，加强城市管理数字化平台建设和功能整合，提高民生管理和社会治理能力。县域智慧城市建设的核心，是利用技术形成倒逼机制，使县域经济社会发展、治理结构、公共布局更加合理、优化，用技术来实现县域的改革发展，促进其不断智慧升级。
+                Shan Zhiguang, director of the Ministry of Informatization and Industrial Development of the National Information Center, said that smart cities use smart technology to rebuild and rebuild cities, optimize and rebuild County development, and county wisdom city construction needs to pay attention to the following three aspects.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               第二，智慧城市体系复杂且系统，需要进行统筹规划和布局，蓝图应该能够指导未来5年至10年的发展工作。
+                First, respect the law of county development. We should coordinate the three major structures of space, scale and industry, the three major layout of production, life and ecology, and the three main bodies of government, society and citizens. At the same time, we should strengthen the construction and functional integration of the digital platform of urban management to improve people's livelihood management and social governance capabilities. The core of county wisdom city construction is to use technology to form an inverted mechanism to make County Economic and social development, governance structure and public layout more reasonable and optimized, and to use technology to achieve county reform and development and promote its continuous wisdom upgrading.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                第三，要有可持续的动力机制和长效模式。只建系统、建平台、做应用相对容易，而通过智慧城市建设，带动智慧产业、推动数字经济发展，推动经济社会转向高质量增长，实现新旧动能转换，这一过程不是简单的技术应用，而必须形成可持续的动力机制和长效模式。
+               Secondly, smart city system is complex and systematic, which requires overall planning and layout. The blueprint should be able to guide the development work in the next five to ten years.
+            </p><br/>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Thirdly, there must be a sustainable dynamic mechanism and a long-term model. It is relatively easy to build systems, platforms and applications only. By building smart cities, we can drive smart industries, promote the development of digital economy, promote economic and social development to high-quality growth, and realize the transformation of new and old kinetic energy. This process is not simple technology application, but must form a sustainable dynamic mechanism and long-term model.
              </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                单志广强调，智慧县域就是要让每一个生活在县城里的人，充分享受科技的福祉和生活的美好，而不是将每一个人都强行改造成网民，不是将社会的每个系统、每个角落，都生硬地贴上智慧的标签。智慧应该像空气和阳光一样，可以让人们自由自在、无处不在地享受它带来的生活品质。
+                Shan Zhiguang emphasized that the wisdom county is to let everyone living in the county and city fully enjoy the benefits of science and technology and the beauty of life, instead of forcibly transforming everyone into netizens, not to rigidly label every system and corner of society with wisdom. Wisdom, like air and sunshine, should enable people to enjoy the quality of life it brings freely and everywhere.
              </p><br/>
-            <h3>构建智慧城市可运营能力</h3>
+            <h3>Building Operational Capability of Smart City</h3>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                智慧城市建设不仅对规划、技术水平要求很高，对运营、服务的要求也很高。“智慧城市建设应进行商业模式的创新与实践”已成为与会嘉宾的共识，他们认为，智慧城市应按照可运营、可复制、可推广的产业化经营模式进行建设和发展。
+                Intelligent city construction requires not only high level of planning and technology, but also high level of operation and service. "The innovation and practice of business model should be carried out in the construction of smart cities" has become the consensus of the participants. They believe that smart cities should be built and developed according to the industrialized business model that can be operated, replicated and promoted.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                “构建新型智慧城市的可运营能力，通过运用社会资源参与到智慧城市建设中，从而实现智慧城市的可持续发展，”鲁琦指出，从城市管理者角度看，新型智慧城市需要以解决城镇化过程中产生的各种问题为导向，比如交通拥堵、环境污染等等。从发展路径和节奏看，新型智慧城市建设应该有长期规划，又要秉承先易后难、急用先行的思想，切实解决老百姓急需急盼的问题，分阶段、分步骤实施，这样的发展目标对技术网络提出了更大的要求，需要智能迭代、智能延展的能力。
+                "Constructing the operational capacity of a new type of smart city, through the use of social resources to participate in the construction of smart city, so as to achieve the sustainable development of smart city," Lu Qi pointed out that from the perspective of urban managers, the new type of smart city needs to be oriented to solve various problems arising in the process of urbanization, such as traffic congestion. Blockage, environmental pollution and so on. From the point of view of development path and rhythm, the construction of a new type of intelligent city should have long-term planning, and adhering to the idea of "easy first, difficult first, urgent first", we should effectively solve the problems that the people urgently need and implement them step by step. Such development goals put forward greater requirements for the technology network, and require intelligent iteration and intelligent delay. Ability to exhibit.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               高青县人大常委会主任、智慧高青建设指挥部指挥长崔玉栋指出，“建设全体系、全协同、全链接的智慧城市，既不是一般的部门和普通企业，也不是仅仅具有资金和技术就可以实现和完成的。必须发挥政府统筹调度和资源整合能力，推动实现信息技术与区域资源需求的有机衔接与融合。”
+               Cui Yudong, Director of Standing Committee of Gaoqing County People's Congress and Commander of Wisdom Gaoqing Construction Command, pointed out that "building a smart city with all departments, all coordination and all links is neither a general department nor an ordinary enterprise, nor can it be realized and completed only with funds and technology." We must give full play to the government's ability of overall planning, dispatching and resource integration, and promote the organic connection and integration of information technology and regional resource demand.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                崔玉栋指出，按照产业智慧化、智慧产业化，以及产城融合的原则，发挥县域新基建配套和多网融合的优势，为各方优质资源、优势力量和5G人工智能等先进技术落地应用提供场景、环境。此外，按照县域各地不同实际情况和需求，为其进行量身定制的个性打造，为县域地方政府提供智慧城市整体建设、运营，以及云模块的落地部署和后端云服务。
+                Cui Yudong pointed out that according to the principles of industrial intelligence, intelligent industrialization and integration of production and city, the advantages of new infrastructure and multi-network integration at county level should be brought into play to provide scenarios and environments for the landing application of high-quality resources, superior strength and 5G artificial intelligence. In addition, according to the actual situation and needs of different parts of the county, tailor-made personality building is carried out to provide local governments at the county level with the overall construction and operation of smart cities, as well as the deployment of cloud modules and back-end cloud services.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                崔玉栋强调，“聚合产业联盟、运营公司以及各方力量，挖掘释放网络化、数字化、智能化的价值力量，借助数字身份的安全、可靠、可信，引入区块链、人工智能、5G网络、量子网络等先进技术应用，推动县域社会由数字化转型到数据驱动发展，再到数据智能化和人工智能化。”
+                Cui Yudong emphasized that "aggregation industry alliance, operation company and other forces should tap and release the value power of networking, digitalization and intellectualization. With the help of security, reliability and credibility of digital identity, advanced technology applications such as block chain, artificial intelligence, 5G network and quantum network should be introduced to promote the transformation of county society from digitalization to digitalization." From data-driven development to data intellectualization and artificial intelligence.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                值得一提的是，优政、便民、兴业，让政府、企业、市民等各方均享受到智慧城市带来的好处和优势，在这其中，标准建设的作用不可小觑。
+                It is worth mentioning that the government, enterprises, citizens and other parties enjoy the benefits and advantages of smart cities, in which the role of standard building can not be underestimated.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               标盟（中国）机构主席黄志伟指出，无论是经济发展还是社会进步，标准都必须先行。智慧城市是当今城市发展的新理念和新模式，是城市可持续发展的内在需求，也是新一代信息技术创新应用于城市经济发展深度融合的产物。我们要发挥标准化的基础联通作用，规范智慧城市数据资源的共享方法、机制和路径，促进智慧城市各类基础设施协同发展。此外，还要发挥规范统一作用，提升数据资源的质量和效应；要推动标准化创新和引领的带动作用，探索新型智慧城市成熟发展的路径和模式。
+               Huang Zhiwei, Chairman of the Standard Alliance (China) Institutions, pointed out that standards must go first in economic development and social progress. Intelligent city is a new concept and mode of urban development. It is the inherent demand of urban sustainable development. It is also the product of a new generation of information technology innovation applied to the deep integration of urban economic development. We should play the role of standardized basic connectivity, standardize the sharing methods, mechanisms and paths of data resources in smart cities, and promote the coordinated development of all kinds of infrastructure in smart cities. In addition, we should play the role of standardization and unification, improve the quality and effect of data resources, promote standardization innovation and lead role, and explore the path and mode of the mature development of new smart cities.
             </p><br/>
         </div>
     </div>
@@ -89,7 +89,7 @@ export default {
 .cn_bt {
     font-size: 4vh;
     /* height: 6vh; */
-    line-height: 7vh;
+    line-height: 5vh;
 }
 .cn_info {
     height: 80vh;

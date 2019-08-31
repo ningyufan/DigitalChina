@@ -1,99 +1,99 @@
 <template>
     <div class="cn_ct6">
         <div class="cn_bt">
-            5G加速工业互联网释放数字经济增长潜能
+            5G Accelerates Industrial Internet to Release the Potential of Digital Economic Growth
         </div>
         <img src="../assets/images/dchina/szjj6.jpg" alt="" height="50%" width="60%">
         <div class="cn_info">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                作为新一代信息技术与制造业深度融合的产物，工业互联网通过人、机、物的全面互联，推动形成了全新的工业生产制造和服务体系，是第四次工业革命的重要基石。但在5G出现之前，碍于技术的限制，受限于实时传输、连接数量等方面的问题，工业互联网远远未能发挥自己的“威力”。正是5G超大带宽、海量数据、超低时延的特性，让它成为工业互联的通讯管道，开辟了万物泛在互联、人机深度交互、智能引领变革的新征程，催生了诸多新业务、新业态、新模式，为数字经济释放出无限潜能。
+                As a product of the deep integration of the new generation of information technology and manufacturing industry, the industrial Internet has promoted the formation of a new industrial production, manufacturing and service system through the comprehensive interconnection of human, machine and material, which is an important cornerstone of the fourth industrial revolution. However, before 5G, due to the limitation of technology, limited by real-time transmission, the number of connections and other issues, the industrial Internet was far from being able to play its "power". It is the characteristics of 5G super-wide bandwidth, massive data and ultra-low latency that make it a communication pipeline of industrial interconnection. It opens up a new journey of universal interconnection, deep human-computer interaction and intelligent leading to change. It also generates many new businesses, new formats and new modes, and releases infinite potential for the digital economy.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                AR增强现实技术正被德国蒂森克虏伯公司应用于电梯维修、MR技术被应用到远程骨科手术、“硬邦邦”的轿车正日益变身“软件产品”、借助互联网平台，消费者同时也成为自己个性化需求的设计开发者。
+                AR augmented reality technology is being applied to elevator maintenance by ThyssenKrupp, Germany. MR technology is being applied to remote orthopaedic surgery. Hard cars are increasingly turning into "software products" with the help of Internet platform. Consumers are also becoming designers and developers of their own personalized needs.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               近年来，工业互联网在我国蓬勃发展，应用领域不断拓展。相关专家指出，工业互联网正呈现虚拟与现实、软件与硬件、制造商和客户加速融合的趋势。在当前5G加速铺开的智能化数字时代，已成为制造业升级换代“神器”的工业互联网，正迎来更强劲的“风口”。
+               In recent years, the industrial Internet has developed vigorously in China, and its application field has been expanding. Relevant experts pointed out that industrial Internet is showing the trend of accelerating integration of virtual and reality, software and hardware, manufacturers and customers. In the current intelligent digital era of 5G acceleration, it has become the industrial Internet of manufacturing industry upgrading and replacing "artifacts", and is ushering in a stronger "tuyere".
             </p><br/>
-            <h3>应用领域蓬勃发展</h3>
+            <h3>Vigorous development in the field of application</h3>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               大数据物联网工业软件、3D打印海洋信息智能制造、社交电视、“能量魔方”沉浸式全景虚拟体验空间、智能仿真机器鱼、VR模拟驾驶……近日，在青岛召开的2019世界工业互联网产业大会上，西门子、ABB、华为、联想、海尔等国内外企业展示了自己在工业互联网各领域的应用。
-            </p><br/>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               工业和信息化部总经济师王新哲认为，作为新一代信息技术与制造业深度融合的产物，工业互联网不仅为制造业乃至整个实体经济数字化、网络化、智能化升级提供了关键支撑，还能不断催生新模式、新业态，促进传统产业改造升级和新动能培育壮大。大力发展工业互联网对于深化供给侧结构性改革，释放数字经济增长的潜能，实现经济高质量发展具有重要的意义。
+               Big Data Internet of Things Industrial Software, 3D Printing Marine Information Intelligent Manufacturing, Social TV, Energy Magic Cube Immersion Panoramic Virtual Experience Space, Intelligent Simulated Robot Fish, VR Simulated Driving... Recently, at the World Industrial Internet Industry Conference in Qingdao in 2019, Siemens, ABB, Huawei, Lenovo, Haier and other domestic and foreign enterprises showed their applications in various fields of industrial Internet.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               事实上，自国务院2017年专门出台《关于深化“互联网+先进制造业”发展工业互联网的指导意见》后，随着产业各方协同合作的加强，近年来，我国工业互联网出现了蓬勃发展的态势。
+               Wang Xinzhe, chief economist of the Ministry of Industry and Information Technology, believes that as a product of the deep integration of the new generation of information technology and manufacturing industry, industrial Internet not only provides key support for the digitalization, networking and intelligent upgrading of manufacturing industry and even the whole real economy, but also continuously promotes new modes and new formats, and promotes the reform of traditional industries. Build upgrades and foster new momentum. The vigorous development of industrial Internet is of great significance for deepening the structural reform of supply side, releasing the potential of digital economic growth and achieving high-quality economic development.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               首先，在网络平台安全方面，三大体系建设取得全方位突破。制造企业积极运用新型网络技术开展工厂的内网改造。标识解析五大国际顶级节点已经建成，15个二级节点上线运营。具备一定行业区域影响力的平台数量超过50家，重点平台的平均工业设备连接数近60万台，国家、省和企业三级联动的安全保障体系加快构建，已对近百个工业互联网平台，200余万台联网设备进行了实时监测。
+               In fact, since the State Council issued the guiding opinions on deepening the development of "Internet + Advanced Manufacturing" and developing industrial Internet in 2017, with the strengthening of the cooperation and cooperation of all parties in the industry, China's industrial Internet has witnessed a vigorous development in recent years.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               其次，融合应用开始向多领域深度推进。目前，工业互联网已广泛应用于石化、机械、钢铁、航空航天、家电、服装等行业，网络化协同、大规模、个性化定制、远程运维服务等新模式、新业态发展活跃，5G+工业互联网融合应用也形成了两区三点三带多点探索的格局。
+               Firstly, in terms of network platform security, three major systems have made comprehensive breakthroughs. Manufacturing enterprises actively use the new network technology to carry out intranet transformation of factories. Five top international nodes have been built and 15 secondary nodes have been put into operation. There are more than 50 platforms with certain industry and regional influence. The average number of industrial equipment connections of key platforms is nearly 600,000. The security system of three-level linkage among the state, provinces and enterprises has been speeded up. Nearly 100 industrial Internet platforms and more than 2 million networking equipment have been monitored in real time.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               第三，产业生态构建正在多层次推进，龙头企业竞相布局工业互联网业务，跨行业、跨地区的企业协作和产业集聚不断增强。工业互联网产业联盟的成员数已超过1200家，初步形成了以解决方案提供商集聚为特色的北京，以产业链协同为特色的广东，以块状经济推广应用为特色的江苏和浙江，以传统产业转型赋能为特色的山东等一批产业创新发展高地。同时国际合作走向深入，工业互联网产业联盟与美、欧、日等国家和地区的产业组织以及国际电联等国际专门机构在技术研发、标准协调、产业对接等方面进行深度合作，取得丰硕成果。
+               Secondly, the application of integration has begun to advance to multi-domain. At present, industrial Internet has been widely used in petrochemical, machinery, steel, aerospace, household appliances, clothing and other industries. New modes and new formats such as networked collaboration, large-scale, personalized customization, remote operation and maintenance services are developing actively. The application of 5G + industrial Internet integration has also formed a pattern of two zones, three points, three zones and multi-point exploration.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               “作为驱动新一轮科技革命和产业变革的重要引擎，工业互联网未来前景无限，”王新哲说，世界各国对工业互联网的重视程度不断提升，纷纷出台倡议或者推出针对性的支持举措，跨国企业也在不断加大投入，持续深化产业布局，工业互联网呈现关键技术加速突破、融合应用不断深化、产业生态逐步壮大的良好态势。
-            </p><br/>
-            <h3>融合趋势不断加速</h3>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               中国工程院院士李培根认为，第四次工业革命最关键的是信息系统或者说是数字世界和物理世界的深度融合，这也是数字智能时代的重要创新思维。虚拟空间与现实空间的融合、软件与硬件的融合、制造商和客户的融合，将是工业互联网发展的重要方向，正加速深度发展。
+               Thirdly, the construction of industrial ecology is advancing at various levels. Leading enterprises are competing to distribute industrial Internet business, and the cooperation and industrial agglomeration of enterprises across industries and regions are increasing. The membership of industrial Internet industry alliance has exceeded 1200, initially forming a number of industrial innovation and development highlands such as Beijing, Guangdong, which is characterized by solution providers clustering, industrial chain synergy, Jiangsu and Zhejiang, which are characterized by the promotion and application of massive economy, and Shandong, which is characterized by the transformation of traditional industries. 。 At the same time, international cooperation is deepening. Industrial Internet Industry Alliance has made fruitful cooperation with industrial organizations in the United States, Europe, Japan and other countries and regions, as well as with international specialized agencies such as ITU in technology research and development, standard coordination and industrial docking.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               在虚拟空间与现实空间的融合方面，目前AR（增强现实）技术主要应用于工业品维修和汽车导航，MR（混合现实）技术主要应用于远程骨科手术等。
+               "As an important engine to drive a new round of technological revolution and industrial change, the future of industrial Internet is boundless," said Wang Xinzhe. Countries around the world pay more attention to industrial Internet and have launched initiatives or targeted support measures. Multinational enterprises are also increasing their investment and deepening their industries. In terms of layout, the industrial Internet presents a good trend of accelerating breakthroughs in key technologies, deepening integration and application, and gradually expanding industrial ecology.
+            </p><br/>
+            <h3>The trend of integration is accelerating</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               Li Bacon, academician of the Chinese Academy of Engineering, believes that the key to the Fourth Industrial Revolution is the deep integration of information system or digital world and physical world, which is also an important innovative thinking in the era of digital intelligence. The integration of virtual space and real space, software and hardware, manufacturers and customers will be the important direction of the development of industrial Internet, which is accelerating the in-depth development.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               至于软件和硬件的融合，体现最典型的就是汽车业，软件已在汽车产业中发挥越来越重要的作用，大众化的汽车有望在不远的将来变成一个软件产品。另外，在大数据汇聚访问接口等技术的支持下，新一代智能数控机床开发者的思想也和机械日益精密融合，产生越来越强大的智能制造效果。
+               In the integration of virtual space and real space, AR (augmented reality) technology is mainly used in industrial maintenance and vehicle navigation, and MR (hybrid reality) technology is mainly used in remote orthopaedic surgery.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               而制造商与客户的融合更加充分实现了用户的存在感和满足感，赋予产品更多的个性化。如海尔的COSMOPlat，已经通过互联网，在产品开发设计阶段，接纳客户参与设计契合自己个性化需求的产品，并不断实现用户全流程体验迭代。将来，通过同步的虚拟车间和物理车间，制造商生产过程中还可以满足客户关切，如通过计算机观察加工过程，让客户了解交货期和加工质量等等。
+               As for the integration of software and hardware, the most typical is the automobile industry. Software has played an increasingly important role in the automobile industry. Popular automobiles are expected to become a software product in the near future. In addition, with the support of technologies such as large data aggregation access interface, the ideas of the new generation of intelligent CNC machine tool developers are increasingly precisely integrated with machinery, resulting in more and more powerful intelligent manufacturing effect.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               海尔集团总裁周云杰说，工业互联网是互联网的下半场，而且是集移动互联网之后最大的经济机会和经济活动。PC互联网时代是靠信息互联，移动互联网时代是人人互联，工业互联网时代则要实现万物互联。“这一定是一个万亿级规模，任何企业都应关注这个领域。”
-            </p><br/>
-            <h3>5G铺开再迎“风口”</h3>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               中国工业互联网研究院近日发布了“全球工业互联网十大最具成长性技术展望”，其中首当其冲的就是与5G相关的技术——5G网络切片技术。据悉，它可以将一个物理网络切割成多个虚拟网络，实现对5G网络数据分流管理，并保持每个虚拟网络间逻辑独立性。同时，可针对高清视频实时传输、海量物联动态示踪和低时延精密操控等工业互联网应用场景，将5G网络虚拟切割为分别具有增强移动带宽、海量物联和超可靠、低时延通信等特性的若干网络片层，映射满足不同场景的差异化需求。
+               The integration of manufacturer and customer can fully realize the user's sense of existence and satisfaction, and give the product more personalization. For example, Haier's COSMOPlat has accepted customers to participate in the design of products that meet their individual needs through the Internet, and has continuously realized the iteration of user's whole process experience in the stage of product development and design. In the future, through synchronous virtual workshop and physical workshop, manufacturers can also meet customer concerns in the production process, such as observing the processing process by computer, letting customers know the delivery date and processing quality, and so on.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               据了解，去年底举行的中央经济工作会议就提出，要加快5G的商用步伐，加强人工智能、工业互联网、物联网等新型基础设施建设。今年6月6日，工业和信息化部正式向中国电信、中国移动、中国联通、中国广电发放了5G商用牌照，标志着我国开始进入5G商用元年。
+               Zhou Yunjie, president of Haier Group, said that the industrial Internet is the second half of the Internet and the biggest economic opportunity and activity after the mobile Internet. The era of PC Internet depends on information interconnection, the era of mobile Internet is people interconnection, and the era of industrial Internet is to achieve the interconnection of all things. "This must be a trillion scale, and any enterprise should pay attention to this area."
+            </p><br/>
+            <h3>5G Spread and Welcome the "Wind Gate"</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               China Industrial Internet Research Institute recently released "Ten Most Growing Technological Prospects for Global Industrial Internet", among which 5G network slicing technology is the most important one. It is reported that it can cut a physical network into several virtual networks, realize data shunt management of 5G network, and maintain logical independence between each virtual network. At the same time, for industrial Internet application scenarios such as high-definition video real-time transmission, mass object-linked dynamic tracing and low-delay precise manipulation, 5G network can be virtual cut into several network layers which have the characteristics of enhancing mobile bandwidth, mass object-linked, ultra-reliable and low-delay communication, respectively. Mapping can meet the different needs of different scenarios. Ask.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               相关人士认为，5G将更多地用于工业互联网，加速众多行业的数字化转型，通过对工业、教育、直播、医疗、游戏等传统行业的典型场景进行赋能创新，有力支撑数字经济的发展。中国信息通信研究院《5G产业经济贡献》认为，预计2020至2025年，我国5G商用直接带动的经济总产出达10.6万亿元，5G将直接创造超过300万个就业岗位。
+               It is understood that the Central Economic Work Conference held at the end of last year proposed to speed up the commercial pace of 5G and strengthen the construction of new infrastructure such as artificial intelligence, industrial Internet and Internet of Things. On June 6, the Ministry of Industry and Information Technology officially issued 5G commercial licenses to China Telecom, China Mobile, China Unicom and China Radio and Television, marking the beginning of the 5G commercial year in China.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               中国信息通信研究院副院长余晓晖表示，长远来看，信息技术、数字技术仍然是新工业革命的主导技术，当然，它也会和材料、制造、生物等技术进行融合，从而引领各个产业的数字化转型，而数字经济的主战场，则是5G、新一代信息技术、人工智能技术等如何赋能传统产业。
+               Relevant people believe that 5G will be more used in industrial internet, accelerate the digital transformation of many industries, and support the development of digital economy by enabling innovation in typical scenarios of traditional industries such as industry, education, live broadcasting, medical treatment, games and so on. According to the "Economic Contribution of 5G Industry" of China Information and Communication Research Institute, it is estimated that the total economic output directly driven by 5G commerce in China will reach 10.6 trillion yuan from 2020 to 2025, and 5G will directly create more than 3 million jobs.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               他说，5G把高速移动宽带、大连接、超高可靠、低时延通信结合在一起，加上5G网络切片和边缘计算构成等技术，把人工智能、机器识别等组合在一起，将对工业变革带来更多可能。目前，5G发展重点主要是机器识别、远程运维、移动巡检、产品检测等领域，虽然仍处早期，但会给工业带来非常有吸引力的前景。
-            </p><br/>
-            <h3>攻坚克难未来已来</h3>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               相关人士认为，工业互联网是第四次工业革命的重要基石，在世界范围已步入发展快车道。当前，工业互联网正处于面临重大突破的战略窗口期，将带来一系列新要素、新市场、新路径、新形态，孕育新的成长与变革。当然，当前在技术标准、应用推广、安全保障等方面，工业互联网仍面临系列问题和挑战，亟待国际、国内多方面深化务实合作，攻坚克难，共谋发展。
+               Yu Xiaohui, Vice President of China Institute of Information and Communications, said that in the long run, information technology and digital technology will still be the dominant technology of the new industrial revolution. Of course, it will also integrate materials, manufacturing and biotechnology to lead the digital transformation of various industries. The main battlefield of digital economy is 5G and new. How to endow traditional industries with information technology and artificial intelligence technology?
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               据介绍，作为产业发展的主管部门，工业和信息化部今后一个时期重点是做好五方面的工作，加快壮大工业互联网产业。
+               He said that the combination of high-speed mobile broadband, Dalian connection, ultra-high reliability, low delay communication, 5G network slicing and edge computing technology, and the combination of artificial intelligence, machine recognition and other technologies will bring more possibilities for industrial change. At present, 5G mainly focuses on machine recognition, remote operation and maintenance, mobile inspection, product detection and other fields. Although it is still in its early stage, it will bring very attractive prospects to the industry.
+            </p><br/>
+            <h3>The future is coming</h3>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               一是加强技术创新，增强发展活力。组织实施工业互联网创新发展工程，推动建立工业互联网共性技术体系，系统布局边缘计算、人工智能等前沿技术，着力突破关键核心技术，发展新型工业软件和工业APP等应用技术，加快创新发展步伐，培育持久发展动力。
+               Relevant people believe that the industrial Internet is the cornerstone of the fourth industrial revolution and has entered the fast track of development worldwide. At present, the industrial Internet is in the strategic window period facing major breakthroughs, which will bring a series of new elements, new markets, new paths and new forms, and breed new growth and change. Of course, at present, industrial Internet still faces a series of problems and challenges in terms of technical standards, application and promotion, security and so on. It is urgent to deepen practical cooperation at home and abroad, overcome difficulties and seek common development.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               二是强化能力建设，夯实发展基础。加快5G网络建设，利用5G技术开展工业互联网内网改造，推动标识解析体系建设，夯实工业互联网发展基础，打造多层次工业互联网平台体系，积极推进百万企业APP培训。
+               According to the introduction, as the competent department of industrial development, the Ministry of Industry and Information Technology will focus on five aspects of work in the future to speed up the expansion of the industrial Internet industry.
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               First, we should strengthen technological innovation and enhance the vitality of development. To organize and implement industrial Internet innovation and development projects, promote the establishment of industrial Internet common technology system, system layout edge computing, artificial intelligence and other frontier technologies, strive to break through key core technologies, develop new industrial software and industrial APP and other application technologies, accelerate the pace of innovation and development, and cultivate sustainable development momentum.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               三是加大应用拓展，实现市场牵引。进一步促进5G与工业互联网融合发展，不断拓展应用场景和应用深度，持续开展试点示范，引导重点领域、重点行业、重点企业加大应用的投入力度，拓展工业互联网应用范围，培植发展融合应用的生态，发挥工业互联网辐射的能力，为农业、医疗等领域带来新服务、新模式、新业态。
+               Second, we should strengthen capacity-building and lay a solid foundation for development. Speed up the construction of 5G network, use 5G technology to carry out the transformation of industrial Internet intranet, promote the construction of logo analysis system, consolidate the foundation of industrial Internet development, build a multi-level industrial Internet platform system, and actively promote the training of APP for millions of enterprises.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               四是提高防护能力，加强安全保障。强化工业互联网安全技术的攻关、产品研发和推广应用，加快补齐短板，解决卡脖子问题，提高安全产业支撑能力，进一步完善网络安全的相关法律法规，加强协调联动的信息安全防护和检测处置体系建设，构建政府监管、企业负责、社会监督的工业互联网安全管理体系。
+               Third, we should expand our application and achieve market traction. We will further promote the integration of 5G and industrial internet, expand the application scenarios and depth, continue to carry out pilot demonstrations, guide key areas, key industries and key enterprises to increase investment in applications, expand the scope of industrial Internet applications, cultivate and develop the ecology of integrated applications, and give full play to the radiation of industrial internet. Ability to bring new services, new models and new formats to agriculture, medical and other fields.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               五是深化国际合作，促进开放发展。结合“一带一路”战略，加强各国工业互联网政策和法规的探讨与衔接，深化各国产业界在参与架构、技术标准等方面的交流合作，解决网络互联、数据互通、商业模式、技术创新、应用路径、安全保障等问题，共同构建开放共享的工业互联网产业生态体系。
+               Fourthly, we should improve the ability of protection and strengthen security. Strengthen the research, development and application of industrial Internet security technology, speed up the filling of shortcomings, solve the problem of stuck neck, improve the supporting capacity of the security industry, further improve the relevant laws and regulations of network security, strengthen the construction of coordinated information security protection and detection and disposal system, and construct government supervision and enterprises. Industrial Internet security management system with industrial responsibility and social supervision.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               国家工业信息安全发展研究中心主任尹丽波说，工业互联网行业还需要不同的研究机构、制造企业、IT企业共同研究行业标准、建立标准，让标准促进应用。
+               Fifth, deepen international cooperation and promote open development. In line with the strategy of "one belt and one road", we should strengthen the discussion and convergence of industrial Internet policies and regulations in various countries, deepen the exchanges and cooperation among various industrial sectors in the aspects of participation framework and technical standards, and solve the problems of network interconnection, data interchange, business mode, technological innovation, application path, security and other issues, and jointly build an open policy. Shared industrial Internet industry ecosystem.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               中国工业互联网研究院院长徐晓兰则认为，业内还应及时跟踪工业互联网创新动态及特征态势，提前规划产业健康发展，引导资金有序进入，规划出台政策、积极开拓新兴市场。
+               Yin Libo, director of the National Industrial Information Security Development Research Center, said that the industrial Internet industry also needs different research institutions, manufacturing enterprises and IT enterprises to jointly study industry standards and establish standards to promote their application.
+            </p><br/>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               Xu Xiaolan, president of China Industrial Internet Research Institute, believes that the industry should also track the innovation trends and characteristics of industrial Internet in a timely manner, plan ahead for the healthy development of the industry, guide the orderly entry of funds, plan policies and actively explore emerging markets.
             </p><br/>
         </div>
     </div>
@@ -110,7 +110,7 @@ export default {
 .cn_bt {
     font-size: 4vh;
     /* height: 6vh; */
-    line-height: 7vh;
+    line-height: 5vh;
 }
 .cn_info {
     height: 80vh;
