@@ -20,7 +20,7 @@
 
 <script>
 export default {
-    layout:'content5',
+    layout:'e_content5',
 
 }
 </script>

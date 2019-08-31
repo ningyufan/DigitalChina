@@ -301,9 +301,10 @@ export default {
             // this.isFixed = 0;
             // this.text=2;
              let top = pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-            if(top=1)
-            {
-               myVideo.play();
+            if(this.text = 1){
+                myVideo.play();         
+            }else if(top < 200){
+                myVideo.pause();
             }
         },
         handleScroll() {
@@ -343,6 +344,8 @@ export default {
     },
     mounted() {
         this.start();
+        // this.start2();
+        // this.handleAnimate();
         // if (process.browser) {  // 在页面mounted生命周期里面 根据环境实例化WOW
         //     new WOW({
         //         live: true, 
@@ -357,7 +360,7 @@ export default {
             this.handleAnimate()//初始化第一次加载时在视口内就执行动画
             addEventListener('scroll', this.handleScroll);
             addEventListener('scroll', this.handleAnimate,{once:true});
-            addEventListener('scroll', this.start2,{capture: true,passive: true,once: true});
+            addEventListener('scroll', this.start2,{once:true});
             
 
         })
