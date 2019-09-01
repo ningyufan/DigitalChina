@@ -1,34 +1,34 @@
 <template>
     <div class="sy_content1">
         <div class="sycon_t">
-            数字经济将开启2亿人口就业空间
+            Digital economy will open up employment space for 200 million people
         </div>
         <img src="../assets/images/sy/sybox1_pic1.jpg" alt="">
         <div class="sycon_info">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                数字经济将成为拉动我国就业增长的重要动力。《经济参考报》记者11日从中国信息通信研究院独家获悉，预计2020年，
-                我国数字经济领域就业人口将超2亿，其中第二产业数字经济就业潜力巨大，传统产业数字化转型成吸纳就业重要渠道。
+                The digital economy will become an important driving force for employment growth in China. Economic Reference News reporter learned exclusively from China Information and Communication Research Institute on November 11 that China's employment population in the field of digital economy is expected to exceed 200 million by 2020. Among them, the employment potential of the secondary industry digital economy is huge, and the digitization of traditional industries will become an important channel to absorb employment.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                　“数字经济发展既推动就业升级，也带来新增就业。特别是传统产业数字化转型已成为我国吸纳就业的重要渠道。”
-                中国信通院数字经济研究部主任孙克向《经济参考报》记者表示，数字经济释放庞大就业市场潜力主要表现在两个方面，
-                一是新旧动能转换创造出巨大就业空间，研究显示，数字经济每100个就业人口，72个为升级原有就业，28个为新增就业岗位。
-                二是数字经济带来的灵活就业快速发展壮大，在就业中的比重快速增加。
+                 "The development of digital economy not only promotes employment upgrading, but also brings new employment. Especially the digital transformation of traditional industries has become an important channel for China to absorb employment.
+                 Sun Ke, director of the Digital Economy Research Department of the Chinese Academy of Communications and Communications, told the Economic Reference that the potential of the digital economy to unleash the huge employment market lies in two aspects.
+                 First, the transformation of old and new momentum creates huge employment space. Research shows that for every 100 employees in the digital economy, 72 are upgraded to the original employment and 28 are new jobs.
+                 Second, the flexible employment brought about by the digital economy has developed rapidly, and its proportion in employment has increased rapidly.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                就行业分布看，未来第二产业数字经济发展吸纳就业的潜力巨大。信通院数据显示，经初步测算，2017年从事第二产业数字化转型的人数为5054万人，
-                占第二产业总就业人数的22.4%，数字化转型吸纳劳动力的潜力尚未充分挖掘。第三产业数字化转型吸纳的劳动力约为12016万人，
-                占第三产业总就业人数的34.3%，是当前数字经济吸纳就业的主要领域。
+                 As far as the industry distribution is concerned, the digital economy of the secondary industry has great potential to absorb employment in the future. According to the data of ICT, preliminary estimates show that the number of people engaged in the digital transformation of the secondary industry in 2017 is 50.54 million.
+                 It accounts for 22.4% of the total employment in the secondary industry. The potential of digitized transformation to absorb labor force has not been fully tapped. The digital transformation of the tertiary industry absorbs about 12.16 million workers.
+                 It accounts for 34.3% of the total employment in the tertiary industry, and is the main field in which the digital economy absorbs employment.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                据介绍，当前我国数字经济领域就业加速增长，新就业形态不断涌现。但同时，数字人才供给缺口大、
-                适应劳动者流动性和就业方式多样化的就业服务及用工管理制度有待完善等问题仍较突出。
+                According to the introduction, the employment growth in the digital economy is accelerating and new forms of employment are emerging. But at the same time, there is a big gap in the supply of digital talents.
+
+                The problems of employment service and employment management system adapting to the mobility of workers and the diversification of employment modes are still outstanding.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                就加快培育数字经济新兴就业机会，孙克建议，一是要培育壮大数字经济新模式，创造更多就业机会。例如，发展壮大人工智能、大数据等新兴产业，
-                推动数字经济与一、二、三产深度融合，促进产业链延伸和升级，带动更多新兴岗位。二是利用数字技术升级就业服务水平，打造效率更高的劳动力市场，
-                支持地方政府建设智能化就业服务平台，促进就业信息服务线上线下高效精准对接。三是加强灵活就业者的劳动保障，提升就业质量。例如，
-                探索建立适应灵活就业的新型劳动关系、适应灵活就业的社会保障模式，加快社会保障体系改革等。（记者 郭倩）
+               To speed up the cultivation of new employment opportunities in the digital economy, Sun Ke suggested that first, we should cultivate and strengthen the new model of the digital economy and create more employment opportunities. For example, to develop and expand new industries such as artificial intelligence and big data.
+               Promote the deep integration of digital economy with the first, second and third industries, promote the extension and upgrading of industrial chain, and promote more new jobs. Secondly, we should use digital technology to upgrade the level of employment services and create a more efficient labor market.
+               We will support local governments in building intelligent employment service platforms and promote efficient and accurate online and offline docking of employment information services. Third, we should strengthen the labor security of flexible employees and improve the quality of employment. For example,
+               We will explore the establishment of new labor relations, social security models adapting to flexible employment, and accelerate the reform of the social security system. (Reporter Guo Qian)
             </p><br/>
         </div>
     </div>

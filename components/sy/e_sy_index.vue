@@ -2,44 +2,42 @@
     <div class="sy_index">
         <div id="particles-js"></div>
         
-        
         <div id="sy_box1" class="sy_box1">
-           
-            <syBox1/>
+            <esyBox1/>
         </div>
         <div class="sy_box2">
             
-            <syBox2/>
+            <esyBox2/>
         </div>
         <div class="sy_box3">
             
-            <syBox3/>
+            <esyBox3/>
         </div>
         <div class="sy_box4">
             
-            <syBox4/>
+            <esyBox4/>
         </div>
         <div class="sy_box5">
             
-            <syBox5/>
+            <esyBox5/>
         </div>
 
     </div>
 </template>
 
 <script>
-import syBox1 from './sy_box1'
-import syBox2 from './sy_box2'
-import syBox3 from './sy_box3'
-import syBox4 from './sy_box4'
-import syBox5 from './sy_box5'
+import esyBox1 from './e_sy_box1'
+import esyBox2 from './e_sy_box2'
+import esyBox3 from './e_sy_box3'
+import esyBox4 from './e_sy_box4'
+import esyBox5 from './e_sy_box5'
 export default {
     components: {
-        syBox1,
-        syBox2,
-        syBox3,
-        syBox4,
-        syBox5,
+        esyBox1,
+        esyBox2,
+        esyBox3,
+        esyBox4,
+        esyBox5,
     },
     head:{
         script:[

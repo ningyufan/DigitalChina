@@ -3,9 +3,9 @@
         <div class="header_one">
             <div class="header " id="header" >
                 <div class="logo">
-                    <a href="#">
+                    <!-- <a href="#">
                         Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
-                    </a>
+                    </a> -->
                 </div>
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
@@ -40,18 +40,18 @@
                 </div>
             </div>
         </div>
-            <syindex/>
+            <esyindex/>
         <div class="footer">footer</div>
     </div>
 </template>
 
 <script>
 import syheader from '../components/sy/sy_header'
-import syindex from '../components/sy/sy_index'
+import esyindex from '../components/sy/e_sy_index'
 export default {
     components: {
         syheader,
-        syindex
+        esyindex
     },
     data () {
         return {
