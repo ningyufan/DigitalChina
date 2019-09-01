@@ -1,6 +1,8 @@
 <template>
     <div class="sy_index">
-         <div id="particles-js"></div>
+        <div id="particles-js"></div>
+        <script src='js/particles.min.js'></script>
+        
         <div id="sy_box1" class="sy_box1">
            
             <syBox1/>
@@ -42,7 +44,7 @@ export default {
         script:[
             {src:'js/jquery.1.7.1.min.js'},//aos
             {src:'js/aos.js'},//aos
-            {src:'js/particles.min.js'},//背景动画
+            // {src:'js/particles.min.js'},//背景动画
             // {src:'js/index.js'},//box2_style
         ],
         link: [

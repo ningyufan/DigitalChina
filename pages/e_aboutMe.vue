@@ -38,18 +38,18 @@
                 <div class="ME">
                     <header class="hero">
                         <div class="hero-center">
-                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="100">关于网页</h2>
+                            <h2 style="font-family:Microsoft YaHei;color:rgb(51, 135, 214);" aos="fade-up" aos-easing="ease" aos-delay="100">About Web Pages</h2>
                             <br>
-                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="250">本网页完成于2019年某一天，网页设计层次分明，页面内容采用aos滚动加载，配合原生js、淡入淡出等动画效果</h2>
+                            <h2 style="font-family:Microsoft YaHei;color:rgb(51, 135, 214);" aos="fade-up" aos-easing="ease" aos-delay="250">This web page was completed one day in 2019. The design of the web page is hierarchical. The content of the web page is loaded by rolling aos, with the animation effects of native js, fade in and fade out</h2>
                             <br>
-                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="400">使浏览者能更加舒适清晰的浏览网页内容，运用vue框架，使代码编码更加简洁，运行效率更高</h2>
+                            <h2 style="font-family:Microsoft YaHei;color:rgb(51, 135, 214);" aos="fade-up" aos-easing="ease" aos-delay="400">Visitors can browse the content of the web page more comfortably and clearly, and use the Vue framework to make the coding more concise and efficient</h2>
                             <br>
-                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="550">我们的团队致力于创作出更完美、更优秀的网页，为提升自我而时刻努力奋斗着</h2>
+                            <h2 style="font-family:Microsoft YaHei;color:rgb(51, 135, 214);" aos="fade-up" aos-easing="ease" aos-delay="550">Our team is dedicated to creating more perfect and excellent web pages and striving for self-improvement all the time</h2>
                             <br>
-                            <h2 style="font-family:Microsoft YaHei" aos="fade-up" aos-easing="ease" aos-delay="700">青春没有停歇的驿站,只有努力奋斗的身影</h2>
+                            <h2 style="font-family:Microsoft YaHei;color:rgb(51, 135, 214);" aos="fade-up" aos-easing="ease" aos-delay="700">Youth has no rest station, only the image of hard struggle</h2>
                         </div>
                         <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="850" @click="videoon()">
-                            <h4>点击下拉</h4>
+                            <h4 style="color:rgb(51, 135, 214);">Click drop-down</h4>
                             <i class="chevron bottom"></i>
                             <!-- {{text}}{{isFixed}} -->
                         </span>
@@ -75,11 +75,11 @@
                             <div class="cklice2 left"><img class="katong_about" src='@/assets/images/ysblock/kt1.jpg' height="100%" width="100%"></div>
                             <div class="cklice3">
                                 <br><br>
-                                <div class="nameabout">吴证</div>
-                                <div class="text_about">队长</div>
-                                <div class="text_about">计算机科学与工程学院</div>
-                                <div class="text_about">计算机科学与技术专业</div>
-                                <div class="text_about">负责网页的代码编辑，页面设计，整体统筹规划</div>
+                                <div class="nameabout">Wuzheng</div>
+                                <div class="text_about">captain</div>
+                                <div class="text_about">College of Computer Science and Engineering</div>
+                                <div class="text_about">Computer Science and Technology</div>
+                                <div class="text_about">Responsible for code editing, page design and overall planning of web pages</div>
                             </div>
                         </div>
                         <div class="cklice4"></div>
@@ -91,11 +91,11 @@
                             <div class="cklice6 left"><img class="katong_about" src='@/assets/images/ysblock/kt3.jpg' height="100%" width="100%"></div>
                             <div class="cklice7">
                                 <br><br>
-                                <div class="nameabout">宁玉帆</div>
-                                <div class="text_about">队员</div>
-                                <div class="text_about">计算机科学与工程学院</div>
-                                <div class="text_about">计算机科学与技术专业</div>
-                                <div class="text_about">负责网页的代码编辑，寻找素材和创意</div>
+                                <div class="nameabout">Ningyufan</div>
+                                <div class="text_about">Team member</div>
+                                <div class="text_about">College of Computer Science and Engineering</div>
+                                <div class="text_about">Computer Science and Technology</div>
+                                <div class="text_about">Responsible for Code Editing of Web Pages, Searching for Material and Creativity</div>
                             </div>
                         </div>
                         <div class="cklice8"></div>
@@ -107,11 +107,11 @@
                             <div class="cklice10 left"><img class="katong_about" src='@/assets/images/ysblock/kt2.jpg' height="100%" width="100%"></div>
                             <div class="cklice11">
                                 <br><br>
-                                <div class="nameabout">陆石媚</div>
-                                <div class="text_about">队员</div>
-                                <div class="text_about">计算机科学与工程学院</div>
-                                <div class="text_about">计算机科学与技术专业</div>
-                                <div class="text_about">负责网页的代码编辑，协助页面设计</div>
+                                <div class="nameabout">Lushimei</div>
+                                <div class="text_about">Team member</div>
+                                <div class="text_about">College of Computer Science and Engineering</div>
+                                <div class="text_about">Computer Science and Technology</div>
+                                <div class="text_about">Be responsible for the code editing of web pages and assist in page design</div>
                             </div>
                         </div>
                         <div class="cklice12"></div>
@@ -123,11 +123,11 @@
                             <div class="cklice14 left"><img class="katong_about" src='@/assets/images/ysblock/kt4.jpg' height="100%" width="100%"></div>
                             <div class="cklice15">
                                 <br><br>
-                                <div class="nameabout">严晓倩</div>
-                                <div class="text_about">队员</div>
-                                <div class="text_about">计算机科学与工程学院</div>
-                                <div class="text_about">计算机科学与技术专业</div>
-                                <div class="text_about">负责网页的代码编辑，素材整理，页面设计</div>
+                                <div class="nameabout">Yanxiaoqian</div>
+                                <div class="text_about">Team member</div>
+                                <div class="text_about">College of Computer Science and Engineering</div>
+                                <div class="text_about">Computer Science and Technology</div>
+                                <div class="text_about">Responsible for page code editing, material sorting, page design</div>
                             </div>
                         </div>
                         <div class="cklice16"></div>
@@ -139,11 +139,11 @@
                             <div class="cklice18 left"><img class="katong_about" src='@/assets/images/ysblock/kt5.jpg' height="100%" width="100%"></div>
                             <div class="cklice19">
                                 <br><br>
-                                <div class="nameabout">黄思森</div>
-                                <div class="text_about">队员</div>
-                                <div class="text_about">计算机科学与工程学院</div>
-                                <div class="text_about">计算机科学与技术专业</div>
-                                <div class="text_about">负责版面设计，下载素材，协助团队完成设计工作。</div>
+                                <div class="nameabout">Huangsisen</div>
+                                <div class="text_about">Team member</div>
+                                <div class="text_about">College of Computer Science and Engineering</div>
+                                <div class="text_about">Computer Science and Technology</div>
+                                <div class="text_about">Responsible for page code editing, material sorting, page design</div>
                             </div>
                         </div>
                         <div class="cklice20"></div>
@@ -168,7 +168,7 @@
             <i class="el-icon-caret-top"></i>
             </div> 
         </el-backtop>
-        <div class="footer6">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
+        <div class="footer6">Development team:Wuzheng Ningyufan Lushimei Yanxiaoqian Huangsisen</div>
         
     </div>
 </template>
@@ -694,7 +694,7 @@ export default {
     font-size: 1.5vw;
 }
 .text_about{
-    font-size: 0.9vw;
-    line-height: 3vh;
+    font-size: 0.8vw;
+    line-height: 2.3vh;
 }
 </style>
