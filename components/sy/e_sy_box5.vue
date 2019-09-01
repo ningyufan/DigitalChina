@@ -30,7 +30,7 @@
                   <a target="_blank" href="https://hwzw.szzg.gov.cn:9701/swsj/hall10.html">
                     <img src="@/assets/images/sy/sybox5_pic6.jpg" alt="">
                   </a>
-                  <a target="_blank" href="/sy_content10">
+                  <a target="_blank" href="/e_sy_content10">
                       <img src="@/assets/images/sy/sybox5_pic7.jpg" alt="">
                   </a>
                   <video controls autoplay="autoplay" loop>

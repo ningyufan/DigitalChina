@@ -12,11 +12,11 @@
                         <div class="header_nav">
                         <el-row class="row_one">
                             <div class="ce_nav">
-                                <a href="#">
-                                    <i class="el-icon-star-on">Chinese</i>
+                                <a href="/chinese_index">
+                                    <i class="el-icon-star-off">Chinese</i>
                                 </a>
                                 <a href="#">
-                                    <i class="el-icon-star-off">English</i>
+                                    <i class="el-icon-star-on">English</i>
                                 </a>
                             </div>
                         </el-row>
