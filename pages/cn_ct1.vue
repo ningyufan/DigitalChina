@@ -58,7 +58,7 @@ export default {
 }
 .cn_info {
     height: 70vh;
-    text-align: left;
+    text-align: justify;
     overflow: auto;
 }
 

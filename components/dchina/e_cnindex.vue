@@ -1,6 +1,6 @@
 <template>
     <div class="CN_index">
-        <div class="CN_bg">
+        <div class="CN_bg" id="cnbg1">
             <div class="bg_bt" aos="zoom-in">
                 Challenges and Opportunities
             </div>    
@@ -225,7 +225,7 @@
                 </el-row>
             </div>
         </div>
-        <div class="CN_bg1">
+        <div class="CN_bg1" id="cnbg2">
             <div class="bg1_bt" aos="zoom-in">
                 <h2>Promoting New Development</h2>
                 <!-- <cnbg1/> -->
@@ -373,7 +373,7 @@
                 </el-row>
             </div>         
         </div>
-        <div class="CN_bg2">
+        <div class="CN_bg2" id="cnbg3">
             <div class="bg2_bt" aos="zoom-in">
                 <h2>Promoting Urban Development</h2>
             </div>
@@ -501,7 +501,10 @@
             <script src="js/cn_bg2.js"></script>
             </div>
         </div>
-        <div class="CN_bg4">
+        <div class="CN_bg5" id="cnbg4">
+            <cnbg5/>
+        </div>
+        <div class="CN_bg4" id="cnbg5">
             <div class="bg4_header">
                 <div class="bg4_bk1">
                     <div class="video_bt" aos="zoom-in">
@@ -565,6 +568,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="CN_bg6" id="cnbg6">
             <div class="bg4_footer">
                 <div class="CN_yuan">
                     <div class="CN_yuan1"></div>
@@ -621,14 +626,12 @@
 </template>
 
 <script>
-// import cnbg1 from '../dchina/cn_bg1'
-// import cnbg2 from '../dchina/cn_bg2'
-// import cnbg from '../dchina/cn_bg'
+import cnbg5 from '../dchina/cn_bg5'
 export default {
     components:{
         // cnbg1,
         // cnbg2,
-        // cnbg
+        cnbg5
         },
     head:{
         script:[
@@ -666,6 +669,13 @@ export default {
 
 <style>
     @import "@/assets/css/e_digitalchina.css";
-
+.CN_bg5{
+    /* background-image: url('../../assets/images/dchina/bg4.jpg'); */
+    position: relative;
+    width: 100vw;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
 
 </style>

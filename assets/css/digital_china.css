@@ -617,17 +617,28 @@
 /*底部样式开始 start*/
 
 
-.CN_bg4{
-    background-image: url('../images/dchina/china_bg.png');
-    position: relative;
-    width: 100vw;
-    background-size: 100vw 180vh;
-    height: 180vh;
-    margin: 0 auto;
-}
 
 
 /*看数字经济样式开始 start*/
+
+
+.CN_bg4{
+    background-image: url('../images/dchina/bg5.png');
+    position: relative;
+    width: 100vw;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.bg4_bk1{
+    background-image: url('../images/dchina/china_bk1.png');
+    width: 100%;
+    margin: 0 auto;
+    background-size: 100% 100vh;
+    position: absolute;
+    height:100vh;
+}
 
 .CN_video{
     position: absolute;
@@ -770,30 +781,30 @@
 
 /*县域经济样式开始 start*/
 
-.CN_bg4 .bg4_bk1{
-    background-image: url('../images/dchina/china_bk1.png');
-    width: 100%;
-    margin: 0 auto;
-    background-size: 100% 100vh;
-    position: absolute;
-    height:100vh;
-}
-.CN_bg4 .bg4_footer{
-    width: 100%;
-    background-size: 100% 68vh;
+.CN_bg6{
+    background-image: url('../images/dchina/bg6.png');
     position: relative;
-    height: 68vh;
+    width: 100vw;
+    background-size: 100vw 80vh;
+    height: 80vh;
     margin: 0 auto;
-    top:100vh;
 }
 
-.bg4_bt{
+.CN_bg6 .bg4_footer{
+    width: 100%;
+    background-size: 100% 68vh;
+    position: absolute;
+    height: 68vh;
+    margin: 0 auto;
+}
+
+.CN_bg6 .bg4_bt{
     line-height:5vh;
     font-size: 3.5vh;
     color: rgb(48, 189, 245);
-    margin-left: 40vw;
+    margin-left: 43vw;
 }    
-.bg4_bt:hover{
+.CN_bg6 .bg4_bt:hover{
     animation: bg4_bt 1s linear 3;
 }
      
@@ -809,13 +820,13 @@
     }
 }
 
-.CN_yuan{
+.CN_bg6 .CN_yuan{
     position: absolute;
     width: 100%;
     height: 20vh;
 }
 
-.CN_yuan1{
+.CN_bg6 .CN_yuan1{
     position: relative;
     background-image: url('../images/dchina/yuan.png');
     width: 10vw;
@@ -837,7 +848,7 @@
         }
         }
 
-.CN_yuan2{
+.CN_bg6 .CN_yuan2{
     position: relative;
     background-image: url('../images/dchina/yuan.png');
     width: 10vw;
@@ -862,7 +873,7 @@
         }
 
 
-.CN_bg4 .bg4_bk2{
+ .CN_bg6 .bg4_bk2{
     background-image: url('../images/dchina/china_bk2.png');
     position: absolute;
     float: left;
@@ -871,7 +882,7 @@
     height: 80vh;
 }
 
-.CN_bg4 .bg4_bk3{
+.CN_bg6 .bg4_bk3{
     background-image: url('../images/dchina/china_bk3.png');
     position: absolute;
     left: 52vw;
@@ -881,7 +892,7 @@
     height: 68vh;
 }
 
-.bg4_bk2 .footer_left{
+.CN_bg6 .bg4_bk2 .footer_left{
     position: absolute;
     height: 65vh;
     width: 91%;
@@ -949,7 +960,7 @@
     background-size: 100% 100%;
 }
 
-.bg4_bk3 .footer_right{
+.CN_bg6 .bg4_bk3 .footer_right{
     position: absolute;
     height: 50vh;
     width: 82%;

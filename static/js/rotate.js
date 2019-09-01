@@ -1,3 +1,4 @@
+$(function(){
 var radius = 150;
 var dtr = Math.PI/180;
 var d=300;
@@ -168,7 +169,7 @@ function positionAll()
 	var aTmp=[];
 	var oFragment=document.createDocumentFragment();
 	
-	//Ëæ»úÅÅÐò
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	for(i=0;i<aA.length;i++)
 	{
 		aTmp.push(aA[i]);
@@ -200,7 +201,7 @@ function positionAll()
 			phi = Math.random()*(Math.PI);
 			theta = Math.random()*(2*Math.PI);
 		}
-		//×ø±ê±ä»»
+		//ï¿½ï¿½ï¿½ï¿½ä»»
 		mcList[i-1].cx = radius * Math.cos(theta)*Math.sin(phi);
 		mcList[i-1].cy = radius * Math.sin(theta)*Math.sin(phi);
 		mcList[i-1].cz = radius * Math.cos(phi);
@@ -235,3 +236,5 @@ function sineCosine( a, b, c)
 	sc = Math.sin(c * dtr);
 	cc = Math.cos(c * dtr);
 }
+
+});

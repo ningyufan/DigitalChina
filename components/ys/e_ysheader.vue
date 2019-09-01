@@ -6,15 +6,15 @@
                 <el-col class="left_col_ys">
                     <div class="detail_ys">
                         <div class="titleheader_ys"><a :href="item.href">{{item.title}}</a></div>
-                        <div class="texthaeder_ys">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</div>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr_ys" />
                             <div>
-                                <a :href="item.href"><h4>View content>></h4></a>
+                                <a :href="item.href" style="font-size:2vh">View content>></a>
                             </div>
                     </div>   
                 </el-col>
                 <el-col class="right_col_ys">
-                    <a :href="item.href"><img :src="item.img_src" class="" height="80%" width="80%" style=" border-radius: 50vh"></a>
+                    <a :href="item.href"><img :src="item.img_src" class="" height="90%" width="90%" style=" border-radius: 50vh"></a>
                 </el-col>
             </el-row>
             </el-carousel-item>
@@ -71,16 +71,16 @@ export default {
 
 <style>
 .left_col_ys{
-    width: 60%;
+    width: 70%;
     height: 60vh;
     float: left;
   
   }
 .right_col_ys {
-    width: 40%;
-    height: 50vh;
+    width: 30%;
+    height: 40vh;
     float: right;
-    /* margin-right: 2%; */
+    margin-top: 5vh;
     /* border: 1px solid red; */
     margin-top: 10vh;
     filter: brightness(60%);
@@ -88,15 +88,14 @@ export default {
   }
 .detail_ys {
     margin: 10vh 8vw;
-    text-align: left;
   }
 /* .detail_ys .title_ys{
     font-size: 4vh;
     margin: 2vh auto;
 } */
-.detail_ys{
-/* font-size: 2.5vh; */
-/* margin: 2vh auto; */
+.detail_ys p{
+font-size: 2.5vh;
+text-align: justify;
 color:rgb(51, 135, 214);
 }
 .hr_ys {
@@ -105,18 +104,12 @@ height:1px;
 border:none;
 border-top:1px solid #6ec1e2;
 }
-/* .detail_ys div {
+.detail_ys div {
     text-align: center;
-} */
+}
 .titleheader_ys{
     text-align: center;
-    font-size: 3vh;
+    font-size: 4vh;
     margin: 2vh auto;
-}
-.texthaeder_ys{
-    color:rgb(51, 135, 214);
-    font-size: 2.2vh;
-    text-align: left;
-    position: relative;
 }
 </style>

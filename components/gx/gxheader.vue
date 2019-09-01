@@ -14,7 +14,7 @@
                     </div>   
                 </el-col>
                 <el-col class="right_col">
-                    <a :href="item.href"><img :src="item.img_src" height="100%" width="100%" alt=""></a>
+                    <a :href="item.href"><img :src="item.img_src" height="80%" width="100%" alt=""></a>
                 </el-col>
             </el-row>
             </el-carousel-item>
@@ -74,27 +74,29 @@ export default {
 </script>
 <style>
 .left_col{
-    width: 60%;
+    width: 70%;
     height: 60vh;
     float: left;
   
   }
   .right_col {
-    width: 40%;
+    width: 30%;
     height: 60vh;
     float: right;
+    margin-top: 5vh;
   }
   .detail {
     margin: 10vh 8vw;
   }
   .detail .title{
     font-size: 4vh;
+    text-align: center;
     margin: 2vh auto;
   
   }
   .detail p{
     font-size: 2.5vh;
-    /* margin: 2vh auto; */
+    text-align: justify;
     color:rgb(51, 135, 214);
   }
   hr {

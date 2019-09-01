@@ -3,9 +3,9 @@
         <div class="header_one">
             <div class="header " id="header" >
                 <div class="logo">
-                    <a href="#">
+                    <!-- <a href="#">
                         Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
-                    </a>
+                    </a> -->
                 </div>
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
@@ -13,10 +13,10 @@
                             <el-row class="row_one">
                                 <div class="ce_nav">
                                 <a href="/DigitalGX">
-                                    <i class="el-icon-star-on">Chinese</i>
+                                    <i class="el-icon-star-off">Chinese</i>
                                 </a>
                                 <a href="#">
-                                    <i class="el-icon-star-off">English</i>
+                                    <i class="el-icon-star-on">English</i>
                                 </a>
                             </div>
                         </el-row>
@@ -36,22 +36,22 @@
                     </div>
                 </div>
                 <div class="GX">
-                    <gxHeader/>
+                    <egxHeader/>
                 </div>
             </div>
         </div>
-            <gxindex/>
+            <egxindex/>
         <div class="footer">footer</div>
     </div>
 </template>
 
 <script>
-import gxHeader from '../components/gx/gxheader.vue' 
-import gxindex from '../components/gx/gxindex.vue' 
+import egxHeader from '../components/gx/e_gxheader.vue' 
+import egxindex from '../components/gx/e_gxindex.vue' 
 export default {
     components:{
-        gxHeader,
-        gxindex
+        egxHeader,
+        egxindex
     },
     data () {
         return {

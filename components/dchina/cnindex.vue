@@ -1,6 +1,6 @@
 <template>
     <div class="CN_index">
-        <div class="CN_bg">
+        <div class="CN_bg" id="cnbg1">
             <div class="bg_bt" aos="zoom-in">
                 <h2>数字经济挑战机遇</h2>
             </div>    
@@ -195,7 +195,7 @@
                 </el-row>
             </div>
         </div>
-        <div class="CN_bg1">
+        <div class="CN_bg1" id="cnbg2">
             <div class="bg1_bt" aos="zoom-in">
                 <h2>数字经济——推动新发展</h2>
                 <!-- <cnbg1/> -->
@@ -343,7 +343,7 @@
                 </el-row>
             </div>         
         </div>
-        <div class="CN_bg2">
+        <div class="CN_bg2" id="cnbg3">
             <div class="bg2_bt" aos="zoom-in">
                 <h2>数字经济——推动城市发展</h2>
             </div>
@@ -469,10 +469,10 @@
             <script src="js/cn_bg2.js"></script>
             </div>
         </div>
-        <div class="CN_bg5">
+        <div class="CN_bg5" id="cnbg4">
             <cnbg5/>
         </div>
-        <div class="CN_bg4">
+        <div class="CN_bg4" id="cnbg5">
             <div class="bg4_header">
                 <div class="bg4_bk1">
                     <div class="video_bt" aos="zoom-in">
@@ -536,6 +536,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="CN_bg6"  id="cnbg6">
             <div class="bg4_footer">
                 <div class="CN_yuan">
                     <div class="CN_yuan1"></div>
@@ -607,7 +609,9 @@ export default {
             {src:'js/jquery.min.js'},
             {src:'js/aos.js'},
             {src:'js/cn_app.js'},
+            {src:'js/rotate.js'},
             {src:'js/cn_bg5.js'},
+            {src:'js/waterFloat.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },

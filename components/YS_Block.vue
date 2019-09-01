@@ -9,7 +9,7 @@
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr_ys" />
                             <div>
-                                <a :href="item.href">查看内容>></a>
+                                <a :href="item.href" style="font-size:2vh">查看内容>></a>
                             </div>
                     </div>   
                 </el-col>
@@ -95,7 +95,7 @@ export default {
 } */
 .detail_ys p{
 font-size: 2.5vh;
-/* margin: 2vh auto; */
+text-align: justify;
 color:rgb(51, 135, 214);
 }
 .hr_ys {

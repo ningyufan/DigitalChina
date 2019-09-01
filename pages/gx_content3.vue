@@ -78,6 +78,10 @@ export default {
      margin-top:2vh ;
     overflow: auto;
     color: white;
-    text-align: center;
+    text-align: justify;
+}
+
+.gxcon3_info img{
+    margin-left: 9vw;
 }
 </style>

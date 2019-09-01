@@ -37,7 +37,7 @@ export default {
 .gxcon2_t {
     width: 100%;
     line-height: 10vh;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
     color: rgb(48, 189, 245);
     background-image: url(../assets/images/sy/sycon5_bgb.png);
@@ -49,6 +49,10 @@ export default {
     margin-top:2vh ;
     overflow: auto;
     color: white;
-    text-align: center;
+    text-align: justify;
+}
+
+.gxcon2_info img{
+    margin-left: 9vw;
 }
 </style>

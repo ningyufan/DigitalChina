@@ -82,5 +82,6 @@ export default {
     margin-top:2vh ;
     overflow: auto;
     color: white;
+    text-align: justify;
 }
 </style>

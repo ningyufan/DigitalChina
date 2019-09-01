@@ -130,6 +130,11 @@ export default {
     margin-top:2vh ;
     overflow: auto;
     color: white;
-    /* text-align: center; */
+    text-align: justify;
 }
+
+.gxcon7_info img{
+    margin-left: 15vw;
+}
+
 </style>

@@ -3,7 +3,7 @@
         <div class="cn_bg5">
             <canvas id="canvas" class="canvas"></canvas>
             <div class="bg5_bt">智慧中国</div>
-            <div class="qiu" aos="flip-up">
+            <div class="qiu">
                 <div id="rotate" style="  transform: scale(2.5); ">
 
 
@@ -29,34 +29,34 @@
 
 
                     <a href="#"  target="_blank" style="left: 143.28px; top: 325.464px; font-size: 14px; opacity: 0.460811; z-index: 8;">
-                        <img src="../../assets/images/dchina/qiu1.png">
+                        <img src="../../assets/images/dchina/qiu9.png">
                     </a>
 
                     <a href="#" target="_blank" style="left: 235.907px; top: 325.614px; font-size: 14px; opacity: 0.468642; z-index: 9;">
-                        <img src="../../assets/images/dchina/qiu2.png">
+                        <img src="../../assets/images/dchina/qiu10.png">
                     </a>
 
                     <a href="#" target="_blank" style="left: 306.656px; top: 282.041px; font-size: 15px; opacity: 0.670636; z-index: 10;">
-                        <img src="../../assets/images/dchina/qiu3.png">
+                        <img src="../../assets/images/dchina/qiu11.png">
                     </a>
 
                     <a href="#"  target="_blank" style="left: 324.926px; top: 212.221px; font-size: 16px; opacity: 1.07498; z-index: 11;">
-                        <img src="../../assets/images/dchina/qiu4.png">
+                        <img src="../../assets/images/dchina/qiu12.png">
                     </a>
 
                     <a href="#"  target="_blank" style="left: 284.316px; top: 143.573px; font-size: 18px; opacity: 1.58454; z-index: 12;">
-                        <img src="../../assets/images/dchina/qiu5.png">
+                        <img src="../../assets/images/dchina/qiu13.png">
                     </a>
 
                     <a href="#"  target="_blank" style="left: 202.763px; top: 101.607px; font-size: 19px; opacity: 1.79537; z-index: 13;">
-                        <img src="../../assets/images/dchina/qiu6.png">
+                        <img src="../../assets/images/dchina/qiu14.png">
                     </a>
                     <a href="#"  target="_blank" style="left: 113.737px; top: 100.237px; font-size: 17px; opacity: 1.43475; z-index: 14;">
-                        <img src="../../assets/images/dchina/qiu7.png" >
+                        <img src="../../assets/images/dchina/qiu15.png" >
                     </a>
 
                     <a href="#"  target="_blank" style="left: 52.6931px; top: 137.171px; font-size: 15px; opacity: 0.88773; z-index: 15;">
-                        <img src="../../assets/images/dchina/qiu8.png" >
+                        <img src="../../assets/images/dchina/qiu16.png" >
                     </a>
 
 
@@ -65,7 +65,7 @@
 
 
                     <a href="#"  target="_blank" style="left: 43.7051px; top: 195.382px; font-size: 14px; opacity: 0.484894; z-index: 0;">
-                        <img src="../../assets/images/dchina/qiu1.png">
+                        <img src="../../assets/images/dchina/qiu17.png">
                     </a>
 
                     <a href="#"  target="_blank" style="left: 89.6843px; top: 249.75px; font-size: 13px; opacity: 0.263834; z-index: 17;">
@@ -153,7 +153,6 @@
 
                 </div>
             </div>
-            <script src="js/cn_bg5.js"></script>
         </div>    
     </div>
 
@@ -166,6 +165,7 @@ export default {
             {src:'js/aos.js'},
             {src:'js/rotate.js'},
             {src:'js/cn_bg5.js'},
+            {src:'js/waterFloat.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
@@ -218,14 +218,14 @@ export default {
 
 
 .qiu{
-	width: 100vw;
+	width: 80vw;
     height: 100vh;
-    position: absolute;
 	text-align: center;
+    position: absolute;
     overflow: hidden;
-    top:15vh;
-    margin-left: 20vw;
-    /* left: 20vw; */
+    top:16vh;
+    /* margin-left: 20vw; */
+    left: 20vw;
 }
 .qiu>img{
 	margin-bottom: 5vh;
@@ -233,7 +233,7 @@ export default {
 #rotate{
     height:40vh;
     width:60vw;
-    position: absolute;
+    position: relative;
     top:18vh;
 }
 #rotate a{position:absolute;top:0px;left:0px;}
