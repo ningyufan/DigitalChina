@@ -92,7 +92,7 @@ export default {
 }
 .hb {
   position:relative;
-  width:25%;
+  width:23%;
   z-index:1;
   display:flex;
   align-items:center;
@@ -100,9 +100,10 @@ export default {
   trasnform:scale(.97);
 }
 .c{
+  margin-left: 30%;
   position:relative;
   display:block;
-  max-width:90%;
+  max-width:70%;
 }
 .c img {
   position:relative;
