@@ -96,12 +96,15 @@ export default {
         script:[
             {src:'js/jquery.1.7.1.min.js'},
             {src:'js/aos.js'},
+            {src:'js/particles.min.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
             // { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
-            { rel: 'stylesheet', href: 'css/styles.css' }
+            { rel: 'stylesheet', href: 'css/styles.css' },
+            // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans' },//box2_style
+            // { rel: 'stylesheet', href: 'css/style2.css' },
         ]
     },
     methods: {

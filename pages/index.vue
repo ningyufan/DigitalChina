@@ -30,15 +30,6 @@
           浏览器不支持 video 标签，建议升级浏览器。
       </video>
 
-      <!-- <audio src="/song.mp3" controls="controls" autoplay="autoplay">
-      Your browser does not support the audio element.
-      </audio> -->
-
-<audio controls="controls" autoplay="autoplay">
-  <source src="/song.mp3" type="audio/ogg" />
-  <source src="/song.mp3" type="audio/mpeg" />
-Your browser does not support the audio element.
-</audio>
 
 
       <div class="poster hidden" v-if="!vedioCanPlay">
