@@ -7,10 +7,10 @@
                             <div class="row1_one">
                                 <div class="ce_nav1">
                                     <a href="#">
-                                        <i class="el-icon-star-on">Chinese</i>
+                                        <i class="el-icon-star-off">Chinese</i>
                                     </a>
                                     <a href="#">
-                                        <i class="el-icon-star-off">English</i>
+                                        <i class="el-icon-star-on">English</i>
                                     </a>
                                 </div>
                             </div>

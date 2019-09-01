@@ -3,9 +3,9 @@
         <div class="header_one">
             <div class="header " id="header" >
                 <div class="logo">
-                    <a href="#">
+                    <!-- <a href="#">
                         Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
-                    </a>
+                    </a> -->
                 </div>
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
