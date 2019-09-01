@@ -53,6 +53,7 @@ export default {
         script:[
             {src:'js/jquery.1.7.1.min.js'},
             {src:'js/aos.js'},
+            {src:'js/particles.min.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },

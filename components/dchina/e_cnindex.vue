@@ -502,7 +502,7 @@
             </div>
         </div>
         <div class="CN_bg5" id="cnbg4">
-            <cnbg5/>
+            <ecnbg5/>
         </div>
         <div class="CN_bg4" id="cnbg5">
             <div class="bg4_header">
@@ -626,12 +626,12 @@
 </template>
 
 <script>
-import cnbg5 from '../dchina/cn_bg5'
+import ecnbg5 from '../dchina/e_cnbg5'
 export default {
     components:{
         // cnbg1,
         // cnbg2,
-        cnbg5
+        ecnbg5
         },
     head:{
         script:[
