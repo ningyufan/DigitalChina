@@ -1,0 +1,20 @@
+@font-face {
+    font-family: yegenyou;
+    /* src: url('/assets/css/yulin/fonts/lantingjixu.ttf'); */
+    src: url('/fonts/yegenyou.ttf')
+  }
+
+  @font-face {
+    font-family: lantingjixu;
+    /* src: url('/assets/css/yulin/fonts/lantingjixu.ttf'); */
+    src: url('/fonts/lantingjixu.ttf')
+  }
+
+  @font-face {
+    font-family:duanning;
+    /* src: url('/assets/css/yulin/fonts/lantingjixu.ttf'); */
+    src: url('/fonts/duanning.ttf')
+  }
+ 
+ 
+ 

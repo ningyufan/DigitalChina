@@ -3,7 +3,7 @@
     <div class="video-container">
       <div :style="fixStyle" class="filter">
           <div class="title wow bounceInDown">
-             <p>人民对美好生活的向往,就是数字中国建设的优先行动方向</p>
+             <p style="font-family:duanning;">人民对美好生活的向往,就是数字中国建设的优先行动方向</p>
           </div>
            <div class="but-box">
              <div>
@@ -30,6 +30,14 @@
           浏览器不支持 video 标签，建议升级浏览器。
       </video>
 
+      <!-- <audio src="/song.mp3" controls="controls" autoplay="autoplay">
+      Your browser does not support the audio element.
+      </audio> -->
+
+<audio src="/index.mp3" controls="controls" autoplay="autoplay" playsinline="true"  loop  hidden="true" style="position: relative; z-index:5;" id="vd">
+  <source src="/index.mp3" type="audio/ogg" />
+  <source src="/index.mp3" type="audio/mpeg"/>
+</audio>
 
 
       <div class="poster hidden" v-if="!vedioCanPlay">
@@ -73,6 +81,7 @@
       }
     },
     mounted: function() {
+
       AOS.init({
         easing: 'ease-out-back',
         duration: 1000
@@ -116,4 +125,29 @@
 
 <style scoped>
   @import "@/assets/css/index/page_index.css";
+  @import "@/assets/css/yulin/font_index.css";
+
+  /* #t {
+  animation: layerize cubic-bezier(0.4, 0, 0.2, 1) 1200ms 200ms forwards;
+  opacity: 0;
+  width: 100%;
+  color: #fff;
+  font: italic 6vh 15rem "Roboto", sans-serif;
+  cursor: default;
+  user-select: none;
+  text-align: center;
+}
+
+@keyframes layerize {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+    text-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-0.06667em, -0.06667em);
+    text-shadow: 0 0 transparent, 0.03333em 0.03333em rgba(255, 255, 255, 0.4), 0.06667em 0.06667em rgba(255, 255, 255, 0.3), 0.1em 0.1em rgba(255, 255, 255, 0.2), 0.13333em 0.13333em rgba(255, 255, 255, 0.1);
+  }
+} */
 </style>
