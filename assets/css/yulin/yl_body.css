@@ -210,16 +210,16 @@
 .chanye{
     /* background-color: #7a3f3a; */
     width: 100vw;
-    height: 85vh;
+    height: 90vh;
     top: 5vh;
 }
 
 /* *{margin:0;padding:0;} */
 /* body{font-family:Arial;background:#fff url(pattern.png) repeat top left;} */
-a{color:#444;}
-a:hover{color:#999;}
+/* a{color:#444;}
+a:hover{color:#999;} */
 /* .title{width:500px;height:152px;position:absolute;top:0px;left:0px;background:transparent url(title.png) no-repeat top left;} */
-a.back{
+/* a.back{
     background:transparent url(1.jpg) no-repeat top left;
     position:fixed;
     width:150px;
@@ -227,7 +227,7 @@ a.back{
     outline:none;
     bottom:0px;
     left:0px;
-}
+} */
 #content{
     margin:0 auto;
     /* background-color: rgb(182, 34, 34); */
@@ -262,12 +262,6 @@ a.back{
 .dialog-img{
     text-align: center;
 }
-/* .dialog-footer{
-    float:right;
-    right: flex;
-    margin-right: 1vw;
-    margin-bottom: 3vh;
-} */
 .font-content{
     /* font-size: 2vh; */
     line-height: 3vh;
