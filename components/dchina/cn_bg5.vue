@@ -133,28 +133,28 @@
 
 
 
-                    <a href="#"  target="_blank" style="left: 108.322px; top: 62.5534px; font-size: 14px; opacity: 0.658207; z-index: 24;">
+                    <a href="#"  target="_blank" style="left: 108.322px; top: 62.5534px; font-size: 14px; opacity: 0.658207; z-index: 32;">
                         <img src="../../assets/images/dchina/qiu/qiu32.png" >
                     </a>
-                    <a href="#" target="_blank" style="left: 79.5023px; top: 115.539px; font-size: 13px; opacity: 0.345856; z-index: 25;">
+                    <a href="#" target="_blank" style="left: 79.5023px; top: 115.539px; font-size: 13px; opacity: 0.345856; z-index: 33;">
                         <img src="../../assets/images/dchina/qiu/qiu33.png" >
                     </a>
-                    <a href="#" target="_blank" style="left: 120.864px; top: 171.012px; font-size: 13px; opacity: 0.156295; z-index: 26;">
+                    <a href="#" target="_blank" style="left: 120.864px; top: 171.012px; font-size: 13px; opacity: 0.156295; z-index: 34;">
                         <img src="../../assets/images/dchina/qiu/qiu34.png" >
                     </a>
-                    <a href="#" target="_blank" style="left: 209.54px; top: 188.832px; font-size: 13px; opacity: 0.114611; z-index: 27;">
+                    <a href="#" target="_blank" style="left: 209.54px; top: 188.832px; font-size: 13px; opacity: 0.114611; z-index: 35;">
                         <img src="../../assets/images/dchina/qiu/qiu17.png" >
                     </a>
-                    <a href="#"  target="_blank" style="left: 282.186px; top: 148.583px; font-size: 13px; opacity: 0.218395; z-index: 28;">
+                    <a href="#"  target="_blank" style="left: 282.186px; top: 148.583px; font-size: 13px; opacity: 0.218395; z-index: 36;">
                         <img src="../../assets/images/dchina/qiu/qiu25.png">
                     </a>
-                    <a href="#" style="left: 272.544px; top: 77.3305px; font-size: 14px; opacity: 0.407542; z-index: 29;">
+                    <a href="#" style="left: 272.544px; top: 77.3305px; font-size: 14px; opacity: 0.407542; z-index: 37;">
                         <img src="../../assets/images/dchina/qiu/qiu26.png">
                     </a>
-                    <a href="#" style="left: 188.146px; top: 49.4072px; font-size: 14px; opacity: 0.408879; z-index: 30;">
+                    <a href="#" style="left: 188.146px; top: 49.4072px; font-size: 14px; opacity: 0.408879; z-index: 38;">
                         <img src="../../assets/images/dchina/qiu/qiu27.png" >
                     </a>
-                    <a href="#" style="left: 174.593px; top: 99.421px; font-size: 13px; opacity: 0.19204; z-index: 31;">
+                    <a href="#" style="left: 174.593px; top: 99.421px; font-size: 13px; opacity: 0.19204; z-index: 39;">
                         <img src="../../assets/images/dchina/qiu/qiu23.png"></a>
 
 
@@ -182,7 +182,7 @@ export default {
             { rel: 'stylesheet', href: 'css/styles.css' },
         ]
     },
-   
+    
 }
 </script>
 

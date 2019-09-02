@@ -1,6 +1,6 @@
 <template>
     <div class="yl_header">
-        <el-carousel :interval="5000" arrow="always" height="60vh">
+        <el-carousel :interval="5000" arrow="always" height="60vh"  aos="zoom-in-up">
             <el-carousel-item v-for="(item,idx) in items" :key="idx">
                 <el-row>
                 <el-col class="left_col_yl">
@@ -14,7 +14,7 @@
                     </div>   
                 </el-col>
                 <el-col class="right_col_yl">
-                    <a :href="item.href"><img :src="item.img_src" class="" height="90%" width="90%" style=" border-radius: 50vh"></a>
+                    <a :href="item.href"><img :src="item.img_src"height="90%" width="90%" style=" border-radius: 50vh"></a>
                 </el-col>
             </el-row>
             </el-carousel-item>

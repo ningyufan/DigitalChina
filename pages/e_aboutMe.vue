@@ -327,16 +327,16 @@ export default {
     color: white;
 }
 .katong_about{
-    border-radius: 15vh;
+    border-radius: 16vh;
     border: 1.5vh solid rgba(255, 255, 255, 0.6);
     filter:brightness(70%);
 }
 
 .cklice1{
     position: absolute;
-    width: 30vh;
-    height: 30vh;
-    border-radius: 15vh;
+    width: 32vh;
+    height: 32vh;
+    border-radius: 16vh;
     float: left;
     margin-left: 85vh;
     min-width: 20vh;
@@ -344,10 +344,10 @@ export default {
     margin-top: 0vh;
     }
 .cklice2{
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(151, 150, 155);
-    border-radius: 15vh;
+    border-radius: 16vh;
     float: left;
     transform-origin:left;
     transform:scale(1);
@@ -358,10 +358,10 @@ export default {
 }
 .cklice3{
     position: relative;
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(197, 194, 194);
-    border-radius: 15vh;
+    border-radius: 16vh;
     margin-left: 40vh;
     left: -10vh;
     transition: all 0.2s ease-in;
@@ -374,10 +374,10 @@ export default {
 }
 .cklice4{
     position: relative;
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(197, 194, 194);
-    border-radius: 15vh;
+    border-radius: 16vh;
     margin-left: 125vh;
     left: -10vh;
     transition: all 0.2s ease-in;
@@ -399,9 +399,9 @@ export default {
 
 .cklice5{
     position: absolute;
-    width: 30vh;
-    height: 30vh;
-    border-radius: 100px;
+    width: 32vh;
+    height: 32vh;
+    border-radius: 16vh;
     float: left;
     margin-left: 135vh;
     min-width: 20vh;
@@ -409,10 +409,10 @@ export default {
     margin-top: 0vh;
     }
 .cklice6{
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(151, 150, 155);
-    border-radius: 15vh;
+    border-radius: 16vh;
     float: left;
     transform-origin:left;
     transform:scale(1);
@@ -425,10 +425,10 @@ export default {
 
 .cklice7{
     position: relative;
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(197, 194, 194);
-    border-radius: 15vh;
+    border-radius: 16vh;
     margin-left: 40vh;
     left: -10vh;
     transition: all 0.2s ease-in;
@@ -439,10 +439,10 @@ export default {
 }
 .cklice8{
     position: relative;
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(197, 194, 194);
-    border-radius: 15vh;
+    border-radius: 16vh;
     margin-left: 175vh;
     left: -10vh;
     transition: all 0.2s ease-in;
@@ -462,9 +462,9 @@ export default {
 
 .cklice9{
     position: absolute;
-    width: 30vh;
-    height: 30vh;
-    border-radius: 100px;
+    width: 32vh;
+    height: 32vh;
+    border-radius: 16vh;
     float: left;
     margin-left: 35vh;
     min-width: 20vh;
@@ -472,10 +472,10 @@ export default {
     margin-top: 0vh;
     }
 .cklice10{
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(151, 150, 155);
-    border-radius: 15vh;
+    border-radius: 16vh;
     float: left;
     transform-origin:left;
     transform:scale(1);
@@ -487,10 +487,10 @@ export default {
 
 .cklice11{
     position: relative;
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(197, 194, 194);
-    border-radius: 15vh;
+    border-radius: 16vh;
     margin-left: 40vh;
     left: -10vh;
     transition: all 0.2s ease-in;
@@ -501,10 +501,10 @@ export default {
 }
 .cklice12{
     position: relative;
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(197, 194, 194);
-    border-radius: 15vh;
+    border-radius: 16vh;
     margin-left: 75vh;
     left: -10vh;
     transition: all 0.2s ease-in;
@@ -524,9 +524,9 @@ export default {
 
 .cklice13{
     position: absolute;
-    width: 30vh;
-    height: 30vh;
-    border-radius: 100px;
+    width: 32vh;
+    height: 32vh;
+    border-radius: 16vh;
     float: left;
     margin-left: 55vh;
     min-width: 20vh;
@@ -534,10 +534,10 @@ export default {
     margin-top: 0vh;
 }
 .cklice14{
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(151, 150, 155);
-    border-radius: 15vh;
+    border-radius: 16vh;
     float: left;
     transform-origin:left;
     transform:scale(1);
@@ -549,10 +549,10 @@ export default {
 }
 .cklice15{
     position: relative;
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(197, 194, 194);
-    border-radius: 15vh;
+    border-radius: 16vh;
     margin-left: 40vh;
     left: -10vh;
     transition: all 0.2s ease-in;
@@ -563,10 +563,10 @@ export default {
 }
 .cklice16{
     position: relative;
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(197, 194, 194);
-    border-radius: 15vh;
+    border-radius: 16vh;
     margin-left: 95vh;
     left: -10vh;
     transition: all 0.2s ease-in;
@@ -586,9 +586,9 @@ export default {
 
 .cklice17{
     position: absolute;
-    width: 30vh;
-    height: 30vh;
-    border-radius: 100px;
+    width: 32vh;
+    height: 32vh;
+    border-radius: 16vh;
     float: left;
     margin-left: 115vh;
     min-width: 20vh;
@@ -596,10 +596,10 @@ export default {
     margin-top: 0vh;
 }
 .cklice18{
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(151, 150, 155);
-    border-radius: 15vh;
+    border-radius: 16vh;
     /* margin-left: 80%; */
     float: left;
     transform-origin:left;
@@ -612,10 +612,10 @@ export default {
 }
 .cklice19{
     position: relative;
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(197, 194, 194);
-    border-radius: 15vh;
+    border-radius: 16vh;
     margin-left: 40vh;
     left: -10vh;
     transition: all 0.2s ease-in;
@@ -626,10 +626,10 @@ export default {
 }
 .cklice20{
     position: relative;
-    width: 30vh;
-    height: 30vh;
+    width: 32vh;
+    height: 32vh;
     background-color: rgb(197, 194, 194);
-    border-radius: 15vh;
+    border-radius: 16vh;
     margin-left: 155vh;
     left: -10vh;
     transition: all 0.2s ease-in;
@@ -646,6 +646,10 @@ export default {
     margin-left: 10vh;
     opacity: 1;
 }
+
+
+
+
 
 
 
@@ -683,7 +687,8 @@ export default {
     font-size: 1.5vw;
 }
 .text_about{
-    font-size: 0.8vw;
-    line-height: 2.3vh;
+    font-size: 1vh;
+    line-height: 2.8vh;
+    font-family: 华文行楷;
 }
 </style>

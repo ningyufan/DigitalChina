@@ -1,6 +1,6 @@
 <template>
     <div class="sy_header">
-       <el-carousel :interval="5000" arrow="always" height="60vh">
+       <el-carousel :interval="5000" arrow="always" height="60vh" aos="zoom-in-up">
             <el-carousel-item v-for="(item,idx) in items" :key="idx">
                 <el-row>
                 <el-col class="sy_left_col">
@@ -9,7 +9,7 @@
                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr" />
                             <div>
-                                <a :href="item.href" style="font-size:2.5vh; font-family: STXingkai;">查看内容>></a>
+                                <a :href="item.href" style="font-size:2.5vh; font-family: STXingkai;">View content>></a>
                             </div>
                     </div>   
                 </el-col>
