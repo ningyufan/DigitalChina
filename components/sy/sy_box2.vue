@@ -1,5 +1,5 @@
 <template>
-    <div class="sy_box2">
+    <div class="sy_box2" id="sy_box2">
         <div class="sybox2_t">
             数字动态
         </div>
