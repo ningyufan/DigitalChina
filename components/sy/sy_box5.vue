@@ -61,7 +61,7 @@ export default {
     ]
   },
     mounted(){
-        var radius = 50; 
+        var radius = 60; 
         var autoRotate = true; 
         var rotateSpeed = -60; 
         var imgWidth = 25; 

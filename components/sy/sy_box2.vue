@@ -150,9 +150,9 @@
 export default {
     mounted() {
         // box2_style start
-        // var $cont = document.querySelector('.cont');
-        // var $elsArr = [].slice.call(document.querySelectorAll('.el'));
-        // var $closeBtnsArr = [].slice.call(document.querySelectorAll('.el__close-btn'));
+        var $cont = document.querySelector('.cont');
+        var $elsArr = [].slice.call(document.querySelectorAll('.el'));
+        var $closeBtnsArr = [].slice.call(document.querySelectorAll('.el__close-btn'));
 
         // setTimeout(function() {
         // $cont.classList.remove('s--inactive');
@@ -173,12 +173,12 @@ export default {
         //     document.querySelector('.el.s--active').classList.remove('s--active');
         // });
         // });
-        // //box2_style end
+        //box2_style end
 
-        // $(".option").click(function () {
-        //     $(".option").removeClass("active");
-        //     $(this).addClass("active");
-        // });
+        $(".option").click(function () {
+            $(".option").removeClass("active");
+            $(this).addClass("active");
+        });
     },
 }
 </script>
