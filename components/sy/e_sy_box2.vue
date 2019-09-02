@@ -1,7 +1,7 @@
 <template>
     <div class="sy_box2">
         <div class="sybox2_t">
-            数字动态
+            Digital Dynamics
         </div>
         <div class="sybox2_con">
             <div class="cont s--inactive">
@@ -13,14 +13,14 @@
                             <div class="el__inner">
                             <div class="el__bg"></div>
                             <div class="el__preview-cont">
-                                <h2 class="el__heading">福州</h2>
+                                <h2 class="el__heading">Fuzhou</h2>
                             </div>
                             <div class="el__content">
-                                <div class="el__text">福州：数字中国建设成果展人气火爆</div>
+                                <div class="el__text">Fuzhou: Digital China Construction Achievement Exhibition is very popular</div>
                                 <p style="color:white">
-                                    本次展览共分为四大展区，有数字福建馆、电子政务馆、数字经济馆、数字社会体验馆，
-                                    同时还为数字经济龙头企业安排了新产品、新技术、新应用的发布展台。值得一提的是，
-                                    在展馆体验项目众多，观众可以身临其境感觉最新科技带来的便利生活。
+                                        The exhibition is divided into four major exhibition areas: Digital Fujian Pavilion, E-government Pavilion, Digital Economy Pavilion and Digital Social Experience Pavilion.
+                                        At the same time, we have arranged a new product, new technology and new application release booth for leading enterprises of digital economy. It is worth mentioning that,
+                                        There are many experience items in the pavilion, so the audience can feel the convenience of life brought by the latest technology.
                                 </p>
                                 <div class="el__close-btn"></div>
                             </div>
@@ -43,10 +43,10 @@
                                     <h2 class="el__heading">5G</h2>
                                 </div>
                                 <div class="el__content">
-                                    <div class="el__text">5G推动万物互联</div>
+                                    <div class="el__text">5G Promotes the Interconnection of All Things</div>
                                     <p style="color:white">
-                                        5G拥有此前几代网络技术都无法达到的能力，5G能够让网络超越人与人的互联，
-                                        让数十亿计的物物互联并实时、可靠地操控机器。
+                                            5G has the ability that previous generations of network technology can not achieve, 5G can let the network transcend the interconnection between people.
+                                            Let billions of things interconnect and operate the machine in real time and reliably.
                                     </p>
                                     <div class="el__close-btn"></div>
                                 </div>
@@ -66,14 +66,14 @@
                             <div class="el__inner">
                                 <div class="el__bg"></div>
                                 <div class="el__preview-cont">
-                                    <h2 class="el__heading">无人机</h2>
+                                    <h2 class="el__heading">UAV</h2>
                                 </div>
                                 <div class="el__content">
-                                    <div class="el__text">京东展出的第三代配送机器人</div>
+                                    <div class="el__text">Third Generation Distribution Robot Exhibited in Jingdong</div>
                                     <p style="color:white">
-                                        京东展示了Y3无人机和倾转旋翼无人机。倾转旋翼无人机长3.42米、高1.13米、翼展3.78米，个头几乎是Y3无人机的3倍。
-                                        这款机器人不仅外形可爱，功能也很强大。它以自动驾驶核心技术为基础，有8个大小不同的载货舱，可按照既定路线自动导航行驶，
-                                        可以对城市环境下高校、办公楼、小区等订单集中场所进行批量送货，出色的灵活性和便捷的使用流程将大幅提升配送效率。
+                                            Jingdong demonstrated the Y3 UAV and tilt-rotor UAV. The tilt-rotor UAV is 3.42 meters long, 1.13 meters high and 3.78 meters wingspan, almost three times the size of the Y3 UAV.
+                                            This robot is not only cute in appearance, but also powerful in function. It is based on the core technology of automatic driving. It has eight cargo hold of different sizes. It can navigate automatically according to the established route.
+                                            It can deliver goods in batches in order centralized places such as universities, office buildings and residential areas under urban environment. Excellent flexibility and convenient use process will greatly improve the efficiency of distribution.
                                     </p>
                                     <div class="el__close-btn"></div>
                                 </div>
@@ -93,13 +93,13 @@
                             <div class="el__inner">
                                 <div class="el__bg"></div>
                                 <div class="el__preview-cont">
-                                    <h2 class="el__heading">人工智能</h2>
+                                    <h2 class="el__heading">Artificial intelligence</h2>
                                 </div>
                                 <div class="el__content">
-                                    <div class="el__text">人工智能重塑机器人产业</div>
+                                    <div class="el__text">Artificial Intelligence Reshaping Robot Industry</div>
                                     <p style="color:white">
-                                        人工智能和新一代信息技术正在重塑机器人产业，技术和应用的拓展、供给和需求的扩大，
-                                        使得机器人产业仍然是推动新旧动能转换和经济高质量发展的重要动力。
+                                            Artificial intelligence and the new generation of information technology are reshaping the robotics industry, expanding technology and application, expanding supply and demand.
+                                            So the robot industry is still an important driving force to promote the transformation of new and old kinetic energy and the development of high-quality economy.
                                     </p>
                                     <div class="el__close-btn"></div>
                                 </div>
@@ -119,7 +119,7 @@
                             <div class="el__inner">
                                 <div class="el__bg"></div>
                                 <div class="el__preview-cont">
-                                    <h2 class="el__heading">大数据</h2>
+                                    <h2 class="el__heading">Big data</h2>
                                 </div>
                                 <div class="el__content">
                                     <div class="el__text">Whatever</div>

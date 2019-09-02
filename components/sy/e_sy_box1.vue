@@ -1,7 +1,7 @@
 <template>
     <div class="sy_box1">
         <div class="sybox1_t">
-            数字行业
+            Digital Industry
         </div>
         <div class="sybox1_con">
             <div id="wrap">
@@ -9,8 +9,8 @@
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic1.jpg" alt=""/>
                         <div class="txt">
-                            <h1>数字经济</h1>
-                            <p>数字经济将开启2亿人口就业空间</p>
+                            <h1>Digital Economy</h1>
+                            <p>Digital economy will open up employment space for 200 million people</p>
                         </div>
                     </div>
                 </a>
@@ -21,8 +21,8 @@
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic2.jpg" alt=""/>
                         <div class="txt">
-                            <h1>数字经济</h1>
-                            <p>互联网医院可医保买单了，商业保险还远吗？</p>
+                            <h1>Digital Economy</h1>
+                            <p>Internet hospitals can pay for medical insurance. Is commercial insurance far behind?</p>
                         </div>
                     </div>
                 </a>
@@ -33,8 +33,8 @@
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic3.jpg" alt=""/>
                         <div class="txt">
-                            <h1>数字教育</h1>
-                            <p>“智慧AI老师”或将改变未来教育方式</p>
+                            <h1>Digital Education</h1>
+                            <p>"Wisdom AI Teacher" may change the way of education in the future</p>
                         </div>
                     </div>
                 </a>
@@ -45,8 +45,8 @@
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic4.jpg" alt=""/>
                         <div class="txt">
-                            <h1>数字教育</h1>
-                            <p>互联网＋人工智能驱动在线教育产业普及</p>
+                            <h1>Digital Education</h1>
+                            <p>Internet+Artificial Intelligence Drives the Popularization of Online Education Industry</p>
                         </div>
                     </div>
                 </a>
@@ -78,9 +78,29 @@ export default {
   top: 0;
   line-height: 15vh;
   text-align: center;
-  font-size: 5vh;
+  font-size: 6vh;
+  font-family: STXingkai;
   color: rgb(48, 189, 245);
 }
+
+.sybox1_t:hover{
+    animation: sybox1_t 1s linear 3;
+}
+
+ @keyframes sybox1_t{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
+
+
+
 #wrap{
   position:absolute;
   left:0; top:0;

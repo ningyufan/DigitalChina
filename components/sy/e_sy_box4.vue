@@ -1,29 +1,29 @@
 <template>
     <div class="sy_box4">
         <div class="sybox4_t">
-            5G时代
+            5G Era
         </div>
         <div class='accordion'>
             <ul>
                 <li>
-                    <div class="li_title"><a target="_blank" href="/sy_content5">5G &nbsp;&nbsp;时间表</a></div>
+                    <div class="li_title"><a target="_blank" href="/sy_content5">5G &nbsp;&nbsp;Timetable</a></div>
                     <a target="_blank" href="/e_sy_content5"><img src='@/assets/images/sy/sybox4_pic1.jpg'></a>
                 </li>
                 <li>
                     <div class="li_title">
-                        <a target="_blank" href="/sy_content6">5G &nbsp;&nbsp;标准</a></div>
+                        <a target="_blank" href="/sy_content6">5G &nbsp;&nbsp;Timetable</a></div>
                     <a target="_blank" href="/e_sy_content6"><img src='@/assets/images/sy/sybox4_pic2.jpg'></a>
                 </li>
                 <li>
-                    <div class="li_title"><a target="_blank" href="/sy_content7">从2G到5G 中国为什么能抹平与世界的差距</a></div>
+                    <div class="li_title"><a target="_blank" href="/sy_content7">Why Can China Smooth the Gap with the World from 2G to 5G</a></div>
                     <a target="_blank" href="/e_sy_content7"><img src='@/assets/images/sy/sybox4_pic3.jpg'></a>
                 </li>
                 <li>
-                    <div class="li_title"><a target="_blank" href="/sy_content8">5G &nbsp;&nbsp; 大发声</a></div>
+                    <div class="li_title"><a target="_blank" href="/sy_content8">5G &nbsp;&nbsp; Loud voice</a></div>
                     <a target="_blank" href="/e_sy_content8"><img src='@/assets/images/sy/sybox4_pic4.jpg'></a>
                 </li>
                 <li>
-                    <div class="li_title"><a target="_blank" href="/sy_content9">2020年5G通信有望商用</a></div>
+                    <div class="li_title"><a target="_blank" href="/sy_content9">5G Communications Expected to be Commercial in 2020</a></div>
                     <a target="_blank" href="/e_sy_content9"><img src='@/assets/images/sy/sybox4_pic5.jpg'></a>
                 </li>
             </ul>
@@ -88,4 +88,6 @@
     font-size:16px;
     padding:20px;
 }
+
+
 </style>

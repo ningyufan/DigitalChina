@@ -1,7 +1,7 @@
 <template>
     <div class="sy_box5">
       <div class="sybox5_t">
-        数字展区精彩
+          Digital exhibition area is wonderful
       </div>
       <div class="sybox5_con">
            <div id="drag-container">
@@ -37,7 +37,7 @@
                       <source src="../../assets/video/sybox5_video1.mp4" type="video/mp4">
                   </video>
                   <!-- <video id="chbnklbnabefclhuci" src="/masvod/public/2019/05/06/20190506_16a8d1a5c3f_r38_600k.mp4" width="100%" height="100%"></video> -->
-                  <p>数字中国建设峰会展览厅三维实景图</p>
+                  <p>Three-dimensional Scene of Exhibition Hall of Digital China Construction Summit</p>
               </div>
               <div id="ground"></div>
             </div>
@@ -213,9 +213,28 @@ export default {
   top:0;
   line-height: 15vh;
   text-align: center;
-  font-size: 5vh;
+  font-size: 6vh;
+  font-size:STXingkai;
   color: rgb(48, 189, 245);
 }
+
+.sybox5_t:hover{
+    animation: sybox5_t 1s linear 3;
+}
+
+ @keyframes sybox5_t{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
+
+
 
 #drag-container, #spin-container {
   height: 85vh;

@@ -1,7 +1,7 @@
 <template>
     <div class="sy_box3">
         <div class="sybox3_t">
-            数字人物访谈
+            Digital Person Interview
         </div>
         <div class="sybox3_con">
             <div class="options">
@@ -10,8 +10,8 @@
                     <div class="label">
                         <div class="icon"> <i class="fas fa-walking"></i> </div>
                         <div class="info">
-                            <div class="main">刘欣华</div>
-                            <div class="sub">唐冠集团、中数信安集团董事 <span @click="sybox3_dialog1 = true">[详情]</span></div>
+                            <div class="main">Liu Xinhua</div>
+                            <div class="sub">Directors of Tangguan Group and Zhongshu Xin'an Group <span @click="sybox3_dialog1 = true">[Details]</span></div>
                         </div>
                     </div>
                 </div>  
@@ -20,8 +20,8 @@
                     <div class="label">
                         <div class="icon"> <i class="fas fa-snowflake"></i> </div>
                         <div class="info">
-                            <div class="main">陈思华</div>
-                            <div class="sub">福建诚华信用管理有限公司董事长兼总经理<span @click="sybox3_dialog2 = true">[详情]</span></div>
+                            <div class="main">Chen Sihua</div>
+                            <div class="sub">Chairman and General Manager of Fujian Chenghua Credit Management Co., Ltd.<span @click="sybox3_dialog2 = true">[Details]</span></div>
                         </div>
                     </div>
                 </div>
@@ -30,8 +30,8 @@
                     <div class="label">
                         <div class="icon"> <i class="fas fa-tree"></i> </div>
                         <div class="info">
-                            <div class="main">熊立</div>
-                            <div class="sub">网龙网络公司CEO<span @click="sybox3_dialog3 = true">[详情]</span></div>
+                            <div class="main">Xiong Li</div>
+                            <div class="sub">CEO of Netdragon Network Company<span @click="sybox3_dialog3 = true">[Details]</span></div>
                         </div>
                     </div>
                   </div>
@@ -40,8 +40,8 @@
                     <div class="label">
                         <div class="icon"> <i class="fas fa-tint"></i> </div>
                         <div class="info">
-                            <div class="main">林拥军</div>
-                            <div class="sub">易华录总经理<span @click="sybox3_dialog4 = true">[详情]</span></div>
+                            <div class="main">Lin Yongjun</div>
+                            <div class="sub">General Manager of Yi Hualu<span @click="sybox3_dialog4 = true">[Details]</span></div>
                         </div>
                     </div>
                 </div>
@@ -50,8 +50,8 @@
                     <div class="label">
                         <div class="icon"> <i class="fas fa-sun"></i> </div>
                         <div class="info">
-                            <div class="main">熊群力</div>
-                            <div class="sub">中国电子科技集团有限公司董事长、党组书记<span  @click="sybox3_dialog5 = true">[详情]</span></div>
+                            <div class="main">Xiong Qunli</div>
+                            <div class="sub">Chairman and Secretary of the Party Group of China Electronic Science and Technology Group Co., Ltd.<span  @click="sybox3_dialog5 = true">[Details]</span></div>
                         </div>
                     </div>
                 </div>
@@ -60,8 +60,8 @@
                     <div class="label">
                         <div class="icon"> <i class="fas fa-sun"></i> </div>
                         <div class="info">
-                            <div class="main">张桂平</div>
-                            <div class="sub">苏宁环球集团董事长<span  @click="sybox3_dialog6 = true">[详情]</span></div>
+                            <div class="main">Zhang Guiping</div>
+                            <div class="sub">Chairman of Suning Global Group<span  @click="sybox3_dialog6 = true">[Details]</span></div>
                         </div>
                     </div>
                 </div>
@@ -75,166 +75,166 @@
             
           </span>
           <span slot="footer" class="dialog-footer">
-            <el-button type="primary" @click="sybox3_dialog1 = false">返 回</el-button>
+            <el-button type="primary" @click="sybox3_dialog1 = false">Return</el-button>
           </span>
         </el-dialog>
         <el-dialog title="陈思华" :visible.sync="sybox3_dialog2" width="60%">
           <span>
             <img src="../../assets/images/sy/sybox3_pic2.jpg" alt="">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              陈思华说，随着中国数字经济发展进入快车道，大数据正在成为信用数据整合和信用服务的重要方式，并将逐渐渗透到整个行业，打破信息的孤岛，
-              最终对分散在不同政府部门、行业组织和社会机构的各类数据进行有效整合。
+                As China's digital economy enters the fast lane, big data is becoming an important way of credit data integration and credit services, and will gradually penetrate into the whole industry, breaking the island of information, Chen said.
+                Finally, the data scattered in different government departments, industry organizations and social institutions are effectively integrated.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              “相比传统的信用信息收集方式，大数据信用采集，采用的是云计算服务技术，即从数据录入开始到评价结果的输出，整个过程，全部由计算机算法完成，
-              这里面避免了主观判断的影响，可以确保评估评价结果的准确性。”陈思华说，在此基础上，互联网和基于互联网的其它信息技术，
-              也为信用服务提供了更高效的途径，即使同时处理多个受评对象，仍然能够保证信用评估的准确高效。“特别是当受评对象的信息发生变化时，
-              依托大数据，仍能够对其信用快速及时地计算，保证信用的实时性。”
+                "Comparing with the traditional way of credit information collection, big data credit collection adopts cloud computing service technology, that is, from the beginning of data entry to the output of evaluation results, the whole process is completed by computer algorithms.
+                This avoids the influence of subjective judgment and ensures the accuracy of evaluation results. On this basis, the Internet and other information technologies based on the Internet, Chen said.
+                It also provides a more efficient way for credit service. Even if we deal with multiple evaluation objects at the same time, we can still guarantee the accuracy and efficiency of credit evaluation. "Especially when the information of the respondents changes,
+                Relying on big data, we can still calculate its credit quickly and timely to ensure the real-time of credit.
             </p>
           </span>
           <span slot="footer" class="dialog-footer">
-            <el-button type="primary" @click="sybox3_dialog2 = false">返 回</el-button>
+            <el-button type="primary" @click="sybox3_dialog2 = false">Return</el-button>
           </span>
         </el-dialog>
         <el-dialog title="熊立" :visible.sync="sybox3_dialog3" width="60%">
           <span>
             <img src="../../assets/images/sy/sybox3_pic3.jpg" alt="">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              在首届数字中国建设峰会上，网龙网络公司与英国培生集团签订战略合作协议。熊立表示，此举希望通过网龙的数字化技术，
-              把英国培生这家全球最大的线下教育集团的教育资源逐步线上化。
+                At the first Digital China Construction Summit, Netdragon Networks signed a strategic cooperation agreement with Peisheng Group. Xiong Li said that he hoped to use Netdragon's digital technology.
+                Put the educational resources of Peyson, the world's largest offline education group, online step by step.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              “我觉得在教学资源这一块我们是互通的。培生在海外可能拥有更大的教育市场，我们在国内也做了很多教育资源线上和线下的结合。我们和培生的合作，
-              就是希望利用传统线下资源的优势和线上资源的优势，把两者相结合起来，能够把整个数字教育的进程推进得更加有效。”熊立进一步解释说。
+                "I think we are interoperable in teaching resources. Pei Sheng may have a bigger education market overseas, and we have done a lot of online and offline integration of educational resources at home. Our cooperation with Pei Sheng,
+                It is hoped that the combination of the advantages of traditional offline resources and online resources can promote the whole process of digital education more effectively. Xiong Li further explained.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              此前的4月初，网龙网络公司收购了全球领先学习社区Edmodo。Edmodo平台是全球最大最活跃的学习社区平台之一，拥有超过9，000万注册用户，
-              遍布192个国家的400，000所学校，是一个为K-12学校提供面向教师、学生、管理人员和家长的通信和协作平台。
+                Earlier in early April, Netdragon Networks acquired Edmodo, the world's leading learning community. Edmodo is one of the largest and most active learning community platforms in the world, with over 90 million registered users.
+                Over 400,000 schools in 192 countries are a communication and collaboration platform for K-12 schools for teachers, students, managers and parents.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              熊立表示，希望通过这次收购，向打造终身学习平台的目标进发，让网龙的教育产品能够更加全面，至于下一步能否走得更好，还需要付出很大的努力。
+                Xiong Li said that he hoped that through this acquisition, he would make progress towards the goal of creating a lifelong learning platform, so that the educational products of Netdragon could be more comprehensive. As for whether it could go better in the next step, great efforts still need to be made.
             </p><br/>
           </span>
           <span slot="footer" class="dialog-footer">
-            <el-button type="primary" @click="sybox3_dialog3 = false">返 回</el-button>
+            <el-button type="primary" @click="sybox3_dialog3 = false">Return</el-button>
           </span>
         </el-dialog>
         <el-dialog title="林拥军" :visible.sync="sybox3_dialog4" width="60%">
           <span>
             <img src="../../assets/images/sy/sybox3_pic4.jpg" alt="">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              林拥军介绍，城市数据湖是想给城市构建一个大数据的水利基础设施，利用光存储技术降低全社会数据存储的成本及数据存储的能耗，更有利的发展大数据产业。
-              林拥军认为，数据湖建设要分三个阶段，一是建湖搭建大数据仓库，二是引水把社会数据资源引流到湖里，三是数据资源的开发利用。
+                Lin Yongjun said that the city data lake is to build a large data water infrastructure for the city, use optical storage technology to reduce the cost of data storage and energy consumption of data storage for the whole society, and more conducive to the development of large data industry.
+                Lin Yongjun believes that the construction of data lake should be divided into three stages: building a large data warehouse in the lake, diverting social data resources to the lake, and exploiting and utilizing data resources.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              “数据湖是大家共同搭建起的基础设施平台，把大量数据存续下来，开放给企业和创业团队，完善城市管理、公共服务，对产业转型升级提供支撑。
-              这种模式将极大丰富现在的大数据产业。”他说。
+                "The data lake is an infrastructure platform built by all of us. It keeps a large amount of data, opens it to enterprises and entrepreneurship teams, improves urban management and public services, and provides support for industrial transformation and upgrading.
+                This model will greatly enrich the current big data industry. He said.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              针对城市数据湖对数字中国建设的意义，林拥军表示，它将起到先导性、基础性支撑作用。“未来每个城市都会有它的数据湖，‘湖’的规模有大有小，
-              这将成为城市发展的标配，为区域发展提供综合性数据存储服务。”
+                In view of the significance of urban data lake to the construction of digital China, Lin Yongjun said that it would play a leading and basic supporting role. "In the future, every city will have its data lake, and the scale of the lake will be large or small.
+                This will become the standard of urban development and provide comprehensive data storage services for regional development.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              分析数据湖与云计算之间的关系时，林拥军解释说，很多公有云数据中心，以计算为主，强调计算性能优先，可以称作热数据，热数据从产生两周后，
-              访问频率降低就变成冷数据。“现在一个城市中既有数据湖也有云，云是负责处理热数据，湖负责存储冷数据。这样会形成一个冷热的生态。”
-              他认为，两者之间不会替代，而是共同构成了生态体系。
+                When analyzing the relationship between data lake and cloud computing, Lin explained that many public cloud data centers focus on computing, emphasizing the priority of computing performance, which can be called thermal data. Thermal data is generated two weeks later.
+                When the access frequency decreases, it becomes cold data. "Now there are both data lakes and clouds in a city. Clouds are responsible for processing thermal data and lakes for storing cold data. This will create a hot and cold ecology.
+                He believes that the two will not replace each other, but constitute an ecological system together.。
             </p><br/>
           </span>
           <span slot="footer" class="dialog-footer">
-            <el-button type="primary" @click="sybox3_dialog4 = false">返 回</el-button>
+            <el-button type="primary" @click="sybox3_dialog4 = false">Return</el-button>
           </span>
         </el-dialog>
         <el-dialog title="熊群力--加快构建新一代信息基础设施 助力数字中国发展" :visible.sync="sybox3_dialog5" width="60%">
           <span>
             <img src="../../assets/images/sy/sybox3_pic5.jpg" alt="">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              构建全要素感知体系 搭建数字化服务平台
+                Constructing Total Factor Perception System and Building Digital Service Platform
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              传统信息基础设施不包括感知层，近两年中国电科一直在做的一件事就是把对现实世界的万事万物的感知统一起来。
+                The traditional information infrastructure does not include the perception layer. One thing that China Electrical Science has been doing in the past two years is to unify the perception of everything in the real world.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              怎么统一？熊群力认为核心是数据层面的统一，就是把所有的数据用统一的标准、统一的定义、统一的规范整理出来。不管是感知的物体温度、
-              运动速度、形态，还是运动过程，都能够用数据群组表现。当数据之间实现处理、融合、交换，数据就变成了一种生产要素。
+                How to unify? Xiong Qunli believes that the core is the unification of data level, that is, to sort out all data with unified standards, definitions and norms. Whether it's the perceived object temperature,
+                Motion speed, shape, or motion process can be represented by data groups. When data are processed, fused and exchanged, data becomes a factor of production.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              熊群力认为，建设新一代信息基础设施，首先各方在理念上、认识上必须更进一步。新一代信息基础设施是在统一的数据标准体系框架内，
-              构建全要素的感知体系，打破信息孤岛，搭建基于大数据的服务平台，实现感知、传输、存储、开发和人工智能赋能下的增值应用，
-              助力政府提供更具价值的公共服务，为数字中国、智慧社会建设提供数字化、智慧化的信息基础设施和应用支撑。
+                Xiong Qunli believes that in order to build a new generation of information infrastructure, first of all, all parties must make further conceptual and cognitive progress. The new generation of information infrastructure is within the framework of a unified data standard system.
+                Construct the perception system of all factors, break the information island, build a service platform based on big data, and realize the value-added application of perception, transmission, storage, development and artificial intelligence.
+                Help the government to provide more valuable public services, and provide digital and intelligent information infrastructure and application support for the construction of digital China and intelligent society.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                在推进示范应用方面，熊群力介绍说，中国电科积极与地方政府和行业部门合作，比如联合上海市在嘉定区开展试点，大力推进“物联、数联、
-                智联”三位一体的新型城域物联专网建设，推动城市数字转型和新一轮高质量发展。
+                In promoting demonstration applications, Xiong Qunli said that China Electrical Science and Technology has actively cooperated with local governments and industry departments, such as jointly launching pilot projects in Jiading District in Shanghai, and vigorously promoting the "Material, Digital, and Digital Couplings".
+The construction of the three-in-one new metropolitan Federation of things special network promotes the digital transformation of cities and a new round of high-quality development.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              大数据应用前景广阔 开放创新激发数字化活力
+                Broad Application Prospect of Big Data, Open Innovation and Digital Vitality
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              数据是智慧社会的核心要素，已经融入日常生活，成为生活中的基础性资源。
+                Data is the core element of intelligent society, which has been integrated into daily life and become the basic resources in life.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              “大数据的应用，我们国家走在了世界前列。”熊群力认为，大数据的应用过程虽然漫长，但前景广阔。数据的应用要从行业入手，要对行业本身与经济相关的所有关联数据进行大据分析和处理，
-              才能更好地助力政府提供更具价值的公共服务，为智慧社会建设提供数字化、智慧化的信息基础设施。
+                "Our country is at the forefront of the world in the application of big data." Xiong Qunli believes that although the application process of big data is long, it has broad prospects. The application of data should start from the industry, and analyze and process all relevant data related to the industry itself and the economy.
+                Only in this way can we better help the government to provide more valuable public services and provide digital and intelligent information infrastructure for the construction of a wise society.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              熊群力表示，巨大的应用需求是中国大数据应用创新的重要动力。目前，中国在不断探索和创新大数据相关应用，并且在数据利用方面取得一定成绩。他以贵州应用大数据的情况为例说，
-              在高速路上用大数据寻找某一个塌方段的伤亡的情况，不管有什么车辆，还是有什么人员，在大数据的支持下很快就可以找到。
+                Xiong Qunli said that the huge application demand is an important driving force for the innovation of big data application in China. At present, China is constantly exploring and innovating big data related applications, and has made some achievements in data utilization. He cited the application of big data in Guizhou as an example.
+                Using big data to find casualties in a landslide section on the highway, no matter what vehicle or personnel, can be found quickly with the support of big data.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              　熊群力表示，中国发展大数据的理念和认识比较超前，提出数字经济的思想具有前瞻性。但具体到大数据技术方面，在数据基本算法、工具方面还存在一定差距。他建议，要通过改革激发科研人员活力，
-              通过国际间合作，引进消化吸收新技术，从而推动大数据创新发展，激发数字化社会创新活力。
+                　Xiong Qunli said that the concept and understanding of China's development of big data are advanced, and the idea of putting forward digital economy is forward-looking. However, there are still some gaps in basic data algorithms and tools when it comes to big data technology. He suggested that we should stimulate the vitality of scientific researchers through reform.
+                Through international cooperation, the introduction of digestion and absorption of new technologies will promote the innovation and development of big data and stimulate the innovation vitality of digital society.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              加强基础性科学研究 构建新一代信息基础设施
+                Strengthening Basic Scientific Research and Constructing a New Generation of Information Infrastructure
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              电子信息技术与现代科学关系紧密，为国民经济发展做出了重要贡献。尽管在应用领域，中国已经走在前列，但仍需进一步解决关键领域的“卡脖子”问题。
+                Electronic information technology is closely related to modern science and has made important contributions to the development of national economy. Although China has been in the forefront of the application field, it still needs to further solve the "sticking neck" problem in key areas.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              熊群力认为，中国在电子信息技术的基础研究领域比较薄弱，未来应加大科研创新投入，在基础研究领域实现整体布局、统筹规划。
+                Xiong Qunli believes that the basic research fields of electronic information technology in China are relatively weak. In the future, we should increase investment in scientific research and innovation, and achieve overall layout and overall planning in the basic research fields.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              具体到中国电科来说，熊群力表示，近些年企业加大了在基础领域的布局，甚至进入到材料、底层科学技术的研究中。此外，中国电科还不断加强系统性布局。“我们虽然是一个集团，但是各个成员单位有各自的科研方向、
-              科研内容，我们要加强内部的整合，形成系统，形成体系。”熊群力说，在这一思路的指引下，中国电科给自己定了一个目标，希望到本世纪中叶，成为世界一流的创新型领军企业。
+                Specifically for China Science and Technology, Xiong Qunli said that in recent years, enterprises have increased their layout in the basic areas, and even entered the research of materials, underlying science and technology. In addition, the systematic layout of China Electrical Science has been continuously strengthened. "Although we are a group, each member unit has its own research direction.
+                In terms of scientific research content, we should strengthen internal integration, form a system and form a system. Xiong Qunli said that under the guidance of this idea, China Electrical Technology has set a goal for itself, hoping to become the world's first-class innovative leader by the middle of this century.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              　加快构建新一代信息基础设施，对增强人民福祉具有积极作用。熊群力说，中国电科未来将继续按照党中央、国务院部署，积极投身新一代信息基础设施的建设进程中。
+                　Speeding up the construction of a new generation of information infrastructure will play a positive role in enhancing people's well-being. Xiong Qunli said that in the future, China Electricity will continue to actively participate in the construction of a new generation of information infrastructure in accordance with the deployment of the Party Central Committee and the State Council.
             </p><br/>
           </span>
           <span slot="footer" class="dialog-footer">
-            <el-button type="primary" @click="sybox3_dialog5 = false">返 回</el-button>
+            <el-button type="primary" @click="sybox3_dialog5 = false">Return</el-button>
           </span>
         </el-dialog>
         <el-dialog title="张桂平--数字经济和新消费成为经济发展新引擎" :visible.sync="sybox3_dialog6" width="60%">
           <span>
             <img src="../../assets/images/sy/sybox3_pic6.jpg" alt="">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             以下为访谈主要内容： 
+                The following are the main contents of the interview:
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              主持人：您提到大力发展数字经济是目前的提案热点，能不能展开讲一下您对数字经济的看法？
+                Moderator: You mentioned that vigorously developing digital economy is the current hot spot of the proposal. Can you start to talk about your views on digital economy?
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              张桂平：数字经济是一种新的经济形态，已经渗透到各个经济环节。推动数字经济蓬勃发展，成为经济增长的新动力。当前，我国数字经济发展已经从跟跑、
-              并跑向领跑逐步转变，但仍然存在发展不均衡，企业数字化改造面临壁垒较高，数字化转型服务支撑能力不足等问题。因此，我在提案中建议：
-              一是要以政府数字转型助推产业数字转型；二是要为数字经济发展提供良好环境；三是要通过创新和服务能力提升，助推服务生态形式升级。我认为，
-              能够破除以上几点问题，我国的数字经济一定还能上一个新台阶。
+                Zhang Guiping: Digital economy is a new economic form, which has penetrated into all economic links. Promoting the vigorous development of digital economy has become a new driving force for economic growth. At present, the development of digital economy in China has followed.
+                It has been gradually transformed into a leader, but there are still some problems, such as unbalanced development, high barriers to digital transformation of enterprises and insufficient supporting capacity of digital transformation services. Therefore, in my proposal, I suggest that:
+                Firstly, we should promote industrial digital transformation by government digital transformation; secondly, we should provide a good environment for the development of digital economy; thirdly, we should promote the upgrading of service ecological form through innovation and service capacity enhancement. In my submission,
+                To overcome these problems, China's digital economy will surely reach a new level.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              　主持人：我们注意到您在这次提案中还关注了一个比较新的概念就是新消费的发展，能不能再简单介绍一下？
+                　Moderator: We have noticed that you have also paid attention to a relatively new concept in this proposal, namely, the development of new consumption. Could you give us a brief introduction?
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              张桂平：如今新消费的模式在实践中层出不穷，逐渐成为经济发展的新引擎，构建全时空的新消费生态圈及其自身体系，对发展新消费至关重要。
-              当然，我国新消费领域也还存在一些问题，比如企业对新消费概念的把握不够准确，中华文化元素彰显不明显等。
+                Zhang Guiping: Nowadays, new consumption patterns emerge endlessly in practice and gradually become the new engine of economic development. It is very important to build a new consumption ecosphere and its own system in the whole time and space for the development of new consumption.
+                Of course, there are still some problems in the new consumption field in China, such as inaccurate grasp of the concept of new consumption by enterprises, and obscure display of Chinese cultural elements.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              　在新消费方面我还有一些建议：第一，要制定相关的规划政策措施，建立跨部门的推进机制，要通过大数据科学指导营销互动。
+                　In terms of new consumption, I also have some suggestions. First, we should formulate relevant planning policies and measures, establish cross-sectoral promotion mechanism, and guide marketing interaction through big data science.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              第二，要建立新消费服务标准体系，着重提升服务水平，加强引导养老、教育、医疗、健康等重点领域向规范化、标准化发展。
+                Secondly, we should establish a new system of consumer service standards, focus on improving service levels, and strengthen the guidance to standardize and standardize the development of key areas such as pension, education, medical treatment and health.
             </p><br/>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              第三，就是要讲好中国故事，做好资源汇聚，跨界整合，品牌联动，用文化满足人们对生活品质的追求。
+                Thirdly, we should tell Chinese stories well, gather resources well, integrate across borders, link brands, and use culture to satisfy people's pursuit of quality of life.
             </p><br/>
 
           </span>
