@@ -9,7 +9,7 @@
                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr" />
                             <div>
-                                <a :href="item.href" style="font-size:2.5vh; font-family: STXingkai;">查看内容>></a>
+                                <a :href="item.href" style="font-size:2.5vh; font-family: STXingkai;">View content>></a>
                             </div>
                     </div>   
                 </el-col>
