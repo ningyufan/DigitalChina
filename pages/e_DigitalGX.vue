@@ -10,13 +10,13 @@
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
                         <div class="header_nav">
-                            <el-row class="row_one">
-                                <div class="ce_nav">
+                        <el-row class="row_one">
+                            <div class="ce_nav">
                                 <a href="/DigitalGX">
-                                    <i class="el-icon-star-off">Chinese</i>
+                                    <i class="el-icon-star-off"><label>Chinese</label></i>
                                 </a>
                                 <a href="#">
-                                    <i class="el-icon-star-on">English</i>
+                                    <i class="el-icon-star-on"><label>English</label></i>
                                 </a>
                             </div>
                         </el-row>
@@ -30,8 +30,8 @@
                                     <nuxt-link to="/e_DigitalYS"><li>Digital Yushi</li></nuxt-link>
                                     <nuxt-link to="/e_aboutMe"><li>About us</li></nuxt-link>
                                 </ul>
-                                </div>
-                            </el-row>
+                            </div>
+                        </el-row>
                         </div>
                     </div>
                 </div>

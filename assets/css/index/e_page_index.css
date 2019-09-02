@@ -1,0 +1,207 @@
+.homepage-hero-module,
+  .video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+.video-container .poster img,
+  .video-container video {
+    z-index: 0;
+    position: absolute;
+  }
+
+.video-container .filter {
+  z-index: 1;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  height: 60%;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  /* margin-top: 50vh; */
+  display: table;  
+}
+.title p {
+   color: white;
+   font-size:5vw;
+   display: table-cell;  
+   vertical-align: middle;
+   
+ }
+.but-box div {
+  width: 50%;
+  height: 50%;
+  float: left;
+  font-size: 3vw;
+  text-align: center;
+}
+.but-box div :hover{
+  background-color: beige;
+}
+ .chinese {
+  width: 12vw;
+   float: right;
+   margin-right: 11vw;
+   border: 4px solid white;
+   border-radius:40px 40px 40px 40px;
+ }
+ .english {
+  width: 12vw;
+  float: left;
+   margin-left: 11vw;
+   border: 4px solid white;
+   border-radius:40px 40px 40px 40px;
+}
+.bounceInDown{
+	animation: bounceInDown 3s ease-in;
+ }
+.bounceInLeft{
+	animation: bounceInLeft 7s ease-in;
+ }
+ .bounceInRight{
+	animation: bounceInRight 7s ease-in;
+ }
+ .index_a {
+  color: white; 
+ }
+a:link {
+  text-decoration:none;
+  color: white;
+}
+a:visited {
+  text-decoration:none;
+  color:white;
+}
+a:hover {
+  color:#6eeeee;
+}
+a:active {
+  color:rgb(58, 186, 245);
+}
+
+.header_one {
+  background-image: url('../../images/bg.png');
+  position: relative;
+  background-size: 100vw 100vh;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+.header{
+  width: 100vw;
+  margin: 0 auto;
+  background-image: url('../../images/bg_kuang1.png');
+  background-size: 100vw 100vh;
+  position: relative;
+  height: 100vh;
+}
+.fixed{
+  position: fixed;
+  top: -6vh;
+  z-index: 10;
+  animation: slideInDown .5s;
+}
+.header_nav {
+  height:24vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 16.5vh;
+  float: left;
+  padding-left: 20vh;
+  padding-top: 4vh;
+  font-size: 4vh;
+  z-index:2;
+}
+
+.logo a {
+  color: rgb(51, 135, 214);
+  text-decoration: none;
+ }
+ .logo a:hover {
+  /* font-size: 3.5vh; */
+  color: rgb(10, 190, 245)
+ }
+
+.ce_nav {
+ height: 16vh;
+ float: right;
+ padding-right: 20vh;
+ padding-top: 9vh;
+ font-size: 2.5vh;
+ 
+}
+.nav {
+  /* background-color: bisque; */
+ height: 7.5vh ;
+ width: 80vw;
+ margin: 0 auto; 
+ /* background-color: rgb(160, 232, 250, 0.5); */
+ background-image: url('../../images/bg_nav.png');
+ background-size: 100% 7.5vh ;
+ color: rgb(51, 135, 214);
+}
+.nav ul {
+ list-style: none;
+ padding: 0;
+}
+.nav li {
+ text-align: center;
+ display: inline;
+ line-height: 7.5vh;
+ float: left;
+ width: 16.5%;
+ /* background-color: aqua; */
+ font-size: 3vh;
+ font-family: 华为行楷;
+}
+.nav li:hover {
+  background-image: url('../../images/bg_xuanzhong.png');
+  background-size: 100% 7.5vh ;
+}
+
+
+.nav li:visited {
+  background-image: url('../../images/bg_xuanzhong.png');
+  background-size: 100% 7.5vh ;
+}
+
+
+.header a {
+ color: rgb(51, 135, 214);
+ text-decoration: none;
+}
+.header a:hover {
+ /* font-size: 3.5vh; */
+ color: rgb(10, 190, 245)
+}
+
+.doc{
+  width: 80vw;
+  margin: 0 auto;
+  height: 60vh;
+  z-index: 1;
+  position: absolute;
+  left: 10vw;
+  top: 24vh;
+}
+
+.header .china,
+.header .GX,
+.header .ME,
+.header .shouye,
+.header .YL,
+.header .YS {
+  position: absolute;
+  left: 0vw;
+  top: 24vh;
+}
+
+
+
