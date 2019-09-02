@@ -377,7 +377,7 @@
             <div class="bg2_bt" aos="zoom-in">
                 Promoting Urban Development
             </div>
-            <div class="cn_bg2">
+            <div class="cn_bg2" aos="flip-up">
                 <div class="ct5a">
                     <div class="ct5a1">
                         <br>
