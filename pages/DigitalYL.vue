@@ -41,7 +41,10 @@
             </div>
         </div>
         <ylBody />
-        <div class="footer">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
+         <el-backtop :bottom="100" style="color:transparent">
+            <img src="../assets/images/111.png" alt="" style="color:transparent;" height="90%" width="90%">
+        </el-backtop>
+        <div class="footer4">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
     </div>
 
 
@@ -148,7 +151,7 @@ export default {
     width: 80%;
     margin-left: 10%
 }
-.footer{
+.footer4{
     width: 100%;
     height: 60px;
     background: #2a53a9;

@@ -2,10 +2,10 @@
     <div>
 		<!-- 数字玉林·智慧城市建设板块内容 -->
         <div id="box_cs" class="bk_cs">
-            <el-row class="title_text">
+            <el-row class="title_text" aos="zoom-in">
                 数字玉林·智慧城市建设
 			</el-row>
-			<el-row style="width: 100vw;height: 80vh;top: 7vh;" >
+			<el-row style="width: 100vw;height: 80vh;top: 7vh;">
 				<div id="content" aos="flip-up">
 					<!--特效部分-->
 					<ul class="accordion" id="accordion">
@@ -173,7 +173,7 @@
 		
 		<!-- 数字玉林·“互联网+”政务服务板块 -->
         <div id="box_zw" class="bk_zw">
-            <el-row class="title_text">数字玉林·“互联网+”政务服务</el-row>
+            <el-row class="title_text" aos="zoom-in">数字玉林·“互联网+”政务服务</el-row>
 			<el-row class="zhengwu_module1" aos="fade-up">
 				<template v-if="zw_click == 0">
 					<div class="zw_content">
@@ -303,7 +303,7 @@
 
 		<!-- 数字玉林·智慧旅游建设板块内容 -->
 			<div id="box_ly" class="bk_ly">
-                    <el-row class="title_text">
+                    <el-row class="title_text" aos="zoom-in">
                         数字玉林·智慧旅游建设
 					</el-row>
 					<el-row class="travel_module1">
@@ -387,7 +387,7 @@
 				
 		<!-- 数字玉林·大数据助力精准扶贫板块内容 -->
         <div id="box_fp" class="bk_fp">
-            <el-row class="title_text">
+            <el-row class="title_text" aos="zoom-in">
                 数字玉林·大数据助力精准扶贫
 			</el-row>
 			<el-row >
@@ -434,7 +434,7 @@
 							<!-- <p class="p3">¥<span>8399</span>起</p> -->
 						</div>
 					</a>
-					<a href="" class = "a2" href="/yl_ctfp3" target="_blank">
+					<a class = "a2" href="/yl_ctfp3" target="_blank">
 							<p class="p4">玉林市博白县运用“大数据”盯住民生资金</p>
 							<p class="p5">建立大数据平台进行数据比对，是博白县在广西首创<br>民生资金电子动态监管平台的基础上...</p>
 							<!-- <p class="p6">¥<span>8399</span>起</p> -->
@@ -450,7 +450,7 @@
 							<!-- <p class="p3">¥<span>8499</span>起</p> -->
 						</div>
 					</a>
-					<a href="" class = "a2" href="/yl_ctfp4" target="_blank">
+					<a class = "a2" href="/yl_ctfp4" target="_blank">
 							<p class="p4">玉林市兴业县“扶贫云”大数据助力扶贫</p>
 							<p class="p5">兴业县围绕“三盯三查”（盯政策落实、查不正之风，<br>盯资金安全等专项行动，开发建立兴业县“扶贫云”大数据平台...</p>
 							<!-- <p class="p6">¥<span>8499</span>起</p> -->
@@ -466,7 +466,7 @@
 							<!-- <p class="p3">¥<span>2199</span>起</p> -->
 						</div>
 					</a>
-					<a href="" class = "a2" href="/yl_ctfp5" target="_blank">
+					<a class = "a2" href="/yl_ctfp5" target="_blank">
 							<p class="p4">玉林市陆川米场镇再练电商扶贫“硬招式”</p>
 							<p class="p5">米场镇注重电商扶贫模式的推广，实施农村电商精准<br>扶贫，促进贫困村农产品“上线上网”、畅通“农产品进城”...</p>
 							<!-- <p class="p6">¥<span>2199</span>起</p> -->
@@ -482,7 +482,7 @@
 							<!-- <p class="p3">¥<span>6999</span>起</p> -->
 						</div>
 					</a>
-					<a href="" class = "a2" href="/yl_ctfp6" target="_blank">
+					<a class = "a2" href="/yl_ctfp6" target="_blank">
 							<p class="p4">玉林市博白县民生资金事前监督</p>
 							<p class="p5">今年以来，博白县纪委监委为突破事前监督盲区的问<br>题，对原有民生资金监督平台进行全面升级完善，运用最新的大数据技术...</p>
 							<!-- <p class="p6">¥<span>6999</span>起</p> -->
@@ -496,7 +496,7 @@
 
 		<!-- 数字玉林·扶持地方特色产业板块内容 -->
 		<div id="box_cy" class="bk_cy">
-            <el-row class="title_text">
+            <el-row class="title_text" aos="zoom-in">
                 数字玉林·扶持地方特色产业
 			</el-row>
 			<el-row class="chanye">
@@ -581,7 +581,6 @@
 			
             </div>
     </div>
-</div>
 </template>
 
 <script>

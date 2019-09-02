@@ -8,8 +8,8 @@
                             <div class="titleheader_yl"><a :href="item.href">{{item.title}}</a></div>
                             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                             <hr class="hr_yl" />
-                                <div>
-                                    <a :href="item.href" style="font-size:2vh">View content>></a>
+                                <div aos="zoom-in">
+                                    <a :href="item.href" style="font-size:2.5vh; font-family: STXingkai;">View content>></a>
                                 </div>
                         </div>   
                     </el-col>
@@ -94,9 +94,10 @@
         text-align: center;
     } */
     .detail_yl p{
-    font-size: 2.5vh;
+    font-size: 3vh;
     text-align: justify;
     color:rgb(51, 135, 214);
+    font-family: STXingkai;
     }
     .hr_yl {
     margin: 3vh 0 3vh 0;
@@ -111,6 +112,7 @@
         text-align: center;
         font-size:4vh;
         margin: 2vh auto;
+        font-family: STXingkai;
     }
     </style>
     

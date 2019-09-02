@@ -2,7 +2,7 @@
         <div>
             <!-- 数字玉林·智慧城市建设 -->
             <div id="e_box_cs" class="bk_cs">
-                <el-row class="title_text">
+                <el-row class="title_text" aos="zoom-in">
                         Digital Yulin · Intelligent City Construction
                 </el-row>
                 <el-row style="width: 100vw;height: 80vh;top: 7vh;" >
@@ -173,7 +173,7 @@
             
             <!-- 数字玉林·“互联网+”政务服务板块 -->
             <div id="e_box_zw" class="bk_zw">
-                <el-row class="title_text">Digital Yulin · " Internet + " government services</el-row>
+                <el-row class="title_text" aos="zoom-in">Digital Yulin · " Internet + " government services</el-row>
                 <el-row class="zhengwu_module1" style="overflow-y:auto; " aos="fade-up">
                     <template v-if="zw_click == 0">
                         <div class="zw_content">
@@ -308,7 +308,7 @@
             </div>
             <!-- 数字玉林·智慧旅游建设板块 -->
                 <div id="e_box_ly" class="bk_ly">
-                        <el-row class="title_text">
+                        <el-row class="title_text" aos="zoom-in">
                                 Digital Yulin · Intelligent Tourism Construction
                         </el-row>
                         <el-row class="travel_module1">
@@ -390,7 +390,7 @@
                     </div>
                     <!-- 数字玉林·大数据助力精准扶贫 -->
             <div id="e_box_fp" class="bk_fp">
-                <el-row class="title_text">
+                <el-row class="title_text" aos="zoom-in">
                         Digital Yulin · Big Data Helps Accurate Poverty Alleviation
                 </el-row>
                 <el-row >
@@ -432,7 +432,7 @@
                                 <p class="p2">Establishing a large data platform for data comparison is the foundation of Bobai County's pioneering electronic dynamic supervision ...</p>
                             </div>
                         </a>
-                        <a href="" class = "a2" href="/e_yl_ctfp3" target="_blank">
+                        <a class = "a2" href="/e_yl_ctfp3" target="_blank">
                                 <p class="p4" style="line-height: 3vh;top: 0.3vh;">Bobai County of Yulin City uses "big data" to focus on people's livelihood funds</p>
                                 <p class="p5">Establishing a large data platform for data <br>comparison is the foundation of Bobai County's pioneering electronic dynamic supervision...</p>
                                 <p class="p7">See details</p>
@@ -446,7 +446,7 @@
                                 <p class="p2">Xingye County develops and establishes a large data platform of "poverty alleviation cloud" in Xingye County around special actions such as...</p>
                             </div>
                         </a>
-                        <a href="" class = "a2" href="/e_yl_ctfp4" target="_blank">
+                        <a class = "a2" href="/e_yl_ctfp4" target="_blank">
                                 <p class="p4" style="line-height: 3vh;top: 0.3vh;">"Poverty Alleviation Cloud" Big Data in Xingye County of Yulin City Helps Poverty Alleviation</p>
                                 <p class="p5">Xingye County develops and establishes a large <br>dataplatform of "poverty alleviation cloud" in Xingye County around special actions such as ...</p>
                                 <p class="p7">See details</p>
@@ -460,7 +460,7 @@
                                 <p class="p2">Michang Town pays attention to the promotion of e-commerce poverty alleviation model, implements accurate poverty alleviation of rural e-commerce...</p>
                             </div>
                         </a>
-                        <a href="" class = "a2" href="/e_yl_ctfp5" target="_blank">
+                        <a class = "a2" href="/e_yl_ctfp5" target="_blank">
                                 <p class="p4" style="line-height: 3vh;top: 0.3vh;">"Hard Way" of Poverty Alleviation by E-commerce in Luchuan Michang Town of Yulin City</p>
                                 <p class="p5">Michang Town pays attention to the promotion of <br>e-commerce poverty alleviation model, implements accurate poverty alleviation of rural e-commerce...</p>
                                 <p class="p7">See details</p>
@@ -474,7 +474,7 @@
                                 <p class="p2">Since this year, in order to break through the blind area of prior supervision, the Discipline Commission of Bobai County has comprehensively upgraded...</p>
                             </div>
                         </a>
-                        <a href="" class = "a2" href="/e_yl_ctfp6" target="_blank">
+                        <a class = "a2" href="/e_yl_ctfp6" target="_blank">
                                 <p class="p4" style="line-height: 3vh;top: 0.3vh;">Pre-supervision of livelihood funds in Bobai County, Yulin City</p>
                                 <p class="p5">Since this year, in order to break through the <br>blind areaof prior supervision, the Discipline Commission of Bobai County has comprehensively upgraded and...</p>
                                 <p class="p7">See details</p>
@@ -486,7 +486,7 @@
     </div>
     <!-- 数字玉林·扶持地方特色产业 -->
             <div id="e_box_cy" class="bk_cy">
-                <el-row class="title_text">
+                <el-row class="title_text" aos="zoom-in">
                         Digital Yulin · Supporting Local Characteristic Industries
                 </el-row>
                 <el-row class="chanye">
@@ -568,10 +568,8 @@
                         </div>  
                     </el-col >	
                 </el-row>
-                
-                </div>
+            </div>
         </div>
-    </div>
     </template>
     
     <script>

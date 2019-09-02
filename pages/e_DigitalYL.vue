@@ -10,8 +10,8 @@
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
                         <div class="header_nav">
-                        <el-row class="row_one4">
-                            <div class="ce_nav4">
+                        <el-row class="row_one">
+                            <div class="ce_nav">
                                 <a href="/DigitalYL">
                                     <i class="el-icon-star-off"><label>Chinese</label></i>
                                 </a>
@@ -41,7 +41,10 @@
             </div>
         </div>
         <EylBody />
-        <div class="footer">Development team:Wuzheng Ningyufan Lushimei Yanxiaoqian Huangsisen</div>
+         <el-backtop :bottom="100" style="color:transparent">
+            <img src="../assets/images/111.png" alt="" style="color:transparent;" height="90%" width="90%">
+        </el-backtop>
+        <div class="footer4">Development team:Wuzheng Ningyufan Lushimei Yanxiaoqian Huangsisen</div>
     </div>
 
 
@@ -137,19 +140,6 @@ export default {
     width: 100%;
 }
 
-.ce_nav4 {
- height: 16h;
- float: right;
- padding-right: 20vh;
- padding-top: 9vh;
- font-size: 2.5vh;
- 
-}
-
-.ce_nav4 label{
-  font-family: STXingkai;
-}
-
 .nav_4{
     background-image: url('../assets/images/bg_xuanzhong.png');
     background-size: 100% 7.5vh ;
@@ -162,7 +152,7 @@ export default {
     width: 80%;
     margin-left: 10%
 }
-.footer5{
+.footer4{
     width: 100%;
     height: 60px;
     background: #2a53a9;
@@ -170,5 +160,6 @@ export default {
     font-size: 1.5vw;
     line-height: 4vw;
     font-family:STXingkai;
+    color: #fff;
 }
 </style>

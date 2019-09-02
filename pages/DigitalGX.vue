@@ -40,8 +40,11 @@
                 </div>
             </div>
         </div>
-            <gxindex/>
-        <div class="footer"><myfooter/></div>
+        <gxindex/>
+        <el-backtop :bottom="100" style="color:transparent">
+            <img src="../assets/images/111.png" alt="" style="color:transparent;" height="90%" width="90%">
+        </el-backtop>
+        <div class="footer3"><myfooter/></div>
     </div>
 </template>
 
@@ -147,10 +150,14 @@ export default {
     width: 80%;
     margin-left: 10%
 }
-.footer{
+.footer3{
     width: 100%;
     height: 60px;
-    background: rgb(187, 184, 184);
+    background: #2a53a9;
     text-align: center;
+    font-size: 1.5vw;
+    line-height: 4vw;
+    font-family:STXingkai;
+    color: #fff;
 }
 </style>
