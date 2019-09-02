@@ -35,8 +35,8 @@
                         <h2>Digital Economy</h2>
                         <ul>
                             <li><a href="/e_gx_content7" target="_blank">"Digital +" Enables the Economic and Social Development of Guangxi with High Quality</a></li>
-                            <li><a href="/e_gx_content8" target="_blank">China Hands in Hand with ASEAN to Accelerate Embracing Digital Economy</a></li>
-                            <li><a href="/e_gx_content9" target="_blank">Creating leading enterprises of digital economy to lead the new development of digital Guangxi construction</a></li>
+                            <li><a href="/e_gx_content9" target="_blank">China Hands in Hand with ASEAN to Accelerate Embracing Digital Economy</a></li>
+                            <li><a href="/e_gx_content8" target="_blank">Creating leading enterprises of digital economy to lead the new development of digital Guangxi construction</a></li>
                         </ul>
                     </div>
                 </template>                              
@@ -99,52 +99,104 @@ export default {
     background-image: url(../../assets/images/gx/box7_bgpic.png);
     background-size: 100% 100%;
 }
-.gx_box6 .box6_con .con_nav {
-    width: 25vw;
-    height: 80vh;
-    padding-top: 8vh;
+
+.gx_box6 .box6_con .con_nav1{
+    position: absolute;
+    top: 8vh;
+    z-index: 2;
+    float: left;
+    left: 8%;
+
+}
+.gx_box6 .box6_con .con_nav2{
     position: absolute;
     left: 0;
-    top: 0;
-    /* background-color: rebeccapurple; */
+    top: 28vh;
+     text-align: center;
+    
 }
-.gx_box6 .box6_con .con_nav div{
+.gx_box6 .box6_con .con_nav3{
+    position: absolute;
+    left: 0;
+    top: 49vh;
+     text-align: center;
+
+}
+.gx_box6 .box6_con .con_nav1,
+.gx_box6 .box6_con .con_nav2,
+.gx_box6 .box6_con .con_nav3{
     height: 20vh;
     width: 21vw;
     margin: 2vh auto;
-    /* background-color: #21BBFE;  */
-    border-radius: 40px;
     line-height: 14vh;
-    text-align: center;
+   
     font-size: 4vh;
     color:white
 }
-.gx_box6 .box6_con .con_nav div:hover {
-    color: #21BBFE; 
-}
+/* .gx_box6 .box6_con  .con_nav1:hover,
+.gx_box6 .box6_con  .con_nav2:hover,
+.gx_box6 .box6_con  .con_nav3:hover{
+    transform: scale(1.1,1.1);
+    color: aqua;
+} */
 
-.gx_box6 .box6_con .con_info {
+/* .gx_box6 .box6_con  .con_nav1:hover .ul1 {
+    transform: scale(1.1,1.1);
+    color: aqua;
+} */
+.gx_box6 .box6_con .ul1{
+   position: absolute;
+   left: 20vw;
+   top: -3vh;
+   /* z-index: 5; */
+}
+.gx_box6 .box6_con .ul2{
+   position: absolute;
+   left: 26.5vw;
+   top: -2vh;
+}
+.gx_box6 .box6_con .ul3{
+   position: absolute;
+   left: 26.5vw;
+   top: -2vh;
+}
+/* .gx_box6 .box6_con  .con_nav3:hover ul{
+    transform: scale(1.1,1.1);
+    color: aqua;
+} */
+.gx_box6 .box6_con ul {
+    /* margin: 3vh  0;\ */
     width: 50vw;
-    height: 70vh;
+    height: 30%;
     position: absolute;
-    left: 27.5vw;
-    top: 5vh;
-    overflow: auto;
-    text-align: justify;
-    /* background-color: red; */
+    float: left;
+
 }
-.gx_box6 .box6_con .con_info h2 {
+.gx_box6 .box6_con li {
     margin: 0;
-    color: white;
-}
-.gx_box6 .box6_con .con_info ul {
-    margin: 3vh  0;
-}
-.gx_box6 .box6_con .con_info li {
-    margin: 0;
-    line-height: 8vh;
+    line-height: 7vh;
     font-size: 3vh;
     list-style-image: url(../../assets/images/gx/list_style.png);
     background-size: 100% 100%;
+    float: left;
+    
+}
+.gx_box6 .box6_con .con_nav1:hover{
+    color: aqua;
+}
+.gx_box6 .box6_con .con_nav1:hover a{
+    color: aqua;
+}
+.gx_box6 .box6_con .con_nav2:hover{
+    color: aqua;
+}
+.gx_box6 .box6_con .con_nav2:hover a{
+    color: aqua;
+}
+.gx_box6 .box6_con .con_nav3:hover{
+    color: aqua;
+}
+.gx_box6 .box6_con .con_nav3:hover a{
+    color: aqua;
 }
 </style>
