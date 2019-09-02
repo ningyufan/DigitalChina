@@ -223,7 +223,7 @@
                 <el-row class="zhengwu_module2" aos="flip-right">
                     <el-col class="zhengwu_module2_1">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="row"  style="top: 2vh;">
+                            <div class="yl_row"  style="top: 2vh;">
                                 <div class="col-sm-6">
                                     <div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <div @click="zw_click = 0">
@@ -244,7 +244,7 @@
                     
                     <el-col class="zhengwu_module2_1">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="row"  style="top: 2vh;">
+                            <div class="yl_row"  style="top: 2vh;">
                                 <div class="col-sm-6">
                                     <div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <div @click="zw_click = 1">
@@ -264,7 +264,7 @@
                     </el-col>
                     <el-col class="zhengwu_module2_1" >
                             <div class="bs-example" style="background-color: transparent;border: 0;" >
-                                <div class="row"  style="top: 2vh;">
+                                <div class="yl_row"  style="top: 2vh;">
                                     <div class="col-sm-6">
                                         <div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                             <div @click="zw_click = 2">
@@ -284,7 +284,7 @@
                         </el-col>
                     <el-col class="zhengwu_module2_1">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="row">
+                            <div class="yl_row">
                                 <div class="col-sm-6">
                                     <div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <div @click="zw_click = 3">
