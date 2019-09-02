@@ -5,7 +5,7 @@
                 <el-row>
                 <el-col class="left_col_yl">
                     <div class="detail_yl">
-                        <div class="title_yl" style="font-size: 10vh;"><a :href="item.href">{{item.title}}</a></div>
+                        <div class="titleheader_yl"><a :href="item.href">{{item.title}}</a></div>
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr_yl" />
                             <div>
@@ -109,7 +109,7 @@ border-top:1px solid #6ec1e2;
 }
 .titleheader_yl{
     text-align: center;
-    font-size:10vh;
+    font-size:4vh;
     margin: 2vh auto;
 }
 </style>

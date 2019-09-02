@@ -5,7 +5,7 @@
                     <el-row>
                     <el-col class="left_col_yl">
                         <div class="detail_yl">
-                            <div class="title_yl" style="font-size: 10vh;"><a :href="item.href">{{item.title}}</a></div>
+                            <div class="titleheader_yl"><a :href="item.href">{{item.title}}</a></div>
                             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                             <hr class="hr_yl" />
                                 <div>
@@ -88,11 +88,11 @@
     .detail_yl {
         margin: 10vh 8vw;
       }
-    .detail_yl .title_yl{
+    /* .detail_yl .title_yl{
         font-size: 4vh;
         margin: 2vh auto;
         text-align: center;
-    }
+    } */
     .detail_yl p{
     font-size: 2.5vh;
     text-align: justify;
@@ -109,7 +109,7 @@
     }
     .titleheader_yl{
         text-align: center;
-        font-size:10vh;
+        font-size:4vh;
         margin: 2vh auto;
     }
     </style>

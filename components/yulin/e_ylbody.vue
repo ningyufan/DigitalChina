@@ -620,7 +620,7 @@
                 { rel: 'stylesheet', href: 'css/page-style.css' },
     
                 // 产业模块
-                { rel: 'stylesheet', href: 'css/yl_chanye/style.css' },
+                { rel: 'stylesheet', href: 'css/yl_chanye/yl_style.css' },
     
                 // 扶贫模块
                 { rel: 'stylesheet', href: 'css/yl_chanye/demo.css' },
@@ -681,14 +681,6 @@
     
             });
         },
-        // 城市模块弹出框关闭
-        // dialogClose(done){
-        //     this.$confirm('确认关闭？')
-        //       .then(_ => {
-        //         done();
-        //       })
-        //       .catch(_ => {});
-        // },
             // 扶贫模块
         fp(){
             $('li').mouseenter(function(){

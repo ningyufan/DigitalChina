@@ -41,7 +41,7 @@
             </div>
         </div>
         <ylBody />
-        <div class="footer">footer</div>
+        <div class="footer">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
     </div>
 
 
@@ -151,7 +151,12 @@ export default {
 .footer{
     width: 100%;
     height: 60px;
-    background: rgb(187, 184, 184);
+    background: #2a53a9;
     text-align: center;
+    font-size: 1.5vw;
+    line-height: 4vw;
+    font-family:STXingkai;
+    color: white;
+    /* margin-bottom: 4vh; */
 }
 </style>
