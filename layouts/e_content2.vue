@@ -4,7 +4,7 @@
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
                         <div class="header_nav1">
-                            <div class="row1_one">
+                            <!-- <div class="row1_one">
                                 <div class="ce_nav1">
                                     <a href="#">
                                         <i class="el-icon-star-off">Chinese</i>
@@ -13,7 +13,7 @@
                                         <i class="el-icon-star-on">English</i>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="row1_two">
                                 <div class="nav">
                                     <ul>

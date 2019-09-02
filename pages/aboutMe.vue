@@ -152,23 +152,10 @@
         </div>
     </div>
 
-        <el-backtop  :bottom="100">
-             <div
-                style="{
-                    height: 100%;
-                    width: 100%;
-                    background-color: #f2f5f6;
-                    box-shadow: 0 0 6px rgba(0,0,0, .12);
-                    text-align: center;
-                    line-height: 40px;
-                    color: #1989fa;
-                    border-radius: 20px;
-                }"
-                >
-            <i class="el-icon-caret-top"></i>
-            </div> 
-        </el-backtop>
-        <div class="footer6">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
+    <el-backtop :bottom="100" style="color:transparent">
+        <img src="../assets/images/111.png" alt="" style="color:transparent;" height="100%" width="100%">
+    </el-backtop>
+    <div class="footer6">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
         
     </div>
 </template>
