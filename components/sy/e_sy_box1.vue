@@ -106,7 +106,7 @@ export default {
     animation: sybox1_t 1s linear 3;
 }
 
- @keyframes sybox1_t{
+@keyframes sybox1_t{
     33.3%{
         font-size: 4vh;
     }
