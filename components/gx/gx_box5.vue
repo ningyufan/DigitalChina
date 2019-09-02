@@ -39,8 +39,7 @@
                 :visible.sync="dialog1"
                 width="60%">
                 <span>
-                    <video
-                        autoplay loop 
+                    <video controls loop 
                         lass="fillWidth" 
                         width="100%">
                         <source src="../../assets/video/gx_box6_video1.mp4" type="video/mp4"/>

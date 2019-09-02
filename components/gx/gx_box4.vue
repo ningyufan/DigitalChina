@@ -124,7 +124,7 @@ export default {
     top: 6vh;
     line-height: 6vh;
     text-align: center;
-    font-size: 20px;
+    font-size:4vh;
 }
 .gx_box4 .box4_con1 .con1_info p,
 .gx_box4 .box4_con3 .con3_info p
@@ -134,6 +134,7 @@ export default {
     position: absolute;
     left: 5vw;
     top: 12vh;
+    font-size: 2.5vh;
 
 }
 
@@ -170,7 +171,7 @@ export default {
     top: 6vh;
     line-height: 6vh;
     text-align: center;
-    font-size: 20px;
+    font-size: 4vh;
 }
 .gx_box4 .box4_con2 .con2_info p
 {
@@ -179,6 +180,7 @@ export default {
     position: absolute;
     right: 5vw;
     top: 12vh;
+    font-size: 2.5vh
 
 }
 .gx_box4 .box4_con2 div:nth-child(2)
