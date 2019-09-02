@@ -2,7 +2,7 @@
     <div>
         <!-- box1 -->
         <div class="ysblockjs" id="ebox1_ys">
-            <div class="title_js">Yulin Normal University——Big Data College</div>
+            <div class="title_js" aos="zoom-in">Yulin Normal University——Big Data College</div>
                 <div aos="flip-up">
                 <div class="box1_js">
                     <img src="@/assets/images/ysblock/img1_js.jpg" class="img1_js" height="100%" width="100%">
@@ -29,7 +29,7 @@
 
         <!-- box2 -->
         <div class="ysblockfazj" id="ebox2_ys">
-            <div class="title1_zj">Big Data College——Development Course</div>
+            <div class="title1_zj" aos="zoom-in">Big Data College——Development Course</div>
             <div aos="fade-right">
                 <div class="box0_zj"></div>
                 <div class="box1_zj">
@@ -99,7 +99,7 @@
 
         <!-- box3 -->
         <div class="ysblockxq" id="ebox3_ys">
-            <div class="title_xq">Big Data College——Construction Achievements</div>
+            <div class="title_xq" aos="zoom-in">Big Data College——Construction Achievements</div>
             <div class="box1_xq" aos="fade-up-right">
                 <div class="img1_1_xq">
                     <img src="@/assets/images/ysblock/img2_xq.png" class="img1_xq" height="100%" width="100%">
@@ -141,7 +141,7 @@
 
         <!-- box4 -->
         <div class="ysblockxw" id="ebox4_ys">
-            <div class="title_xw">Big Data College——News information</div>
+            <div class="title_xw" aos="zoom-in">Big Data College——News information</div>
             <div class="row_ys" aos="zoom-out-up">    
                 <div class="one_ys" >
                     <div class="box1_ys">
@@ -181,7 +181,7 @@
             <script  src="js/index_ys5.js"></script>
             <div class="block2_ys">
                 <br>
-                <div class="titel2_ys">Big Data College——Student elegance</div>
+                <div class="titel2_ys" aos="zoom-in">Big Data College——Student elegance</div>
                 <div class="animate" data-ani="fadeInDown"  data-delay="100">
                     <div class="box_ys">
                         <div @click="dialogVisible1 = true" class="ys6_ys" style="transform: rotateY(0deg) translateZ(65vh);">

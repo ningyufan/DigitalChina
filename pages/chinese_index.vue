@@ -44,19 +44,19 @@
         <el-backtop :bottom="100" style="color:transparent">
             <img src="../assets/images/111.png" alt="" style="color:transparent;" height="90%" width="90%">
         </el-backtop>
-        <div class="footer1"><myfooter/></div>
+        <div class="footer1">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
     </div>
 </template>
 
 <script>
 import syheader from '../components/sy/sy_header'
 import syindex from '../components/sy/sy_index'
-import myfooter from '../components/public/footer'
+// import myfooter from '../components/public/footer'
 export default {
     components: {
         syheader,
         syindex,
-        myfooter
+        // myfooter
     },
     data () {
         return {
