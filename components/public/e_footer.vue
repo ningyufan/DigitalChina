@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="myfooter">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
+        <div class="footer5">Development team:Wuzheng Ningyufan Lushimei Yanxiaoqian Huangsisen</div>
     </div>
 </template>
 

@@ -306,8 +306,6 @@ export default {
     content: "";
     width: 200%;
     height: 200%;
-    background-image: linear-gradient(60deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 80%);
-    transform: translateX(-100%)
   }
 .gx_box5 .box5_con .con2{
     height: 70vh ;

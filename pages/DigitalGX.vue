@@ -41,17 +41,19 @@
             </div>
         </div>
             <gxindex/>
-        <div class="footer">footer</div>
+        <div class="footer"><myfooter/></div>
     </div>
 </template>
 
 <script>
 import gxHeader from '../components/gx/gxheader.vue' 
 import gxindex from '../components/gx/gxindex.vue' 
+import myfooter from '../components/public/footer'
 export default {
     components:{
         gxHeader,
-        gxindex
+        gxindex,
+        myfooter
     },
     data () {
         return {
