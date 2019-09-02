@@ -37,7 +37,7 @@ html, body {
   opacity: 0.3;
   transform: rotate(-45deg) translate(0, -50px);
   animation: comet 6s infinite;
-  margin-top: 570vh
+  margin-top: 560vh
 }
 .comet:after {
   content: '';
