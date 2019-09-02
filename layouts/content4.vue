@@ -4,7 +4,7 @@
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
                         <div class="header_nav1">
-                            <div class="row1_one">
+                            <!-- <div class="row1_one">
                                 <div class="ce_nav1">
                                     <a href="#">
                                         <i class="el-icon-star-on">中</i>
@@ -13,7 +13,7 @@
                                         <i class="el-icon-star-off">英</i>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="row1_two">
                                 <div class="nav">
                                     <ul>
@@ -35,8 +35,7 @@
                             <div class="ct_main">
                                 <div class="ct_logo" aos="zoom-in">
                                     <span style="color:#00F5FF;">
-                                       <img src="../assets/images/logo.png" height="50vh" width="50vw" alt=""> 
-                                       DigitalChina
+                                       <img src="../assets/images/mobanlogo.png" height="60%" width="60%" alt="">
                                     </span>
                                 </div>
                                 <div class="fg_border"></div>
@@ -60,6 +59,7 @@ export default {
         script:[
             {src:'js/jquery.1.7.1.min.js'},
             {src:'js/aos.js'},
+            {src:'js/particles.min.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
@@ -211,6 +211,7 @@ export default {
     padding-top: 2vh;
     font-size: 4vh;
     z-index:4;
+    margin-left: -10%;
 }
 
 .fg_border{

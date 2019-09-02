@@ -153,7 +153,7 @@
         </div>
 
         <el-backtop :bottom="100" style="color:transparent">
-            <img src="../assets/images/111.png" alt="" style="color:transparent;" height="100%" width="100%">
+            <img src="../assets/images/111.png" alt="" style="color:transparent;" height="90%" width="90%">
         </el-backtop>
         <div class="footer6">Development team:Wuzheng Ningyufan Lushimei Yanxiaoqian Huangsisen</div>
         
