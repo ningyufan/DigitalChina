@@ -41,17 +41,19 @@
             </div>
         </div>
             <syindex/>
-        <div class="footer">footer</div>
+        <div class="footer"><myfooter/></div>
     </div>
 </template>
 
 <script>
 import syheader from '../components/sy/sy_header'
 import syindex from '../components/sy/sy_index'
+import myfooter from '../components/public/footer'
 export default {
     components: {
         syheader,
-        syindex
+        syindex,
+        myfooter
     },
     data () {
         return {

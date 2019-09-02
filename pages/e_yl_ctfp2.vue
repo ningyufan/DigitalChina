@@ -5,7 +5,7 @@
             <div class="title2">Time: 2019-07-16 09:03:39 Source: Yulin News Network-Yulin Daily Author: Journalist Huang Bing</div>       
             <br>
             <div class="font-content">
-                <video src="http://v.yltvb.com/player/vod/player.swf?JcScpVideoPath=mp4:video/2019/wucaiyulin/2019-07-19/wucaiyulin-2019-07-19-01.mp4&player.swf" style="width: 85%;height: 40%;margin-left: 4.5vw;" controls="controls" autoplay="autoplay"></video>
+                <img src="@/assets/images/yulin/fp_p2.jpg" style="width: 60%;height: 20%;margin-left: 8vw;">" style="width: 85%;height: 40%;margin-left: 4.5vw;" controls="controls" autoplay="autoplay"></video>
                 <br>
                 <div>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the autumn of 2019, the students from poor families with archived cards in high schools and secondary vocational schools in Yulin City can directly reduce and exempt tuition fees, and quickly go through the admission procedures and related subsidies. On July 15, the reporter learned from the Yulin City Student Aid Management Office that in order to comprehensively promote the work of eliminating poverty and tackling the key problems in education in our city, realize the precise education assistance, and effectively guarantee that the students from poor households (hereinafter referred to as "students from poor households") who set up archives to support "one without missing", the city has established "city-county-township (town) -school". ” Four-tier dynamic big data comparison mechanism, for poor students to build a "green channel" to go to school, this practice is still the first in Guangxi.<br><br>
