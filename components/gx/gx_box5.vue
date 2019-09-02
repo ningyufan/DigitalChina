@@ -3,7 +3,7 @@
         <div class="tab" aos = "zoom-in">
             智慧教育
         </div>
-        <div class="tab_two">
+        <div class="tab_two" aos = "zoom-in" aos-delay = "300">
             广西百校工程院校
         </div>
         <div class="box5_con">

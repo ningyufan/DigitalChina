@@ -1,6 +1,6 @@
 <template>
-    <div class="gx_box1" aos = "zoom-in">
-        <div class="tab">
+    <div class="gx_box1">
+        <div class="tab" aos = "zoom-in">
 				Smart City
 			</div>
 			<div class="con"  aos = "zoom-in">

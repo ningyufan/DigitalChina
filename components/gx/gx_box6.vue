@@ -4,55 +4,36 @@
             数字广西
         </div>
         <div class="box6_con" aos = "zoom-in-down">
-            <div class="con_nav">
-                <div @click="box6_lock = 0">数字政府</div>
-                <div @click="box6_lock = 1">数字社会</div>
-                <div @click="box6_lock = 2">数字经济</div>
-            </div>
-            <div class="con_info">
-                <template v-if="box6_lock == 0">
-                    <div>
-                        <h2>数字政府</h2>
-                        <ul>
-                            <li><a href="/gx_content1" target="_blank">一图看懂数字广西建设大会</a></li>
-                            <li><a href="/gx_content2" target="_blank">广西数字政务一体化平台“一窗通”上线试运行 全面提升开办企业效率</a></li>
-                            <li><a href="/gx_content3" target="_blank">结伴相行 合力攻坚——全区政务数据“聚通用”攻坚在行动</a></li>
-                        </ul>
-                    </div>
-                </template>
-                <template v-if="box6_lock == 1">
-                    <div>
-                        <h2>数字社会</h2>
-                        <ul>
-                            <li><a href="/gx_content4" target="_blank">广西将实施“壮美广西·智慧广电”工程</a></li>
-                            <li><a href="/gx_content5" target="_blank">“五一”旅游新体验：广西最美海岛开通移动5G网络</a></li>
-                            <li><a href="/gx_content6" target="_blank">全国首个5G华为数字小镇在钦州启动</a></li>
-                        </ul>
-                    </div>
-                </template>
-                <template v-if="box6_lock == 2">
-                    <div>
-                        <h2>数字经济</h2>
-                        <ul>
-                            <li><a href="/gx_content7" target="_blank">“数字+”赋能广西经济和社会高质量发展</a></li>
-                            <li><a href="/gx_content8" target="_blank">中国携手东盟加速拥抱数字经济</a></li>
-                            <li><a href="/gx_content9" target="_blank">打造数字经济龙头企业 引领数字广西建设新发展</a></li>
-                        </ul>
-                    </div>
-                </template>                              
-            </div>
+                <div class="con_nav1">数字政府
+                     <ul class="ul1">
+                        <li><a href="/gx_content1" target="_blank">一图看懂数字广西建设大会</a></li>
+                        <li><a href="/gx_content2" target="_blank">广西数字政务一体化平台“一窗通”上线试运行 全面提升开办企业效率</a></li>
+                        <li><a href="/gx_content3" target="_blank">结伴相行 合力攻坚——全区政务数据“聚通用”攻坚在行动</a></li>
+                    </ul>
+                </div>
+                <div class="con_nav2">数字社会</div>
+                <div class="con_nav3">数字经济</div>
+
+        
+               
+    
+                <ul class="ul2">
+                    <li><a href="/gx_content4" target="_blank">广西将实施“壮美广西·智慧广电”工程</a></li>
+                    <li><a href="/gx_content5" target="_blank">“五一”旅游新体验：广西最美海岛开通移动5G网络</a></li>
+                    <li><a href="/gx_content6" target="_blank">全国首个5G华为数字小镇在钦州启动</a></li>
+                </ul>
+        
+                <ul class="ul3">
+                    <li><a href="/gx_content7" target="_blank">“数字+”赋能广西经济和社会高质量发展</a></li>
+                    <li><a href="/gx_content8" target="_blank">中国携手东盟加速拥抱数字经济</a></li>
+                    <li><a href="/gx_content9" target="_blank">打造数字经济龙头企业 引领数字广西建设新发展</a></li>
+                </ul>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            
-            box6_lock:0,
-        }
-    },
 }
 </script>
 
@@ -99,49 +80,78 @@ export default {
     background-image: url(../../assets/images/gx/box7_bgpic.png);
     background-size: 100% 100%;
 }
-.gx_box6 .box6_con .con_nav {
-    width: 25vw;
-    height: 80vh;
-    padding-top: 8vh;
+
+.gx_box6 .box6_con .con_nav1{
     position: absolute;
     left: 0;
-    top: 0;
-    /* background-color: rebeccapurple; */
+    top: 5vh;
+
 }
-.gx_box6 .box6_con .con_nav div{
+.gx_box6 .box6_con .con_nav2{
+    position: absolute;
+    left: 0;
+    top: 27vh;
+     text-align: center;
+    
+}
+.gx_box6 .box6_con .con_nav3{
+    position: absolute;
+    left: 0;
+    top: 49vh;
+     text-align: center;
+
+}
+.gx_box6 .box6_con .con_nav1,
+.gx_box6 .box6_con .con_nav2,
+.gx_box6 .box6_con .con_nav3{
     height: 20vh;
     width: 21vw;
     margin: 2vh auto;
-    /* background-color: #21BBFE;  */
-    border-radius: 40px;
     line-height: 14vh;
-    text-align: center;
+   
     font-size: 4vh;
     color:white
 }
-.gx_box6 .box6_con .con_nav div:hover {
-    color: #21BBFE; 
+.gx_box6 .box6_con  .con_nav1:hover,
+.gx_box6 .box6_con  .con_nav2:hover,
+.gx_box6 .box6_con  .con_nav3:hover{
+    transform: scale(1.1,1.1);
+    color: aqua;
 }
 
-.gx_box6 .box6_con .con_info {
+.gx_box6 .box6_con  .con_nav1:hover .ul1 {
+    transform: scale(1.1,1.1);
+    color: aqua;
+}
+.gx_box6 .box6_con .ul1{
+   position: absolute;
+   left: 25vw;
+   top: 5vh;
+}
+.gx_box6 .box6_con .ul2{
+   position: absolute;
+   left: 25vw;
+   top: 27vh;
+}
+.gx_box6 .box6_con .ul3{
+   position: absolute;
+   left: 25vw;
+   top: 49vh;
+}
+.gx_box6 .box6_con  .con_nav3:hover ul{
+    transform: scale(1.1,1.1);
+    color: aqua;
+}
+.gx_box6 .box6_con ul {
+    /* margin: 3vh  0;\ */
     width: 50vw;
-    height: 70vh;
+    height: 30%;
     position: absolute;
-    left: 27.5vw;
-    top: 5vh;
-    overflow: auto;
-    /* background-color: red; */
+
 }
-.gx_box6 .box6_con .con_info h2 {
+.gx_box6 .box6_con li {
     margin: 0;
-    color: white;
-}
-.gx_box6 .box6_con .con_info ul {
-    margin: 3vh  0;
-}
-.gx_box6 .box6_con .con_info li {
-    margin: 0;
-    line-height: 8vh;
+    line-height: 7vh;
     font-size: 3vh;
     list-style-image: url(../../assets/images/gx/list_style.png);
     background-size: 100% 100%;
