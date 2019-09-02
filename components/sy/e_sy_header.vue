@@ -14,7 +14,7 @@
                     </div>   
                 </el-col>
                 <el-col class="sy_right_col">
-                    <a :href="item.href"><img :src="item.img_src" height="60%" width="60%" alt="" style="border-radius:100%;"></a>
+                    <a :href="item.href"><img :src="item.img_src" height="50%" width="60%" alt="" style="border-radius:100%;"></a>
                 </el-col>
             </el-row>
             </el-carousel-item>
@@ -74,13 +74,13 @@ export default {
 </script>
 <style>
 .sy_left_col{
-    width: 60%;
+    width: 70%;
     height: 60vh;
     float: left;
   
   }
   .sy_right_col {
-    width: 40%;
+    width: 30%;
     height: 60vh;
     margin-top: 6vh;
     float: right;
@@ -108,4 +108,9 @@ export default {
   .sy_detail div {
       text-align: center;
   }
+
+.sy_right_col img{
+    margin-top: 5vh;
+}
+
 </style>

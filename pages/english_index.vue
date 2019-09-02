@@ -13,10 +13,10 @@
                         <el-row class="row_one">
                             <div class="ce_nav">
                                 <a href="/chinese_index">
-                                    <i class="el-icon-star-off">Chinese</i>
+                                    <i class="el-icon-star-off"><label>Chinese</label></i>
                                 </a>
                                 <a href="#">
-                                    <i class="el-icon-star-on">English</i>
+                                    <i class="el-icon-star-on"><label>English</label></i>
                                 </a>
                             </div>
                         </el-row>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="shouye">
-                    <syheader/>
+                    <esyheader/>
                 </div>
             </div>
         </div>
@@ -46,11 +46,11 @@
 </template>
 
 <script>
-import syheader from '../components/sy/sy_header'
+import esyheader from '../components/sy/e_sy_header'
 import esyindex from '../components/sy/e_sy_index'
 export default {
     components: {
-        syheader,
+        esyheader,
         esyindex
     },
     data () {
