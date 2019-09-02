@@ -322,7 +322,7 @@ export default {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -30vh 0 0 -11.2vw;
+    margin: -27vh 0 0 -11.2vw;
     user-select: none;
     transform: translate3d(0, 0, 0);
     transform-style: preserve-3d;
@@ -340,7 +340,7 @@ export default {
   .tariffCards > div {
     position: relative;
     width: 22vw;
-    height: 20vh;
+    height: 19vh;
     border-radius: 12px;
     color: white;
     transform: rotateX(45deg) rotateY(-15deg) rotate(45deg);
