@@ -34,5 +34,6 @@ export default {
     /* font-size: 2vh; */
     text-align: left;
     /* line-height: 2.8vh; */
+    text-align: justify;
 }
 </style>

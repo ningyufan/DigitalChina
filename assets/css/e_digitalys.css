@@ -124,6 +124,7 @@
     color: black;
     line-height: 3vh;
     opacity: 1;
+    text-align: justify;
 }
 
 
@@ -486,10 +487,12 @@
     margin-top: 17.4vh;
 }
 .text1_zj{
-    font-size: 1.65vh
+    font-size: 1.65vh;
+    text-align: justify;
 }
 .text7_zj{
-    font-size: 1.65vh
+    font-size: 1.65vh;
+    text-align: justify;
 }
 .text_1_zj{
     text-align: center;
@@ -588,6 +591,7 @@
     font-size: 2vh;
     line-height: 3vh;
     padding: 1vh 0;
+    text-align: justify;
 }
 .box2_xq{
     margin-top: 15vh;
@@ -619,6 +623,7 @@
     border: 3px double #ccc;
     box-shadow: -5px 3px 3px #111;
     filter:brightness(90%);
+    text-align: justify;
 }
 .text2_xq{
     height: 45vh;
@@ -640,6 +645,7 @@
     font-size: 2vh;
     line-height: 3vh;
     padding: 1vh 0;
+    text-align: justify;
 }
 
 
@@ -706,6 +712,7 @@
     -webkit-transition-duration: 0.5s;
     font-size: 2vh;
     filter:brightness(90%);
+    text-align: justify;
 }
 .line1_ys{
     background-image: url(../../assets/images/ysblock/line1.png);
@@ -742,6 +749,7 @@
     -webkit-transition-duration: 0.5s;
     font-size: 2vh;
     filter:brightness(90%);
+    text-align: justify;
 }
 .line2_ys{
     background-image: url(../../assets/images/ysblock/line1.png);
@@ -781,6 +789,7 @@
     -webkit-transition-duration: 0.5s;
     font-size: 2vh;
     filter:brightness(90%);
+    text-align: justify;
 }
 .line3_ys{
     background-image: url(../../assets/images/ysblock/line1.png);
@@ -818,6 +827,7 @@
     -webkit-transition-duration: 0.5s;
     font-size: 2vh;
     filter:brightness(90%);
+    text-align: justify;
 }
 .line4_ys{
     background-image: url(../../assets/images/ysblock/line1.png);
@@ -854,6 +864,7 @@
     -webkit-transition-duration: 0.5s;
     font-size: 2vh;
     filter:brightness(90%);
+    text-align: justify;
 }
 .line5_ys{
     background-image: url(../../assets/images/ysblock/line1.png);

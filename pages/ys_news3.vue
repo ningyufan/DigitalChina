@@ -27,6 +27,6 @@ export default {
 }
 .newstext3_1_ys{
     text-align: left;
-
+    text-align: justify;
 }
 </style>

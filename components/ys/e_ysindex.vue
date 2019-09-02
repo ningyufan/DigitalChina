@@ -294,7 +294,7 @@
                 <el-dialog
                     title="Department Training | Etiquette Department First training"
                     :visible.sync="dialogVisible1"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The etiquette Department of Data Kingkong Association conducted its first training for freshmen in Classroom 205 at 19:30 p.m. on Friday, October 19, 2018. Before the training, Su Cuiting of the etiquette department first asked each member of the etiquette department to make a brief self-introduction. The main speaker of this training is Su Cuiting. The exhibitors are Huang Jinling of the Ministry of Etiquette and Li Jize and Lin Shengbin of the Training Department. The content of this training is posture etiquette. The main contents are as follows:</div>
@@ -318,7 +318,7 @@
                 <el-dialog
                     title="Managing Dream Life"
                     :visible.sync="dialogVisible2"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On Wednesday, April 4, 2018, the second group of 172 students came to the stage to show their team demeanor, presided over by group leader Chen Zuo.</div>
@@ -333,7 +333,7 @@
                 <el-dialog
                     title="Unlike us"
                     :visible.sync="dialogVisible3"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On Monday, the fifth week, the second group of Computer Class 171 brought a different style of exhibition. What is the difference between girls and girls? Let's go into the classroom together and see their wonderful show.</div>
@@ -356,7 +356,7 @@
                 <el-dialog
                     title="Quality Development"
                     :visible.sync="dialogVisible4"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On Dec. 11, 2017, Mr. Chen Baizhuang led 172 classes to conduct a quality development activity of professional literacy course in 400 meters track and field.</div>
@@ -385,7 +385,7 @@
                 <el-dialog
                     title="172 PPT Team Exhibition"
                     :visible.sync="dialogVisible5"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello, everyone! Welcome to the wonderful class of Computer 172 with Xiaobian's step. On Tuesday, the seventh week, Mr. Chen led the small partners of Computer 172 to Houde 3305 classroom for the last PPT team exhibition. Tell you a little secret, there are seven small partners transferred to the computer 172 class! There are also three small partners because there are some things that have not been reported. Here, let's give them a warm welcome first. Next, Mr. Chen asked the new comers to introduce themselves, and then assigned a new group member to each group.</div>
@@ -412,7 +412,7 @@
                 <el-dialog
                     title="May 4th League Day"
                     :visible.sync="dialogVisible6"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In order to commemorate the 100th anniversary of the May 4th Movement, we should guide all members of the Youth League to inherit the spirit of the May 4th Movement, strengthen their ideals and beliefs, and devote themselves to the new journey of winning the great victory of socialism with Chinese characteristics in the new era. Dada King Kong Association, in conjunction with Computer 161 League Branch, Computer 171 League Branch, Computer 172 League Branch, Java Association, C Language Association and Innovation and Entrepreneurship Association, launched a special theme group day on April 27, 2019 in Confucius Square, "Youth Heart to the Party, Building New Business".</div>
@@ -430,7 +430,7 @@
                 <el-dialog
                     title="Ruiyi Workshop is open now!"
                     :visible.sync="dialogVisible7"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On May 7, 2019, a large group of Ruiyi Workshop officially opened. The small partners of Ruiyi Workshop gathered in Classroom 202 of our Zhixing Building for a brief opening ceremony, which was presided over by our small partners of the Training Department and the big data teacher, Mr. Chen Baizhi.</div>
@@ -453,7 +453,7 @@
                 <el-dialog
                     title="Data Kingkong Association's Conversion Ceremony! "
                     :visible.sync="dialogVisible8"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The big family of Data Kingkong Association gathered in the erudite 1103 classroom on October 27, 2018 to hold a new ceremony. Welcome to the big family of Big Data Association with Xiaobian. In October 2018, the extended family injected new blood and added new family members. Here, Xiaobian warmly welcomes their arrival.</div>

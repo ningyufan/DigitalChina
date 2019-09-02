@@ -27,5 +27,6 @@ export default {
 .newstext2_1_ys{
     /* font-size: 2vh; */
     text-align: left;
+    text-align: justify;
 }
 </style>

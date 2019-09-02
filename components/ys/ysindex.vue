@@ -318,7 +318,7 @@
                 <el-dialog
                     title="驭梦人生"
                     :visible.sync="dialogVisible2"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018年4月4日周三的职素课上，计172班的第二小组的同学上台展示小组团队风采，由组长陈作主持。</div>
@@ -333,7 +333,7 @@
                 <el-dialog
                     title="不一样的我们"
                     :visible.sync="dialogVisible3"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在第五周周一的职素课上，计算机171班第二小组带来了不一样的风采展。全是女生的她们会带来什么不一样的风采呢？让我们一起走进课堂，看看她们的精彩展示。</div>
@@ -356,7 +356,7 @@
                 <el-dialog
                     title="素质拓展"
                     :visible.sync="dialogVisible4"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017年12月11日，陈柏莊老师带领计172班在四百米田径场进行了一场职业素养课程的素质拓展活动。</div>
@@ -385,7 +385,7 @@
                 <el-dialog
                     title="计172PPT团队风采展"
                     :visible.sync="dialogVisible5"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello，大家好！欢迎大家跟随着小编的步伐来到计算机172班的精彩课堂，陈老师在第七周周二，带领着计算机172班的小伙伴们来到厚德3305教室，进行最后一堂PPT团队风采展。告诉大家一个小秘密，有七个小伙伴转来了计算机172班了！还有三个小伙伴因为有一些事情，还没来报到。在这里，我们先给他们一个热烈的欢迎吧！紧接着，陈老师让新来的小伙伴进行自我介绍，随后给每一个组进行分配一个新的组员。</div>
@@ -412,7 +412,7 @@
                 <el-dialog
                     title="五四团日活动"
                     :visible.sync="dialogVisible6"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为纪念五四运动100周年，引导全体团员青年继承五四精神、坚定理想信念、矢志投身新时代夺取中国特色社会主义伟大胜利的新征程。Dada KingKong 协会联合计算机161团支部、计算机171团支部、计算机172团支部、Java协会、C语言协会、创新创业协会，于2019年4月27日在孔子广场开展”青春心向党，建功新立业”特别主题团日活动。</div>
@@ -430,7 +430,7 @@
                 <el-dialog
                     title="瑞翼工坊开课啦！"
                     :visible.sync="dialogVisible7"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019.5.7大一组的瑞翼工坊就正式开班啦，瑞翼工坊的小伙伴们集聚在我们的知行楼202教室进行了简短的开班仪式，开班仪式由我们的培训部小伙伴们和大数据教师陈柏荘老师主持。</div>
@@ -453,7 +453,7 @@
                 <el-dialog
                     title="Data Kingkong协会换届仪式！"
                     :visible.sync="dialogVisible8"
-                    width="60%"
+                    width="50%"
                     center
                     style="height:100vh">
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Kingkong协会这个大家庭于2018年10月27日相聚于博学1103教室举行换届仪式，欢迎大家跟随着小编一起来到大数据协会这个大家庭的换届仪式。2018年10月，这个大家庭注入了新的血液，增添了新的家庭成员。在这里，小编热烈欢迎他们的到来。</div>

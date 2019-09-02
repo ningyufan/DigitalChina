@@ -23,9 +23,6 @@ export default {
 }
 .newstext5_1_ys{
     text-align: left;
-
-}
-.newsimg5_ys{
-    
+    text-align: justify;
 }
 </style>
