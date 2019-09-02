@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div class="bk_cs">
+		<!-- 数字玉林·智慧城市建设板块内容 -->
+        <div id="box_cs" class="bk_cs">
             <el-row class="title_text">
                 数字玉林·智慧城市建设
 			</el-row>
@@ -171,7 +172,7 @@
 		</div>
 		
 		<!-- 数字玉林·“互联网+”政务服务板块 -->
-        <div class="bk_zw">
+        <div id="box_zw" class="bk_zw">
             <el-row class="title_text">数字玉林·“互联网+”政务服务</el-row>
 			<el-row class="zhengwu_module1" aos="fade-up">
 				<template v-if="zw_click == 0">
@@ -216,7 +217,7 @@
 			<el-row class="zhengwu_module2" aos="flip-right">
 				<el-col class="zhengwu_module2_1">
 					<div class="bs-example" style="background-color: transparent;border: 0;" >
-						<div class="row"  style="top: 2vh;">
+						<div class="yl_row"  style="top: 2vh;">
 							<div class="col-sm-6">
 								<div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
 									<div @click="zw_click = 0">
@@ -237,7 +238,7 @@
 				
 				<el-col class="zhengwu_module2_1">
 					<div class="bs-example" style="background-color: transparent;border: 0;" >
-						<div class="row"  style="top: 2vh;">
+						<div class="yl_row"  style="top: 2vh;">
 							<div class="col-sm-6">
 								<div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
 									<div @click="zw_click = 1">
@@ -257,7 +258,7 @@
 				</el-col>
 				<el-col class="zhengwu_module2_1" >
 						<div class="bs-example" style="background-color: transparent;border: 0;" >
-							<div class="row"  style="top: 2vh;">
+							<div class="yl_row"  style="top: 2vh;">
 								<div class="col-sm-6">
 									<div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
 										<div @click="zw_click = 2">
@@ -277,7 +278,7 @@
 					</el-col>
 				<el-col class="zhengwu_module2_1">
 					<div class="bs-example" style="background-color: transparent;border: 0;" >
-						<div class="row">
+						<div class="yl_row">
 							<div class="col-sm-6">
 								<div class="ih-item square effect3 bottom_to_top"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
 									<div @click="zw_click = 3">
@@ -299,7 +300,9 @@
 			</el-row>
 		
 		</div>
-			<div class="bk_ly">
+
+		<!-- 数字玉林·智慧旅游建设板块内容 -->
+			<div id="box_ly" class="bk_ly">
                     <el-row class="title_text">
                         数字玉林·智慧旅游建设
 					</el-row>
@@ -380,8 +383,10 @@
 						 </div>
 					</el-row>
                 </div>
-       
-        <div class="bk_fp">
+	   
+				
+		<!-- 数字玉林·大数据助力精准扶贫板块内容 -->
+        <div id="box_fp" class="bk_fp">
             <el-row class="title_text">
                 数字玉林·大数据助力精准扶贫
 			</el-row>
@@ -488,7 +493,9 @@
 		</div>
 	</el-row>
 </div>
-		<div class="bk_cy">
+
+		<!-- 数字玉林·扶持地方特色产业板块内容 -->
+		<div id="box_cy" class="bk_cy">
             <el-row class="title_text">
                 数字玉林·扶持地方特色产业
 			</el-row>
@@ -596,23 +603,17 @@
             {src:'js/jquery.1.7.1.min.js'},
             {src:'js/aos.js'},
             {src:'scripts/yl_app.js'},
-		
-			// 城市模块
-            // {src:'js/ScrollText.js'},
 			{src:'js/yl_jquery.min.js'},
 
 			{src:'js/jquery-1.12.4.min.js'},
 			{src:'js/popper.min.js'},
 
 
-			// {src:'js/bootstrap.min.js'},
+		
 			// 产业模块
 			{src:'js/yl_chanye/jquery-1.7.2.min.js'},
 			{src:'js/yl_chanye/modernizr.custom.34807.js'},
 			{src:'js/yl_chanye/demo.js'},
-
-			// 扶贫模块
-			// {src:'js/yl_chanye/jquery-1.7.2.min.js'},
 
 			
             
@@ -620,18 +621,13 @@
         link: [
             { rel: 'stylesheet', href: 'js/aos.css' },
             { rel: 'stylesheet', href: 'styles/yl_main.css' },
-            // { rel: 'stylesheet', href: 'css/default.css' },
             { rel: 'stylesheet', href: 'css/normalize.css' },
             { rel: 'stylesheet', href: 'css/demo.css' },
 			{ rel: 'stylesheet', href: 'css/styles.css' },
 			
 			// 城市建设模块
-			// { rel: 'stylesheet', href: 'css/yl_chstyle.css' },
 			{ rel: 'stylesheet', href: 'css/yl_citystyle.css' },
 
-
-
-			// { rel: 'stylesheet', href: 'css/bootstrap.min.css' },
             { rel: 'stylesheet', href: 'css/miktu.css' },
             { rel: 'stylesheet', href: 'css/page-style.css' },
 
@@ -697,15 +693,7 @@
 
 		});
 	},
-	// 城市模块弹出框关闭
-	// dialogClose(done){
-    //     this.$confirm('确认关闭？')
-    //       .then(_ => {
-    //         done();
-    //       })
-    //       .catch(_ => {});
-	// },
-		// 扶贫模块
+	// 扶贫板块方法
 	fp(){
 		$('li').mouseenter(function(){
 			$(this).find('.divA').stop().animate({bottom:'-66px'});
