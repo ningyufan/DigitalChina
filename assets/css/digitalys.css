@@ -10,11 +10,30 @@
     width: 40%;
     margin-left: 30%;
     text-align: center;
-    font-size: 5vh;
-    color: rgb(51, 135, 214);
+    font-size: 6vh;
+    font-family: STXingkai;
+    line-height:11vh;
+   color: rgb(48, 189, 245);
     bottom: 0;
-    line-height: 11vh;
 }
+
+.title_js:hover{
+    animation: title_js 1s linear 3;
+}
+
+ @keyframes title_js{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
+
+
 .box1_js{
     width: 25%;
     height: 28vh;
@@ -386,11 +405,29 @@
     width: 40%;
     margin-left: 30%;
     text-align: center;
-    font-size: 5vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(51, 135, 214);
     bottom: 0;
     line-height: 11vh;
 }
+
+.title1_zj:hover{
+    animation: title1_zj 1s linear 3;
+}
+
+ @keyframes title1_zj{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
+
 .box0_zj{
     width: 3%;
     height: 20vh;
@@ -398,6 +435,7 @@
     margin-left:8%;
     border-bottom: 1.5vh solid rgb(33, 10, 114);
 }
+
 .box1_zj{
     width: 11%;
     height: 20vh;
@@ -533,11 +571,30 @@
     width: 40%;
     margin-left: 30%;
     text-align: center;
-    font-size: 5vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(51, 135, 214);
     bottom: 0;
     line-height: 11vh;
 }
+
+.title_xq:hover{
+    animation: title_xq 1s linear 3;
+}
+
+ @keyframes title_xq{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
+
+
 .box1_xq{
     height: 58vh;
     width: 35%;
@@ -656,11 +713,31 @@
     width: 40%;
     margin-left: 30%;
     text-align: center;
-    font-size: 5vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(51, 135, 214);
     bottom: 0;
     line-height: 11vh;
 }
+
+.title_xw:hover{
+    animation: title_xw 1s linear 3;
+}
+
+ @keyframes title_xw{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
+
+
+
 .one_ys{
     width: 60%;
     background-image: url(../../assets/images/ysblock/block.png);
@@ -933,13 +1010,32 @@
 .titel2_ys{
     height: 8vh;
     width: 40%;
-    font-size: 5vh;
+    font-size: 6vh;
     margin-left: 30%;
-    /* border:2px solid #ccc; */
+    font-family: STXingkai;
     color: rgb(51, 135, 214);
     text-align: center;
     /* border: 1px solid red; */
 }
+
+.titel2_ys:hover{
+    animation: titel2_ys 1s linear 3;
+}
+
+ @keyframes titel2_ys{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
+
+
+
 .title1_scope{
     text-align: center;
 }

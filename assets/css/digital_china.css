@@ -18,17 +18,16 @@
     height: 110vh;
 }
 
-.CN_bg .bg_bt h2{
+.CN_bg .bg_bt{
     width: 100%;
-    position: absolute;
-    left: 40vw;
-    top:5vh;
-    line-height:5vh;
-    font-size: 5vh;
+    text-align: center;
+    line-height:11vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
 }
 
-.CN_bg .bg_bt h2:hover{
+.CN_bg .bg_bt:hover{
     animation: bg3_bt 1s linear 3;
 }
 
@@ -48,7 +47,7 @@
 .Chinaheader_mk{
     width: 80%;
     height: 100%;
-    margin: 15vh 10vw auto;
+    margin: 5vh 10vw auto;
     position: absolute;
 }
 
@@ -108,21 +107,13 @@
 
 
 
-.Chinaheader_col1 h3,.Chinaheader_col2 h3{
-    width: 100%;
-    font-size:4vh;
-    margin:14vh 13vh;
-    color:#00F5FF;
-    text-shadow: -2px 0px 2px
-}
-
-.Chinaheader_col3 h3,.Chinaheader_col4 h3,
-.Chinaheader_col5 h3,.Chinaheader_col6 h3{
+.mk_bt{
     /* height: 100%; */
-    width: 10vw;
+    width: 35vw;
     font-size:4vh;
     margin:14vh 13vh;
     color:#00F5FF;
+    font-family: STXingkai;
     text-shadow: -2px 0px 2px
 }
 
@@ -326,16 +317,15 @@
     height: 100vh;
 }
 
-.CN_bg1 .bg1_bt h2{
-    position: absolute;
-    left: 35vw;
-    top:5vh;
-    line-height:5vh;
-    font-size: 5vh;
+.CN_bg1 .bg1_bt{
+    text-align: center;
+    line-height:11vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
 }
 
-.CN_bg1 .bg1_bt h2:hover{
+.CN_bg1 .bg1_bt:hover{
     animation: bg1_bt 1s linear 3;
 }
 
@@ -353,7 +343,7 @@
 
 .cn_bg1{
     position: relative;
-    top: 15vh;
+    top: 5vh;
     width: 100vw;
     height: 80vh;
 }
@@ -398,16 +388,15 @@
     height: 120vh;
 }
 
-.CN_bg2 .bg2_bt h2{
-    position: absolute;
-    left: 35vw;
-    top:5vh;
-    line-height:5vh;
-    font-size: 5vh;
+.CN_bg2 .bg2_bt{
+    text-align: center;
+    line-height:11vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
 }
 
-.CN_bg2 .bg2_bt h2:hover{
+.CN_bg2 .bg2_bt:hover{
     animation: bg2_bt 1s linear 3;
 }
 
@@ -655,15 +644,13 @@
 	width:  100%;
     height: 10vh;
     top:8vh;
-	/* right: 6vw; */
-}
- .video_bt h2{
-   line-height:5vh;
-   font-size: 5vh;
+	font-size: 6vh;
+    font-family: STXingkai;
+    line-height:5vh;
    color: rgb(48, 189, 245);
 }
 
-.video_bt h2:hover{
+.video_bt:hover{
     animation: video_bt 1s linear 3;
 }
 
@@ -800,9 +787,11 @@
 
 .CN_bg6 .bg4_bt{
     line-height:5vh;
-    font-size: 3.5vh;
+    font-size: 6vh;
+    text-align: center;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
-    margin-left: 43vw;
+    /* margin-left: 43vw; */
 }    
 .CN_bg6 .bg4_bt:hover{
     animation: bg4_bt 1s linear 3;

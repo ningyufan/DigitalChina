@@ -2,7 +2,7 @@
     <div>
         <!-- box1 -->
         <div class="ysblockjs" id="box1_ys">
-            <div class="title_js">玉林师范——大数据学院</div>
+            <div class="title_js" aos="zoom-in">玉林师范——大数据学院</div>
                 <div aos="flip-up">
                 <div class="box1_js">
                     <img src="@/assets/images/ysblock/img1_js.jpg" class="img1_js" height="100%" width="100%">
@@ -29,7 +29,7 @@
 
         <!-- box2 -->
         <div class="ysblockfazj" id="box2_ys">
-            <div class="title1_zj">大数据学院——发展历程</div>
+            <div class="title1_zj" aos="zoom-in">大数据学院——发展历程</div>
             <div aos="fade-right">
                 <div class="box0_zj"></div>
                 <div class="box1_zj">
@@ -99,7 +99,7 @@
 
         <!-- box3 -->
         <div class="ysblockxq" id="box3_ys">
-            <div class="title_xq">大数据学院——建设成果</div>
+            <div class="title_xq" aos="zoom-in">大数据学院——建设成果</div>
             <div class="box1_xq" aos="fade-up-right">
                 <div class="img1_1_xq">
                     <img src="@/assets/images/ysblock/img2_xq.png" class="img1_xq" height="100%" width="100%">
@@ -141,7 +141,7 @@
 
         <!-- box4 -->
         <div class="ysblockxw" id="box4_ys">
-            <div class="title_xw">大数据学院——新闻动态</div>
+            <div class="title_xw" aos="zoom-in">大数据学院——新闻动态</div>
             <div class="row_ys" aos="zoom-out-up">    
                 <div class="one_ys" >
                     <div class="box1_ys">
@@ -181,7 +181,7 @@
             <script  src="js/index_ys5.js"></script>
             <div class="block2_ys">
                 <br>
-                <div class="titel2_ys">大数据学院——学生风采</div>
+                <div class="titel2_ys" aos="zoom-in">大数据学院——学生风采</div>
                 <div class="animate" data-ani="fadeInDown"  data-delay="100">
                     <div class="box_ys">
                         <div @click="dialogVisible1 = true" class="ys6_ys" style="transform: rotateY(0deg) translateZ(65vh);">

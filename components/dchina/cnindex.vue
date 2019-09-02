@@ -2,14 +2,14 @@
     <div class="CN_index">
         <div class="CN_bg" id="cnbg1">
             <div class="bg_bt" aos="zoom-in">
-                <h2>数字经济挑战机遇</h2>
+                数字经济挑战机遇
             </div>    
             <div class="Chinaheader_mk">
                 <el-row class="Chinaheader_row1">
                     <el-col class="Chinaheader_col1 wow zoomIn" data-wow-duration="5s">
-                        <h3  @click="TZ_Visible=true">
+                        <div class="mk_bt"  @click="TZ_Visible=true">
                             "数字社会"运行状态的四个特征
-                        </h3>
+                        </div>
                         <el-dialog :visible.sync="TZ_Visible" width="50%">
                             <div class="Digital_TZ">
                                 <center>
@@ -37,9 +37,9 @@
                         </el-dialog>
                     </el-col>
                     <el-col class="Chinaheader_col2  wow zoomIn" data-wow-duration="5s">
-                        <h3 @click="JZ_Visible=true">
+                        <div class="mk_bt" @click="JZ_Visible=true">
                             数字经济影响城市未来竞争格局
-                        </h3>
+                        </div>
                         <el-dialog :visible.sync="JZ_Visible" width="50%">
                             <div class="Digital_JZ">
                                 <center>
@@ -75,9 +75,9 @@
                 </el-row>
                 <el-row class="Chinaheader_row2">
                     <el-col class="Chinaheader_col3  wow zoomIn" data-wow-duration="5s">
-                        <h3 @click="JY_Visible=true">
+                        <div class="mk_bt" @click="JY_Visible=true">
                             共享机遇
-                        </h3>
+                        </div>
                         <el-dialog :visible.sync="JY_Visible" width="50%">
                             <div class="Digital_JY">
                                 <center>
@@ -109,9 +109,9 @@
                         </el-dialog>
                     </el-col>
                     <el-col class="Chinaheader_col4  wow zoomIn" data-wow-duration="5s">
-                        <h3 @click="RH_Visible=true">
+                        <div class="mk_bt" @click="RH_Visible=true">
                             融合贯通
-                        </h3>
+                        </div>
                         <el-dialog :visible.sync="RH_Visible" width="50%">
                             <div class="Digital_RH">
                                 <center>
@@ -138,9 +138,9 @@
                         </el-dialog>
                     </el-col>
                     <el-col class="Chinaheader_col5  wow zoomIn" data-wow-duration="5s">
-                        <h3 @click="YY_Visible=true">
+                        <div class="mk_bt" @click="YY_Visible=true">
                             隐忧浮现
-                        </h3>
+                        </div>
                         <el-dialog :visible.sync="YY_Visible" width="50%">
                             <div class="Digital_YY">
                                 <center>
@@ -170,9 +170,9 @@
                         </el-dialog>
                     </el-col>
                     <el-col class="Chinaheader_col6  wow zoomIn" data-wow-duration="1s">
-                        <h3 @click="FZ_Visible=true">
+                        <div class="mk_bt" @click="FZ_Visible=true">
                             发展前景
-                        </h3>
+                        </div>
                         <el-dialog :visible.sync="FZ_Visible" width="50%">
                             <div class="Digital_FZ">
                                 <center>
@@ -197,7 +197,7 @@
         </div>
         <div class="CN_bg1" id="cnbg2">
             <div class="bg1_bt" aos="zoom-in">
-                <h2>数字经济——推动新发展</h2>
+                数字经济——推动新发展
                 <!-- <cnbg1/> -->
             </div>
             <div class="cn_bg1">
@@ -345,7 +345,7 @@
         </div>
         <div class="CN_bg2" id="cnbg3">
             <div class="bg2_bt" aos="zoom-in">
-                <h2>数字经济——推动城市发展</h2>
+                数字经济——推动城市发展
             </div>
             <div class="cn_bg2">
                 <div class="ct5a">
@@ -476,7 +476,7 @@
             <div class="bg4_header">
                 <div class="bg4_bk1">
                     <div class="video_bt" aos="zoom-in">
-                        <h2>看“数字经济”</h2>
+                        看“数字经济”
                     </div>
                     <div class="CN_video">
                             <span>
@@ -541,7 +541,7 @@
             <div class="bg4_footer">
                 <div class="CN_yuan">
                     <div class="CN_yuan1"></div>
-                    <div class="bg4_bt" aos="zoom-in"><h2>县域经济发展</h2></div>
+                    <div class="bg4_bt" aos="zoom-in">县域经济发展</div>
                     <div class="CN_yuan2"></div>
                 </div>
                 <div class="bg4_bk2">

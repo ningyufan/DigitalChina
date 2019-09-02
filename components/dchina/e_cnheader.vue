@@ -9,7 +9,7 @@
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr" />
                             <div>
-                                <a :href="item.href" style="font-size:2vh">View content>></a>
+                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;">View content>></a>
                             </div>
                     </div>   
                 </el-col>
@@ -92,11 +92,13 @@ export default {
     font-size: 4vh;
     text-align: center;
     line-height: 5vh;
+    font-family: STXingkai;
   
   }
   .cn_detail p{
-    font-size: 2.5vh;
+    font-size: 3vh;
     text-align:justify;
+    font-family: STXingkai;
     color:rgb(51, 135, 214);
   }
   hr {

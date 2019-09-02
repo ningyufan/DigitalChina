@@ -2,7 +2,7 @@
     <div class="CN_bg5">
         <div class="cn_bg5">
             <canvas id="canvas" class="canvas"></canvas>
-            <div class="bg5_bt">智慧中国</div>
+            <div class="bg5_bt">Wisdom China</div>
             <div class="qiu">
                 <div id="rotate" style="  transform: scale(2.5); ">
 
@@ -198,9 +198,10 @@ export default {
 .bg5_bt{
     position: absolute;
     left: 45vw;
-    top:5vh;
+    top:3vh;
     line-height:5vh;
-    font-size: 5vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
 }
 
@@ -231,9 +232,9 @@ export default {
 	text-align: center;
     position: absolute;
     overflow: hidden;
-    top:16vh;
+    top:15vh;
     /* margin-left: 20vw; */
-    left: 20vw;
+    left: 22vw;
 }
 .qiu>img{
 	margin-bottom: 5vh;

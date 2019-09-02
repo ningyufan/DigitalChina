@@ -227,7 +227,7 @@
         </div>
         <div class="CN_bg1" id="cnbg2">
             <div class="bg1_bt" aos="zoom-in">
-                <h2>Promoting New Development</h2>
+                Promoting New Development
                 <!-- <cnbg1/> -->
             </div>
             <div class="cn_bg1">
@@ -375,7 +375,7 @@
         </div>
         <div class="CN_bg2" id="cnbg3">
             <div class="bg2_bt" aos="zoom-in">
-                <h2>Promoting Urban Development</h2>
+                Promoting Urban Development
             </div>
             <div class="cn_bg2">
                 <div class="ct5a">
@@ -508,7 +508,7 @@
             <div class="bg4_header">
                 <div class="bg4_bk1">
                     <div class="video_bt" aos="zoom-in">
-                        <h2>Look "Digital Economy"</h2>
+                        Look "Digital Economy"
                     </div>
                     <div class="CN_video">
                             <span>
@@ -573,7 +573,7 @@
             <div class="bg4_footer">
                 <div class="CN_yuan">
                     <div class="CN_yuan1"></div>
-                    <div class="bg4_bt" aos="zoom-in"><h2> County Economic Development</h2></div>
+                    <div class="bg4_bt" aos="zoom-in">County Economic Development</div>
                     <div class="CN_yuan2"></div>
                 </div>
                 <div class="bg4_bk2">

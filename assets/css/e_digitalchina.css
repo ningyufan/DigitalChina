@@ -18,15 +18,14 @@
     height: 110vh;
 }
 .CN_bg .bg_bt{
-    position: absolute;
-    left: 35vw;
-    top:5vh;
-    line-height:5vh;
-    font-size: 5vh;
+    text-align: center;
+    line-height:11vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
 }
 
-.CN_bg .bg_bt h2:hover{
+.CN_bg .bg_bt:hover{
     animation: bg3_bt 1s linear 3;
 }
 
@@ -46,7 +45,7 @@
 .Chinaheader_mk{
     width: 80%;
     height: 95vh;
-    margin: 15vh 10vw auto;
+    margin: 5vh 10vw auto;
     position: absolute;
 }
 
@@ -109,9 +108,10 @@
 .bg_tm{
     /* height: 100%; */
     width: 35vw;
-    font-size:2.5vh;
+    font-size:3vh;
     margin:14vh 8vh;
     color:#00F5FF;
+    font-family: STXingkai;
     text-shadow: -2px 0px 2px
 }
 
@@ -316,16 +316,15 @@
     height: 100vh;
 }
 
-.CN_bg1 .bg1_bt h2{
-    position: absolute;
-    left: 35vw;
-    top:5vh;
-    line-height:5vh;
-    font-size: 5vh;
+.CN_bg1 .bg1_bt{
+    text-align: center;
+    line-height:11vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
 }
 
-.CN_bg1 .bg1_bt h2:hover{
+.CN_bg1 .bg1_bt:hover{
     animation: bg1_bt 1s linear 3;
 }
 
@@ -343,7 +342,7 @@
 
 .cn_bg1{
     position: relative;
-    top: 15vh;
+    top: 5vh;
     width: 100vw;
     height: 80vh;
 }
@@ -388,16 +387,15 @@
     height: 120vh;
 }
 
-.CN_bg2 .bg2_bt h2{
-    position: absolute;
-    left: 35vw;
-    top:5vh;
-    line-height:5vh;
-    font-size: 5vh;
+.CN_bg2 .bg2_bt{
+    text-align: center;
+    line-height:11vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
 }
 
-.CN_bg2 .bg2_bt h2:hover{
+.CN_bg2 .bg2_bt:hover{
     animation: bg2_bt 1s linear 3;
 }
 
@@ -632,15 +630,13 @@
 	width:  100%;
     height: 10vh;
     top:8vh;
-	/* right: 6vw; */
-}
- .video_bt h2{
-   line-height:5vh;
-   font-size: 5vh;
-   color: rgb(48, 189, 245);
+	font-size: 6vh;
+    font-family: STXingkai;
+    line-height:5vh;
+    color: rgb(48, 189, 245);
 }
 
-.video_bt h2:hover{
+.video_bt:hover{
     animation: video_bt 1s linear 3;
 }
 
@@ -792,11 +788,12 @@
 
 .bg4_bt{
     line-height:5vh;
-    font-size: 3.5vh;
+    font-size: 6vh;
+    text-align: center;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
-    margin-left: 35vw;
 }    
-.bg4_bt h2:hover{
+.bg4_bt:hover{
     animation: bg4_bt 1s linear 3;
 }
      

@@ -152,7 +152,8 @@ export default {
     text-align: center;
     font-size: 1.5vw;
     line-height: 4vw;
-    font-family:cursive;
+    font-family:STXingkai;
+    color: white;
 }
 
 

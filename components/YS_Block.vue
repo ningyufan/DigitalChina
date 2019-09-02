@@ -9,12 +9,12 @@
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr_ys" />
                             <div>
-                                <a :href="item.href" style="font-size:2vh">查看内容>></a>
+                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;">查看内容>></a>
                             </div>
                     </div>   
                 </el-col>
                 <el-col class="right_col_ys">
-                    <a :href="item.href"><img :src="item.img_src" class="" height="80%" width="80%" style=" border-radius: 50vh"></a>
+                    <a :href="item.href"><img :src="item.img_src" class="" height="90%" width="90%" style=" border-radius: 50vh"></a>
                 </el-col>
             </el-row>
             </el-carousel-item>
@@ -71,14 +71,14 @@ export default {
 
 <style>
 .left_col_ys{
-    width: 60%;
+    width: 70%;
     height: 60vh;
     float: left;
   
   }
 .right_col_ys {
-    width: 40%;
-    height: 50vh;
+    width: 30%;
+    height: 40vh;
     float: right;
     /* margin-right: 2%; */
     /* border: 1px solid red; */
@@ -94,8 +94,9 @@ export default {
     margin: 2vh auto;
 } */
 .detail_ys p{
-font-size: 2.5vh;
+font-size: 3vh;
 text-align: justify;
+font-family: STXingkai;
 color:rgb(51, 135, 214);
 }
 .hr_ys {
@@ -111,5 +112,6 @@ border-top:1px solid #6ec1e2;
     text-align: center;
     font-size: 4vh;
     margin: 2vh auto;
+    font-family: STXingkai;
 }
 </style>
