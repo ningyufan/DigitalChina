@@ -1,6 +1,6 @@
 <template>
     <div class="gx_box5">
-        <div class="tab">
+        <div class="tab" aos = "zoom-in">
             智慧教育
         </div>
         <div class="tab_two">
@@ -246,7 +246,8 @@ export default {
     height: 15vh;
     line-height: 15vh;
     text-align: center;
-    font-size: 5vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
 }
 .gx_box5 .tab_two {
@@ -255,6 +256,7 @@ export default {
     line-height: 6vh;
     text-align: center;
     font-size: 4vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
 }
 .gx_box5 .tab:hover {
