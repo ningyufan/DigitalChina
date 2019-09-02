@@ -11,23 +11,27 @@
                         <li><a href="/gx_content3" target="_blank">结伴相行 合力攻坚——全区政务数据“聚通用”攻坚在行动</a></li>
                     </ul>
                 </div>
-                <div class="con_nav2">数字社会</div>
-                <div class="con_nav3">数字经济</div>
+                <div class="con_nav2">数字社会
+                    <ul class="ul2">
+                        <li><a href="/gx_content4" target="_blank">广西将实施“壮美广西·智慧广电”工程</a></li>
+                        <li><a href="/gx_content5" target="_blank">“五一”旅游新体验：广西最美海岛开通移动5G网络</a></li>
+                        <li><a href="/gx_content6" target="_blank">全国首个5G华为数字小镇在钦州启动</a></li>
+                    </ul>
+                </div>
+                <div class="con_nav3">数字经济
+                    <ul class="ul3">
+                        <li><a href="/gx_content7" target="_blank">“数字+”赋能广西经济和社会高质量发展</a></li>
+                        <li><a href="/gx_content9" target="_blank">打造数字经济龙头企业引领数字广西建设新发展</a></li>
+                        <li><a href="/gx_content8" target="_blank">中国携手东盟加速拥抱数字经济</a></li>
+                    </ul>
+                </div>
 
         
                
     
-                <ul class="ul2">
-                    <li><a href="/gx_content4" target="_blank">广西将实施“壮美广西·智慧广电”工程</a></li>
-                    <li><a href="/gx_content5" target="_blank">“五一”旅游新体验：广西最美海岛开通移动5G网络</a></li>
-                    <li><a href="/gx_content6" target="_blank">全国首个5G华为数字小镇在钦州启动</a></li>
-                </ul>
+                
         
-                <ul class="ul3">
-                    <li><a href="/gx_content7" target="_blank">“数字+”赋能广西经济和社会高质量发展</a></li>
-                    <li><a href="/gx_content8" target="_blank">中国携手东盟加速拥抱数字经济</a></li>
-                    <li><a href="/gx_content9" target="_blank">打造数字经济龙头企业 引领数字广西建设新发展</a></li>
-                </ul>
+                
         </div>
     </div>
 </template>
@@ -83,14 +87,16 @@ export default {
 
 .gx_box6 .box6_con .con_nav1{
     position: absolute;
-    left: 0;
-    top: 5vh;
+    top: 8vh;
+    z-index: 2;
+    float: left;
+    left: 8%;
 
 }
 .gx_box6 .box6_con .con_nav2{
     position: absolute;
     left: 0;
-    top: 27vh;
+    top: 28vh;
      text-align: center;
     
 }
@@ -112,41 +118,43 @@ export default {
     font-size: 4vh;
     color:white
 }
-.gx_box6 .box6_con  .con_nav1:hover,
+/* .gx_box6 .box6_con  .con_nav1:hover,
 .gx_box6 .box6_con  .con_nav2:hover,
 .gx_box6 .box6_con  .con_nav3:hover{
     transform: scale(1.1,1.1);
     color: aqua;
-}
+} */
 
-.gx_box6 .box6_con  .con_nav1:hover .ul1 {
+/* .gx_box6 .box6_con  .con_nav1:hover .ul1 {
     transform: scale(1.1,1.1);
     color: aqua;
-}
+} */
 .gx_box6 .box6_con .ul1{
    position: absolute;
-   left: 25vw;
-   top: 5vh;
+   left: 20vw;
+   top: -3vh;
+   /* z-index: 5; */
 }
 .gx_box6 .box6_con .ul2{
    position: absolute;
-   left: 25vw;
-   top: 27vh;
+   left: 26.5vw;
+   top: -2vh;
 }
 .gx_box6 .box6_con .ul3{
    position: absolute;
-   left: 25vw;
-   top: 49vh;
+   left: 26.5vw;
+   top: -2vh;
 }
-.gx_box6 .box6_con  .con_nav3:hover ul{
+/* .gx_box6 .box6_con  .con_nav3:hover ul{
     transform: scale(1.1,1.1);
     color: aqua;
-}
+} */
 .gx_box6 .box6_con ul {
     /* margin: 3vh  0;\ */
     width: 50vw;
     height: 30%;
     position: absolute;
+    float: left;
 
 }
 .gx_box6 .box6_con li {
@@ -155,5 +163,25 @@ export default {
     font-size: 3vh;
     list-style-image: url(../../assets/images/gx/list_style.png);
     background-size: 100% 100%;
+    float: left;
+    
+}
+.gx_box6 .box6_con .con_nav1:hover{
+    color: aqua;
+}
+.gx_box6 .box6_con .con_nav1:hover a{
+    color: aqua;
+}
+.gx_box6 .box6_con .con_nav2:hover{
+    color: aqua;
+}
+.gx_box6 .box6_con .con_nav2:hover a{
+    color: aqua;
+}
+.gx_box6 .box6_con .con_nav3:hover{
+    color: aqua;
+}
+.gx_box6 .box6_con .con_nav3:hover a{
+    color: aqua;
 }
 </style>
