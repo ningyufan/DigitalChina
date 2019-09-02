@@ -41,15 +41,15 @@ export default {
     },
     head:{
         script:[
-            {src:'js/jquery.1.7.1.min.js'},//aos
-            {src:'js/aos.js'},//aos
+            // {src:'js/jquery.1.7.1.min.js'},//aos
+            // {src:'js/aos.js'},//aos
             {src:'js/particles.min.js'},//背景动画
             // {src:'js/index.js'},//box2_style
         ],
         link: [
-            { rel: 'stylesheet', href: 'css/normalize.css' },//aos
-            { rel: 'stylesheet', href: 'js/aos.css' },//aos
-            { rel: 'stylesheet', href: 'css/styles.css' },//aos
+            // { rel: 'stylesheet', href: 'css/normalize.css' },//aos
+            // { rel: 'stylesheet', href: 'js/aos.css' },//aos
+            // { rel: 'stylesheet', href: 'css/styles.css' },//aos
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans' },//box2_style
             { rel: 'stylesheet', href: 'css/style2.css' },//box2_style
         ]
@@ -58,11 +58,11 @@ export default {
     },
 
     mounted() {
-        AOS.init({
-            easing: 'ease-in-out',
-            duration: 500,
-			once :false
-        });
+        // AOS.init({
+        //     easing: 'ease-in-out',
+        //     duration: 500,
+		// 	once :false
+        // });
         particlesJS('particles-js',{
             "particles": {
                 "number": {

@@ -114,10 +114,6 @@ export default {
         }
     },
     mounted() {
-        AOS.init({
-            easing: 'ease-out-back',
-            duration: 1000
-        });
         this.$nextTick(() => {
             this.handleAnimate()//初始化第一次加载时在视口内就执行动画
             addEventListener('scroll', this.handleScroll);
@@ -152,6 +148,10 @@ export default {
     
     },
     destroyed() {
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
         removeEventListener('scroll', this.handleScroll);//避免影响其他页面
         removeEventListener('scroll', this.handleAnimate);
     },
