@@ -5,7 +5,7 @@
         <div class="title2">时间：2019-07-16 09:03:39 来源：玉林新闻网-玉林日报 作者：记者 黄冰</div>       
         <br>
         <div class="font-content">
-            <video src="http://v.yltvb.com/player/vod/player.swf?JcScpVideoPath=mp4:video/2019/wucaiyulin/2019-07-19/wucaiyulin-2019-07-19-01.mp4&player.swf" style="width: 80%;height: 60%;margin-left: 4.5vw;" controls="controls" autoplay="autoplay"></video>
+            <img src="@/assets/images/yulin/fp_p2.jpg" style="width: 60%;height: 20%;margin-left: 8vw;">
             <br>
             <div>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从2019年秋季期起，玉林市各高中、中职学校的建档立卡贫困户学生到校后可以直接减免学费，快速办理入学手续及办理相关资助。7月15日，记者从玉林市学生资助管理办公室了解到，为全面推动我市教育脱贫攻坚工作，实现教育精准资助，切实保障建档立卡贫困户学生（以下简称“贫困户学生”）资助“一个不漏”，我市建立了“市—县—乡（镇）—校”四级联动大数据比对机制，为贫困户学生搭建上学“绿色通道”，此做法在广西区内尚属首创。<br><br>

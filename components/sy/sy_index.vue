@@ -3,23 +3,23 @@
         <div id="particles-js"></div>
         
         
-        <div id="sy_box1" class="sy_box1">
+        <div id="sy_box2" class="sy_box1">
            
             <syBox1/>
         </div>
-        <div class="sy_box2">
+        <div id="sy_box3" class="sy_box2">
             
             <syBox2/>
         </div>
-        <div class="sy_box3">
+        <div id="sy_box4" class="sy_box3">
             
             <syBox3/>
         </div>
-        <div class="sy_box4">
+        <div id="sy_box5" class="sy_box4">
             
             <syBox4/>
         </div>
-        <div class="sy_box5">
+        <div id="sy_box6" class="sy_box5">
             
             <syBox5/>
         </div>

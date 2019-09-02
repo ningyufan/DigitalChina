@@ -13,10 +13,10 @@
                         <el-row class="row_one">
                             <div class="ce_nav">
                                 <a href="/aboutMe">
-                                    <i class="el-icon-star-off">Chinese</i>
+                                    <i class="el-icon-star-off"><label>Chinese</label></i>
                                 </a>
                                 <a href="#">
-                                    <i class="el-icon-star-on">English</i>
+                                    <i class="el-icon-star-on"><label>English</label></i>
                                 </a>
                             </div>
                         </el-row>

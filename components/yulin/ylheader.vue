@@ -1,204 +1,116 @@
 <template>
-        <div class="yl_header">    
-        <el-carousel :interval="5000" arrow="never" height="55vh">
-            <el-carousel-item v-for="item in 5" :key="item">
-            <h3>{{ item }}</h3>
+    <div class="yl_header">
+        <el-carousel :interval="5000" arrow="always" height="60vh">
+            <el-carousel-item v-for="(item,idx) in items" :key="idx">
+                <el-row>
+                <el-col class="left_col_yl">
+                    <div class="detail_yl">
+                        <div class="title_yl" style="font-size: 10vh;"><a :href="item.href">{{item.title}}</a></div>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
+                        <hr class="hr_yl" />
+                            <div>
+                                <a :href="item.href" style="font-size:2vh">查看内容>></a>
+                            </div>
+                    </div>   
+                </el-col>
+                <el-col class="right_col_yl">
+                    <a :href="item.href"><img :src="item.img_src" class="" height="90%" width="90%" style=" border-radius: 50vh"></a>
+                </el-col>
+            </el-row>
             </el-carousel-item>
         </el-carousel>
     </div>
-    <!-- <div class="content3"> -->
-		<!-- <div class="ct3_t"><h3><span>道路</span> · 助力乡村振兴</h3></div> -->
-		<!-- <div class="ct3_tp" >
-			<div class="ct3a"></div>
-			<div class="ct3b"></div>
-			<div class="ct3c">disanye</div>
-		</div>
-    
-    
-		<div class="ct3a_f" >
-			<span class="ct3a_span">航拍广西大石山区扶贫路</span>
-			<p  class="ct3a_p1">近年来，广西加大对贫困地区道路基础设施的建设力度，加快“最后一公里”——屯级路的建设，为大石山区群众的脱贫致富和加快推进广西脱贫攻坚工作奠定基础。</p>
-			<p  class="ct3a_p2">这是广西大化瑶族自治县七百弄乡弄合村的屯级公路</p>
+</template>
 
-			<span class="ct3b_span">航拍广西龙胜盘山公路</span>
-			<p class="ct3b_p1">近年来，广西桂林龙胜各族自治县将农村公路建设与脱贫攻坚、乡村振兴紧密结合，通过实施“农村公路建设大会战”，积极推进农村公路建设。截至目前，龙胜119个行政村全部实现水泥（沥青）公路全覆盖，方便了农村群众出行，助推了精准扶贫工作。</p>
-			<p class="ct3b_p2">图为5月3日航拍的龙胜镇日新村的盘山公路。</p>
-
-			<span class="ct3c_span">“飞阅”广西农村路</span>
-			<p class="ct3c_p1">进入“十三五”以来，广西农村公路建设不断加快。“十三五”期间，广西计划大力实施农村交通和交通扶贫工程，着力实现所有建制村通沥青（水泥）路，分类推进已有公路改造和建制村间道路连通，基本形成以县道为骨架、乡道为支线、村道为脉络的农村公路网络体系，解决农村“出行难”问题，提高交通扶贫精准化水平。</p>
-			<p class="ct3c_p2">在广西都安瑶族自治县龙湾乡加范村，一名村民骑行在回家的路上</p>
-		</div>
-
-		<div class="ct3_bt">
-			<div class="ct3_bt1"><span>a</span></div>
-			<div class="ct3_bt2"><span>b</span></div>
-		</div>
-		<div class="ct3_num">
-			<span class="ct3a_num">01</span>
-			<span class="ct3b_num">02</span>
-			<span class="ct3c_num">03</span>
-			<span class="ct3_num2">/3</span>
-		</div>
-	</div> -->
-
-    </template>
-    
-    <script>
-        export default{
-	// 		head:{
-	// 			link: [
-	// 			{ rel: 'stylesheet', href: 'css/animate.css'},
-	// 			{ rel: 'stylesheet', href: 'css/iziModal.css'},
-	// 			{ rel: 'stylesheet', href: 'css/common.css'},
-    //             { rel: 'stylesheet', href: 'css/liu.css'},
-    //         ]
-	// 	},
-    }
-
-
-	// var example1=new sHover("example0","intro0");
-/*new WOW().init();*/
-
-
-// $("#modal-default").iziModal({
-//           title: "Welcome to the iziModal",
-//           subtitle: "Simple, complete and lightweight modal plugin with jquery.",
-//           iconClass: 'icon-announcement',
-//           width: 700,
-//           padding: 20
-//       });
-//       $(document).on('click', '.trigger-default', function (event) {
-//           event.preventDefault();
-//           $('#modal-default').iziModal('open');
-//       });
-
-
-//       $("#modal-iframe").iziModal({
-//           title: 'iziModal with iframe',
-//           subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-//           iconClass: 'icon-settings_system_daydream',
-//           transitionIn: 'transitionIn',
-//           transitionOut: 'transitionOut',
-//           headerColor: '#fff',
-//           theme: 'light',
-//           width: 1200,
-//           overlayClose: true,
-//           iframe : true
-//       });
-
-
-//       $(document).on('click', '.trigger-iframe', function (event) {
-//           event.preventDefault();
-          //$('#modal-iframe').trigger('http://210.36.247.156/t183/izi.open', this);
-    //       $("#modal-iframe").iziModal('open', event);
-    //   });
-
-
-    //   $("#modal-custom").iziModal({
-    //       overlayClose: false,
-    //       width: 600,
-    //       autoOpen: false,
-    //       overlayColor: 'rgba(0, 0, 0, 0.6)',
-    //       onOpened: function() {
-    //           console.log('onOpened');
-    //       },
-    //       onClosed: function() {
-    //           console.log('onClosed');  
-    //       }
-    //   });
-    //   $(document).on('click', '.trigger-custom', function (event) {
-    //       event.preventDefault();
-    //       $('#modal-custom').iziModal('open');
-    //   });
-
-    //   $("#modal-alert").iziModal({
-    //       title: "Your message has been sent successfully",
-    //       iconClass: 'icon-check',
-    //       headerColor: '#5bbd72',
-    //       width: 600
-    //   });
-    //   $(document).on('click', '.trigger-alert', function (event) {
-    //       event.preventDefault();
-    //       $('#modal-alert').iziModal('open');
-    //   });
-
-    //   $("#modal-alert2").iziModal({
-    //       title: "Attention",
-    //       subtitle: 'you are being disconnected..',
-    //       iconClass: 'icon-power_settings_new',
-    //       headerColor: '#BD5B5B',
-    //       width: 600
-    //   });
-    //   $(document).on('click', '.trigger-alert2', function (event) {
-    //       event.preventDefault();
-    //       $('#modal-alert2').iziModal('open');
-    //   });
-
-    //   $("#modal-large").iziModal({
-    //       title: "成绩单",
-    //       subtitle: "",
-    //       iconClass: 'icon-chat',
-    //       overlayColor: 'rgba(255, 255, 255, 0.4)',
-    //       headerColor: '#334c7b',
-    //       iconColor: '#00ffba',
-    //       width: 700,
-    //       padding: 20
-    //   });
-    //   $(document).on('click', '.trigger-large', function (event) {
-    //       event.preventDefault();
-    //       $('#modal-large').iziModal('open');
-    //   });
-
-
-
-    //   $(document).on('opening', '#modal-iframe', function (e) {
-          //console.dir(e);
-    //   });
-    //   $(document).on('opened', '#modal-iframe', function (e) {
-          //console.dir(e);
-    //   });
-    //   $(document).on('closing', '#modal-iframe', function (e) {
-          //console.dir(e);
-    //   });
-    //   $(document).on('closed', '#modal-iframe', function (e) {
-          //console.dir(e);
-    //   });
-
-
-    //   $("#modal-custom").on('click', 'header a', function(event) {
-    //       event.preventDefault();
-    //       var index = $(this).index();
-    //       $(this).addClass('active').siblings('a').removeClass('active');
-    //       $(this).parents("div").find("section").eq(index).removeClass('hide').siblings('section').addClass('hide');
-
-    //       if( $(this).index() === 0 ){
-    //           $("#modal-custom .iziModal-content .icon-close").css('background', '#ddd');
-    //       } else {
-    //           $("#modal-custom .iziModal-content .icon-close").attr('style', '');
-    //       }
-    //   });
-
-    //   $("#modal-custom").on('click', '.submit', function(event) {
-    //       event.preventDefault();
-
-    //       var fx = "wobble",  //wobble shake
-    //           $modal = $(this).closest('.iziModal');
-
-    //       if( !$modal.hasClass(fx) ){
-    //           $modal.addClass(fx);
-    //           setTimeout(function(){
-    //               $modal.removeClass(fx);
-    //           }, 1500);
-    //       }
-    //   });
-
-    </script>
-    
-    <style>
-        .yl_header{
-            margin-top:5vh;
-            margin-left: 5%;
-            margin-right: 5%;
-
+<script>
+export default {
+    data(){
+        return{
+            items: [{
+                id:0,
+                title:'智慧城市建设',
+                href:'#ebox1_yl',
+                img_src: require('../../assets/images/yulin/city_p3.png'),
+                p:'智慧城市建设就是运用信息和通信技术手段感测、分析、整合城市运行核心系统的各项关键信息，从而对包括民生、环保、公共安全、城市服务、工商业活动在内的各种需求做出智能响应。其实质是利用先进的信息技术，实现城市智慧式管理和运行，进而为城市中的人创造更美好的生活，促进城市的和谐、可持续成长。',
+            },{
+                id:1,
+                title:'互联网+"政务服务"',
+                href:'#ebox2_yl',
+                img_src: require('../../assets/images/yulin/zw_p1.jpg'),
+                p:'互联网+政务服务”是利用互联网技术将现实政务服务进行结构重组和流程再造，以使其符合“互联网+”思维，并在此基础上以线上“并行”的“数据流”代替线下“串行”的“人流”，来实现政务服务的高效、高质供给,以简政放权、创新监管、提升服务为核心，以政府权力清单为基础，以信息化技术为支撑，创新实践“互联网+”思维，开启从“群众跑腿”到“数据跑腿”的服务管理新模式。',
+                
+            },{
+                id:2,
+                title:'智慧旅游建设',
+                href:'#ebox3_yl',
+                img_src: require('../../assets/images/yulin/travel_p5.png'),
+                p:'智慧旅游依托信息技术，主动获取游客信息，形成游客数据积累和分析体系，全面了解游客的需求变化、意见建议以及旅游企业的相关信息，实现科学决策和科学管理。玉林市提出以旅游业为优势产业，通过对区域内经济社会资源尤其是旅游资源、相关产业、生态环境、公共服务、体制机制、政策法规、文明素质等进行全方位、系统化的优化提升，实现区域资源有机整合、产业融合发展、社会共建共享，以旅游业带动和促进经济社会协调发展。'
+                
+            },{
+                id:3,
+                title:'大数据助力精准扶贫',
+                href:'#ebox4_yl',
+                img_src: require('../../assets/images/yulin/fp_p3.jpg'),
+                p:'综合运用大数据手段，完善精准脱贫大数据平台建设，动态管理精准扶贫资金项目，保证扶贫资金项目与扶贫对象有效精准对接，实现全过程跟踪的精准扶贫动态管理，促进精准扶贫在各领域内信息资源的汇聚整合和关联应用，做到精确的查缺补漏，避免贫困人口的遗漏、避免扶贫措施的错位,以此实现扶贫工作的精准监控、全过程监控，扶贫到位。',
+     
+            },{
+                id:4,
+                title:'大数据扶持特色产业',
+                href:'#ebox5_yl',
+                img_src: require('../../assets/images/yulin/chanye_p4.jpg'),
+                p:'从国内外大数据发展背景、本地现状与基础、发展路径与策略、基础设施建设、行业应用、产业创新、产业生态打造等方面，制定了详细深入的发展规划。玉林市政府对大数据产业的发展模式、商业模式以及相关重大工程给出了详细说明，全面体现实现“规划与计划相结合，继承与创新相结合”的产业发展新模式。',
+                
+            }]
         }
-    </style>
+    }
+    
+
+}
+</script>
+
+<style>
+.left_col_yl{
+    width: 70%;
+    height: 60vh;
+    float: left;
+  
+  }
+.right_col_yl {
+    width: 30%;
+    height: 40vh;
+    float: right;
+    margin-top: 5vh;
+    /* border: 1px solid red; */
+    margin-top: 10vh;
+    filter: brightness(60%);
+   
+  }
+.detail_yl {
+    margin: 10vh 8vw;
+  }
+.detail_yl .title_yl{
+    font-size: 4vh;
+    margin: 2vh auto;
+    text-align: center;
+}
+.detail_yl p{
+font-size: 2.5vh;
+text-align: justify;
+color:rgb(51, 135, 214);
+}
+.hr_yl {
+margin: 3vh 0 3vh 0;
+height:1px;
+border:none;
+border-top:1px solid #6ec1e2;
+}
+.detail_yl div {
+    text-align: center;
+}
+.titleheader_yl{
+    text-align: center;
+    font-size:10vh;
+    margin: 2vh auto;
+}
+</style>
+

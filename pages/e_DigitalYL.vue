@@ -10,13 +10,13 @@
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
                         <div class="header_nav">
-                        <el-row class="row_one">
-                            <div class="ce_nav">
+                        <el-row class="row_one4">
+                            <div class="ce_nav4">
                                 <a href="/DigitalYL">
-                                    <i class="el-icon-star-on">Chinese</i>
+                                    <i class="el-icon-star-off"><label>Chinese</label></i>
                                 </a>
                                 <a href="#">
-                                    <i class="el-icon-star-off">English</i>
+                                    <i class="el-icon-star-on"><label>English</label></i>
                                 </a>
                             </div>
                         </el-row>
@@ -136,6 +136,20 @@ export default {
 .DigitalYL {
     width: 100%;
 }
+
+.ce_nav4 {
+ height: 16h;
+ float: right;
+ padding-right: 20vh;
+ padding-top: 9vh;
+ font-size: 2.5vh;
+ 
+}
+
+.ce_nav4 label{
+  font-family: STXingkai;
+}
+
 .nav_4{
     background-image: url('../assets/images/bg_xuanzhong.png');
     background-size: 100% 7.5vh ;
