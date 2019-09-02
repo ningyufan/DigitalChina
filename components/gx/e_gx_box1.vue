@@ -6,40 +6,40 @@
 			<div class="con"  aos = "zoom-in">
 				<div class="pic_style">
 					<div class="img1"><img src="../../assets/images/gx/gxmap.png"  height="100%" width="100%" alt=""></div>
-					<div class="img2"><img src="../../assets/images/gx/gxmap1.png"  height="100%" width="100%" alt=""></div>
+					<div class="img2"><img src="../../assets/images/gx/e_gxmap1.png"  height="100%" width="100%" alt=""></div>
 				</div>
 				<div class="cspic_list">
 					<div class="cspic_list1">
 						<div class="img1"><img src="../../assets/images/gx/nanning.png" height="100%" width="100%" alt=""></div>
-						<div class="img2"><img src="../../assets/images/gx/nanning1.png" height="100%" width="100%" alt=""></div>
+						<div class="img2"><img src="../../assets/images/gx/e_nanning1.png" height="100%" width="100%" alt=""></div>
 					</div>
 					<div class="cspic_list2">
 						<div class="img1"><img src="../../assets/images/gx/liuzhou.png" height="100%" width="100%" alt=""></div>
-						<div class="img2"><img src="../../assets/images/gx/liuzhou1.png" height="100%" width="100%" alt=""></div>
+						<div class="img2"><img src="../../assets/images/gx/e_liuzhou1.png" height="100%" width="100%" alt=""></div>
 					</div>
 					<div class="cspic_list3">
 						<div class="img1"><img src="../../assets/images/gx/guilin.png"  height="100%" width="100%" alt=""></div>
-						<div class="img2"><img src="../../assets/images/gx/guilin1.png" height="100%" width="100%" alt=""></div>
+						<div class="img2"><img src="../../assets/images/gx/e_guilin1.png" height="100%" width="100%" alt=""></div>
 					</div>
 					<div class="cspic_list4">
 						<div class="img1"><img src="../../assets/images/gx/guigang.png" height="100%" width="100%" alt=""></div>
-						<div class="img2"><img src="../../assets/images/gx/guigang1.png" height="100%" width="100%" alt=""></div>
+						<div class="img2"><img src="../../assets/images/gx/e_guigang1.png" height="100%" width="100%" alt=""></div>
 					</div>
 					<div class="cspic_list5">
 						<div class="img1"><img src="../../assets/images/gx/qinzhou.png" height="100%" width="100%" alt=""></div>
-						<div class="img2"><img src="../../assets/images/gx/qinzhou1.png" height="100%" width="100%" alt=""></div>
+						<div class="img2"><img src="../../assets/images/gx/e_qinzhou1.png" height="100%" width="100%" alt=""></div>
 					</div>
 					<div class="cspic_list6">
 						<div class="img1"><img src="../../assets/images/gx/yulin.png" height="100%" width="100%" alt=""></div>
-						<div class="img2"><img src="../../assets/images/gx/yulin1.png" height="100%" width="100%" alt=""></div>
+						<div class="img2"><img src="../../assets/images/gx/e_yulin1.png" height="100%" width="100%" alt=""></div>
 					</div>
 					<div class="cspic_list7">
 						<div class="img1"><img src="../../assets/images/gx/yufengqu.png" height="100%" width="100%" alt=""></div>
-						<div class="img2"><img src="../../assets/images/gx/yufengqu1.png" height="100%" width="100%" alt=""></div>
+						<div class="img2"><img src="../../assets/images/gx/e_yufengqu1.png" height="100%" width="100%" alt=""></div>
 					</div>
 					<div class="cspic_list8">
 						<div class="img1"><img src="../../assets/images/gx/luzhaixian.png" height="100%" width="100%" alt=""></div>
-						<div class="img2"><img src="../../assets/images/gx/luzhaixian1.png" height="100%" width="100%" alt=""></div>
+						<div class="img2"><img src="../../assets/images/gx/e_luzhaixian1.png" height="100%" width="100%" alt=""></div>
 					</div>
 				</div>
             </div>
