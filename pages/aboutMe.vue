@@ -320,6 +320,7 @@ export default {
     font-size: 1.5vw;
     line-height: 4vw;
     font-family:STXingkai;
+    color: white;
 }
 .katong_about{
     border-radius: 16vh;
