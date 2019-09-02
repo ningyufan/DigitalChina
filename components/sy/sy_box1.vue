@@ -60,6 +60,24 @@
 
 <script>
 export default {
+  head:{
+    script:[
+        {src:'js/jquery.1.7.1.min.js'},//aos
+        {src:'js/aos.js'},//aos
+    ],
+    link: [
+        { rel: 'stylesheet', href: 'css/normalize.css' },//aos
+        { rel: 'stylesheet', href: 'js/aos.css' },//aos
+        { rel: 'stylesheet', href: 'css/styles.css' },//aos
+    ]
+  },
+   mounted() {
+        AOS.init({
+            easing: 'ease-in-out',
+            duration: 500,
+			      once :false
+        });
+   }
 
 }
 </script>

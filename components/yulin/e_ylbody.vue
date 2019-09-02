@@ -334,7 +334,7 @@
                                         <img src="@/assets/images/yulin/travel_p3.png" alt="" style="width: 15vw;height:50vh" >
                                        <div class="info">
                                         <h1 style="font-size: 2vh;">Construction of Intelligent Tourism in Yulin City</h1>
-                                          <p>———Three-year Action Plan for the Development of Wisdom Tourism in Yulin</p>
+                                          <p style="font-size:1.8vh;">———Three-year Action Plan for the Development Wisdom Tourism</p>
                                           <a href="/e_yl_ctly3" target="_blank" >details</a>
                                        </div>
                                     </li>
@@ -342,7 +342,7 @@
                                         <img src="@/assets/images/yulin/travel_p4.png" alt=""  style="width: 15vw;height:50vh" >
                                         <div class="info" style="height: 26vh;">
                                             <h1 style="font-size: 2vh;">Construction of Intelligent Tourism in Yulin City</h1>
-                                           <p>———Construction of Zhizhirong County (a famous tourism county with national characteristics)</p>
+                                           <p style="font-size:1.8vh;">———Construction of Zhizhirong County (tourism county with national characteristics)</p>
                                            <a href="/e_yl_ctly4" target="_blank" >details</a>
                                         </div>
                                      </li>
@@ -356,7 +356,7 @@
                                          <img src="@/assets/images/yulin/travel_p5.png" alt="" style="width: 15vw;height:50vh" >
                                        <div class="info">
                                         <h1 style="font-size: 2vh;">Construction of Intelligent Tourism in Yulin City</h1>
-                                          <p>———Construction of Intelligent Tourism in Rongxian County</p>
+                                          <p style="font-size:1.8vh;">———Construction of Intelligent Tourism in Rongxian County</p>
                                           <a href="/e_yl_ctly5" target="_blank" >details</a>
                                        </div>
                                     </li>
@@ -364,7 +364,7 @@
                                         <img src="@/assets/images/yulin/travel_p6.png" alt="" style="width: 15vw;height:50vh" >
                                        <div class="info">
                                         <h1 style="font-size: 2vh;">Construction of Intelligent Tourism in Yulin City</h1>
-                                          <p>———Municipal School and School Promote Project Together</p>
+                                          <p style="font-size:1.8vh;">———Municipal School and School Promote Project Together</p>
                                           <a href="/e_yl_ctly6" target="_blank">details</a>
                                        </div>
                                     </li>
@@ -372,7 +372,7 @@
                                         <img src="@/assets/images/yulin/travel_p7.png" alt=""  style="width: 15vw;height:50vh" >
                                        <div class="info">
                                         <h1 style="font-size: 2vh;">Construction of Intelligent Tourism in Yulin City</h1>
-                                          <p>———Put forward the plan of "Yulin Global Tourism Big Data Platform"</p>
+                                          <p style="font-size:1.8vh;">——Put forward the plan of "Yulin Global Tourism Big Data Platform"</p>
                                           <a href="/e_yl_ctly7" target="_blank" >details</a>
                                        </div>
                                     </li>
@@ -593,7 +593,6 @@
             
                 // 城市模块
                 {src:'js/yl_jquery.min.js'},
-    
                 {src:'js/jquery-1.12.4.min.js'},
                 {src:'js/popper.min.js'},
     
@@ -613,7 +612,6 @@
                 
                 // 城市建设模块
                 { rel: 'stylesheet', href: 'css/yl_citystyle.css' },
-    
                 { rel: 'stylesheet', href: 'css/miktu.css' },
                 { rel: 'stylesheet', href: 'css/page-style.css' },
     
