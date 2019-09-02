@@ -1,6 +1,6 @@
 <template>
     <div class="sy_box5">
-      <div class="sybox5_t">
+      <div class="sybox5_t" aos="zoom-in">
         数字展区精彩
       </div>
       <div class="sybox5_con">
@@ -218,10 +218,26 @@ export default {
   top:0;
   line-height: 15vh;
   text-align: center;
-  font-size: 5vh;
+  font-size: 6vh;
+  font-family:STXingkai;
   color: rgb(48, 189, 245);
+  z-index:5;
+}
+.sybox5_t:hover{
+    animation: sybox5_t 1s linear 3;
 }
 
+ @keyframes sybox5_t{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
+}
 #drag-container, #spin-container {
   height: 85vh;
   width: 100vw;

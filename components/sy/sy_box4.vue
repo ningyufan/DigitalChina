@@ -1,6 +1,6 @@
 <template>
     <div class="sy_box4">
-        <div class="sybox4_t">
+        <div class="sybox4_t" aos="zoom-in">
             5G时代
         </div>
         <div class='accordion'>
@@ -38,6 +38,28 @@
 </script>
 
 <style>
+.sybox4_t{
+  font-size: 6vh;
+  font-family: STXingkai;
+  color: rgb(48, 189, 245);
+  z-index:5;
+  position: relative;
+}
+.sybox4_t:hover{
+  animation: sybox4_t 1s linear 3;
+}
+
+@keyframes sybox4_t{
+  33.3%{
+      font-size: 4vh;
+  }
+  66.6%{
+      font-size: 4.5vh;
+  }
+  99.9%{
+      font-size: 4vh;
+  }
+}
 .accordion{
     width:80vw;
     height:80vh;

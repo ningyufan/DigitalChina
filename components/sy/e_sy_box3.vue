@@ -1,6 +1,6 @@
 <template>
     <div class="sy_box3">
-        <div class="sybox3_t">
+        <div class="sybox3_t" aos="zoom-in">
             Digital Person Interview
         </div>
         <div class="sybox3_con">
@@ -272,9 +272,30 @@ export default {
   max-width: 900px;
   width: calc(100% - 100px);
   height: 400px;
-margin:60px auto;
+  margin:60px auto;
+}
+.sybox3_t{
+  font-size: 6vh;
+  font-family: STXingkai;
+  color: rgb(48, 189, 245);
+  z-index:5;
+  position: relative;
+}
+.sybox3_t:hover{
+  animation: sybox3_t 1s linear 3;
 }
 
+@keyframes sybox3_t{
+  33.3%{
+      font-size: 4vh;
+  }
+  66.6%{
+      font-size: 4.5vh;
+  }
+  99.9%{
+      font-size: 4vh;
+  }
+}
 @media screen and (max-width: 718px) {
   .options {
       min-width: 520px;

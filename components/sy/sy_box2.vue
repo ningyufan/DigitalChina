@@ -1,6 +1,6 @@
 <template>
     <div class="sy_box2" id="sy_box2">
-        <div class="sybox2_t">
+        <div class="sybox2_t" aos="zoom-in">
             数字动态
         </div>
         <div class="sybox2_con">

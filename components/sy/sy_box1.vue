@@ -1,6 +1,6 @@
 <template>
     <div class="sy_box1">
-        <div class="sybox1_t">
+        <div class="sybox1_t" aos="zoom-in">
             数字行业
         </div>
         <div class="sybox1_con">
@@ -78,8 +78,26 @@ export default {
   top: 0;
   line-height: 15vh;
   text-align: center;
-  font-size: 5vh;
+  font-size: 6vh;
+  font-family: STXingkai;
   color: rgb(48, 189, 245);
+  z-index:5;
+}
+
+.sybox1_t:hover{
+    animation: sybox1_t 1s linear 3;
+}
+
+ @keyframes sybox1_t{
+    33.3%{
+        font-size: 4vh;
+    }
+    66.6%{
+        font-size: 4.5vh;
+    }
+    99.9%{
+        font-size: 4vh;
+    }
 }
 #wrap{
   position:absolute;

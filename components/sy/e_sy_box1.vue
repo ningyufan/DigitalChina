@@ -1,11 +1,11 @@
 <template>
     <div class="sy_box1">
-        <div class="sybox1_t">
+        <div class="sybox1_t" aos="zoom-in">
             Digital Industry
         </div>
         <div class="sybox1_con">
             <div id="wrap">
-                <a href="/e_sy_content1" class="hb">
+                <a href="/e_sy_content1" class="hb" target="_blank">
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic1.jpg" alt=""/>
                         <div class="txt">
@@ -17,7 +17,7 @@
                 <div class="fullBg">
                     <img src="@/assets/images/sy/sybox1_pic1.jpg" alt=""/>
                 </div>
-                <a href="/e_sy_content2" class="hb">
+                <a href="/e_sy_content2" class="hb" target="_blank">
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic2.jpg" alt=""/>
                         <div class="txt">
@@ -29,7 +29,7 @@
                 <div class="fullBg">
                     <img src="@/assets/images/sy/sybox1_pic2.jpg" alt=""/>
                 </div>
-                <a href="/e_sy_content3" class="hb">
+                <a href="/e_sy_content3" class="hb" target="_blank">
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic3.jpg" alt=""/>
                         <div class="txt">
@@ -41,7 +41,7 @@
                 <div class="fullBg">
                     <img src="@/assets/images/sy/sybox1_pic3.jpg" alt=""/>
                 </div>
-                <a href="/e_sy_content4" class="hb">
+                <a href="/e_sy_content4" class="hb" target="_blank">
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic4.jpg" alt=""/>
                         <div class="txt">
@@ -81,6 +81,7 @@ export default {
   font-size: 6vh;
   font-family: STXingkai;
   color: rgb(48, 189, 245);
+  z-index: 5;
 }
 
 .sybox1_t:hover{
@@ -98,20 +99,18 @@ export default {
         font-size: 4vh;
     }
 }
-
-
-
 #wrap{
   position:absolute;
   left:0; top:0;
   width:100%;
   height:100%;
+  /* margin-left: 5%; */
   display:flex;
   align-items:stretch;
 }
 .hb {
   position:relative;
-  width:25%;
+  width:23%;
   z-index:1;
   display:flex;
   align-items:center;
@@ -119,9 +118,10 @@ export default {
   trasnform:scale(.97);
 }
 .c{
+  margin-left: 30%;
   position:relative;
   display:block;
-  max-width:90%;
+  max-width:70%;
 }
 .c img {
   position:relative;

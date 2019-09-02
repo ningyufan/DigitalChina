@@ -1,6 +1,6 @@
 <template>
     <div class="sy_box3">
-        <div class="sybox3_t">
+        <div class="sybox3_t" aos="zoom-in">
             数字人物访谈
         </div>
         <div class="sybox3_con">
@@ -262,6 +262,28 @@ export default {
 </script>
 
 <style>
+.sybox3_t{
+  font-size: 6vh;
+  font-family: STXingkai;
+  color: rgb(48, 189, 245);
+  z-index:5;
+  position: relative;
+}
+.sybox3_t:hover{
+  animation: sybox3_t 1s linear 3;
+}
+
+@keyframes sybox3_t{
+  33.3%{
+      font-size: 4vh;
+  }
+  66.6%{
+      font-size: 4.5vh;
+  }
+  99.9%{
+      font-size: 4vh;
+  }
+}{}
 /* sybox3手风琴效果 start */
 .options {
   display: flex;
