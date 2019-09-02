@@ -6,7 +6,7 @@
                 <el-col class="sy_left_col">
                     <div class="sy_detail">
                         <p class="title"><a :href="item.href">{{item.title}}</a></p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
+                           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr" />
                             <div>
                                 <a :href="item.href" style="font-size:2.5vh; font-family: STXingkai;">查看内容>></a>
@@ -14,7 +14,7 @@
                     </div>   
                 </el-col>
                 <el-col class="sy_right_col">
-                    <a :href="item.href"><img :src="item.img_src" height="50%" width="60%" alt="" style="border-radius:100%;"></a>
+                    <a :href="item.href"><img :src="item.img_src" height="60%" width="80%" alt="" style="border-radius:100%;"></a>
                 </el-col>
             </el-row>
             </el-carousel-item>
@@ -82,7 +82,7 @@ export default {
   .sy_right_col {
     width: 30%;
     height: 60vh;
-    margin-top: 6vh;
+    margin-top: 4vh;
     float: right;
   }
   .sy_detail {

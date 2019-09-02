@@ -14,7 +14,7 @@
                     </div>   
                 </el-col>
                 <el-col class="sy_right_col">
-                    <a :href="item.href"><img :src="item.img_src" height="50%" width="60%" alt="" style="border-radius:100%;"></a>
+                    <a :href="item.href"><img :src="item.img_src" height="60%" width="80%" alt="" style="border-radius:100%;"></a>
                 </el-col>
             </el-row>
             </el-carousel-item>
