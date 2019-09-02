@@ -347,7 +347,7 @@
             <div class="bg2_bt" aos="zoom-in">
                 数字经济——推动城市发展
             </div>
-            <div class="cn_bg2">
+            <div class="cn_bg2" aos="flip-up">
                 <div class="ct5a">
                     <div class="ct5a1">
                         <br>
@@ -594,6 +594,10 @@
 </template>
 
 <script>
+
+// if (process.browser) { // 在这里根据环境引入wow.js
+//     var {WOW} = require('wowjs')
+//     }
 // import cnbg1 from '../dchina/cn_bg1'
 // import cnbg2 from '../dchina/cn_bg2'
 import cnbg5 from '../dchina/cn_bg5'
@@ -636,6 +640,12 @@ export default {
             easing: 'ease-out-back',
             duration: 1000
         });
+        // if (process.browser) {  // 在页面mounted生命周期里面 根据环境实例化WOW
+        //     new WOW({
+        //         live: true, 
+        //         offset: 0
+        //     }).init()
+        // };
     }
 }
 </script>
