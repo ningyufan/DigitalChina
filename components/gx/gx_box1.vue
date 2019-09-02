@@ -1,6 +1,6 @@
 <template>
     <div class="gx_box1">
-        <div class="tab">
+        <div class="tab" aos = "zoom-in">
 				智慧城市
 			</div>
 			<div class="con"  aos = "zoom-in">
@@ -66,7 +66,8 @@ export default {
     height: 15vh;
     line-height: 15vh;
     text-align: center;
-    font-size: 5vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
     
 }

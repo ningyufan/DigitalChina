@@ -1,6 +1,6 @@
 <template>
     <div class="gx_box2">
-        <div class="tab">
+        <div class="tab" aos = "zoom-in">
 				Intelligent Tourism
 			</div>
 			<div class="box2_an"></div>
@@ -140,7 +140,8 @@ export default {
     height: 15vh;
     line-height: 15vh;
     text-align: center;
-    font-size: 5vh;
+    font-size: 6vh;
+    font-family: STXingkai;
     color: rgb(48, 189, 245);
     
 }
