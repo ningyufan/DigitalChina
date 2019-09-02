@@ -117,7 +117,7 @@
 
 .Digital_TZ{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
 }
 .TZ_bg{
     background-image: url('../../assets/images/dchina/tz.jpg');
@@ -132,6 +132,7 @@
     width: 100%;
     height: 50vh;
     background-size: 100% 50vh;
+    overflow: auto;
 }
 
 .TZ_ct p{
@@ -142,7 +143,7 @@
 
 .Digital_JZ{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
 }
 
 .JZ_bg{
@@ -157,6 +158,7 @@
     width: 100%;
     height: 50vh;
     background-size: 100% 50vh;
+    overflow: auto;
 }
 
 .JZ_ct p{
@@ -167,7 +169,7 @@
 
 .Digital_JY{
     width: 100%;
-    height: 85vh;
+    height: 90vh;
 }
 
 .JY_bg{
@@ -182,6 +184,7 @@
     width: 100%;
     height: 50vh;
     background-size: 100% 50vh;
+    overflow: auto;
 }
 
 .JY_ct p{
@@ -192,7 +195,7 @@
 
 .Digital_RH{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
 }
 
 .RH_bg{
@@ -205,8 +208,9 @@
 
 .RH_ct{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     background-size: 100% 40vh;
+    overflow: auto;
 }
 
 .RH_ct p{
@@ -217,7 +221,7 @@
 
 .Digital_YY{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
 }
 .YY_bg{
     background-image: url('../../assets/images/dchina/yy.jpg');
@@ -231,6 +235,7 @@
     width: 100%;
     height: 50vh;
     background-size: 100% 50vh;
+    overflow: auto;
 }
 
 .YY_ct p{
@@ -256,6 +261,7 @@
     width: 100%;
     height: 50vh;
     background-size: 100% 50vh;
+    overflow: auto;
 }
 
 .FZ_ct p{
