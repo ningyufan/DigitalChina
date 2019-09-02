@@ -262,24 +262,12 @@ export default {
 </script>
 
 <style>
-/* sybox3手风琴效果 start */
-.options {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  overflow: hidden;
-  min-width: 600px;
-  max-width: 900px;
-  width: calc(100% - 100px);
-  height: 400px;
-  margin:60px auto;
-}
+
 .sybox3_t{
   font-size: 6vh;
   font-family: STXingkai;
   color: rgb(48, 189, 245);
   z-index:5;
-  position: relative;
 }
 .sybox3_t:hover{
   animation: sybox3_t 1s linear 3;
@@ -296,6 +284,22 @@ export default {
       font-size: 4vh;
   }
 }
+.sybox3_con {
+  width: 80vw;
+}
+/* sybox3手风琴效果 start */
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  overflow: hidden;
+  min-width: 600px;
+  max-width: 80vw;
+  width: calc(100% - 100px);
+  height: 70vh;
+margin:60px auto;
+}
+
 @media screen and (max-width: 718px) {
   .options {
       min-width: 520px;

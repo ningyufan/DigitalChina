@@ -9,11 +9,12 @@
 }
 .sy_box2{
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
 }
 .sy_box3{
   width: 100vw;
-  height: 600px;
+  height: 100vh;
+  /* background-color: aqua; */
 }
 .sy_box4{
   width: 100vw;

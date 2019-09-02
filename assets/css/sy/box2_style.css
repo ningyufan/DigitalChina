@@ -31,7 +31,7 @@
   .cont {
     position: relative;
     overflow: hidden;
-    height: 85vh;
+    height: 100vh;
     padding: 80px 70px;
   }
   .cont__inner {

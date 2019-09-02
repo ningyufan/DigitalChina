@@ -15,7 +15,7 @@
 					</div>
 				</div>
 				<div class="box4_con2" aos = "fade-up" aos-delay = "300">
-					<div>南宁市政府网站集约化平台</div>
+					<div>南宁市政府集约化平台</div>
 					<div><img src="../../assets/images/gx/gxbox3_pic2.jpg" height="100%" width="100%" alt=""></div>
 					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						该平台具有全媒体采编、问政互动、智能检索、绩效考核、运营管理、运维管控等功能，实现对全市各县（区）、
@@ -23,7 +23,7 @@
 					</div>
 				</div>
 				<div class="box4_con3" aos = "fade-up" aos-delay = "600">
-					<div>南宁市政府公共资产负债管理智能云平台</div>
+					<div>南宁市政府智能云平台</div>
 					<div><img src="../../assets/images/gx/gxbox3_pic3.jpg" height="100%" width="100%" alt=""></div>
 					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						按照“控债、保全、增收、节支”的要求，不断升级完善政府公共资产负债管理智能云平台，大力推进云平台在财政一体化、
@@ -60,7 +60,7 @@
 					</div>
 				</div>
 				<div class="box4_con3" aos = "fade-up" aos-delay = "600">
-					<div>南宁市扬尘治理“慧眼”系统</div>
+					<div>南宁市“慧眼”系统</div>
 					<div><img src="../../assets/images/gx/gxbox3_pic7.jpg" height="100%" width="100%" alt=""></div>
 					<div>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南宁市扬尘治理“慧眼”系统，开启南宁市扬尘污染治理智慧时代。截至2019年2月18日，
@@ -158,11 +158,11 @@ export default {
 .gx_box3 .box4_row .box4_con2 div:nth-child(1),
 .gx_box3 .box4_row .box4_con3 div:nth-child(1),
 .gx_box3 .box4_row .box4_con4 div:nth-child(1){
-    height: 35px;
+    height: 10%;
     width: 100%;
-    line-height:35px;
+    line-height: 100%;
     text-align: center;
-    font-size: 20px;
+    font-size: 3vh;
    }
 
 .gx_box3 .box4_row .box4_con1 div:nth-child(2),
@@ -177,9 +177,10 @@ export default {
 .gx_box3 .box4_row .box4_con2 div:nth-child(3),
 .gx_box3 .box4_row .box4_con3 div:nth-child(3),
 .gx_box3 .box4_row .box4_con4 div:nth-child(3){
-    height: 50%;
+    height: 55%;
     width: 100%;
-    padding:10px 5px ;
+	padding:10px 5px ;
+	font-size: 2.5vh;
     overflow: auto;
 
 }
