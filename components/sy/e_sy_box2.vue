@@ -122,9 +122,9 @@
                                     <h2 class="el__heading">Big data</h2>
                                 </div>
                                 <div class="el__content">
-                                    <div class="el__text">Whatever</div>
+                                    <div class="el__text">Big data</div>
                                     <p style="color:white">
-                                        
+                                        Big data refers to the collection of data that cannot be captured, managed and processed by conventional software tools within a certain period of time. It is a massive, high-growth and diversified information asset that requires new processing mode to have stronger decision-making power, insight and discovery power and process optimization ability.
                                     </p>
                                     <div class="el__close-btn"></div>
                                 </div>

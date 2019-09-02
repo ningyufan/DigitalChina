@@ -122,9 +122,11 @@
                                     <h2 class="el__heading">大数据</h2>
                                 </div>
                                 <div class="el__content">
-                                    <div class="el__text">Whatever</div>
+                                    <div class="el__text">
+                                        大数据
+                                    </div>
                                     <p style="color:white">
-                                        
+                                        大数据是指无法在一定时间范围内用常规软件工具进行捕捉、管理和处理的数据集合，是需要新处理模式才能具有更强的决策力、洞察发现力和流程优化能力的海量、高增长率和多样化的信息资产。
                                     </p>
                                     <div class="el__close-btn"></div>
                                 </div>

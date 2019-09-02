@@ -15,7 +15,7 @@
 		<div id="box5">
 			<gxBox5/>
 		</div>
-		<div id="box7" class="box7">
+		<div id="box6">
 			<gxBox6/>
 		</div>
         

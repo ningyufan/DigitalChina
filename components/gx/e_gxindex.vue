@@ -15,7 +15,7 @@
 		<div id="box5">
 			<egxBox5/>
 		</div>
-		<div id="box7" class="box7">
+		<div id="box6">
 			<egxBox6/>
 		</div>
         
