@@ -58,7 +58,7 @@
 
 <script>
 export default {
-    layout:'content2',
+    layout:'content2_sy',
 
 }
 </script>
