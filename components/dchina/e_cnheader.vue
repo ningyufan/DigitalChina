@@ -5,11 +5,11 @@
                 <el-row>
                 <el-col class="cn_left_col">
                     <div class="cn_detail">
-                        <p class="title"><a :href="item.href">{{item.title}}</a></p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
+                        <p class="title"><a style="color: rgb(48, 189, 245);" :href="item.href">{{item.title}}</a></p>
+                        <p>{{ item.p }}</p>
                         <hr class="hr" />
                             <div>
-                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;">View content>></a>
+                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;line-height: 3.75vh;color: rgb(48, 189, 245);">View content>></a>
                             </div>
                     </div>   
                 </el-col>
@@ -87,19 +87,26 @@ export default {
   }
   .cn_detail {
     margin: 10vh 8vw;
+    color: rgb(48, 189, 245);
   }
   .cn_detail .title{
     font-size: 4vh;
     text-align: center;
-    line-height: 5vh;
+    line-height: 6vh;
     font-family: STXingkai;
   
   }
+.cn_detail a{
+    color: rgb(48, 189, 245);
+  }
+
   .cn_detail p{
-    font-size: 3vh;
+    font-size: 2.5vh;
+    line-height: 3.75vh;
     text-align:justify;
     font-family: STXingkai;
-    color:rgb(51, 135, 214);
+    text-indent: 2em;
+    color: rgb(48, 189, 245);
   }
   hr {
     margin: 3vh 0 3vh 0;
@@ -109,5 +116,6 @@ export default {
   }
   .cn_detail div {
       text-align: center;
+       color: rgb(48, 189, 245);
   }
 </style>
