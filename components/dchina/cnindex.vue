@@ -613,8 +613,8 @@ export default {
             {src:'js/jquery.min.js'},
             {src:'js/aos.js'},
             {src:'js/cn_app.js'},
-            {src:'js/rotate.js'},
-            {src:'js/cn_bg5.js'},
+            // {src:'js/rotate.js'},
+            // {src:'js/cn_bg5.js'},
             {src:'js/waterFloat.js'},
         ],
         link: [
