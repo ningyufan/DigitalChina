@@ -88,8 +88,8 @@
     /* vertical-align: middle; */
 }
 .zhengwu_module1{
-    background-color: rgb(241, 241, 241);
-    opacity: 0.5;
+    background-color: rgb(241, 241, 241,0.5);
+    /* opacity: 0.5; */
     width: 80%;
     height: 80vh;
     margin: 3vh auto 5vh;
