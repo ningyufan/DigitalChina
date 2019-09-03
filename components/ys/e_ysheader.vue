@@ -5,11 +5,11 @@
                 <el-row>
                 <el-col class="left_col_ys">
                     <div class="detail_ys">
-                        <div class="titleheader_ys"><a :href="item.href">{{item.title}}</a></div>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
+                        <div class="titleheader_ys"><a style="color: rgb(48, 189, 245);" :href="item.href">{{item.title}}</a></div>
+                        <p>{{ item.p }}</p>
                         <hr class="hr_ys" />
                             <div>
-                                <a :href="item.href" style="font-family: STXingkai;font-size:2.5vh">View content>></a>
+                                <a :href="item.href" style="font-family: STXingkai;font-size:2.5vh;color: rgb(48, 189, 245);">View content>></a>
                             </div>
                     </div>   
                 </el-col>
@@ -38,7 +38,7 @@ export default {
                 title:'development history',
                 href:'#ebox2_ys',
                 img_src: require('../../assets/images/ysblock/img6_zj.jpg'),
-                p:'After three years of development, the Data College of Yulin Normal University has made proud achievements and continues to develop at a rapid pace. In August 2016, it became the first pilot cooperative University of data Chinas "100-School Project" innovation project, recognized as the innovation base of "100-School Project" project, and became an important node of "collaborative innovation network of big data application". In July 2017, Yulin Normal University "Big Data Application Innovation Center" and "Dawning Ruiyi Big Data Institute" were officially unveiled; in August, Yulin City Big Data Research Institute was officially established; in November, Yulin City Big Data Research Institute, which was jointly built by Yulin City School, held a signing ceremony.',
+                p:'After three years of development, the Data College of Yulin Normal University has made proud achievements and continues to develop at a rapid pace. In August 2016, it became the first pilot cooperative University of data Chinas "100-School Project" innovation project, recognized as the innovation base of "100-School Project" project, and became an important node of "collaborative innovation network of big data application". ',
                 
             },{
                 id:2,
@@ -94,9 +94,11 @@ export default {
     margin: 2vh auto;
 } */
 .detail_ys p{
-font-size: 3vh;
+font-size: 2.5vh;
 text-align: justify;
-color:rgb(51, 135, 214);
+color: rgb(48, 189, 245);
+line-height: 4.5vh;
+text-indent: 2em;
 }
 .hr_ys {
 margin: 3vh 0 3vh 0;
@@ -107,9 +109,10 @@ border-top:1px solid #6ec1e2;
 .detail_ys div {
     text-align: center;
 }
-.titleheader_ys{
+.titleheader_ys {
     text-align: center;
     font-size: 4vh;
     margin: 2vh auto;
+    line-height: 6vh;
 }
 </style>

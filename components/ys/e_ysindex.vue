@@ -18,10 +18,10 @@
                 <div class="text1_js">
                     <div class="title1_js">Summary</div>
                     <div class="text2_js">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yulin Normal University's Big Data College and Big Data Application Innovation Center were unveiled on July 15, 2017. They were established on the basis of the data China "100 Schools Project" innovation project initiated by the School Planning and Construction Development Center of the Ministry of Education and Dawning Information Industry Co., Ltd. Yulin Teachers College is the first experimental Institute of "100 Schools Project" in China, which was determined by the Ministry of Education. It is also the only experimental Institute in southeastern Guangxi.</p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The base of Big Data College and Big Data Application Innovation Center covers an area of 1200 square meters. It has the functions of exhibition hall, multimedia computer room, project training room and teacher's scientific research team studio. It has invested 13 million yuan, including equipment room, equipment room, scientific research, experiment and training in each functional area, and supporting equipment for teaching. Soft decoration of the exhibition hall.</p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At present, the University of Big Data has opened the major of Computer Science and Technology (Big Data Technology Direction). In 2016, 89 students were enrolled and in 2017, 94 students were enrolled. The direction of big data technology focuses on training application-oriented talents in software development, data mining, analysis and application of algorithms, construction and maintenance of distributed system platforms, etc. In July 2017, the major of "Data Science and Big Data Technology" was declared and submitted to the Ministry of Education for approval.</p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The core scientific research force of the Center is a Key Laboratory of complex system optimization and large data processing in Guangxi University Key Laboratory. At present, the laboratory contains 30 fixed researchers, including 9 senior and Vice-Senior titles, 10 doctoral teachers, 1 doctoral supervisor and 9 master supervisors. Over the past three years, the laboratory has successfully declared more than 20 projects of the National Natural Science Foundation of China, and more than 40 projects of the Guangxi Natural Science Foundation, with a total scientific research fund of more than 15 million yuan.</p>
+                        <p>Yulin Normal University's Big Data College and Big Data Application Innovation Center were unveiled on July 15, 2017. They were established on the basis of the data China "100 Schools Project" innovation project initiated by the School Planning and Construction Development Center of the Ministry of Education and Dawning Information Industry Co., Ltd. Yulin Teachers College is the first experimental Institute of "100 Schools Project" in China, which was determined by the Ministry of Education. It is also the only experimental Institute in southeastern Guangxi.</p>
+                        <p>The base of Big Data College and Big Data Application Innovation Center covers an area of 1200 square meters. It has the functions of exhibition hall, multimedia computer room, project training room and teacher's scientific research team studio. It has invested 13 million yuan, including equipment room, equipment room, scientific research, experiment and training in each functional area, and supporting equipment for teaching. Soft decoration of the exhibition hall.</p>
+                        <p>At present, the University of Big Data has opened the major of Computer Science and Technology (Big Data Technology Direction). In 2016, 89 students were enrolled and in 2017, 94 students were enrolled. The direction of big data technology focuses on training application-oriented talents in software development, data mining, analysis and application of algorithms, construction and maintenance of distributed system platforms, etc. In July 2017, the major of "Data Science and Big Data Technology" was declared and submitted to the Ministry of Education for approval.</p>
+                        <p>The core scientific research force of the Center is a Key Laboratory of complex system optimization and large data processing in Guangxi University Key Laboratory. At present, the laboratory contains 30 fixed researchers, including 9 senior and Vice-Senior titles, 10 doctoral teachers, 1 doctoral supervisor and 9 master supervisors. Over the past three years, the laboratory has successfully declared more than 20 projects of the National Natural Science Foundation of China, and more than 40 projects of the Guangxi Natural Science Foundation, with a total scientific research fund of more than 15 million yuan.</p>
                     </div>
                 </div>
             </div>
@@ -33,31 +33,31 @@
             <div aos="fade-right">
                 <div class="box0_zj"></div>
                 <div class="box1_zj">
-                    <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enrolled in China's "100-School Project" Collaborative Colleges and Universities in the Ministry of Education Data</div>
+                    <div class="text1_zj">Enrolled in China's "100-School Project" Collaborative Colleges and Universities in the Ministry of Education Data</div>
                     <div class="text_1_zj">2016.7</div>
                 </div>
                 <div class="box2_zj">
                     <div class="text_2_zj">2017.7</div>
-                    <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yulin Normal University-Daguang University of Data Application Cooperative Innovation Center was established</div>
+                    <div class="text1_zj">Yulin Normal University-Daguang University of Data Application Cooperative Innovation Center was established</div>
                 </div>
                 <div class="box3_zj">
-                    <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teachers of Yulin Teachers College Participate in the Training of Teachers of "100 Schools Project" in China Data from Ministry of Education</div>
+                    <div class="text1_zj">Teachers of Yulin Teachers College Participate in the Training of Teachers of "100 Schools Project" in China Data from Ministry of Education</div>
                     <div class="text_3_zj">2017.7</div>
                 </div>
                 <div class="box4_zj">
                     <div class="text_2_zj">2017.8</div>
-                    <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Establishment of Yulin City Big Data Research Institute</div>
+                    <div class="text1_zj">Establishment of Yulin City Big Data Research Institute</div>
                 </div>
                 <div class="box5_zj">
-                    <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identify four research areas and form four research teams</div>
+                    <div class="text1_zj">Identify four research areas and form four research teams</div>
                     <div class="text_5_zj">2017.9</div>
                 </div>
                 <div class="box6_zj">
                     <div class="text_2_zj">2017.11</div>
-                    <div class="text1_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Signing Ceremony of Yulin Big Data Research Institute</div>
+                    <div class="text1_zj">The Signing Ceremony of Yulin Big Data Research Institute</div>
                 </div>
                 <div class="box7_zj">
-                    <div class="text7_zj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Assessment Meeting of Big Data Research Institute</div>
+                    <div class="text7_zj">Project Assessment Meeting of Big Data Research Institute</div>
                     <div class="text_7_zj">2019.1</div>
                 </div>
                 <div class="box8_zj"></div>

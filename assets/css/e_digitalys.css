@@ -14,7 +14,7 @@
     font-family: STXingkai;
     color: rgb(48, 189, 245);
     bottom: 0;
-    line-height: 11vh;
+    line-height: 15vh;
 }
 .title_js:hover{
     animation: title_js 1s linear 3;
@@ -141,6 +141,7 @@
     line-height: 3vh;
     opacity: 1;
     text-align: justify;
+    text-indent: 2em;
 }
 
 
@@ -406,7 +407,7 @@
     font-family: STXingkai;
     color: rgb(48, 189, 245);
     bottom: 0;
-    line-height: 11vh;
+    line-height: 15vh;
 }
 .title1_zj:hover{
     animation: title1_zj 1s linear 3;
@@ -523,6 +524,7 @@
 .text1_zj{
     font-size: 1.65vh;
     text-align: justify;
+    text-indent: 2em;
 }
 .text7_zj{
     font-size: 1.65vh;
@@ -576,7 +578,7 @@
     color: rgb(48, 189, 245);
     font-family: STXingkai;
     bottom: 0;
-    line-height: 11vh;
+    line-height: 15vh;
 }
 .title_xq:hover{
     animation: title_xq 1s linear 3;
@@ -715,7 +717,7 @@
     font-family: STXingkai;
     color: rgb(48, 189, 245);
     bottom: 0;
-    line-height: 11vh;
+    line-height: 15vh;
 }
 .title_xw:hover{
     animation: title_xw 1s linear 3;
@@ -1014,6 +1016,7 @@
     color: rgb(48, 189, 245);
     text-align: center;
     font-family: STXingkai;
+    line-height: 15vh;
     /* border: 1px solid red; */
 }
 .titel2_ys:hover{

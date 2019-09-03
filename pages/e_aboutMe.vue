@@ -38,18 +38,18 @@
                 <div class="ME">
                     <header class="hero">
                         <div class="hero-center">
-                            <h2 style="font-family:STXingkai;color:rgb(51, 135, 214);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="100">About Web Pages</h2>
+                            <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="100">About Web Pages</h2>
                             <br>
-                            <h2 style="font-family:STXingkai;color:rgb(51, 135, 214);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="250">This web page was completed one day in 2019. The design of the web page is hierarchical. The content of the web page is loaded by rolling aos, with the animation effects of native js, fade in and fade out</h2>
+                            <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="250">This web page was completed one day in 2019. The design of the web page is hierarchical. The content of the web page is loaded by rolling aos, with the animation effects of native js, fade in and fade out</h2>
                             <br>
-                            <h2 style="font-family:STXingkai;color:rgb(51, 135, 214);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="400">Visitors can browse the content of the web page more comfortably and clearly, and use the Vue framework to make the coding more concise and efficient</h2>
+                            <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="400">Visitors can browse the content of the web page more comfortably and clearly, and use the Vue framework to make the coding more concise and efficient</h2>
                             <br>
-                            <h2 style="font-family:STXingkai;color:rgb(51, 135, 214);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="550">Our team is dedicated to creating more perfect and excellent web pages and striving for self-improvement all the time</h2>
+                            <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="550">Our team is dedicated to creating more perfect and excellent web pages and striving for self-improvement all the time</h2>
                             <br>
-                            <h2 style="font-family:STXingkai;color:rgb(51, 135, 214);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="700">Youth has no rest station, only the image of hard struggle</h2>
+                            <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="700">Youth has no rest station, only the image of hard struggle</h2>
                         </div>
                         <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="850" @click="videoon()">
-                            <h4 style="color:rgb(51, 135, 214);font-family:STXingkai;font-size:2vh;">Click drop-down</h4>
+                            <h4 style="color: rgb(48, 189, 245);font-family:STXingkai;font-size:2vh;">Click drop-down</h4>
                             <i class="chevron bottom"></i>
                             <!-- {{text}}{{isFixed}} -->
                         </span>

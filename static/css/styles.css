@@ -136,7 +136,7 @@ a {
     display: block;
     -webkit-animation: pulse 2s infinite;
             animation: pulse 2s infinite;
-    color:rgb(51, 135, 214); }
+        color: rgb(48, 189, 245); }
 
 @-webkit-keyframes pulse {
   0% {

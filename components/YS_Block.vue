@@ -5,11 +5,11 @@
                 <el-row>
                 <el-col class="left_col_ys">
                     <div class="detail_ys">
-                        <div class="titleheader_ys"><a :href="item.href">{{item.title}}</a></div>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
+                        <div class="titleheader_ys"><a style="color: rgb(48, 189, 245);" :href="item.href">{{item.title}}</a></div>
+                        <p>{{ item.p }}</p>
                         <hr class="hr_ys" />
                             <div>
-                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;">查看内容>></a>
+                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;color: rgb(48, 189, 245);">查看内容>></a>
                             </div>
                     </div>   
                 </el-col>
@@ -38,7 +38,7 @@ export default {
                 title:'发展历程',
                 href:'#box2_ys',
                 img_src: require('../assets/images/ysblock/img6_zj.jpg'),
-                p:'玉林师范大数据学院历经三年时间的发展，取得了傲人的成绩，并继续以迅猛的速度发展着。2016年8月，成为数据中国“百校工程”产教融合创新项目先行先试合作院校，确认为“百校工程”项目创新基地，成为“大数据应用协同创新网络”的重要节点。2017年7月，玉林师范学院“大数据应用创新中心”“曙光瑞翼大数据学院”正式揭牌成立；8月，玉林市大数据研究院正式成立；11月，市校共建的玉林市大数据研究院举行签约仪式。',
+                p:'玉林师范大数据学院历经三年时间的发展，取得了傲人的成绩，并继续以迅猛的速度发展着。2016年8月，成为数据中国“百校工程”产教融合创新项目先行先试合作院校，确认为“百校工程”项目创新基地，成为“大数据应用协同创新网络”的重要节点。',
                 
             },{
                 id:2,
@@ -97,7 +97,9 @@ export default {
 font-size: 3vh;
 text-align: justify;
 font-family: STXingkai;
-color:rgb(51, 135, 214);
+color: rgb(48, 189, 245);
+line-height: 4.5vh;
+text-indent: 2em;
 }
 .hr_ys {
 margin: 3vh 0 3vh 0;
@@ -113,5 +115,7 @@ border-top:1px solid #6ec1e2;
     font-size: 4vh;
     margin: 2vh auto;
     font-family: STXingkai;
+    color: rgb(48, 189, 245);
+    line-height: 6vh;
 }
 </style>
