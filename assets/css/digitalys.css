@@ -15,6 +15,7 @@
     line-height:11vh;
     color: rgb(48, 189, 245);
     bottom: 0;
+    line-height: 15vh;
 }
 
 .title_js:hover{
@@ -409,7 +410,7 @@
     font-family: STXingkai;
     color: rgb(48, 189, 245);
     bottom: 0;
-    line-height: 11vh;
+    line-height: 15vh;
 }
 
 .title1_zj:hover{
@@ -576,7 +577,7 @@
     font-family: STXingkai;
     color: rgb(48, 189, 245);
     bottom: 0;
-    line-height: 11vh;
+    line-height: 15vh;
 }
 
 .title_xq:hover{
@@ -718,7 +719,7 @@
     font-family: STXingkai;
     color: rgb(48, 189, 245);
     bottom: 0;
-    line-height: 11vh;
+    line-height: 15vh;
 }
 
 .title_xw:hover{
@@ -1016,6 +1017,7 @@
     font-family: STXingkai;
     color: rgb(48, 189, 245);
     text-align: center;
+    line-height: 11vh;
     /* border: 1px solid red; */
 }
 
