@@ -24,20 +24,16 @@
         lass="fillWidth" 
         v-on:canplay="canplay"
         >
-          <source src="../assets/video/Chinesemap.mp4" type="video/mp4"/>
+          <source src="../assets/video/index.mp4" type="video/mp4"/>
           浏览器不支持 video 标签，建议升级浏览器。
-          <source src="../assets/video/Chinesemap.mp4" type="video/webm"/>
+          <source src="../assets/video/index.mp4" type="video/webm"/>
           浏览器不支持 video 标签，建议升级浏览器。
       </video>
 
-      <!-- <audio src="/song.mp3" controls="controls" autoplay="autoplay">
-      Your browser does not support the audio element.
-      </audio> -->
-
-<audio src="/index.mp3" controls="controls" autoplay="autoplay" playsinline="true"  loop  hidden="true" style="position: relative; z-index:5;" id="vd">
-  <source src="/index.mp3" type="audio/ogg" />
-  <source src="/index.mp3" type="audio/mpeg"/>
-</audio>
+      <audio src="/index.mp3" controls="controls" autoplay="autoplay" playsinline="true"  loop  hidden="true" style="position: relative; z-index:5;" id="vd">
+        <source src="/index.mp3" type="audio/ogg" />
+        <source src="/index.mp3" type="audio/mpeg"/>
+      </audio>
 
 
       <div class="poster hidden" v-if="!vedioCanPlay">

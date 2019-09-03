@@ -9,7 +9,7 @@
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr_yl" />
                             <div>
-                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;">查看内容>></a>
+                                <a :href="item.href" style="font-size:2.5vh;;line-height: 3.75vh; font-family: STXingkai;">查看内容>></a>
                             </div>
                     </div>   
                 </el-col>
@@ -98,6 +98,7 @@ font-size: 3vh;
 text-align: justify;
 color:rgb(51, 135, 214);
 font-family: STXingkai;
+line-height: 6vh;
 }
 .hr_yl {
 margin: 3vh 0 3vh 0;
