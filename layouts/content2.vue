@@ -18,8 +18,8 @@
                                 <div class="nav">
                                     <ul>
                                         <nuxt-link to="/chinese_index"><li>首页</li></nuxt-link>
-                                        <nuxt-link to="/Digital_China"><li><div class="nav_2">数字中国</div></li></nuxt-link>
-                                        <nuxt-link to="/DigitalGX"><li>数字广西</li></nuxt-link>
+                                        <nuxt-link to="/Digital_China"><li>数字中国</li></nuxt-link>
+                                        <nuxt-link to="/DigitalGX"><li><div class="nav_3">数字广西</div></li></nuxt-link>
                                         <nuxt-link to="/DigitalYL"><li>数字玉林</li></nuxt-link>
                                         <nuxt-link to="/DigitalYS"><li>数字玉师</li></nuxt-link>
                                         <nuxt-link to="/aboutMe"><li>关于我们</li></nuxt-link>
@@ -156,11 +156,11 @@ export default {
  
 }
 
-.nav_2{
+.nav_3{
     background-image: url('../assets/images/bg_xuanzhong.png');
     background-size: 100% 7.5vh ;
 }
-.nav:hover .nav_2{
+.nav:hover .nav_3{
     background: none;
 }
 .mfooter{
