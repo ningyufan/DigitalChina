@@ -5,42 +5,29 @@
         </div>
         <div class="box6_con" aos = "zoom-in-down">
             <div class="con_nav">
-                <div @click="box6_lock = 0">Digital Government</div>
-                <div @click="box6_lock = 1">Digital Society</div>
-                <div @click="box6_lock = 2">Digital Economy</div>
+                <div class="con_nav1">Digital Government
+                    <ul class="ul1">
+                        <li><a href="/e_gx_content1" target="_blank">Understanding Digital Guangxi Construction Congress in One Picture</a></li>
+                        <li><a href="/e_gx_content2" target="_blank">On-line Trial Operation of Guangxi Digital Government Integration Platform "One Window Through" to Enhance the Efficiency of Starting Enterprises in an All-round Way</a></li>
+                        <li><a href="/e_gx_content3" target="_blank">Collaboration and joint efforts to tackle the key problems -- "gathering and universalizing" the government affairs data in the whole region is taking action to tackle the key problems</a></li>
+                    </ul>
+                </div>
+                <div class="con_nav2">Digital Society
+                    <ul class="ul2">
+                        <li><a href="/e_gx_content4" target="_blank">Guangxi will carry out the project of "Majestic Guangxi, Wisdom Radio and Television"</a></li>
+                        <li><a href="/e_gx_content5" target="_blank">New Experience of "May Day" Tourism: Opening Mobile 5G Network in the Most Beautiful Island of Guangxi</a></li>
+                        <li><a href="/e_gx_content6" target="_blank">The First 5G Huawei Digital Town in China Started in Qinzhou</a></li>
+                    </ul>
+                </div>
+                <div class="con_nav3">Digital Economy
+                    <ul class="ul3">
+                        <li><a href="/e_gx_content7" target="_blank">"Digital +" Enables the Economic and Social Development of Guangxi with High Quality</a></li>
+                        <li><a href="/e_gx_content9" target="_blank">China Hands in Hand with ASEAN to Accelerate Embracing Digital Economy</a></li>
+                        <li><a href="/e_gx_content8" target="_blank">Creating leading enterprises of digital economy to lead the new development of digital Guangxi construction</a></li>
+                    </ul> 
+                </div>
             </div>
-            <div class="con_info">
-                <template v-if="box6_lock == 0">
-                    <div>
-                        <h2>Digital Government</h2>
-                        <ul>
-                            <li><a href="/e_gx_content1" target="_blank">Understanding Digital Guangxi Construction Congress in One Picture</a></li>
-                            <li><a href="/e_gx_content2" target="_blank">On-line Trial Operation of Guangxi Digital Government Integration Platform "One Window Through" to Enhance the Efficiency of Starting Enterprises in an All-round Way</a></li>
-                            <li><a href="/e_gx_content3" target="_blank">Collaboration and joint efforts to tackle the key problems -- "gathering and universalizing" the government affairs data in the whole region is taking action to tackle the key problems</a></li>
-                        </ul>
-                    </div>
-                </template>
-                <template v-if="box6_lock == 1">
-                    <div>
-                        <h2>Digital Society</h2>
-                        <ul>
-                            <li><a href="/e_gx_content4" target="_blank">Guangxi will carry out the project of "Majestic Guangxi, Wisdom Radio and Television"</a></li>
-                            <li><a href="/e_gx_content5" target="_blank">New Experience of "May Day" Tourism: Opening Mobile 5G Network in the Most Beautiful Island of Guangxi</a></li>
-                            <li><a href="/e_gx_content6" target="_blank">The First 5G Huawei Digital Town in China Started in Qinzhou</a></li>
-                        </ul>
-                    </div>
-                </template>
-                <template v-if="box6_lock == 2">
-                    <div>
-                        <h2>Digital Economy</h2>
-                        <ul>
-                            <li><a href="/e_gx_content7" target="_blank">"Digital +" Enables the Economic and Social Development of Guangxi with High Quality</a></li>
-                            <li><a href="/e_gx_content9" target="_blank">China Hands in Hand with ASEAN to Accelerate Embracing Digital Economy</a></li>
-                            <li><a href="/e_gx_content8" target="_blank">Creating leading enterprises of digital economy to lead the new development of digital Guangxi construction</a></li>
-                        </ul>
-                    </div>
-                </template>                              
-            </div>
+
         </div>
     </div>
 </template>
@@ -105,22 +92,20 @@ export default {
     top: 8vh;
     z-index: 2;
     float: left;
-    left: 8%;
+    left: 10%;
 
 }
 .gx_box6 .box6_con .con_nav2{
     position: absolute;
-    left: 0;
+    left: 10%;
     top: 28vh;
-     text-align: center;
+    
     
 }
 .gx_box6 .box6_con .con_nav3{
     position: absolute;
-    left: 0;
+    left: 10%;
     top: 49vh;
-     text-align: center;
-
 }
 .gx_box6 .box6_con .con_nav1,
 .gx_box6 .box6_con .con_nav2,
@@ -129,57 +114,34 @@ export default {
     width: 21vw;
     margin: 2vh auto;
     line-height: 14vh;
-   
     font-size: 4vh;
-    color:white
+    color:white;
 }
-/* .gx_box6 .box6_con  .con_nav1:hover,
-.gx_box6 .box6_con  .con_nav2:hover,
-.gx_box6 .box6_con  .con_nav3:hover{
-    transform: scale(1.1,1.1);
-    color: aqua;
-} */
 
-/* .gx_box6 .box6_con  .con_nav1:hover .ul1 {
-    transform: scale(1.1,1.1);
-    color: aqua;
-} */
 .gx_box6 .box6_con .ul1{
    position: absolute;
    left: 20vw;
-   top: -3vh;
-   /* z-index: 5; */
+    top: -6vh;
 }
 .gx_box6 .box6_con .ul2{
    position: absolute;
-   left: 26.5vw;
-   top: -2vh;
+   left: 20vw;
+    top:3vh;
 }
 .gx_box6 .box6_con .ul3{
    position: absolute;
-   left: 26.5vw;
-   top: -2vh;
-}
-/* .gx_box6 .box6_con  .con_nav3:hover ul{
-    transform: scale(1.1,1.1);
-    color: aqua;
-} */
-.gx_box6 .box6_con ul {
-    /* margin: 3vh  0;\ */
-    width: 50vw;
-    height: 30%;
-    position: absolute;
-    float: left;
+   left: 20vw;
+    top:4vh;
 
 }
 .gx_box6 .box6_con li {
     margin: 0;
-    line-height: 7vh;
-    font-size: 3vh;
+    width: 50vw;
+    line-height: 5vh;
+    font-size: 2.5vh;
     list-style-image: url(../../assets/images/gx/list_style.png);
     background-size: 100% 100%;
     float: left;
-    
 }
 .gx_box6 .box6_con .con_nav1:hover{
     color: aqua;
