@@ -6,10 +6,10 @@
                 <el-col class="left_col">
                     <div class="detail">
                         <p class="title"><a :href="item.href">{{item.title}}</a></p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr" />
                             <div>
-                                <a :href="item.href" style="font-size:2.5vh; font-family: STXingkai;">查看内容>></a>
+                                <a :href="item.href" >查看内容>></a>
                             </div>
                     </div>   
                 </el-col>
@@ -77,13 +77,21 @@ export default {
     width: 70%;
     height: 60vh;
     float: left;
-  
+    color: rgb(48, 189, 245);
+    font-family: STXingkai;
   }
   .right_col {
     width: 30%;
     height: 60vh;
     float: right;
     margin-top: 5vh;
+  }
+  .right_col img {
+      transition: all 500ms linear;
+  }
+
+  .right_col img:hover {
+      transform: scale(1.1,1.1)
   }
   .detail {
     margin: 10vh 8vw;
@@ -98,8 +106,6 @@ export default {
   .detail p{
     font-size: 3vh;
     text-align: justify;
-    color:rgb(51, 135, 214);
-     font-family: STXingkai;
   }
   hr {
     margin: 3vh 0 3vh 0;

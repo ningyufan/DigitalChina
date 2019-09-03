@@ -5,10 +5,10 @@
                 <el-row>
                 <el-col class="sy_left_col">
                     <div class="sy_detail">
-                        <p class="title"><a :href="item.href">{{item.title}}</a></p>
+                        <p class="sy_dtitle"><a :href="item.href">{{item.title}}</a></p>
                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
                         <hr class="hr" />
-                            <div>
+                            <div class="d_con">
                                 <a :href="item.href" style="font-size:2.5vh; font-family: STXingkai;">View content>></a>
                             </div>
                     </div>   
@@ -65,41 +65,60 @@ export default {
                     title:'Digital Exhibition Area',
                     href:'#sy_box6',
                     img_src:require('../../assets/images/sy/map6.png'),
-                    p:'Rapidly updated information and communication technologies such as the Internet, cloud computing, big data and the Internet of Things are profoundly reshaping the application scenarios of transportation, medical treatment, agriculture, finance, communication and social governance. With the development and construction of smart cities, all provinces and municipalities have built smart industrial parks. The most obvious achievement is Guizhou Province. As the first smart province, continuous development has improved Guizhou’s economic development, and the digital economic achievements are the first in the country. Generally speaking, the development of digital construction has accelerated the development of various industries in China and achieved significant results.',
+                    p:'Rapidly updated information and communication technologies such as the Internet, cloud computing, big data and the Internet of Things are profoundly reshaping the application scenarios of transportation, medical treatment, agriculture, finance, communication and social governance. With the development and construction of smart cities, all provinces and municipalities have built smart industrial parks. The most obvious achievement is Guizhou Province. As the first smart province, continuous development has improved Guizhou’s economic development.',
                 
                 }]
         }
     }
 }
 </script>
+
 <style>
+
 .sy_left_col{
     width: 70%;
     height: 60vh;
     float: left;
-  
+    font-family: STXingkai;
+    color: rgb(48, 189, 245);  
   }
   .sy_right_col {
     width: 30%;
     height: 60vh;
-    margin-top: 4vh;
+    margin-top: 6vh;
     float: right;
+  }
+  .sy_right_col img {
+      transition: all 500ms linear;
+  }
+  .sy_right_col img:hover {
+      transform: scale(1.1,1.1)
   }
   .sy_detail {
     margin: 10vh 8vw;
+
   }
-  .sy_detail .title{
+  .sy_detail .sy_dtitle{
     font-size: 4vh;
+    line-height: 6vh;
     margin: 2vh auto;
-    text-align: center;
-    font-family: STXingkai;
-  
+    text-align: center;    
   }
+    .sy_detail .sy_dtitle a,
+    .sy_detail  .d_con a {
+    color: rgb(48, 189, 245);  
+        
+  }
+  
+  .sy_detail .sy_dtitle a:hover,
+  .sy_detail  .d_con a:hover {
+    color: rgb(169, 229, 253);  
+
+  }
+
   .sy_detail p{
     font-size: 3vh;
-    text-align:justify;
-    color:rgb(51, 135, 214);
-    font-family: STXingkai;
+    line-height: 4.5vh;
   }
   hr {
     margin: 3vh 0 3vh 0;
@@ -109,10 +128,12 @@ export default {
   }
   .sy_detail div {
       text-align: center;
+
   }
 
 .sy_right_col img{
     margin-top: 5vh;
 }
+
 
 </style>

@@ -85,6 +85,15 @@ export default {
     float: right;
     margin-top: 5vh;
   }
+  .right_col {
+    width: 30%;
+    height: 60vh;
+    float: right;
+    margin-top: 5vh;
+  }
+    .right_col img {
+        transition: all 500ms linear;
+    }
   .detail {
     margin: 10vh 8vw;
   }
