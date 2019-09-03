@@ -29,7 +29,7 @@ On the basis of the pilot project, the company promotes the scale networking in 
 
 <script>
 export default {
-    layout:'e_content'
+    layout:'e_content3'
 }
 </script>
 

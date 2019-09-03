@@ -469,9 +469,9 @@
             <script src="js/cn_bg2.js"></script>
             </div>
         </div>
-        <div class="CN_bg5" id="cnbg4">
+        <!-- <div class="CN_bg5" id="cnbg4">
             <cnbg5/>
-        </div>
+        </div> -->
         <div class="CN_bg4" id="cnbg5">
             <div class="bg4_header">
                 <div class="bg4_bk1">
@@ -600,12 +600,12 @@
 //     }
 // import cnbg1 from '../dchina/cn_bg1'
 // import cnbg2 from '../dchina/cn_bg2'
-import cnbg5 from '../dchina/cn_bg5'
+// import cnbg5 from '../dchina/cn_bg5'
 export default {
     components:{
         // cnbg1,
         // cnbg2,
-        cnbg5
+        // cnbg5
         },
     head:{
         script:[
@@ -613,8 +613,8 @@ export default {
             {src:'js/jquery.min.js'},
             {src:'js/aos.js'},
             {src:'js/cn_app.js'},
-            {src:'js/rotate.js'},
-            {src:'js/cn_bg5.js'},
+            // {src:'js/rotate.js'},
+            // {src:'js/cn_bg5.js'},
             {src:'js/waterFloat.js'},
         ],
         link: [

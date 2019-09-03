@@ -38,7 +38,7 @@ Construction of security broadcasting supervision command and dispatch center an
 
 <script>
 export default {
-    layout:'e_content'
+    layout:'e_content3'
 }
 </script>
 

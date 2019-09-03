@@ -272,7 +272,7 @@ In this way, the manufactured mobile phone can keep its appearance and thickness
 
 <script>
 export default {
-    layout: 'e_content2',
+    layout: 'e_content2_sy',
     data() {
         return {
             sycon8_dialog1: false,

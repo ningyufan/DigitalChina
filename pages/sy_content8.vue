@@ -272,7 +272,7 @@
 
 <script>
 export default {
-    layout: 'content2',
+    layout: 'content2_sy',
     data() {
         return {
             sycon8_dialog1: false,

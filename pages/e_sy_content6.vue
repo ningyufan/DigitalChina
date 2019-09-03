@@ -62,7 +62,7 @@
 
 <script>
 export default {
-    layout: 'e_content2',
+    layout: 'e_content2_sy',
 }
 </script>
 

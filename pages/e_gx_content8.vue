@@ -33,7 +33,7 @@ We support ASEAN students to start their own businesses in related fields, form 
 
 <script>
 export default {
-    layout:'e_content'
+    layout:'e_content3'
 }
 </script>
 

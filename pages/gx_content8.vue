@@ -33,7 +33,7 @@
 
 <script>
 export default {
-    layout:'content'
+    layout:'content3'
 }
 </script>
 

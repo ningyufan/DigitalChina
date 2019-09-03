@@ -501,9 +501,9 @@
             <script src="js/cn_bg2.js"></script>
             </div>
         </div>
-        <div class="CN_bg5" id="cnbg4">
+        <!-- <div class="CN_bg5" id="cnbg4">
             <ecnbg5/>
-        </div>
+        </div> -->
         <div class="CN_bg4" id="cnbg5">
             <div class="bg4_header">
                 <div class="bg4_bk1">
@@ -626,12 +626,12 @@
 </template>
 
 <script>
-import ecnbg5 from '../dchina/e_cnbg5'
+// import ecnbg5 from '../dchina/e_cnbg5'
 export default {
     components:{
         // cnbg1,
         // cnbg2,
-        ecnbg5
+        // ecnbg5
         },
     head:{
         script:[

@@ -17,9 +17,9 @@
                             <div class="row1_two">
                                 <div class="nav">
                                     <ul>
-                                        <nuxt-link to="/english_index"><li><div class="nav_1">Home page</div></li></nuxt-link>
+                                        <nuxt-link to="/english_index"><li>Home page</li></nuxt-link>
                                         <nuxt-link to="/e_DigitalChina"><li>Digital China</li></nuxt-link>
-                                        <nuxt-link to="/e_DigitalGX"><li>Digital Guangxi</li></nuxt-link>
+                                        <nuxt-link to="/e_DigitalGX"><li><div class="nav_3">Digital Guangxi</div></li></nuxt-link>
                                         <nuxt-link to="/e_DigitalYL"><li>Digital Yulin</li></nuxt-link>
                                         <nuxt-link to="/e_DigitalYS"><li>Digital Yushi</li></nuxt-link>
                                         <nuxt-link to="/e_aboutMe"><li>About us</li></nuxt-link>
