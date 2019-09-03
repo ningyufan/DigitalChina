@@ -120,14 +120,7 @@ a:active {
   z-index:2;
 }
 
-.logo a {
-  color: rgb(51, 135, 214);
-  text-decoration: none;
- }
- .logo a:hover {
-  /* font-size: 3.5vh; */
-  color: rgb(10, 190, 245)
- }
+
 
 .ce_nav {
  height: 16vh;
@@ -179,12 +172,12 @@ a:active {
 
 
 .header a {
- color: rgb(51, 135, 214);
+color: rgb(48, 189, 245);
  text-decoration: none;
 }
 .header a:hover {
  /* font-size: 3.5vh; */
- color: rgb(10, 190, 245)
+ color: rgb(169, 229, 253);  
 }
 
 .doc{

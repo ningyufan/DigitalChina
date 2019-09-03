@@ -9,7 +9,7 @@
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic1.jpg" alt=""/>
                         <div class="txt">
-                            <h1>数字经济</h1>
+                            <div class="txt_top">数字经济</div>
                             <p>数字经济将开启2亿人口就业空间</p>
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic2.jpg" alt=""/>
                         <div class="txt">
-                            <h1>数字经济</h1>
+                            <div class="txt_top">数字经济</div>
                             <p>互联网医院可医保买单了，商业保险还远吗？</p>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic3.jpg" alt=""/>
                         <div class="txt">
-                            <h1>数字教育</h1>
+                            <div class="txt_top">数字教育</div>
                             <p>“智慧AI老师”或将改变未来教育方式</p>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                     <div class="c">
                         <img src="@/assets/images/sy/sybox1_pic4.jpg" alt=""/>
                         <div class="txt">
-                            <h1>数字教育</h1>
+                            <div class="txt_top">数字教育</div>
                             <p>互联网＋人工智能驱动在线教育产业普及</p>
                         </div>
                     </div>
@@ -84,9 +84,11 @@ export default {
 
 <style>
 .sy_box1{
-  height: 100%;
-  width: 100%;
-  position: relative;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: STXingkai;
+    color: rgb(48, 189, 245);
 }
 .sybox1_t {
   height: 15vh;
@@ -97,8 +99,6 @@ export default {
   line-height: 15vh;
   text-align: center;
   font-size: 6vh;
-  font-family: STXingkai;
-  color: rgb(48, 189, 245);
   z-index:5;
 }
 
@@ -117,6 +117,13 @@ export default {
         font-size: 4vh;
     }
 }
+.sy_box1 .sybox1_con {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 #wrap{
   position:absolute;
   left:0; top:0;
@@ -128,18 +135,27 @@ export default {
 }
 .hb {
   position:relative;
-  width:23%;
+  width:22.5vw;
   z-index:1;
+  /* background-color: aqua; */
   display:flex;
   align-items:center;
   z-index:2;
   trasnform:scale(.97);
 }
 .c{
-  margin-left: 30%;
+  margin-left: 10vw;
   position:relative;
   display:block;
   max-width:70%;
+}
+.c .txt_top{
+  font-size: 4vh;
+  line-height: 6vh;
+}
+.c p {
+  font-size: 2.5vh;
+  line-height: 3.75vh;
 }
 .c img {
   position:relative;

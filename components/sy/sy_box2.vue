@@ -13,7 +13,7 @@
                             <div class="el__inner">
                             <div class="el__bg"></div>
                             <div class="el__preview-cont">
-                                <h2 class="el__heading">福州</h2>
+                                <h2 class="el__heading" style="">福州</h2>
                             </div>
                             <div class="el__content">
                                 <div class="el__text">福州：数字中国建设成果展人气火爆</div>
