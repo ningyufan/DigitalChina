@@ -11,7 +11,7 @@
 
 <script>
 export default {
-    layout:'e_content',
+    layout:'e_content3',
 }
 </script>
 

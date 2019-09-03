@@ -90,22 +90,20 @@ export default {
     top: 8vh;
     z-index: 2;
     float: left;
-    left: 8%;
+    left: 10%;
 
 }
 .gx_box6 .box6_con .con_nav2{
     position: absolute;
-    left: 0;
+    left: 10%;
     top: 28vh;
-     text-align: center;
+    
     
 }
 .gx_box6 .box6_con .con_nav3{
     position: absolute;
-    left: 0;
+    left: 10%;
     top: 49vh;
-     text-align: center;
-
 }
 .gx_box6 .box6_con .con_nav1,
 .gx_box6 .box6_con .con_nav2,
@@ -114,35 +112,23 @@ export default {
     width: 21vw;
     margin: 2vh auto;
     line-height: 14vh;
-   
     font-size: 4vh;
     color:white
 }
-/* .gx_box6 .box6_con  .con_nav1:hover,
-.gx_box6 .box6_con  .con_nav2:hover,
-.gx_box6 .box6_con  .con_nav3:hover{
-    transform: scale(1.1,1.1);
-    color: aqua;
-} */
 
-/* .gx_box6 .box6_con  .con_nav1:hover .ul1 {
-    transform: scale(1.1,1.1);
-    color: aqua;
-} */
 .gx_box6 .box6_con .ul1{
    position: absolute;
    left: 20vw;
    top: -3vh;
-   /* z-index: 5; */
 }
 .gx_box6 .box6_con .ul2{
    position: absolute;
-   left: 26.5vw;
+   left: 20vw;
    top: -2vh;
 }
 .gx_box6 .box6_con .ul3{
    position: absolute;
-   left: 26.5vw;
+   left: 20vw;
    top: -2vh;
 }
 /* .gx_box6 .box6_con  .con_nav3:hover ul{
@@ -150,7 +136,6 @@ export default {
     color: aqua;
 } */
 .gx_box6 .box6_con ul {
-    /* margin: 3vh  0;\ */
     width: 50vw;
     height: 30%;
     position: absolute;
@@ -159,6 +144,7 @@ export default {
 }
 .gx_box6 .box6_con li {
     margin: 0;
+    width: 50vw;
     line-height: 7vh;
     font-size: 3vh;
     list-style-image: url(../../assets/images/gx/list_style.png);

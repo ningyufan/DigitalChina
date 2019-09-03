@@ -21,7 +21,7 @@ China-ASEAN Port Logistics Information Center and a number of other informationi
 
 <script>
 export default {
-    layout:'e_content'
+    layout:'e_content3'
 }
 </script>
 
