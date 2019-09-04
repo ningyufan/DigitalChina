@@ -3,7 +3,7 @@
     <div class="video-container">
       <div :style="fixStyle" class="filter">
           <div class="title wow bounceInDown">
-             <p style="font-family:duanning;">人民对美好生活的向往,就是数字中国建设的优先行动方向</p>
+             <p style="font-family:duanning;" id="Title">人民对美好生活的向往,就是数字中国建设的优先行动方向</p>
           </div>
            <div class="but-box">
              <div>
@@ -121,7 +121,7 @@
   @import "@/assets/css/index/page_index.css";
   @import "@/assets/css/yulin/font_index.css";
 
-  /* #t {
+  #Title {
   animation: layerize cubic-bezier(0.4, 0, 0.2, 1) 1200ms 200ms forwards;
   opacity: 0;
   width: 100%;
@@ -143,5 +143,5 @@
     transform: translate(-0.06667em, -0.06667em);
     text-shadow: 0 0 transparent, 0.03333em 0.03333em rgba(255, 255, 255, 0.4), 0.06667em 0.06667em rgba(255, 255, 255, 0.3), 0.1em 0.1em rgba(255, 255, 255, 0.2), 0.13333em 0.13333em rgba(255, 255, 255, 0.1);
   }
-} */
+}
 </style>
