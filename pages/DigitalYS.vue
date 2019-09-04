@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="YS">
-                    <ysblock/>
+                    <ysheader/>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
 </template>
 
 <script>
-import ysblock from '../components/YS_Block.vue'
+import ysheader from '../components/ys/ysheader.vue'
 import ysindex from '../components/ys/ysindex.vue'
 // import ysblockjs from '../components/ys/ys_block_js.vue'
 // import ysblockscope from '../components/ys/ys_block_Scope.vue'
@@ -65,7 +65,7 @@ import ysindex from '../components/ys/ysindex.vue'
 // import animated from 'animate.css' 
 export default {
     components:{
-        ysblock,
+        ysheader,
         ysindex,
         // ysblockjs,
         // ysblockscope,

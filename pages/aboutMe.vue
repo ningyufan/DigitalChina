@@ -42,7 +42,7 @@
                             <br>
                             <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="250">本网页完成于2019年某一天，网页设计层次分明，页面内容采用aos滚动加载，配合原生js、淡入淡出等动画效果</h2>
                             <br>
-                            <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="400">使浏览者能更加舒适清晰的浏览网页内容，运用vue框架，使代码编码更加简洁，运行效率更高</h2>
+                            <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="400">使浏览者能更加舒适清晰的浏览网页内容，运用js等框架，使代码编码更加简洁，运行效率更高</h2>
                             <br>
                             <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="550">我们的团队致力于创作出更完美、更优秀的网页，为提升自我而时刻努力奋斗着</h2>
                             <br>

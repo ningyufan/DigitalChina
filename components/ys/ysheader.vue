@@ -31,34 +31,34 @@ export default {
                 id:0,
                 title:'大数据学院',
                 href:'#box1_ys',
-                img_src: require('../assets/images/ysblock/img3_js.jpg'),
+                img_src: require('../../assets/images/ysblock/img3_js.jpg'),
                 p:' 玉林师范学院大数据学院、大数据应用创新中心于2017年7月15日揭牌成立,是基于教育部学校规划建设发展中心联合曙光信息产业股份有限公司发起的数据中国“百校工程”产教融合创新项目而设立的。玉林师范学院是首批被教育部确定的数据中国“百校工程”试点院校,也是桂东南地区唯一一所试点院校。',
             },{
                 id:1,
                 title:'发展历程',
                 href:'#box2_ys',
-                img_src: require('../assets/images/ysblock/img6_zj.jpg'),
+                img_src: require('../../assets/images/ysblock/img6_zj.jpg'),
                 p:'玉林师范大数据学院历经三年时间的发展，取得了傲人的成绩，并继续以迅猛的速度发展着。2016年8月，成为数据中国“百校工程”产教融合创新项目先行先试合作院校，确认为“百校工程”项目创新基地，成为“大数据应用协同创新网络”的重要节点。',
                 
             },{
                 id:2,
                 title:'建设成果',
                 href:'#box3_ys',
-                img_src: require('../assets/images/ysblock/img3_xq.jpg'),
+                img_src: require('../../assets/images/ysblock/img3_xq.jpg'),
                 p:'人才方面：计算机科学与技术专业（大数据应用与分析方向）于2016年招生89名，2017年招生94名。大数据技术方向侧重于培养软件开发、数据挖掘、算法的分析与应用、分布式系统平台搭建维护等方面的应用型人才。硬件方面：大数据基地占地面积1200平方米，建设有展示厅、多媒体机房、项目实训室、教师科研团队工作室等功能区。',
                 
             },{
                 id:3,
                 title:'新闻动态',
                 href:'#box4_ys',
-                img_src: require('../assets/images/ysblock/ys4.png'),
+                img_src: require('../../assets/images/ysblock/ys4.png'),
                 p:'大数据学院作为学校重点建设对象，其一举一动受到了社会的广泛关注。通过深化产教融合，校企深度合作，转变人才培养模式，采用曙光开发的VIP项目化教学的理念，提高学生学习的计划性、目的性和主动性。在建筑、设备、技术、人才等方面都取得了傲人的成绩。',
      
             },{
                 id:4,
                 title:'学生风采',
                 href:'#box5_ys',
-                img_src: require('../assets/images/ysblock/img4_scope_5.webp'),
+                img_src: require('../../assets/images/ysblock/img4_scope_5.webp'),
                 p:'大数据学院围绕知识、能力、素质三个维度对人才培养标准做整体要求，使学生掌握必要的基础知识，满足“宽口径、厚基础”本科教学培养的特点；使学生具备大数据工程专业技术应用能力，具备工作岗位中所需要的实践能力和技术技能要求。同时，注重培养学生具备创新精神、沟通表达、团队协作及抗压适应等的基本职业素养和基本素质。',
                 
             }]

@@ -42,7 +42,7 @@
                             <br>
                             <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="250">This web page was completed one day in 2019. The design of the web page is hierarchical. The content of the web page is loaded by rolling aos, with the animation effects of native js, fade in and fade out</h2>
                             <br>
-                            <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="400">Visitors can browse the content of the web page more comfortably and clearly, and use the Vue framework to make the coding more concise and efficient</h2>
+                            <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="400">Make the browser more comfortable and clear to browse the content of the web page, and use js and other frameworks to make the coding more concise and more efficient.</h2>
                             <br>
                             <h2 style="font-family:STXingkai;color: rgb(48, 189, 245);font-size:3vh;" aos="fade-up" aos-easing="ease" aos-delay="550">Our team is dedicated to creating more perfect and excellent web pages and striving for self-improvement all the time</h2>
                             <br>

@@ -45,7 +45,7 @@ import Carousel from './carousel'
 import animated from 'animate.css'
 import GxCard from '../GX_card'
 import cnheader from '../../components/dchina/cnheader'
-import YSBlock from '../YS_Block'
+import YSBlock from '../../components/ys/ysheader'
 import YulinOne from '../yulin/yulin_one'
 	export default {
 		props:['items'],
