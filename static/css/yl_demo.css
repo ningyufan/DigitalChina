@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+#wrap{
+	width: 90vw;
+	height: 100vh;
+	margin: 7vh 2vw 0vh 6.5vw;
+	/* margin: auto; */
+	/* background-color: #f60; */
+}
+#wrap ul li .a1 img{
+	width: 25vw;
+	height: 35vh;
+}
+#wrap ul li{
+	width: 25vw;
+	height: 35vh;
+	list-style: none;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 1.5vh 1.5vw;
+} 
+#wrap ul li .a1 .divA{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 25vw;
+	height: 7vh;
+	padding: 1vh 1vw;
+	background: #fafafa;
+}
+#wrap ul li .a1 .divA>.p1{
+	width: 23vw;
+	height:3vh;
+	font-size: 2.2vh;
+	text-align: center;
+    line-height: 3vh;
+    color: rgb(12, 12, 12);
+}
+#wrap ul li .a1 .divA>.p2{
+	width: 20vw;
+	height: 3vh;
+    font-size: 2vh;
+    color: #b4b4b4;
+    line-height: 4vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#wrap ul li .a1 .divA>.p3{
+	position: absolute;
+	right: 0;
+	bottom: 1vh;
+	width: 5vw;
+	height: 4vh;
+	color: #f60;
+}
+#wrap ul li .a1 .divA>.p3>span{
+	font-size: 3.5vh;
+	font-weight:800;
+}
+/*遮罩*/
+#wrap ul li .a2{
+	position: absolute;
+	top: 0;
+	left:-25vw;
+	width:25vw;
+	height: 35vh;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	transition: all 0.2s;  
+} 
+#wrap ul li .a2 .p4{
+	width: 24vw;
+	height:4vh;
+	font-size: 2.5vh;
+	text-align: center;
+    line-height: 4vh;
+	position: absolute;
+	top: 6vh;
+	left: -10vw;
+	color: #ffe605;
+    font-weight: bold;
+    transition: all 0.2s 0.1s ease-out ;  
+}
+
+
+
+#wrap ul li .a2 .p5{
+	width: 24vw;
+	text-align: center;
+	line-height:3vh ;
+	position: absolute;
+	top: 65px;
+	left: -474px;
+	margin: 30px  0 10px;
+	font-size: 2vh;
+    color: white;
+    transition: all 0.2s 0.2s ease-out ;  
+}
+#wrap ul li .a2 .p6{
+	position: absolute;
+	top: 140px;
+	left: 175px;
+	transform: scale(1.4);
+	transition: all 0.3s 0.2s ;
+}
+#wrap ul li .a2 .p7{
+	position: absolute;
+	bottom:-15vh;
+	left:20vh;
+	width: 6vw;
+	height: 5vh;
+	line-height: 5vh;
+	border-radius: 2vh;
+	margin: 2vh auto;
+	border: 0.3vh solid;
+	font-size: 2vh;
+	transition: all 0.2s 0.5s ;
+}
+ .p7:hover {
+	background-color: #7eacd8;
+	color: aqua;
+	transition: all 0.1s 0.1s ;
+}
+.p7:active{
+	background-color: cadetblue;
+	transition: all 0.1s 0.1s ;
+}
+    
+

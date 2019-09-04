@@ -399,14 +399,12 @@
 						<div class ="divA">
 							<p class="p1">玉林市博白民生资金大数据监督平台升级</p>
 							<p class="p2">经过5个月的试运行，升级提档后的博白县民生资金大数据监督平台日前重新上线...</p>
-							<!-- <p class="p3">¥<span>6999</span>起</p> -->
 						</div>
 					</a>
 					<a class = "a2"  href="/yl_ctfp1" target="_blank">
 							<p class="p4">玉林市博白民生资金大数据监督平台升级</p>
 							<p class="p5">经过5个月的试运行，升级提档后的博白县民生资金<br>大数据监督平台日前重新上线...</p>
-							<!-- <p class="p6">¥<span>6999</span>起</p> -->
-							<p class="p7">查看详情</p>
+							<p class="p7">查看详情></p>
 					</a>
 				</li>
 				<li>
@@ -415,13 +413,11 @@
 						<div class ="divA">
 							<p class="p1">玉林市大数据精准助力贫困学子上学</p>
 							<p class="p2">为实现教育精准资助，切实保障建档立卡贫困户学生资助“一个不漏”，我市建立了“市—县—乡（镇）—校”四级联动...</p>
-							<!-- <p class="p3">¥<span>6999</span>起</p> -->
 						</div>
 					</a>
 					<a class = "a2" href="/yl_ctfp2" target="_blank">
 							<p class="p4">玉林市大数据精准助力贫困学子上学</p>
 							<p class="p5">为实现教育精准资助，切实保障建档立卡贫困户学生<br>资助“一个不漏”，我市建立了“市—县—乡（镇）—校”四级联动...</p>
-							<!-- <p class="p6">¥<span>6999</span>起</p> -->
 							<p class="p7">查看详情></p>
 					</a>
 				</li>
@@ -431,13 +427,11 @@
 						<div class ="divA">
 							<p class="p1">玉林市博白县运用“大数据”盯住民生资金</p>
 							<p class="p2">建立大数据平台进行数据比对，是博白县在广西首创民生资金电子动态监管平台的基础上...</p>
-							<!-- <p class="p3">¥<span>8399</span>起</p> -->
 						</div>
 					</a>
 					<a class = "a2" href="/yl_ctfp3" target="_blank">
 							<p class="p4">玉林市博白县运用“大数据”盯住民生资金</p>
 							<p class="p5">建立大数据平台进行数据比对，是博白县在广西首创<br>民生资金电子动态监管平台的基础上...</p>
-							<!-- <p class="p6">¥<span>8399</span>起</p> -->
 							<p class="p7">查看详情></p>
 					</a>
 				</li>
@@ -447,13 +441,11 @@
 						<div class ="divA">
 							<p class="p1">玉林市兴业县“扶贫云”大数据助力扶贫</p>
 							<p class="p2">兴业县围绕“三盯三查”（盯政策落实、查不正之风，盯资金安全等专项行动，开发建立兴业县“扶贫云”大数据平台...</p>
-							<!-- <p class="p3">¥<span>8499</span>起</p> -->
 						</div>
 					</a>
 					<a class = "a2" href="/yl_ctfp4" target="_blank">
 							<p class="p4">玉林市兴业县“扶贫云”大数据助力扶贫</p>
 							<p class="p5">兴业县围绕“三盯三查”（盯政策落实、查不正之风，<br>盯资金安全等专项行动，开发建立兴业县“扶贫云”大数据平台...</p>
-							<!-- <p class="p6">¥<span>8499</span>起</p> -->
 							<p class="p7">查看详情></p>
 					</a>
 				</li>
@@ -463,13 +455,11 @@
 						<div class ="divA">
 							<p class="p1">玉林市陆川米场镇再练电商扶贫“硬招式”</p>
 							<p class="p2">米场镇注重电商扶贫模式的推广，实施农村电商精准扶贫，促进贫困村农产品“上线上网”、畅通“农产品进城”</p>
-							<!-- <p class="p3">¥<span>2199</span>起</p> -->
 						</div>
 					</a>
 					<a class = "a2" href="/yl_ctfp5" target="_blank">
 							<p class="p4">玉林市陆川米场镇再练电商扶贫“硬招式”</p>
 							<p class="p5">米场镇注重电商扶贫模式的推广，实施农村电商精准<br>扶贫，促进贫困村农产品“上线上网”、畅通“农产品进城”...</p>
-							<!-- <p class="p6">¥<span>2199</span>起</p> -->
 							<p class="p7">查看详情></p>
 					</a>
 				</li>
@@ -631,10 +621,10 @@
             { rel: 'stylesheet', href: 'css/page-style.css' },
 
 			// 产业模块
-			{ rel: 'stylesheet', href: 'css/yl_chanye/yl_style.css' },
+			{ rel: 'stylesheet', href: 'css/yl_style.css' },
 
 			// 扶贫模块
-			{ rel: 'stylesheet', href: 'css/yl_chanye/demo.css' },
+			{ rel: 'stylesheet', href: 'css/yl_demo.css' },
 
         ]
 		},

@@ -616,10 +616,10 @@
                 { rel: 'stylesheet', href: 'css/page-style.css' },
     
                 // 产业模块
-                { rel: 'stylesheet', href: 'css/yl_chanye/yl_style.css' },
+                { rel: 'stylesheet', href: 'css/yl_style.css' },
     
                 // 扶贫模块
-                { rel: 'stylesheet', href: 'css/yl_chanye/demo.css' },
+                { rel: 'stylesheet', href: 'css/yl_demo.css' },
     
             ]
             },

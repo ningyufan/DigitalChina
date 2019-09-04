@@ -187,7 +187,7 @@
 #main .info a{
     display:block;
     width: 4vw;
-    height:3vh;
+    height:3.5vh;
     background:#7a3f3a;
     color:#FFF;
     border-radius:5px;
@@ -200,7 +200,8 @@
 #main ul li:hover .info{
     -webkit-transform:rotatey(0deg);
     -moz-transform:rotatey(0deg);
-    right:2vh;bottom:-4vh;
+    right:2vh;
+    bottom:-4vh;
 }
 #main ul li:hover img{
     -webkit-transform:rotatey(360deg);
