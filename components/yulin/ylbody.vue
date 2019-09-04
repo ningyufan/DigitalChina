@@ -1,5 +1,6 @@
 <template>
     <div>
+			
 		<!-- 数字玉林·智慧城市建设板块内容 -->
         <div id="box_cs" class="bk_cs">
             <el-row class="title_text" aos="zoom-in">
@@ -170,7 +171,7 @@
 				</el-dialog>
             </el-row> 
 		</div>
-		
+		<canvas id="canvas" width="100vw" height="auto" style="position:absolute"></canvas>
 		<!-- 数字玉林·“互联网+”政务服务板块 -->
         <div id="box_zw" class="bk_zw">
             <el-row class="title_text" aos="zoom-in">数字玉林·“互联网+”政务服务</el-row>
@@ -384,7 +385,6 @@
 					</el-row>
                 </div>
 	   
-				
 		<!-- 数字玉林·大数据助力精准扶贫板块内容 -->
         <div id="box_fp" class="bk_fp">
             <el-row class="title_text" aos="zoom-in">
@@ -536,8 +536,8 @@
 					</div>  
 				</el-col >	
 			</el-row>
+			</div>
 			
-            </div>
     </div>
 </template>
 
@@ -564,6 +564,7 @@
 
 			{src:'js/jquery-1.12.4.min.js'},
 			{src:'js/popper.min.js'},
+			{src:'js/yl_b.js'},
 
 
 		
@@ -694,9 +695,12 @@
     
 }
 
+// 政务服务板背景效果
+//测试 路径属性
+
+
 
 </script>
-
 <style>
 	@import "@/assets/css/yulin/yl_body.css";
 </style>
