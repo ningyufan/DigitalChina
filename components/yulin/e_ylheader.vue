@@ -6,7 +6,7 @@
                     <el-col class="left_col_yl">
                         <div class="detail_yl">
                             <div class="titleheader_yl"><a :href="item.href">{{item.title}}</a></div>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
+                            <p>{{ item.p }}</p>
                             <hr class="hr_yl" />
                                 <div aos="zoom-in">
                                     <a :href="item.href" style="font-size:2.5vh;line-height: 3.75vh; font-family: STXingkai;">View content>></a>

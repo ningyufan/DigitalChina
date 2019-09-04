@@ -59,7 +59,7 @@ export default {
                 title:'Student elegance',
                 href:'#ebox5_ys',
                 img_src: require('../../assets/images/ysblock/img4_scope_5.webp'),
-                p:'Big Data College makes overall requirements for talent training standards in three dimensions: knowledge, ability and quality, so as to enable students to master the necessary basic knowledge and meet the characteristics of "wide caliber and thick foundation" undergraduate teaching and training, and to enable students to have the technical application ability of big data engineering specialty and the practical ability needed in their jobs. Requirements for strength and technical skills. At the same time, we should pay attention to cultivating students basic professional qualities and basic qualities such as innovative spirit, communication and expression, teamwork and stress tolerance.',
+                p:'Big Data College makes overall requirements for talent training standards in three dimensions: knowledge, ability and quality, so as to enable students to master the necessary basic knowledge and meet the characteristics of "wide caliber and thick foundation" undergraduate teaching and training, and to enable students to have the technical application ability of big data engineering specialty and the practical ability needed in their jobs. Requirements for strength and technical skills. ',
                 
             }]
         }

@@ -74,12 +74,11 @@
                     <div class="cklice1">
                         <div class="cklice2 left"><img class="katong_about" src='@/assets/images/ysblock/kt1.jpg' height="100%" width="100%"></div>
                         <div class="cklice3">
-                            <br>
-                            <div class="nameabout">吴证</div>
-                            <div class="text_about">队长</div>
+                            <br><br>
+                            <div class="nameabout" style="margin-top:-1vh">吴证</div>
                             <div class="text_about">计算机科学与工程学院</div>
-                            <div class="text_about">计算机科学与技术专业</div>
-                            <div class="text_about">负责网页的代码编辑，页面设计，整体统筹规划</div>
+                            <!-- <div class="text_about">计算机科学与技术专业</div> -->
+                            <div class="text_about">负责网页的代码编辑，整体统筹规划</div>
                         </div>
                     </div>
                     <div class="cklice4"></div>
@@ -90,11 +89,10 @@
                     <div class="cklice5 " >
                         <div class="cklice6 left"><img class="katong_about" src='@/assets/images/ysblock/kt3.jpg' height="100%" width="100%"></div>
                         <div class="cklice7">
-                            <br>
+                            <br><br>
                             <div class="nameabout">宁玉帆</div>
-                            <div class="text_about">队员</div>
                             <div class="text_about">计算机科学与工程学院</div>
-                            <div class="text_about">计算机科学与技术专业</div>
+                            <!-- <div class="text_about">计算机科学与技术专业</div> -->
                             <div class="text_about">负责网页的代码编辑，寻找素材和创意</div>
                         </div>
                     </div>
@@ -106,11 +104,10 @@
                     <div class="cklice9 " >
                         <div class="cklice10 left"><img class="katong_about" src='@/assets/images/ysblock/kt2.jpg' height="100%" width="100%"></div>
                         <div class="cklice11">
-                            <br>
+                            <br><br>
                             <div class="nameabout">陆石媚</div>
-                            <div class="text_about">队员</div>
                             <div class="text_about">计算机科学与工程学院</div>
-                            <div class="text_about">计算机科学与技术专业</div>
+                            <!-- <div class="text_about">计算机科学与技术专业</div> -->
                             <div class="text_about">负责网页的代码编辑，协助页面设计</div>
                         </div>
                     </div>
@@ -122,11 +119,10 @@
                     <div class="cklice13 " >
                         <div class="cklice14 left"><img class="katong_about" src='@/assets/images/ysblock/kt4.jpg' height="100%" width="100%"></div>
                         <div class="cklice15">
-                            <br>
+                            <br><br>
                             <div class="nameabout">严晓倩</div>
-                            <div class="text_about">队员</div>
                             <div class="text_about">计算机科学与工程学院</div>
-                            <div class="text_about">计算机科学与技术专业</div>
+                            <!-- <div class="text_about">计算机科学与技术专业</div> -->
                             <div class="text_about">负责网页的代码编辑，素材整理，页面设计</div>
                         </div>
                     </div>
@@ -138,11 +134,10 @@
                     <div class="cklice17 " >
                         <div class="cklice18 left"><img class="katong_about" src='@/assets/images/ysblock/kt5.jpg' height="100%" width="100%"></div>
                         <div class="cklice19">
-                            <br>
+                            <br><br>
                             <div class="nameabout">黄思森</div>
-                            <div class="text_about">队员</div>
                             <div class="text_about">计算机科学与工程学院</div>
-                            <div class="text_about">计算机科学与技术专业</div>
+                            <!-- <div class="text_about">计算机科学与技术专业</div> -->
                             <div class="text_about">负责版面设计，下载素材，协助团队完成设计工作。</div>
                         </div>
                     </div>
@@ -372,7 +367,7 @@ export default {
     transition-timing-function: linear;
     opacity: 0;
     z-index: 1;
-    padding: 0vh 1.5vh;
+    padding:1.5vh;
     /* text-align: center; */
     /* transition: margin-left 0.3s ease-in; */
 }
@@ -689,11 +684,11 @@ export default {
 }
 .nameabout{
     font-family: 华文行楷;
-    font-size: 1.5vw;
+    font-size: 3vh;
 }
 .text_about{
-    font-size: 1vw;
-    line-height: 2.8vh;
+    font-size: 2.5vh;
+    line-height: 3.75vh;
     font-family: 华文行楷;
 }
 </style>

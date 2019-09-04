@@ -76,9 +76,8 @@
                             <div class="cklice3">
                                 <br><br>
                                 <div class="nameabout">Wuzheng</div>
-                                <div class="text_about">captain</div>
                                 <div class="text_about">College of Computer Science and Engineering</div>
-                                <div class="text_about">Computer Science and Technology</div>
+                                <!-- <div class="text_about">Computer Science and Technology</div> -->
                                 <div class="text_about">Responsible for code editing, page design and overall planning of web pages</div>
                             </div>
                         </div>
@@ -92,9 +91,8 @@
                             <div class="cklice7">
                                 <br><br>
                                 <div class="nameabout">Ningyufan</div>
-                                <div class="text_about">Team member</div>
                                 <div class="text_about">College of Computer Science and Engineering</div>
-                                <div class="text_about">Computer Science and Technology</div>
+                                <!-- <div class="text_about">Computer Science and Technology</div> -->
                                 <div class="text_about">Responsible for Code Editing of Web Pages, Searching for Material and Creativity</div>
                             </div>
                         </div>
@@ -108,9 +106,8 @@
                             <div class="cklice11">
                                 <br><br>
                                 <div class="nameabout">Lushimei</div>
-                                <div class="text_about">Team member</div>
                                 <div class="text_about">College of Computer Science and Engineering</div>
-                                <div class="text_about">Computer Science and Technology</div>
+                                <!-- <div class="text_about">Computer Science and Technology</div> -->
                                 <div class="text_about">Be responsible for the code editing of web pages and assist in page design</div>
                             </div>
                         </div>
@@ -124,9 +121,8 @@
                             <div class="cklice15">
                                 <br><br>
                                 <div class="nameabout">Yanxiaoqian</div>
-                                <div class="text_about">Team member</div>
                                 <div class="text_about">College of Computer Science and Engineering</div>
-                                <div class="text_about">Computer Science and Technology</div>
+                                <!-- <div class="text_about">Computer Science and Technology</div> -->
                                 <div class="text_about">Responsible for page code editing, material sorting, page design</div>
                             </div>
                         </div>
@@ -140,9 +136,8 @@
                             <div class="cklice19">
                                 <br><br>
                                 <div class="nameabout">Huangsisen</div>
-                                <div class="text_about">Team member</div>
                                 <div class="text_about">College of Computer Science and Engineering</div>
-                                <div class="text_about">Computer Science and Technology</div>
+                                <!-- <div class="text_about">Computer Science and Technology</div> -->
                                 <div class="text_about">Responsible for page code editing, material sorting, page design</div>
                             </div>
                         </div>
@@ -683,11 +678,11 @@ export default {
 }
 .nameabout{
     font-family: 华文行楷;
-    font-size: 1.5vw;
+    font-size: 3vh;
 }
 .text_about{
-    font-size: 1vh;
-    line-height: 2.8vh;
+    font-size: 2.5vh;
+    line-height: 2.75vh;
     font-family: 华文行楷;
 }
 </style>

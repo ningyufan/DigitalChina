@@ -6,7 +6,7 @@
                 <el-col class="left_col_yl">
                     <div class="detail_yl">
                         <div class="titleheader_yl"><a :href="item.href">{{item.title}}</a></div>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
+                        <p>{{ item.p }}</p>
                         <hr class="hr_yl" />
                             <div>
                                 <a :href="item.href" style="font-size:2.5vh;;line-height: 3.75vh; font-family: STXingkai;">查看内容>></a>
@@ -44,7 +44,7 @@ export default {
                 title:'智慧旅游建设',
                 href:'#box_ly',
                 img_src: require('../../assets/images/yulin/travel_p5.png'),
-                p:'智慧旅游依托信息技术，主动获取游客信息，形成游客数据积累和分析体系，全面了解游客的需求变化、意见建议以及旅游企业的相关信息，实现科学决策和科学管理。玉林市提出以旅游业为优势产业，通过对区域内经济社会资源尤其是旅游资源、相关产业、生态环境、公共服务、体制机制、政策法规、文明素质等进行全方位、系统化的优化提升，实现区域资源有机整合、产业融合发展、社会共建共享，以旅游业带动和促进经济社会协调发展。'
+                p:'智慧旅游依托信息技术，主动获取游客信息，形成游客数据积累和分析体系，全面了解游客的需求变化、意见建议以及旅游企业的相关信息，实现科学决策和科学管理。玉林市提出以旅游业为优势产业，通过对区域内经济社会资源尤其是旅游资源、相关产业、生态环境、公共服务、体制机制、政策法规、文明素质等进行全方位、系统化的优化提升。'
                 
             },{
                 id:3,
