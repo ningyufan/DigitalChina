@@ -30,7 +30,7 @@
           浏览器不支持 video 标签，建议升级浏览器。
       </video>
 
-      <audio src="/index.mp3" controls="controls" autoplay="autoplay" playsinline="true"  loop  hidden="true" style="position: relative; z-index:5;" >
+      <audio src="/index.mp3" controls="controls" autoplay="autoplay" loop  style="position: relative; z-index:5;" >
         <source src="/index.mp3" type="audio/ogg" />
         <source src="/index.mp3" type="audio/mpeg"/>
       </audio>
