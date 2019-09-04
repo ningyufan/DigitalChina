@@ -88,13 +88,6 @@
     .detail_yl {
         margin: 10vh 8vw;
       }
-    .detail_yl p{
-    font-size: 3vh;
-    text-align: justify;
-    color:rgb(51, 135, 214);
-    font-family: STXingkai;
-    line-height: 6vh;
-    }
     .hr_yl {
     margin: 3vh 0 3vh 0;
     height:1px;
@@ -105,11 +98,21 @@
         text-align: center;
     }
     .titleheader_yl{
-        text-align: center;
-        font-size:4vh;
-        margin: 2vh auto;
-        font-family: STXingkai;
-    }
+    font-size: 4vh;
+    line-height: 6vh;
+    margin: 2vh auto;
+    text-align: center;
+    font-family: STXingkai; 
+    color: rgb(48, 189, 245);
+}
+   .detail_yl p{
+    font-size: 3vh;
+    line-height: 4.5vh;
+    text-align:justify;
+    font-family: STXingkai;
+    color: rgb(48, 189, 245);
+    text-indent: 2em;
+}
     </style>
     
     
