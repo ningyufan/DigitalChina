@@ -24,9 +24,9 @@
         lass="fillWidth" 
         v-on:canplay="canplay"
         >
-          <source src="../assets/video/index.mp4" type="video/mp4"/>
+          <source src="../assets/video/index_video.mp4" type="video/mp4"/>
           浏览器不支持 video 标签，建议升级浏览器。
-          <source src="../assets/video/index.mp4" type="video/webm"/>
+          <source src="../assets/video/index_video.mp4" type="video/webm"/>
           浏览器不支持 video 标签，建议升级浏览器。
       </video>
 
@@ -45,7 +45,6 @@
 
 
 <script>
-  // import Video from 'video.js'
   if (process.browser) { // 在这里根据环境引入wow.js
       var {WOW} = require('wowjs')
   }
@@ -66,7 +65,6 @@
             ],
             link: [
 		          { rel: 'stylesheet', href: 'css/normalize.css' },
-              // { rel: 'stylesheet', href: 'css/demo.css' },
               { rel: 'stylesheet', href: 'js/aos.css' },
               { rel: 'stylesheet', href: 'css/styles.css' }
 		    ]
