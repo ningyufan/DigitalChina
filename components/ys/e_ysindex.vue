@@ -2,7 +2,7 @@
     <div>
         <!-- box1 -->
         <div class="ysblockjs" id="ebox1_ys">
-            <div class="title_js" aos="zoom-in">Yulin Normal University——Big Data College</div>
+            <div class="title_js" aos="zoom-in">Yulin Normal College——Big Data College</div>
                 <div aos="flip-up">
                 <div class="box1_js">
                     <img src="@/assets/images/ysblock/img1_js.jpg" class="img1_js" height="100%" width="100%">
@@ -117,7 +117,7 @@
                     <img src="@/assets/images/ysblock/img3_xq.jpg" class="img3_xq" height="100%" width="100%">
                 </div>
                 <div class="img2_2_xq">
-                    <img src="@/assets/images/ysblock/img4_xq.jpg" class="img3_xq" height="100%" width="100%">
+                    <img src="@/assets/images/ysblock/img4_xq.jpg" class="img4_xq" height="100%" width="100%">
                 </div>
             </div>
             <div class="text2_xq" aos="fade-up-right">

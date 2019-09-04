@@ -2,7 +2,7 @@
     <div>
         <!-- box1 -->
         <div class="ysblockjs" id="box1_ys">
-            <div class="title_js" aos="zoom-in">玉林师范——大数据学院</div>
+            <div class="title_js" aos="zoom-in">玉林师院——大数据学院</div>
                 <div aos="flip-up">
                 <div class="box1_js">
                     <img src="@/assets/images/ysblock/img1_js.jpg" class="img1_js" height="100%" width="100%">
@@ -117,7 +117,7 @@
                     <img src="@/assets/images/ysblock/img3_xq.jpg" class="img3_xq" height="100%" width="100%">
                 </div>
                 <div class="img2_2_xq">
-                    <img src="@/assets/images/ysblock/img4_xq.jpg" class="img3_xq" height="100%" width="100%">
+                    <img src="@/assets/images/ysblock/img4_xq.jpg" class="img4_xq" height="100%" width="100%">
                 </div>
             </div>
             <div class="text2_xq" aos="fade-up-right">
@@ -189,7 +189,7 @@
                                 <img class="img6_ys" src="@/assets/images/ysblock/img1_scope.webp">
                                 <figcaption>
                                     <h3>部门培训 | 礼仪部</h3>
-                                    <h4 class="img_6_ys">点击查看详情</h4>
+                                    <h4 class="img_6_ys">查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -202,7 +202,7 @@
                                 <img class="img7_ys" src="@/assets/images/ysblock/img2_scope.webp">
                                 <figcaption>
                                     <h3>驭梦人生</h3>
-                                    <h4 class="img_7_ys">点击查看详情</h4>
+                                    <h4 class="img_7_ys">查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -215,7 +215,7 @@
                                 <img class="img8_ys" src="@/assets/images/ysblock/img3_scope_1.webp">
                                 <figcaption>
                                     <h3>不一样的我们</h3>
-                                    <h4 class="img_8_ys">点击查看详情</h4>
+                                    <h4 class="img_8_ys">查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -228,7 +228,7 @@
                                 <img class="img9_ys" src="@/assets/images/ysblock/img4_scope_5.webp"/>
                                 <figcaption>
                                     <h3>素质拓展</h3>
-                                    <h4 class="img_9_ys">点击查看详情</h4>
+                                    <h4 class="img_9_ys">查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -241,7 +241,7 @@
                                 <img class="img10_ys" src="@/assets/images/ysblock/img5_scope_2.webp">
                                 <figcaption>
                                     <h3>PPT团队风采展</h3>
-                                    <h4 class="img_10_ys">点击查看详情</h4>
+                                    <h4 class="img_10_ys">查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -254,7 +254,7 @@
                                 <img class="img11_ys" src="@/assets/images/ysblock/img6_scope_1.webp">
                                 <figcaption>
                                     <h3>五四团日活动</h3>
-                                    <h4 class="img_11_ys">点击查看详情</h4>
+                                    <h4 class="img_11_ys">查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -267,7 +267,7 @@
                                 <img class="img12_ys" src="@/assets/images/ysblock/img7_scope_1.webp">
                                 <figcaption>
                                     <h3>瑞翼工坊</h3>
-                                    <h4 class="img_12_ys">点击查看详情</h4>
+                                    <h4 class="img_12_ys">查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -280,7 +280,7 @@
                                 <img class="img13_ys" src="@/assets/images/ysblock/img8_scope_3.webp">
                                 <figcaption>
                                     <h3>Data Kingkong协会</h3>
-                                    <h4 class="img_13_ys">点击查看详情</h4>
+                                    <h4 class="img_13_ys">查看详情</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
