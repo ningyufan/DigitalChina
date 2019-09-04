@@ -5,11 +5,11 @@
                 <el-row>
                 <el-col class="left_col_ys">
                     <div class="detail_ys">
-                        <div class="titleheader_ys"><a style="color: rgb(48, 189, 245);" :href="item.href">{{item.title}}</a></div>
+                        <div class="titleheader_ys"><a :href="item.href">{{item.title}}</a></div>
                         <p>{{ item.p }}</p>
                         <hr class="hr_ys" />
                             <div>
-                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;color: rgb(48, 189, 245);">查看内容>></a>
+                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;">查看内容>></a>
                             </div>
                     </div>   
                 </el-col>
