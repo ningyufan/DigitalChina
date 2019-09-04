@@ -1,27 +1,8 @@
 .sy_index {
   background-color: rgb(14, 31, 53);
   position: relative;
-}
-
-
-.sy_box2{
-  width: 100vw;
-  height: 120vh;
-}
-.sy_box3{
-  width: 100vw;
-  height: 100vh;
-  /* background-color: aqua; */
-}
-.sy_box4{
-  width: 100vw;
-  height: 100vh;
-}
-.sy_box5{
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
+  font-family: STXingkai;
+  color: rgb(48, 189, 245);
 }
 .sy_box1 .sybox1_t ,
 .sy_box2 .sybox2_t ,
@@ -33,35 +14,4 @@
   line-height: 15vh;
   text-align: center;
   font-size: 6vh;
-  font-family: STXingkai;
-  color: rgb(48, 189, 245);
 }
-
-
-/* sy_box1 end */
-
-
-
-/* sy_box2 start */
-
-.sy_box2 .sybox2_con {
-  height: 95vh;
-  width: 95vw;
-  /* margin:  0 auto; */
-  /* background-color: rgba(14,44,54, 0.7); */
-  position: absolute;
-  left:2.5vw;
-}
-/* sy_box2 end */
-
-
-
-/* sy_box3 start */
-
-
-.sy_box3 .sybox3_con {
-  width: 100vw;
-  height: 90vh;
-  /* background-color: rgba(23, 45, 65, 0.8); */
-}
-

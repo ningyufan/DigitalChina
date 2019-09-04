@@ -6,7 +6,7 @@
         <div class="sybox1_con">
             <div id="wrap">
                 <a href="/sy_content1" class="hb" target="_blank">
-                    <div class="c">
+                    <div class="c" aos = "fade-up">
                         <img src="@/assets/images/sy/sybox1_pic1.jpg" alt=""/>
                         <div class="txt">
                             <div class="txt_top">数字经济</div>
@@ -18,7 +18,7 @@
                     <img src="@/assets/images/sy/sybox1_pic1.jpg" alt=""/>
                 </div>
                 <a href="/sy_content2" class="hb" target="_blank">
-                    <div class="c">
+                    <div class="c" aos = "fade-up" aos-delay = "300">
                         <img src="@/assets/images/sy/sybox1_pic2.jpg" alt=""/>
                         <div class="txt">
                             <div class="txt_top">数字经济</div>
@@ -30,7 +30,7 @@
                     <img src="@/assets/images/sy/sybox1_pic2.jpg" alt=""/>
                 </div>
                 <a href="/sy_content3" class="hb" target="_blank">
-                    <div class="c">
+                    <div class="c" aos = "fade-up" aos-delay = "600">
                         <img src="@/assets/images/sy/sybox1_pic3.jpg" alt=""/>
                         <div class="txt">
                             <div class="txt_top">数字教育</div>
@@ -42,7 +42,7 @@
                     <img src="@/assets/images/sy/sybox1_pic3.jpg" alt=""/>
                 </div>
                 <a href="/sy_content4" class="hb" target="_blank">
-                    <div class="c">
+                    <div class="c" aos = "fade-up" aos-delay = "900">
                         <img src="@/assets/images/sy/sybox1_pic4.jpg" alt=""/>
                         <div class="txt">
                             <div class="txt_top">数字教育</div>
