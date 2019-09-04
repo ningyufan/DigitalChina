@@ -66,12 +66,12 @@
                  playsinline='true' webkit-playsinline='true' width="100%" height="100%" >
                 </video>
             </div>
+<!-- class="animate" data-ani="zoomIn" data-duration='5000'  data-delay="13000" -->
 
-
-        <div :class="showtime" class="animate" data-ani="zoomIn" data-duration='5000'  data-delay="13000">
+        <div class="zoomIn">
             <div class="main-body">
                 <div>
-                    <div class="cklice1" >
+                    <div class="cklice1">
                         <div class="cklice2 left"><img class="katong_about" src='@/assets/images/ysblock/kt1.jpg' height="100%" width="100%"></div>
                         <div class="cklice3">
                             <br>
@@ -203,7 +203,16 @@ export default {
             this.video=true;
             var myVideo=document.getElementById("video1");
             myVideo.play();
-            this.showtime=''
+            if(this.video=true){
+                        function hide() {
+                $("#bbb").hide();
+                }
+                setTimeout("show()", 6000);
+                function show() {
+                $("#bbb").show();
+                }
+            }
+            
             
             // this.rrr=true
         },
@@ -255,7 +264,9 @@ export default {
     },
     mounted() {
         this.start();
-        // this.start2();
+    
+        
+    // setInterval(alertMsg,5000);
         // this.handleAnimate();
         // if (process.browser) {  // 在页面mounted生命周期里面 根据环境实例化WOW
         //     new WOW({
@@ -670,7 +681,8 @@ export default {
     animation: zoomIn 2s ease-in;
 }
 .zoomIn{
-    animation: zoomIn 2s ease-in;
+    animation: zoomIn 3s ease-in;
+    animation-delay:12s; 
 }
 .main-body{
     position:absolute;

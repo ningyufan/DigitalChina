@@ -68,7 +68,7 @@
             </div>
 
 
-            <div :class="showtime" class="animate" data-ani="zoomIn" data-duration='5000'  data-delay="13000">
+            <div class="zoomIn">
                 <div class="main-body">
                     <div>
                         <div class="cklice1" >
@@ -174,7 +174,6 @@ export default {
             isFixed: 0,
             text:1,
             video:false,
-            showtime:'style1',
         }
     },
         head:{
@@ -204,7 +203,6 @@ export default {
             this.video=true;
             var myVideo=document.getElementById("video1");
             myVideo.play();
-            this.showtime=''
             
             // this.rrr=true
         },
@@ -674,7 +672,8 @@ export default {
     animation: zoomIn 2s ease-in;
 }
 .zoomIn{
-    animation: zoomIn 2s ease-in;
+    animation: zoomIn 3s ease-in;
+    animation-delay:12s; 
 }
 .main-body{
     position:absolute;

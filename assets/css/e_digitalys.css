@@ -127,6 +127,7 @@
     background: #ccc;
     margin-top: 35vh;
     padding: 2vh 6%;
+    overflow: auto;
 }
 .title1_js{
     color: black;
@@ -525,6 +526,7 @@
     font-size: 1.65vh;
     text-align: justify;
     text-indent: 2em;
+    /* line-height: 2.1vh; */
 }
 .text7_zj{
     font-size: 1.65vh;
@@ -554,7 +556,7 @@
 .text_7_zj{
     text-align: center;
     font-size: 2vh;
-    margin-top: 6vh
+    margin-top: 8vh
 }
 
 
@@ -634,6 +636,7 @@
     padding: 2vh 3%;
     z-index: 3;
     position: relative;
+    overflow: auto;
 }
 .title1_1_xq{
     text-align: center;
@@ -687,6 +690,7 @@
     padding: 2vh 3%;
     z-index: 3;
     position: relative;
+    overflow: auto;
 
 }
 .title1_2_xq{
