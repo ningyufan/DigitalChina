@@ -86,6 +86,15 @@ export default {
     filter: brightness(60%);
    
   }
+
+.right_col_ys img {
+        transition: all 500ms linear;
+}
+.right_col_ys img:hover {
+    transform: scale(1.1,1.1)
+}
+
+
 .detail_ys {
     margin: 10vh 8vw;
   }

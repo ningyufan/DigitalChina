@@ -158,9 +158,8 @@ export default {
 .gx_box3 .box4_row .box4_con2 div:nth-child(1),
 .gx_box3 .box4_row .box4_con3 div:nth-child(1),
 .gx_box3 .box4_row .box4_con4 div:nth-child(1){
-    height: 10%;
-    width: 100%;
-    line-height: 100%;
+	width: 100%;
+    line-height: 5vh;
     text-align: center;
     font-size: 3vh;
    }
@@ -180,7 +179,8 @@ export default {
     height: 55%;
     width: 100%;
 	padding:10px 5px ;
-	font-size: 2.5vh;
+	font-size: 2vh;
+	line-height: 3vh;
     overflow: auto;
 
 }
