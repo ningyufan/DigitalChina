@@ -14,7 +14,7 @@
                     </div>   
                 </el-col>
                 <el-col class="cn_right_col">
-                    <a :href="item.href"><img :src="item.img_src" height="70%" width="80%" alt="" style="border-radius:100%;"></a>
+                    <a :href="item.href"><img :src="item.img_src" height="60%" width="70%" alt="" style="border-radius:100%;"></a>
                 </el-col>
             </el-row>
             </el-carousel-item>
@@ -82,9 +82,17 @@ export default {
   .cn_right_col {
     width: 30%;
     height: 60vh;
-    margin-top: 6vh;
+    margin-top: 10vh;
     float: right;
   }
+
+.cn_right_col img {
+    transition: all 500ms linear;
+}
+.cn_right_col img:hover {
+    transform: scale(1.1,1.1)
+}
+
   .cn_detail {
     margin: 10vh 8vw;
   }

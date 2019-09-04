@@ -14,7 +14,7 @@
                     </div>   
                 </el-col>
                 <el-col class="right_col_yl">
-                    <a :href="item.href"><img :src="item.img_src"height="90%" width="90%" style=" border-radius: 50vh"></a>
+                    <a :href="item.href"><img :src="item.img_src" height="90%" width="90%" style=" border-radius: 50vh"></a>
                 </el-col>
             </el-row>
             </el-carousel-item>
@@ -85,6 +85,14 @@ export default {
     filter: brightness(60%);
    
   }
+
+.right_col_yl img {
+    transition: all 500ms linear;
+}
+.right_col_yl img:hover {
+    transform: scale(1.1,1.1)
+}
+
 .detail_yl {
     margin: 10vh 8vw;
   }
