@@ -13,8 +13,8 @@
                                 <div class="heading">ulin "Wise People's Congress" Platform</div>
                                 <div class="bgDescription"></div>
                                 <div class="description" >
-                                    <h2 style="font-size: 3vh">ulin "Wise People's Congress" Platform</h2>
-                                    <p>Yulin's "Wise People's Congress" management platform includes computer terminal (PC) and mobile phone client (APP terminal). It mainly includes five functional systems, including "legislative system", "supervisory system", "representative performance system", "office system"...</p>
+                                    <h2 style="font-size: 2.5vh;text-align:center">ulin "Wise People's Congress" Platform</h2>
+                                    <p style="font-size:1.5vh;line-height:2.25vh">Yulin "Wise People's Congress" management platform includes computer terminal (PC) and mobile phone client (APP terminal), mainly including "legislative system", "supervisory system"...</p>
                                     <a @click="cs_dialog1 = true"  style="bottom: 0vh;">More &rarr;</a>
                                 </div>
                             </li> 
@@ -22,8 +22,8 @@
                                 <div class="heading">Yulin City Inclusive Platform</div>
                                 <div class="bgDescription"></div>
                                 <div class="description">
-                                    <h2 style="font-size: 3vh">Yulin City Inclusive Platform</h2>
-                                    <p>Yulin Federation of Trade Unions, Yulin Urban Rural Credit Cooperative and Guangxi Golden Thumb Network Science and Technology Information Co., Ltd. jointly innovated to create a "bank + wisdom city business alliance + trade union members" inclusive service platform. The platform ...</p>
+                                    <h2 style="font-size: 2.5vh;text-align:center">Yulin City Inclusive Platform</h2>
+                                    <p style="font-size:1.5vh;line-height:2.25vh">Yulin Federation of Trade Unions, Yulin Urban Rural Credit Cooperative and Guangxi Golden Thumb Network Science and Technology Information Co., Ltd. jointly innovated to create a "bank + wisdom city business alliance + trade union members"...</p>
                                     <a @click="cs_dialog2 = true" style="bottom: 0vh;">More &rarr;</a>
                                 </div>
                             </li> 
@@ -31,8 +31,8 @@
                                 <div class="heading"> Building Digital Yulin</div>
                                 <div class="bgDescription"></div>
                                 <div class="description">
-                                    <h2 style="font-size: 3vh">Building Digital Yulin</h2>
-                                    <p>In the current tide of "deep implementation of big data strategy to speed up the construction of digital Guangxi", China Telecom Yulin Branch has further increased investment and upgraded network capabilities on the basis of existing all-optical networks, vigorously built high-speed ...</p>
+                                    <h2 style="font-size: 2.5vh;text-align:center">Building Digital Yulin</h2>
+                                    <p style="font-size:1.5vh;line-height:2.25vh">In the current "deep implementation of big data strategy to speed up the construction of digital Guangxi" tide, China Telecom Yulin Branch on the basis of the existing all-optical network, further increase...</p>
                                     <a @click="cs_dialog3 = true">More &rarr;</a>
                                 </div>
                             </li>
@@ -40,8 +40,8 @@
                                 <div class="heading">Yulin Research Institute of Big Data</div>
                                 <div class="bgDescription"></div>
                                 <div class="description">
-                                    <h2 style="font-size: 3vh">Yulin Research Institute of Big Data</h2>
-                                    <p>Based on Yulin City Big Data Center, Yulin Normal University Big Data Application Innovation Center, Guangxi University Complex System Optimization and Big Data Processing Key Laboratory, Yulin City Big Data Research Institute has been built into an industry big data research ...</p>
+                                    <h2 style="font-size: 2.5vh;text-align:center">Yulin Research Institute of Big Data</h2>
+                                    <p style="font-size:1.5vh;line-height:2.25vh">Based on Yulin City Big Data Center, Yulin Normal University Big Data Application Innovation Center, Guangxi University Complex System Optimization and Key Laboratory of Big Data Processing...</p>
                                     <a @click="cs_dialog4 = true"  style="bottom: 0vh;">More &rarr;</a>
                                 </div>
                             </li>
@@ -49,8 +49,8 @@
                                 <div class="heading">"Wisdom Yulin" Signed and Started</div>
                                 <div class="bgDescription"></div>
                                 <div class="description">
-                                    <h2 style="font-size: 3vh">"Wisdom Yulin" Signed and Started</h2>
-                                    <p>On November 7, 2016, Yulin Smart City Construction Symposium and Signing Ceremony were held in Nanning. Yulin Municipal Government and Shuguang Cloud Computing Co., Ltd. signed a contract on the construction project of Yulin Smart City, which marked the formal start and implementation ...</p>
+                                    <h2 style="font-size: 2.5vh;text-align:center">"Wisdom Yulin" Signed and Started</h2>
+                                    <p style="font-size:1.5vh;line-height:2.25vh">>On November 7, 2016, Yulin Smart City Construction Symposium and Signing Ceremony were held in Nanning. Yulin Municipal Government and Dawning Cloud Computing Co., Ltd. signed a contract for the...</p>
                                     <a @click="cs_dialog5 = true"  style="bottom: 0vh;">More &rarr;</a>
                                 </div>
                             </li>
@@ -58,8 +58,8 @@
                                 <div class="heading">Choose "National Smart City"</div>
                                 <div class="bgDescription"></div>
                                 <div class="description">
-                                    <h2 style="font-size: 3vh">Choose "National Smart City"</h2>
-                                    <p>In April 2015, Yulin City was selected as a pilot city of national wisdom. Building a smart city is an important content and powerful carrier of the "three-year-one activity" in Yulin. On the basis of the previous work, the construction work has entered the top design stage....</p>
+                                    <h2 style="font-size: 2.5vh;text-align:center">Choose "National Smart City"</h2>
+                                    <p style="font-size:1.5vh;line-height:2.25vh">In April 2015, Yulin City was selected as a pilot city of national wisdom. Building a smart city is an important content and powerful carrier of the "three-year-one activity" in Yulin. On the basis of the previous work, the construction work has entered the top design stage...</p>
                                     <a @click="cs_dialog6 = true" style="bottom: 0vh;">More &rarr;</a>
                                 </div>
                             </li>

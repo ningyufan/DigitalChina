@@ -8,7 +8,7 @@ ul.accordion{
     top:0px;
     font-family: Cambria, serif;
     font-size: 2vh;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 3vh;
 }
 ul.accordion li{
@@ -46,13 +46,13 @@ ul.accordion li .heading{
     font-weight:bold;
     letter-spacing:1px;
     font-size:14px;
-    color:#444;
+    color:#000;
     text-align:center;
     text-shadow:-1px -1px 1px #ccc;
 }
 ul.accordion li .description{
     position:absolute;
-    width:24vw;
+    width:23vw;
     height:20vh;
     bottom:0vw;
     left:0vw;
@@ -65,22 +65,24 @@ ul.accordion li .description h2{
     letter-spacing:1px;
     font-size:4vh;
     text-align: center;
-    color:#444;
+    color:#000;
     text-align:left;
     margin:0px 0px 3vh 2vw;
     text-shadow:-0.5vh -0.5vh 0.5vh #ccc;
 }
 ul.accordion li .description p{
-    line-height:4vh;
+    line-height:3vh;
     margin:1vh 0.5vw;
     font-family: "Trebuchet MS", sans-serif;
-    font-size: 1vh;
-    font-style: italic;
-    font-weight: normal;
-    text-transform: none;
-    letter-spacing: normal;
-    line-height:2vh;
-    color: rgb(202, 198, 198);
+    font-size: 2vh;
+    /* font-style: italic; */
+    /* font-weight: normal; */
+    /* text-transform: none;
+    letter-spacing: normal; */
+    color: rgb(0, 0, 0);
+    z-index: 2;
+    position: relative;
+    text-align: justify;
 }
 ul.accordion li .description a{
     position:absolute;
@@ -88,9 +90,9 @@ ul.accordion li .description a{
     left:2vw;
     text-transform:uppercase;
     font-style:normal;
-    font-size:1.1vh;
+    font-size:2vh;
     text-decoration:none;
-    color:#888;
+    color:#000;
 }
 ul.accordion li .description a:hover{
     color:#333;
