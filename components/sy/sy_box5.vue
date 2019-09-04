@@ -206,7 +206,7 @@ export default {
   height: 100vh;
   overflow: hidden;
   display: flex;
-  perspective: 1000px;
+  perspective: 1200px;
   transform-style: preserve-3d;
   position: relative;
 }
@@ -238,9 +238,15 @@ export default {
         font-size: 4vh;
     }
 }
-#drag-container, #spin-container {
-  height: 85vh;
+.sybox5_con {
+  height: 80vh;
   width: 100vw;
+  margin-top: 5vh;
+} 
+#drag-container, #spin-container {
+  height: 80vh;
+  width: 100vw;
+
   position: relative;
   display: flex;
   margin: auto;

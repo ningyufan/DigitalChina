@@ -6,12 +6,12 @@
         <div class='accordion'>
             <ul>
                 <li>
-                    <div class="li_title"><a target="_blank" href="/sy_content5">5G &nbsp;&nbsp;时间表</a></div>
+                    <div class="li_title"><a target="_blank" href="/sy_content5">5G 时间表</a></div>
                     <a target="_blank" href="/sy_content5"><img src='@/assets/images/sy/sybox4_pic1.jpg'></a>
                 </li>
                 <li>
                     <div class="li_title">
-                        <a target="_blank" href="/sy_content6">5G &nbsp;&nbsp;标准</a></div>
+                        <a target="_blank" href="/sy_content6">5G 标准</a></div>
                     <a target="_blank" href="/sy_content6"><img src='@/assets/images/sy/sybox4_pic2.jpg'></a>
                 </li>
                 <li>
@@ -19,7 +19,7 @@
                     <a target="_blank" href="/sy_content7"><img src='@/assets/images/sy/sybox4_pic3.jpg'></a>
                 </li>
                 <li>
-                    <div class="li_title"><a target="_blank" href="/sy_content8">5G &nbsp;&nbsp; 大发声</a></div>
+                    <div class="li_title"><a target="_blank" href="/sy_content8">5G 大发声</a></div>
                     <a target="_blank" href="/sy_content8"><img src='@/assets/images/sy/sybox4_pic4.jpg'></a>
                 </li>
                 <li>
@@ -38,6 +38,11 @@
 </script>
 
 <style>
+.sy_box4{
+  width: 100vw;
+  height: 110vh;
+}
+
 .sybox4_t{
   font-size: 6vh;
   font-family: STXingkai;
@@ -65,6 +70,8 @@
     height:80vh;
     overflow:hidden;
     margin:0 auto;
+    margin-top: 5vh;
+    /* margin-bottom: 5vh; */
     box-shadow:0 0 10px 2px rgba(0,0,0,0.4);
 }
 .accordion ul{
@@ -107,7 +114,8 @@
 .accordion .li_title a{
     display:block;
     color:#fff;
-    font-size:16px;
-    padding:20px;
+    font-size:4vh;
+    line-height: 10vh;
+    padding-left: 4vw;
 }
 </style>

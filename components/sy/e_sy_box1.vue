@@ -6,7 +6,7 @@
         <div class="sybox1_con">
             <div id="wrap">
                 <a href="/e_sy_content1" class="hb" target="_blank">
-                    <div class="c">
+                    <div class="c" aos = "fade-up">
                         <img src="@/assets/images/sy/sybox1_pic1.jpg" alt=""/>
                         <div class="txt">
                             <h1>Digital Economy</h1>
@@ -18,7 +18,7 @@
                     <img src="@/assets/images/sy/sybox1_pic1.jpg" alt=""/>
                 </div>
                 <a href="/e_sy_content2" class="hb" target="_blank">
-                    <div class="c">
+                    <div class="c" aos = "fade-up" aos-delay = "300">
                         <img src="@/assets/images/sy/sybox1_pic2.jpg" alt=""/>
                         <div class="txt">
                             <h1>Digital Economy</h1>
@@ -30,7 +30,7 @@
                     <img src="@/assets/images/sy/sybox1_pic2.jpg" alt=""/>
                 </div>
                 <a href="/e_sy_content3" class="hb" target="_blank">
-                    <div class="c">
+                    <div class="c" aos = "fade-up" aos-delay = "600">
                         <img src="@/assets/images/sy/sybox1_pic3.jpg" alt=""/>
                         <div class="txt">
                             <h1>Digital Education</h1>
@@ -42,7 +42,7 @@
                     <img src="@/assets/images/sy/sybox1_pic3.jpg" alt=""/>
                 </div>
                 <a href="/e_sy_content4" class="hb" target="_blank">
-                    <div class="c">
+                    <div class="c" aos = "fade-up" aos-delay = "900">
                         <img src="@/assets/images/sy/sybox1_pic4.jpg" alt=""/>
                         <div class="txt">
                             <h1>Digital Education</h1>
@@ -84,9 +84,11 @@ export default {
 
 <style>
 .sy_box1{
-  height: 100%;
-  width: 100%;
-  position: relative;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: STXingkai;
+    color: rgb(48, 189, 245);
 }
 .sybox1_t {
   height: 15vh;
