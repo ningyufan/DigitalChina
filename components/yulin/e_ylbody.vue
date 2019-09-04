@@ -171,6 +171,7 @@
                 </el-row> 
             </div>
             
+            <canvas id="canvas" width="100vw" height="auto" style="position:absolute"></canvas>
             <!-- 数字玉林·“互联网+”政务服务板块 -->
             <div id="e_box_zw" class="bk_zw">
                 <el-row class="title_text" aos="zoom-in">Digital Yulin · " Internet + " government services</el-row>
@@ -563,6 +564,9 @@
                 {src:'js/yl_jquery.min.js'},
                 {src:'js/jquery-1.12.4.min.js'},
                 {src:'js/popper.min.js'},
+
+                // 政务服务模块
+                {src:'js/yl_b.js'},
     
                 // 产业模块
                 {src:'js/yl_chanye/jquery-1.7.2.min.js'},

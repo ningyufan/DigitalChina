@@ -95,8 +95,9 @@ ul.accordion li .description a{
     color:#000;
 }
 ul.accordion li .description a:hover{
-    color:#333;
+    color:rgb(101, 69, 219);
     text-decoration:underline;
+    transform: scale(1.4)
 }
 ul.accordion li .bgDescription{
     background:transparent url(../images/bgDescription.png) repeat-x top left;

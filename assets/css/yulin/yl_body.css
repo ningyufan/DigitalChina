@@ -10,7 +10,7 @@
 }
 .bk_zw{
     width: 100%;
-    height: 135vh;
+    height: 140vh;
     background-image: url('../../images/yulin/bk_zw.png');
     background-size: 100% 100%;
 }
@@ -77,7 +77,7 @@
 .zhengwu_module1{
     background-color: rgb(241, 241, 241,0.5);
     width: 80%;
-    height: 80vh;
+    height: 85vh;
     margin: 3vh auto 5vh;
     overflow-y: auto;
     box-shadow:2vh 2vh 5vw rgb(122, 216, 240);

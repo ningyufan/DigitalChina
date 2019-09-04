@@ -1,6 +1,5 @@
 <template>
-    <div>
-			
+    <div>	
 		<!-- 数字玉林·智慧城市建设板块内容 -->
         <div id="box_cs" class="bk_cs">
             <el-row class="title_text" aos="zoom-in">
@@ -297,7 +296,6 @@
 						</div> 
 					</div>
 				</el-col> 
-
 			</el-row>
 		
 		</div>
@@ -386,6 +384,7 @@
                 </div>
 	   
 		<!-- 数字玉林·大数据助力精准扶贫板块内容 -->
+		
         <div id="box_fp" class="bk_fp">
             <el-row class="title_text" aos="zoom-in">
                 数字玉林·大数据助力精准扶贫
@@ -486,6 +485,7 @@
 
 		<!-- 数字玉林·扶持地方特色产业板块内容 -->
 		<div id="box_cy" class="bk_cy">
+		<!-- <div id="yl_particles-js" style="display: flex;align-items: center;justify-content: center"></div> -->
             <el-row class="title_text" aos="zoom-in">
                 数字玉林·扶持地方特色产业
 			</el-row>
@@ -537,6 +537,8 @@
 				</el-col >	
 			</el-row>
 			</div>
+			<!-- <script src="js/yl_particles.js"></script>
+			<script src="js/yl_app.js"></script> -->
 			
     </div>
 </template>
@@ -558,23 +560,25 @@
         head:{
             script:[
             {src:'js/jquery.1.7.1.min.js'},
-            {src:'js/aos.js'},
-            {src:'scripts/yl_app.js'},
-			{src:'js/yl_jquery.min.js'},
+			{src:'js/aos.js'},
+			{src:'scripts/yl_app.js'},
 
+			// 城市建设模块
+			{src:'js/yl_jquery.min.js'},
 			{src:'js/jquery-1.12.4.min.js'},
 			{src:'js/popper.min.js'},
+
+			// 政务服务板块
 			{src:'js/yl_b.js'},
 
-
-		
 			// 产业模块
 			{src:'js/yl_chanye/jquery-1.7.2.min.js'},
 			{src:'js/yl_chanye/modernizr.custom.34807.js'},
 			{src:'js/yl_chanye/demo.js'},
 
-			
-            
+			// 产业模块背景动画效果
+			// {src:'js/yl_app.js'},
+			// {src:'js/yl_particles.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'js/aos.css' },
@@ -592,6 +596,9 @@
 			// 产业模块
 			{ rel: 'stylesheet', href: 'css/yl_style.css' },
 
+			// 产业模块背景动画
+			// { rel: 'stylesheet', href: 'css/yl_login.css' },
+		
 			// 扶贫模块
 			{ rel: 'stylesheet', href: 'css/yl_demo.css' },
 
