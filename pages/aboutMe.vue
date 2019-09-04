@@ -174,7 +174,6 @@ export default {
             isFixed: 0,
             text:1,
             video:false,
-            showtime:'style1',
         }
     },
         head:{
@@ -203,18 +202,16 @@ export default {
             this.video=true;
             var myVideo=document.getElementById("video1");
             myVideo.play();
-            if(this.video=true){
-                        function hide() {
-                $("#bbb").hide();
-                }
-                setTimeout("show()", 6000);
-                function show() {
-                $("#bbb").show();
-                }
-            }
+            // if(this.video=true){
+            //             function hide() {
+            //     $("#bbb").hide();
+            //     }
+            //     setTimeout("show()", 6000);
+            //     function show() {
+            //     $("#bbb").show();
+            //     }
+            // }
             
-            
-            // this.rrr=true
         },
         // start2(){
         //     var myVideo=document.getElementById("video1");
