@@ -24,14 +24,10 @@
     .col-sm-offset-6 {
         margin-left: 50%
     }
-
-
 }
 
 .bs-example {
-    /* background-color: blueviolet; */
     position: relative;
-    /* padding: 45px 15px 15px; */
     margin: 7vh 1vw 3vw 7vh;
     background-color: #fafafa;
     box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05);
@@ -41,8 +37,6 @@
 }
 
 /* Echo out a label for the example */
-
-
 /* Tweak display of the code snippets when following an example */
 .bs-example + .highlight {
     margin: -15px -15px 15px;
@@ -61,7 +55,6 @@
         border-radius: 4px 4px 0 0;
         box-shadow: none;
     }
-
     .bs-example + .highlight {
         margin-top: -16px;
         margin-left: 0;
@@ -71,8 +64,6 @@
         border-bottom-right-radius: 4px;
     }
 }
-
-
 /* Examples gallery: space out content better */
 .ih-item {
     position: relative;
@@ -87,7 +78,6 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 .ih-item a {
     color: #333;
 }

@@ -97,19 +97,12 @@ a{
 	text-align: center;
 	line-height:3vh ;
 	position: absolute;
-	top: 65px;
-	left: -474px;
-	margin: 30px  0 10px;
+	top: 5vh;
+	left: -15vh;
+	margin: 8vh  0 5vh;
 	font-size: 2vh;
     color: white;
     transition: all 0.2s 0.2s ease-out ;  
-}
-#wrap ul li .a2 .p6{
-	position: absolute;
-	top: 140px;
-	left: 175px;
-	transform: scale(1.4);
-	transition: all 0.3s 0.2s ;
 }
 #wrap ul li .a2 .p7{
 	position: absolute;
