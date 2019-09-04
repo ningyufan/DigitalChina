@@ -201,10 +201,10 @@
                 <!-- <cnbg1/> -->
             </div>
             <div class="cn_bg1">
-                <el-row class="cnjz_bg1" aos="flip-left">
+                <el-row class="cnjz_bg1">
                     <el-col class="cnjz_bg1_1">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="cn_row"  style="top: 2vh;">
+                            <div class="cn_row"  style="top: 2vh;" aos="slide-right">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct1" target="_blank">
@@ -221,7 +221,7 @@
                     </el-col>
                     <el-col class="cnjz_bg1_1">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="cn_row"  style="top: 2vh;">
+                            <div class="cn_row"  style="top: 2vh;" aos="slide-right">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct2" target="_blank">
@@ -238,7 +238,7 @@
                     </el-col>
                     <el-col class="cnjz_bg1_1">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="cn_row"  style="top: 2vh;">
+                            <div class="cn_row"  style="top: 2vh;" aos="slide-left">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct3" target="_blank">
@@ -255,7 +255,7 @@
                     </el-col>
                     <el-col class="cnjz_bg1_1">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="cn_row"  style="top: 2vh;">
+                            <div class="cn_row"  style="top: 2vh;" aos="slide-left">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct4" target="_blank">
@@ -271,10 +271,10 @@
                         </div>
                     </el-col>
                 </el-row>
-                <el-row class="cnjz_bg1" aos="flip-left">
+                <el-row class="cnjz_bg1">
                     <el-col class="cnjz_bg1_2">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="cn_row"  style="top: 2vh;">
+                            <div class="cn_row"  style="top: 2vh;" aos="slide-right">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct5" target="_blank">
@@ -291,7 +291,7 @@
                     </el-col>
                     <el-col class="cnjz_bg1_2">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="cn_row"  style="top: 2vh;">
+                            <div class="cn_row"  style="top: 2vh;" aos="slide-right">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct6" target="_blank">
@@ -308,7 +308,7 @@
                     </el-col>
                     <el-col class="cnjz_bg1_2">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="cn_row"  style="top: 2vh;">
+                            <div class="cn_row"  style="top: 2vh;" aos="slide-left">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct7" target="_blank">
@@ -325,7 +325,7 @@
                     </el-col>
                     <el-col class="cnjz_bg1_2">
                         <div class="bs-example" style="background-color: transparent;border: 0;" >
-                            <div class="cn_row"  style="top: 2vh;">
+                            <div class="cn_row"  style="top: 2vh;" aos="slide-left">
                                 <div class="col-sm-6">
                                     <div class="ih-item square colored effect7"  style="bottom: 5vh;border: 0.5vw;background-size: 100% 100%;">
                                         <a href="/cn_ct8" target="_blank">
