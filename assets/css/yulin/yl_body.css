@@ -3,13 +3,10 @@
     height: 92vh;
     background-image: url('../../images/yulin/yl_bkcs2.jpg');
     background-size: 100%  100%;
-    /* opacity: 0.6; */
     position: relative;
     overflow: hidden; 
-    /* position: absolute; */
     margin: 0px; 
     padding: 0px; 
-    /* background: #222; */
 }
 .bk_zw{
     width: 100%;
@@ -22,7 +19,6 @@
     height: 185vh;
     background-image: url('../../images/yulin/yl_bkcs.jpg');
     background-size: 100% 100%;
-    /* opacity: 0.5; */
 }
 
 .bk_fp{
@@ -48,35 +44,28 @@
     animation: bg4_bt 1s linear 3;
 }
 .city_module1{
-    /* background-color: aqua; */
-    /* position: relative; */
     width: 100vw;
     height: 115vh;
     top: 5vh;
 }
 .city_module1_1{
-    /* background-color:rgb(223, 233, 225); */
     width: 50vw;
     height: 100%;
     margin: 0vh 2vw;
 }
 .city_module1_2{
-    /* background-color:rgb(255, 251, 0); */
-    /* position: absolute; */
     bottom: 18vh;
     width: 40vw;
     height:100%;
     margin: 0;
 }
 .city_module1_11{
-    /* background-color:rgb(36, 238, 76); */
     width: 50vw;
     height: 58%;
     margin: 0.5vh 0vw;
     border:0.7vw solid rgb(253, 251, 252);
 }
 .city_module1_12{
-    background-color:rgb(245, 12, 12);
     width: 35vw;
     height: 40%;
     margin: 0.5vh 0vw;
@@ -84,38 +73,24 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* vertical-align: middle; */
 }
 .zhengwu_module1{
     background-color: rgb(241, 241, 241,0.5);
-    /* opacity: 0.5; */
     width: 80%;
     height: 80vh;
     margin: 3vh auto 5vh;
-    /* margin: 5vh 2.5vw 0vh 5vw; */
     overflow-y: auto;
     box-shadow:2vh 2vh 5vw rgb(122, 216, 240);
 }
 .zhengwu_module2{
-    /* background-color: rgb(204, 204, 204); */
-    width: 85%;
+    width: 85vw;
     height: 35vh;
-    margin: auto;
-    /* margin: 2.5vh 2.5vw 0vh 3vh; */
+    margin-left: 7vw;
 }
 .zhengwu_module2_1{
-    /* background-color: rgb(255, 0, 34); */
     width: 20vw;
     height: 25vh;
     margin: 0vh 0.5vw;
-}
-.zw_content{
-    /* font-size: 2vh; */
-    line-height: 4.25vh;
-    font-size: 2.5vh;
-    text-align: left;
-    margin: 0vh 2vw;
-    color: #000;
 }
 .zw_ctTitle{
     text-align: center;
@@ -125,15 +100,21 @@
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
+.zw_content{
+    line-height: 4.25vh;
+    font-size: 2.5vh;
+    text-align: left;
+    margin: 0vh 2vw;
+    color: #000;
+}
+
 
 .travel_module1{
-    /* background-color: aqua; */
     width: 90vw;
     height: 85vh;
     margin: 4vh 4vw 0vh;
 }
 .travel_module2{
-    /* background-color:rgb(9, 255, 0); */
     width: 90vw;
     height: 95vh;
     margin: 0vh 4vw;
@@ -189,11 +170,12 @@
     height:3.5vh;
     background:#7a3f3a;
     color:#FFF;
-    border-radius:5px;
+    border-radius:5vh;;
     text-decoration:none;
+    font-size: 2vh;
     text-align:center;
-    line-height:30px;
-    margin:0.5vh auto;
+    line-height:3.5vh;
+    margin:auto;
 }
 
 #main ul li:hover .info{
@@ -207,14 +189,12 @@
     -moz-transform:rotatey(360deg);
 }
 .chanye{
-    /* background-color: #7a3f3a; */
     width: 100vw;
     height: 85vh;
     top: 5vh;
 }
 #content{
     margin:0 auto;
-    /* background-color: rgb(182, 34, 34); */
 }
 .reference{
     clear:both;
@@ -227,10 +207,10 @@
     background-color:#fff;
     -moz-box-shadow:1px 3px 15px #ddd;
     -webkit-box-shadow:1px 3px 15px #ddd;
-    /* box-shadow:1px 3px 15px #ddd; */
 }
 .reference p a{
-    text-transform:uppercase;text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+    text-shadow:1px 1px 1px #fff;
     color:#666;
     text-decoration:none;
     font-size:10px;
@@ -247,7 +227,6 @@
     text-align: center;
 }
 .font-content{
-    /* font-size: 2vh; */
     line-height: 3vh;
     text-align: left;
 }

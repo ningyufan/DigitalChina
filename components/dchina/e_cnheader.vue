@@ -5,11 +5,11 @@
                 <el-row>
                 <el-col class="cn_left_col">
                     <div class="cn_detail">
-                        <p class="title"><a style="color: rgb(48, 189, 245);" :href="item.href">{{item.title}}</a></p>
+                        <p class="title"><a :href="item.href">{{item.title}}</a></p>
                         <p>{{ item.p }}</p>
                         <hr class="hr" />
                             <div>
-                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;line-height: 3.75vh;color: rgb(48, 189, 245);">View content>></a>
+                                <a :href="item.href" style="font-size:2.5vh;font-family: STXingkai;line-height: 3.75vh;">View content>></a>
                             </div>
                     </div>   
                 </el-col>
