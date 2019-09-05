@@ -25,10 +25,10 @@
                                     <ul>
                                         <nuxt-link to="/chinese_index"><li>首页</li></nuxt-link>
                                         <nuxt-link to="#"><li><div class="nav_2">数字中国</div></li></nuxt-link>
-                                        <nuxt-link to="/DigitalGX"><li>数字广西</li></nuxt-link>
-                                        <nuxt-link to="/DigitalYL"><li>数字玉林</li></nuxt-link>
-                                        <nuxt-link to="/DigitalYS"><li>数字玉师</li></nuxt-link>
-                                        <nuxt-link to="/aboutMe"><li>关于我们</li></nuxt-link>
+                                        <nuxt-link to="/digitalgx"><li>数字广西</li></nuxt-link>
+                                        <nuxt-link to="/digitalyl"><li>数字玉林</li></nuxt-link>
+                                        <nuxt-link to="/digitalys"><li>数字玉师</li></nuxt-link>
+                                        <nuxt-link to="/aboutme"><li>关于我们</li></nuxt-link>
                                     </ul>
                                 </div>
                             </el-row>
