@@ -15,7 +15,7 @@
                                 <a href="#">
                                         <i class="el-icon-star-on"><label>中</label></i>
                                     </a>
-                                    <a href="/e_aboutMe">
+                                    <a href="/e_aboutme">
                                         <i class="el-icon-star-off"><label>英</label></i>
                                     </a>
                             </div>
