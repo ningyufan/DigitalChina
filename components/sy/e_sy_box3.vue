@@ -67,16 +67,14 @@
                 </div>
             </div>
         </div>
-        <el-dialog :visible.sync="sybox3_dialog1" width="60%">
+        <el-dialog :visible.sync="sybox3_dialog1" width="60%" @close="close_dialog">
           <template  slot="title">
               <div class="dia_title">
                 The leader of the digital China dream--Liu Xinhua
               </div> 
             </template>
           <span>
-            <video controls="controls" width="100%">
-                <source src="https://flv2.bn.netease.com/videolib3/1802/04/YyHMo0057/SD/YyHMo0057-mobile.mp4" type="video/mp4">
-            </video>
+            <video controls="controls" width="100%" src="../../assets/video/sybox3_video.mp4" type="video/mp4" id="video1" autoplay="autoplay"> </video>   
             
           </span>
           <span slot="footer" class="dialog-footer">
@@ -299,6 +297,12 @@ export default {
       sybox3_dialog4:false,
       sybox3_dialog5:false,
       sybox3_dialog6:false,
+    }
+  },
+  methods:{
+    close_dialog(){
+      var myVideo=document.getElementById("video1")
+      myVideo.pause();
     }
   }
 }

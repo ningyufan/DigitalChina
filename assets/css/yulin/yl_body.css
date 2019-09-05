@@ -13,6 +13,7 @@
     height: 140vh;
     background-image: url('../../images/yulin/bk_zw.png');
     background-size: 100% 100%;
+    /* z-index: 0; */
 }
 .bk_ly{
     width: 100%;
