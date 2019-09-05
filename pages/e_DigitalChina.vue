@@ -12,7 +12,7 @@
                         <div class="header_nav">
                         <el-row class="row_one">
                             <div class="ce_nav">
-                                <a href="/Digital_China">
+                                <a href="/digitalcn">
                                     <i class="el-icon-star-off"><label>Chinese</label></i>
                                 </a>
                                 <a href="#">
