@@ -71,10 +71,11 @@
                         title="Yulin 'Wise People\'s Congress' Management Platform was officially launched"
                         :visible.sync="cs_dialog1"
                         width="60%"
-                        center>
+                        center
+                        @close="handleDialogClose">
                         <span>
                             <div class="dialog-video1">
-                                <video src="@/assets/video/yl_video1.mp4" controls="controls" autoplay="autoplay" width="74%" height="25%"></video>
+                                <video src="@/assets/video/yl_video1.mp4" controls="controls" autoplay="autoplay" width="74%" height="25%" id="video1"></video>
                             </div>
                             <br>
                             <div class="font-content">
@@ -668,6 +669,11 @@
                 $(this).children('.a2').find('.p7').css({bottom:'-50px'})
             })
         },
+        // 关闭对话框视频的方法
+	    handleDialogClose(){
+		    var myVideo=document.getElementById("video1");
+		    myVideo.pause();
+	    }
     },
         mounted() {
         AOS.init({
@@ -679,6 +685,7 @@
             this.handleAnimate()//初始化第一次加载时在视口内就执行动画
             addEventListener('scroll', this.handleScroll);
             addEventListener('scroll', this.handleAnimate);
+            // addEventListener('scroll', this.handleDialogClose);
     
         });
         this.city();
