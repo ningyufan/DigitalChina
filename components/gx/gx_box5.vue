@@ -37,11 +37,11 @@
             <el-dialog
                 title="瑞翼教育"
                 :visible.sync="dialog1"
-                width="60%">
+                width="60%" @close="gx_video">
                 <span>
                     <video controls loop 
                         lass="fillWidth" 
-                        width="100%">
+                        width="100%" id="gx_video">
                         <source src="../../assets/video/gx_box6_video1.mp4" type="video/mp4"/>
                         浏览器不支持 video 标签，建议升级浏览器。
                         <source src="../../assets/video/gx_box6_video1.mp4" type="video/webm"/>
@@ -229,6 +229,12 @@ export default {
 			dialog5: false,
 			dialog6: false,
         }
+    },
+    methods:{
+       gx_video(){
+            var myVideo=document.getElementById("gx_video");
+            myVideo.pause();
+       }
     }
 }
 </script>

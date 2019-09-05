@@ -189,7 +189,7 @@
                                 <img class="img6_ys" src="@/assets/images/ysblock/img1_scope.webp">
                                 <figcaption>
                                     <h3 style="font-size:2vh">Department Training | <br> Etiquette Department</h3>
-                                    <h4 class="img_6_ys" style="font-size:2vh">Click here for details</h4>
+                                    <h4 class="img_6_ys" style="font-size:2vh">See details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -202,7 +202,7 @@
                                 <img class="img7_ys" src="@/assets/images/ysblock/img2_scope.webp">
                                 <figcaption>
                                     <h3 style="font-size:2vh">Managing Dream Life</h3>
-                                    <h4 class="img_7_ys" style="font-size:2vh">Click here for details</h4>
+                                    <h4 class="img_7_ys" style="font-size:2vh">See details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -215,7 +215,7 @@
                                 <img class="img8_ys" src="@/assets/images/ysblock/img3_scope_1.webp">
                                 <figcaption>
                                     <h3 style="font-size:2vh">Unlike us</h3>
-                                    <h4 class="img_8_ys" style="font-size:2vh">Click here for details</h4>
+                                    <h4 class="img_8_ys" style="font-size:2vh">See details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -228,7 +228,7 @@
                                 <img class="img9_ys" src="@/assets/images/ysblock/img4_scope_5.webp"/>
                                 <figcaption>
                                     <h3 style="font-size:2vh">Quality Development</h3>
-                                    <h4 class="img_9_ys" style="font-size:2vh">Click here for details</h4>
+                                    <h4 class="img_9_ys" style="font-size:2vh">See details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -241,7 +241,7 @@
                                 <img class="img10_ys" src="@/assets/images/ysblock/img5_scope_2.webp">
                                 <figcaption>
                                     <h3 style="font-size:2vh">PPT Team Exhibition</h3>
-                                    <h4 class="img_10_ys" style="font-size:2vh">Click here for details</h4>
+                                    <h4 class="img_10_ys" style="font-size:2vh">See details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -254,7 +254,7 @@
                                 <img class="img11_ys" src="@/assets/images/ysblock/img6_scope_1.webp">
                                 <figcaption>
                                     <h3 style="font-size:2vh">May 4th League Day</h3>
-                                    <h4 class="img_11_ys" style="font-size:2vh">Click here for details</h4>
+                                    <h4 class="img_11_ys" style="font-size:2vh">See details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -267,7 +267,7 @@
                                 <img class="img12_ys" src="@/assets/images/ysblock/img7_scope_1.webp">
                                 <figcaption>
                                     <h3 style="font-size:2vh">Ruiyi Workshop</h3>
-                                    <h4 class="img_12_ys" style="font-size:2vh">Click here for details</h4>
+                                    <h4 class="img_12_ys" style="font-size:2vh">See details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -280,7 +280,7 @@
                                 <img class="img13_ys" src="@/assets/images/ysblock/img8_scope_3.webp">
                                 <figcaption>
                                     <h3 style="font-size:2vh">Data Kingkong association</h3>
-                                    <h4 class="img_13_ys" style="font-size:2vh">Click here for details</h4>
+                                    <h4 class="img_13_ys" style="font-size:2vh">See details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
