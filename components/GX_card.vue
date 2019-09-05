@@ -2,7 +2,7 @@
     <div class="GX_card">
         <el-row class="one_row">
             <el-col class="one_col">
-                <img src="../assets/images/kuang1_img.png" height="100%" width="100%" alt="">
+                <!-- <img src="../assets/images/kuang1_img.png" height="100%" width="100%" alt=""> -->
                 
             </el-col>
             <el-col class="two_col">
@@ -10,7 +10,7 @@
             </el-col>
         </el-row>
         <el-row class="two_row">
-            <img src="../assets/images/center.png" height="150%" alt="">
+            <!-- <img src="../assets/images/center.png" height="150%" alt=""> -->
             
         </el-row>
         <el-row class="three_row">
@@ -47,11 +47,11 @@ export default {
     
 }
 .one_col {
-    background-image: url(../assets/images//kuang1.png);
+    /* background-image: url(../assets/images//kuang1.png); */
     background-size: 100% 100%;
 }
 .two_col {
-    background-image: url(../assets/images//kuang2.png);
+    /* background-image: url(../assets/images//kuang2.png); */
     background-size: 100% 100%;
 }
 .two_row {
@@ -65,20 +65,20 @@ export default {
     width: 25%;
 }
 .t_one_col{
-    background-image: url(../assets/images//kuang3.png);
+    /* background-image: url(../assets/images//kuang3.png); */
     background-size: 100% 100%;
 }
 .t_two_col {
-    background-image: url(../assets/images//kuang4.png);
+    /* background-image: url(../assets/images//kuang4.png); */
     background-size: 100% 100%;
 }
 .t_three_col {
-    background-image: url(../assets/images//kuang5.png);
+    /* background-image: url(../assets/images//kuang5.png); */
     background-size: 100% 100%;
 }
 .t_four_col {
-    background-image: url(../assets/images//kuang6.png);
-    background-size: 100% 100%;
+    /* background-image: url(../assets/images//kuang6.png);
+    background-size: 100% 100%; */
 }
 </style>
     
