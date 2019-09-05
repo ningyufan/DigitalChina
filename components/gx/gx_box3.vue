@@ -90,7 +90,7 @@ export default {
 <style>
 .gx_box3 {
     width: 100vw;
-    height: 160vh;
+    height: 200vh;
     background-image: url(../../assets/images/gx/bg4.jpg);
     background-size: 100% 100%; 
     position: relative;
@@ -121,9 +121,10 @@ export default {
     }
 }
 .gx_box3 .box4_row {
-    height: 70vh;
+    height: 80vh;
     width: 80vw;
     margin: 0 auto;
+	margin-top: 5vh;
     /* background-color:rgba(0, 0, 0, 0.5); */
     position: relative;
 }
@@ -131,10 +132,10 @@ export default {
 .gx_box3 .box4_row .box4_con2,
 .gx_box3 .box4_row .box4_con3,
 .gx_box3 .box4_row .box4_con4 {
-    height: 60vh;
+    height:70vh;
     width: 18vw;
     float: left;
-    padding:5px;
+    padding:2vw;
     background-color: rgba(255, 255, 255, 0.7)
 }
 .gx_box3 .box4_row .box4_con1{
