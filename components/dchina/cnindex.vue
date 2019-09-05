@@ -466,55 +466,43 @@
                     <div class="CN_video">
                             <span>
                                 <div class="cn_v01 cn_v wow bounceInRight" @click="VideoVisible1=true"></div>
-                                <el-dialog :visible.sync="VideoVisible1">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video1.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible1" @close="close_dialog1">
+                                    <video controls="controls" width="100%" autoplay="autoplay" id="video1" src="../..//assets/video/china_video1.mp4" type="video/mp4"></video>
                                     <h3>贵阳高新区：补短板强实体 上半年经济发展稳中有进</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v06 cn_v wow bounceInRight" @click="VideoVisible2=true"></div>
-                                <el-dialog :visible.sync="VideoVisible2">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video2.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible2" @close="close_dialog2">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video2.mp4" type="video/mp4" id="video2"></video>
                                     <h3>[中国新闻]聚焦中国两会贵州：发展大数据让经济高质量发展</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v02 cn_v wow bounceInRight" @click="VideoVisible3=true"></div>
-                                <el-dialog :visible.sync="VideoVisible3">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video3.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible3" @close="close_dialog3">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video3.mp4" type="video/mp4" id="video3"></video>
                                     <h3>[第一时间]聚焦2019贵阳数博会数博会首设扶贫展大数据牵手“农产品”</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v03 cn_v wow bounceInLeft" @click="VideoVisible4=true"></div>
-                                <el-dialog :visible.sync="VideoVisible4">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video4.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible4" @close="close_dialog4">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video4.mp4" type="video/mp4" id="video4"></video>
                                     <h3>[贵州新闻联播]大数据与实体经济深度融合全国行首站在贵阳启动</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v04 cn_v wow bounceInLeft" @click="VideoVisible5=true"></div>
-                                <el-dialog :visible.sync="VideoVisible5">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video5.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible5" @close="close_dialog5">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video5.mp4" type="video/mp4" id="video5"></video>
                                     <h3>[经济信息联播]聚焦2019贵阳数博会贵州：大数据助力乡村经济发展</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v05 cn_v wow bounceInLeft" @click="VideoVisible6=true"></div>
-                                <el-dialog :visible.sync="VideoVisible6">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video6.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible6" @close="close_dialog6">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video6.mp4" type="video/mp4" id="video6"></video>
                                     <h3>[视频]贵州：大数据产业推动社会经济发展</h3>
                                 </el-dialog>
                             </span>
@@ -609,6 +597,32 @@ export default {
             JY_Visible: false,RH_Visible: false,
             YY_Visible: false,FZ_Visible: false
         }
+    },
+    methods:{
+       close_dialog1(){
+            var myVideo=document.getElementById("video1");
+            myVideo.pause();
+       },
+       close_dialog2(){
+            var myVideo=document.getElementById("video2");
+            myVideo.pause();
+       },
+       close_dialog3(){
+            var myVideo=document.getElementById("video3");
+            myVideo.pause();
+       },
+       close_dialog4(){
+            var myVideo=document.getElementById("video4");
+            myVideo.pause();
+       },
+       close_dialog5(){
+            var myVideo=document.getElementById("video5");
+            myVideo.pause();
+       },
+       close_dialog6(){
+            var myVideo=document.getElementById("video6");
+            myVideo.pause();
+       }
     },
     mounted() {
         AOS.init({

@@ -475,55 +475,43 @@ Promote the rational allocation of urban and rural data resources and other fact
                     <div class="CN_video">
                             <span>
                                 <div class="cn_v01 cn_v wow bounceInRight" @click="VideoVisible1=true"></div>
-                                <el-dialog :visible.sync="VideoVisible1">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video1.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible1" @close="close_dialog1">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video1.mp4" type="video/mp4" id="video1"></video>
                                     <h3>Guiyang High-tech Zone: Make up the shortcomings, strengthen the entity and make steady progress in economic development in the first half of the year</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v06 cn_v wow bounceInRight" @click="VideoVisible2=true"></div>
-                                <el-dialog :visible.sync="VideoVisible2">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video2.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible2" @close="close_dialog2">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video2.mp4" type="video/mp4" id="video2"></video>
                                     <h3>[China News] Focus on Guizhou, the two sessions of the CPPCC and CPPCC: Developing Big Data for High-quality Economic Development</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v02 cn_v wow bounceInRight" @click="VideoVisible3=true"></div>
-                                <el-dialog :visible.sync="VideoVisible3">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video3.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible3" @close="close_dialog3">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video3.mp4" type="video/mp4" id="video3"></video>
                                     <h3>[First time] Focus on the data of the first poverty alleviation exhibition of Guiyang Digital Exposition in 2019, hand in hand with "agricultural products"</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v03 cn_v wow bounceInLeft" @click="VideoVisible4=true"></div>
-                                <el-dialog :visible.sync="VideoVisible4">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video4.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible4" @close="close_dialog4">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video4.mp4" type="video/mp4" id="video4"></video>
                                     <h3>Deep integration of big data and real economy</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v04 cn_v wow bounceInLeft" @click="VideoVisible5=true"></div>
-                                <el-dialog :visible.sync="VideoVisible5">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video5.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible5" @close="close_dialog5">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video5.mp4" type="video/mp4" id="video5"></video>
                                     <h3>[Economic Information Broadcasting] Focus on Guiyang Number Expo 2019 Guizhou: Big Data Helps Rural Economic Development</h3>
                                 </el-dialog>
                             </span>
                             <span>
                                 <div class="cn_v05 cn_v wow bounceInLeft" @click="VideoVisible6=true"></div>
-                                <el-dialog :visible.sync="VideoVisible6">
-                                    <video controls="controls" width="100%" autoplay="autoplay">
-                                        <source src="../..//assets/video/china_video6.mp4" type="video/mp4">
-                                    </video>
+                                <el-dialog :visible.sync="VideoVisible6" @close="close_dialog6">
+                                    <video controls="controls" width="100%" autoplay="autoplay" src="../..//assets/video/china_video6.mp4" type="video/mp4" id="video6"></video>
                                     <h3>[Video] Guizhou: Big Data Industry Promotes Social and Economic Development</h3>
                                 </el-dialog>
                             </span>
@@ -617,6 +605,32 @@ export default {
             JY_Visible: false,RH_Visible: false,
             YY_Visible: false,FZ_Visible: false
         }
+    },
+  methods:{
+       close_dialog1(){
+            var myVideo=document.getElementById("video1");
+            myVideo.pause();
+       },
+       close_dialog2(){
+            var myVideo=document.getElementById("video2");
+            myVideo.pause();
+       },
+       close_dialog3(){
+            var myVideo=document.getElementById("video3");
+            myVideo.pause();
+       },
+       close_dialog4(){
+            var myVideo=document.getElementById("video4");
+            myVideo.pause();
+       },
+       close_dialog5(){
+            var myVideo=document.getElementById("video5");
+            myVideo.pause();
+       },
+       close_dialog6(){
+            var myVideo=document.getElementById("video6");
+            myVideo.pause();
+       }
     },
     mounted() {
         AOS.init({
