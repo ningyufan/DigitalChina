@@ -42,78 +42,92 @@
 }
 
 
-.Chinaheader_mk{
-    width: 80%;
-    height: 95vh;
-    margin: 5vh 10vw auto;
+.cn_bg{
     position: absolute;
+    width: 100vw;
+    height: 100vh;
 }
 
-.Chinaheader_row1,.Chinaheader_row2{
-    height: 35%;
-    width: 100%;
+.bg_row1,.bg_row2{
+    margin-left: 10vw;
+    width: 80vw;
+    height: 35vh;
 }
 
-.Chinaheader_col1,.Chinaheader_col2 {
-    height: 100%;
-    width: 50%;
-    
+.cn_rightheader{
+    position: relative;  
+    float: left;
+    width: 40vw
 }
 
-.Chinaheader_col1{
-    background-image: url('../images/dchina/china_mk1.png');
+.cn_leftheader{
+    position: relative;
+    float: right;
+    width: 40vw;
+}
+
+.right_headerimg1{
+    height: 35vh;
+    width: 40vw;
+    background-image: url('../../assets/images/dchina/china_mk1.png');
+    background-size: 100% 100%;
+}
+.left_headerimg1{
+    height: 35vh;
+    width: 40vw;
+    background-image: url('../../assets/images/dchina/china_mk2.png');
     background-size: 100% 100%;
 }
 
-
-.Chinaheader_col2{
-    background-image: url('../images/dchina/china_mk2.png');
-    background-size: 100% 100%;
-}
-
-.fangkuai{
+.fk{
     width: 100%;
     text-align: center;
-    line-height: 1vh;
+    height: 5vh;
 }
 
-.Chinaheader_col3, .Chinaheader_col4, .Chinaheader_col5,.Chinaheader_col6{
-    height: 100%;
-    width: 25%;
-}
-
-.Chinaheader_col3{
-    background-image: url('../images/dchina/china_mk3.png');
+.right_headerimg21{
+    height: 35vh;
+    width: 20vw;
+    float: left;
+    background-image: url('../../assets/images/dchina/china_mk3.png');
     background-size: 100% 100%;
 }
 
-.Chinaheader_col4{
-    background-image: url('../images/dchina/china_mk4.png');
+.right_headerimg22{
+    height: 35vh;
+    width: 20vw;
+    float: right;
+    background-image: url('../../assets/images/dchina/china_mk4.png');
     background-size: 100% 100%;
 }
 
-.Chinaheader_col5{
-    background-image: url('../images/dchina/china_mk5.png');
+.left_headerimg21{
+    height: 35vh;
+    width: 20vw;
+    float: left;
+    background-image: url('../../assets/images/dchina/china_mk5.png');
     background-size: 100% 100%;
 }
 
-.Chinaheader_col6{
-    background-image: url('../images/dchina/china_mk6.png');
+.left_headerimg22{
+    height: 35vh;
+    width: 20vw;
+    float: right;
+    background-image: url('../../assets/images/dchina/china_mk6.png');
     background-size: 100% 100%;
 }
 
 
-
-.bg_tm{
-    /* height: 100%; */
+.bg_row1 span,.bg_row2 span{
+    position: absolute;
     width: 35vw;
-    font-size:3vh;
-    margin:14vh 8vh;
+    font-size:4vh;
+    margin-left: 3vw;
+    bottom: 15vh;
     color: rgb(48, 189, 245);
     font-family: STXingkai;
     text-shadow: -2px 0px 2px
 }
-
 .Digital_TZ{
     width: 100%;
     height: 90vh;

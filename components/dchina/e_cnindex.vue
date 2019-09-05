@@ -4,225 +4,199 @@
             <div class="bg_bt" aos="zoom-in">
                 Challenges and Opportunities
             </div>    
-            <div class="Chinaheader_mk">
-                <el-row class="Chinaheader_row1">
-                    <el-col class="Chinaheader_col1" data-wow-duration="5s">
-                        <div class="bg_tm"  @click="TZ_Visible=true">
-                            Four Characteristics of the Operation State of "Digital Society"
-                        </div >
-                        <el-dialog :visible.sync="TZ_Visible" width="50%">
-                            <div class="Digital_TZ">
-                                <center>
-                                <h2>Four Characteristics of the Operation State of "Digital Society"</h2>
-                                </center><br>
-                                <div class="TZ_bg"></div><br>
-                                <div class="TZ_ct">
-                                    <p>
-                                        One of the most prominent features of the "digital society" in its basic structure and overall operation is that it is on the premise of digital conversion.
-                                        Relying on the Internet, from the most fundamental level of technical support and operational mechanism, to solve people's social life
-                                        A series of basic problems that must be faced have been constructed with the help of digitalization, networking and intellectualization.
-                                        Platform and route. The "digital society" and the network live in the running state, showing the following four essential characteristics.
-                                    </p><br/>
-                                    <p><b>First, cross-domain connectivity and all-time coexistence:</b>
-                                        Cross-domain connection first solves the problem of universal connection. Universal Connection Includes both Man and ManThe digital connection between people includes the digital connection between intelligent devices and objects such as intelligent devices, 
-                                        as well as relying on them.The connection and connection among people, objects and intelligent devices realized by digitalization.
-                                    </p><br/>
-                                    <p><b>Second, action autonomy and in-depth interaction:</b>
-                                       Digital society, cyberspace and cyberspace objectively provide a very convenient basic condition for the freedom of human behavior as the subject of social life.
-                                    </p><br/>
-                                    <p><b>Third, data sharing and resource integration:</b>
-                                        The network world is connected by people, computers and mobile devices, as well as large servers and databases. In a sense, cyberspace is a special space for information data generation, storage, circulation and sharing.
-                                    </p><br/>
-                                    <p><b>Fourth, intelligent manipulation and efficient collaboration:</b>
-                                        The realization of mechanization, automation and intellectualization is the "welfare" brought by the progress of science and technology to human social life.
-                                    </p>
-                                </div>
-                            </div>
-                        </el-dialog>
-                    </el-col>
-                    <el-col class="Chinaheader_col2 " data-wow-duration="5s">
-                        <div class="bg_tm" @click="JZ_Visible=true">
-                            Digital Economy Affects the Future Competition Pattern of Cities
+            <div class="cn_bg">
+                <div class="bg_row1">
+                    <div class="cn_rightheader">
+                        <div class="right_headerimg1" @click="TZ_Visible=true" aos="fade-right">
+                            <span>Four Characteristics of the Operation State of "Digital Society"</span>
                         </div>
-                        <el-dialog :visible.sync="JZ_Visible" width="50%">
-                            <div class="Digital_JZ">
-                                <center>
-                                    <h2>Digital Economy Affects the Future Competition Pattern of Cities</h2>
-                                    </center><br/>
-                                <div class="JZ_bg"></div><br>
-                                <div class="JZ_ct">
-                                    <p>
-                                        What kind of butterfly change will happen when the old block encounters digital China? As a warm-up activity for the 2nd Digital China Construction Summit, "FuzhouDialogue Future" was held on May 5th in Sanfang and Qixiang of Fuzhou. People from all walks of life gathered together to think about the future.
-                                    </p><br>
-                                    <p>
-                                        City makes life better, digital economy makes city better. On the one hand, digital economy can help cities optimize resource allocation and increase innovation.
-                                        On the other hand, the application of information technology, such as big data, cloud computing, Internet of Things, will help break through.
-                                        "Information Isolated Island" to enhance the level of scientific government decision-making, refined urban management and public service facilitation, and enhance people's access
-                                        Feelings of happiness and security.
-                                    </p><br>
-                                    <p>
-                                        Taking Fuzhou as an example, the scale of Fuzhou's digital economy broke through 280 billion yuan in 2018, accounting for 36% of the GDP. In the field of people's livelihood, National Health
-                                        The service platform of Kang Medical Big Data (Fuzhou) covers 7.11 million people and gathers more than 20 billion data. It has been upgraded through "Big Data + Medical Treatment".
-                                        The basic level of diagnosis and treatment has effectively solved the problem of uneven distribution of medical resources, realized "more data running, less people running errands", and become a doctor.
-                                        Effective support for healing and benefiting the people.
-                                    </p>
-                                    <p>
-                                        The Key Tasks of New Urbanization Construction in 2019, published recently by the National Development and Reform Commission, clearly points out that it is necessary to optimize and upgrade the construction of new intelligent cities.
-                                        Establish evaluation work to guide the integration of cities above prefecture level to build a digital urban management platform, enhance the overall planning ability of urban management, and improve the city
-                                        Scientific, fine and intelligent management level.
-                                    </p><br>
-                                    <p>
-                                       Digital city construction provides a new perspective for the future urban competition pattern. With the development of digital economy, western cities can also be compared with eastern cities.
-                                        Stand on the same starting line. This requires all localities to seize the opportunity, cross the digital divide, and accelerate the pace of industrial upgrading through the development of digital economy.
-                                    </p><br>
-                                    <p>
-                                        Further, who built the digital city? How to build it? The demand for digital city construction is diverse and the technology is complex, which requires the participation of the government, enterprises, universities, scientific research institutes and other social parties, and extensive joint innovation.
-                                    </p>
-                                </div>
-                            </div>
-                        </el-dialog>
-                    </el-col>
-                </el-row>
-                <el-row class="fangkuai wow flipInY" data-wow-duration="8s">
-                    <img src="@/assets/images/dchina/cfk.png" height="100%" alt="">
-                </el-row>
-                <el-row class="Chinaheader_row2">
-                    <el-col class="Chinaheader_col3 " data-wow-duration="5s">
-                        <div class="bg_tm" @click="JY_Visible=true">
-                            Sharing Opportunities
+                        
+                    </div>
+                    <div class="cn_leftheader">
+                        <div class="left_headerimg1" @click="JZ_Visible=true" aos="fade-left">
+                            <span>Digital Economy Affects the Future Competition Pattern of Cities</span>
                         </div>
-                        <el-dialog :visible.sync="JY_Visible" width="50%">
-                            <div class="Digital_JY">
-                                <center>
-                                    <h2>Sharing Opportunities and Collaborating Development: Digital Exposition Accelerates the Integration and Innovation of China's Big Data Industry</h2>
-                                    </center><br/>
-                                <div class="JY_bg"></div><br>
-                                <div class="JY_ct">
-                                    <p>In early summer, everything is green. The four-day China International Big Data Expo concluded in Guiyang. As the first in the world
-                                        Big data theme exposition, several expositions have gone through five years, each year has contributed to a number of projects signed, resulting in many cutting-edge ideas.
-                                    </p><br/>
-                                    <p><b>First, the digital economy will add vitality:</b>
-                                    "We will vigorously promote the deep integration of big data and real economy, and implement the"integration of multinational enterprises"and"integration of multinational enterprises".
-                                    The "100 Enterprises Leading" campaign will build 100 integration benchmarking projects and 1,000 integration demonstration projects every year. It is planned to take 3 to 5 years to drive 10,000 projects.
-                                    The deep integration of real economic enterprises above household level and big data promotes the digitalization, networking and intelligent transformation of traditional industries. Big Data Dissemination in Guizhou Province
-                                    Lou Song, Deputy Director of Exhibition Administration, said.
-                                    </p><br/>
-                                    <p><b>Second, data interchange and sharing helps to alleviate poverty accurately:</b>
-                                    China has always been an active advocate and strong promoter of poverty reduction in the world.
-                                    The 2019 Expo continued the previous focus on poverty alleviation, and held the first high-end dialogue on "Big Data and Global Poverty Reduction". "I saw it with my own eyes.
-                                    The results of poverty reduction in China are remarkable. Dai Wende, deputy representative of the United Nations Development Programme in China, said at the high-level dialogue. In him
-                                    It seems that China's poverty reduction efforts are hard won. It uses big data to accurately locate the poor, to accurately find the causes of poverty and to provide solutions.
-                                    On the case, it has reference significance for the world to reduce poverty.
-                                    </p><br/>
-                                    <p><b>Third, the international cooperation "circle of friends" is becoming more and more widespread:</b>
-                                    Throughout each exposition, there is a record of the scale of the participants and the results of the conference.
-                                    It is constantly refreshed. This year, there are 448 exhibitors, including 156 overseas exhibitors. Over the past five years, with the help of several fairs, Apple,
-                                    Dell and other top 500 companies have entered more business areas in China. Shengdi, Director of Regional Technology in China, Indian National Institute of Information Technology, said
-                                    Last year, China-India IT Industry Cluster and Big Data Training College officially settled in Guiyang. Indian Big Data Enterprises look forward to Guizhou as the bridgehead.
-                                    Enter China for development. In the field of science and technology, especially in the development of big data, it is not possible without opening up. Mei Hong, academician of the Chinese Academy of Sciences, believes that:
-                                    In the information age, we need to build a community of human destiny, as well as a community of cyberspace destiny, and strengthen joint innovation and collaborative innovation in opening up.
-                                    To achieve mutual benefit and win-win situation in deepening international cooperation.
-                                    </p><br/>
-                                </div>
-                            </div>
-                        </el-dialog>
-                    </el-col>
-                    <el-col class="Chinaheader_col4 " data-wow-duration="5s">
-                        <div class="bg_tm" @click="RH_Visible=true">
-                            Fusion and penetration
+                    </div>
+                </div>
+                <div class="fk" aos="zoom-in"><img src="../../assets/images/dchina/cfk.png" height="100%" alt=""></div>
+                <div class="bg_row2">
+                    <div class="cn_rightheader" aos="fade-right">
+                        <div class="right_headerimg21" @click="JY_Visible=true">
+                            <span>Sharing Opportunities</span>
                         </div>
-                        <el-dialog :visible.sync="RH_Visible" width="50%">
-                            <div class="Digital_RH">
-                                <center>
-                                    <h2>Fusion of Big Data Makes Life More Convenient</h2>
-                                    </center><br/>
-                                <div class="RH_bg"></div><br>
-                                <div class="RH_ct">
-                                    <p>China International Big Data Industry Exposition is being held in Guiyang, and how to apply big data has become the focus of attention. Fusion of "Big Data"
-                                        Through, let the scattered data island be opened, our production and life are undergoing new changes. In this way, Guizhou Province will be gradually realized.
-                                        It is suggested that the whole province should go into one network. At present, more than 400 high-frequency and hot issues in Guizhou Province can be handled on mobile phones, for example:
-                                        Substitute invoices, supplementary birth medical certificates, etc. It doesn't matter if I forget to bring my driver's license when I drive out. I just got my ID card online.
-                                        An electronic license for a driver's license can be generated by opening the mobile phone, clicking on the driver's license, nodding and shaking his head with his mouth open.
-                                        This electronic certificate was given to the traffic police.
-                                    </p><br/>
-                                    <p>In the exhibition area, the application of big data can be seen everywhere. It gives us a more intuitive feeling that big data makes our life more convenient and wise.
-                                        On the platform of Guizhou Digital Government next to me, more than 9000 applications of more than 40 provincial departments in 9 cities and prefectures of Guizhou Province have been integrated.
-                                        At present, using big data and artificial intelligence technology, Guizhou is trying to make Yunshang Guizhou data platform have the ability of self-learning and become more intelligent.
-                                    </p><br/>
-                                    <p>The most important thing for all government departments, enterprises and individuals to share and exchange data is to ensure security. In this exposition, one set is from China.
-                                        The main research and development of the "data exchange two-dimensional code ferry system" was officially launched. It utilizes "simulated human eye recognition" and the unique "high-speed two-dimensional code encoding and decoding technology", not only realizes the internal and external functions,
-                                        External network physical partition, while taking into account the security and efficiency of data transmission.
-                                    </p>
-                                    
-                                </div>
-                            </div>
-                        </el-dialog>
-                    </el-col>
-                    <el-col class="Chinaheader_col5 " data-wow-duration="5s">
-                        <div class="bg_tm" @click="YY_Visible=true">
-                            Concerns surfaced
+                        <div class="right_headerimg22" @click="RH_Visible=true">
+                            <span>Fusion and penetration</span>
                         </div>
-                        <el-dialog :visible.sync="YY_Visible" width="50%">
-                            <div class="Digital_YY">
-                                <center>
-                                    <h2>Concerns about the Development of "Digital Economy" Emerge</h2>
-                                    </center><br/>
-                                <div class="YY_bg"></div><br>
-                                <div class="YY_ct">
-                                    <p>With the increasing influence of big data on national governance and economic development, the problem of data security has become increasingly prominent, and personal information has been leaked.
-                                        Network fraud poses a threat to the personal and property security of citizens. Entering the era of "digital economy", how to "lock" data security becomes 2019
-                                        The focus of the experts'discussion at the China International Big Data Industry Exposition.
-                                    </p><br>
-                                    <p><b>The high-speed development of "digital economy" is accompanied by security concerns:</b>
-                                    White Paper on China's Digital Economic Development and Employment (2019) issued by the China Institute of Communications and Communications
-                                    It shows that the scale of China's "digital economy" has maintained rapid growth in recent years. In 2018, China's total digital economy reached 31.3 trillion yuan, accounting for more than one third of GDP.
-                                    It reached 34.8%, up 1.9 percentage points from the same period last year. According to the China Big Data Development Report released by the Expo, 50% of Global trade is now in progress.
-                                    The above has realized digitalization. In the era of digital economy, the development and application of data agglomeration increases the risk of personal privacy disclosure. In addition, big data itself is
-                                    Help hackers to analyze data accordingly.
-                                    </p><br>
-                                    <p><b>Accelerate data hierarchical protection:</b>
-                                    On May 28, the State Network Information Office issued the "Data Security Management Measures (Draft for Opinions)" on the maintenance of national security.
-                                    Social and public interests, protect the legitimate rights and interests of citizens, legal persons and other organizations in cyberspace, safeguard personal information and important data security, and solicit opinions of the vast majority of Internet users.
-                                    Following the promulgation and implementation of the Network Security Law of the People's Republic of China, the Personal Information Protection Law of 2018 has been included in the five-year legislative plan and the Data Security Law of the People's Republic of China of 2019.
-                                    It is included in the annual legislative plan.
-                                    </p><br>
-                                    <p><b>Enhance data security capability in an all-round way:</b>
-                                    Experts at the meeting pointed out that four dimensions of management, technology, operation and supervision should be established, and three levels of platform, data and application should be all-round.
-                                    Data security protection system. We should break through and master the key technologies of big data security governance, and strive to promote technological innovation under the background of big data. By increasing R&amp;D and innovation,
-                                    Improve data security early warning, traceability, and emergency and disposal capabilities. Strengthen the research and development of data leak prevention, data theft prevention, data encryption and other technologies. Shortage of Data Security Talents
-                                    It is also the focus of the experts, especially how to speed up the training of safety analysis talents urgently needed by government and enterprise organizations.
-                                    </p>
-                                </div>
-                            </div>
-                        </el-dialog>
-                    </el-col>
-                    <el-col class="Chinaheader_col6 " data-wow-duration="1s">
-                        <div class="bg_tm" @click="FZ_Visible=true">
-                            Development prospects
+                    </div>
+                    <div class="cn_leftheader" aos="fade-left">
+                        <div class="left_headerimg21" @click="YY_Visible=true">
+                            <span>Concerns Surfaced</span>
                         </div>
-                        <el-dialog :visible.sync="FZ_Visible" width="50%">
-                            <div class="Digital_FZ">
-                                <center>
-                                    <h2>Digital Economy Welcomes Manyuan Spring and Looks Forward to the Development Prospect of Digital China</h2>
-                                    </center><br/>
-                                <div class="FZ_bg"></div><br>
-                                <div class="FZ_ct">
-                                    <p>On May 6, the Digital China Construction Development Report (2018) (hereinafter referred to as the Report) was released at the 2nd Digital China Construction Summit. Yang Xiaowei, deputy director of the State Internet Information Office, said that significant progress had been made in the construction of digital China. By the end of 2018, the number of Chinese netizens had reached 829 million and the Internet penetration rate reached 59.6%. Electronic information manufacturing, software and information technology services, telecommunications and big data industries had maintained rapid growth.
-                                    </p><br>
-                                    <p><b>Important progress has been made in the construction of digital China:</b>
-                                    In 2018, China will accelerate the construction of a new generation of information infrastructure and gradually enhance its ability to innovate in information technology. By the end of 2018, the loan balance of national science and technology enterprises was 3.53 trillion yuan, and the innovation vitality of all kinds of innovators was continuously released. China's innovation index rose to the 17th place in the global ranking.
-                                    </p><br>
-                                    <p><b>The level of information development in all regions has been improved as a whole:</b>
-                                    To speed up the construction of digital China is to adapt to the new historical orientation of China's development, implement the new development concept in an all-round way, cultivate new momentum through information technology, promote new development with new momentum, create new brilliance with new development, and constantly satisfy people's yearning for a better life. In the area of coordinated development of regional informatization, there are many bright spots. With the coordinated development of regional informatization in the Yangtze River Delta, Beijing, Tianjin, Hebei, Guangdong, Hong Kong and Macao, the regional digital economic growth pole is forming, the regional network information technology innovation system is gradually constructed, and the level of regional information sharing and business collaboration is obviously improved.
-                                    </p><br>
-                                    <p><b>To narrow the digital divide and promote the integration of urban and rural development:</b>
-                                    This year is the key year for building a well-off society in an all-round way, and also the decisive year for winning the battle against poverty. How to promote poverty alleviation and rural revitalization through information construction has also become one of the focuses of digital China construction in 2019. "In the future, we will establish a policy system and working mechanism for the integration of urban and rural informatization, promote the construction of digital countryside and new intelligent city as a whole, and promote the rational allocation of urban and rural data resources; coordinate the implementation of digital rural development strategy, accelerate the construction of rural information infrastructure, develop rural digital economy and strengthen agriculture. Rural science and technology innovation supply, building intelligent green countryside, promoting the modernization of rural governance capacity, deepening information service for the people, and stimulating the endogenous power of rural revitalization. Yang Xiaowei said that by consolidating and enhancing the effectiveness of network poverty alleviation and innovating poverty alleviation measures, we can definitely create an upgraded version of network poverty alleviation and digital poverty alleviation.
-                                    </p>
-                                </div>
+                        <div class="left_headerimg22" @click="FZ_Visible=true">
+                            <span>Development prospects</span>
+                        </div>
+                    </div>
+                </div>
+                <el-dialog :visible.sync="TZ_Visible" width="50%">
+                    <div class="Digital_TZ">
+                        <center>
+                            <h2>Four Characteristics of the Operation State of "Digital Society"</h2>
+                        </center><br/>
+                        <div class="TZ_bg"></div><br>
+                            <div class="TZ_ct">
+                                <p>One of the most prominent features of the "digital society" in its basic structure and overall operation is that it is on the premise of digital conversion.
+Relying on the Internet, from the most fundamental level of technical support and operational mechanism, to solve people's social life
+A series of basic problems that must be faced have been constructed with the help of digitalization, networking and intellectualization.
+Platform and route. The "digital society" and the network live in the running state, showing the following four essential characteristics.
+                                </p><br/>
+                                <p><b>First, cross-domain connection and full-time coexistence: </b> Cross-domain connection first solves the problem of universal connection. Universal Connection Includes both Man and Man
+The digital connection between people includes the digital connection between intelligent devices and objects such as intelligent devices, as well as relying on them.
+The connection and connection among people, objects and intelligent devices realized by digitalization.
+                                </p><br/>
+                                <p><b>Second, action autonomy and in-depth interaction:</b>Digital society, cyberspace and cyberspace are acts of social life objectively.
+The subject's freedom of action provides a very convenient basic condition.</p><br/>
+                                <p><b>Third, data sharing and resource integration:</b>The Internet world is connected by people, computers and mobile devices.
+And one by one large server and database. In a sense, cyberspace, in fact, is a continuous generation of information and data.
+Specific spaces for generation, storage, circulation and sharing.</p><br/>
+                                <p><b>Fourth, intelligent manipulation and efficient collaboration:</b>The realization of mechanization, automation and intellectualization is the result of scientific and technological progress.
+Living "welfare".</p>
                             </div>
-                        </el-dialog>
-                    </el-col>
-                </el-row>
+                    </div>
+                </el-dialog>
+                <el-dialog :visible.sync="JZ_Visible" width="50%">
+                    <div class="Digital_JZ">
+                        <center>
+                            <h2>Digital Economy Affects the Future Competition Pattern of Cities</h2>
+                        </center><br/>
+                        <div class="JZ_bg"></div><br>
+                            <div class="JZ_ct">
+                                <p>What kind of butterfly change will happen when the old block encounters digital China? As a warm-up event for the 2nd Digital China Construction Summit, "FuzhouDialogue Future"
+On May 5, it was held in Sanfang and Qixiang of Fuzhou. People from all walks of life gathered together to think about the future.</p><br/>
+                                <p>City makes life better, digital economy makes city better. On the one hand, digital economy can help cities optimize resource allocation and increase innovation.
+On the other hand, the application of information technology, such as big data, cloud computing, Internet of Things, will help break through.
+"Information Isolated Island" to enhance the level of scientific government decision-making, refined urban management and public service facilitation, and enhance people's access
+Feelings of happiness and security.
+                                </p><br/>
+                                <p>Taking Fuzhou as an example, the scale of Fuzhou's digital economy broke through 280 billion yuan in 2018, accounting for 36% of the GDP. In the field of people's livelihood, National Health
+The service platform of Kang Medical Big Data (Fuzhou) covers 7.11 million people and gathers more than 20 billion data. It has been upgraded through "Big Data + Medical Treatment".
+The basic level of diagnosis and treatment has effectively solved the problem of uneven distribution of medical resources, realized "more data running, less people running errands", and become a doctor.
+Effective support for healing and benefiting the people.
+                                </p><br/>
+                                <p>The Key Tasks of New Urbanization Construction in 2019, published recently by the National Development and Reform Commission, clearly points out that it is necessary to optimize and upgrade the construction of new intelligent cities.
+Establish evaluation work to guide the integration of cities above prefecture level to build a digital urban management platform, enhance the overall planning ability of urban management, and improve the city
+Scientific, fine and intelligent management level.</p>
+                                <p>Digital city construction provides a new perspective for the future urban competition pattern. With the development of digital economy, western cities can also be compared with eastern cities.
+Stand on the same starting line. This requires all localities to seize the opportunity, cross the digital divide, and accelerate the pace of industrial upgrading through the development of digital economy.</p><br/>
+                                <p>Further, who built the digital city? How to build it? The demand for digital city construction is diverse and the technology is complex, which includes government, enterprises and so on.
+Universities, scientific research institutes and other sectors of society jointly participate in joint innovation.</p><br/>
+                            </div>
+                    </div>
+                </el-dialog>
+                <el-dialog :visible.sync="JY_Visible" width="50%">
+                    <div class="Digital_JY">
+                        <center>
+                            <h2>Sharing Opportunities and Collaborating Development: Digital Exposition Accelerates the Integration and Innovation of China's Big Data Industry</h2></center><br/>
+                        <div class="JY_bg"></div><br>
+                        <div class="JY_ct">
+                            <p>In early summer, everything is green. The four-day China International Big Data Expo concluded in Guiyang. As the first in the world
+Big data theme exposition, several expositions have gone through five years, each year has contributed to a number of projects signed, resulting in many cutting-edge ideas.
+                            </p><br/>
+                            <p><b>First, the digital economy will add vitality:</b>"We will vigorously promote the deep integration of big data and real economy, and implement the"integration of multinational enterprises"and"integration of multinational enterprises".
+The "100 Enterprises Leading" campaign will build 100 integration benchmarking projects and 1,000 integration demonstration projects every year. It is planned to take 3 to 5 years to drive 10,000 projects.
+The deep integration of real economic enterprises above household level and big data promotes the digitalization, networking and intelligent transformation of traditional industries. Big Data Dissemination in Guizhou Province
+Lou Song, Deputy Director of Exhibition Administration, said.
+                            </p><br/>
+                            <p><b>Second, data interchange and sharing helps to alleviate poverty accurately:</b>
+                            China has always been an active advocate and strong promoter of poverty reduction in the world.
+The 2019 Expo continued the previous focus on poverty alleviation, and held the first high-end dialogue on "Big Data and Global Poverty Reduction". "I saw it with my own eyes.
+The results of poverty reduction in China are remarkable. Dai Wende, deputy representative of the United Nations Development Programme in China, said at the high-level dialogue. In him
+It seems that China's poverty reduction efforts are hard won. It uses big data to accurately locate the poor, to accurately find the causes of poverty and to provide solutions.
+On the case, it has reference significance for the world to reduce poverty.</p><br/>
+                            <p><b>Third, the international cooperation "circle of friends" is becoming more and more widespread:</b>
+                            Throughout each exposition, there is a record of the scale of the participants and the results of the conference.
+It is constantly refreshed. This year, there are 448 exhibitors, including 156 overseas exhibitors. Over the past five years, with the help of several fairs, Apple,
+Dell and other top 500 companies have entered more business areas in China. Shengdi, Director of Regional Technology in China, Indian National Institute of Information Technology, said
+Last year, China-India IT Industry Cluster and Big Data Training College officially settled in Guiyang. Indian Big Data Enterprises look forward to Guizhou as the bridgehead.
+Enter China for development. In the field of science and technology, especially in the development of big data, it is not possible without opening up. Mei Hong, academician of the Chinese Academy of Sciences, believes that:
+In the information age, we need to build a community of human destiny, as well as a community of cyberspace destiny, and strengthen joint innovation and collaborative innovation in opening up.
+To achieve mutual benefit and win-win situation in deepening international cooperation.</p><br/>
+                        </div>
+                    </div>
+                </el-dialog>
+                <el-dialog :visible.sync="RH_Visible" width="50%">
+                    <div class="Digital_RH">
+                        <center>
+                            <h2>Fusion of Big Data Makes Life More Convenient</h2></center><br/>
+                        <div class="RH_bg"></div><br>
+                        <div class="RH_ct">
+                            <p>China International Big Data Industry Exposition is being held in Guiyang, and how to apply big data has become the focus of attention. Fusion of "Big Data"
+Through, let the scattered data island be opened, our production and life are undergoing new changes. In this way, Guizhou Province will be gradually realized.
+It is suggested that the whole province should go into one network. At present, more than 400 high-frequency and hot issues in Guizhou Province can be handled on mobile phones, for example:
+Substitute invoices, supplementary birth medical certificates, etc. It doesn't matter if I forget to bring my driver's license when I drive out. I just got my ID card online.
+An electronic license for a driver's license can be generated by opening the mobile phone, clicking on the driver's license, nodding and shaking his head with his mouth open.
+This electronic certificate was given to the traffic police.
+                            </p><br/>
+                            <p>In the exhibition area, the application of big data can be seen everywhere. It gives us a more intuitive feeling that big data makes our life more convenient and wise.
+On the platform of Guizhou Digital Government next to me, more than 9000 applications of more than 40 provincial departments in 9 cities and prefectures of Guizhou Province have been integrated.
+At present, using big data and artificial intelligence technology, Guizhou is trying to make Yunshang Guizhou data platform have the ability of self-learning and become more intelligent.
+                            </p><br/>
+                            <p>The most important thing for all government departments, enterprises and individuals to share and exchange data is to ensure security. In this exposition, one set is from China.
+The main research and development of the "data exchange two-dimensional code ferry system" was officially launched. It utilizes "simulated human eye recognition" and the unique "high-speed two-dimensional code encoding and decoding technology", not only realizes the internal and external functions,
+External network physical partition, while taking into account the security and efficiency of data transmission.</p>
+                            
+                        </div>
+                    </div>
+                </el-dialog>
+                <el-dialog :visible.sync="YY_Visible" width="50%">
+                    <div class="Digital_YY">
+                        <center>
+                            <h2>Concerns about the Development of "Digital Economy" Emerge</h2></center><br/>
+                        <div class="YY_bg"></div><br>
+                        <div class="YY_ct">
+                            <p>With the increasing influence of big data on national governance and economic development, the problem of data security has become increasingly prominent, and personal information has been leaked.
+Network fraud poses a threat to the personal and property security of citizens. Entering the era of "digital economy", how to "lock" data security becomes 2019
+The focus of the experts'discussion at the China International Big Data Industry Exposition.
+                            </p><br/>
+                            <p><b>The high-speed development of "digital economy" is accompanied by security concerns:</b>
+                            White Paper on China's Digital Economic Development and Employment (2019) issued by the China Institute of Communications and Communications
+It shows that the scale of China's "digital economy" has maintained rapid growth in recent years. In 2018, China's total digital economy reached 31.3 trillion yuan, accounting for more than one third of GDP.
+It reached 34.8%, up 1.9 percentage points from the same period last year. According to the China Big Data Development Report released by the Expo, 50% of Global trade is now in progress.
+The above has realized digitalization. In the era of digital economy, the development and application of data agglomeration increases the risk of personal privacy disclosure. In addition, big data itself is
+Help hackers to analyze data accordingly.
+                            </p><br/>
+                            <p><b>Accelerate data hierarchical protection:</b>
+                            On May 28, the State Network Information Office issued the "Data Security Management Measures (Draft for Opinions)" on the maintenance of national security.
+Social and public interests, protect the legitimate rights and interests of citizens, legal persons and other organizations in cyberspace, safeguard personal information and important data security, and solicit opinions of the vast majority of Internet users.
+Following the promulgation and implementation of the Network Security Law of the People's Republic of China, the Personal Information Protection Law of 2018 has been included in the five-year legislative plan and the Data Security Law of the People's Republic of China of 2019.
+It is included in the annual legislative plan.</p><br/>
+                            <p><b>Enhance data security capability in an all-round way:</b>
+                            Experts at the meeting pointed out that four dimensions of management, technology, operation and supervision should be established, and three levels of platform, data and application should be all-round.
+Data security protection system. We should break through and master the key technologies of big data security governance, and strive to promote technological innovation under the background of big data. By increasing R&amp;D and innovation,
+Improve data security early warning, traceability, and emergency and disposal capabilities. Strengthen the research and development of data leak prevention, data theft prevention, data encryption and other technologies. Shortage of Data Security Talents
+It is also the focus of the experts, especially how to speed up the training of safety analysis talents urgently needed by government and enterprise organizations.</p>
+                        </div>
+                    </div>
+                </el-dialog>
+                <el-dialog :visible.sync="FZ_Visible" width="50%">
+                    <div class="Digital_FZ">
+                        <center>
+                            <h2>Digital Economy Welcomes Manyuan Spring and Looks Forward to the Development Prospect of Digital China</h2></center><br/>
+                        <div class="FZ_bg"></div><br>
+                        <div class="FZ_ct">
+                            <p>On May 6, the Digital China Construction Development Report (2018) (hereinafter referred to as the Report) was released at the 2nd Digital China Construction Summit. Yang Xiaowei, deputy director of the State Internet Information Office, said that significant progress had been made in the construction of digital China. By the end of 2018, the number of Chinese netizens had reached 829 million and the Internet penetration rate reached 59.6%. Electronic information manufacturing, software and information technology services, telecommunications and big data industries had maintained rapid growth.
+                            </p><br/>
+                            <p><b>Important progress has been made in the construction of digital China:</b>2018年我国新一代信息基础设施加快建设，信息技术创新能力逐步增强。截至2018年年底，全国科技型企业贷款余额为3.53万亿元，各类创新主体创新活力持续释放，我国创新指数在全球排名上升至第17位。
+                            </p><br/>
+                            <p><b>The level of information development in all regions has been improved as a whole:</b>
+                            To speed up the construction of digital China is to adapt to the new historical orientation of China's development, implement the new development concept in an all-round way, cultivate new momentum through information technology, promote new development with new momentum, create new brilliance with new development, and constantly satisfy people's yearning for a better life. In the area of coordinated development of regional informatization, there are many bright spots. The coordinated development of regional informatization in the Yangtze River Delta, Beijing, Tianjin and Hebei, Guangdong, Hong Kong and Macao.
+Regional digital economic growth pole is taking shape, regional network information technology innovation system is gradually built, and the level of regional information sharing and business collaboration is significantly improved.</p><br/>
+                            <p><b>To narrow the digital divide and promote the integration of urban and rural development:</b>
+                            This year is the key year for building a well-off society in an all-round way, and also the decisive year for winning the battle against poverty. How to promote poverty alleviation and rural revitalization through information construction has also become one of the focuses of digital China construction in 2019. "In the future, we will establish a policy system and working mechanism for the integration of urban and rural informatization, and comprehensively promote the construction of digital countryside and a new type of smart city.
+Promote the rational allocation of urban and rural data resources and other factors; coordinate the implementation of digital rural development strategy, accelerate the construction of rural information infrastructure, develop rural digital economy, strengthen the supply of agricultural and rural science and technology innovation, build smart green countryside, promote the modernization of rural governance capacity, deepen information service for the people, and stimulate rural vibration. Prosperity endogenous power." Yang Xiaowei said that by consolidating and enhancing the effectiveness of network poverty alleviation and innovating poverty alleviation measures, we can definitely create an upgraded version of network poverty alleviation and digital poverty alleviation.
+                            </p>
+                        </div>
+                    </div>
+                </el-dialog>
             </div>
         </div>
         <div class="CN_bg1" id="cnbg2">
