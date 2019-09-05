@@ -26,8 +26,8 @@
                                     <nuxt-link to="#"><li><div class="nav_1">首页</div></li></nuxt-link>
                                     <nuxt-link to="/digitalcn"><li>数字中国</li></nuxt-link>
                                     <nuxt-link to="/digitalgx"><li>数字广西</li></nuxt-link>
-                                    <nuxt-link to="/Digitalyl"><li>数字玉林</li></nuxt-link>
-                                    <nuxt-link to="/Digitalys"><li>数字玉师</li></nuxt-link>
+                                    <nuxt-link to="/digitalyl"><li>数字玉林</li></nuxt-link>
+                                    <nuxt-link to="/digitalys"><li>数字玉师</li></nuxt-link>
                                     <nuxt-link to="/aboutme"><li>关于我们</li></nuxt-link>
                                 </ul>
                             </div>

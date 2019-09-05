@@ -12,7 +12,7 @@
                         <div class="header_nav">
                         <el-row class="row_one">
                             <div class="ce_nav">
-                                <a href="/aboutMe">
+                                <a href="/aboutme">
                                     <i class="el-icon-star-off"><label>Chinese</label></i>
                                 </a>
                                 <a href="#">
@@ -24,10 +24,10 @@
                             <div class="nav">
                                 <ul>
                                     <nuxt-link to="/english_index"><li>Home page</li></nuxt-link>
-                                    <nuxt-link to="/e_DigitalChina"><li>Digital China</li></nuxt-link>
-                                    <nuxt-link to="/e_DigitalGX"><li>Digital Guangxi</li></nuxt-link>
-                                    <nuxt-link to="/e_DigitalYL"><li>Digital Yulin</li></nuxt-link>
-                                    <nuxt-link to="/e_DigitalYS"><li>Digital Yushi</li></nuxt-link>
+                                    <nuxt-link to="/e_digitalchina"><li>Digital China</li></nuxt-link>
+                                    <nuxt-link to="/e_digitalgx"><li>Digital Guangxi</li></nuxt-link>
+                                    <nuxt-link to="/e_digitalyl"><li>Digital Yulin</li></nuxt-link>
+                                    <nuxt-link to="/e_digitalys"><li>Digital Yushi</li></nuxt-link>
                                     <nuxt-link to="#"><li><div class="nav_6">About us</div></li></nuxt-link>
                                 </ul>
                             </div>

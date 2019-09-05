@@ -15,7 +15,7 @@
                                 <a href="#">
                                         <i class="el-icon-star-on"><label>中</label></i>
                                     </a>
-                                    <a href="/e_aboutMe">
+                                    <a href="/e_aboutme">
                                         <i class="el-icon-star-off"><label>英</label></i>
                                     </a>
                             </div>
@@ -24,11 +24,11 @@
                             <div class="nav">
                                 <ul>
                                     <nuxt-link to="/chinese_index"><li>首页</li></nuxt-link>
-                                    <nuxt-link to="/Digital_China"><li>数字中国</li></nuxt-link>
-                                    <nuxt-link to="/DigitalGX"><li>数字广西</li></nuxt-link>
-                                    <nuxt-link to="/DigitalYL"><li>数字玉林</li></nuxt-link>
-                                    <nuxt-link to="/DigitalYS"><li>数字玉师</li></nuxt-link>
-                                    <nuxt-link to="/aboutMe"><li><div class="nav_6">关于我们</div></li></nuxt-link>
+                                    <nuxt-link to="/digital_china"><li>数字中国</li></nuxt-link>
+                                    <nuxt-link to="/digitalgx"><li>数字广西</li></nuxt-link>
+                                    <nuxt-link to="/digitalyl"><li>数字玉林</li></nuxt-link>
+                                    <nuxt-link to="/digitalys"><li>数字玉师</li></nuxt-link>
+                                    <nuxt-link to="/aboutme"><li><div class="nav_6">关于我们</div></li></nuxt-link>
                                 </ul>
                             </div>
                         </el-row>
