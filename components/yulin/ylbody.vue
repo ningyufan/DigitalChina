@@ -2,7 +2,7 @@
     <div>	
 		<!-- 数字玉林·智慧城市建设板块内容 -->
         <div id="box_cs" class="bk_cs">
-            <el-row class="title_text" aos="zoom-in">
+            <el-row class="title_text" aos="zoom-in" >
                 数字玉林·智慧城市建设
 			</el-row>
 			<el-row style="width: 100vw;height: 80vh;top: 7vh;">
@@ -72,7 +72,7 @@
 					:visible.sync="cs_dialog1"
 					width="60%"
 					center
-					@close="handleDialogClose()">
+					@close="close_video">
 					<span>
 						<div class="dialog-video1">
 							<video src="@/assets/video/yl_video1.mp4" controls="controls" autoplay="autoplay" width="74%" height="25%" id="video1"></video>
@@ -147,9 +147,9 @@
 						</div>
 						<br>
 						<div class="font-content">
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11月7日，玉林智慧城市建设座谈会暨签约仪式在南宁举行。榆林市政府与曙光云计算有限公司签订了榆林智慧城市建设项目合同，标志着“智慧榆林”项目正式启动实施。市长苏海棠、副市长李振平，曙光信息产业有限公司董事、高级副总裁，曙光云计算有限公司总裁聂华出席签约仪式。</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11月7日，玉林智慧城市建设座谈会暨签约仪式在南宁举行。玉林市政府与曙光云计算有限公司签订了榆林智慧城市建设项目合同，标志着“智慧玉林”项目正式启动实施。市长苏海棠、副市长李振平，曙光信息产业有限公司董事、高级副总裁，曙光云计算有限公司总裁聂华出席签约仪式。</p>
 							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;苏海棠感谢聂华一行的到来，向他们汇报了榆林市经济社会发展，特别是城市信息化建设情况。他说，“智慧城市”是城市信息化发展的高级阶段，是对城市管理、公共服务、民生保障、商业活动等城市需求的智能回应。这对完善政府管理，提高居民生活质量具有重要意义。近年来，我市高度重视城市信息化建设，在电子政务和信息网络建设方面取得了显著成就，为榆林市“智慧城市”建设打下了良好的基础。榆林市签约的“智慧城市”建设项目包括智能政务平台、智能社区、智能园区、智能药都等19个项目。按照“统筹规划、分步实施”的原则推进。项目建成后，将实现城市智能化管理、政府科学决策、特色化生产。工业的发展对经济的发展有很大的促进作用。在未来的建设中，我们衷心希望广西中科曙光云计算有限公司（以下简称中科曙光）发挥技术和资源优势，全力推进项目建设，确保玉林“智慧城市”建设项目城市将成为“智慧城市”建设的示范工程。</p>
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;聂华在听取汇报后，对玉林经济社会发展取得的成绩表示高兴，并对能够参与玉林“智慧城市”建设感到荣幸。未来，华工曙光将以最优秀的技术和最大的力量投入到项目建设中，与玉林市政府共同谱写“让榆林更智慧，让生活更幸福”的“智慧榆林”新篇章。</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;聂华在听取汇报后，对玉林经济社会发展取得的成绩表示高兴，并对能够参与玉林“智慧城市”建设感到荣幸。未来，中科曙光将以最优秀的技术和最大的力量投入到项目建设中，与玉林市政府共同谱写“让玉林更智慧，让生活更幸福”的“智慧玉林”新篇章。</p>
 						</div>
 					</span>
 				</el-dialog>
@@ -164,18 +164,21 @@
 						</div>
 						<br>
 						<div class="font-content">
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015年4月，我市入选国家智慧城市试点。创建智慧城市是榆林市“三年一活动”的重要内容和有力载体。在前期工作的基础上，创作工作进入了顶层设计阶段。稳步实施16个项目，建设国家级智慧城市需要3-5年时间。</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015年4月，我市入选国家智慧城市试点。创建智慧城市是与玉林市“三年一活动”的重要内容和有力载体。在前期工作的基础上，创作工作进入了顶层设计阶段。稳步实施16个项目，建设国家级智慧城市需要3-5年时间。</p>
 							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我市创建国家智慧城市的目标，主要是通过创建智慧城市，提高城市规划建设的科学性，提高城市管理的效率和精细化，改善公共服务，明智地推进玉林新型城镇化建设。改善民生，促进产业转型升级，全面促进经济社会发展。城市管理智能化、民生幸福化、产业转型升级框架；信息技术全面支撑榆林经济社会快速可持续发展，城市运行状况全面可视化，综合防范和控制城市安全，有效支持城市经营管理决策；进一步改善民生，提供社会公共服务。实现公平便捷发展，人民幸福感倍增，建设服务型政府；实现经济良性转型升级，基本建成智慧型北部湾中心城市。</p>
 						</div>
 					</span>
 				</el-dialog>
             </el-row> 
 		</div>
-		<canvas id="canvas" width="100vw" height="auto" style="position: absolute;"></canvas>
+		<!-- <canvas id="canvas" width="100%"  height="auto" style="position: absolute;width:auto">
+		</canvas>
+		<script src='js/yl_b.js'></script> -->
 		<!-- 数字玉林·“互联网+”政务服务板块 -->
+		<div style="position: relative;z-index:1">
         <div id="box_zw" class="bk_zw">
-            <el-row class="title_text" aos="zoom-in">数字玉林·“互联网+”政务服务</el-row>
-			<el-row class="zhengwu_module1" aos="fade-up">
+            <el-row class="title_text" aos="zoom-in" style="position: relative;z-index:2">数字玉林·“互联网+”政务服务</el-row>
+			<el-row class="zhengwu_module1" aos="fade-up" style="position: relative;z-index:2">
 				<template v-if="zw_click == 0">
 					<div class="zw_content">
 						<p class="zw_ctTitle">插上“科技”翅膀 点亮玉林智慧法院新名片</p>
@@ -215,7 +218,7 @@
 					</div>
 				</template>
 			</el-row>
-			<el-row class="zhengwu_module2" aos="flip-right">
+			<el-row class="zhengwu_module2" aos="flip-right" style="position: relative;z-index:2">
 				<el-col class="zhengwu_module2_1">
 					<div class="bs-example" style="background-color: transparent;border: 0;" >
 						<div class="yl_row"  style="top: 2vh;">
@@ -300,6 +303,10 @@
 			</el-row>
 		
 		</div>
+		<!-- <div id="background" class="wall"></div> -->
+		<div id="midground" class="wall"></div>
+		<div id="foreground" class="wall"></div>
+		<div id="top" class="wall"></div>
 
 		<!-- 数字玉林·智慧旅游建设板块内容 -->
 			<div id="box_ly" class="bk_ly">
@@ -479,7 +486,7 @@
 			</ul>
 		</div>
 	</el-row>
-</div>
+		</div>
 
 		<!-- 数字玉林·扶持地方特色产业板块内容 -->
 		<div id="box_cy" class="bk_cy">
@@ -534,7 +541,8 @@
 					</div>  
 				</el-col >	
 			</el-row>
-			</div>
+		</div>
+		</div>
 			<!-- <script src="js/yl_particles.js"></script>
 			<script src="js/yl_app.js"></script> -->
 			
@@ -567,7 +575,10 @@
 			{src:'js/popper.min.js'},
 
 			// 政务服务板块
-			{src:'js/yl_b.js'},
+			// {src:'js/yl_b.js'},
+			// {src:'js/react.production.min.js'},
+			// {src:'js/react-dom.production.min.js'},
+			// {src:'js/index.js'},
 
 			// 产业模块
 			{src:'js/yl_chanye/jquery-1.7.2.min.js'},
@@ -593,6 +604,7 @@
 
 			// 产业模块
 			{ rel: 'stylesheet', href: 'css/yl_style.css' },
+			{ rel: 'stylesheet', href: 'css/style_cy.css' },
 
 			// 产业模块背景动画
 			// { rel: 'stylesheet', href: 'css/yl_login.css' },
@@ -675,11 +687,10 @@
 			$(this).children('.a2').find('.p7').css({bottom:'-50px'})
 		})
 	},
-	// 关闭对话框视频的方法
-	handleDialogClose(){
-		var myVideo=document.getElementById("video1");
-		myVideo.pause();
-	}
+	close_video(){
+        var myVideo=document.getElementById("video1");
+        myVideo.pause();
+    },
 },
     mounted() {
     AOS.init({
@@ -690,8 +701,7 @@
     this.$nextTick(() => {
         this.handleAnimate()//初始化第一次加载时在视口内就执行动画
         addEventListener('scroll', this.handleScroll);
-		addEventListener('scroll', this.handleAnimate);
-		// addEventListener('scroll', this.handleDialogClose);
+        addEventListener('scroll', this.handleAnimate);
 
     });
 	this.city();
