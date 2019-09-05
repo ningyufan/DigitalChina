@@ -1,6 +1,6 @@
 .bk_cs{
     width: 100%;
-    height: 92vh;
+    height: 95vh;
     background-image: url('../../images/yulin/yl_bkcs2.jpg');
     background-size: 100%  100%;
     position: relative;
@@ -74,6 +74,11 @@
     flex-direction: row;
     justify-content: center;
 }
+/* #zw_canvas{
+    width: 100vw;
+    height: auto;
+    position: absolute;
+} */
 .zhengwu_module1{
     background-color: rgb(241, 241, 241,0.5);
     width: 80%;
@@ -107,8 +112,6 @@
     margin: 0vh 2vw;
     color: #000;
 }
-
-
 .travel_module1{
     width: 90vw;
     height: 85vh;
@@ -230,3 +233,4 @@
     line-height: 3vh;
     text-align: left;
 }
+

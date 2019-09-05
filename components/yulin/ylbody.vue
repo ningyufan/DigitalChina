@@ -146,9 +146,9 @@
 						</div>
 						<br>
 						<div class="font-content">
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On November 7, the Symposium and signing ceremony of Yulin Smart City Construction was held in Nanning. Yulin Municipal Government and Shuguang Cloud Computing Co., Ltd. signed a contract on the construction project of Yulin Smart City, marking the formal start and implementation of the "Smart Yulin" project. Mayor Su Haitang, Vice Mayor Li Zhenpin, Director and Senior Vice President of Shuguang Information Industry Co., Ltd. and President Nie Hua of Shuguang Cloud Computing Co., Ltd. attended the signing ceremony.</p>
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Su Haitang thanked Nie Hua and his delegation for their arrival and reported to them the economic and social development of Yulin, especially the construction of urban informatization. He said that "smart city" is an advanced stage of urban informatization development, an intelligent response to urban management, public services, livelihood security, business activities and other urban needs. It is of great significance to improve government management and improve the quality of life of residents. In recent years, our city attaches great importance to the construction of urban informatization, and has made remarkable achievements in e-government and information network construction, which lays a good foundation for the construction of "smart city" in Yulin City. The contracted "Smart City" construction project in Yulin City includes 19 projects such as Intelligent Government Platform, Intelligent Community, Intelligent Park and Intelligent Pharmaceutical Capital. We will promote the project according to the principle of "overall planning and step-by-step implementation". After the completion of the project, we will surely make intellectualized management of the city, scientific decision-making of the government and characteristic production. Industry development plays a great role in promoting. In the future construction, we sincerely hope that Guangxi Zhongke Shuguang Cloud Computing Co., Ltd. (Zhongke Shuguang) will give full play to its technological and resource advantages, devote all efforts to the project construction, and ensure that the "Smart City" construction project of Yulin City will become a model project of "Smart City" construction.</p>
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After hearing the report, Nie Hua expressed his pleasure at the achievements made in the economic and social development of Yulin, and was honored to be able to participate in the construction of "wisdom city" in Yulin. In the future, Sino-Tech Dawning will devote the best technology and the greatest strength to the project construction, and work with the Yulin Municipal Government to compose a new chapter of "Wisdom Yulin" that "Make Yulin more wise and make life happier".</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11月7日，玉林智慧城市建设座谈会暨签约仪式在南宁举行。榆林市政府与曙光云计算有限公司签订了榆林智慧城市建设项目合同，标志着“智慧榆林”项目正式启动实施。市长苏海棠、副市长李振平，曙光信息产业有限公司董事、高级副总裁，曙光云计算有限公司总裁聂华出席签约仪式。</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;苏海棠感谢聂华一行的到来，向他们汇报了榆林市经济社会发展，特别是城市信息化建设情况。他说，“智慧城市”是城市信息化发展的高级阶段，是对城市管理、公共服务、民生保障、商业活动等城市需求的智能回应。这对完善政府管理，提高居民生活质量具有重要意义。近年来，我市高度重视城市信息化建设，在电子政务和信息网络建设方面取得了显著成就，为榆林市“智慧城市”建设打下了良好的基础。榆林市签约的“智慧城市”建设项目包括智能政务平台、智能社区、智能园区、智能药都等19个项目。按照“统筹规划、分步实施”的原则推进。项目建成后，将实现城市智能化管理、政府科学决策、特色化生产。工业的发展对经济的发展有很大的促进作用。在未来的建设中，我们衷心希望广西中科曙光云计算有限公司（以下简称中科曙光）发挥技术和资源优势，全力推进项目建设，确保玉林“智慧城市”建设项目城市将成为“智慧城市”建设的示范工程。</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;聂华在听取汇报后，对玉林经济社会发展取得的成绩表示高兴，并对能够参与玉林“智慧城市”建设感到荣幸。未来，华工曙光将以最优秀的技术和最大的力量投入到项目建设中，与玉林市政府共同谱写“让榆林更智慧，让生活更幸福”的“智慧榆林”新篇章。</p>
 						</div>
 					</span>
 				</el-dialog>
@@ -163,14 +163,14 @@
 						</div>
 						<br>
 						<div class="font-content">
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In April 2015, our city was selected as the pilot of National Smart city. Creating a smart city is an important content and powerful carrier of the "three-year-one activity" in Yulin City. Based on the previous work, the creation work has entered the top design stage. Sixteen projects will be implemented steadily, and it will take three to five years to build a national smart city.</p>
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our city's goal of creating a national wisdom city is mainly to promote the construction of new urbanization in Yulin wisely by creating a wisdom city, improve the scientific nature of urban planning and construction, improve the efficiency and refinement of urban management, improve public services, improve people's livelihood, promote industrial transformation and upgrading, and promote economic and social development in an all-round way. Intelligent urban management, happy people's livelihood, industrial transformation and upgrading framework; information technology fully supports the rapid and sustainable development of Yulin's economy and society, comprehensive visualization of urban operation status, comprehensive prevention and control of urban safety, effective support for urban operation management decision-making; people's livelihood has been further improved, and social public services have been provided. To achieve equitable and convenient development, the people's sense of well-being doubled, and build a service-oriented government; to achieve sound economic transformation and upgrading, and basically build a wise Beibu Gulf central city.</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015年4月，我市入选国家智慧城市试点。创建智慧城市是榆林市“三年一活动”的重要内容和有力载体。在前期工作的基础上，创作工作进入了顶层设计阶段。稳步实施16个项目，建设国家级智慧城市需要3-5年时间。</p>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我市创建国家智慧城市的目标，主要是通过创建智慧城市，提高城市规划建设的科学性，提高城市管理的效率和精细化，改善公共服务，明智地推进玉林新型城镇化建设。改善民生，促进产业转型升级，全面促进经济社会发展。城市管理智能化、民生幸福化、产业转型升级框架；信息技术全面支撑榆林经济社会快速可持续发展，城市运行状况全面可视化，综合防范和控制城市安全，有效支持城市经营管理决策；进一步改善民生，提供社会公共服务。实现公平便捷发展，人民幸福感倍增，建设服务型政府；实现经济良性转型升级，基本建成智慧型北部湾中心城市。</p>
 						</div>
 					</span>
 				</el-dialog>
             </el-row> 
 		</div>
-		<canvas id="canvas" width="100vw" height="auto" style="position:absolute"></canvas>
+		<canvas id="canvas" width="100vw" height="auto" style="position: absolute;"></canvas>
 		<!-- 数字玉林·“互联网+”政务服务板块 -->
         <div id="box_zw" class="bk_zw">
             <el-row class="title_text" aos="zoom-in">数字玉林·“互联网+”政务服务</el-row>
@@ -384,7 +384,6 @@
                 </div>
 	   
 		<!-- 数字玉林·大数据助力精准扶贫板块内容 -->
-		
         <div id="box_fp" class="bk_fp">
             <el-row class="title_text" aos="zoom-in">
                 数字玉林·大数据助力精准扶贫
@@ -468,13 +467,11 @@
 						<div class ="divA">
 							<p class="p1">玉林市博白县民生资金事前监督</p>
 							<p class="p2">今年以来，博白县纪委监委为突破事前监督盲区的问题，对原有民生资金监督平台进行全面升级完善，运用最新的大数据技术，构建民生大数据监督平台</p>
-							<!-- <p class="p3">¥<span>6999</span>起</p> -->
 						</div>
 					</a>
 					<a class = "a2" href="/yl_ctfp6" target="_blank">
 							<p class="p4">玉林市博白县民生资金事前监督</p>
 							<p class="p5">今年以来，博白县纪委监委为突破事前监督盲区的问<br>题，对原有民生资金监督平台进行全面升级完善，运用最新的大数据技术...</p>
-							<!-- <p class="p6">¥<span>6999</span>起</p> -->
 							<p class="p7">查看详情></p>
 					</a>
 				</li>
@@ -701,13 +698,9 @@
     
     
 }
-
-// 政务服务板背景效果
-//测试 路径属性
-
-
-
 </script>
+
+
 <style>
 	@import "@/assets/css/yulin/yl_body.css";
 </style>
