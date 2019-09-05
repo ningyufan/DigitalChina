@@ -128,6 +128,13 @@
     font-family: STXingkai;
     text-shadow: -2px 0px 2px
 }
+
+.mk_bt{
+    font-size: 4vh;
+    line-height: 6vh;
+    text-align: center;
+}
+
 .Digital_TZ{
     width: 100%;
     height: 90vh;
@@ -135,9 +142,9 @@
 .TZ_bg{
     background-image: url('../../assets/images/dchina/tz.jpg');
     width: 60%;
-    height: 40vh;
-    background-size: 100% 40vh;
-    margin-left: 10vw;
+    height: 30vh;
+    background-size: 100% 30vh;
+    margin-left: 9vw;
 }
 
 .TZ_ct{
@@ -150,7 +157,8 @@
 
 .TZ_ct p{
     text-indent: 2em;
-    font-size: 1.5vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
@@ -164,7 +172,7 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
 }
 
 .JZ_ct{
@@ -176,7 +184,8 @@
 
 .JZ_ct p{
     text-indent: 2em;
-    font-size: 1.5vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
@@ -190,19 +199,20 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
 }
 
 .JY_ct{
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     background-size: 100% 50vh;
     overflow: auto;
 }
 
 .JY_ct p{
     text-indent: 2em;
-    font-size: 1.5vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
@@ -216,7 +226,7 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
 }
 
 .RH_ct{
@@ -228,7 +238,8 @@
 
 .RH_ct p{
     text-indent: 2em;
-    font-size: 1.8vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
@@ -241,7 +252,7 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
 }
 
 .YY_ct{
@@ -253,7 +264,8 @@
 
 .YY_ct p{
     text-indent: 2em;
-    font-size: 1.5vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
@@ -267,7 +279,7 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
 }
 
 .FZ_ct{
@@ -279,7 +291,8 @@
 
 .FZ_ct p{
     text-indent: 2em;
-    font-size: 1.5vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 

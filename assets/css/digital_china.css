@@ -131,6 +131,13 @@
     text-shadow: -2px 0px 2px
 }
 
+.mk_bt{
+    font-size: 4vh;
+    line-height: 6vh;
+    text-align: center;
+}
+
+
 .Digital_TZ{
     width: 100%;
     height: 90vh;
@@ -140,18 +147,20 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;;
+    margin-left: 9vw;;
 }
 
 .TZ_ct{
     width: 100%;
     height: 50vh;
     background-size: 100% 50vh;
+    overflow: auto;
 }
 
 .TZ_ct p{
     text-indent: 2em;
-    font-size: 1.8vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
@@ -165,18 +174,20 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
 }
 
 .JZ_ct{
     width: 100%;
     height: 45vh;
     background-size: 100% 45vh;
+    overflow: auto;
 }
 
 .JZ_ct p{
     text-indent: 2em;
-    font-size: 1.8vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
@@ -190,18 +201,20 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
 }
 
 .JY_ct{
     width: 100%;
     height: 45vh;
     background-size: 100% 50vh;
+    overflow: auto;
 }
 
 .JY_ct p{
     text-indent: 2em;
-    font-size: 1.8vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
@@ -215,18 +228,20 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
 }
 
 .RH_ct{
     width: 100%;
     height: 46vh;
     background-size: 100% 46vh;
+    overflow: auto;
 }
 
 .RH_ct p{
     text-indent: 2em;
-    font-size: 1.8vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
@@ -239,18 +254,20 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
 }
 
 .YY_ct{
     width: 100%;
     height: 50vh;
     background-size: 100% 50vh;
+    overflow: auto;
 }
 
 .YY_ct p{
     text-indent: 2em;
-    font-size: 1.8vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
@@ -264,18 +281,20 @@
     width: 60%;
     height: 30vh;
     background-size: 100% 30vh;
-    margin-left: 10vw;
+    margin-left: 9vw;
 }
 
 .FZ_ct{
     width: 100%;
     height: 50vh;
     background-size: 100% 50vh;
+    overflow: auto;
 }
 
 .FZ_ct p{
     text-indent: 2em;
-    font-size: 1.8vh;
+    font-size: 2vh;
+    line-height: 3vh;
     color: rgb(65, 62, 62);
 }
 
