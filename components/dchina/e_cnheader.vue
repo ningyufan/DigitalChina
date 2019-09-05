@@ -46,14 +46,16 @@ export default {
                     img_src: require('../../assets/images/dchina/szjj9.jpg'),
                     p:'Intelligent city is an advanced form of urban informatization, which makes full use of the new generation of information technology in all walks of life in the city based on the next generation innovation (Innovation 2.0) of the knowledge society, and realizes the deep integration of informatization, industrialization and urbanization. It helps to alleviate the "big city disease", improve the quality of urbanization, and realize the refinement and dynamic management of urbanization. To manage and improve the effectiveness of urban management and the quality of life of citizens...',
                    
-                },{
-                    id:3,
-                    title:'Wisdom China',
-                    href:'#cnbg4',
-                    img_src: require('../../assets/images/dchina/szzg.jpg'),
-                    p:'Digital China aims to manage China in terms of sustainable development, agriculture, resources, environment, global change, ecosystem, water and soil circulation system, using remote sensing satellite images as the main technical analysis means. But in the report of the 19th National Congress of the CPC, digital China is a broader concept. It is the scope of China’s national informatization. Broadband China, Internet, big data and cloud computing are all the contents of digital China.',
+                },
+                // {
+                //     id:3,
+                //     title:'Wisdom China',
+                //     href:'#cnbg4',
+                //     img_src: require('../../assets/images/dchina/szzg.jpg'),
+                //     p:'Digital China aims to manage China in terms of sustainable development, agriculture, resources, environment, global change, ecosystem, water and soil circulation system, using remote sensing satellite images as the main technical analysis means. But in the report of the 19th National Congress of the CPC, digital China is a broader concept. It is the scope of China’s national informatization. Broadband China, Internet, big data and cloud computing are all the contents of digital China.',
                     
-                },{
+                // },
+                {
                     id:4,
                     title:'Look"Digital Economy"',
                     href:'#cnbg5',
