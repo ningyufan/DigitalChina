@@ -1,69 +1,57 @@
 <template>
-    <div class="DigitalYL">
+<div class="DigitalChina">
         <div class="header_one">
             <div class="header " id="header" >
                 <div class="logo">
-                    <a href="#">
-                        <!-- Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China -->
-                    </a>
+                    <!-- <a href="#">
+                        Digital <img src="../assets/images/logo.png" height="30vh" width="30vw" alt=""> China
+                    </a> -->
                 </div>
                 <div class=" fixed-width clearfix" :class="{fixed: isFixed}">
                     <div class="header-title fl" style="text-align: center">
                         <div class="header_nav">
                         <el-row class="row_one">
                             <div class="ce_nav">
+                                <a href="/digitalcn">
+                                    <i class="el-icon-star-off"><label>Chinese</label></i>
+                                </a>
                                 <a href="#">
-                                        <i class="el-icon-star-on"><label>中</label></i>
-                                    </a>
-                                    <a href="/e_digitalyl">
-                                        <i class="el-icon-star-off"><label>英</label></i>
-                                    </a>
+                                    <i class="el-icon-star-on"><label>English</label></i>
+                                </a>
                             </div>
                         </el-row>
                         <el-row class="row_tow">
                             <div class="nav">
                                 <ul>
-                                    <nuxt-link to="/chinese_index"><li>首页</li></nuxt-link>
-                                    <nuxt-link to="/digitalcn"><li>数字中国</li></nuxt-link>
-                                    <nuxt-link to="/digitalgx"><li>数字广西</li></nuxt-link>
-                                    <nuxt-link to="#"><li><div class="nav_4">数字玉林</div></li></nuxt-link>
-                                    <nuxt-link to="/digitalys"><li>数字玉师</li></nuxt-link>
-                                    <nuxt-link to="/aboutme"><li>关于我们</li></nuxt-link>
+                                    <nuxt-link to="/english_index"><li>Home page</li></nuxt-link>
+                                    <nuxt-link to="#"><li><div class="nav_2">Digital China</div></li></nuxt-link>
+                                    <nuxt-link to="/e_digitalgx"><li>Digital Guangxi</li></nuxt-link>
+                                    <nuxt-link to="/e_digitalyl"><li>Digital Yulin</li></nuxt-link>
+                                    <nuxt-link to="/e_digitalys"><li>Digital Yushi</li></nuxt-link>
+                                    <nuxt-link to="/e_aboutme"><li>About us</li></nuxt-link>
                                 </ul>
                             </div>
                         </el-row>
                         </div>
                     </div>
                 </div>
-                <div class="YL">
-                    <ylHeader />
+                <div class="china">
+                    <ecnheader/>
                 </div>
             </div>
         </div>
-        <ylBody />
-         <el-backtop :bottom="100" style="color:transparent">
+            <ecnindex/>
+        <el-backtop :bottom="100" style="color:transparent">
             <img src="../assets/images/111.png" alt="" style="color:transparent;" height="90%" width="90%">
         </el-backtop>
-        <div class="footer4">开发团队：吴证 宁玉帆 陆石媚 严晓倩 黄思森</div>
+        <div class="footer2">Development team:Wuzheng Ningyufan Lushimei Yanxiaoqian Huangsisen</div>
     </div>
-
-
 </template>
 
-
 <script>
-    import ylHeader from '../components/yulin/ylheader'
-    import ylBody from '../components/yulin/ylbody'
+import ecnheader from '../components/dchina/e_cnheader'
+import ecnindex from '../components/dchina/e_cnindex'
 export default {
-    components:{
-        ylHeader,
-        ylBody
-    },
-    data () {
-        return {
-            isFixed: 0,
-        }
-    },
     head:{
         script:[
             {src:'js/jquery.1.7.1.min.js'},
@@ -72,10 +60,18 @@ export default {
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
-            { rel: 'stylesheet', href: 'css/demo.css' },
+            // { rel: 'stylesheet', href: 'css/demo.css' },
             { rel: 'stylesheet', href: 'js/aos.css' },
             { rel: 'stylesheet', href: 'css/styles.css' }
         ]
+    },
+    components:{
+            ecnheader,ecnindex
+    },
+    data () {
+    return {
+        isFixed: 0,
+    }
     },
     methods: {
     handleScroll() {
@@ -123,7 +119,7 @@ export default {
     
     },
     destroyed() {
-        AOS.init({
+    AOS.init({
         easing: 'ease-out-back',
         duration: 1000
     });
@@ -136,22 +132,23 @@ export default {
 
 <style>
 @import "@/assets/css/index/page_index.css";
-.DigitalYL {
+.DigitalChina{
     width: 100%;
 }
-.nav_4{
+.nav_2{
     background-image: url('../assets/images/bg_xuanzhong.png');
     background-size: 100% 7.5vh ;
 }
-.nav:hover .nav_4{
+.nav:hover .nav_2{
     background: none;
 }
-.YL{
+.china{
     color: white;
     width: 80%;
+    height: 60%;
     margin-left: 10%
 }
-.footer4{
+.footer2{
     width: 100%;
     height: 60px;
     background: #2a53a9;
@@ -159,7 +156,9 @@ export default {
     font-size: 1.5vw;
     line-height: 4vw;
     font-family:STXingkai;
-    color: white;
-    /* margin-bottom: 4vh; */
+    color: #fff;
 }
+
+
+
 </style>

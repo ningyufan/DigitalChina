@@ -24,11 +24,11 @@
                             <div class="nav">
                                 <ul>
                                     <nuxt-link to="/english_index"><li>Home page</li></nuxt-link>
-                                    <nuxt-link to="/e_DigitalChina"><li>Digital China</li></nuxt-link>
-                                    <nuxt-link to="/e_DigitalGX"><li>Digital Guangxi</li></nuxt-link>
+                                    <nuxt-link to="/e_digitalcn"><li>Digital China</li></nuxt-link>
+                                    <nuxt-link to="/e_digitalgx"><li>Digital Guangxi</li></nuxt-link>
                                     <nuxt-link to="#"><li><div class="nav_4">Digital Yulin</div></li></nuxt-link>
-                                    <nuxt-link to="/e_DigitalYS"><li>Digital Yushi</li></nuxt-link>
-                                    <nuxt-link to="/e_aboutMe"><li>About us</li></nuxt-link>
+                                    <nuxt-link to="/e_digitalys"><li>Digital Yushi</li></nuxt-link>
+                                    <nuxt-link to="/e_aboutme"><li>About us</li></nuxt-link>
                                 </ul>
                             </div>
                         </el-row>

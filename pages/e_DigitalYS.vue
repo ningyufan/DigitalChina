@@ -24,7 +24,7 @@
                             <div class="nav">
                                 <ul>
                                     <nuxt-link to="/english_index"><li>Home page</li></nuxt-link>
-                                    <nuxt-link to="/e_digitalchina"><li>Digital China</li></nuxt-link>
+                                    <nuxt-link to="/e_digitalcn"><li>Digital China</li></nuxt-link>
                                     <nuxt-link to="/e_digitalgx"><li>Digital Guangxi</li></nuxt-link>
                                     <nuxt-link to="/e_digitalyl"><li>Digital Yulin</li></nuxt-link>
                                     <nuxt-link to="/e_digitalys"><li><div class="nav_5">Digital Yushi</div></li></nuxt-link>
