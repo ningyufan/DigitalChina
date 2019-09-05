@@ -24,7 +24,7 @@
                             <div class="nav">
                                 <ul>
                                     <nuxt-link to="/chinese_index"><li>首页</li></nuxt-link>
-                                    <nuxt-link to="/digital_china"><li>数字中国</li></nuxt-link>
+                                    <nuxt-link to="/digitalcn"><li>数字中国</li></nuxt-link>
                                     <nuxt-link to="/digitalgx"><li>数字广西</li></nuxt-link>
                                     <nuxt-link to="/digitalyl"><li>数字玉林</li></nuxt-link>
                                     <nuxt-link to="/digitalys"><li>数字玉师</li></nuxt-link>
