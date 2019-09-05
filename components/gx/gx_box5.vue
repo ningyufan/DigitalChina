@@ -102,7 +102,8 @@
                         <img src="../../assets/images/gx/box6_pic3.png" height="100%" alt="">
                     </div>
                     <div class="dialog_info">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广西科技师范学院位于广西壮族自治区来宾市，
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            广西科技师范学院位于广西壮族自治区来宾市，
                             为广西壮族自治区区属公办高等本科院校，是教育部数据中国“百校工程”首批试点高校，
                             广西新建本科学校整体转型发展试点学校，为广西科技厅和来宾市人民政府共建学校。								
                         </p><br/>

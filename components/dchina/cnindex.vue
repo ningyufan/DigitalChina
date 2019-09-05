@@ -6,7 +6,7 @@
             </div>    
             <div class="Chinaheader_mk">
                 <el-row class="Chinaheader_row1">
-                    <el-col class="Chinaheader_col1 wow zoomIn" data-wow-duration="5s">
+                    <el-col class="Chinaheader_col1" data-wow-duration="5s">
                         <div class="mk_bt"  @click="TZ_Visible=true">
                             "数字社会"运行状态的四个特征
                         </div>
@@ -36,7 +36,7 @@
                             </div>
                         </el-dialog>
                     </el-col>
-                    <el-col class="Chinaheader_col2  wow zoomIn" data-wow-duration="5s">
+                    <el-col class="Chinaheader_col2 " data-wow-duration="5s">
                         <div class="mk_bt" @click="JZ_Visible=true">
                             数字经济影响城市未来竞争格局
                         </div>
@@ -74,7 +74,7 @@
                     <img src="@/assets/images/dchina/cfk.png" height="100%" alt="">
                 </el-row>
                 <el-row class="Chinaheader_row2">
-                    <el-col class="Chinaheader_col3  wow zoomIn" data-wow-duration="5s">
+                    <el-col class="Chinaheader_col3 " data-wow-duration="5s">
                         <div class="mk_bt" @click="JY_Visible=true">
                             共享机遇
                         </div>
@@ -108,7 +108,7 @@
                             </div>
                         </el-dialog>
                     </el-col>
-                    <el-col class="Chinaheader_col4  wow zoomIn" data-wow-duration="5s">
+                    <el-col class="Chinaheader_col4 " data-wow-duration="5s">
                         <div class="mk_bt" @click="RH_Visible=true">
                             融合贯通
                         </div>
@@ -137,7 +137,7 @@
                             </div>
                         </el-dialog>
                     </el-col>
-                    <el-col class="Chinaheader_col5  wow zoomIn" data-wow-duration="5s">
+                    <el-col class="Chinaheader_col5 " data-wow-duration="5s">
                         <div class="mk_bt" @click="YY_Visible=true">
                             隐忧浮现
                         </div>
@@ -169,7 +169,7 @@
                             </div>
                         </el-dialog>
                     </el-col>
-                    <el-col class="Chinaheader_col6  wow zoomIn" data-wow-duration="1s">
+                    <el-col class="Chinaheader_col6 " data-wow-duration="1s">
                         <div class="mk_bt" @click="FZ_Visible=true">
                             发展前景
                         </div>
@@ -591,6 +591,10 @@
 
 <script>
 
+// if (process.browser) { // 在这里根据环境引入wow.js
+//     var {WOW} = require('wowjs')
+//     }
+
 export default {
     head:{
         script:[
@@ -622,6 +626,12 @@ export default {
             easing: 'ease-out-back',
             duration: 1000
         });
+        // if (process.browser) {  // 在页面mounted生命周期里面 根据环境实例化WOW
+        //     new WOW({
+        //         live: true, 
+        //         offset: 0
+        //     }).init()
+        // };
     }
 }
 </script>

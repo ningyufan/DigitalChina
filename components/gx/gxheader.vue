@@ -6,7 +6,7 @@
                 <el-col class="left_col">
                     <div class="detail">
                         <p class="title"><a :href="item.href">{{item.title}}</a></p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ item.p }}</p>
+                        <p>{{ item.p }}</p>
                         <hr class="hr" />
                             <div>
                                 <a :href="item.href" style="font-size:2.5vh" >查看内容>></a>
@@ -101,11 +101,12 @@ export default {
     text-align: center;
     margin: 2vh auto;
     font-family: STXingkai;
-  
   }
   .detail p{
     font-size: 3vh;
     text-align: justify;
+    text-indent: 2em;
+    line-height: 4.5vh;
   }
   hr {
     margin: 3vh 0 3vh 0;
