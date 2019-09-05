@@ -130,7 +130,7 @@ export default {
 <style>
 .gx_box2 {
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     background-image: url(../../assets/images/gx/bg3.jpg);
     background-size: 100% 100%; 
     position: relative;
@@ -180,9 +180,10 @@ export default {
 }
 
 .gx_box2 .view {
-    height: 60vh;
+    height: 65vh;
     width: 80vw;
-    margin: 0 auto;
+	margin: 0 auto;
+	margin-top: 5vh;
     background-color:rgba(255, 255, 255, 0.5);
     z-index: 2;
     position: absolute;
@@ -191,7 +192,7 @@ export default {
 }
 
 .gx_box2 .view .pic_info {
-    height: 55vh;
+    height: 60vh;
     width: 70vw;
     margin-left: 5vw;
     /* background-color: #ccc; */
@@ -214,7 +215,7 @@ export default {
     margin: 0 auto;
     position: absolute;
     left: 10vw;
-    bottom: 0;
+    bottom: 5vh;
     /* background-color: bisque; */
 }
 .gx_box2 .pic_list img {

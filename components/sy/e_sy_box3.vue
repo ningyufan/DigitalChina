@@ -91,16 +91,19 @@
             </template>
           <span>
             <img src="../../assets/images/sy/sybox3_pic2.jpg" alt="">
-            <p> 
-                As China's digital economy enters the fast lane, big data is becoming an important way of credit data integration and credit services, and will gradually penetrate into the whole industry, breaking the island of information, Chen said.
-                Finally, the data scattered in different government departments, industry organizations and social institutions are effectively integrated.
-            </p><br/>
-            <p> 
-                "Comparing with the traditional way of credit information collection, big data credit collection adopts cloud computing service technology, that is, from the beginning of data entry to the output of evaluation results, the whole process is completed by computer algorithms.
-                This avoids the influence of subjective judgment and ensures the accuracy of evaluation results. On this basis, the Internet and other information technologies based on the Internet, Chen said.
-                It also provides a more efficient way for credit service. Even if we deal with multiple evaluation objects at the same time, we can still guarantee the accuracy and efficiency of credit evaluation. "Especially when the information of the respondents changes,
-                Relying on big data, we can still calculate its credit quickly and timely to ensure the real-time of credit.
-            </p>
+            <div class="dia_info">
+              <p> 
+                  As China's digital economy enters the fast lane, big data is becoming an important way of credit data integration and credit services, and will gradually penetrate into the whole industry, breaking the island of information, Chen said.
+                  Finally, the data scattered in different government departments, industry organizations and social institutions are effectively integrated.
+              </p><br/>
+              <p> 
+                  "Comparing with the traditional way of credit information collection, big data credit collection adopts cloud computing service technology, that is, from the beginning of data entry to the output of evaluation results, the whole process is completed by computer algorithms.
+                  This avoids the influence of subjective judgment and ensures the accuracy of evaluation results. On this basis, the Internet and other information technologies based on the Internet, Chen said.
+                  It also provides a more efficient way for credit service. Even if we deal with multiple evaluation objects at the same time, we can still guarantee the accuracy and efficiency of credit evaluation. "Especially when the information of the respondents changes,
+                  Relying on big data, we can still calculate its credit quickly and timely to ensure the real-time of credit.
+              </p>
+            </div>
+            
           </span>
           <span slot="footer" class="dialog-footer">
             <el-button type="primary" @click="sybox3_dialog2 = false">Return</el-button>
@@ -114,7 +117,8 @@
             </template>
           <span>
             <img src="../../assets/images/sy/sybox3_pic3.jpg" alt="">
-            <p> 
+            <div class="dia_info">
+              <p> 
                 At the first Digital China Construction Summit, Netdragon Networks signed a strategic cooperation agreement with Peisheng Group. Xiong Li said that he hoped to use Netdragon's digital technology.
                 Put the educational resources of Peyson, the world's largest offline education group, online step by step.
             </p><br/>
@@ -129,6 +133,7 @@
             <p> 
                 Xiong Li said that he hoped that through this acquisition, he would make progress towards the goal of creating a lifelong learning platform, so that the educational products of Netdragon could be more comprehensive. As for whether it could go better in the next step, great efforts still need to be made.
             </p><br/>
+            </div>
           </span>
           <span slot="footer" class="dialog-footer">
             <el-button type="primary" @click="sybox3_dialog3 = false">Return</el-button>
@@ -142,7 +147,8 @@
             </template>
           <span>
             <img src="../../assets/images/sy/sybox3_pic4.jpg" alt="">
-            <p> 
+            <div class="dia_info">
+              <p> 
                 Lin Yongjun said that the city data lake is to build a large data water infrastructure for the city, use optical storage technology to reduce the cost of data storage and energy consumption of data storage for the whole society, and more conducive to the development of large data industry.
                 Lin Yongjun believes that the construction of data lake should be divided into three stages: building a large data warehouse in the lake, diverting social data resources to the lake, and exploiting and utilizing data resources.
             </p><br/>
@@ -159,6 +165,7 @@
                 When the access frequency decreases, it becomes cold data. "Now there are both data lakes and clouds in a city. Clouds are responsible for processing thermal data and lakes for storing cold data. This will create a hot and cold ecology.
                 He believes that the two will not replace each other, but constitute an ecological system together.。
             </p><br/>
+            </div>
           </span>
           <span slot="footer" class="dialog-footer">
             <el-button type="primary" @click="sybox3_dialog4 = false">Return</el-button>
@@ -172,7 +179,8 @@
             </template>
           <span>
             <img src="../../assets/images/sy/sybox3_pic5.jpg" alt="">
-            <p> 
+            <div class="dia_ind">
+              <p> 
                 Constructing Total Factor Perception System and Building Digital Service Platform
             </p><br/>
             <p> 
@@ -225,6 +233,8 @@ The construction of the three-in-one new metropolitan Federation of things speci
             <p> 
                 　Speeding up the construction of a new generation of information infrastructure will play a positive role in enhancing people's well-being. Xiong Qunli said that in the future, China Electricity will continue to actively participate in the construction of a new generation of information infrastructure in accordance with the deployment of the Party Central Committee and the State Council.
             </p><br/>
+            </div>
+            
           </span>
           <span slot="footer" class="dialog-footer">
             <el-button type="primary" @click="sybox3_dialog5 = false">Return</el-button>
@@ -238,7 +248,8 @@ The construction of the three-in-one new metropolitan Federation of things speci
             </template>
           <span>
             <img src="../../assets/images/sy/sybox3_pic6.jpg" alt="">
-            <p> 
+            <div class="dia_info">
+               <p> 
                 The following are the main contents of the interview:
             </p><br/>
             <p> 
@@ -266,6 +277,8 @@ The construction of the three-in-one new metropolitan Federation of things speci
             <p> 
                 Thirdly, we should tell Chinese stories well, gather resources well, integrate across borders, link brands, and use culture to satisfy people's pursuit of quality of life.
             </p><br/>
+            </div>
+           
 
           </span>
           <span slot="footer" class="dialog-footer">
@@ -529,7 +542,7 @@ export default {
   font-size: 4vh;
   line-height: 6vh;
 }
-p {
+.dia_info p {
   font-size: 3vh;
   line-height: 4.5vh;
   text-indent: 2rem;

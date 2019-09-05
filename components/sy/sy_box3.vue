@@ -91,7 +91,8 @@
             </template>
           <span>
             <img src="../../assets/images/sy/sybox3_pic2.jpg" alt="">
-            <p> 
+            <div class="dia_info">
+              <p> 
               陈思华说，随着中国数字经济发展进入快车道，大数据正在成为信用数据整合和信用服务的重要方式，并将逐渐渗透到整个行业，打破信息的孤岛，
               最终对分散在不同政府部门、行业组织和社会机构的各类数据进行有效整合。
             </p><br/>
@@ -101,6 +102,8 @@
               也为信用服务提供了更高效的途径，即使同时处理多个受评对象，仍然能够保证信用评估的准确高效。“特别是当受评对象的信息发生变化时，
               依托大数据，仍能够对其信用快速及时地计算，保证信用的实时性。”
             </p>
+            </div>
+            
           </span>
           <span slot="footer" class="dialog-footer">
             <el-button type="primary" @click="sybox3_dialog2 = false">返 回</el-button>
@@ -114,7 +117,8 @@
             </template>
           <span>
             <img src="../../assets/images/sy/sybox3_pic3.jpg" alt="">
-            <p> 
+            <div class="dia_info">
+              <p> 
               在首届数字中国建设峰会上，网龙网络公司与英国培生集团签订战略合作协议。熊立表示，此举希望通过网龙的数字化技术，
               把英国培生这家全球最大的线下教育集团的教育资源逐步线上化。
             </p><br/>
@@ -129,6 +133,7 @@
             <p> 
               熊立表示，希望通过这次收购，向打造终身学习平台的目标进发，让网龙的教育产品能够更加全面，至于下一步能否走得更好，还需要付出很大的努力。
             </p><br/>
+            </div>
           </span>
           <span slot="footer" class="dialog-footer">
             <el-button type="primary" @click="sybox3_dialog3 = false">返 回</el-button>
@@ -142,7 +147,8 @@
             </template>
           <span>
             <img src="../../assets/images/sy/sybox3_pic4.jpg" alt="">
-            <p> 
+            <div class="dia_info">
+              <p> 
               林拥军介绍，城市数据湖是想给城市构建一个大数据的水利基础设施，利用光存储技术降低全社会数据存储的成本及数据存储的能耗，更有利的发展大数据产业。
               林拥军认为，数据湖建设要分三个阶段，一是建湖搭建大数据仓库，二是引水把社会数据资源引流到湖里，三是数据资源的开发利用。
             </p><br/>
@@ -159,6 +165,8 @@
               访问频率降低就变成冷数据。“现在一个城市中既有数据湖也有云，云是负责处理热数据，湖负责存储冷数据。这样会形成一个冷热的生态。”
               他认为，两者之间不会替代，而是共同构成了生态体系。
             </p><br/>
+            </div>
+            
           </span>
           <span slot="footer" class="dialog-footer">
             <el-button type="primary" @click="sybox3_dialog4 = false">返 回</el-button>
@@ -172,7 +180,8 @@
             </template>
           <span>
             <img src="../../assets/images/sy/sybox3_pic5.jpg" alt="">
-            <p> 
+            <div class="dia_info">
+              <p> 
               构建全要素感知体系 搭建数字化服务平台
             </p><br/>
             <p> 
@@ -225,6 +234,7 @@
             <p> 
               　加快构建新一代信息基础设施，对增强人民福祉具有积极作用。熊群力说，中国电科未来将继续按照党中央、国务院部署，积极投身新一代信息基础设施的建设进程中。
             </p><br/>
+            </div>
           </span>
           <span slot="footer" class="dialog-footer">
             <el-button type="primary" @click="sybox3_dialog5 = false">返 回</el-button>
@@ -238,7 +248,8 @@
             </template>
           <span>
             <img src="../../assets/images/sy/sybox3_pic6.jpg" alt="">
-            <p> 
+            <div class="dia_info">
+              <p> 
              以下为访谈主要内容： 
             </p><br/>
             <p> 
@@ -266,6 +277,7 @@
             <p> 
               第三，就是要讲好中国故事，做好资源汇聚，跨界整合，品牌联动，用文化满足人们对生活品质的追求。
             </p><br/>
+            </div>
 
           </span>
           <span slot="footer" class="dialog-footer">
@@ -528,10 +540,10 @@ export default {
   font-size: 4vh;
   line-height: 6vh;
 }
-p {
+.dia_info p {
   font-size: 3vh;
   line-height: 4.5vh;
-  text-indent: 3rem;
+  text-indent: 2rem;
 }
 
 </style>
