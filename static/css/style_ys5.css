@@ -1,6 +1,6 @@
 html, body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
   position: relative;
@@ -15,7 +15,8 @@ html, body {
   background-color: rgba(237, 205, 163, 0.8);
   box-shadow: 0 0 40px 0 rgba(237, 205, 163, 0.8), 0 0 20px 0 #FFFFFF;
   animation: glow 5s infinite;
-  margin-top: 570vh
+  margin-top: 560vh;
+  /* overflow: hidden; */
 }
 .star--medium {
   width: 6px;

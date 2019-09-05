@@ -18,10 +18,10 @@
                 <div class="text1_js">
                     <div class="title1_js">Summary</div>
                     <div class="text2_js">
-                        <p>Yulin Normal University's Big Data College and Big Data Application Innovation Center were unveiled on July 15, 2017. They were established on the basis of the data China "100 Schools Project" innovation project initiated by the School Planning and Construction Development Center of the Ministry of Education and Dawning Information Industry Co., Ltd. Yulin Teachers College is the first experimental Institute of "100 Schools Project" in China, which was determined by the Ministry of Education. It is also the only experimental Institute in southeastern Guangxi.</p>
-                        <p>The base of Big Data College and Big Data Application Innovation Center covers an area of 1200 square meters. It has the functions of exhibition hall, multimedia computer room, project training room and teacher's scientific research team studio. It has invested 13 million yuan, including equipment room, equipment room, scientific research, experiment and training in each functional area, and supporting equipment for teaching. Soft decoration of the exhibition hall.</p>
-                        <p>At present, the University of Big Data has opened the major of Computer Science and Technology (Big Data Technology Direction). In 2016, 89 students were enrolled and in 2017, 94 students were enrolled. The direction of big data technology focuses on training application-oriented talents in software development, data mining, analysis and application of algorithms, construction and maintenance of distributed system platforms, etc. In July 2017, the major of "Data Science and Big Data Technology" was declared and submitted to the Ministry of Education for approval.</p>
-                        <p>The core scientific research force of the Center is a Key Laboratory of complex system optimization and large data processing in Guangxi University Key Laboratory. At present, the laboratory contains 30 fixed researchers, including 9 senior and Vice-Senior titles, 10 doctoral teachers, 1 doctoral supervisor and 9 master supervisors. Over the past three years, the laboratory has successfully declared more than 20 projects of the National Natural Science Foundation of China, and more than 40 projects of the Guangxi Natural Science Foundation, with a total scientific research fund of more than 15 million yuan.</p>
+                        <div>Yulin Normal University's Big Data College and Big Data Application Innovation Center were unveiled on July 15, 2017. They were established on the basis of the data China "100 Schools Project" innovation project initiated by the School Planning and Construction Development Center of the Ministry of Education and Dawning Information Industry Co., Ltd. Yulin Teachers College is the first experimental Institute of "100 Schools Project" in China, which was determined by the Ministry of Education. It is also the only experimental Institute in southeastern Guangxi.</div>
+                        <div>The base of Big Data College and Big Data Application Innovation Center covers an area of 1200 square meters. It has the functions of exhibition hall, multimedia computer room, project training room and teacher's scientific research team studio. It has invested 13 million yuan, including equipment room, equipment room, scientific research, experiment and training in each functional area, and supporting equipment for teaching. Soft decoration of the exhibition hall.</div>
+                        <div>At present, the University of Big Data has opened the major of Computer Science and Technology (Big Data Technology Direction). In 2016, 89 students were enrolled and in 2017, 94 students were enrolled. The direction of big data technology focuses on training application-oriented talents in software development, data mining, analysis and application of algorithms, construction and maintenance of distributed system platforms, etc. In July 2017, the major of "Data Science and Big Data Technology" was declared and submitted to the Ministry of Education for approval.</div>
+                        <div>The core scientific research force of the Center is a Key Laboratory of complex system optimization and large data processing in Guangxi University Key Laboratory. At present, the laboratory contains 30 fixed researchers, including 9 senior and Vice-Senior titles, 10 doctoral teachers, 1 doctoral supervisor and 9 master supervisors. Over the past three years, the laboratory has successfully declared more than 20 projects of the National Natural Science Foundation of China, and more than 40 projects of the Guangxi Natural Science Foundation, with a total scientific research fund of more than 15 million yuan.</div>
                     </div>
                 </div>
             </div>
@@ -188,8 +188,8 @@
                             <figure class="six">
                                 <img class="img6_ys" src="@/assets/images/ysblock/img1_scope.webp">
                                 <figcaption>
-                                    <h3>Department Training | <br> Etiquette Department</h3>
-                                    <h4 class="img_6_ys">Click here for details</h4>
+                                    <h3 style="font-size:2vh">Department Training | <br> Etiquette Department</h3>
+                                    <h4 class="img_6_ys" style="font-size:2vh">Click here for details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -201,8 +201,8 @@
                             <figure class="six">
                                 <img class="img7_ys" src="@/assets/images/ysblock/img2_scope.webp">
                                 <figcaption>
-                                    <h3>Managing Dream Life</h3>
-                                    <h4 class="img_7_ys">Click here for details</h4>
+                                    <h3 style="font-size:2vh">Managing Dream Life</h3>
+                                    <h4 class="img_7_ys" style="font-size:2vh">Click here for details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -214,8 +214,8 @@
                             <figure class="six">
                                 <img class="img8_ys" src="@/assets/images/ysblock/img3_scope_1.webp">
                                 <figcaption>
-                                    <h3>Unlike us</h3>
-                                    <h4 class="img_8_ys">Click here for details</h4>
+                                    <h3 style="font-size:2vh">Unlike us</h3>
+                                    <h4 class="img_8_ys" style="font-size:2vh">Click here for details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -227,8 +227,8 @@
                             <figure class="six">
                                 <img class="img9_ys" src="@/assets/images/ysblock/img4_scope_5.webp"/>
                                 <figcaption>
-                                    <h3>Quality Development</h3>
-                                    <h4 class="img_9_ys">Click here for details</h4>
+                                    <h3 style="font-size:2vh">Quality Development</h3>
+                                    <h4 class="img_9_ys" style="font-size:2vh">Click here for details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -240,8 +240,8 @@
                             <figure class="six">
                                 <img class="img10_ys" src="@/assets/images/ysblock/img5_scope_2.webp">
                                 <figcaption>
-                                    <h3>PPT Team Exhibition</h3>
-                                    <h4 class="img_10_ys">Click here for details</h4>
+                                    <h3 style="font-size:2vh">PPT Team Exhibition</h3>
+                                    <h4 class="img_10_ys" style="font-size:2vh">Click here for details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -253,8 +253,8 @@
                             <figure class="six">
                                 <img class="img11_ys" src="@/assets/images/ysblock/img6_scope_1.webp">
                                 <figcaption>
-                                    <h3>May 4th League Day</h3>
-                                    <h4 class="img_11_ys">Click here for details</h4>
+                                    <h3 style="font-size:2vh">May 4th League Day</h3>
+                                    <h4 class="img_11_ys" style="font-size:2vh">Click here for details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -266,8 +266,8 @@
                             <figure class="six">
                                 <img class="img12_ys" src="@/assets/images/ysblock/img7_scope_1.webp">
                                 <figcaption>
-                                    <h3>Ruiyi Workshop</h3>
-                                    <h4 class="img_12_ys">Click here for details</h4>
+                                    <h3 style="font-size:2vh">Ruiyi Workshop</h3>
+                                    <h4 class="img_12_ys" style="font-size:2vh">Click here for details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>
@@ -279,8 +279,8 @@
                             <figure class="six">
                                 <img class="img13_ys" src="@/assets/images/ysblock/img8_scope_3.webp">
                                 <figcaption>
-                                    <h3>Data Kingkong association</h3>
-                                    <h4 class="img_13_ys">Click here for details</h4>
+                                    <h3 style="font-size:2vh">Data Kingkong association</h3>
+                                    <h4 class="img_13_ys" style="font-size:2vh">Click here for details</h4>
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                 </figcaption>

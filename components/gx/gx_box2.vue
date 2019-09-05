@@ -199,7 +199,8 @@ export default {
     font-size: 4vh;
 }
 .gx_box2 .view .pic_info .box3_content p{
-    font-size:2.5vh;
+	font-size:2.5vh;
+	text-indent: 2em;
 }
 .gx_box2 .pic_list {
     height: 25vh;
