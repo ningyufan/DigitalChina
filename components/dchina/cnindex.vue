@@ -198,7 +198,6 @@
         <div class="CN_bg1" id="cnbg2">
             <div class="bg1_bt" aos="zoom-in">
                 数字经济——推动新发展
-                <!-- <cnbg1/> -->
             </div>
             <div class="cn_bg1">
                 <el-row class="cnjz_bg1">
@@ -469,9 +468,6 @@
             <script src="js/cn_bg2.js"></script>
             </div>
         </div>
-        <!-- <div class="CN_bg5" id="cnbg4">
-            <cnbg5/>
-        </div> -->
         <div class="CN_bg4" id="cnbg5">
             <div class="bg4_header">
                 <div class="bg4_bk1">
@@ -595,27 +591,13 @@
 
 <script>
 
-// if (process.browser) { // 在这里根据环境引入wow.js
-//     var {WOW} = require('wowjs')
-//     }
-// import cnbg1 from '../dchina/cn_bg1'
-// import cnbg2 from '../dchina/cn_bg2'
-// import cnbg5 from '../dchina/cn_bg5'
 export default {
-    components:{
-        // cnbg1,
-        // cnbg2,
-        // cnbg5
-        },
     head:{
         script:[
             {src:'js/jquery.1.7.1.min.js'},
             {src:'js/jquery.min.js'},
             {src:'js/aos.js'},
             {src:'js/cn_app.js'},
-            // {src:'js/rotate.js'},
-            // {src:'js/cn_bg5.js'},
-            {src:'js/waterFloat.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
@@ -640,25 +622,10 @@ export default {
             easing: 'ease-out-back',
             duration: 1000
         });
-        // if (process.browser) {  // 在页面mounted生命周期里面 根据环境实例化WOW
-        //     new WOW({
-        //         live: true, 
-        //         offset: 0
-        //     }).init()
-        // };
     }
 }
 </script>
 
 <style>
     @import "@/assets/css/digital_china.css";
-
-.CN_bg5{
-    /* background-image: url('../../assets/images/dchina/bg4.jpg'); */
-    position: relative;
-    width: 100vw;
-    background-size: 100vw 100vh;
-    height: 100vh;
-    margin: 0 auto;
-}
 </style>

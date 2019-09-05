@@ -228,7 +228,6 @@
         <div class="CN_bg1" id="cnbg2">
             <div class="bg1_bt" aos="zoom-in">
                 Promoting New Development
-                <!-- <cnbg1/> -->
             </div>
             <div class="cn_bg1">
                 <el-row class="cnjz_bg1">
@@ -501,9 +500,6 @@
             <script src="js/cn_bg2.js"></script>
             </div>
         </div>
-        <!-- <div class="CN_bg5" id="cnbg4">
-            <ecnbg5/>
-        </div> -->
         <div class="CN_bg4" id="cnbg5">
             <div class="bg4_header">
                 <div class="bg4_bk1">
@@ -626,19 +622,15 @@
 </template>
 
 <script>
-// import ecnbg5 from '../dchina/e_cnbg5'
+
+
 export default {
-    components:{
-        // cnbg1,
-        // cnbg2,
-        // ecnbg5
-        },
     head:{
         script:[
-            {src:'js/jquery.1.7.1.min.js'},
-            {src:'js/jquery.min.js'},
             {src:'js/aos.js'},
             {src:'js/cn_app.js'},
+            {src:'js/jquery.1.7.1.min.js'},
+            {src:'js/jquery.min.js'},
         ],
         link: [
             { rel: 'stylesheet', href: 'css/normalize.css' },
@@ -669,13 +661,5 @@ export default {
 
 <style>
     @import "@/assets/css/e_digitalchina.css";
-.CN_bg5{
-    /* background-image: url('../../assets/images/dchina/bg4.jpg'); */
-    position: relative;
-    width: 100vw;
-    background-size: 100vw 100vh;
-    height: 100vh;
-    margin: 0 auto;
-}
 
 </style>
