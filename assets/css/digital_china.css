@@ -179,8 +179,8 @@
 
 .JZ_ct{
     width: 100%;
-    height: 45vh;
-    background-size: 100% 45vh;
+    height: 50vh;
+    background-size: 100% 50vh;
     overflow: auto;
 }
 
@@ -206,7 +206,7 @@
 
 .JY_ct{
     width: 100%;
-    height: 45vh;
+    height: 50vh;
     background-size: 100% 50vh;
     overflow: auto;
 }
@@ -233,8 +233,8 @@
 
 .RH_ct{
     width: 100%;
-    height: 46vh;
-    background-size: 100% 46vh;
+    height: 50vh;
+    background-size: 100% 50vh;
     overflow: auto;
 }
 
@@ -259,8 +259,8 @@
 
 .YY_ct{
     width: 100%;
-    height: 50vh;
-    background-size: 100% 50vh;
+    height: 52vh;
+    background-size: 100% 52vh;
     overflow: auto;
 }
 
@@ -286,8 +286,8 @@
 
 .FZ_ct{
     width: 100%;
-    height: 50vh;
-    background-size: 100% 50vh;
+    height: 52vh;
+    background-size: 100% 52vh;
     overflow: auto;
 }
 
@@ -601,7 +601,7 @@
 	width: 2vw;
 	height: 0vw;
 	margin-left: 38vw;
-	margin-top: 5vw;
+	margin-top: 2vw;
 	transition: all 0.5s;
 	background-image: url("../images/dchina/bt1.png");
 	background-position: center center;
@@ -616,6 +616,7 @@
 	height: 2vw;
 	margin-top: -2vw;
 }
+
 
 
 /*数字经济——推动城市发展样式结束 end*/
