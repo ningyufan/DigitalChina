@@ -37,7 +37,7 @@ export default {
                     title:'Intelligent Tourism',
                     href:'#box2',
                     img_src: require('../../assets/images/gx/h_pic3.png'),
-                    p:'Intelligent tourism is also called intelligent tourism. It is to make use of new technologies such as cloud computing and Internet of Things, through the Internet/mobile Internet, with the help of portable terminal Internet devices, actively perceive the information of tourism resources, tourism economy, tourism activities, tourists and so on, timely release, so that people can timely understand these information, timely arrange and adjust work and tourism. Planning, so as to achieve the effect of intelligent perception and convenient use of all kinds of tourism information. The construction and development of intelligent tourism will ultimately be embodied in four levels: tourism experience, tourism management, tourism services and tourism marketing.',
+                    p:'Intelligent tourism is also called intelligent tourism. It is to make use of new technologies such as cloud computing and Internet of Things,  tourism activities, tourists and so on, timely release, timely arrange and adjust work and tourism. Planning, so as to achieve the effect of intelligent perception and convenient use of all kinds of tourism information. The construction and development of intelligent tourism will ultimately be embodied in four levels: tourism experience, tourism management, tourism services and tourism marketing.',
                     
                 },{
                     id:2,
@@ -58,26 +58,28 @@ export default {
                     title:'Intelligence Education',
                     href:'#box5',
                     img_src: require('../../assets/images/gx/h_pic6.png'),
-                    p:'Intelligent education, namely educational informationization, refers to the process of comprehensively and thoroughly using modern information technology to promote educational reform and development in the field of education (education management, education and teaching, and education and scientific research). Its technical characteristics are digitalization, networking, intellectualization and multimedia. Its basic characteristics are openness, sharing, interaction, collaboration and ubiquitous. Promote the modernization of education with educational informationization and change the traditional mode with information technology.',
+                    p:'Intelligent education, namely educational informationization, refers to the process of comprehensively and thoroughly using modern information technology to promote educational reform and development in the field of education (education management, education and teaching, and education and scientific research). Its technical characteristics are digitalization, networking, intellectualization and multimedia. Promote the modernization of education with educational informationization and change the traditional mode with information technology.',
                     
                 },{
                     id:5,
                     title:'Digital Guangxi',
                     href:'#box6',
                     img_src:require('../../assets/images/wuti.png'),
-                    p:'Digital Guangxi is an important part of digital city. The Guangxi Basic Geographic Information Center is charged with the task of constructing the geospatial basic framework of "Digital Guangxi". Digital city is based on computer technology, multimedia technology and large-scale storage technology, with broadband network as the link, using remote sensing, global positioning system, geographic information system, telemetry, simulation-virtual technology, to describe the city in multi-resolution, multi-scale, multi-space-time and multi-kinds of three-dimensional, namely, convenience. By means of information technology, the whole contents of the past, present and future of the city can be realized digitally and virtually on the network.',
+                    p:'Digital Guangxi is an important part of digital city. The Guangxi Basic Geographic Information Center is charged with the task of constructing the geospatial basic framework of "Digital Guangxi". Digital city is based on computer technology, with broadband network as the link, using remote sensing, global positioning system, geographic information system, telemetry, simulation-virtual technology, to describe the city in multi-resolution, multi-scale, multi-space-time and multi-kinds of three-dimensional, namely, convenience.',
                 
                 }]
         }
     }
 }
 </script>
+
 <style>
 .left_col{
     width: 70%;
     height: 60vh;
     float: left;
-  
+    color: rgb(48, 189, 245);
+    font-family: STXingkai;
   }
   .right_col {
     width: 30%;
@@ -85,15 +87,13 @@ export default {
     float: right;
     margin-top: 5vh;
   }
-  .right_col {
-    width: 30%;
-    height: 60vh;
-    float: right;
-    margin-top: 5vh;
+  .right_col img {
+      transition: all 500ms linear;
   }
-    .right_col img {
-        transition: all 500ms linear;
-    }
+
+  .right_col img:hover {
+      transform: scale(1.1,1.1)
+  }
   .detail {
     margin: 10vh 8vw;
   }
@@ -107,8 +107,6 @@ export default {
   .detail p{
     font-size: 3vh;
     text-align: justify;
-    color:rgb(51, 135, 214);
-    font-family: STXingkai;
   }
   hr {
     margin: 3vh 0 3vh 0;
