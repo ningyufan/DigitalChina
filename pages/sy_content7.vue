@@ -5,7 +5,7 @@
         </div>
         <div class="sycon7_info" aos = "zoom-in">
              <video controls="controls" width="100%">
-                <source src="http://flv.bn.netease.com/c9cf3731d31f1ac40b49f54e212101cb9aa506137c8c4057f437b386b49b7a1a6591a5738d07b169202ba3e9d212b81804b50d3f6d436541eaadec87420a8a94eb43f077c5268302b783b25dc1f83046707fa8d5a0486915b8bf08eb9606cc805b54d68667332c657b229bb0484ce3e2856220351da8bd90.mp4" type="video/mp4">
+                <source src="../assets/video/sycon7_video.mp4" type="video/mp4">
             </video>
         </div>
     </div>
