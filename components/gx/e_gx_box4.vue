@@ -134,7 +134,7 @@ export default {
     position: absolute;
     left: 5vw;
     top: 12vh;
-    font-size: 2vh;
+    font-size: 2.5vh;
 }
 
 .gx_box4 .box4_con1 div:nth-child(2),
