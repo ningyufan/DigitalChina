@@ -13,10 +13,10 @@
                             <el-row class="row_one">
                                 <div class="ce_nav">
                                     <a href="#">
-                                        <i class="el-icon-star-on"><label>中</label></i>
+                                        <i class="el-icon-star-on"><label>中文</label></i>
                                     </a>
                                     <a href="/e_digitalcn">
-                                        <i class="el-icon-star-off"><label>英</label></i>
+                                        <i class="el-icon-star-off"><label>EN</label></i>
                                     </a>
                                 </div>
                             </el-row>
